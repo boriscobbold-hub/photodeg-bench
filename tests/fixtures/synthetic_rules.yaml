@@ -1,0 +1,42 @@
+# SYNTHETIC TEST RULES. These exist only so the test suite can exercise every code path.
+# They are NOT the benchmark's rules and contain no scientific judgment: the Mark-Houwink
+# constants below are made-up round numbers. The real rules live in rules/harmonization.yaml
+# and are written by the curator.
+version: "test"
+rules:
+  R01_canonical_mass_unit: {required: true, status: set, options: [kg/mol, g/mol], decision: kg/mol}
+  R02_primary_average: {required: true, status: set, options: [Mn_only, Mn_then_Mw, Mw_only, Mp_only], decision: Mn_then_Mw}
+  R03_calibration_policy: {required: true, status: set, options: [keep_as_reported_flag, universal_conversion, exclude_mismatched], decision: universal_conversion}
+  R04_mark_houwink_constants:
+    required: false
+    status: set
+    table:
+      - {polymer: polystyrene, eluent: THF, temperature_c: 35, K: 0.01, a: 0.7, source: synthetic}
+      - {polymer: "poly(methyl methacrylate)", eluent: THF, temperature_c: 35, K: 0.01, a: 0.7, source: synthetic}
+  R05_calibration_type_map:
+    required: true
+    status: set
+    decision:
+      conventional_PS: {matched_if_polymer: polystyrene, matched: matched_conventional, otherwise: mismatched_conventional}
+      high_temperature_SEC: matched_conventional
+      absolute_MALS: absolute
+  R06_deconstruction_metrics: {required: true, status: set, options: [retained_fraction, scissions_per_chain, percent_reduction], decision: [retained_fraction, scissions_per_chain, percent_reduction], primary: retained_fraction}
+  R07_same_basis_requirement: {required: true, status: set, options: [same_average_same_calibration, same_average_any_calibration], decision: same_average_same_calibration}
+  R08_visible_window: {required: true, status: set, lower_nm: 380, upper_nm: 780, broadband_sources: include_flagged, sunlight_or_solar_sim: exclude, uv_component_present: include_flagged}
+  R09_wavelength_bands:
+    required: true
+    status: set
+    bands:
+      - {name: band_lo, lower_nm: 380, upper_nm: 440}
+      - {name: band_hi, lower_nm: 440, upper_nm: 780}
+    color_only_reports: band_unknown
+  R10_time_unit: {required: true, status: set, options: [h, min], decision: h}
+  R11_comparability_tiers:
+    required: true
+    status: set
+    tiers:
+      - {name: T1, calibration_class_in: [absolute, matched_conventional], require: [has_primary_before_after, has_wavelength, has_time]}
+      - {name: T2, require: [has_primary_before_after]}
+  R12_product_yield_basis: {required: true, status: set, options: [keep_reported_basis, convert_to_wt_percent], decision: keep_reported_basis}
+  R13_controls_and_negatives: {required: true, status: set, options: [include_as_controls, exclude], decision: include_as_controls}
+  R14_source_license_policy: {required: true, status: set, allowed: [cc-by], unknown_license: exclude}

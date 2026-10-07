@@ -1,0 +1,165 @@
+# PhotoDeg-Bench harmonization rules. AUTHOR: Boris. Every rule here is his decision.
+#
+# How this file works
+#   - Each rule has status: unset | set. code/04_harmonize.py refuses to run while any
+#     required rule is unset, and prints which ones.
+#   - "options" lists the choices the code can execute. They are a menu, not a recommendation;
+#     pick one in "decision" (or write a new option and ask for it to be implemented).
+#   - "rationale" is published in the release docs, so write it in your own words from your
+#     SEC practice. Initial and date each rule.
+#
+# [VERIFY] Boris sets every rule below before the first harmonized build.
+
+version: "1.0"
+author: ""            # Boris's name as in AUTHORS.json
+last_reviewed: ""     # YYYY-MM-DD
+
+rules:
+
+  R01_canonical_mass_unit:
+    required: true
+    status: unset
+    question: "Which unit do harmonized molar masses use?"
+    options: [kg/mol, g/mol]
+    decision: null
+    rationale: ""
+
+  R02_primary_average:
+    required: true
+    status: unset
+    question: "Which molar-mass average is the benchmark's primary yardstick, and what is the fallback when it is not reported?"
+    options:
+      - Mn_only               # records without Mn before and after get no primary metric
+      - Mn_then_Mw            # Mn when both points have it, else Mw
+      - Mw_only
+      - Mp_only
+    decision: null
+    rationale: ""
+
+  R03_calibration_policy:
+    required: true
+    status: unset
+    question: "How are molar masses from conventional calibration against a different polymer (e.g. PS standards for PMMA) treated?"
+    options:
+      - keep_as_reported_flag   # value kept, flagged 'relative', tier reflects mismatch
+      - universal_conversion    # convert via Mark-Houwink constants in R04 (only where constants exist for that polymer+eluent+temperature)
+      - exclude_mismatched      # mismatched-standard values not given a harmonized mass
+    decision: null
+    rationale: ""
+
+  R04_mark_houwink_constants:
+    required: false           # required only if R03 = universal_conversion
+    status: unset
+    question: "Mark-Houwink K (mL/g) and a for each standard and analyte, per eluent and temperature, with source."
+    # One entry per (polymer, eluent, temperature_c). K in mL/g. Cite where each pair comes from.
+    table: []
+    #  - {polymer: polystyrene, eluent: THF, temperature_c: 35, K: null, a: null, source: ""}
+    rationale: ""
+
+  R05_calibration_type_map:
+    required: true
+    status: unset
+    question: "Which reported calibration descriptions count as absolute, matched-conventional, mismatched-conventional, or unknown?"
+    # Keys are the sec_calibration codes the extractor and curators use (see docs/CODEBOOK.md).
+    decision: {}
+    #  conventional_PS: ""        # e.g. matched when polymer is polystyrene, otherwise mismatched
+    #  conventional_PMMA: ""
+    #  conventional_PEG_PEO: ""
+    #  universal_calibration: ""
+    #  absolute_MALS: ""
+    #  triple_detection: ""
+    #  high_temperature_SEC: ""
+    #  MALDI_TOF: ""
+    #  DOSY_NMR: ""
+    #  not_reported: ""
+    rationale: ""
+
+  R06_deconstruction_metrics:
+    required: true
+    status: unset
+    question: "Which outcome metrics does the benchmark report?"
+    options:
+      - retained_fraction        # M_after / M_before (same average, same calibration)
+      - scissions_per_chain      # Mn_before / Mn_after - 1 (requires Mn at both points)
+      - percent_reduction        # 100 * (1 - M_after / M_before)
+    decision: []                 # choose one or more
+    primary: null                # the one used for ranking and figures
+    rationale: ""
+
+  R07_same_basis_requirement:
+    required: true
+    status: unset
+    question: "When may before/after values be compared?"
+    options:
+      - same_average_same_calibration   # both points same average and same SEC method
+      - same_average_any_calibration
+    decision: null
+    rationale: ""
+
+  R08_visible_window:
+    required: true
+    status: unset
+    question: "Inclusion window for 'visible light' and handling of broadband sources."
+    lower_nm: null
+    upper_nm: null
+    broadband_sources: null      # options: include_flagged | exclude
+    sunlight_or_solar_sim: null  # options: include_flagged | exclude
+    uv_component_present: null   # options: include_flagged | exclude
+    rationale: ""
+
+  R09_wavelength_bands:
+    required: true
+    status: unset
+    question: "Band edges used to label each record's light, and how colour-only reports ('blue LEDs') map to bands."
+    bands: []
+    #  - {name: violet, lower_nm: null, upper_nm: null}
+    #  - {name: blue,   lower_nm: null, upper_nm: null}
+    color_only_reports: null     # options: map_by_name | band_unknown
+    rationale: ""
+
+  R10_time_unit:
+    required: true
+    status: unset
+    options: [h, min]
+    decision: null
+    rationale: ""
+
+  R11_comparability_tiers:
+    required: true
+    status: unset
+    question: "Definition of each comparability tier, in terms of R05 calibration classes and reporting completeness."
+    # Each tier is a list of conditions, all of which must hold; first tier that matches wins.
+    # Available conditions: calibration_class_in, has_primary_before_after, has_wavelength,
+    # has_irradiance, has_time, has_catalyst, has_solvent, has_products
+    tiers: []
+    #  - name: A
+    #    calibration_class_in: []
+    #    require: []
+    rationale: ""
+
+  R12_product_yield_basis:
+    required: true
+    status: unset
+    question: "How product yields reported on different bases (mol%, wt%, per repeat unit) are stored."
+    options:
+      - keep_reported_basis      # yields kept with their basis, never converted
+      - convert_to_wt_percent    # needs repeat-unit masses; conversion documented per record
+    decision: null
+    rationale: ""
+
+  R13_controls_and_negatives:
+    required: true
+    status: unset
+    question: "Are control runs (dark, no catalyst, no O2) released as records?"
+    options: [include_as_controls, exclude]
+    decision: null
+    rationale: ""
+
+  R14_source_license_policy:
+    required: true
+    status: unset
+    question: "Which source licenses may contribute values to the released table?"
+    # Released records contain reported numbers and locators, not source text.
+    allowed: []                 # e.g. cc-by, cc-by-sa, cc0, cc-by-nc, cc-by-nc-nd, ...
+    unknown_license: null       # options: include | exclude
+    rationale: ""

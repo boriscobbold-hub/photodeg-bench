@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC TEST FIXTURE. Invented text and numbers written to exercise the extractors.
+     It describes no real experiment and must never be used as data. -->
+<article xmlns:xlink="http://www.w3.org/1999/xlink">
+  <front><article-meta>
+    <title-group><article-title>Synthetic fixture: visible-light oxidative chain scission of polystyrene</article-title></title-group>
+    <abstract><p>Under 450 nm blue LEDs and an air atmosphere, polystyrene (PS) was converted to benzoic acid in 40% yield using FeCl<sub>3</sub> as a photocatalyst in acetonitrile.</p></abstract>
+  </article-meta></front>
+  <body>
+    <sec><title>Methods</title>
+      <sec><title>Characterization</title>
+        <p>Molar masses were determined by SEC in THF at 35 °C relative to polystyrene standards. Selected samples were also measured with multi-angle light scattering (MALS).</p>
+      </sec>
+      <sec><title>Photoreaction</title>
+        <p>PS (<italic>M</italic><sub>n</sub> = 120 kg mol<sup>−1</sup>, Đ = 2.1) and 5 mol% FeCl<sub>3</sub> in MeCN (0.1 M) were irradiated with a 456 nm Kessil lamp (40 W) under O<sub>2</sub> balloon for 24 h at room temperature.</p>
+      </sec>
+    </sec>
+    <sec><title>Results</title>
+      <p>After irradiation the <italic>M</italic><sub>n</sub> decreased from 120 to 3.4 kg/mol, while M<sub>w</sub> of 250 kDa fell substantially. The dispersity changed from 2.1 to 1.6.</p>
+      <table-wrap><label>Table 1</label><caption><p>Synthetic optimisation table.</p></caption>
+        <table>
+          <thead><tr><th>Entry</th><th>Catalyst</th><th>Solvent</th><th>λ (nm)</th><th>Time (h)</th><th>M<sub>n</sub> (kg mol<sup>−1</sup>)</th><th>Đ</th><th>Yield (%)</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>FeCl3</td><td>MeCN</td><td>456</td><td>24</td><td>3.4</td><td>1.6</td><td>40</td></tr>
+            <tr><td>2</td><td>none</td><td>MeCN</td><td>456</td><td>24</td><td>118</td><td>2.1</td><td>0</td></tr>
+            <tr><td>3</td><td>FeCl3</td><td>DCM</td><td>390</td><td>8</td><td>15.2</td><td>1.9</td><td>12</td></tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </body>
+</article>

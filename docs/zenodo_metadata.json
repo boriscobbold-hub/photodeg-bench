@@ -1,0 +1,13 @@
+{
+  "_comment": "Metadata for tools/zenodo_deposit.py. Creators must match AUTHORS.json. [VERIFY] fill creators and the GitHub URL; delete this _comment key before depositing.",
+  "upload_type": "dataset",
+  "title": "PhotoDeg-Bench v1.0.0: an open, harmonized benchmark of visible-light polymer deconstruction conditions and outcomes",
+  "creators": [{"name": "[VERIFY: Surname, Given]", "orcid": "[VERIFY: 0000-0000-0000-0000]", "affiliation": "[VERIFY: affiliation]"}],
+  "description": "<p>Curated, source-linked records of visible-light photochemical polymer deconstruction experiments from the open-access literature (Europe PMC, OpenAlex): polymer, molar mass before and after, SEC calibration type, catalyst, wavelength, solvent, time and product slate. Harmonization rules written by the curator from SEC practice are published with the data, with a comparability tier per record. Every record was checked against its source by the curator.</p><p>Contents: benchmark table (CSV), codebook, harmonization rules, QA report, provenance log, code. Limitations: open-access literature only; conventional SEC values are relative unless converted or measured absolutely; light dose is not harmonized. See LIMITATIONS.md.</p>",
+  "license": "cc-by-4.0",
+  "keywords": ["polymer upcycling", "photocatalysis", "visible light", "depolymerization", "size-exclusion chromatography", "benchmark", "open data"],
+  "version": "1.0.0",
+  "language": "eng",
+  "related_identifiers": [{"identifier": "[VERIFY: https://github.com/<user>/photodeg-bench]", "relation": "isSupplementTo", "scheme": "url"}],
+  "access_right": "open"
+}

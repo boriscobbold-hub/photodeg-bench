@@ -1,0 +1,19 @@
+# secrets
+.env
+*.pem
+*token*
+
+# Full-text articles carry their own licenses; re-fetch them with code/01_fetch.py.
+# PROVENANCE.txt records each file's SHA-256 so a re-fetch can be checked.
+data/raw/fulltext/
+
+# Curation working files: contain fragments of source text, never released
+data/processed/candidates.jsonl
+data/processed/review_sheet.csv
+
+# caches
+__pycache__/
+*.pyc
+.venv/
+dist/
+release/

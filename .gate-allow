@@ -1,0 +1,3 @@
+# Paths whose code contains draft-marker strings by design; secrets are still scanned.
+tools/
+code/06_figures.py
