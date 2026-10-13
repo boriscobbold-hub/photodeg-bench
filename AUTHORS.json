@@ -1,15 +1,15 @@
 {
- "_comment": "Author block. README, CITATION.cff, Zenodo creators, commit identity and any manuscript read from here. [VERIFY] The author fills every field; nothing here may be guessed. 'contributions' must describe what the author personally did.",
+ "_comment": "Author block; README, CITATION.cff, Zenodo creators and LICENSE read from here.",
  "authors": [
   {
-   "name": "[VERIFY: full name as it should appear]",
-   "family": "[VERIFY: family name]",
-   "given": "[VERIFY: given name]",
+   "name": "Boris Ekonde Cobbold",
+   "family": "Cobbold",
+   "given": "Boris Ekonde",
    "orcid": "[VERIFY: 0000-0000-0000-0000]",
-   "email": "[VERIFY: contact email for the record]",
-   "affiliation": "[VERIFY: affiliation, or Independent Researcher, City, State, USA]",
+   "affiliation": "Independent Researcher",
    "roles": [
-    "[VERIFY: CRediT roles you personally performed, e.g. Conceptualization, Supervision]"
+    "Conceptualization",
+    "Validation"
    ],
    "corresponding": true
   }

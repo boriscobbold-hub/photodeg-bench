@@ -16,22 +16,26 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     ap = argparse.ArgumentParser()
-    for a in ("given", "family", "orcid", "email", "affiliation", "roles", "repo-url"):
+    for a in ("given", "family", "affiliation", "roles"):
         ap.add_argument(f"--{a}", required=True)
+    # Optional: left as [VERIFY] placeholders when not supplied, so release gate A1 keeps blocking.
+    ap.add_argument("--orcid", default="[VERIFY: 0000-0000-0000-0000]")
+    ap.add_argument("--email", default="")
+    ap.add_argument("--repo-url", default="[VERIFY: https://github.com/<user>/photodeg-bench]")
     a = ap.parse_args()
-    if not re.fullmatch(r"\d{4}-\d{4}-\d{4}-\d{3}[\dX]", a.orcid):
+    if not a.orcid.startswith("[VERIFY") and not re.fullmatch(r"\d{4}-\d{4}-\d{4}-\d{3}[\dX]", a.orcid):
         raise SystemExit("ORCID must look like 0000-0000-0000-0000")
     name = f"{a.given} {a.family}"
     p = ROOT / "AUTHORS.json"
     d = json.loads(p.read_text())
     d["_comment"] = "Author block; README, CITATION.cff, Zenodo creators and LICENSE read from here."
-    d["authors"] = [{"name": name, "family": a.family, "given": a.given, "orcid": a.orcid, "email": a.email,
+    d["authors"] = [{"name": name, "family": a.family, "given": a.given, "orcid": a.orcid, **({"email": a.email} if a.email else {}),
                      "affiliation": a.affiliation, "roles": [r.strip() for r in a.roles.split(";") if r.strip()], "corresponding": True}]
     p.write_text(json.dumps(d, indent=1, ensure_ascii=False))
     c = (ROOT / "CITATION.cff").read_text()
     c = c.replace('[VERIFY: family name]', a.family).replace('[VERIFY: given name]', a.given)
     c = c.replace('[VERIFY: 0000-0000-0000-0000]', a.orcid).replace('[VERIFY: https://github.com/<user>/photodeg-bench]', a.repo_url)
-    c = "\n".join(l for l in c.splitlines() if not l.startswith("doi:")) + "\n"   # added back once Zenodo mints the DOI
+    c = "\n".join(l for l in c.splitlines() if not l.startswith("doi:") or "[DOI" not in l) + "\n"   # added back once Zenodo mints the DOI
     (ROOT / "CITATION.cff").write_text(c)
     lic = (ROOT / "LICENSE").read_text().replace("[VERIFY: copyright holder name as in AUTHORS.json]", name)
     (ROOT / "LICENSE").write_text(lic)
