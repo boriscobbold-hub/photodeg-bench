@@ -31,6 +31,7 @@ def main():
     c = (ROOT / "CITATION.cff").read_text()
     c = c.replace('[VERIFY: family name]', a.family).replace('[VERIFY: given name]', a.given)
     c = c.replace('[VERIFY: 0000-0000-0000-0000]', a.orcid).replace('[VERIFY: https://github.com/<user>/photodeg-bench]', a.repo_url)
+    c = "\n".join(l for l in c.splitlines() if not l.startswith("doi:")) + "\n"   # added back once Zenodo mints the DOI
     (ROOT / "CITATION.cff").write_text(c)
     lic = (ROOT / "LICENSE").read_text().replace("[VERIFY: copyright holder name as in AUTHORS.json]", name)
     (ROOT / "LICENSE").write_text(lic)
@@ -40,7 +41,7 @@ def main():
     m["creators"] = [{"name": f"{a.family}, {a.given}", "orcid": a.orcid, "affiliation": a.affiliation}]
     m["related_identifiers"] = [{"identifier": a.repo_url, "relation": "isSupplementTo", "scheme": "url"}]
     z.write_text(json.dumps(m, indent=1, ensure_ascii=False))
-    print(f"author block set for {name}; DOI placeholder in CITATION.cff stays until the Zenodo deposit returns one")
+    print(f"author block set for {name}; CITATION.cff has no doi line until the Zenodo deposit returns one")
 
 
 if __name__ == "__main__":
