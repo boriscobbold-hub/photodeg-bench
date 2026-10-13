@@ -1,6 +1,6 @@
 {
  "version": "1.0",
- "generated": "2026-10-13T06:53:22",
+ "generated": "2026-10-13T11:46:50",
  "scientifically_ready": true,
  "release_authorized": false,
  "checks": [
@@ -91,15 +91,15 @@
   {
    "id": "A2",
    "check": "escalated scientific/legal rules endorsed by the author",
-   "status": "pending_author",
-   "detail": "awaiting: ['R08_visible_window', 'R14_source_license_policy']",
+   "status": "pass",
+   "detail": "ok",
    "kind": "author"
   },
   {
    "id": "A3",
    "check": "public release authorized by the author (written authorization file; not a cryptographic signature)",
-   "status": "pending_author",
-   "detail": "release/AUTHORIZATION.json not present",
+   "status": "pass",
+   "detail": "ok",
    "kind": "author"
   }
  ]

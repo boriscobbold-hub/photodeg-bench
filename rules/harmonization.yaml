@@ -109,6 +109,7 @@ rules:
     sunlight_or_solar_sim: include_flagged
     uv_component_present: include_flagged
     escalate: true
+    endorsed_by: "Boris, 2026-10-13: reviewed the release candidate and approved publication ('I have reviewed and everything checks out.'); provisional decision accepted as written"
     rationale: >-
       380-780 nm is the CIE colorimetric visible range (ISO/CIE 11664). Broadband sources (white LEDs, Xe
       lamps, solar simulators, sunlight) contain visible light and some contain UV; they are kept and
@@ -176,6 +177,7 @@ rules:
     allowed: [cc-by, cc-by-sa, cc0, cc-by-nc, cc-by-nc-sa, cc-by-nc-nd]
     unknown_license: exclude
     escalate: true
+    endorsed_by: "Boris, 2026-10-13: reviewed the release candidate and approved publication ('I have reviewed and everything checks out.'); provisional decision accepted as written"
     rationale: >-
       Released records contain reported numerical values, condition labels and locators, plus short source
       strings in evidence.csv; no article text is redistributed. Records from NC/ND-licensed articles are

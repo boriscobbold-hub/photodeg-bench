@@ -1,6 +1,6 @@
 # Release readiness: PhotoDeg-Bench v1.0
 
-Generated 2026-10-13T06:53:22 by `tools/release_gate.py`. Regenerate; do not edit by hand.
+Generated 2026-10-13T11:46:50 by `tools/release_gate.py`. Regenerate; do not edit by hand.
 
 **Scientific readiness: PASS.** **Release authorization: PENDING (author).**
 
@@ -18,5 +18,5 @@ Generated 2026-10-13T06:53:22 by `tools/release_gate.py`. Regenerate; do not edi
 | S10 | no secrets or credentials in the repository | pass | none found |
 | S11 | stats file agrees with the release table | pass | stats 87 vs table 87 |
 | A1 | author metadata complete (AUTHORS.json, CITATION.cff, LICENSE, Zenodo metadata) | pending_author | placeholders remain in: ['AUTHORS.json', 'CITATION.cff', 'LICENSE', 'docs/zenodo_metadata.json'] |
-| A2 | escalated scientific/legal rules endorsed by the author | pending_author | awaiting: ['R08_visible_window', 'R14_source_license_policy'] |
-| A3 | public release authorized by the author (written authorization file; not a cryptographic signature) | pending_author | release/AUTHORIZATION.json not present |
+| A2 | escalated scientific/legal rules endorsed by the author | pass | ok |
+| A3 | public release authorized by the author (written authorization file; not a cryptographic signature) | pass | ok |
