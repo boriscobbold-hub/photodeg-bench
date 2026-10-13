@@ -235,7 +235,7 @@ def main():
         w(f"    excluded {k:3s} on title/abstract                  {ta.get(k, 0)}")
     w(f"    in scope but no openly retrievable full text (E6)  {in_scope_noft}")
     w(f"  full text assessed                                 {ft_assessed}")
-    w(f"    excluded at full text: E5 {codes.get('E5', 0)}, E6 (values only in figures) {sum(1 for l in slog if l['code']=='E6' and l['stage']=='full text')}, E4 {sum(1 for l in slog if l['code']=='E4' and l['stage']=='full text')}")
+    w("    excluded at full text: " + ", ".join(f"{k} {v}" for k, v in sorted(stats["screening_codes_full_text"].items()) if k != "include"))
     w(f"  INCLUDED                                           {len(included)}")
     w(f"  share of in-scope papers lost to access            {stats['share_in_scope_lost_to_access']}")
     w("\n2. RECORDS")

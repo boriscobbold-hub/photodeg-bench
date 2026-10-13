@@ -81,7 +81,7 @@ def fig_flow(stats, out, final):
     side = [
         (0.83, 0.61, f"Excluded on title/abstract\nE1 review {c.get('E1', 0)} · E2 substrate {c.get('E2', 0)} · E3 UV-only {c.get('E3', 0)}\nE4 not photochemical {c.get('E4', 0)} · duplicates {c.get('DUP', 0)}"),
         (0.75, 0.27, f"No openly retrievable full text\n(E6, in scope) {c.get('E6', 0)}"),
-        (0.75, 0.06, f"Excluded at full text\nE5 no benchmark endpoint {cf.get('E5', 0)}\nE6 values only in figures {cf.get('E6', 0)} · E4 {cf.get('E4', 0)}"),
+        (0.75, 0.06, "Excluded at full text\n" + f"E5 no benchmark endpoint {cf.get('E5', 0)} · E6 figures only {cf.get('E6', 0)}\n" + " · ".join(f"{k} {cf[k]}" for k in sorted(cf) if k not in ("include", "E5", "E6"))),
     ]
     fig, ax = plt.subplots(figsize=(7.2, 6.4), facecolor=SURFACE)
     ax.set_axis_off()

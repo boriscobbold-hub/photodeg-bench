@@ -13,7 +13,7 @@ RESULT: PASS  (0 critical, 0 warnings)
     excluded DUP on title/abstract                  7
     in scope but no openly retrievable full text (E6)  61
   full text assessed                                 23
-    excluded at full text: E5 8, E6 (values only in figures) 3, E4 1
+    excluded at full text: E3 1, E4 1, E5 8, E6 3
   INCLUDED                                           10
   share of in-scope papers lost to access            0.726
 

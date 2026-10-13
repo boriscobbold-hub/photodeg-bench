@@ -1,6 +1,6 @@
 # Release readiness: PhotoDeg-Bench v1.0
 
-Generated 2026-10-13T06:52:31 by `tools/release_gate.py`. Regenerate; do not edit by hand.
+Generated 2026-10-13T06:53:22 by `tools/release_gate.py`. Regenerate; do not edit by hand.
 
 **Scientific readiness: PASS.** **Release authorization: PENDING (author).**
 
