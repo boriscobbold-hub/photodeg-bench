@@ -1,0 +1,437 @@
+{
+ "paper_key": "PMC10557129",
+ "paper_id": "10.1021/jacs.3c05632",
+ "doi": "10.1021/jacs.3c05632",
+ "pmcid": "PMC10557129",
+ "source_license": "cc by",
+ "extractor": "Claude (AI) extraction agent A, 2026-10-12",
+ "extraction_method": "text",
+ "screen": {
+  "decision": "include",
+  "criteria": "E1-E6 pass",
+  "confidence": "medium",
+  "rationale": "Primary study; ATRP-made poly(benzyl methacrylate) depolymerized to BzMA with FeCl2/FeCl3 under blue light; monomer yields (1H NMR) with dark controls stated in text. At 0.05 equiv catalyst, light is required (dark 5%).",
+  "evidence_loc": "body ¶5"
+ },
+ "shared": {
+  "polymer": {
+   "v": "poly(benzyl methacrylate)",
+   "loc": "body ¶4",
+   "s": "Poly(benzyl methacrylate) (PBzMA)"
+  },
+  "polymer_class": {
+   "v": "vinyl_methacrylate",
+   "inferred": "classification of the named polymer"
+  },
+  "polymer_detail": {
+   "v": "ARGET ATRP PBzMA with halogen chain end, Đ ≈ 1.15",
+   "loc": "body ¶4",
+   "s": "Đ ≈ 1.15"
+  },
+  "light_source": {
+   "v": "blue light (LED details in SI only)",
+   "loc": "body ¶4",
+   "s": "under blue light irradiation"
+  },
+  "light_color": {
+   "v": "blue",
+   "loc": "body ¶4",
+   "s": "blue light irradiation"
+  },
+  "concentration": {
+   "v": 50,
+   "loc": "body ¶9",
+   "s": "50 mM repeating unit"
+  },
+  "concentration_unit": {
+   "v": "mM (repeat units)",
+   "inferred": "printed as mM repeating unit (= 9 mg/mL polymer)"
+  },
+  "catalyst_loading_unit": {
+   "v": "equiv relative to halogen end-group",
+   "inferred": "as defined in body ¶4"
+  },
+  "time_unit": {
+   "v": "min",
+   "inferred": "unit printed with the value"
+  },
+  "products": {
+   "v": "benzyl methacrylate (BzMA)",
+   "loc": "body ¶5",
+   "s": "84% of BzMA"
+  },
+  "yield_basis": {
+   "v": "monomer regeneration (depolymerization yield) by 1H NMR",
+   "loc": "body ¶4",
+   "s": "as confirmed by 1H NMR spectroscopic analysis"
+  }
+ },
+ "records": [
+  {
+   "rid": "a",
+   "primary_loc": "body ¶4",
+   "fields": {
+    "catalyst": {
+     "v": "FeCl2",
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2 with respect to the halogen end-group"
+    },
+    "catalyst_loading": {
+     "v": 1,
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2 with respect to the halogen end-group"
+    },
+    "temperature_c": {
+     "v": 170,
+     "loc": "body ¶4",
+     "s": "blue light irradiation at 170 °C"
+    },
+    "time": {
+     "v": 5,
+     "loc": "body ¶4",
+     "s": "Within 5 min of reaction"
+    },
+    "product_yields": [
+     {
+      "product": "benzyl methacrylate",
+      "v": 90,
+      "u": "%",
+      "loc": "body ¶4",
+      "s": "almost 90% of monomer",
+      "name_loc": "body ¶5",
+      "name_s": "84% of BzMA",
+      "uncertainty": "approximate: printed as 'almost 90%'"
+     }
+    ]
+   },
+   "notes": "Yield printed as 'almost 90%'; Mn and Đ said to be unchanged (values in SI Table S4). Dark control (record b) gave 88%: heat dominates at 1 equiv/170 °C."
+  },
+  {
+   "rid": "b",
+   "primary_loc": "body ¶4",
+   "is_control": true,
+   "fields": {
+    "light_source": {
+     "v": "none (dark, heat only)",
+     "loc": "body ¶4",
+     "s": "in the absence of light irradiation (i.e., using only heat)"
+    },
+    "light_color": null,
+    "catalyst": {
+     "v": "FeCl2",
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2 with respect to the halogen end-group"
+    },
+    "catalyst_loading": {
+     "v": 1,
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2 with respect to the halogen end-group"
+    },
+    "temperature_c": {
+     "v": 170,
+     "loc": "body ¶4",
+     "s": "blue light irradiation at 170 °C"
+    },
+    "product_yields": [
+     {
+      "product": "benzyl methacrylate",
+      "v": 88,
+      "u": "%",
+      "loc": "body ¶4",
+      "s": "revealed only slightly lower yield (i.e., 88%)",
+      "name_loc": "body ¶5",
+      "name_s": "84% of BzMA"
+     }
+    ]
+   },
+   "notes": "control: dark (heat only), 1 equiv FeCl2, 170 °C; time not attached to the value in text."
+  },
+  {
+   "rid": "c",
+   "primary_loc": "body ¶4",
+   "is_control": true,
+   "fields": {
+    "light_source": {
+     "v": "none (dark, heat only)",
+     "loc": "body ¶4",
+     "s": "in the absence of light irradiation (i.e., using only heat)"
+    },
+    "light_color": null,
+    "catalyst": {
+     "v": "FeCl2",
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2 with respect to the halogen end-group"
+    },
+    "catalyst_loading": {
+     "v": 1,
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2 with respect to the halogen end-group"
+    },
+    "temperature_c": {
+     "v": 100,
+     "loc": "body ¶4",
+     "s": "at 100 °C the thermal depolymerization was significantly suppressed"
+    },
+    "product_yields": [
+     {
+      "product": "benzyl methacrylate",
+      "v": 6,
+      "u": "%",
+      "loc": "body ¶4",
+      "s": "only 6% of yield",
+      "name_loc": "body ¶5",
+      "name_s": "84% of BzMA"
+     }
+    ]
+   },
+   "notes": "control: dark (heat only), 1 equiv FeCl2, 100 °C; 'within comparable timeframes', no time stated."
+  },
+  {
+   "rid": "d",
+   "primary_loc": "body ¶4",
+   "fields": {
+    "catalyst": {
+     "v": "FeCl2",
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2 with respect to the halogen end-group"
+    },
+    "catalyst_loading": {
+     "v": 1,
+     "loc": "Figure 2 caption",
+     "s": "at 100 °C using 1 and 0.05 equiv of catalyst"
+    },
+    "temperature_c": {
+     "v": 100,
+     "loc": "Figure 2 caption",
+     "s": "Temporal control of depolymerization of PBzMA at 100 °C"
+    },
+    "time": {
+     "v": 20,
+     "loc": "body ¶4",
+     "s": "(i.e., 20 min)"
+    },
+    "product_yields": [
+     {
+      "product": "benzyl methacrylate",
+      "v": 18,
+      "u": "%",
+      "loc": "body ¶4",
+      "s": "18% of depolymerization yield",
+      "name_loc": "body ¶5",
+      "name_s": "84% of BzMA"
+     }
+    ]
+   },
+   "notes": "First light-on period of the on/off experiment (Figure 2c, Table S8); 1 equiv FeCl2 at 100 °C."
+  },
+  {
+   "rid": "e",
+   "primary_loc": "body ¶5",
+   "is_control": true,
+   "fields": {
+    "light_source": {
+     "v": "none (dark, heat only)",
+     "loc": "body ¶4",
+     "s": "in the absence of light irradiation (i.e., using only heat)"
+    },
+    "light_color": null,
+    "catalyst": {
+     "v": "FeCl2",
+     "loc": "body ¶5",
+     "s": "0.05 equiv of FeCl2"
+    },
+    "catalyst_loading": {
+     "v": 0.05,
+     "loc": "body ¶5",
+     "s": "0.05 equiv of FeCl2"
+    },
+    "temperature_c": {
+     "v": 170,
+     "loc": "body ¶5",
+     "s": "even at 170 °C"
+    },
+    "product_yields": [
+     {
+      "product": "benzyl methacrylate",
+      "v": 5,
+      "u": "%",
+      "loc": "body ¶5",
+      "s": "only 5% of yield was observed in the absence of irradiation",
+      "name_loc": "body ¶5",
+      "name_s": "84% of BzMA"
+     }
+    ]
+   },
+   "notes": "control: dark (heat only), 0.05 equiv FeCl2, 170 °C; time not stated."
+  },
+  {
+   "rid": "f",
+   "primary_loc": "body ¶5",
+   "fields": {
+    "catalyst": {
+     "v": "FeCl2",
+     "loc": "body ¶5",
+     "s": "0.05 equiv of FeCl2"
+    },
+    "catalyst_loading": {
+     "v": 0.05,
+     "loc": "body ¶5",
+     "s": "0.05 equiv of FeCl2"
+    },
+    "temperature_c": {
+     "v": 170,
+     "loc": "body ¶5",
+     "s": "photothermal depolymerization at 170 °C"
+    },
+    "product_yields": [
+     {
+      "product": "benzyl methacrylate",
+      "v": 84,
+      "u": "%",
+      "loc": "body ¶5",
+      "s": "yielded 84% of BzMA",
+      "name_loc": "body ¶5",
+      "name_s": "84% of BzMA"
+     }
+    ]
+   },
+   "notes": "Time not stated in main text."
+  },
+  {
+   "rid": "g",
+   "primary_loc": "body ¶7",
+   "fields": {
+    "catalyst": {
+     "v": "FeCl3",
+     "loc": "body ¶7",
+     "s": "FeCl3 deactivator"
+    },
+    "catalyst_loading": {
+     "v": 0.05,
+     "loc": "Figure 3 caption",
+     "s": "using 0.05 equiv of catalyst (FeCl3)"
+    },
+    "temperature_c": {
+     "v": 170,
+     "loc": "body ¶7",
+     "s": "Photothermal depolymerization of PBzMA at 170 °C"
+    },
+    "product_yields": [
+     {
+      "product": "benzyl methacrylate",
+      "v": 70,
+      "u": "%",
+      "loc": "body ¶7",
+      "s": "approximately 70% of depolymerization",
+      "name_loc": "body ¶5",
+      "name_s": "84% of BzMA",
+      "uncertainty": "approximate: printed as 'approximately 70%'"
+     }
+    ]
+   },
+   "notes": "Yield printed as 'approximately 70%'; time not stated in main text."
+  },
+  {
+   "rid": "h",
+   "primary_loc": "body ¶7",
+   "is_control": true,
+   "fields": {
+    "light_source": {
+     "v": "none (dark, heat only)",
+     "loc": "body ¶4",
+     "s": "in the absence of light irradiation (i.e., using only heat)"
+    },
+    "light_color": null,
+    "catalyst": {
+     "v": "FeCl3",
+     "loc": "body ¶7",
+     "s": "FeCl3 deactivator"
+    },
+    "catalyst_loading": {
+     "v": 0.05,
+     "loc": "Figure 3 caption",
+     "s": "using 0.05 equiv of catalyst (FeCl3)"
+    },
+    "temperature_c": {
+     "v": 170,
+     "loc": "body ¶7",
+     "s": "Photothermal depolymerization of PBzMA at 170 °C"
+    },
+    "product_yields": [
+     {
+      "product": "benzyl methacrylate",
+      "v": 5,
+      "u": "%",
+      "loc": "body ¶7",
+      "s": "only 5% of yield in the absence of irradiation",
+      "name_loc": "body ¶5",
+      "name_s": "84% of BzMA"
+     }
+    ]
+   },
+   "notes": "control: dark (heat only), 0.05 equiv FeCl3, 170 °C; time not stated."
+  }
+ ],
+ "excluded_observations": [
+  {
+   "what": "Molar mass of PBzMA before/after",
+   "why": "Text says only 'without any significant change'; values in SI Tables S2/S4 and figures.",
+   "loc": "body ¶4"
+  },
+  {
+   "what": "71% yield at 120 °C (1 equiv FeCl2)",
+   "why": "Re-read for the completeness pass: the sentence follows 'photothermal ... slightly higher yield as opposed to the exclusively thermal system, the significant extent of depolymerization observed under heat', and does not say whether 71% is the lit or the dark run. Light condition is ambiguous; time also not stated.",
+   "loc": "body ¶4"
+  },
+  {
+   "what": "31% yield, 1 equiv FeCl2, 100 °C, after 20 min light then 20 min dark",
+   "why": "Not a single condition set: the gain from 18% to 31% happened in the dark period after the light was switched off (mixed on/off protocol, Figure 2c/Table S8).",
+   "loc": "body ¶4"
+  },
+  {
+   "what": "Thermal (dark) runs, 0.05 equiv FeCl2 at 150, 120 and 100 °C",
+   "why": "Text says only that thermal depolymerization 'could be completely eliminated'. No numeric yield is printed (0% not stated explicitly), and times are not stated; values in Figure 2d.",
+   "loc": "body ¶6"
+  },
+  {
+   "what": "On/off series, 0.05 equiv FeCl2 at 100 °C ('<5% of total yield' early leakage)",
+   "why": "On/off protocol; value is a bound; data in Figure 2e/Table S9.",
+   "loc": "body ¶6"
+  },
+  {
+   "what": "FeCl3 thermal (dark) runs at 150 and 120 °C ('no monomer regeneration was observed')",
+   "why": "Qualitative statement with no numeric value printed (0% not stated explicitly); times not stated; data in Figure 3b/SI.",
+   "loc": "body ¶8"
+  },
+  {
+   "what": "170 °C, 0.05 equiv FeCl3: 30% after 20 min dark then prolonged light; '>80%' with continuous light",
+   "why": "30% comes from a mixed dark-then-light protocol whose light-period duration is not stated ('prolonged'). '>80%' is a bound, which is not recorded. Data in Figure 3c-d/Tables S13-S17.",
+   "loc": "body ¶8"
+  },
+  {
+   "what": "FeCl3 on/off at 150 and 120 °C; off periods of 20-120 min",
+   "why": "On/off protocols; values only in Figure 3e-f, Figure S10 and SI tables.",
+   "loc": "body ¶9"
+  },
+  {
+   "what": "Poly(n-butyl methacrylate) and PMMA scope",
+   "why": "Text gives only 'similar yield as in the case of PBzMA'. No numeric value; Table S18 (SI).",
+   "loc": "body ¶9"
+  },
+  {
+   "what": "Green-light depolymerization",
+   "why": "Text gives only 'slightly lower depolymerization yields'. No numeric value; Table S19 (SI).",
+   "loc": "body ¶9"
+  },
+  {
+   "what": "2 M repeat-unit concentration, 50% yield",
+   "why": "Catalyst identity and loading, temperature, light on/off and time are not attached to the value in the main text (Table S20, SI).",
+   "loc": "body ¶9"
+  },
+  {
+   "what": "Solvent, LED wavelength/power, atmosphere",
+   "why": "Not stated in main text (SI only); fields left empty.",
+   "loc": "body ¶4"
+  }
+ ]
+}

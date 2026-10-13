@@ -34,9 +34,12 @@ rules:
   R11_comparability_tiers:
     required: true
     status: set
-    tiers:
+    tiers_molar_mass:
       - {name: T1, calibration_class_in: [absolute, matched_conventional], require: [has_primary_before_after, has_wavelength, has_time]}
       - {name: T2, require: [has_primary_before_after]}
+    tiers_product_yield:
+      - {name: P1, require: [has_yield, has_time]}
   R12_product_yield_basis: {required: true, status: set, options: [keep_reported_basis, convert_to_wt_percent], decision: keep_reported_basis}
   R13_controls_and_negatives: {required: true, status: set, options: [include_as_controls, exclude], decision: include_as_controls}
   R14_source_license_policy: {required: true, status: set, allowed: [cc-by], unknown_license: exclude}
+  R15_thermal_regime: {required: true, status: set, decision: {ambient_max_c: 60, heated_max_c: 120}}

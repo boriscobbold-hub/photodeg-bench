@@ -1,0 +1,35 @@
+{
+ "paper_key": "PMC12566621",
+ "paper_id": "10.3390/nano15201579",
+ "doi": "10.3390/nano15201579",
+ "pmcid": "PMC12566621",
+ "source_license": "cc by",
+ "extractor": "Claude (AI) extraction agent D, 2026-10-12 (re-screen batch)",
+ "extraction_method": "full-text screen (no records)",
+ "screen": {
+  "decision": "exclude",
+  "criteria": "E5",
+  "confidence": "high",
+  "rationale": "Primary study; PS nanospheres with BiOI/CuWO4 films under a 300 W Xe lamp with AM 1.5G filter (passes E3), but polymer outcomes are only SEM average particle size (425 -> 350 -> 325 nm), FTIR band attenuation and solution TOC (1868 -> 1322 mg/L); no molar mass and no identified product quantified.",
+  "evidence_loc": "3. Results and Discussion ¶11"
+ },
+ "shared": {},
+ "records": [],
+ "excluded_observations": [
+  {
+   "what": "Average PS particle size vs time",
+   "why": "Particle size is not an E5 endpoint.",
+   "loc": "3. Results and Discussion ¶11"
+  },
+  {
+   "what": "TOC 1868 -> 1322 mg/L after 120 h",
+   "why": "TOC/mineralization is not an E5 endpoint.",
+   "loc": "3. Results and Discussion ¶12"
+  },
+  {
+   "what": "Methylene blue degradation",
+   "why": "Small-molecule dye, not a polymer substrate.",
+   "loc": "2. Materials and Methods > 2.4. Photocatalytic Activity Evaluation ¶1"
+  }
+ ]
+}

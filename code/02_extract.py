@@ -31,7 +31,7 @@ from common import CURATED, PROCESSED, ROOT
 from extractors import extract_all, extract_table, norm_text
 
 RECORD_COLUMNS = [
-    "record_id", "paper_id", "doi", "source_license", "locator",
+    "record_id", "paper_id", "doi", "pmcid", "source_license", "locator", "is_control",
     "polymer", "polymer_class", "polymer_detail",
     "mn_before", "mw_before", "mp_before", "disp_before", "mass_unit_before",
     "mn_after", "mw_after", "mp_after", "disp_after", "mass_unit_after",
@@ -40,8 +40,9 @@ RECORD_COLUMNS = [
     "light_source", "wavelength_nm", "wavelength_range_nm", "light_color", "irradiance", "irradiance_unit",
     "solvent", "concentration", "concentration_unit", "atmosphere", "temperature_c",
     "time", "time_unit",
-    "products", "product_yields", "yield_basis",
-    "notes", "curator", "curation_date", "checked_against_source",
+    "products", "product_yields", "yield_basis", "yield_uncertainty", "replicates",
+    "extraction_method", "extractor", "source_verified", "blind_verified", "qa_flags",
+    "notes", "curator", "curation_date",
 ]
 
 
@@ -73,7 +74,27 @@ def parse_jats(path: Path):
         for child in sec:
             if child.tag == "p":
                 p_i += 1
-                yield f"{' > '.join(here) or 'body'} ¶{p_i}", "text", _txt(child)
+                nested = [el for el in child.iter() if el.tag in ("table-wrap", "fig") and el is not child]
+                if nested:
+                    # Tables/figures embedded in a paragraph: emit them as their own blocks and keep the
+                    # paragraph text without their cells (otherwise cells run together, e.g. '67,00053,000').
+                    import copy
+                    para = copy.deepcopy(child)
+                    for el in list(para.iter()):
+                        for sub in list(el):
+                            if sub.tag in ("table-wrap", "fig"):
+                                tail = sub.tail
+                                el.remove(sub)
+                                if tail:
+                                    el.text = (el.text or "") + " " + tail
+                    yield f"{' > '.join(here) or 'body'} ¶{p_i}", "text", _txt(para)
+                    for el in nested:
+                        if el.tag == "table-wrap":
+                            yield from table(el)
+                        else:
+                            yield f"{_txt(el.find('label')) or 'Figure'} caption", "text", _txt(el.find("caption"))
+                else:
+                    yield f"{' > '.join(here) or 'body'} ¶{p_i}", "text", _txt(child)
             elif child.tag == "sec":
                 yield from walk(child, here)
             elif child.tag == "fig":
@@ -96,12 +117,29 @@ def parse_jats(path: Path):
             if thead is not None:
                 hrows = thead.findall("tr")
                 if hrows:
-                    # merge multi-row headers column-wise
-                    widths = max(len(r.findall("./*")) for r in hrows)
-                    header = [""] * widths
-                    for r in hrows:
-                        for i, c in enumerate(r.findall("./*")):
-                            header[i] = (header[i] + " " + _txt(c)).strip()
+                    # merge multi-row headers column-wise, expanding colspan/rowspan so that a spanning
+                    # cell such as 'Mn (g/mol)' over 'Before | After' labels both columns
+                    grid = {}
+                    for ri, r in enumerate(hrows):
+                        ci = 0
+                        for c in r.findall("./*"):
+                            while (ri, ci) in grid:
+                                ci += 1
+                            cs = int(c.get("colspan", 1) or 1)
+                            rs = int(c.get("rowspan", 1) or 1)
+                            for dr in range(rs):
+                                for dc in range(cs):
+                                    grid[(ri + dr, ci + dc)] = _txt(c)
+                            ci += cs
+                    width = max(k[1] for k in grid) + 1
+                    header = []
+                    for ci in range(width):
+                        parts = []
+                        for ri in range(len(hrows)):
+                            t = grid.get((ri, ci), "")
+                            if t and (not parts or parts[-1] != t):
+                                parts.append(t)
+                        header.append(" ".join(parts).strip())
             body_rows = tbl.findall("tbody/tr") or [r for r in tbl.findall(".//tr") if thead is None or r not in thead.findall("tr")]
             for r in body_rows:
                 rows.append([_txt(c) for c in r.findall("./*")])

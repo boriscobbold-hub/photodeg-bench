@@ -16,4 +16,7 @@ __pycache__/
 *.pyc
 .venv/
 dist/
-release/
+release/photodeg-bench-v*/
+release/*.zip
+release/.figures_final
+data/work/logs/

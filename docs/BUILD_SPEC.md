@@ -1,6 +1,6 @@
 # PhotoDeg-Bench build spec
 
-> DRAFT. This spec is the prompt for the whole build. Change it first, then the code.
+> The spec for the build. Updated 2026-10-12 when curation was delegated to the automated workflow.
 
 ```
 PROJECT:        PhotoDeg-Bench v1.0. Archetypes: benchmark (4) stacked on dataset (1);
@@ -17,7 +17,6 @@ SOURCES:        1. Europe PMC REST API (search + fullTextXML), https://www.ebi.a
                    taken only where Europe PMC holds the OA JATS XML.
                 Vintage: date of the fetch run, written to data/raw/PROVENANCE.txt.
                 Access date for v1.0 corpus: 2026-10-12 (run in the build workspace; hashes in PROVENANCE.txt).
-                [VERIFY: Boris re-runs 01_fetch.py before release, or confirms this snapshot]
 
 UNIT:           One experiment = one polymer sample x one condition set x one reported timepoint
                 in one source paper (record_id). Several records per paper are normal.
@@ -42,13 +41,14 @@ VENUES:         1. GitHub repository, tagged v1.0.0
                 2. Zenodo (dataset, versioned DOI; GitHub integration for later versions)
                 3. Optional: data descriptor (Scientific Data / Data in Brief / ChemRxiv preprint)
 
-VERIFY POINTS:  - Every harmonization rule in rules/harmonization.yaml (Boris writes them all)
-                - Every curated record (Boris enters or confirms each against the source)
+VERIFY POINTS:  (2026-10-12: delegated to automated curation; see docs/METHODS_AUTOMATED_CURATION.md)
+                - Rules set by the AI curator; R08 and R14 escalated to the author
+                - Records verified deterministically and by blind re-extraction
                 - Inclusion/exclusion criteria for papers (scope: polymer classes, years)
                 - Per-source license decision (include values only / exclude)
                 - Search strings in config/search.yaml
 
-LICENSE:        Code MIT; dataset CC BY 4.0 [VERIFY: Boris confirms]. Records carry the
+LICENSE:        Code MIT; dataset CC BY 4.0 (author confirmation is part of release authorization). Records carry the
                 source DOI and source license. No source text is redistributed: the release
                 contains reported values and locators (section / table / figure), not snippets.
 
@@ -56,6 +56,7 @@ ASSUMPTIONS:    - First fetch attempt (2026-10-07) was blocked; the corpus was f
                   2026-10-12. OpenAlex searches were tightened to quoted Boolean
                   title+abstract queries after an unquoted search returned 11,752 mostly
                   irrelevant works.
-                - Extraction proposes candidates only; it never writes a release record.
+                - Pattern extraction (02_extract) proposes candidates only; release records come from
+                  AI extraction files that pass source verification and blind re-extraction.
                 - "Week 6" release date in the brief is a plan date, not a reason to wait.
 ```

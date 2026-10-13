@@ -1,45 +1,81 @@
 PhotoDeg-Bench QA report  v1.0  built 2026-10-12
-========================================================================
+==============================================================================
 
-1. FLOW (papers)
-  corpus (unique, both sources)        691
-    from Europe PMC / OpenAlex          277 / 445
-  passed auto-screen + year scope       602
-  with OA JATS full text                267
-  curator: included / excluded / open   0 / 0 / 602
-  included papers with >=1 record       0
+RESULT: PASS  (0 critical, 0 warnings)
 
-2. FLOW (records)
-  curated records                       0
-  in benchmark table                    0  (from 0 papers)
+1. SCREENING FLOW (papers)
+  corpus (unique; Europe PMC 277, OpenAlex 445)  691
+  passed automatic screen and year floor            602
+    excluded E1 (title/abstract or full text)          111
+    excluded E2 (title/abstract or full text)          332
+    excluded E3 (title/abstract or full text)          24
+    excluded E4 (title/abstract or full text)          64
+    in scope but no openly retrievable full text (E6)  54
+  full text assessed                                 18
+    excluded at full text: E5 4, E6 (values only in figures) 3, E4 1
+  INCLUDED                                           10
+  share of in-scope papers lost to access            0.75
 
-3. COMPOSITION
-  by_polymer_class
-  by_calibration_class
-  by_wavelength_band
-  by_tier
+2. RECORDS
+  extracted 87, released 87, rejected 0; controls 20
+  observations seen but not recorded (with reasons)  109
 
-4. COMPLETENESS (benchmark records with a value)
-  primary_before               0 / 0
-  primary_after                0 / 0
-  sec_calibration              0 / 0
-  catalyst                     0 / 0
-  wavelength_nm                0 / 0
-  wavelength_band              0 / 0
-  irradiance                   0 / 0
-  solvent                      0 / 0
-  time_h                       0 / 0
-  products                     0 / 0
-  product_yields               0 / 0
+3. VERIFICATION
+  deterministic source check: 1800 fields -> {'matched': 1411, 'inferred': 389}
+  independent blind re-extraction (field level): {'agree': 1248, 'disagree': 183, 'blind_null': 99, 'blind_missing': 36}
+  adjudications logged: 43; unresolved: 0
+  (agreement between AI passes is not treated as verification; every value is anchored by the source check)
 
-5. RANGE CHECKS
-  retained fraction: n=0 min=None median=None max=None
-  records where molar mass rose (retained > 1): 0 []
+4. COMPOSITION
+  by_polymer: {'polystyrene': 48, 'polypinacol': 12, 'poly(benzyl methacrylate)': 8, 'poly(ethylene terephthalate)': 7, 'poly(methyl methacrylate)': 6, 'polypropylene': 3, 'poly(styrene-co-acrylonitrile)': 1, 'poly(acrylonitrile-co-butadiene-co-styrene)': 1, 'poly(methyl methacrylate-co-glycidyl methacrylate)': 1}
+  by_calibration_class: {'not_applicable': 58, 'unknown': 17, 'mismatched_conventional': 8, 'matched_conventional': 4}
+  by_wavelength_band: {'blue': 48, 'violet': 26, 'dark': 9, 'broadband': 2, 'unknown': 2}
+  by_thermal_regime: {'not_reported': 44, 'ambient': 24, 'high_temperature': 16, 'heated': 3}
+  by_tier_molar_mass: {'missing': 58, 'MM-B': 20, 'MM-C': 6, 'MM-A': 3}
+  by_tier_product_yield: {'PY-A': 47, 'PY-B': 15, 'PY-C': 13, 'missing': 12}
+  source licenses: {'cc by': 40, 'cc by-nc': 31, 'cc by-nc-nd': 16}
+  records by publication year: {'2022': 20, '2023': 8, '2024': 9, '2025': 41, '2026': 9}
 
-6. SPOT CHECKS for the curator (re-check each against the source by hand)
-  random (seed 20261007): -
-  lowest retained fraction:  -
-  highest retained fraction: -
-  mass increased:            -
+5. COMPLETENESS (released records with a value)
+  primary_before         29 / 87
+  primary_after          29 / 87
+  sec_calibration        17 / 87
+  catalyst               87 / 87
+  catalyst_loading       57 / 87
+  wavelength_nm          61 / 87
+  light_color            76 / 87
+  irradiance             37 / 87
+  solvent                75 / 87
+  concentration          38 / 87
+  atmosphere             64 / 87
+  temperature_c          43 / 87
+  time_h                 71 / 87
+  product_yields         75 / 87
+  yield_basis            77 / 87
+  replicates              7 / 87
+  yield_uncertainty       6 / 87
 
-(stats written to paper/stats.json)
+6. RANGE, OUTLIER AND CONSISTENCY CHECKS
+  duplicates: 0; range issues: 0; IQR outliers: 1; controls showing deconstruction: 7
+   - PDG-PMC9586668-b: retained_fraction 1
+   - PDG-PMC10557129-b: control shows deconstruction (retained None, yields benzyl methacrylate: 88 %): control: dark (heat only), 1 equiv FeCl2, 170 °C; time not attached to the value in text.
+   - PDG-PMC10793207-b: control shows deconstruction (retained 0.0400468, yields benzoic acid: 6 %): control: no photocatalyst (HCl only)
+   - PDG-PMC10793207-c: control shows deconstruction (retained 0.161593, yields benzoic acid: 0 %): control: argon instead of O2; chain cleavage without BA formation
+   - PDG-PMC10793207-e: control shows deconstruction (retained None, yields benzoic acid: 20 %): control: no acid additive. Mn after '<0.30' kDa not recorded.
+   - PDG-PMC11796324-f: control shows deconstruction (retained 0.117475, yields benzoic acid: 0 %; acetophenone: 0 %): control: no O2 (printed 'Inert'; gas not named) [adjudicated yield_basis: both partly] [ad
+   - PDG-PMC12464638-f: control shows deconstruction (retained None, yields M5 (original bis-aldehyde monomer): 61 %): control: no TBACl additive
+   - PDG-PMC12464638-h: control shows deconstruction (retained None, yields M5 (original bis-aldehyde monomer): 48 %): control: no molecular sieves
+
+7. QA FLAGS (travel with each record)
+  approximate_value              35
+  standard_conditions_applied    33
+  heated_ge_80C                  19
+  thermal_contribution           15
+  sec_estimate                   13
+  bimodal_sec                    2
+
+8. SPOT CHECKS
+  random (seed 20261012): PDG-PMC12464638-g, PDG-PMC10557129-b, PDG-PMC10557129-g, PDG-PMC10557129-a, PDG-PMC10557129-f
+  risk-weighted (flagged, outliers, active controls): 69 records, all independently re-extracted: yes
+
+exceptions: data/processed/exceptions.csv; numbers: paper/stats.json

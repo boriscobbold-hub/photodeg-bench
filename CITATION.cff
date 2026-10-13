@@ -12,10 +12,12 @@ license: CC-BY-4.0
 repository-code: "[VERIFY: https://github.com/<user>/photodeg-bench]"
 doi: "[DOI: added after the Zenodo deposit]"
 abstract: >-
-  Curated, source-linked records of visible-light photochemical polymer deconstruction
+  Source-verified records of visible-light photochemical polymer deconstruction
   experiments from the open-access literature: polymer, molar mass before and after,
-  SEC calibration type, catalyst, wavelength, solvent, time and product slate, with
-  published harmonization rules and comparability tiers.
+  SEC calibration, catalyst, wavelength, solvent, time and product yields, with
+  harmonization rules and comparability tiers. Curated by an AI system under the
+  author's delegation, with deterministic source verification and independent
+  blind re-extraction.
 keywords:
   - polymer upcycling
   - photocatalysis

@@ -1,0 +1,14 @@
+# Model configuration for code/curation/llm_runner.py (AI stages on an unattended runner).
+# The key is read from the environment variable named below; never put a key in this file.
+api_key_env: ANTHROPIC_API_KEY
+base_url: https://api.anthropic.com
+model_extraction: claude-opus-5-5     # Agent C (extraction) and full-text screening
+model_verification: claude-sonnet-5-5 # Agent D (blind re-extraction): a different model than extraction where possible
+max_tokens: 16000
+max_repair_rounds: 3          # extraction is re-prompted with verifier errors at most this many times
+min_seconds_between_calls: 2
+max_retries: 4
+# USD per million tokens, for the cost log only. Fill from current published pricing before relying on totals (null = cost not estimated).
+price_per_mtok:
+  claude-opus-5-5: {input: null, output: null}
+  claude-sonnet-5-5: {input: null, output: null}

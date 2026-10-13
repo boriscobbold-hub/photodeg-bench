@@ -36,6 +36,22 @@ def headers(token):
             "X-GitHub-Api-Version": "2022-11-28", "User-Agent": "open-project-build"}
 
 
+def _require_authorization(sandbox=False):
+    """PhotoDeg-Bench: public releases need the author's signed authorization and a passing readiness gate."""
+    import json as _j
+    import subprocess as _sp
+    import sys as _sys
+    from pathlib import Path as _P
+    root = _P(__file__).resolve().parents[1]
+    if sandbox:
+        return
+    if not (root / "release/AUTHORIZATION.json").exists():
+        _sys.exit("refused: release/AUTHORIZATION.json (the author's authorization) is missing")
+    r = _sp.run([_sys.executable, str(root / "tools/release_gate.py"), "--mode", "publish"], cwd=root)
+    if r.returncode != 0:
+        _sys.exit("refused: tools/release_gate.py --mode publish did not pass")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("project_dir")
@@ -47,6 +63,8 @@ def main():
     ap.add_argument("--dry-run", action="store_true", help="show what would happen; no network writes")
     ap.add_argument("--skip-gate", action="store_true", help="only for planning-directory pushes; never for publications")
     a = ap.parse_args()
+    if not a.dry_run:
+        _require_authorization()
 
     root = os.path.abspath(a.project_dir)
     if not a.skip_gate:

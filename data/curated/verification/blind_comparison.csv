@@ -1,0 +1,1567 @@
+pmcid,rid,field,extracted,blind,status
+PMC10557129,a,polymer,poly(benzyl methacrylate),poly(benzyl methacrylate),agree
+PMC10557129,a,polymer_detail,"ARGET ATRP PBzMA with halogen chain end, Đ ≈ 1.15","ARGET ATRP-synthesized PBzMA, halogen end-group, Đ ≈ 1.15",disagree
+PMC10557129,a,light_source,blue light (LED details in SI only),blue light,agree
+PMC10557129,a,concentration,50,50,agree
+PMC10557129,a,concentration_unit,mM (repeat units),mM,agree
+PMC10557129,a,catalyst_loading_unit,equiv relative to halogen end-group,equiv,agree
+PMC10557129,a,time_unit,min,min,agree
+PMC10557129,a,products,benzyl methacrylate (BzMA),['benzyl methacrylate'],agree
+PMC10557129,a,yield_basis,monomer regeneration (depolymerization yield) by 1H NMR,"monomer regenerated, determined by 1H NMR (depolymerization yield)",disagree
+PMC10557129,a,catalyst,FeCl2,FeCl2,agree
+PMC10557129,a,catalyst_loading,1,1,agree
+PMC10557129,a,temperature_c,170,170,agree
+PMC10557129,a,time,5,5,agree
+PMC10557129,a,yield:benzyl methacrylate,90,90,agree
+PMC10557129,b,polymer,poly(benzyl methacrylate),poly(benzyl methacrylate),agree
+PMC10557129,b,polymer_detail,"ARGET ATRP PBzMA with halogen chain end, Đ ≈ 1.15","ARGET ATRP-synthesized PBzMA, halogen end-group, Đ ≈ 1.15",disagree
+PMC10557129,b,light_source,"none (dark, heat only)",dark (thermal only),disagree
+PMC10557129,b,concentration,50,50,agree
+PMC10557129,b,concentration_unit,mM (repeat units),mM,agree
+PMC10557129,b,catalyst_loading_unit,equiv relative to halogen end-group,equiv,agree
+PMC10557129,b,time_unit,min,min,agree
+PMC10557129,b,products,benzyl methacrylate (BzMA),['benzyl methacrylate'],agree
+PMC10557129,b,yield_basis,monomer regeneration (depolymerization yield) by 1H NMR,"monomer regenerated, determined by 1H NMR (depolymerization yield)",disagree
+PMC10557129,b,catalyst,FeCl2,FeCl2,agree
+PMC10557129,b,catalyst_loading,1,1,agree
+PMC10557129,b,temperature_c,170,170,agree
+PMC10557129,b,yield:benzyl methacrylate,88,88,agree
+PMC10557129,c,polymer,poly(benzyl methacrylate),poly(benzyl methacrylate),agree
+PMC10557129,c,polymer_detail,"ARGET ATRP PBzMA with halogen chain end, Đ ≈ 1.15","ARGET ATRP-synthesized PBzMA, halogen end-group, Đ ≈ 1.15",disagree
+PMC10557129,c,light_source,"none (dark, heat only)",dark (thermal only),disagree
+PMC10557129,c,concentration,50,50,agree
+PMC10557129,c,concentration_unit,mM (repeat units),mM,agree
+PMC10557129,c,catalyst_loading_unit,equiv relative to halogen end-group,equiv,agree
+PMC10557129,c,time_unit,min,min,agree
+PMC10557129,c,products,benzyl methacrylate (BzMA),['benzyl methacrylate'],agree
+PMC10557129,c,yield_basis,monomer regeneration (depolymerization yield) by 1H NMR,"monomer regenerated, determined by 1H NMR (depolymerization yield)",disagree
+PMC10557129,c,catalyst,FeCl2,FeCl2,agree
+PMC10557129,c,catalyst_loading,1,1,agree
+PMC10557129,c,temperature_c,100,100,agree
+PMC10557129,c,yield:benzyl methacrylate,6,6,agree
+PMC10557129,d,polymer,poly(benzyl methacrylate),poly(benzyl methacrylate),agree
+PMC10557129,d,polymer_detail,"ARGET ATRP PBzMA with halogen chain end, Đ ≈ 1.15","ARGET ATRP-synthesized PBzMA, halogen end-group, Đ ≈ 1.15",disagree
+PMC10557129,d,light_source,blue light (LED details in SI only),blue light,agree
+PMC10557129,d,concentration,50,50,agree
+PMC10557129,d,concentration_unit,mM (repeat units),mM,agree
+PMC10557129,d,catalyst_loading_unit,equiv relative to halogen end-group,equiv,agree
+PMC10557129,d,time_unit,min,min,agree
+PMC10557129,d,products,benzyl methacrylate (BzMA),['benzyl methacrylate'],agree
+PMC10557129,d,yield_basis,monomer regeneration (depolymerization yield) by 1H NMR,"monomer regenerated, determined by 1H NMR (depolymerization yield)",disagree
+PMC10557129,d,catalyst,FeCl2,FeCl2,agree
+PMC10557129,d,catalyst_loading,1,1,agree
+PMC10557129,d,temperature_c,100,100,agree
+PMC10557129,d,time,20,20,agree
+PMC10557129,d,yield:benzyl methacrylate,18,18,agree
+PMC10557129,e,polymer,poly(benzyl methacrylate),poly(benzyl methacrylate),agree
+PMC10557129,e,polymer_detail,"ARGET ATRP PBzMA with halogen chain end, Đ ≈ 1.15","ARGET ATRP-synthesized PBzMA, halogen end-group, Đ ≈ 1.15",disagree
+PMC10557129,e,light_source,"none (dark, heat only)",dark (thermal only),disagree
+PMC10557129,e,concentration,50,50,agree
+PMC10557129,e,concentration_unit,mM (repeat units),mM,agree
+PMC10557129,e,catalyst_loading_unit,equiv relative to halogen end-group,equiv,agree
+PMC10557129,e,time_unit,min,min,agree
+PMC10557129,e,products,benzyl methacrylate (BzMA),['benzyl methacrylate'],agree
+PMC10557129,e,yield_basis,monomer regeneration (depolymerization yield) by 1H NMR,"monomer regenerated, determined by 1H NMR (depolymerization yield)",disagree
+PMC10557129,e,catalyst,FeCl2,FeCl2,agree
+PMC10557129,e,catalyst_loading,0.05,0.05,agree
+PMC10557129,e,temperature_c,170,170,agree
+PMC10557129,e,yield:benzyl methacrylate,5,5,agree
+PMC10557129,f,polymer,poly(benzyl methacrylate),poly(benzyl methacrylate),agree
+PMC10557129,f,polymer_detail,"ARGET ATRP PBzMA with halogen chain end, Đ ≈ 1.15","ARGET ATRP-synthesized PBzMA, halogen end-group, Đ ≈ 1.15",disagree
+PMC10557129,f,light_source,blue light (LED details in SI only),blue light,agree
+PMC10557129,f,concentration,50,50,agree
+PMC10557129,f,concentration_unit,mM (repeat units),mM,agree
+PMC10557129,f,catalyst_loading_unit,equiv relative to halogen end-group,equiv,agree
+PMC10557129,f,time_unit,min,min,agree
+PMC10557129,f,products,benzyl methacrylate (BzMA),['benzyl methacrylate'],agree
+PMC10557129,f,yield_basis,monomer regeneration (depolymerization yield) by 1H NMR,"monomer regenerated, determined by 1H NMR (depolymerization yield)",disagree
+PMC10557129,f,catalyst,FeCl2,FeCl2,agree
+PMC10557129,f,catalyst_loading,0.05,0.05,agree
+PMC10557129,f,temperature_c,170,170,agree
+PMC10557129,f,yield:benzyl methacrylate,84,84,agree
+PMC10557129,g,polymer,poly(benzyl methacrylate),poly(benzyl methacrylate),agree
+PMC10557129,g,polymer_detail,"ARGET ATRP PBzMA with halogen chain end, Đ ≈ 1.15","ARGET ATRP-synthesized PBzMA, halogen end-group, Đ ≈ 1.15",disagree
+PMC10557129,g,light_source,blue light (LED details in SI only),blue light,agree
+PMC10557129,g,concentration,50,50,agree
+PMC10557129,g,concentration_unit,mM (repeat units),mM,agree
+PMC10557129,g,catalyst_loading_unit,equiv relative to halogen end-group,equiv,agree
+PMC10557129,g,time_unit,min,min,agree
+PMC10557129,g,products,benzyl methacrylate (BzMA),['benzyl methacrylate'],agree
+PMC10557129,g,yield_basis,monomer regeneration (depolymerization yield) by 1H NMR,"monomer regenerated, determined by 1H NMR (depolymerization yield)",disagree
+PMC10557129,g,catalyst,FeCl3,FeCl3,agree
+PMC10557129,g,catalyst_loading,0.05,0.05,agree
+PMC10557129,g,temperature_c,170,170,agree
+PMC10557129,g,yield:benzyl methacrylate,70,70,agree
+PMC10557129,h,polymer,poly(benzyl methacrylate),poly(benzyl methacrylate),agree
+PMC10557129,h,polymer_detail,"ARGET ATRP PBzMA with halogen chain end, Đ ≈ 1.15","ARGET ATRP-synthesized PBzMA, halogen end-group, Đ ≈ 1.15",disagree
+PMC10557129,h,light_source,"none (dark, heat only)",dark (thermal only),disagree
+PMC10557129,h,concentration,50,50,agree
+PMC10557129,h,concentration_unit,mM (repeat units),mM,agree
+PMC10557129,h,catalyst_loading_unit,equiv relative to halogen end-group,equiv,agree
+PMC10557129,h,time_unit,min,min,agree
+PMC10557129,h,products,benzyl methacrylate (BzMA),['benzyl methacrylate'],agree
+PMC10557129,h,yield_basis,monomer regeneration (depolymerization yield) by 1H NMR,"monomer regenerated, determined by 1H NMR (depolymerization yield)",disagree
+PMC10557129,h,catalyst,FeCl3,FeCl3,agree
+PMC10557129,h,catalyst_loading,0.05,0.05,agree
+PMC10557129,h,temperature_c,170,170,agree
+PMC10557129,h,yield:benzyl methacrylate,5,5,agree
+PMC10793207,a,polymer,polystyrene,polystyrene,agree
+PMC10793207,a,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC","commercial PS resin, Mn 42.7 kDa (GPC)",disagree
+PMC10793207,a,catalyst,Ph-Acr-Ph (9-phenyl-N-phenyl acridinium salt),Ph-Acr-Ph,agree
+PMC10793207,a,catalyst_loading_unit,mol%,mol%,agree
+PMC10793207,a,light_source,390 nm LED,390 nm LED,agree
+PMC10793207,a,wavelength_nm,390,390,agree
+PMC10793207,a,atmosphere,O2,O2,agree
+PMC10793207,a,solvent,DCE/MeCN 6:1 (v/v),DCE/MeCN 6 : 1 (v/v),agree
+PMC10793207,a,temperature_c,35,35,agree
+PMC10793207,a,time,24,24,agree
+PMC10793207,a,time_unit,h,h,agree
+PMC10793207,a,sec_eluent,THF,THF,agree
+PMC10793207,a,sec_calibration,conventional_PS,conventional_PS,agree
+PMC10793207,a,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",disagree
+PMC10793207,a,products,benzoic acid,"['benzoic acid', 'formic acid']",agree
+PMC10793207,a,catalyst_loading,10.0,10,agree
+PMC10793207,a,cocatalyst_additives,"HCl (aq), 10 mol%",HCl 10 mol%,disagree
+PMC10793207,a,yield:benzoic acid,33,33,agree
+PMC10793207,b,polymer,polystyrene,polystyrene,agree
+PMC10793207,b,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC","commercial PS resin, Mn 42.7 kDa (GPC)",disagree
+PMC10793207,b,catalyst,none,,blind_null
+PMC10793207,b,catalyst_loading_unit,mol%,,blind_null
+PMC10793207,b,light_source,390 nm LED,390 nm LED,agree
+PMC10793207,b,wavelength_nm,390,390,agree
+PMC10793207,b,atmosphere,O2,O2,agree
+PMC10793207,b,solvent,DCE/MeCN 6:1 (v/v),DCE/MeCN 6 : 1 (v/v),agree
+PMC10793207,b,temperature_c,35,35,agree
+PMC10793207,b,time,24,24,agree
+PMC10793207,b,time_unit,h,h,agree
+PMC10793207,b,sec_eluent,THF,THF,agree
+PMC10793207,b,sec_calibration,conventional_PS,conventional_PS,agree
+PMC10793207,b,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",disagree
+PMC10793207,b,products,benzoic acid,"['benzoic acid', 'formic acid']",agree
+PMC10793207,b,cocatalyst_additives,"HCl, 10 mol%",HCl 10 mol%,agree
+PMC10793207,b,mn_before,42.7,42.7,agree
+PMC10793207,b,mn_after,1.71,1.71,agree
+PMC10793207,b,mass_unit_before,kDa,kDa,agree
+PMC10793207,b,mass_unit_after,kDa,kDa,agree
+PMC10793207,b,yield:benzoic acid,6,6,agree
+PMC10793207,c,polymer,polystyrene,polystyrene,agree
+PMC10793207,c,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC","commercial PS resin, Mn 42.7 kDa (GPC)",disagree
+PMC10793207,c,catalyst,Ph-Acr-Ph (9-phenyl-N-phenyl acridinium salt),Ph-Acr-Ph,agree
+PMC10793207,c,catalyst_loading_unit,mol%,mol%,agree
+PMC10793207,c,light_source,390 nm LED,390 nm LED,agree
+PMC10793207,c,wavelength_nm,390,390,agree
+PMC10793207,c,atmosphere,Ar,Ar,agree
+PMC10793207,c,solvent,DCE/MeCN 6:1 (v/v),DCE/MeCN 6 : 1 (v/v),agree
+PMC10793207,c,temperature_c,35,35,agree
+PMC10793207,c,time,24,24,agree
+PMC10793207,c,time_unit,h,h,agree
+PMC10793207,c,sec_eluent,THF,THF,agree
+PMC10793207,c,sec_calibration,conventional_PS,conventional_PS,agree
+PMC10793207,c,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",disagree
+PMC10793207,c,products,benzoic acid,"['benzoic acid', 'formic acid']",agree
+PMC10793207,c,catalyst_loading,10.0,10,agree
+PMC10793207,c,cocatalyst_additives,"HCl, 10 mol%",HCl 10 mol%,agree
+PMC10793207,c,mn_before,42.7,42.7,agree
+PMC10793207,c,mn_after,6.9,6.9,agree
+PMC10793207,c,mass_unit_before,kDa,kDa,agree
+PMC10793207,c,mass_unit_after,kDa,kDa,agree
+PMC10793207,c,yield:benzoic acid,0,0,agree
+PMC10793207,d,polymer,polystyrene,polystyrene,agree
+PMC10793207,d,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC","commercial PS resin, Mn 42.7 kDa (GPC)",disagree
+PMC10793207,d,catalyst,Ph-Acr-Ph (9-phenyl-N-phenyl acridinium salt),Ph-Acr-Ph,agree
+PMC10793207,d,catalyst_loading_unit,mol%,mol%,agree
+PMC10793207,d,light_source,none (dark),none (dark),agree
+PMC10793207,d,atmosphere,O2,O2,agree
+PMC10793207,d,solvent,DCE/MeCN 6:1 (v/v),DCE/MeCN 6 : 1 (v/v),agree
+PMC10793207,d,temperature_c,35,35,agree
+PMC10793207,d,time,24,24,agree
+PMC10793207,d,time_unit,h,h,agree
+PMC10793207,d,sec_eluent,THF,THF,agree
+PMC10793207,d,sec_calibration,conventional_PS,conventional_PS,agree
+PMC10793207,d,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",disagree
+PMC10793207,d,products,benzoic acid,"['benzoic acid', 'formic acid']",agree
+PMC10793207,d,catalyst_loading,10.0,10,agree
+PMC10793207,d,cocatalyst_additives,"HCl, 10 mol%",HCl 10 mol%,agree
+PMC10793207,d,mn_before,42.7,42.7,agree
+PMC10793207,d,mn_after,42.3,42.3,agree
+PMC10793207,d,mass_unit_before,kDa,kDa,agree
+PMC10793207,d,mass_unit_after,kDa,kDa,agree
+PMC10793207,d,yield:benzoic acid,0,0,agree
+PMC10793207,e,polymer,polystyrene,polystyrene,agree
+PMC10793207,e,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC","commercial PS resin, Mn 42.7 kDa (GPC)",disagree
+PMC10793207,e,catalyst,Ph-Acr-Ph (9-phenyl-N-phenyl acridinium salt),Ph-Acr-Ph,agree
+PMC10793207,e,catalyst_loading_unit,mol%,mol%,agree
+PMC10793207,e,light_source,390 nm LED,390 nm LED,agree
+PMC10793207,e,wavelength_nm,390,390,agree
+PMC10793207,e,atmosphere,O2,O2,agree
+PMC10793207,e,solvent,DCE/MeCN 6:1 (v/v),DCE/MeCN 6 : 1 (v/v),agree
+PMC10793207,e,temperature_c,35,35,agree
+PMC10793207,e,time,24,24,agree
+PMC10793207,e,time_unit,h,h,agree
+PMC10793207,e,sec_eluent,THF,THF,agree
+PMC10793207,e,sec_calibration,conventional_PS,conventional_PS,agree
+PMC10793207,e,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",disagree
+PMC10793207,e,products,benzoic acid,"['benzoic acid', 'formic acid']",agree
+PMC10793207,e,catalyst_loading,10.0,10,agree
+PMC10793207,e,cocatalyst_additives,none (no acid),,blind_null
+PMC10793207,e,yield:benzoic acid,20,20,agree
+PMC10793207,f,polymer,polystyrene,polystyrene,agree
+PMC10793207,f,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC","commercial PS resin, Mn 42.7 kDa (GPC)",disagree
+PMC10793207,f,catalyst,Ph-Acr-Ph (9-phenyl-N-phenyl acridinium salt),Ph-Acr-Ph,agree
+PMC10793207,f,catalyst_loading_unit,mol%,mol%,agree
+PMC10793207,f,light_source,390 nm LED,390 nm LED,agree
+PMC10793207,f,wavelength_nm,390,390,agree
+PMC10793207,f,atmosphere,O2,O2,agree
+PMC10793207,f,solvent,DCE/MeCN 6:1 (v/v),DCE/MeCN 6 : 1 (v/v),agree
+PMC10793207,f,temperature_c,35,35,agree
+PMC10793207,f,time,24,24,agree
+PMC10793207,f,time_unit,h,h,agree
+PMC10793207,f,sec_eluent,THF,THF,agree
+PMC10793207,f,sec_calibration,conventional_PS,conventional_PS,agree
+PMC10793207,f,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",disagree
+PMC10793207,f,products,benzoic acid,"['benzoic acid', 'formic acid']",agree
+PMC10793207,f,catalyst_loading,5.0,5,agree
+PMC10793207,f,cocatalyst_additives,"HCl, 200 mol%",HCl 200 mol%,agree
+PMC10793207,f,yield:benzoic acid,46,46,agree
+PMC10793207,g,polymer,polystyrene,polystyrene,agree
+PMC10793207,g,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC","commercial PS resin, Mn 42.7 kDa (GPC)",disagree
+PMC10793207,g,catalyst,Ph-Acr-Ph (9-phenyl-N-phenyl acridinium salt),Ph-Acr-Ph,agree
+PMC10793207,g,catalyst_loading_unit,mol%,mol%,agree
+PMC10793207,g,light_source,390 nm LED,390 nm LED,agree
+PMC10793207,g,wavelength_nm,390,390,agree
+PMC10793207,g,atmosphere,O2,O2,agree
+PMC10793207,g,solvent,DCE/MeCN 6:1 (v/v),DCE/MeCN 6 : 1 (v/v),agree
+PMC10793207,g,temperature_c,35,35,agree
+PMC10793207,g,time,24,24,agree
+PMC10793207,g,time_unit,h,h,agree
+PMC10793207,g,sec_eluent,THF,THF,agree
+PMC10793207,g,sec_calibration,conventional_PS,conventional_PS,agree
+PMC10793207,g,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",disagree
+PMC10793207,g,products,benzoic acid,"['benzoic acid', 'formic acid']",agree
+PMC10793207,g,catalyst_loading,5.0,5,agree
+PMC10793207,g,cocatalyst_additives,"HCl, 500 mol%",HCl 500 mol%,agree
+PMC10793207,g,yield:benzoic acid,50,50,agree
+PMC10793207,h,polymer,polystyrene,polystyrene,agree
+PMC10793207,h,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC","commercial PS resin, Mn 42.7 kDa (GPC)",disagree
+PMC10793207,h,catalyst,Ph-Acr-Ph (9-phenyl-N-phenyl acridinium salt),Ph-Acr-Ph,agree
+PMC10793207,h,catalyst_loading_unit,mol%,mol%,agree
+PMC10793207,h,light_source,390 nm LED,390 nm LED,agree
+PMC10793207,h,wavelength_nm,390,390,agree
+PMC10793207,h,atmosphere,O2,O2,agree
+PMC10793207,h,solvent,DCE/MeCN 6:1 (v/v),DCE/MeCN 6 : 1 (v/v),agree
+PMC10793207,h,temperature_c,35,35,agree
+PMC10793207,h,time,24,24,agree
+PMC10793207,h,time_unit,h,h,agree
+PMC10793207,h,sec_eluent,THF,THF,agree
+PMC10793207,h,sec_calibration,conventional_PS,conventional_PS,agree
+PMC10793207,h,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",disagree
+PMC10793207,h,products,benzoic acid,"['benzoic acid', 'formic acid']",agree
+PMC10793207,h,catalyst_loading,5.0,5,agree
+PMC10793207,h,cocatalyst_additives,"HBr, 200 mol%",HBr 200 mol%,agree
+PMC10793207,h,mn_before,42.7,42.7,agree
+PMC10793207,h,mn_after,5.56,5.56,agree
+PMC10793207,h,mass_unit_before,kDa,kDa,agree
+PMC10793207,h,mass_unit_after,kDa,kDa,agree
+PMC10793207,h,yield:benzoic acid,7,7,agree
+PMC10793207,i,polymer,polystyrene,polystyrene,agree
+PMC10793207,i,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC","commercial PS resin, Mn 42.7 kDa (GPC)",disagree
+PMC10793207,i,catalyst,Ph-Acr-Ph (9-phenyl-N-phenyl acridinium salt),Ph-Acr-Ph,agree
+PMC10793207,i,catalyst_loading_unit,mol%,mol%,agree
+PMC10793207,i,light_source,440 nm irradiation,440 nm LED (assumed LED as in standard conditions),disagree
+PMC10793207,i,wavelength_nm,440,440,agree
+PMC10793207,i,atmosphere,O2,O2,agree
+PMC10793207,i,solvent,DCE/MeCN 6:1 (v/v),DCE/MeCN 6 : 1 (v/v),agree
+PMC10793207,i,temperature_c,35,35,agree
+PMC10793207,i,time,24,24,agree
+PMC10793207,i,time_unit,h,h,agree
+PMC10793207,i,sec_eluent,THF,THF,agree
+PMC10793207,i,sec_calibration,conventional_PS,conventional_PS,agree
+PMC10793207,i,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",disagree
+PMC10793207,i,products,benzoic acid,"['benzoic acid', 'formic acid']",agree
+PMC10793207,i,catalyst_loading,5.0,5,agree
+PMC10793207,i,cocatalyst_additives,"HCl, 200 mol%",HCl 200 mol%,agree
+PMC10793207,i,yield:benzoic acid,43,43,agree
+PMC11796324,a,polymer,polystyrene,polystyrene,agree
+PMC11796324,a,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),9-mesityl-10-methylacridinium perchlorate (MA),agree
+PMC11796324,a,catalyst_loading_unit,mol%,mol%,agree
+PMC11796324,a,light_source,"456 nm LED (50 W), optical bench",456 nm LED (50 W),agree
+PMC11796324,a,wavelength_nm,456,456,agree
+PMC11796324,a,irradiance,50,,blind_null
+PMC11796324,a,irradiance_unit,W (electrical LED power),,blind_null
+PMC11796324,a,solvent,EtOAc/MeCN 10:1,EtOAc/MeCN 10 : 1,agree
+PMC11796324,a,concentration,0.303,0.303,agree
+PMC11796324,a,concentration_unit,M (repeat units),M,agree
+PMC11796324,a,atmosphere,O2,O2,agree
+PMC11796324,a,time_unit,h,h,agree
+PMC11796324,a,sec_eluent,THF,THF,agree
+PMC11796324,a,sec_calibration,not_reported,not_reported,agree
+PMC11796324,a,mass_unit_before,g/mol,g/mol,agree
+PMC11796324,a,mass_unit_after,g/mol,g/mol,agree
+PMC11796324,a,yield_basis,1H NMR (per mmol styrene repeat units),1H NMR yield,disagree
+PMC11796324,a,products,benzoic acid; acetophenone,"['benzoic acid', 'acetophenone', 'formic acid']",agree
+PMC11796324,a,mn_before,99000.0,99000,agree
+PMC11796324,a,disp_before,1.98,1.98,agree
+PMC11796324,a,mn_after,213.0,213,agree
+PMC11796324,a,disp_after,3.1,3.1,agree
+PMC11796324,a,time,24,24,agree
+PMC11796324,a,catalyst_loading,2.0,2,agree
+PMC11796324,a,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98","commercial PS, Mn 99 000 g/mol, Đ 1.98",disagree
+PMC11796324,a,yield:benzoic acid,18.2,18.2,agree
+PMC11796324,a,yield:acetophenone,2.1,2.1,agree
+PMC11796324,b,polymer,polystyrene,polystyrene,agree
+PMC11796324,b,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),9-mesityl-10-methylacridinium perchlorate (MA),agree
+PMC11796324,b,catalyst_loading_unit,mol%,mol%,agree
+PMC11796324,b,light_source,"456 nm LED (50 W), optical bench",456 nm LED (50 W),agree
+PMC11796324,b,wavelength_nm,456,456,agree
+PMC11796324,b,irradiance,50,,blind_null
+PMC11796324,b,irradiance_unit,W (electrical LED power),,blind_null
+PMC11796324,b,solvent,EtOAc,EtOAc,agree
+PMC11796324,b,concentration,0.303,0.303,agree
+PMC11796324,b,concentration_unit,M (repeat units),M,agree
+PMC11796324,b,atmosphere,O2,O2,agree
+PMC11796324,b,time_unit,h,h,agree
+PMC11796324,b,sec_eluent,THF,THF,agree
+PMC11796324,b,sec_calibration,not_reported,not_reported,agree
+PMC11796324,b,mass_unit_before,g/mol,g/mol,agree
+PMC11796324,b,mass_unit_after,g/mol,g/mol,agree
+PMC11796324,b,yield_basis,1H NMR (per mmol styrene repeat units),1H NMR yield,disagree
+PMC11796324,b,products,benzoic acid; acetophenone,"['benzoic acid', 'acetophenone', 'formic acid']",agree
+PMC11796324,b,mn_before,99000.0,99000,agree
+PMC11796324,b,disp_before,1.98,1.98,agree
+PMC11796324,b,mn_after,260.0,260,agree
+PMC11796324,b,disp_after,3.24,3.24,agree
+PMC11796324,b,time,48,48,agree
+PMC11796324,b,catalyst_loading,2.0,2,agree
+PMC11796324,b,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98","commercial PS, Mn 99 000 g/mol, Đ 1.98",disagree
+PMC11796324,b,yield:benzoic acid,20.5,20.5,agree
+PMC11796324,b,yield:acetophenone,3.1,3.1,agree
+PMC11796324,c,polymer,polystyrene,polystyrene,agree
+PMC11796324,c,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),9-mesityl-10-methylacridinium perchlorate (MA),agree
+PMC11796324,c,catalyst_loading_unit,mol%,mol%,agree
+PMC11796324,c,light_source,"456 nm LED (50 W), optical bench",456 nm LED (50 W),agree
+PMC11796324,c,wavelength_nm,456,456,agree
+PMC11796324,c,irradiance,50,,blind_null
+PMC11796324,c,irradiance_unit,W (electrical LED power),,blind_null
+PMC11796324,c,solvent,EtOAc/MeCN 10:1,EtOAc/MeCN 10 : 1,agree
+PMC11796324,c,concentration,0.303,0.303,agree
+PMC11796324,c,concentration_unit,M (repeat units),M,agree
+PMC11796324,c,atmosphere,O2,O2,agree
+PMC11796324,c,time_unit,h,h,agree
+PMC11796324,c,sec_eluent,THF,THF,agree
+PMC11796324,c,sec_calibration,not_reported,not_reported,agree
+PMC11796324,c,mass_unit_before,g/mol,g/mol,agree
+PMC11796324,c,mass_unit_after,g/mol,g/mol,agree
+PMC11796324,c,yield_basis,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,disagree
+PMC11796324,c,products,benzoic acid; acetophenone,"['benzoic acid', 'acetophenone', 'formic acid']",agree
+PMC11796324,c,mn_before,99000.0,99000,agree
+PMC11796324,c,disp_before,1.98,1.98,agree
+PMC11796324,c,mn_after,2090.0,2090,agree
+PMC11796324,c,disp_after,1.77,1.77,agree
+PMC11796324,c,time,15,15,agree
+PMC11796324,c,catalyst_loading,2.0,2,agree
+PMC11796324,c,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98","commercial PS, Mn 99 000 g/mol, Đ 1.98",disagree
+PMC11796324,c,yield:benzoic acid,7.3,7.3,agree
+PMC11796324,c,yield:acetophenone,1.9,1.9,agree
+PMC11796324,d,polymer,polystyrene,polystyrene,agree
+PMC11796324,d,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),9-mesityl-10-methylacridinium perchlorate (MA),agree
+PMC11796324,d,catalyst_loading_unit,mol%,mol%,agree
+PMC11796324,d,light_source,"456 nm LED (50 W), optical bench",456 nm LED (50 W),agree
+PMC11796324,d,wavelength_nm,456,456,agree
+PMC11796324,d,irradiance,50,,blind_null
+PMC11796324,d,irradiance_unit,W (electrical LED power),,blind_null
+PMC11796324,d,solvent,EtOAc/MeCN 10:1,EtOAc/MeCN 10 : 1,agree
+PMC11796324,d,concentration,0.303,0.303,agree
+PMC11796324,d,concentration_unit,M (repeat units),M,agree
+PMC11796324,d,atmosphere,O2,O2,agree
+PMC11796324,d,time_unit,h,h,agree
+PMC11796324,d,sec_eluent,THF,THF,agree
+PMC11796324,d,sec_calibration,not_reported,not_reported,agree
+PMC11796324,d,mass_unit_before,g/mol,g/mol,agree
+PMC11796324,d,mass_unit_after,g/mol,g/mol,agree
+PMC11796324,d,yield_basis,1H NMR (per mmol styrene repeat units),1H NMR yield,disagree
+PMC11796324,d,products,benzoic acid; acetophenone,"['benzoic acid', 'acetophenone', 'formic acid']",agree
+PMC11796324,d,mn_before,99000.0,99000,agree
+PMC11796324,d,disp_before,1.98,1.98,agree
+PMC11796324,d,mn_after,185.0,185,agree
+PMC11796324,d,disp_after,2.65,2.65,agree
+PMC11796324,d,time,24,24,agree
+PMC11796324,d,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98","commercial PS, Mn 99 000 g/mol, Đ 1.98",disagree
+PMC11796324,d,yield:benzoic acid,25.0,25,agree
+PMC11796324,d,yield:acetophenone,1.5,1.5,agree
+PMC11796324,e,polymer,polystyrene,polystyrene,agree
+PMC11796324,e,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),9-mesityl-10-methylacridinium perchlorate (MA),agree
+PMC11796324,e,catalyst_loading_unit,mol%,mol%,agree
+PMC11796324,e,light_source,"456 nm LED (50 W), optical bench",456 nm LED (50 W),agree
+PMC11796324,e,wavelength_nm,456,456,agree
+PMC11796324,e,irradiance,50,,blind_null
+PMC11796324,e,irradiance_unit,W (electrical LED power),,blind_null
+PMC11796324,e,solvent,EtOAc/MeCN 10:1,EtOAc/MeCN 10 : 1,agree
+PMC11796324,e,concentration,0.303,0.303,agree
+PMC11796324,e,concentration_unit,M (repeat units),M,agree
+PMC11796324,e,atmosphere,air,air,agree
+PMC11796324,e,time_unit,h,h,agree
+PMC11796324,e,sec_eluent,THF,THF,agree
+PMC11796324,e,sec_calibration,not_reported,not_reported,agree
+PMC11796324,e,mass_unit_before,g/mol,g/mol,agree
+PMC11796324,e,mass_unit_after,g/mol,g/mol,agree
+PMC11796324,e,yield_basis,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,disagree
+PMC11796324,e,products,benzoic acid; acetophenone,"['benzoic acid', 'acetophenone', 'formic acid']",agree
+PMC11796324,e,mn_before,99000.0,99000,agree
+PMC11796324,e,disp_before,1.98,1.98,agree
+PMC11796324,e,mn_after,528.0,528,agree
+PMC11796324,e,disp_after,5.1,5.1,agree
+PMC11796324,e,time,24,24,agree
+PMC11796324,e,catalyst_loading,2.0,2,agree
+PMC11796324,e,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98","commercial PS, Mn 99 000 g/mol, Đ 1.98",disagree
+PMC11796324,e,yield:benzoic acid,2.1,2.1,agree
+PMC11796324,e,yield:acetophenone,0.7,0.7,agree
+PMC11796324,f,polymer,polystyrene,polystyrene,agree
+PMC11796324,f,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),9-mesityl-10-methylacridinium perchlorate (MA),agree
+PMC11796324,f,catalyst_loading_unit,mol%,mol%,agree
+PMC11796324,f,light_source,"456 nm LED (50 W), optical bench",456 nm LED (50 W),agree
+PMC11796324,f,wavelength_nm,456,456,agree
+PMC11796324,f,irradiance,50,,blind_null
+PMC11796324,f,irradiance_unit,W (electrical LED power),,blind_null
+PMC11796324,f,solvent,EtOAc/MeCN 10:1,EtOAc/MeCN 10 : 1,agree
+PMC11796324,f,concentration,0.303,0.303,agree
+PMC11796324,f,concentration_unit,M (repeat units),M,agree
+PMC11796324,f,atmosphere,inert (gas not named),Inert,agree
+PMC11796324,f,time_unit,h,h,agree
+PMC11796324,f,sec_eluent,THF,THF,agree
+PMC11796324,f,sec_calibration,not_reported,not_reported,agree
+PMC11796324,f,mass_unit_before,g/mol,g/mol,agree
+PMC11796324,f,mass_unit_after,g/mol,g/mol,agree
+PMC11796324,f,yield_basis,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,disagree
+PMC11796324,f,products,benzoic acid; acetophenone,"['benzoic acid', 'acetophenone', 'formic acid']",agree
+PMC11796324,f,mn_before,99000.0,99000,agree
+PMC11796324,f,disp_before,1.98,1.98,agree
+PMC11796324,f,mn_after,11630.0,11630,agree
+PMC11796324,f,disp_after,4.85,4.85,agree
+PMC11796324,f,time,24,24,agree
+PMC11796324,f,catalyst_loading,2.0,2,agree
+PMC11796324,f,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98","commercial PS, Mn 99 000 g/mol, Đ 1.98",disagree
+PMC11796324,f,yield:benzoic acid,0.0,0,agree
+PMC11796324,f,yield:acetophenone,0.0,0,agree
+PMC11796324,g,polymer,polystyrene,polystyrene,agree
+PMC11796324,g,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),9-mesityl-10-methylacridinium perchlorate (MA),agree
+PMC11796324,g,catalyst_loading_unit,mol%,mol%,agree
+PMC11796324,g,light_source,none (dark),none (dark),agree
+PMC11796324,g,solvent,EtOAc/MeCN 10:1,EtOAc/MeCN 10 : 1,agree
+PMC11796324,g,concentration,0.303,0.303,agree
+PMC11796324,g,concentration_unit,M (repeat units),M,agree
+PMC11796324,g,atmosphere,O2,O2,agree
+PMC11796324,g,time_unit,h,h,agree
+PMC11796324,g,sec_eluent,THF,THF,agree
+PMC11796324,g,sec_calibration,not_reported,not_reported,agree
+PMC11796324,g,mass_unit_before,g/mol,g/mol,agree
+PMC11796324,g,mass_unit_after,g/mol,g/mol,agree
+PMC11796324,g,yield_basis,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,disagree
+PMC11796324,g,products,benzoic acid; acetophenone,"['benzoic acid', 'acetophenone', 'formic acid']",agree
+PMC11796324,g,mn_before,99000.0,99000,agree
+PMC11796324,g,disp_before,1.98,1.98,agree
+PMC11796324,g,mn_after,80840.0,80840,agree
+PMC11796324,g,disp_after,2.41,2.41,agree
+PMC11796324,g,time,64,64,agree
+PMC11796324,g,catalyst_loading,2.0,2,agree
+PMC11796324,g,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98","commercial PS, Mn 99 000 g/mol, Đ 1.98",disagree
+PMC11796324,g,yield:benzoic acid,0.0,0,agree
+PMC11796324,g,yield:acetophenone,0.0,0,agree
+PMC11796324,h,polymer,polystyrene,polystyrene,agree
+PMC11796324,h,catalyst,none (0 mol% MA),,blind_null
+PMC11796324,h,catalyst_loading_unit,mol%,,blind_null
+PMC11796324,h,light_source,"456 nm LED (50 W), optical bench",456 nm LED (50 W),agree
+PMC11796324,h,wavelength_nm,456,456,agree
+PMC11796324,h,irradiance,50,,blind_null
+PMC11796324,h,irradiance_unit,W (electrical LED power),,blind_null
+PMC11796324,h,solvent,EtOAc/MeCN 10:1,EtOAc/MeCN 10 : 1,agree
+PMC11796324,h,concentration,0.303,0.303,agree
+PMC11796324,h,concentration_unit,M (repeat units),M,agree
+PMC11796324,h,atmosphere,O2,O2,agree
+PMC11796324,h,time_unit,h,h,agree
+PMC11796324,h,sec_eluent,THF,THF,agree
+PMC11796324,h,sec_calibration,not_reported,not_reported,agree
+PMC11796324,h,mass_unit_before,g/mol,g/mol,agree
+PMC11796324,h,mass_unit_after,g/mol,g/mol,agree
+PMC11796324,h,yield_basis,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,disagree
+PMC11796324,h,products,benzoic acid; acetophenone,"['benzoic acid', 'acetophenone', 'formic acid']",agree
+PMC11796324,h,mn_before,99000.0,99000,agree
+PMC11796324,h,disp_before,1.98,1.98,agree
+PMC11796324,h,mn_after,93980.0,93980,agree
+PMC11796324,h,disp_after,2.09,2.09,agree
+PMC11796324,h,time,24,24,agree
+PMC11796324,h,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98","commercial PS, Mn 99 000 g/mol, Đ 1.98",disagree
+PMC11796324,h,yield:benzoic acid,0.0,0,agree
+PMC11796324,h,yield:acetophenone,0.0,0,agree
+PMC11796324,i,polymer,polystyrene,polystyrene,agree
+PMC11796324,i,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),9-mesityl-10-methylacridinium perchlorate (MA),agree
+PMC11796324,i,catalyst_loading_unit,mol%,mol%,agree
+PMC11796324,i,light_source,"456 nm LED (50 W), optical bench",456 nm LED (50 W),agree
+PMC11796324,i,wavelength_nm,456,456,agree
+PMC11796324,i,irradiance,50,,blind_null
+PMC11796324,i,irradiance_unit,W (electrical LED power),,blind_null
+PMC11796324,i,solvent,EtOAc/MeCN 10:1,EtOAc/MeCN 10 : 1,agree
+PMC11796324,i,concentration,0.303,0.303,agree
+PMC11796324,i,concentration_unit,M (repeat units),M,agree
+PMC11796324,i,atmosphere,O2,O2,agree
+PMC11796324,i,time_unit,h,h,agree
+PMC11796324,i,sec_eluent,THF,THF,agree
+PMC11796324,i,sec_calibration,not_reported,not_reported,agree
+PMC11796324,i,mass_unit_before,g/mol,g/mol,agree
+PMC11796324,i,mass_unit_after,g/mol,g/mol,agree
+PMC11796324,i,yield_basis,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,disagree
+PMC11796324,i,products,benzoic acid; acetophenone,"['benzoic acid', 'acetophenone', 'formic acid']",agree
+PMC11796324,i,mn_before,126300.0,126300,agree
+PMC11796324,i,disp_before,1.69,1.69,agree
+PMC11796324,i,mn_after,240.0,240,agree
+PMC11796324,i,disp_after,4.0,4.0,agree
+PMC11796324,i,time,24,24,agree
+PMC11796324,i,polymer_detail,"expanded PS (EPS) waste, Mn 126 300, Đ 1.69","expanded PS (EPS), Mn 126 300 g/mol, Đ 1.69",disagree
+PMC11796324,i,yield:benzoic acid,15.0,15,agree
+PMC11796324,i,yield:acetophenone,3.0,3,agree
+PMC11796324,j,polymer,polystyrene,polystyrene,agree
+PMC11796324,j,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),9-mesityl-10-methylacridinium perchlorate (MA),agree
+PMC11796324,j,catalyst_loading_unit,mol%,mol%,agree
+PMC11796324,j,light_source,"456 nm LED (50 W), optical bench",456 nm LED (50 W),agree
+PMC11796324,j,wavelength_nm,456,456,agree
+PMC11796324,j,irradiance,50,,blind_null
+PMC11796324,j,irradiance_unit,W (electrical LED power),,blind_null
+PMC11796324,j,solvent,EtOAc/MeCN 10:1,EtOAc/MeCN 10 : 1,agree
+PMC11796324,j,concentration,0.303,0.303,agree
+PMC11796324,j,concentration_unit,M (repeat units),M,agree
+PMC11796324,j,atmosphere,O2,O2,agree
+PMC11796324,j,time_unit,h,h,agree
+PMC11796324,j,sec_eluent,THF,THF,agree
+PMC11796324,j,sec_calibration,not_reported,not_reported,agree
+PMC11796324,j,mass_unit_before,g/mol,g/mol,agree
+PMC11796324,j,mass_unit_after,g/mol,g/mol,agree
+PMC11796324,j,yield_basis,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,disagree
+PMC11796324,j,products,benzoic acid; acetophenone,"['benzoic acid', 'acetophenone', 'formic acid']",agree
+PMC11796324,j,mn_before,1700.0,1700,agree
+PMC11796324,j,disp_before,1.07,1.07,agree
+PMC11796324,j,mn_after,120.0,120,agree
+PMC11796324,j,disp_after,1.95,1.95,agree
+PMC11796324,j,time,50,50,agree
+PMC11796324,j,catalyst_loading,10.0,10,agree
+PMC11796324,j,polymer_detail,"anionic PS, Mn 1 700, Đ 1.07","anionic PS, Mn 1 700 g/mol, Đ 1.07",disagree
+PMC11796324,j,yield:benzoic acid,38.7,38.7,agree
+PMC11796324,j,yield:acetophenone,1.0,1,agree
+PMC11796324,k,polymer,polystyrene,polystyrene,agree
+PMC11796324,k,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),9-mesityl-10-methylacridinium perchlorate (MA),agree
+PMC11796324,k,catalyst_loading_unit,mol%,mol%,agree
+PMC11796324,k,light_source,"456 nm LED (50 W), optical bench",456 nm LED (50 W),agree
+PMC11796324,k,wavelength_nm,456,456,agree
+PMC11796324,k,irradiance,50,,blind_null
+PMC11796324,k,irradiance_unit,W (electrical LED power),,blind_null
+PMC11796324,k,solvent,EtOAc/MeCN 10:1,EtOAc/MeCN 10 : 1,agree
+PMC11796324,k,concentration,0.303,0.303,agree
+PMC11796324,k,concentration_unit,M (repeat units),M,agree
+PMC11796324,k,atmosphere,O2,O2,agree
+PMC11796324,k,time_unit,h,h,agree
+PMC11796324,k,sec_eluent,THF,THF,agree
+PMC11796324,k,sec_calibration,not_reported,not_reported,agree
+PMC11796324,k,mass_unit_before,g/mol,g/mol,agree
+PMC11796324,k,mass_unit_after,g/mol,g/mol,agree
+PMC11796324,k,yield_basis,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,disagree
+PMC11796324,k,products,benzoic acid; acetophenone,"['benzoic acid', 'acetophenone', 'formic acid']",agree
+PMC11796324,k,mn_before,1700.0,1700,agree
+PMC11796324,k,disp_before,1.07,1.07,agree
+PMC11796324,k,mn_after,300.0,300,agree
+PMC11796324,k,disp_after,3.12,3.12,agree
+PMC11796324,k,time,15,15,agree
+PMC11796324,k,catalyst_loading,2.0,2,agree
+PMC11796324,k,polymer_detail,"anionic PS (living anionic polymerization), Mn 1 700, Đ 1.07","anionic PS, Mn 1 700 g/mol, Đ 1.07",disagree
+PMC11796324,k,yield:benzoic acid,10.6,10.6,agree
+PMC11796324,k,yield:acetophenone,1.9,1.9,agree
+PMC11796324,l,polymer,polystyrene,polystyrene,agree
+PMC11796324,l,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),9-mesityl-10-methylacridinium perchlorate (MA),agree
+PMC11796324,l,catalyst_loading_unit,mol%,mol%,agree
+PMC11796324,l,light_source,"456 nm LED (50 W), optical bench",456 nm LED (50 W),agree
+PMC11796324,l,wavelength_nm,456,456,agree
+PMC11796324,l,irradiance,50,,blind_null
+PMC11796324,l,irradiance_unit,W (electrical LED power),,blind_null
+PMC11796324,l,solvent,EtOAc/MeCN 10:1,EtOAc/MeCN 10 : 1,agree
+PMC11796324,l,concentration,0.303,0.303,agree
+PMC11796324,l,concentration_unit,M (repeat units),M,agree
+PMC11796324,l,atmosphere,O2,O2,agree
+PMC11796324,l,time_unit,h,h,agree
+PMC11796324,l,sec_eluent,THF,THF,agree
+PMC11796324,l,sec_calibration,not_reported,not_reported,agree
+PMC11796324,l,mass_unit_before,g/mol,g/mol,agree
+PMC11796324,l,mass_unit_after,g/mol,g/mol,agree
+PMC11796324,l,yield_basis,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,disagree
+PMC11796324,l,products,benzoic acid; acetophenone,"['benzoic acid', 'acetophenone', 'formic acid']",agree
+PMC11796324,l,mn_before,135400.0,135400,agree
+PMC11796324,l,disp_before,1.06,1.06,agree
+PMC11796324,l,mn_after,662.0,662,agree
+PMC11796324,l,disp_after,3.43,3.43,agree
+PMC11796324,l,time,15,15,agree
+PMC11796324,l,catalyst_loading,2.0,2,agree
+PMC11796324,l,polymer_detail,"anionic PS (living anionic polymerization), Mn 135 400, Đ 1.06","anionic PS, Mn 135 400 g/mol, Đ 1.06",disagree
+PMC11796324,l,yield:benzoic acid,6.6,6.6,agree
+PMC11796324,l,yield:acetophenone,1.6,1.6,agree
+PMC11796324,m,polymer,polystyrene,polystyrene,agree
+PMC11796324,m,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),9-mesityl-10-methylacridinium perchlorate (MA),agree
+PMC11796324,m,catalyst_loading_unit,mol%,mol%,agree
+PMC11796324,m,light_source,Q-sun solar simulator,Q-sun solar simulator,agree
+PMC11796324,m,solvent,EtOAc/MeCN 10:1,EtOAc/MeCN 10 : 1,agree
+PMC11796324,m,concentration,0.303,0.303,agree
+PMC11796324,m,concentration_unit,M (repeat units),M,agree
+PMC11796324,m,atmosphere,O2,O2,agree
+PMC11796324,m,time_unit,h,h,agree
+PMC11796324,m,sec_eluent,THF,THF,agree
+PMC11796324,m,sec_calibration,not_reported,not_reported,agree
+PMC11796324,m,mass_unit_before,g/mol,g/mol,agree
+PMC11796324,m,mass_unit_after,g/mol,g/mol,agree
+PMC11796324,m,yield_basis,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,disagree
+PMC11796324,m,products,benzoic acid; acetophenone,"['benzoic acid', 'acetophenone', 'formic acid']",agree
+PMC11796324,m,mn_before,99000.0,99000,agree
+PMC11796324,m,disp_before,1.98,1.98,agree
+PMC11796324,m,mn_after,450.0,450,agree
+PMC11796324,m,disp_after,6.05,6.05,agree
+PMC11796324,m,time,44,44,agree
+PMC11796324,m,catalyst_loading,1.0,1,agree
+PMC11796324,m,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98","commercial PS, Mn 99 000 g/mol, Đ 1.98",disagree
+PMC11796324,m,yield:benzoic acid,9.8,9.8,agree
+PMC11796324,m,yield:acetophenone,2.9,2.9,agree
+PMC12056016,a,catalyst,PTH-3CN (phenothiazine derivative; precatalyst),PTH-3CN,agree
+PMC12056016,a,catalyst_loading_unit,mol%,mol%,agree
+PMC12056016,a,light_source,50 W 405 nm LED,405 nm LED,agree
+PMC12056016,a,wavelength_nm,405,405,agree
+PMC12056016,a,irradiance,0.4,0.4,agree
+PMC12056016,a,irradiance_unit,W/cm2,W/cm2,agree
+PMC12056016,a,solvent,chlorobenzene/acetonitrile,chlorobenzene/acetonitrile (0.50 mL PhCl; MeCN 0.50 mL overall),agree
+PMC12056016,a,atmosphere,air,air,agree
+PMC12056016,a,time_unit,h,h,agree
+PMC12056016,a,polymer,polystyrene,polystyrene,agree
+PMC12056016,a,polymer_detail,"PS1, commercial PS, Mw = 350 kDa, Đ = 2.06; 0.10 g","PS1, 0.10 g (PS1: Mw = 350 kDa, Đ = 2.06)",disagree
+PMC12056016,a,catalyst_loading,0.05,0.05,agree
+PMC12056016,a,time,20,20,agree
+PMC12056016,a,products,benzoic acid; formic acid,"['benzoic acid', 'formic acid']",agree
+PMC12056016,a,yield_basis,benzoic acid: isolated yield; formic acid: NMR yield (per styrene repeat unit),isolated (BA); NMR (formic acid),disagree
+PMC12056016,a,yield:benzoic acid,50,50,agree
+PMC12056016,a,yield:formic acid,27,27,agree
+PMC12056016,b,catalyst,PTH-3CN pre-irradiated 8 h without PS under standard conditions (decomposed to triarylamine species),PTH-3CN (pre-irradiated 8 h without PS),disagree
+PMC12056016,b,catalyst_loading_unit,mol%,mol%,agree
+PMC12056016,b,light_source,50 W 405 nm LED,405 nm LED,agree
+PMC12056016,b,wavelength_nm,405,405,agree
+PMC12056016,b,irradiance,0.4,0.4,agree
+PMC12056016,b,irradiance_unit,W/cm2,W/cm2,agree
+PMC12056016,b,solvent,chlorobenzene/acetonitrile,chlorobenzene/acetonitrile,agree
+PMC12056016,b,atmosphere,air,air,agree
+PMC12056016,b,time_unit,h,h,agree
+PMC12056016,b,polymer,polystyrene,polystyrene,agree
+PMC12056016,b,polymer_detail,"PS1 (0.10 g), added in situ to pre-irradiated catalyst solution","PS1, 0.10 g, added in situ after 8 h catalyst pre-irradiation",disagree
+PMC12056016,b,catalyst_loading,0.05,0.05,agree
+PMC12056016,b,time,12,12,agree
+PMC12056016,b,products,benzoic acid,['benzoic acid'],agree
+PMC12056016,b,yield_basis,not stated (yield of BA),,blind_null
+PMC12056016,b,yield:benzoic acid,42,42,agree
+PMC12056016,c,catalyst,phenothiazine (PTH),phenothiazine (PTH),agree
+PMC12056016,c,light_source,390 nm LED,390 nm LED,agree
+PMC12056016,c,wavelength_nm,390,390,agree
+PMC12056016,c,atmosphere,O2,O2,agree
+PMC12056016,c,time_unit,h,,blind_null
+PMC12056016,c,polymer,polystyrene,polystyrene,agree
+PMC12056016,c,polymer_detail,"PS1 (ca. 50 mg), Mw = 350 kDa, Đ = 2.06","PS1 (ca. 50 mg, Mw = 350 kDa, Đ = 2.06)",disagree
+PMC12056016,c,products,benzoic acid; acetophenone,"['benzoic acid', 'acetophenone']",agree
+PMC12056016,c,yield_basis,HPLC yield,HPLC,agree
+PMC12056016,c,yield:benzoic acid,44,44,agree
+PMC12056016,c,yield:acetophenone,1.1,1.1,agree
+PMC12056016,d,catalyst,PTH-3CN (phenothiazine derivative; precatalyst),PTH-3CN,agree
+PMC12056016,d,catalyst_loading_unit,ppm,ppm,agree
+PMC12056016,d,time_unit,h,,blind_null
+PMC12056016,d,polymer,poly(methyl methacrylate),poly(methyl methacrylate),agree
+PMC12056016,d,polymer_detail,"PMMA1, post-consumer test tube rack, Mw = 696 kDa, Đ = 3.11","PMMA1, test tube rack (Mw = 696 kDa, Đ = 3.11)",disagree
+PMC12056016,d,catalyst_loading,500,500,agree
+PMC12056016,d,mw_before,696,696,agree
+PMC12056016,d,disp_before,3.11,3.11,agree
+PMC12056016,d,mw_after,2,2,agree
+PMC12056016,d,mass_unit_before,kDa,kDa,agree
+PMC12056016,d,mass_unit_after,kDa,kDa,agree
+PMC12056016,d,sec_calibration,not_reported,not_reported,agree
+PMC12056016,e,catalyst,PTH-3CN (phenothiazine derivative; precatalyst),PTH-3CN,agree
+PMC12056016,e,catalyst_loading_unit,ppm,ppm,agree
+PMC12056016,e,time_unit,h,,blind_null
+PMC12056016,e,polymer,poly(methyl methacrylate),poly(methyl methacrylate),agree
+PMC12056016,e,polymer_detail,"PMMA2, commercial, Mw = 97.7 kDa, Đ = 1.69","PMMA2, commercially available (Mw = 97.7 kDa, Đ = 1.69)",disagree
+PMC12056016,e,catalyst_loading,500,500,agree
+PMC12056016,e,mw_before,97.7,97.7,agree
+PMC12056016,e,disp_before,1.69,1.69,agree
+PMC12056016,e,mw_after,2,2,agree
+PMC12056016,e,mass_unit_before,kDa,kDa,agree
+PMC12056016,e,mass_unit_after,kDa,kDa,agree
+PMC12056016,e,sec_calibration,not_reported,not_reported,agree
+PMC12056016,f,catalyst,PTH-3CN (phenothiazine derivative; precatalyst),PTH-3CN,agree
+PMC12056016,f,catalyst_loading_unit,mol%,mol%,agree
+PMC12056016,f,light_source,50 W 405 nm LED,50 W 405 nm LED,agree
+PMC12056016,f,wavelength_nm,405,405,agree
+PMC12056016,f,irradiance,0.4,,blind_null
+PMC12056016,f,irradiance_unit,W/cm2,,blind_null
+PMC12056016,f,solvent,"chlorobenzene/acetonitrile (1/1, 1.8 mL)","PhCl/MeCN (1/1, 1.8 mL)",disagree
+PMC12056016,f,atmosphere,air,air,agree
+PMC12056016,f,time_unit,h,h,agree
+PMC12056016,f,polymer,polystyrene,polystyrene,agree
+PMC12056016,f,polymer_detail,"post-consumer PS in a mixture with PP, LDPE, PET and PVC (selective PS upcycling)","post-consumer PS in a mixture with PP, LDPE, PET and PVC",agree
+PMC12056016,f,catalyst_loading,0.05,0.05,agree
+PMC12056016,f,time,20,20,agree
+PMC12056016,f,products,benzoic acid; formic acid,"['benzoic acid', 'formic acid']",agree
+PMC12056016,f,yield_basis,benzoic acid: isolated yield; formic acid: 1H NMR yield based on repeat unit,"isolated (BA); 1H NMR, based on repeat unit (FA)",disagree
+PMC12056016,f,yield:benzoic acid,43,43,agree
+PMC12056016,f,yield:formic acid,26,26,agree
+PMC12056016,g,catalyst,PTH-3CN (phenothiazine derivative; precatalyst),PTH-3CN,agree
+PMC12056016,g,catalyst_loading_unit,mol%,,blind_null
+PMC12056016,g,light_source,50 W 405 nm LED,50 W 405 nm LED,agree
+PMC12056016,g,wavelength_nm,405,405,agree
+PMC12056016,g,irradiance,0.4,,blind_null
+PMC12056016,g,irradiance_unit,W/cm2,,blind_null
+PMC12056016,g,solvent,HFIP as co-solvent (with chlorobenzene/acetonitrile),HFIP as co-solvent (with PhCl/MeCN),disagree
+PMC12056016,g,atmosphere,air,air,agree
+PMC12056016,g,time_unit,h,,blind_null
+PMC12056016,g,polymer,poly(ethylene terephthalate),poly(ethylene terephthalate),agree
+PMC12056016,g,polymer_detail,post-consumer single-use PET bottle,single-use PET bottle (post-consumer),disagree
+PMC12056016,g,products,terephthalic acid,['terephthalic acid'],agree
+PMC12056016,g,yield_basis,isolated yield,isolated,agree
+PMC12056016,g,yield:terephthalic acid,93,93,agree
+PMC12302232,a,catalyst,ITSO2 (isosulfonyltruxene),ITSO2,agree
+PMC12302232,a,light_source,blue LEDs,blue LEDs,agree
+PMC12302232,a,solvent,"1,2-dichloroethane","1,2-dichloroethane",agree
+PMC12302232,a,atmosphere,O2,O2,agree
+PMC12302232,a,time_unit,h,h,agree
+PMC12302232,a,polymer,polystyrene,polystyrene,agree
+PMC12302232,a,polymer_detail,"commercial PS, Mw 560 966 g/mol, Mn 198 240 g/mol, PDI 2.83","commercial PS, Mw 560 966 g mol-1, Mn 198 240 g mol-1, PDI 2.83",disagree
+PMC12302232,a,products,benzoic acid,['benzoic acid'],agree
+PMC12302232,a,yield_basis,isolated yield (per styrene repeat unit implied),isolated,agree
+PMC12302232,a,time,24,24,agree
+PMC12302232,a,yield:benzoic acid,57,57,agree
+PMC12302232,b,catalyst,ITSO2 (isosulfonyltruxene),ITSO2,agree
+PMC12302232,b,light_source,blue LEDs,blue LEDs,agree
+PMC12302232,b,solvent,"1,2-dichloroethane","1,2-dichloroethane",agree
+PMC12302232,b,atmosphere,O2,O2,agree
+PMC12302232,b,time_unit,h,h,agree
+PMC12302232,b,polymer,polystyrene,polystyrene,agree
+PMC12302232,b,polymer_detail,general-purpose polystyrene (GPPS),general-purpose polystyrene (GPPS),agree
+PMC12302232,b,products,benzoic acid,['benzoic acid'],agree
+PMC12302232,b,yield_basis,not stated; standard-conditions entry 1 yield is isolated,isolated,agree
+PMC12302232,b,time,24,24,agree
+PMC12302232,b,yield:benzoic acid,56,56,agree
+PMC12302232,c,catalyst,ITSO2 (isosulfonyltruxene),ITSO2,agree
+PMC12302232,c,light_source,blue LEDs,blue LEDs,agree
+PMC12302232,c,solvent,"1,2-dichloroethane","1,2-dichloroethane",agree
+PMC12302232,c,atmosphere,O2,O2,agree
+PMC12302232,c,time_unit,h,h,agree
+PMC12302232,c,polymer,polystyrene,polystyrene,agree
+PMC12302232,c,polymer_detail,expandable polystyrene (EPS) containing azodicarbonamide foaming agent,expandable polystyrene (EPS) containing azodicarbonamide foaming agent,agree
+PMC12302232,c,products,benzoic acid,['benzoic acid'],agree
+PMC12302232,c,yield_basis,not stated; standard-conditions entry 1 yield is isolated,isolated,agree
+PMC12302232,c,time,24,24,agree
+PMC12302232,c,yield:benzoic acid,56,56,agree
+PMC12302232,d,catalyst,ITSO2 (isosulfonyltruxene),ITSO2,agree
+PMC12302232,d,light_source,blue LEDs,blue LEDs,agree
+PMC12302232,d,solvent,"1,2-dichloroethane","1,2-dichloroethane",agree
+PMC12302232,d,atmosphere,O2,O2,agree
+PMC12302232,d,time_unit,h,h,agree
+PMC12302232,d,polymer,polystyrene,polystyrene,agree
+PMC12302232,d,polymer_detail,"high-impact polystyrene (HIPS), styrene-butadiene graft copolymer","high-impact polystyrene (HIPS), styrene-butadiene graft copolymer",agree
+PMC12302232,d,products,benzoic acid,['benzoic acid'],agree
+PMC12302232,d,yield_basis,not stated; standard-conditions entry 1 yield is isolated,isolated,agree
+PMC12302232,d,time,24,24,agree
+PMC12302232,d,yield:benzoic acid,56,56,agree
+PMC12302232,e,catalyst,ITSO2 (isosulfonyltruxene),ITSO2,agree
+PMC12302232,e,light_source,blue LEDs,blue LEDs,agree
+PMC12302232,e,solvent,"1,2-dichloroethane","1,2-dichloroethane",agree
+PMC12302232,e,atmosphere,O2,O2,agree
+PMC12302232,e,time_unit,h,h,agree
+PMC12302232,e,polymer,poly(styrene-co-acrylonitrile),poly(styrene-co-acrylonitrile),agree
+PMC12302232,e,polymer_detail,SAN,styrene-acrylonitrile (SAN),agree
+PMC12302232,e,products,benzoic acid,['benzoic acid'],agree
+PMC12302232,e,yield_basis,not stated; standard-conditions entry 1 yield is isolated,isolated,agree
+PMC12302232,e,cocatalyst_additives,"TCNHPI (4,5,6,7-tetrachloro-2-hydroxy-isoindole-1,3-dione)","TCNHPI (4,5,6,7-tetrachloro-2-hydroxy-isoindole-1,3-dione)",agree
+PMC12302232,e,time,24,24,agree
+PMC12302232,e,yield:benzoic acid,54,54,agree
+PMC12302232,f,catalyst,ITSO2 (isosulfonyltruxene),ITSO2,agree
+PMC12302232,f,light_source,blue LEDs,blue LEDs,agree
+PMC12302232,f,solvent,"1,2-dichloroethane","1,2-dichloroethane",agree
+PMC12302232,f,atmosphere,O2,O2,agree
+PMC12302232,f,time_unit,h,h,agree
+PMC12302232,f,polymer,poly(acrylonitrile-co-butadiene-co-styrene),poly(acrylonitrile-co-butadiene-co-styrene),agree
+PMC12302232,f,polymer_detail,ABS,acrylonitrile-butadiene-styrene (ABS),agree
+PMC12302232,f,products,benzoic acid,['benzoic acid'],agree
+PMC12302232,f,yield_basis,not stated; standard-conditions entry 1 yield is isolated,isolated,agree
+PMC12302232,f,cocatalyst_additives,"TCNHPI (4,5,6,7-tetrachloro-2-hydroxy-isoindole-1,3-dione)","TCNHPI (4,5,6,7-tetrachloro-2-hydroxy-isoindole-1,3-dione)",agree
+PMC12302232,f,time,24,24,agree
+PMC12302232,f,yield:benzoic acid,48,48,agree
+PMC12302232,g,catalyst,ITSO2 (isosulfonyltruxene),ITSO2,agree
+PMC12302232,g,light_source,blue LEDs,blue LEDs,agree
+PMC12302232,g,solvent,"1,2-dichloroethane","1,2-dichloroethane",agree
+PMC12302232,g,atmosphere,O2,O2,agree
+PMC12302232,g,time_unit,h,h,agree
+PMC12302232,g,polymer,polystyrene,polystyrene,agree
+PMC12302232,g,polymer_detail,post-consumer EPS waste: foam box,EPS waste: foam boxes,disagree
+PMC12302232,g,products,benzoic acid,['benzoic acid'],agree
+PMC12302232,g,yield_basis,not stated; standard-conditions entry 1 yield is isolated,isolated,agree
+PMC12302232,g,time,24,24,agree
+PMC12302232,g,yield:benzoic acid,57,57,agree
+PMC12302232,h,catalyst,ITSO2 (isosulfonyltruxene),ITSO2,agree
+PMC12302232,h,light_source,blue LEDs,blue LEDs,agree
+PMC12302232,h,solvent,"1,2-dichloroethane","1,2-dichloroethane",agree
+PMC12302232,h,atmosphere,O2,O2,agree
+PMC12302232,h,time_unit,h,h,agree
+PMC12302232,h,polymer,polystyrene,polystyrene,agree
+PMC12302232,h,polymer_detail,post-consumer EPS waste: shockproof foam,EPS waste: shockproof foam,agree
+PMC12302232,h,products,benzoic acid,['benzoic acid'],agree
+PMC12302232,h,yield_basis,not stated; standard-conditions entry 1 yield is isolated,isolated,agree
+PMC12302232,h,time,24,24,agree
+PMC12302232,h,yield:benzoic acid,56,56,agree
+PMC12302232,i,catalyst,ITSO2 (isosulfonyltruxene),ITSO2,agree
+PMC12302232,i,light_source,continuous flow photoreactor (blue LEDs),,blind_null
+PMC12302232,i,time_unit,h,,blind_null
+PMC12302232,i,polymer,polystyrene,polystyrene,agree
+PMC12302232,i,polymer_detail,"commercial PS, 1.04 g, continuous-flow photoreactor","commercial polystyrene, 1.04 g, continuous flow photoreactor",disagree
+PMC12302232,i,products,benzoic acid,['benzoic acid'],agree
+PMC12302232,i,yield_basis,not stated; standard-conditions entry 1 yield is isolated,,blind_null
+PMC12302232,i,yield:benzoic acid,50,50,agree
+PMC12464638,a,polymer,polypinacol,polypinacol,agree
+PMC12464638,a,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization","polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",disagree
+PMC12464638,a,catalyst,CeCl3·7H2O,CeCl3∙7H2O,agree
+PMC12464638,a,catalyst_loading,10,10,agree
+PMC12464638,a,catalyst_loading_unit,mol%,mol%,agree
+PMC12464638,a,cocatalyst_additives,TBACl (50 mol%) + molecular sieve powder,TBACl 50 mol%; mol sieve powder,disagree
+PMC12464638,a,light_source,450 nm LED,450 nm LED,agree
+PMC12464638,a,wavelength_nm,450,450,agree
+PMC12464638,a,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),disagree
+PMC12464638,a,time,52,52,agree
+PMC12464638,a,time_unit,h,h,agree
+PMC12464638,a,yield_basis,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,disagree
+PMC12464638,a,products,M5 (original bis-aldehyde monomer),['M5 (original bis-aldehyde monomer)'],agree
+PMC12464638,a,yield:M5 (original bis-aldehyde monomer),82.0,82,agree
+PMC12464638,b,polymer,polypinacol,polypinacol,agree
+PMC12464638,b,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization","polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",disagree
+PMC12464638,b,catalyst,CeCl3·7H2O,CeCl3∙7H2O,agree
+PMC12464638,b,catalyst_loading,5,5,agree
+PMC12464638,b,catalyst_loading_unit,mol%,mol%,agree
+PMC12464638,b,cocatalyst_additives,TBACl (50 mol%) + molecular sieve powder,TBACl 50 mol%; mol sieve powder,disagree
+PMC12464638,b,light_source,450 nm LED,450 nm LED,agree
+PMC12464638,b,wavelength_nm,450,450,agree
+PMC12464638,b,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),disagree
+PMC12464638,b,time,52,52,agree
+PMC12464638,b,time_unit,h,h,agree
+PMC12464638,b,yield_basis,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,disagree
+PMC12464638,b,products,M5 (original bis-aldehyde monomer),['M5 (original bis-aldehyde monomer)'],agree
+PMC12464638,b,yield:M5 (original bis-aldehyde monomer),79.0,79,agree
+PMC12464638,c,polymer,polypinacol,polypinacol,agree
+PMC12464638,c,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization","polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",disagree
+PMC12464638,c,catalyst,CeCl3·7H2O,CeCl3∙7H2O,agree
+PMC12464638,c,catalyst_loading,2,2,agree
+PMC12464638,c,catalyst_loading_unit,mol%,mol%,agree
+PMC12464638,c,cocatalyst_additives,TBACl (50 mol%) + molecular sieve powder,TBACl 50 mol%; mol sieve powder,disagree
+PMC12464638,c,light_source,450 nm LED,450 nm LED,agree
+PMC12464638,c,wavelength_nm,450,450,agree
+PMC12464638,c,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),disagree
+PMC12464638,c,time,52,52,agree
+PMC12464638,c,time_unit,h,h,agree
+PMC12464638,c,yield_basis,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,disagree
+PMC12464638,c,products,M5 (original bis-aldehyde monomer),['M5 (original bis-aldehyde monomer)'],agree
+PMC12464638,c,yield:M5 (original bis-aldehyde monomer),71.0,71,agree
+PMC12464638,d,polymer,polypinacol,polypinacol,agree
+PMC12464638,d,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization","polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",disagree
+PMC12464638,d,catalyst,CeCl3·7H2O,CeCl3∙7H2O,agree
+PMC12464638,d,catalyst_loading,10,10,agree
+PMC12464638,d,catalyst_loading_unit,mol%,mol%,agree
+PMC12464638,d,cocatalyst_additives,TBACl (25 mol%) + molecular sieve powder,TBACl 25 mol%; mol sieve powder,disagree
+PMC12464638,d,light_source,450 nm LED,450 nm LED,agree
+PMC12464638,d,wavelength_nm,450,450,agree
+PMC12464638,d,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),disagree
+PMC12464638,d,time,52,52,agree
+PMC12464638,d,time_unit,h,h,agree
+PMC12464638,d,yield_basis,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,disagree
+PMC12464638,d,products,M5 (original bis-aldehyde monomer),['M5 (original bis-aldehyde monomer)'],agree
+PMC12464638,d,yield:M5 (original bis-aldehyde monomer),71.0,71,agree
+PMC12464638,e,polymer,polypinacol,polypinacol,agree
+PMC12464638,e,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization","polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",disagree
+PMC12464638,e,catalyst,CeCl3·7H2O,CeCl3∙7H2O,agree
+PMC12464638,e,catalyst_loading,10,10,agree
+PMC12464638,e,catalyst_loading_unit,mol%,mol%,agree
+PMC12464638,e,cocatalyst_additives,TBACl (10 mol%) + molecular sieve powder,TBACl 10 mol%; mol sieve powder,disagree
+PMC12464638,e,light_source,450 nm LED,450 nm LED,agree
+PMC12464638,e,wavelength_nm,450,450,agree
+PMC12464638,e,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),disagree
+PMC12464638,e,time,52,52,agree
+PMC12464638,e,time_unit,h,h,agree
+PMC12464638,e,yield_basis,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,disagree
+PMC12464638,e,products,M5 (original bis-aldehyde monomer),['M5 (original bis-aldehyde monomer)'],agree
+PMC12464638,e,yield:M5 (original bis-aldehyde monomer),66.0,66,agree
+PMC12464638,f,polymer,polypinacol,polypinacol,agree
+PMC12464638,f,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization","polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",disagree
+PMC12464638,f,catalyst,CeCl3·7H2O,CeCl3∙7H2O,agree
+PMC12464638,f,catalyst_loading,10,10,agree
+PMC12464638,f,catalyst_loading_unit,mol%,mol%,agree
+PMC12464638,f,cocatalyst_additives,molecular sieve powder only (no TBACl),mol sieve powder (no TBACl),disagree
+PMC12464638,f,light_source,450 nm LED,450 nm LED,agree
+PMC12464638,f,wavelength_nm,450,450,agree
+PMC12464638,f,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),disagree
+PMC12464638,f,time,52,52,agree
+PMC12464638,f,time_unit,h,h,agree
+PMC12464638,f,yield_basis,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,disagree
+PMC12464638,f,products,M5 (original bis-aldehyde monomer),['M5 (original bis-aldehyde monomer)'],agree
+PMC12464638,f,yield:M5 (original bis-aldehyde monomer),61.0,61,agree
+PMC12464638,g,polymer,polypinacol,polypinacol,agree
+PMC12464638,g,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization","polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",disagree
+PMC12464638,g,catalyst,CeCl3·7H2O,CeCl3∙7H2O,agree
+PMC12464638,g,catalyst_loading,10,10,agree
+PMC12464638,g,catalyst_loading_unit,mol%,mol%,agree
+PMC12464638,g,cocatalyst_additives,TBACl (50 mol%) + molecular sieve powder,TBACl 50 mol%; mol sieve powder,disagree
+PMC12464638,g,light_source,450 nm LED,450 nm LED,agree
+PMC12464638,g,wavelength_nm,450,450,agree
+PMC12464638,g,solvent,DMSO-d6 (0.5 mL; P5 0.066 mmol),DMSO-d6 (0.5 mL),disagree
+PMC12464638,g,time,52,52,agree
+PMC12464638,g,time_unit,h,h,agree
+PMC12464638,g,yield_basis,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,disagree
+PMC12464638,g,products,M5 (original bis-aldehyde monomer),['M5 (original bis-aldehyde monomer)'],agree
+PMC12464638,g,yield:M5 (original bis-aldehyde monomer),72.0,72,agree
+PMC12464638,h,polymer,polypinacol,polypinacol,agree
+PMC12464638,h,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization","polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",disagree
+PMC12464638,h,catalyst,CeCl3·7H2O,CeCl3∙7H2O,agree
+PMC12464638,h,catalyst_loading,10,10,agree
+PMC12464638,h,catalyst_loading_unit,mol%,mol%,agree
+PMC12464638,h,cocatalyst_additives,"TBACl (50 mol%), no molecular sieves",TBACl 50 mol% (no molecular sieves),disagree
+PMC12464638,h,light_source,450 nm LED,450 nm LED,agree
+PMC12464638,h,wavelength_nm,450,450,agree
+PMC12464638,h,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),disagree
+PMC12464638,h,time,52,52,agree
+PMC12464638,h,time_unit,h,h,agree
+PMC12464638,h,yield_basis,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,disagree
+PMC12464638,h,products,M5 (original bis-aldehyde monomer),['M5 (original bis-aldehyde monomer)'],agree
+PMC12464638,h,yield:M5 (original bis-aldehyde monomer),48.0,48,agree
+PMC12464638,i,polymer,polypinacol,polypinacol,agree
+PMC12464638,i,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization","polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",disagree
+PMC12464638,i,catalyst,CeCl3·7H2O,CeCl3∙7H2O,agree
+PMC12464638,i,catalyst_loading,10,10,agree
+PMC12464638,i,catalyst_loading_unit,mol%,mol%,agree
+PMC12464638,i,cocatalyst_additives,TBACl (50 mol%) + molecular sieve powder,TBACl 50 mol%; mol sieve powder,disagree
+PMC12464638,i,light_source,none (dark),none (no light),disagree
+PMC12464638,i,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),disagree
+PMC12464638,i,time,52,52,agree
+PMC12464638,i,time_unit,h,h,agree
+PMC12464638,i,yield_basis,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,disagree
+PMC12464638,i,products,M5 (original bis-aldehyde monomer),['M5 (original bis-aldehyde monomer)'],agree
+PMC12464638,i,yield:M5 (original bis-aldehyde monomer),0.0,0,agree
+PMC12464638,j,polymer,polypinacol,polypinacol,agree
+PMC12464638,j,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization","polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",disagree
+PMC12464638,j,catalyst,CeCl3·7H2O,CeCl3∙7H2O,agree
+PMC12464638,j,catalyst_loading,10,10,agree
+PMC12464638,j,catalyst_loading_unit,mol%,mol%,agree
+PMC12464638,j,cocatalyst_additives,TBACl (50 mol%) + molecular sieve powder,TBACl 50 mol%; mol sieve powder,disagree
+PMC12464638,j,light_source,450 nm LED,450 nm LED,agree
+PMC12464638,j,wavelength_nm,450,450,agree
+PMC12464638,j,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),disagree
+PMC12464638,j,time,52,52,agree
+PMC12464638,j,time_unit,h,h,agree
+PMC12464638,j,yield_basis,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,disagree
+PMC12464638,j,products,M5 (original bis-aldehyde monomer),['M5 (original bis-aldehyde monomer)'],agree
+PMC12464638,j,atmosphere,Ar,Ar,agree
+PMC12464638,j,yield:M5 (original bis-aldehyde monomer),0.0,0,agree
+PMC12464638,k,polymer,polypinacol,polypinacol,agree
+PMC12464638,k,polymer_detail,"P5, large-scale depolymerization under the optimized conditions","polypinacol P5, large-scale depolymerization",disagree
+PMC12464638,k,catalyst,CeCl3·7H2O,CeCl3∙7H2O,agree
+PMC12464638,k,catalyst_loading,10,10,agree
+PMC12464638,k,catalyst_loading_unit,mol%,mol%,agree
+PMC12464638,k,cocatalyst_additives,TBACl (50 mol%) + molecular sieve powder,TBACl 50 mol%; mol sieve powder,disagree
+PMC12464638,k,light_source,450 nm LED,450 nm LED,agree
+PMC12464638,k,wavelength_nm,450,450,agree
+PMC12464638,k,solvent,DMSO-d6,DMSO-d6 (assumed from optimized conditions),agree
+PMC12464638,k,time_unit,h,h,agree
+PMC12464638,k,yield_basis,isolated yield,isolated yield,agree
+PMC12464638,k,products,M5 (original bis-aldehyde monomer),['M5 (original bis-aldehyde monomer)'],agree
+PMC12464638,k,yield:M5 (original bis-aldehyde monomer),70.0,70,agree
+PMC12464638,l,polymer,polypinacol,polypinacol,agree
+PMC12464638,l,polymer_detail,P5 depolymerized in the presence of added polystyrene pieces (orthogonal recycling test),polypinacol P5 in presence of added polystyrene pieces,disagree
+PMC12464638,l,catalyst,CeCl3·7H2O,CeCl3∙7H2O,agree
+PMC12464638,l,catalyst_loading,10,10,agree
+PMC12464638,l,catalyst_loading_unit,mol%,mol%,agree
+PMC12464638,l,cocatalyst_additives,TBACl (50 mol%) + molecular sieve powder,TBACl 50 mol%; mol sieve powder,disagree
+PMC12464638,l,light_source,450 nm LED,450 nm LED,agree
+PMC12464638,l,wavelength_nm,450,450,agree
+PMC12464638,l,solvent,DMSO-d6,DMSO-d6 (1.0 mL),agree
+PMC12464638,l,time_unit,h,h,agree
+PMC12464638,l,yield_basis,not_stated,yield after removal of PS pieces (isolated vs NMR not stated),agree
+PMC12464638,l,products,M5 (original bis-aldehyde monomer),['M5 (original bis-aldehyde monomer)'],agree
+PMC12464638,l,yield:M5 (original bis-aldehyde monomer),81.0,81,agree
+PMC13590609,a,catalyst,none (Cl radicals generated in situ from chlorinated solvent),,blind_null
+PMC13590609,a,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",415 nm LEDs,disagree
+PMC13590609,a,wavelength_nm,415,415,agree
+PMC13590609,a,irradiance,50,,blind_null
+PMC13590609,a,irradiance_unit,"W (electrical, per lamp; two lamps)",,blind_null
+PMC13590609,a,solvent,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)","mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",agree
+PMC13590609,a,atmosphere,air,air,agree
+PMC13590609,a,temperature_c,130,130,agree
+PMC13590609,a,time_unit,h,h,agree
+PMC13590609,a,polymer,polypropylene,polypropylene,agree
+PMC13590609,a,polymer_detail,"P1, commercial PP particles (Adamas), MFI = 28 g/10 min","commercial PP P1, MFI = 28 g·10 min-1",disagree
+PMC13590609,a,time,18,18,agree
+PMC13590609,a,sec_calibration,conventional_PS,conventional_PS,agree
+PMC13590609,a,sec_eluent,"1,2,4-trichlorobenzene","1,2,4-trichlorobenzene",agree
+PMC13590609,a,sec_temperature_c,145,145,agree
+PMC13590609,a,mn_before,45.7,45.7,agree
+PMC13590609,a,mass_unit_before,kDa,kDa,agree
+PMC13590609,a,mass_unit_after,kDa,kDa,agree
+PMC13590609,a,mn_after,14.7,14.7,agree
+PMC13590609,b,catalyst,none (Cl radicals generated in situ from chlorinated solvent),,blind_null
+PMC13590609,b,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",415 nm LEDs,disagree
+PMC13590609,b,wavelength_nm,415,415,agree
+PMC13590609,b,irradiance,50,,blind_null
+PMC13590609,b,irradiance_unit,"W (electrical, per lamp; two lamps)",,blind_null
+PMC13590609,b,solvent,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)","mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",agree
+PMC13590609,b,atmosphere,O2,O2,agree
+PMC13590609,b,temperature_c,130,130,agree
+PMC13590609,b,time_unit,h,h,agree
+PMC13590609,b,polymer,polypropylene,polypropylene,agree
+PMC13590609,b,polymer_detail,"P1, commercial PP particles (Adamas), MFI = 28 g/10 min","commercial PP P1, MFI = 28 g·10 min-1",disagree
+PMC13590609,b,time,18,18,agree
+PMC13590609,b,sec_calibration,conventional_PS,conventional_PS,agree
+PMC13590609,b,sec_eluent,"1,2,4-trichlorobenzene","1,2,4-trichlorobenzene",agree
+PMC13590609,b,sec_temperature_c,145,145,agree
+PMC13590609,b,mn_before,45.7,45.7,agree
+PMC13590609,b,mass_unit_before,kDa,kDa,agree
+PMC13590609,b,mass_unit_after,kDa,kDa,agree
+PMC13590609,b,mn_after,6.6,6.6,agree
+PMC13590609,c,catalyst,none (Cl radicals generated in situ from chlorinated solvent),,blind_null
+PMC13590609,c,light_source,none (dark),none (dark),agree
+PMC13590609,c,solvent,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)","mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",agree
+PMC13590609,c,time_unit,h,,blind_null
+PMC13590609,c,polymer,polypropylene,polypropylene,agree
+PMC13590609,c,polymer_detail,"P1, commercial PP particles (Adamas), MFI = 28 g/10 min","commercial PP P1, MFI = 28 g·10 min-1",disagree
+PMC13590609,c,sec_calibration,conventional_PS,conventional_PS,agree
+PMC13590609,c,sec_eluent,"1,2,4-trichlorobenzene","1,2,4-trichlorobenzene",agree
+PMC13590609,c,sec_temperature_c,145,145,agree
+PMC13590609,c,mn_before,45.7,45.7,agree
+PMC13590609,c,mass_unit_before,kDa,kDa,agree
+PMC13590609,c,mass_unit_after,kDa,kDa,agree
+PMC13590609,c,mn_after,30.8,30.8,agree
+PMC13590609,d,catalyst,none (Cl radicals generated in situ from chlorinated solvent),,blind_null
+PMC13590609,d,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",two 415 nm LED lamps (50 W),disagree
+PMC13590609,d,wavelength_nm,415,415,agree
+PMC13590609,d,irradiance,50,,blind_null
+PMC13590609,d,irradiance_unit,"W (electrical, per lamp; two lamps)",,blind_null
+PMC13590609,d,solvent,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",mixed chlorinated solvents,disagree
+PMC13590609,d,atmosphere,air,air,agree
+PMC13590609,d,temperature_c,130,130,agree
+PMC13590609,d,time_unit,h,h,agree
+PMC13590609,d,polymer,poly(ethylene terephthalate),poly(ethylene terephthalate),agree
+PMC13590609,d,polymer_detail,PET flakes in PP/PET blend at 1:1 mass ratio,"PP/PET blend, mass ratio 1:0.1 (Fig. 3b entry 1)",disagree
+PMC13590609,d,time,18,18,agree
+PMC13590609,d,products,terephthalic acid,['terephthalic acid'],agree
+PMC13590609,d,yield_basis,"isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",isolated,agree
+PMC13590609,d,cocatalyst_additives,polypropylene co-feed (PP/PET 1:1 by mass) as in situ HCl source,PP (co-feed; in situ HCl source),disagree
+PMC13590609,d,replicates,5,5,agree
+PMC13590609,d,yield:terephthalic acid,70,90,disagree
+PMC13590609,e,catalyst,none (Cl radicals generated in situ from chlorinated solvent),,blind_null
+PMC13590609,e,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",two 415 nm LED lamps (50 W),disagree
+PMC13590609,e,wavelength_nm,415,415,agree
+PMC13590609,e,irradiance,50,,blind_null
+PMC13590609,e,irradiance_unit,"W (electrical, per lamp; two lamps)",,blind_null
+PMC13590609,e,solvent,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",mixed chlorinated solvents,disagree
+PMC13590609,e,atmosphere,air,air,agree
+PMC13590609,e,temperature_c,130,130,agree
+PMC13590609,e,time_unit,h,h,agree
+PMC13590609,e,polymer,poly(ethylene terephthalate),poly(ethylene terephthalate),agree
+PMC13590609,e,polymer_detail,PET co-fed with pre-formed OPP5 instead of P5,"PP/PET blend, mass ratio 1:1 (Fig. 3b entry 4)",disagree
+PMC13590609,e,time,18,18,agree
+PMC13590609,e,products,terephthalic acid,['terephthalic acid'],agree
+PMC13590609,e,yield_basis,"isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",isolated,agree
+PMC13590609,e,cocatalyst_additives,pre-formed OPP5 (oxidized PP) instead of P5,PP (co-feed; in situ HCl source),disagree
+PMC13590609,e,yield:terephthalic acid,48.1,70,disagree
+PMC13590609,f,catalyst,none (Cl radicals generated in situ from chlorinated solvent),,blind_null
+PMC13590609,f,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",two 415 nm LED lamps (50 W),disagree
+PMC13590609,f,wavelength_nm,415,415,agree
+PMC13590609,f,irradiance,50,,blind_null
+PMC13590609,f,irradiance_unit,"W (electrical, per lamp; two lamps)",,blind_null
+PMC13590609,f,solvent,distilled mixed chlorinated solvent wastes (laboratory),distilled mixed chlorinated solvent wastes,agree
+PMC13590609,f,atmosphere,air,air,agree
+PMC13590609,f,temperature_c,130,130,agree
+PMC13590609,f,time_unit,h,h,agree
+PMC13590609,f,polymer,poly(ethylene terephthalate),poly(ethylene terephthalate),agree
+PMC13590609,f,polymer_detail,"post-consumer PET bowl, co-treated with PP cup (PP 1 g / PET 0.5 g)",post-consumer PET bowl co-fed with PP cup,disagree
+PMC13590609,f,time,18,18,agree
+PMC13590609,f,products,terephthalic acid,['terephthalic acid'],agree
+PMC13590609,f,yield_basis,"isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",isolated,agree
+PMC13590609,f,yield:terephthalic acid,92.8,92.8,agree
+PMC13590609,g,catalyst,none (Cl radicals generated in situ from chlorinated solvent),,blind_null
+PMC13590609,g,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",two 415 nm LED lamps (50 W),disagree
+PMC13590609,g,wavelength_nm,415,415,agree
+PMC13590609,g,irradiance,50,,blind_null
+PMC13590609,g,irradiance_unit,"W (electrical, per lamp; two lamps)",,blind_null
+PMC13590609,g,solvent,distilled mixed chlorinated solvent wastes (laboratory),distilled mixed chlorinated solvent wastes,agree
+PMC13590609,g,atmosphere,air,air,agree
+PMC13590609,g,temperature_c,130,130,agree
+PMC13590609,g,time_unit,h,h,agree
+PMC13590609,g,polymer,poly(ethylene terephthalate),poly(ethylene terephthalate),agree
+PMC13590609,g,polymer_detail,"post-consumer PET rag, co-treated with PP tube (PP 1 g / PET 0.5 g)",post-consumer PET rag co-fed with PP tube,disagree
+PMC13590609,g,time,18,18,agree
+PMC13590609,g,products,terephthalic acid,['terephthalic acid'],agree
+PMC13590609,g,yield_basis,"isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",isolated,agree
+PMC13590609,g,yield:terephthalic acid,79.9,79.9,agree
+PMC13590609,h,catalyst,none (Cl radicals generated in situ from chlorinated solvent),,blind_null
+PMC13590609,h,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",two 415 nm LED lamps (50 W),disagree
+PMC13590609,h,wavelength_nm,415,415,agree
+PMC13590609,h,irradiance,50,,blind_null
+PMC13590609,h,irradiance_unit,"W (electrical, per lamp; two lamps)",,blind_null
+PMC13590609,h,solvent,distilled mixed chlorinated solvent wastes (laboratory),distilled mixed chlorinated solvent wastes,agree
+PMC13590609,h,atmosphere,air,air,agree
+PMC13590609,h,temperature_c,130,130,agree
+PMC13590609,h,time_unit,h,h,agree
+PMC13590609,h,polymer,poly(ethylene terephthalate),poly(ethylene terephthalate),agree
+PMC13590609,h,polymer_detail,"post-consumer PET bottle, co-treated with PP jug (PP 1 g / PET 0.5 g)",post-consumer PET bottle co-fed with PP jug,disagree
+PMC13590609,h,time,18,18,agree
+PMC13590609,h,products,terephthalic acid,['terephthalic acid'],agree
+PMC13590609,h,yield_basis,"isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",isolated,agree
+PMC13590609,h,yield:terephthalic acid,91.1,91.1,agree
+PMC13590609,i,catalyst,none (Cl radicals generated in situ from chlorinated solvent),,blind_null
+PMC13590609,i,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",two 415 nm LED lamps (50 W),disagree
+PMC13590609,i,wavelength_nm,415,415,agree
+PMC13590609,i,irradiance,50,,blind_null
+PMC13590609,i,irradiance_unit,"W (electrical, per lamp; two lamps)",,blind_null
+PMC13590609,i,solvent,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",mixed chlorinated solvent (Cl-Sol),disagree
+PMC13590609,i,atmosphere,air,air,agree
+PMC13590609,i,temperature_c,130,130,agree
+PMC13590609,i,time_unit,h,h,agree
+PMC13590609,i,polymer,poly(ethylene terephthalate),poly(ethylene terephthalate),agree
+PMC13590609,i,polymer_detail,"post-consumer PET (3.5 g) co-treated with post-consumer PP (7 g), scale-up",post-consumer PET 3.5 g co-fed with 7 g post-consumer PP (scale-up),disagree
+PMC13590609,i,products,terephthalic acid,['terephthalic acid'],agree
+PMC13590609,i,yield_basis,isolated yield,isolated,agree
+PMC13590609,i,yield:terephthalic acid,90,90,agree
+PMC9295126,a,polymer,polystyrene,polystyrene,agree
+PMC9295126,a,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000","commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",agree
+PMC9295126,a,catalyst,fluorenone,fluorenone,agree
+PMC9295126,a,catalyst_loading,20,20,agree
+PMC9295126,a,catalyst_loading_unit,mol%,mol%,agree
+PMC9295126,a,cocatalyst_additives,H2SO4 (1 equiv),H2SO4 (1 equiv),agree
+PMC9295126,a,light_source,blue LED strip (14.4 W),blue LED strip (14.4 W),agree
+PMC9295126,a,wavelength_nm,450,450,agree
+PMC9295126,a,irradiance,14.4,,blind_null
+PMC9295126,a,irradiance_unit,"W (electrical, per LED strip)",,blind_null
+PMC9295126,a,solvent,ethyl acetate,ethyl acetate,agree
+PMC9295126,a,concentration,0.1,0.1,agree
+PMC9295126,a,concentration_unit,M (repeat units),M,agree
+PMC9295126,a,atmosphere,O2,O2,agree
+PMC9295126,a,temperature_c,50,50,agree
+PMC9295126,a,time_unit,h,h,agree
+PMC9295126,a,yield_basis,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,disagree
+PMC9295126,a,replicates,3,,blind_null
+PMC9295126,a,sec_calibration,not_reported,not_reported,agree
+PMC9295126,a,sec_detector,RI,RI,agree
+PMC9295126,a,sec_eluent,chlorobenzene,chlorobenzene,agree
+PMC9295126,a,mw_before,260000,260000,agree
+PMC9295126,a,mass_unit_before,g/mol,,blind_null
+PMC9295126,a,mass_unit_after,g/mol,,blind_null
+PMC9295126,a,mw_after,3200,3200,agree
+PMC9295126,a,time,4,4,agree
+PMC9295126,b,polymer,polystyrene,polystyrene,agree
+PMC9295126,b,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000","commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",agree
+PMC9295126,b,catalyst,fluorenone,fluorenone,agree
+PMC9295126,b,catalyst_loading,20,20,agree
+PMC9295126,b,catalyst_loading_unit,mol%,mol%,agree
+PMC9295126,b,cocatalyst_additives,H2SO4 (1 equiv),H2SO4 (1 equiv),agree
+PMC9295126,b,light_source,blue LED strip (14.4 W),blue LED strip (14.4 W),agree
+PMC9295126,b,wavelength_nm,450,450,agree
+PMC9295126,b,irradiance,14.4,,blind_null
+PMC9295126,b,irradiance_unit,"W (electrical, per LED strip)",,blind_null
+PMC9295126,b,solvent,ethyl acetate,ethyl acetate,agree
+PMC9295126,b,concentration,0.1,0.1,agree
+PMC9295126,b,concentration_unit,M (repeat units),M,agree
+PMC9295126,b,atmosphere,O2,O2,agree
+PMC9295126,b,temperature_c,50,50,agree
+PMC9295126,b,time_unit,h,h,agree
+PMC9295126,b,yield_basis,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,disagree
+PMC9295126,b,replicates,3,,blind_null
+PMC9295126,b,sec_calibration,not_reported,not_reported,agree
+PMC9295126,b,sec_detector,RI,RI,agree
+PMC9295126,b,sec_eluent,chlorobenzene,chlorobenzene,agree
+PMC9295126,b,mw_before,260000,260000,agree
+PMC9295126,b,mass_unit_before,g/mol,,blind_null
+PMC9295126,b,mass_unit_after,g/mol,,blind_null
+PMC9295126,b,mw_after,1700,1700,agree
+PMC9295126,b,time,8,8,agree
+PMC9295126,c,polymer,polystyrene,polystyrene,agree
+PMC9295126,c,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000","commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",agree
+PMC9295126,c,catalyst,fluorenone,fluorenone,agree
+PMC9295126,c,catalyst_loading,20,20,agree
+PMC9295126,c,catalyst_loading_unit,mol%,mol%,agree
+PMC9295126,c,cocatalyst_additives,H2SO4 (1 equiv),H2SO4 (1 equiv),agree
+PMC9295126,c,light_source,blue LED strip (14.4 W),blue LED strip (14.4 W),agree
+PMC9295126,c,wavelength_nm,450,450,agree
+PMC9295126,c,irradiance,14.4,,blind_null
+PMC9295126,c,irradiance_unit,"W (electrical, per LED strip)",,blind_null
+PMC9295126,c,solvent,ethyl acetate,ethyl acetate,agree
+PMC9295126,c,concentration,0.1,0.1,agree
+PMC9295126,c,concentration_unit,M (repeat units),M,agree
+PMC9295126,c,atmosphere,O2,O2,agree
+PMC9295126,c,temperature_c,50,50,agree
+PMC9295126,c,time_unit,h,h,agree
+PMC9295126,c,yield_basis,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,disagree
+PMC9295126,c,replicates,3,3,agree
+PMC9295126,c,time,16,16,agree
+PMC9295126,c,products,benzoic acid; CO; CO2,['benzoic acid'],agree
+PMC9295126,c,yield:benzoic acid,30,30,agree
+PMC9295126,c,yield:CO,21,,blind_missing
+PMC9295126,c,yield:CO2,7.5,,blind_missing
+PMC9295126,d,polymer,polystyrene,polystyrene,agree
+PMC9295126,d,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000","commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",agree
+PMC9295126,d,catalyst,fluorenone,fluorenone,agree
+PMC9295126,d,catalyst_loading,20,20,agree
+PMC9295126,d,catalyst_loading_unit,mol%,mol%,agree
+PMC9295126,d,cocatalyst_additives,H2SO4 (1 equiv),H2SO4 (1 equiv),agree
+PMC9295126,d,light_source,blue LED strip (14.4 W),blue LED strip (14.4 W),agree
+PMC9295126,d,wavelength_nm,450,450,agree
+PMC9295126,d,irradiance,14.4,,blind_null
+PMC9295126,d,irradiance_unit,"W (electrical, per LED strip)",,blind_null
+PMC9295126,d,solvent,ethyl acetate,ethyl acetate,agree
+PMC9295126,d,concentration,0.1,0.1,agree
+PMC9295126,d,concentration_unit,M (repeat units),M,agree
+PMC9295126,d,atmosphere,O2,O2,agree
+PMC9295126,d,temperature_c,50,50,agree
+PMC9295126,d,time_unit,h,h,agree
+PMC9295126,d,yield_basis,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,disagree
+PMC9295126,d,replicates,3,3,agree
+PMC9295126,d,time,48,48,agree
+PMC9295126,d,products,benzoic acid,['benzoic acid'],agree
+PMC9295126,d,yield:benzoic acid,38,38,agree
+PMC9295126,e,polymer,polystyrene,polystyrene,agree
+PMC9295126,e,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000","commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",agree
+PMC9295126,e,catalyst,none,none,agree
+PMC9295126,e,catalyst_loading_unit,mol%,,blind_null
+PMC9295126,e,cocatalyst_additives,H2SO4 (1 equiv),H2SO4 (1 equiv),agree
+PMC9295126,e,light_source,blue LED strip (14.4 W),blue LED strip (14.4 W),agree
+PMC9295126,e,wavelength_nm,450,450,agree
+PMC9295126,e,irradiance,14.4,,blind_null
+PMC9295126,e,irradiance_unit,"W (electrical, per LED strip)",,blind_null
+PMC9295126,e,solvent,ethyl acetate,ethyl acetate,agree
+PMC9295126,e,concentration,0.1,0.1,agree
+PMC9295126,e,concentration_unit,M (repeat units),M,agree
+PMC9295126,e,atmosphere,O2,O2,agree
+PMC9295126,e,temperature_c,50,50,agree
+PMC9295126,e,time_unit,h,h,agree
+PMC9295126,e,yield_basis,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,disagree
+PMC9295126,e,time,16,16,agree
+PMC9295126,e,products,benzoic acid,[],disagree
+PMC9295126,e,yield:benzoic acid,0,0,agree
+PMC9295126,f,polymer,polystyrene,polystyrene,agree
+PMC9295126,f,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000","commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",agree
+PMC9295126,f,catalyst,fluorenone,fluorenone,agree
+PMC9295126,f,catalyst_loading,20,20,agree
+PMC9295126,f,catalyst_loading_unit,mol%,mol%,agree
+PMC9295126,f,cocatalyst_additives,H2SO4 (1 equiv),H2SO4 (1 equiv),agree
+PMC9295126,f,light_source,none (dark),dark,agree
+PMC9295126,f,solvent,ethyl acetate,ethyl acetate,agree
+PMC9295126,f,concentration,0.1,0.1,agree
+PMC9295126,f,concentration_unit,M (repeat units),M,agree
+PMC9295126,f,atmosphere,O2,O2,agree
+PMC9295126,f,temperature_c,50,50,agree
+PMC9295126,f,time_unit,h,h,agree
+PMC9295126,f,yield_basis,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,disagree
+PMC9295126,f,time,16,16,agree
+PMC9295126,f,products,benzoic acid,[],disagree
+PMC9295126,f,yield:benzoic acid,0,0,agree
+PMC9295126,g,polymer,polystyrene,polystyrene,agree
+PMC9295126,g,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000","commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",agree
+PMC9295126,g,catalyst,fluorenone,fluorenone,agree
+PMC9295126,g,catalyst_loading,20,20,agree
+PMC9295126,g,catalyst_loading_unit,mol%,mol%,agree
+PMC9295126,g,cocatalyst_additives,H2SO4 (1 equiv),H2SO4 (1 equiv),agree
+PMC9295126,g,light_source,blue LED strip (14.4 W),blue LED strip (14.4 W),agree
+PMC9295126,g,wavelength_nm,450,450,agree
+PMC9295126,g,irradiance,14.4,,blind_null
+PMC9295126,g,irradiance_unit,"W (electrical, per LED strip)",,blind_null
+PMC9295126,g,solvent,ethyl acetate,ethyl acetate,agree
+PMC9295126,g,concentration,0.1,0.1,agree
+PMC9295126,g,concentration_unit,M (repeat units),M,agree
+PMC9295126,g,atmosphere,N2,N2,agree
+PMC9295126,g,temperature_c,50,50,agree
+PMC9295126,g,time_unit,h,h,agree
+PMC9295126,g,yield_basis,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,disagree
+PMC9295126,g,time,16,16,agree
+PMC9295126,g,products,benzoic acid,[],disagree
+PMC9295126,g,yield:benzoic acid,0,0,agree
+PMC9295126,h,polymer,polystyrene,polystyrene,agree
+PMC9295126,h,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000","commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",agree
+PMC9295126,h,catalyst,fluorenone,fluorenone,agree
+PMC9295126,h,catalyst_loading,20,20,agree
+PMC9295126,h,catalyst_loading_unit,mol%,mol%,agree
+PMC9295126,h,cocatalyst_additives,no H2SO4 (0 equiv),none (0 equiv H2SO4),disagree
+PMC9295126,h,light_source,blue LED strip (14.4 W),blue LED strip (14.4 W),agree
+PMC9295126,h,wavelength_nm,450,450,agree
+PMC9295126,h,irradiance,14.4,,blind_null
+PMC9295126,h,irradiance_unit,"W (electrical, per LED strip)",,blind_null
+PMC9295126,h,solvent,ethyl acetate,ethyl acetate,agree
+PMC9295126,h,concentration,0.1,0.1,agree
+PMC9295126,h,concentration_unit,M (repeat units),M,agree
+PMC9295126,h,atmosphere,O2,O2,agree
+PMC9295126,h,temperature_c,50,50,agree
+PMC9295126,h,time_unit,h,h,agree
+PMC9295126,h,yield_basis,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,disagree
+PMC9295126,h,time,16,16,agree
+PMC9295126,h,products,benzoic acid,[],disagree
+PMC9295126,h,yield:benzoic acid,0,0,agree
+PMC9295126,i,polymer,polystyrene,polystyrene,agree
+PMC9295126,i,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000","commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",agree
+PMC9295126,i,catalyst,fluorenone,fluorenone,agree
+PMC9295126,i,catalyst_loading,5,5,agree
+PMC9295126,i,catalyst_loading_unit,mol%,mol%,agree
+PMC9295126,i,cocatalyst_additives,H2SO4 (1 equiv),H2SO4 (1 equiv),agree
+PMC9295126,i,light_source,blue LED strip (14.4 W),blue LED strip (14.4 W),agree
+PMC9295126,i,wavelength_nm,450,450,agree
+PMC9295126,i,irradiance,14.4,,blind_null
+PMC9295126,i,irradiance_unit,"W (electrical, per LED strip)",,blind_null
+PMC9295126,i,solvent,ethyl acetate,ethyl acetate,agree
+PMC9295126,i,concentration,0.1,0.1,agree
+PMC9295126,i,concentration_unit,M (repeat units),M,agree
+PMC9295126,i,atmosphere,O2,O2,agree
+PMC9295126,i,temperature_c,50,50,agree
+PMC9295126,i,time_unit,h,h,agree
+PMC9295126,i,yield_basis,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,disagree
+PMC9295126,i,time,16,16,agree
+PMC9295126,i,products,benzoic acid,['benzoic acid'],agree
+PMC9295126,i,yield:benzoic acid,21,21,agree
+PMC9295126,j,polymer,polystyrene,polystyrene,agree
+PMC9295126,j,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000","commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",agree
+PMC9295126,j,catalyst,fluorenone,fluorenone,agree
+PMC9295126,j,catalyst_loading,5,5,agree
+PMC9295126,j,catalyst_loading_unit,mol%,mol%,agree
+PMC9295126,j,cocatalyst_additives,H2SO4 (1 equiv),H2SO4 (1 equiv),agree
+PMC9295126,j,light_source,blue LED strip (14.4 W),blue LED strip (14.4 W),agree
+PMC9295126,j,wavelength_nm,450,450,agree
+PMC9295126,j,irradiance,14.4,,blind_null
+PMC9295126,j,irradiance_unit,"W (electrical, per LED strip)",,blind_null
+PMC9295126,j,solvent,ethyl acetate,ethyl acetate,agree
+PMC9295126,j,concentration,0.1,0.1,agree
+PMC9295126,j,concentration_unit,M (repeat units),M,agree
+PMC9295126,j,atmosphere,O2,O2,agree
+PMC9295126,j,temperature_c,50,50,agree
+PMC9295126,j,time_unit,h,h,agree
+PMC9295126,j,yield_basis,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,disagree
+PMC9295126,j,time,48,48,agree
+PMC9295126,j,products,benzoic acid,['benzoic acid'],agree
+PMC9295126,j,yield:benzoic acid,31,31,agree
+PMC9295126,k,polymer,polystyrene,polystyrene,agree
+PMC9295126,k,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000","commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",agree
+PMC9295126,k,catalyst,fluorenone,fluorenone,agree
+PMC9295126,k,catalyst_loading,20,20,agree
+PMC9295126,k,catalyst_loading_unit,mol%,mol%,agree
+PMC9295126,k,cocatalyst_additives,H2SO4 (0.25 equiv),H2SO4 (0.25 equiv),agree
+PMC9295126,k,light_source,blue LED strip (14.4 W),blue LED strip (14.4 W),agree
+PMC9295126,k,wavelength_nm,450,450,agree
+PMC9295126,k,irradiance,14.4,,blind_null
+PMC9295126,k,irradiance_unit,"W (electrical, per LED strip)",,blind_null
+PMC9295126,k,solvent,ethyl acetate,ethyl acetate,agree
+PMC9295126,k,concentration,0.1,0.1,agree
+PMC9295126,k,concentration_unit,M (repeat units),M,agree
+PMC9295126,k,atmosphere,O2,O2,agree
+PMC9295126,k,temperature_c,50,50,agree
+PMC9295126,k,time_unit,h,h,agree
+PMC9295126,k,yield_basis,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,disagree
+PMC9295126,k,time,16,16,agree
+PMC9295126,k,products,benzoic acid,['benzoic acid'],agree
+PMC9295126,k,yield:benzoic acid,22,22,agree
+PMC9295126,l,polymer,polystyrene,polystyrene,agree
+PMC9295126,l,polymer_detail,"commercial PS, gram scale (10 mmol, 1.04 g)","commercial PS, Mw ~260 000, Mn ~105 000 (gram scale, 1.04 g)",disagree
+PMC9295126,l,catalyst,fluorenone,fluorenone,agree
+PMC9295126,l,catalyst_loading,0.2,0.2,agree
+PMC9295126,l,catalyst_loading_unit,equiv,equiv,agree
+PMC9295126,l,cocatalyst_additives,H2SO4 (1 equiv),H2SO4 (1 equiv),agree
+PMC9295126,l,light_source,blue LED strip (14.4 W),blue LED strip (14.4 W),agree
+PMC9295126,l,wavelength_nm,450,450,agree
+PMC9295126,l,irradiance,14.4,,blind_null
+PMC9295126,l,irradiance_unit,"W (electrical, per LED strip)",,blind_null
+PMC9295126,l,solvent,ethyl acetate,ethyl acetate,agree
+PMC9295126,l,atmosphere,O2,O2,agree
+PMC9295126,l,temperature_c,50,50,agree
+PMC9295126,l,time_unit,h,h,agree
+PMC9295126,l,yield_basis,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,disagree
+PMC9295126,l,replicates,3,3,agree
+PMC9295126,l,time,64,64,agree
+PMC9295126,l,products,benzoic acid,['benzoic acid'],agree
+PMC9295126,l,yield:benzoic acid,36,36,agree
+PMC9295126,m,polymer,polystyrene,polystyrene,agree
+PMC9295126,m,polymer_detail,"expanded PS packaging foam, Mw ~250 000, PDI ~4.2","real-world expanded PS packaging foam, Mw ~250 000, Mn ~59 000, PDI ~4.2",disagree
+PMC9295126,m,catalyst,fluorenone,fluorenone,agree
+PMC9295126,m,catalyst_loading,0.2,0.2,agree
+PMC9295126,m,catalyst_loading_unit,equiv,equiv,agree
+PMC9295126,m,cocatalyst_additives,H2SO4 (1 equiv),H2SO4 (1 equiv),agree
+PMC9295126,m,light_source,blue LED strip (14.4 W),blue LED strip (14.4 W),agree
+PMC9295126,m,wavelength_nm,450,450,agree
+PMC9295126,m,irradiance,14.4,,blind_null
+PMC9295126,m,irradiance_unit,"W (electrical, per LED strip)",,blind_null
+PMC9295126,m,solvent,ethyl acetate,ethyl acetate,agree
+PMC9295126,m,atmosphere,O2,O2,agree
+PMC9295126,m,temperature_c,50,50,agree
+PMC9295126,m,time_unit,h,h,agree
+PMC9295126,m,yield_basis,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,disagree
+PMC9295126,m,replicates,3,3,agree
+PMC9295126,m,time,72,72,agree
+PMC9295126,m,products,benzoic acid,['benzoic acid'],agree
+PMC9295126,m,yield:benzoic acid,36,36,agree
+PMC9295126,c,polymer,polystyrene,,blind_missing
+PMC9295126,c,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000",,blind_missing
+PMC9295126,c,catalyst,fluorenone,,blind_missing
+PMC9295126,c,catalyst_loading,20,,blind_missing
+PMC9295126,c,catalyst_loading_unit,mol%,,blind_missing
+PMC9295126,c,cocatalyst_additives,H2SO4 (1 equiv),,blind_missing
+PMC9295126,c,light_source,blue LED strip (14.4 W),,blind_missing
+PMC9295126,c,wavelength_nm,450,,blind_missing
+PMC9295126,c,irradiance,14.4,,blind_missing
+PMC9295126,c,irradiance_unit,"W (electrical, per LED strip)",,blind_missing
+PMC9295126,c,solvent,ethyl acetate,,blind_missing
+PMC9295126,c,concentration,0.1,,blind_missing
+PMC9295126,c,concentration_unit,M (repeat units),,blind_missing
+PMC9295126,c,atmosphere,O2,,blind_missing
+PMC9295126,c,temperature_c,50,,blind_missing
+PMC9295126,c,time_unit,h,,blind_missing
+PMC9295126,c,yield_basis,mol% per styrene repeat unit,,blind_missing
+PMC9295126,c,replicates,3,,blind_missing
+PMC9295126,c,time,16,16,agree
+PMC9295126,c,products,benzoic acid; CO; CO2,,blind_missing
+PMC9295126,c,yield:benzoic acid,30,30,agree
+PMC9295126,c,yield:CO,21,21,agree
+PMC9295126,c,yield:CO2,7.5,7.5,agree
+PMC9295126,o,polymer,polystyrene,,blind_missing
+PMC9295126,o,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000",,blind_missing
+PMC9295126,o,catalyst,NHPI + cyanamide-functionalized carbon nitride,"H (N-hydroxyphthalimide, NHPI) + carbon nitride (cyanamide-functionalized NCN-CNx) as light absorber",disagree
+PMC9295126,o,catalyst_loading,20,20,agree
+PMC9295126,o,catalyst_loading_unit,mol%,,blind_missing
+PMC9295126,o,cocatalyst_additives,no H2SO4 (0 equiv); carbon nitride light absorber,no H2SO4 (0 equiv); carbon nitride 10 mg per Table 1 footnote d (5.0 mg per Experimental),disagree
+PMC9295126,o,light_source,blue LED strip (14.4 W),,blind_missing
+PMC9295126,o,wavelength_nm,450,,blind_missing
+PMC9295126,o,irradiance,14.4,,blind_missing
+PMC9295126,o,irradiance_unit,"W (electrical, per LED strip)",,blind_missing
+PMC9295126,o,solvent,ethyl acetate,,blind_missing
+PMC9295126,o,concentration,0.1,,blind_missing
+PMC9295126,o,concentration_unit,M (repeat units),,blind_missing
+PMC9295126,o,atmosphere,O2,,blind_missing
+PMC9295126,o,temperature_c,50,,blind_missing
+PMC9295126,o,time_unit,h,,blind_missing
+PMC9295126,o,yield_basis,mol% per styrene repeat unit,,blind_missing
+PMC9295126,o,time,16,16,agree
+PMC9295126,o,products,benzoic acid,,blind_missing
+PMC9295126,o,yield:benzoic acid,5.5,5.5,agree
+PMC9381527,a,polymer,polystyrene,polystyrene,agree
+PMC9381527,a,catalyst,g-C3N4 (graphitic carbon nitride from urea),g-C3N4,agree
+PMC9381527,a,light_source,300 W Xenon lamp (no filter stated),300 W Xenon lamp,agree
+PMC9381527,a,irradiance,300,,blind_null
+PMC9381527,a,irradiance_unit,W (electrical lamp power),,blind_null
+PMC9381527,a,solvent,acetonitrile,acetonitrile (40 mL),agree
+PMC9381527,a,atmosphere,O2,O2 (10 bar),agree
+PMC9381527,a,temperature_c,150,150,agree
+PMC9381527,a,polymer_detail,"real-life PS pellets, 500 mg, circulatory (product-draining) batch system","real-life PS plastic pellets, 500 mg",disagree
+PMC9381527,a,catalyst_loading,200,200,agree
+PMC9381527,a,catalyst_loading_unit,mg (per 500 mg PS),mg,agree
+PMC9381527,a,products,"benzoic acid, acetophenone, benzaldehyde","['benzoic acid', 'acetophenone', 'benzaldehyde']",agree
+PMC9381527,a,yield_basis,amount (mg) obtained from 500 mg PS pellets: 360 mg = total quantified benzoic acid + acetophenone + benzaldehyde; 240 mg = benzoic acid isolated by column chromatography,"mass of products (mg) from 0.5 g PS; 74/15/11% is composition of the oxygenates, not yield",disagree
+PMC9381527,a,yield:aromatic oxygenates (benzoic acid + acetophenone + benzaldehyde),360,360,agree
+PMC9381527,a,yield:benzoic acid (isolated),240,240,agree
+PMC9586668,a,sec_calibration,conventional_PS,conventional_PS,agree
+PMC9586668,a,sec_detector,RI,RI,agree
+PMC9586668,a,sec_eluent,THF,THF,agree
+PMC9586668,a,sec_temperature_c,40,40,agree
+PMC9586668,a,catalyst,Mn2(CO)10,Mn2(CO)10,agree
+PMC9586668,a,light_source,"photoreactor, 400 nm",photoreactor (400 nm),disagree
+PMC9586668,a,wavelength_nm,400,400,agree
+PMC9586668,a,concentration,0.065,0.065,agree
+PMC9586668,a,concentration_unit,M,M,agree
+PMC9586668,a,atmosphere,N2,N2,agree
+PMC9586668,a,time,6,6,agree
+PMC9586668,a,time_unit,h,h,agree
+PMC9586668,a,mass_unit_before,g/mol,g/mol,agree
+PMC9586668,a,mass_unit_after,g/mol,g/mol,agree
+PMC9586668,a,polymer,poly(methyl methacrylate),poly(methyl methacrylate),agree
+PMC9586668,a,polymer_detail,"ATRP PMMA, Cl chain end (benzyl chloride initiator)",PMMA-Cl1,disagree
+PMC9586668,a,solvent,toluene,toluene,agree
+PMC9586668,a,temperature_c,23,23,agree
+PMC9586668,a,mn_before,67000,67000,agree
+PMC9586668,a,mn_after,53000,53000,agree
+PMC9586668,a,disp_before,1.4,1.4,agree
+PMC9586668,a,disp_after,1.4,1.4,agree
+PMC9586668,b,sec_calibration,conventional_PS,conventional_PS,agree
+PMC9586668,b,sec_detector,RI,RI,agree
+PMC9586668,b,sec_eluent,THF,THF,agree
+PMC9586668,b,sec_temperature_c,40,40,agree
+PMC9586668,b,catalyst,Mn2(CO)10,Mn2(CO)10,agree
+PMC9586668,b,light_source,"photoreactor, 400 nm",photoreactor (400 nm),disagree
+PMC9586668,b,wavelength_nm,400,400,agree
+PMC9586668,b,concentration,0.065,0.065,agree
+PMC9586668,b,concentration_unit,M,M,agree
+PMC9586668,b,atmosphere,N2,N2,agree
+PMC9586668,b,time,6,6,agree
+PMC9586668,b,time_unit,h,h,agree
+PMC9586668,b,mass_unit_before,g/mol,g/mol,agree
+PMC9586668,b,mass_unit_after,g/mol,g/mol,agree
+PMC9586668,b,polymer,poly(methyl methacrylate),poly(methyl methacrylate),agree
+PMC9586668,b,polymer_detail,"ATRP PMMA, Br chain end (benzyl bromide initiator)",PMMA-Br,disagree
+PMC9586668,b,solvent,toluene,toluene,agree
+PMC9586668,b,mn_before,5400,5400,agree
+PMC9586668,b,mn_after,5400,5400,agree
+PMC9586668,b,disp_before,1.2,1.2,agree
+PMC9586668,b,disp_after,1.3,1.3,agree
+PMC9586668,c,sec_calibration,conventional_PS,conventional_PS,agree
+PMC9586668,c,sec_detector,RI,RI,agree
+PMC9586668,c,sec_eluent,THF,THF,agree
+PMC9586668,c,sec_temperature_c,40,40,agree
+PMC9586668,c,catalyst,Mn2(CO)10,Mn2(CO)10,agree
+PMC9586668,c,light_source,"photoreactor, 400 nm",photoreactor (400 nm),disagree
+PMC9586668,c,wavelength_nm,400,400,agree
+PMC9586668,c,concentration,0.065,0.065,agree
+PMC9586668,c,concentration_unit,M,M,agree
+PMC9586668,c,atmosphere,N2,N2,agree
+PMC9586668,c,time,6,6,agree
+PMC9586668,c,time_unit,h,h,agree
+PMC9586668,c,mass_unit_before,g/mol,g/mol,agree
+PMC9586668,c,mass_unit_after,g/mol,g/mol,agree
+PMC9586668,c,polymer,poly(methyl methacrylate-co-glycidyl methacrylate),poly(methyl methacrylate-co-glycidyl methacrylate),agree
+PMC9586668,c,polymer_detail,"ATRP copolymer, Cl chain end",PMMA-co-PGMA-Cl,disagree
+PMC9586668,c,solvent,toluene,toluene,agree
+PMC9586668,c,mn_before,5100,5100,agree
+PMC9586668,c,mn_after,4600,4600,agree
+PMC9586668,c,disp_before,1.2,1.2,agree
+PMC9586668,c,disp_after,1.3,1.3,agree
+PMC9586668,d,sec_calibration,conventional_PS,conventional_PS,agree
+PMC9586668,d,sec_detector,RI,RI,agree
+PMC9586668,d,sec_eluent,THF,THF,agree
+PMC9586668,d,sec_temperature_c,40,40,agree
+PMC9586668,d,catalyst,Mn2(CO)10,Mn2(CO)10,agree
+PMC9586668,d,light_source,"photoreactor, 400 nm",photoreactor (400 nm),disagree
+PMC9586668,d,wavelength_nm,400,400,agree
+PMC9586668,d,concentration,0.065,0.065,agree
+PMC9586668,d,concentration_unit,M,M,agree
+PMC9586668,d,atmosphere,N2,N2,agree
+PMC9586668,d,time,6,6,agree
+PMC9586668,d,time_unit,h,h,agree
+PMC9586668,d,mass_unit_before,g/mol,g/mol,agree
+PMC9586668,d,mass_unit_after,g/mol,g/mol,agree
+PMC9586668,d,polymer,poly(methyl methacrylate),poly(methyl methacrylate),agree
+PMC9586668,d,polymer_detail,"ATRP PMMA, Cl chain end",PMMA-Cl2,disagree
+PMC9586668,d,solvent,toluene,toluene,agree
+PMC9586668,d,temperature_c,90,90,agree
+PMC9586668,d,mn_before,56000,56000,agree
+PMC9586668,d,mn_after,41000,41000,agree
+PMC9586668,d,disp_before,1.3,1.3,agree
+PMC9586668,d,disp_after,1.7,1.7,agree
+PMC9586668,e,sec_calibration,conventional_PS,conventional_PS,agree
+PMC9586668,e,sec_detector,RI,RI,agree
+PMC9586668,e,sec_eluent,THF,THF,agree
+PMC9586668,e,sec_temperature_c,40,40,agree
+PMC9586668,e,catalyst,Mn2(CO)10,Mn2(CO)10,agree
+PMC9586668,e,light_source,"photoreactor, 400 nm",photoreactor (400 nm),disagree
+PMC9586668,e,wavelength_nm,400,400,agree
+PMC9586668,e,concentration,0.065,0.065,agree
+PMC9586668,e,concentration_unit,M,M,agree
+PMC9586668,e,atmosphere,N2,N2,agree
+PMC9586668,e,time,6,6,agree
+PMC9586668,e,time_unit,h,h,agree
+PMC9586668,e,mass_unit_before,g/mol,g/mol,agree
+PMC9586668,e,mass_unit_after,g/mol,g/mol,agree
+PMC9586668,e,polymer,poly(methyl methacrylate),poly(methyl methacrylate),agree
+PMC9586668,e,polymer_detail,"ATRP PMMA, Cl chain end",PMMA-Cl2,disagree
+PMC9586668,e,solvent,p-dichlorobenzene,p-dichlorobenzene,agree
+PMC9586668,e,temperature_c,170,170,agree
+PMC9586668,e,mn_before,56000,56000,agree
+PMC9586668,e,mn_after,33000,33000,agree
+PMC9586668,e,disp_before,1.3,1.3,agree
+PMC9586668,e,disp_after,2.0,2.0,agree

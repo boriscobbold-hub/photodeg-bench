@@ -1,0 +1,662 @@
+{
+ "pmcid": "PMC10557129",
+ "verifier": "Claude (AI) independent verifier 1, 2026-10-12",
+ "tasks": [
+  {
+   "rid": "a",
+   "values": {
+    "polymer": {
+     "v": "poly(benzyl methacrylate)",
+     "loc": "body ¶4",
+     "s": "Poly(benzyl methacrylate) (PBzMA)"
+    },
+    "polymer_detail": {
+     "v": "ARGET ATRP-synthesized PBzMA, halogen end-group, Đ ≈ 1.15",
+     "loc": "body ¶4",
+     "s": "(Đ ≈ 1.15"
+    },
+    "concentration": {
+     "v": 50,
+     "loc": "body ¶9",
+     "s": "50 mM repeating unit"
+    },
+    "concentration_unit": {
+     "v": "mM",
+     "loc": "body ¶9",
+     "s": "50 mM repeating unit"
+    },
+    "products": {
+     "v": [
+      "benzyl methacrylate"
+     ],
+     "loc": "body ¶5",
+     "s": "yielded 84% of BzMA"
+    },
+    "yield_basis": {
+     "v": "monomer regenerated, determined by 1H NMR (depolymerization yield)",
+     "loc": "body ¶4",
+     "s": "almost 90% of monomer was successfully regenerated, as confirmed by 1H NMR spectroscopic analysis"
+    },
+    "time_unit": {
+     "v": "min",
+     "loc": null,
+     "s": null
+    },
+    "catalyst": {
+     "v": "FeCl2",
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2"
+    },
+    "catalyst_loading": {
+     "v": 1,
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2 with respect to the halogen end-group"
+    },
+    "catalyst_loading_unit": {
+     "v": "equiv",
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2"
+    },
+    "light_source": {
+     "v": "blue light",
+     "loc": "body ¶4",
+     "s": "under blue light irradiation"
+    },
+    "temperature_c": {
+     "v": 170,
+     "loc": "body ¶4",
+     "s": "under blue light irradiation at 170 °C"
+    },
+    "time": {
+     "v": 5,
+     "loc": "body ¶4",
+     "s": "Within 5 min of reaction"
+    }
+   },
+   "yields": {
+    "benzyl methacrylate": {
+     "v": 90,
+     "u": "%",
+     "loc": "body ¶4",
+     "s": "almost 90% of monomer"
+    }
+   },
+   "concerns": [
+    "Yield is approximate ('almost 90%'); exact value only in Table S4/Figure 2.",
+    "'Photothermal' at 170 °C: thermal control gives 88%, so the light contributes little.",
+    "Concentration 50 mM repeat unit is stated generally in ¶9 ('so far the experiments were performed at 50 mM repeating unit'), not tied to this specific entry."
+   ]
+  },
+  {
+   "rid": "b",
+   "values": {
+    "polymer": {
+     "v": "poly(benzyl methacrylate)",
+     "loc": "body ¶4",
+     "s": "Poly(benzyl methacrylate) (PBzMA)"
+    },
+    "polymer_detail": {
+     "v": "ARGET ATRP-synthesized PBzMA, halogen end-group, Đ ≈ 1.15",
+     "loc": "body ¶4",
+     "s": "(Đ ≈ 1.15"
+    },
+    "concentration": {
+     "v": 50,
+     "loc": "body ¶9",
+     "s": "50 mM repeating unit"
+    },
+    "concentration_unit": {
+     "v": "mM",
+     "loc": "body ¶9",
+     "s": "50 mM repeating unit"
+    },
+    "products": {
+     "v": [
+      "benzyl methacrylate"
+     ],
+     "loc": "body ¶5",
+     "s": "yielded 84% of BzMA"
+    },
+    "yield_basis": {
+     "v": "monomer regenerated, determined by 1H NMR (depolymerization yield)",
+     "loc": "body ¶4",
+     "s": "almost 90% of monomer was successfully regenerated, as confirmed by 1H NMR spectroscopic analysis"
+    },
+    "time_unit": {
+     "v": "min",
+     "loc": null,
+     "s": null
+    },
+    "catalyst": {
+     "v": "FeCl2",
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2"
+    },
+    "catalyst_loading": {
+     "v": 1,
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2 with respect to the halogen end-group"
+    },
+    "catalyst_loading_unit": {
+     "v": "equiv",
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2"
+    },
+    "light_source": {
+     "v": "dark (thermal only)",
+     "loc": "body ¶4",
+     "s": "in the absence of light irradiation (i.e., using only heat)"
+    },
+    "temperature_c": {
+     "v": 170,
+     "loc": "body ¶4",
+     "s": "at 170 °C"
+    }
+   },
+   "yields": {
+    "benzyl methacrylate": {
+     "v": 88,
+     "u": "%",
+     "loc": "body ¶4",
+     "s": "(i.e., 88%)"
+    }
+   },
+   "concerns": [
+    "Dark/thermal control of a. Temperature 170 °C read from the same paragraph's description of the light experiment; time not explicitly stated for the control.",
+    "Not really a 'no reaction' control: thermal reaction nearly as efficient.",
+    "Concentration 50 mM repeat unit is stated generally in ¶9 ('so far the experiments were performed at 50 mM repeating unit'), not tied to this specific entry."
+   ]
+  },
+  {
+   "rid": "c",
+   "values": {
+    "polymer": {
+     "v": "poly(benzyl methacrylate)",
+     "loc": "body ¶4",
+     "s": "Poly(benzyl methacrylate) (PBzMA)"
+    },
+    "polymer_detail": {
+     "v": "ARGET ATRP-synthesized PBzMA, halogen end-group, Đ ≈ 1.15",
+     "loc": "body ¶4",
+     "s": "(Đ ≈ 1.15"
+    },
+    "concentration": {
+     "v": 50,
+     "loc": "body ¶9",
+     "s": "50 mM repeating unit"
+    },
+    "concentration_unit": {
+     "v": "mM",
+     "loc": "body ¶9",
+     "s": "50 mM repeating unit"
+    },
+    "products": {
+     "v": [
+      "benzyl methacrylate"
+     ],
+     "loc": "body ¶5",
+     "s": "yielded 84% of BzMA"
+    },
+    "yield_basis": {
+     "v": "monomer regenerated, determined by 1H NMR (depolymerization yield)",
+     "loc": "body ¶4",
+     "s": "almost 90% of monomer was successfully regenerated, as confirmed by 1H NMR spectroscopic analysis"
+    },
+    "time_unit": {
+     "v": "min",
+     "loc": null,
+     "s": null
+    },
+    "catalyst": {
+     "v": "FeCl2",
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2"
+    },
+    "catalyst_loading": {
+     "v": 1,
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2 with respect to the halogen end-group"
+    },
+    "catalyst_loading_unit": {
+     "v": "equiv",
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2"
+    },
+    "light_source": {
+     "v": "dark (thermal only)",
+     "loc": "body ¶4",
+     "s": "in the absence of light irradiation (i.e., using only heat)"
+    },
+    "temperature_c": {
+     "v": 100,
+     "loc": "body ¶4",
+     "s": "at 100 °C the thermal depolymerization was significantly suppressed"
+    }
+   },
+   "yields": {
+    "benzyl methacrylate": {
+     "v": 6,
+     "u": "%",
+     "loc": "body ¶4",
+     "s": "only 6% of yield achieved within comparable timeframes"
+    }
+   },
+   "concerns": [
+    "Dark control at 100 °C, 1 equiv FeCl2; time only 'within comparable timeframes'.",
+    "The matching light experiment at 100 °C (1 equiv) has no numeric yield in text (Figure 2b only).",
+    "Concentration 50 mM repeat unit is stated generally in ¶9 ('so far the experiments were performed at 50 mM repeating unit'), not tied to this specific entry."
+   ]
+  },
+  {
+   "rid": "d",
+   "values": {
+    "polymer": {
+     "v": "poly(benzyl methacrylate)",
+     "loc": "body ¶4",
+     "s": "Poly(benzyl methacrylate) (PBzMA)"
+    },
+    "polymer_detail": {
+     "v": "ARGET ATRP-synthesized PBzMA, halogen end-group, Đ ≈ 1.15",
+     "loc": "body ¶4",
+     "s": "(Đ ≈ 1.15"
+    },
+    "concentration": {
+     "v": 50,
+     "loc": "body ¶9",
+     "s": "50 mM repeating unit"
+    },
+    "concentration_unit": {
+     "v": "mM",
+     "loc": "body ¶9",
+     "s": "50 mM repeating unit"
+    },
+    "products": {
+     "v": [
+      "benzyl methacrylate"
+     ],
+     "loc": "body ¶5",
+     "s": "yielded 84% of BzMA"
+    },
+    "yield_basis": {
+     "v": "monomer regenerated, determined by 1H NMR (depolymerization yield)",
+     "loc": "body ¶4",
+     "s": "almost 90% of monomer was successfully regenerated, as confirmed by 1H NMR spectroscopic analysis"
+    },
+    "time_unit": {
+     "v": "min",
+     "loc": null,
+     "s": null
+    },
+    "catalyst": {
+     "v": "FeCl2",
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2"
+    },
+    "catalyst_loading": {
+     "v": 1,
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2 with respect to the halogen end-group"
+    },
+    "catalyst_loading_unit": {
+     "v": "equiv",
+     "loc": "body ¶4",
+     "s": "1 equiv of FeCl2"
+    },
+    "light_source": {
+     "v": "blue light",
+     "loc": "body ¶4",
+     "s": "under blue light irradiation"
+    },
+    "temperature_c": {
+     "v": 100,
+     "loc": "Figure 2 caption",
+     "s": "Temporal control of depolymerization of PBzMA at 100 °C using 1 and 0.05 equiv of catalyst"
+    },
+    "time": {
+     "v": 20,
+     "loc": "body ¶4",
+     "s": "During the first period of light irradiation (i.e., 20 min)"
+    }
+   },
+   "yields": {
+    "benzyl methacrylate": {
+     "v": 18,
+     "u": "%",
+     "loc": "body ¶4",
+     "s": "18% of depolymerization yield was attained"
+    }
+   },
+   "concerns": [
+    "Ambiguous which ¶4 result this task means. I took the first 20 min light period of the on/off experiment at 100 °C (18%, Figure 2c/Table S8); 100 °C comes from Figure 2 caption (c), not from ¶4 itself.",
+    "Alternative candidate in ¶4 with a light experiment: 120 °C, 71% ('120 °C still resulted in appreciable depolymerization yield (i.e., 71%)'), no time given and not explicit whether photothermal or thermal.",
+    "After light switched off the yield continued to 31% at 40 min (dark period) - not a light-only result.",
+    "Concentration 50 mM repeat unit is stated generally in ¶9 ('so far the experiments were performed at 50 mM repeating unit'), not tied to this specific entry."
+   ]
+  },
+  {
+   "rid": "e",
+   "values": {
+    "polymer": {
+     "v": "poly(benzyl methacrylate)",
+     "loc": "body ¶4",
+     "s": "Poly(benzyl methacrylate) (PBzMA)"
+    },
+    "polymer_detail": {
+     "v": "ARGET ATRP-synthesized PBzMA, halogen end-group, Đ ≈ 1.15",
+     "loc": "body ¶4",
+     "s": "(Đ ≈ 1.15"
+    },
+    "concentration": {
+     "v": 50,
+     "loc": "body ¶9",
+     "s": "50 mM repeating unit"
+    },
+    "concentration_unit": {
+     "v": "mM",
+     "loc": "body ¶9",
+     "s": "50 mM repeating unit"
+    },
+    "products": {
+     "v": [
+      "benzyl methacrylate"
+     ],
+     "loc": "body ¶5",
+     "s": "yielded 84% of BzMA"
+    },
+    "yield_basis": {
+     "v": "monomer regenerated, determined by 1H NMR (depolymerization yield)",
+     "loc": "body ¶4",
+     "s": "almost 90% of monomer was successfully regenerated, as confirmed by 1H NMR spectroscopic analysis"
+    },
+    "time_unit": {
+     "v": "min",
+     "loc": null,
+     "s": null
+    },
+    "catalyst": {
+     "v": "FeCl2",
+     "loc": "body ¶5",
+     "s": "0.05 equiv of FeCl2"
+    },
+    "catalyst_loading": {
+     "v": 0.05,
+     "loc": "body ¶5",
+     "s": "0.05 equiv of FeCl2"
+    },
+    "catalyst_loading_unit": {
+     "v": "equiv",
+     "loc": "body ¶5",
+     "s": "0.05 equiv of FeCl2"
+    },
+    "light_source": {
+     "v": "dark (thermal only)",
+     "loc": "body ¶4",
+     "s": "in the absence of light irradiation (i.e., using only heat)"
+    },
+    "temperature_c": {
+     "v": 170,
+     "loc": "body ¶5",
+     "s": "even at 170 °C whereby only 5% of yield was observed in the absence of irradiation"
+    }
+   },
+   "yields": {
+    "benzyl methacrylate": {
+     "v": 5,
+     "u": "%",
+     "loc": "body ¶5",
+     "s": "only 5% of yield was observed in the absence of irradiation"
+    }
+   },
+   "concerns": [
+    "Dark control for f; no time stated.",
+    "Concentration 50 mM repeat unit is stated generally in ¶9 ('so far the experiments were performed at 50 mM repeating unit'), not tied to this specific entry."
+   ]
+  },
+  {
+   "rid": "f",
+   "values": {
+    "polymer": {
+     "v": "poly(benzyl methacrylate)",
+     "loc": "body ¶4",
+     "s": "Poly(benzyl methacrylate) (PBzMA)"
+    },
+    "polymer_detail": {
+     "v": "ARGET ATRP-synthesized PBzMA, halogen end-group, Đ ≈ 1.15",
+     "loc": "body ¶4",
+     "s": "(Đ ≈ 1.15"
+    },
+    "concentration": {
+     "v": 50,
+     "loc": "body ¶9",
+     "s": "50 mM repeating unit"
+    },
+    "concentration_unit": {
+     "v": "mM",
+     "loc": "body ¶9",
+     "s": "50 mM repeating unit"
+    },
+    "products": {
+     "v": [
+      "benzyl methacrylate"
+     ],
+     "loc": "body ¶5",
+     "s": "yielded 84% of BzMA"
+    },
+    "yield_basis": {
+     "v": "monomer regenerated, determined by 1H NMR (depolymerization yield)",
+     "loc": "body ¶4",
+     "s": "almost 90% of monomer was successfully regenerated, as confirmed by 1H NMR spectroscopic analysis"
+    },
+    "time_unit": {
+     "v": "min",
+     "loc": null,
+     "s": null
+    },
+    "catalyst": {
+     "v": "FeCl2",
+     "loc": "body ¶5",
+     "s": "0.05 equiv of FeCl2"
+    },
+    "catalyst_loading": {
+     "v": 0.05,
+     "loc": "body ¶5",
+     "s": "0.05 equiv of FeCl2"
+    },
+    "catalyst_loading_unit": {
+     "v": "equiv",
+     "loc": "body ¶5",
+     "s": "0.05 equiv of FeCl2"
+    },
+    "light_source": {
+     "v": "blue light",
+     "loc": "body ¶4",
+     "s": "under blue light irradiation"
+    },
+    "temperature_c": {
+     "v": 170,
+     "loc": "body ¶5",
+     "s": "photothermal depolymerization at 170 °C yielded 84% of BzMA"
+    }
+   },
+   "yields": {
+    "benzyl methacrylate": {
+     "v": 84,
+     "u": "%",
+     "loc": "body ¶5",
+     "s": "yielded 84% of BzMA"
+    }
+   },
+   "concerns": [
+    "No time stated in text for this result.",
+    "Light source is only 'blue light' throughout; no LED model, wavelength or irradiance in main text.",
+    "Concentration 50 mM repeat unit is stated generally in ¶9 ('so far the experiments were performed at 50 mM repeating unit'), not tied to this specific entry."
+   ]
+  },
+  {
+   "rid": "g",
+   "values": {
+    "polymer": {
+     "v": "poly(benzyl methacrylate)",
+     "loc": "body ¶4",
+     "s": "Poly(benzyl methacrylate) (PBzMA)"
+    },
+    "polymer_detail": {
+     "v": "ARGET ATRP-synthesized PBzMA, halogen end-group, Đ ≈ 1.15",
+     "loc": "body ¶4",
+     "s": "(Đ ≈ 1.15"
+    },
+    "concentration": {
+     "v": 50,
+     "loc": "body ¶9",
+     "s": "50 mM repeating unit"
+    },
+    "concentration_unit": {
+     "v": "mM",
+     "loc": "body ¶9",
+     "s": "50 mM repeating unit"
+    },
+    "products": {
+     "v": [
+      "benzyl methacrylate"
+     ],
+     "loc": "body ¶7",
+     "s": "depolymerization"
+    },
+    "yield_basis": {
+     "v": "monomer regenerated, determined by 1H NMR (depolymerization yield)",
+     "loc": "body ¶4",
+     "s": "almost 90% of monomer was successfully regenerated, as confirmed by 1H NMR spectroscopic analysis"
+    },
+    "time_unit": {
+     "v": "min",
+     "loc": null,
+     "s": null
+    },
+    "catalyst": {
+     "v": "FeCl3",
+     "loc": "body ¶7",
+     "s": "replacing the FeCl2 activator with an FeCl3 deactivator"
+    },
+    "catalyst_loading": {
+     "v": 0.05,
+     "loc": "Figure 3 caption",
+     "s": "0.05 equiv of catalyst (FeCl3)"
+    },
+    "catalyst_loading_unit": {
+     "v": "equiv",
+     "loc": "Figure 3 caption",
+     "s": "0.05 equiv of catalyst (FeCl3)"
+    },
+    "light_source": {
+     "v": "blue light",
+     "loc": "body ¶4",
+     "s": "under blue light irradiation"
+    },
+    "temperature_c": {
+     "v": 170,
+     "loc": "body ¶7",
+     "s": "Photothermal depolymerization of PBzMA at 170 °C"
+    }
+   },
+   "yields": {
+    "benzyl methacrylate": {
+     "v": 70,
+     "u": "%",
+     "loc": "body ¶7",
+     "s": "approximately 70% of depolymerization"
+    }
+   },
+   "concerns": [
+    "Yield approximate ('approximately 70%'). Loading 0.05 equiv FeCl3 taken from Figure 3 caption (b), not stated in ¶7 itself.",
+    "No time stated.",
+    "Concentration 50 mM repeat unit is stated generally in ¶9 ('so far the experiments were performed at 50 mM repeating unit'), not tied to this specific entry."
+   ]
+  },
+  {
+   "rid": "h",
+   "values": {
+    "polymer": {
+     "v": "poly(benzyl methacrylate)",
+     "loc": "body ¶4",
+     "s": "Poly(benzyl methacrylate) (PBzMA)"
+    },
+    "polymer_detail": {
+     "v": "ARGET ATRP-synthesized PBzMA, halogen end-group, Đ ≈ 1.15",
+     "loc": "body ¶4",
+     "s": "(Đ ≈ 1.15"
+    },
+    "concentration": {
+     "v": 50,
+     "loc": "body ¶9",
+     "s": "50 mM repeating unit"
+    },
+    "concentration_unit": {
+     "v": "mM",
+     "loc": "body ¶9",
+     "s": "50 mM repeating unit"
+    },
+    "products": {
+     "v": [
+      "benzyl methacrylate"
+     ],
+     "loc": "body ¶7",
+     "s": "depolymerization"
+    },
+    "yield_basis": {
+     "v": "monomer regenerated, determined by 1H NMR (depolymerization yield)",
+     "loc": "body ¶4",
+     "s": "almost 90% of monomer was successfully regenerated, as confirmed by 1H NMR spectroscopic analysis"
+    },
+    "time_unit": {
+     "v": "min",
+     "loc": null,
+     "s": null
+    },
+    "catalyst": {
+     "v": "FeCl3",
+     "loc": "body ¶7",
+     "s": "replacing the FeCl2 activator with an FeCl3 deactivator"
+    },
+    "catalyst_loading": {
+     "v": 0.05,
+     "loc": "Figure 3 caption",
+     "s": "0.05 equiv of catalyst (FeCl3)"
+    },
+    "catalyst_loading_unit": {
+     "v": "equiv",
+     "loc": "Figure 3 caption",
+     "s": "0.05 equiv of catalyst (FeCl3)"
+    },
+    "light_source": {
+     "v": "dark (thermal only)",
+     "loc": "body ¶4",
+     "s": "in the absence of light irradiation (i.e., using only heat)"
+    },
+    "temperature_c": {
+     "v": 170,
+     "loc": "body ¶7",
+     "s": "at 170 °C"
+    }
+   },
+   "yields": {
+    "benzyl methacrylate": {
+     "v": 5,
+     "u": "%",
+     "loc": "body ¶7",
+     "s": "only 5% of yield in the absence of irradiation"
+    }
+   },
+   "concerns": [
+    "Dark control for g; no time stated.",
+    "Concentration 50 mM repeat unit is stated generally in ¶9 ('so far the experiments were performed at 50 mM repeating unit'), not tied to this specific entry."
+   ]
+  }
+ ],
+ "paper_concerns": [
+  "Eligibility: reactions at 100-170 °C ('photothermal'); at 170 °C with 1 equiv FeCl2 thermal alone gives 88%. Visible light is a co-stimulus rather than the sole driver; benchmark should flag photothermal.",
+  "Solvent, light source details (LED type, wavelength, intensity), Mn of PBzMA and most times are not in the main text (SI only).",
+  "'ppm' catalyst level is described in prose but only '0.05 equiv' with respect to end-group is printed; no ppm number.",
+  "Unrecorded text results: 120 °C 71% (¶4); 1 equiv on/off 31% after dark period (¶4); thermal yield eliminated (implicitly 0%) at 150/120/100 °C with 0.05 equiv FeCl2 (¶6) and no monomer at 150/120 °C thermal with FeCl3 (¶8); 170 °C on/off 30% vs >80% continuous (¶8); 2 M repeat unit gives 50% (¶9); PnBuMA, PMMA and green light only in SI tables S18/S19.",
+  "Products: only benzyl methacrylate (BzMA) is quantified."
+ ]
+}

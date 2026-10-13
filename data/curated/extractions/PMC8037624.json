@@ -1,0 +1,30 @@
+{
+ "paper_key": "PMC8037624",
+ "paper_id": "10.3390/polym13070999",
+ "doi": "10.3390/polym13070999",
+ "pmcid": "PMC8037624",
+ "source_license": "cc by",
+ "extractor": "Claude (AI) extraction agent D, 2026-10-12 (re-screen batch)",
+ "extraction_method": "full-text screen (no records)",
+ "screen": {
+  "decision": "exclude",
+  "criteria": "E5",
+  "confidence": "high",
+  "rationale": "Primary study; HDPE microbeads from a facial scrub with C,N-TiO2 under a 50 W visible LED lamp (passes E3), but outcomes are only gravimetric MP concentration loss (71.77% without scavengers), FTIR carbonyl index, OM/SEM morphology and EDS oxygen; no molar mass and no identified product quantified.",
+  "evidence_loc": "Table 3"
+ },
+ "shared": {},
+ "records": [],
+ "excluded_observations": [
+  {
+   "what": "MPs' degradation (%) by gravimetry with/without scavengers",
+   "why": "Mass loss is not an E5 endpoint.",
+   "loc": "Table 3"
+  },
+  {
+   "what": "Carbonyl index A1720/A1380 (0.86 -> 1.11 etc.)",
+   "why": "Carbonyl index excluded under E5.",
+   "loc": "Table 3"
+  }
+ ]
+}

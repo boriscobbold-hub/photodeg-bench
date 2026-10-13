@@ -1,6 +1,6 @@
 # Codebook: photodeg_bench_v1.0.csv
 
-> DRAFT. Definitions of harmonized columns depend on the rules in `rules/harmonization.yaml`; update this file whenever a rule changes.
+> Harmonized columns follow `rules/harmonization.yaml` v1.0. Controlled vocabularies: [VOCABULARIES.md](VOCABULARIES.md).
 
 Columns without `_h` are **as reported** in the source, entered by the curator. Columns ending `_h` and the derived columns below are **computed** by `code/04_harmonize.py`.
 
@@ -8,20 +8,25 @@ Columns without `_h` are **as reported** in the source, entered by the curator. 
 
 | Column | Definition |
 |---|---|
-| record_id | Stable ID, `PDG-<paperseq>-<n>`; never reused after release |
+| record_id | Stable ID `PDG-<PMCID>-<letter>`; never reused after release |
+| pmcid | PubMed Central ID of the full text that was read |
+| is_control | `y` for dark / no-catalyst / no-O<sub>2</sub> / no-additive runs |
 | paper_id | DOI (lower-case) or PMCID when no DOI; joins to `data/processed/corpus.csv` |
 | doi | Source article DOI, bare form `10.xxxx/...` |
 | source_license | Article license as recorded by Europe PMC/OpenAlex (e.g. `cc-by`), checked by curator |
-| locator | Where the value is in the article: `Table 2 r3`, `Fig. 4 caption`, `SI Table S5 r2`, `Results ¶4` |
-| curator, curation_date | Who entered/confirmed the record and when (YYYY-MM-DD) |
-| checked_against_source | `y` only after the curator compared every value with the source |
+| locator | Where the record's main result is in the article (`Table 2 r3`, `Results ¶4`); per-field locators are in `data/curated/evidence.csv` |
+| curator, curation_date | `Claude (AI) autonomous curation`, date |
+| extractor, extraction_method | Which extraction agent, and whether values came from tables and/or text |
+| source_verified | `y` = every field's source string was found at its locator and its number matches (deterministic check) |
+| blind_verified | `y` = an independent blind re-extraction covered the record and no substantive disagreement is unresolved |
+| qa_flags | `;`-separated: `approximate_value`, `standard_conditions_applied`, `thermal_contribution`, `heated_ge_80C`, `sec_estimate`, `bimodal_sec` (evidence in `data/curated/qa_flags.csv`) |
 
 ## Polymer
 
 | Column | Definition |
 |---|---|
 | polymer | Polymer name, canonical form (e.g. `polystyrene`, `poly(methyl methacrylate)`) |
-| polymer_class | `vinyl_styrenic`, `vinyl_methacrylate`, `vinyl_acrylate`, `vinyl_halogenated`, `vinyl_other`, `polyolefin`, `polyester`, `polycarbonate`, `polyamide`, `polyurethane`, `polyether`, `biopolymer`, `other` |
+| polymer_class | see VOCABULARIES.md |
 | polymer_detail | Free text: tacticity, end groups, commercial grade, post-consumer source, film/powder |
 
 ## Molar mass (as reported)
@@ -37,7 +42,7 @@ Columns without `_h` are **as reported** in the source, entered by the curator. 
 
 | Column | Definition |
 |---|---|
-| sec_calibration | `conventional_PS`, `conventional_PMMA`, `conventional_PEG_PEO`, `universal_calibration`, `absolute_MALS`, `triple_detection`, `high_temperature_SEC`, `MALDI_TOF`, `DOSY_NMR`, `other`, `not_reported` |
+| sec_calibration | see VOCABULARIES.md; `not_reported` when the paper states none |
 | sec_detector | e.g. RI, UV, MALS, viscometer |
 | sec_eluent | e.g. THF, chloroform, DMF + LiBr, TCB |
 | sec_temperature_c | Column temperature, °C |
@@ -63,22 +68,25 @@ Columns without `_h` are **as reported** in the source, entered by the curator. 
 | Column | Definition |
 |---|---|
 | products | Named products, `;`-separated |
-| product_yields | `name: value unit` items, `;`-separated, e.g. `benzoic acid: 40 %` |
-| yield_basis | `mol% per repeat unit`, `wt%`, `isolated`, `NMR`, as reported |
+| product_yields | `name: value unit` items, `;`-separated, e.g. `benzoic acid: 40 %`; units `%`, `mol%`, `wt%` or an amount (`mg`) |
+| yield_basis | How the paper defines the yield (per repeat unit, isolated, NMR, GC-FID, ...) |
+| yield_uncertainty | Per-product uncertainty as printed (e.g. `± 2 (SD, n=3)`) |
+| replicates | Number of replicates when stated |
 
 ## Harmonized and derived (set by rules)
 
 | Column | Rule | Definition |
 |---|---|---|
 | mn_before_h … mp_after_h, mass_unit_h | R01, R03, R04 | Masses in the canonical unit; converted or cleared per calibration policy |
-| calibration_class | R05 | e.g. absolute / matched_conventional / mismatched_conventional / unknown |
+| calibration_class | R05 | absolute / matched_conventional / mismatched_conventional / unknown / other_method / not_applicable (no molar mass) |
 | mass_basis | R03 | `as_reported`, `relative_mismatched`, `universal_conversion`, `conversion_unavailable`, `excluded_mismatched` |
 | primary_average, primary_before, primary_after | R02, R07 | Which average is compared and its two values |
 | retained_fraction | R06 | primary_after / primary_before |
 | percent_reduction | R06 | 100 × (1 − retained_fraction) |
-| scissions_per_chain | R06 | M<sub>n,before</sub>/M<sub>n,after</sub> − 1 |
 | primary_metric | R06 | The metric used for ranking and figures |
-| wavelength_band, light_flags | R08, R09 | Band label; flags `broadband`, `uv_component`, `solar_or_xenon` |
+| wavelength_band, light_flags | R08, R09 | `violet`/`blue`/`green`/`yellow_orange_red`/`broadband`/`dark`/`unknown`; flags `broadband`, `uv_component`, `solar_or_xenon` |
+| thermal_regime | R15 | `ambient` (<60 °C), `heated` (60–120), `high_temperature` (>120), `not_reported` |
 | time_h, time_unit_h | R10 | Time in the canonical unit |
 | is_control | R13 | `y` for dark / no-catalyst / no-O<sub>2</sub> controls |
-| tier | R11 | Comparability tier; `unranked` if no tier's conditions hold |
+| tier_molar_mass | R11 | MM-A (absolute/matched calibration, time, wavelength), MM-B (time, wavelength), MM-C (before/after only) |
+| tier_product_yield | R11 | PY-A (time, wavelength, yield basis), PY-B (time), PY-C (yield only) |

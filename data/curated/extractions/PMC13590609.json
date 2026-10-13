@@ -1,0 +1,634 @@
+{
+ "paper_key": "PMC13590609",
+ "paper_id": "10.1038/s41467-026-77075-1",
+ "doi": "10.1038/s41467-026-77075-1",
+ "pmcid": "PMC13590609",
+ "source_license": "cc by-nc-nd",
+ "extractor": "Claude (AI) extraction agent C, 2026-10-12",
+ "extraction_method": "text",
+ "screen": {
+  "decision": "include",
+  "criteria": "E1-E6 pass",
+  "confidence": "high",
+  "rationale": "Primary study; 415 nm light generates Cl radicals from chlorinated solvents that cut PP (Mn before/after by HT-GPC in text) and release HCl that depolymerizes PET to terephthalic acid (isolated yields in text). Light step required (dark control Mn 30.8 vs 14.7 kDa; no TPA without light).",
+  "evidence_loc": "Results > Oxidative degradation of polypropylene (PP) ¶1"
+ },
+ "shared": {
+  "catalyst": {
+   "v": "none (Cl radicals generated in situ from chlorinated solvent)",
+   "loc": "abstract",
+   "s": "chlorine radicals generated in situ from these discarded solvents"
+  },
+  "light_source": {
+   "v": "two 415 nm LED lamps (50 W each), 4 cm from vessel",
+   "loc": "Methods > Preparation of OPPs ¶1",
+   "s": "two symmetrically arranged 415 nm LED lamps (50 W"
+  },
+  "wavelength_nm": {
+   "v": 415,
+   "loc": "Methods > Preparation of OPPs ¶1",
+   "s": "415 nm LED lamps"
+  },
+  "light_color": {
+   "v": "violet",
+   "inferred": "415 nm lies in the violet band (380-450 nm); paper also calls it blue light"
+  },
+  "irradiance": {
+   "v": 50,
+   "loc": "Methods > Preparation of OPPs ¶1",
+   "s": "(50 W, purchased from Taobao.com)"
+  },
+  "irradiance_unit": {
+   "v": "W (electrical, per lamp; two lamps)",
+   "inferred": "value is LED electrical power, not irradiance at sample"
+  },
+  "solvent": {
+   "v": "mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",
+   "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+   "s": "composed of CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, and TCE, 2 mL each"
+  },
+  "atmosphere": {
+   "v": "air",
+   "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+   "s": "at 130 °C in air"
+  },
+  "temperature_c": {
+   "v": 130,
+   "loc": "Methods > Preparation of OPPs ¶1",
+   "s": "oil bath at 130 °C"
+  },
+  "time_unit": {
+   "v": "h",
+   "inferred": "unit printed with the value"
+  }
+ },
+ "records": [
+  {
+   "rid": "a",
+   "primary_loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+   "fields": {
+    "polymer": {
+     "v": "polypropylene",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "a commercial polypropylene sample (P1, MFI = 28 g·10 min-1)"
+    },
+    "polymer_class": {
+     "v": "polyolefin",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "P1, commercial PP particles (Adamas), MFI = 28 g/10 min",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "P1, MFI = 28 g·10 min-1"
+    },
+    "concentration": null,
+    "concentration_unit": null,
+    "time": {
+     "v": 18,
+     "loc": "Methods > Preparation of OPPs ¶1",
+     "s": "irradiated for 18 h"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "The calibration was made by using a polystyrene standard"
+    },
+    "sec_eluent": {
+     "v": "1,2,4-trichlorobenzene",
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "1,2,4-trichlorobenzene (TCB) was employed as an eluent"
+    },
+    "sec_temperature_c": {
+     "v": 145,
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "determined at 145 °C"
+    },
+    "mn_before": {
+     "v": 45.7,
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "decreased from 45.7 kDa (P1)"
+    },
+    "mass_unit_before": {
+     "v": "kDa",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "45.7 kDa"
+    },
+    "mass_unit_after": {
+     "v": "kDa",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "affording OPP1 with an Mn of 14.7 kDa in air"
+    },
+    "mn_after": {
+     "v": 14.7,
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "affording OPP1 with an Mn of 14.7 kDa in air"
+    }
+   },
+   "notes": "Standard conditions (mixed Cl-Sol, 130 °C, air, 415 nm, 18 h); product OPP1 (methyl-ketone/alkene end-functionalized PP). [adjudicated concentration: both partly] [adjudicated concentration_unit: follow-on]"
+  },
+  {
+   "rid": "b",
+   "primary_loc": "Results > Oxidative degradation of polypropylene (PP) ¶2",
+   "fields": {
+    "polymer": {
+     "v": "polypropylene",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "a commercial polypropylene sample (P1, MFI = 28 g·10 min-1)"
+    },
+    "polymer_class": {
+     "v": "polyolefin",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "P1, commercial PP particles (Adamas), MFI = 28 g/10 min",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "P1, MFI = 28 g·10 min-1"
+    },
+    "concentration": null,
+    "concentration_unit": null,
+    "time": {
+     "v": 18,
+     "loc": "Methods > Preparation of OPPs ¶1",
+     "s": "irradiated for 18 h"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "The calibration was made by using a polystyrene standard"
+    },
+    "sec_eluent": {
+     "v": "1,2,4-trichlorobenzene",
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "1,2,4-trichlorobenzene (TCB) was employed as an eluent"
+    },
+    "sec_temperature_c": {
+     "v": 145,
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "determined at 145 °C"
+    },
+    "mn_before": {
+     "v": 45.7,
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "decreased from 45.7 kDa (P1)"
+    },
+    "mass_unit_before": {
+     "v": "kDa",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "45.7 kDa"
+    },
+    "mass_unit_after": {
+     "v": "kDa",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶2",
+     "s": "a more pronounced reduction in Mn to 6.6 kDa"
+    },
+    "mn_after": {
+     "v": 6.6,
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶2",
+     "s": "a more pronounced reduction in Mn to 6.6 kDa"
+    },
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶2",
+     "s": "When pure O2 was introduced"
+    }
+   },
+   "notes": "Product OPP1-oxy; same conditions as standard but pure O2. [adjudicated concentration: both partly] [adjudicated concentration_unit: follow-on]"
+  },
+  {
+   "rid": "c",
+   "primary_loc": "Results > Oxidative degradation of polypropylene (PP) ¶2",
+   "fields": {
+    "polymer": {
+     "v": "polypropylene",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "a commercial polypropylene sample (P1, MFI = 28 g·10 min-1)"
+    },
+    "polymer_class": {
+     "v": "polyolefin",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "P1, commercial PP particles (Adamas), MFI = 28 g/10 min",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "P1, MFI = 28 g·10 min-1"
+    },
+    "concentration": null,
+    "concentration_unit": null,
+    "time": null,
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "The calibration was made by using a polystyrene standard"
+    },
+    "sec_eluent": {
+     "v": "1,2,4-trichlorobenzene",
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "1,2,4-trichlorobenzene (TCB) was employed as an eluent"
+    },
+    "sec_temperature_c": {
+     "v": 145,
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "determined at 145 °C"
+    },
+    "mn_before": {
+     "v": 45.7,
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "decreased from 45.7 kDa (P1)"
+    },
+    "mass_unit_before": {
+     "v": "kDa",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "45.7 kDa"
+    },
+    "mass_unit_after": {
+     "v": "kDa",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶2",
+     "s": "(Mn = 30.8 kDa; Supplementary Table S3, Entry 7)"
+    },
+    "mn_after": {
+     "v": 30.8,
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶2",
+     "s": "(Mn = 30.8 kDa; Supplementary Table S3, Entry 7)"
+    },
+    "light_source": {
+     "v": "none (dark)",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶2",
+     "s": "In the absence of light"
+    },
+    "wavelength_nm": null,
+    "light_color": null,
+    "irradiance": null,
+    "irradiance_unit": null,
+    "temperature_c": null,
+    "atmosphere": null
+   },
+   "notes": "control: no light (dark, heated). Reaction temperature for this entry is not stated in the text (paragraph also discusses 90 °C; Table S3 in SI), so temperature is left empty. [adjudicated concentration: both partly] [adjudicated concentration_unit: follow-on] [adjudicated time: blind correct] [adjudicated atmosphere: blind correct]",
+   "is_control": true
+  },
+  {
+   "rid": "d",
+   "primary_loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+   "fields": {
+    "polymer": {
+     "v": "poly(ethylene terephthalate)",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "PET"
+    },
+    "polymer_class": {
+     "v": "polyester",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "PET flakes in PP/PET blend at 1:1 mass ratio",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "When the PP/PET ratio was increased to 1:1"
+    },
+    "time": {
+     "v": 18,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "irradiated for 18 h"
+    },
+    "products": {
+     "v": "terephthalic acid",
+     "loc": "abstract",
+     "s": "PET depolymerization into terephthalic acid"
+    },
+    "yield_basis": {
+     "v": "isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",
+     "inferred": "Methods co-cycling workup and 'over 90% of terephthalic acid (TPA) was isolated'"
+    },
+    "product_yields": [
+     {
+      "product": "terephthalic acid",
+      "v": 70,
+      "u": "%",
+      "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+      "s": "the TPA yield decreased to ~70%",
+      "name_loc": "abstract",
+      "name_s": "terephthalic acid"
+     }
+    ],
+    "cocatalyst_additives": {
+     "v": "polypropylene co-feed (PP/PET 1:1 by mass) as in situ HCl source",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "When the PP/PET ratio was increased to 1:1"
+    },
+    "replicates": {
+     "v": 5,
+     "loc": "Fig. 3 caption",
+     "s": "(n = 5, mean ± SD)"
+    }
+   },
+   "notes": "Fig. 3b entry 4; value approximate ('~70%') in text; nearly all HCl consumed. PP grade and absolute amounts for this entry not stated in text."
+  },
+  {
+   "rid": "e",
+   "primary_loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+   "fields": {
+    "polymer": {
+     "v": "poly(ethylene terephthalate)",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "PET"
+    },
+    "polymer_class": {
+     "v": "polyester",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "PET co-fed with pre-formed OPP5 instead of P5",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "when pre-formed OPP5 was used instead of P5"
+    },
+    "time": {
+     "v": 18,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "irradiated for 18 h"
+    },
+    "products": {
+     "v": "terephthalic acid",
+     "loc": "abstract",
+     "s": "PET depolymerization into terephthalic acid"
+    },
+    "yield_basis": {
+     "v": "isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",
+     "inferred": "Methods co-cycling workup and 'over 90% of terephthalic acid (TPA) was isolated'"
+    },
+    "product_yields": [
+     {
+      "product": "terephthalic acid",
+      "v": 48.1,
+      "u": "%",
+      "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+      "s": "48.1% TPA yield",
+      "name_loc": "abstract",
+      "name_s": "terephthalic acid"
+     }
+    ],
+    "cocatalyst_additives": {
+     "v": "pre-formed OPP5 (oxidized PP) instead of P5",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "pre-formed OPP5 was used instead of P5"
+    }
+   },
+   "notes": "Supplementary Table S5 value quoted in main text; PET conversion 56.6% (same sentence). PP/PET ratio not stated with this value."
+  },
+  {
+   "rid": "f",
+   "primary_loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+   "fields": {
+    "polymer": {
+     "v": "poly(ethylene terephthalate)",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "PET"
+    },
+    "polymer_class": {
+     "v": "polyester",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "post-consumer PET bowl, co-treated with PP cup (PP 1 g / PET 0.5 g)",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "PET bowl/PP cup"
+    },
+    "time": {
+     "v": 18,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "irradiated for 18 h"
+    },
+    "products": {
+     "v": "terephthalic acid",
+     "loc": "abstract",
+     "s": "PET depolymerization into terephthalic acid"
+    },
+    "yield_basis": {
+     "v": "isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",
+     "inferred": "Methods co-cycling workup and 'over 90% of terephthalic acid (TPA) was isolated'"
+    },
+    "product_yields": [
+     {
+      "product": "terephthalic acid",
+      "v": 92.8,
+      "u": "%",
+      "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+      "s": "yields of 92.8%",
+      "name_loc": "abstract",
+      "name_s": "terephthalic acid"
+     }
+    ],
+    "solvent": {
+     "v": "distilled mixed chlorinated solvent wastes (laboratory)",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "distilled mixed chlorinated solvent wastes"
+    }
+   },
+   "notes": "Same procedure applied to real-life samples (Methods). Amounts from Fig. 4 caption."
+  },
+  {
+   "rid": "g",
+   "primary_loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+   "fields": {
+    "polymer": {
+     "v": "poly(ethylene terephthalate)",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "PET"
+    },
+    "polymer_class": {
+     "v": "polyester",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "post-consumer PET rag, co-treated with PP tube (PP 1 g / PET 0.5 g)",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "PET rag/PP tube"
+    },
+    "time": {
+     "v": 18,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "irradiated for 18 h"
+    },
+    "products": {
+     "v": "terephthalic acid",
+     "loc": "abstract",
+     "s": "PET depolymerization into terephthalic acid"
+    },
+    "yield_basis": {
+     "v": "isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",
+     "inferred": "Methods co-cycling workup and 'over 90% of terephthalic acid (TPA) was isolated'"
+    },
+    "product_yields": [
+     {
+      "product": "terephthalic acid",
+      "v": 79.9,
+      "u": "%",
+      "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+      "s": "79.9%",
+      "name_loc": "abstract",
+      "name_s": "terephthalic acid"
+     }
+    ],
+    "solvent": {
+     "v": "distilled mixed chlorinated solvent wastes (laboratory)",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "distilled mixed chlorinated solvent wastes"
+    }
+   },
+   "notes": "Same procedure applied to real-life samples (Methods)."
+  },
+  {
+   "rid": "h",
+   "primary_loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+   "fields": {
+    "polymer": {
+     "v": "poly(ethylene terephthalate)",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "PET"
+    },
+    "polymer_class": {
+     "v": "polyester",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "post-consumer PET bottle, co-treated with PP jug (PP 1 g / PET 0.5 g)",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "PET bottle/PP jug"
+    },
+    "time": {
+     "v": 18,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "irradiated for 18 h"
+    },
+    "products": {
+     "v": "terephthalic acid",
+     "loc": "abstract",
+     "s": "PET depolymerization into terephthalic acid"
+    },
+    "yield_basis": {
+     "v": "isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",
+     "inferred": "Methods co-cycling workup and 'over 90% of terephthalic acid (TPA) was isolated'"
+    },
+    "product_yields": [
+     {
+      "product": "terephthalic acid",
+      "v": 91.1,
+      "u": "%",
+      "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+      "s": "91.1%",
+      "name_loc": "abstract",
+      "name_s": "terephthalic acid"
+     }
+    ],
+    "solvent": {
+     "v": "distilled mixed chlorinated solvent wastes (laboratory)",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "distilled mixed chlorinated solvent wastes"
+    }
+   },
+   "notes": "Same procedure applied to real-life samples (Methods)."
+  },
+  {
+   "rid": "i",
+   "primary_loc": "Results > Co-upcycling of real-world PET and PP plastics ¶2",
+   "fields": {
+    "polymer": {
+     "v": "poly(ethylene terephthalate)",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶2",
+     "s": "PET"
+    },
+    "polymer_class": {
+     "v": "polyester",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "post-consumer PET (3.5 g) co-treated with post-consumer PP (7 g), scale-up",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶2",
+     "s": "7 g of post-consumer PP and 3.5 g of PET"
+    },
+    "time": null,
+    "products": {
+     "v": "terephthalic acid",
+     "loc": "abstract",
+     "s": "PET depolymerization into terephthalic acid"
+    },
+    "yield_basis": {
+     "v": "isolated yield",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶2",
+     "s": "90% isolated TPA"
+    },
+    "product_yields": [
+     {
+      "product": "terephthalic acid",
+      "v": 90,
+      "u": "%",
+      "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶2",
+      "s": "90% isolated TPA",
+      "name_loc": "abstract",
+      "name_s": "terephthalic acid"
+     }
+    ]
+   },
+   "notes": "Scale-up (Fig. 4b); time and solvent volume not stated in text; record has no time field. OPP recovered 96 wt% (not recorded, see exclusions)."
+  }
+ ],
+ "excluded_observations": [
+  {
+   "what": "Solvent screen: Mn of OPP 11-17 kDa across single chlorinated solvents",
+   "why": "Range; individual values in Supplementary Table S1.",
+   "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1"
+  },
+  {
+   "what": "N2 atmosphere: cross-linking",
+   "why": "Qualitative, no value.",
+   "loc": "Results > Oxidative degradation of polypropylene (PP) ¶2"
+  },
+  {
+   "what": "90 °C and 70 °C runs",
+   "why": "Qualitative ('comparable', 'decreased'); values in Supplementary Table S3.",
+   "loc": "Results > Oxidative degradation of polypropylene (PP) ¶2"
+  },
+  {
+   "what": "P2-P5 and MixPP: final Mn 12.6-15.5 kDa; starting Mn range 45.7-214.9 kDa",
+   "why": "Ranges; per-sample values only in Fig. 2a table image.",
+   "loc": "Results > Oxidative degradation of polypropylene (PP) ¶3"
+  },
+  {
+   "what": "Ketone/alkene contents (171/129 and 8.5/8.5 µmol/g), Tm, crystallinity, lap-shear strengths",
+   "why": "Material properties of OPP, not deconstruction endpoints.",
+   "loc": "Results > Structural, thermal characterization, and application of oxidized PP ¶1"
+  },
+  {
+   "what": "PP/PET 1:0.1 and 1:0.5: 'over 90%' TPA",
+   "why": "Lower bound, not a value; exact values in Fig. 3b.",
+   "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2"
+  },
+  {
+   "what": "Controls without PP or without 415 nm light: 'no TPA'",
+   "why": "Completeness pass 2026-10-12: kept excluded. Text says only 'yielded no TPA' with no numeric value (the verifier needs a number in s), and the PP/PET ratio and amounts for entries 5-6 are not stated (130 °C, 18 h is attached only to entries 1-2).",
+   "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2"
+  },
+  {
+   "what": "PET conversion 56.6% (OPP5 co-feed)",
+   "why": "Conversion is not a product yield; kept in record e notes.",
+   "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2"
+  },
+  {
+   "what": "TCE/EDC control: 33.1% EDC retention; EDC product",
+   "why": "Solvent-retention control, EDC not quantified as product.",
+   "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶3"
+  },
+  {
+   "what": "Solvent recycling runs: 92.4~94.9% TPA, 93.5~94.7% OPP recovery, 96.5~97.3% PET conversion",
+   "why": "Ranges over cycles; per-cycle values in Supplementary Table S4.",
+   "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶4"
+  },
+  {
+   "what": "Scale-up OPP 96 wt%",
+   "why": "Mass recovery of the PP residue, not a product yield or molar mass.",
+   "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶2"
+  },
+  {
+   "what": "Abstract/intro summary values (OPP 10-17 kDa, TPA >90%)",
+   "why": "Ranges/bounds summarizing results recorded elsewhere.",
+   "loc": "Introduction ¶3"
+  }
+ ]
+}

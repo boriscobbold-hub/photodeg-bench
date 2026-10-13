@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC TEST FIXTURE: invented values; a table nested inside a paragraph with a colspan header. -->
+<article><front><article-meta><title-group><article-title>Synthetic nested table</article-title></title-group></article-meta></front>
+<body><sec><title>Results</title>
+<p>Molar masses are given in Table 1.<table-wrap><label>Table 1.</label><caption><p>Synthetic.</p></caption>
+<table><thead><tr><th rowspan="2">Polymer</th><th colspan="2">Mn (g.mol-1)</th></tr><tr><th>Before</th><th>After</th></tr></thead>
+<tbody><tr><td>P-1</td><td>67,000</td><td>53,000</td></tr><tr><td>P-2</td><td>1,4</td><td>0,065</td></tr></tbody></table>
+<table-wrap-foot><fn><p>a irradiated at 400 nm for 6 h in triplicate.</p></fn></table-wrap-foot></table-wrap> The values decreased.</p>
+</sec></body></article>

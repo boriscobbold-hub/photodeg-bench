@@ -1,0 +1,30 @@
+{
+ "paper_key": "PMC13051431",
+ "paper_id": "10.1021/acsami.5c21187",
+ "doi": "10.1021/acsami.5c21187",
+ "pmcid": "PMC13051431",
+ "source_license": "cc by",
+ "extractor": "Claude (AI) extraction agent D, 2026-10-12 (re-screen batch)",
+ "extraction_method": "full-text screen (no records)",
+ "screen": {
+  "decision": "exclude",
+  "criteria": "E5",
+  "confidence": "high",
+  "rationale": "Primary study; LDPE particles in an NH2-MIL-88B(Fe) photocatalytic membrane reactor under a 400 W metal lamp (180 W/m2, passes E3), but outcomes are only mass loss (22.3% membrane, 37.9% powder), rejection ratios, particle size, FTIR, CO2 by GC and TOC (SI figures); the text states no specific liquid products were identified, and no molar mass is reported.",
+  "evidence_loc": "Results and Discussion > LDPE Particle Removal Using the PMR with the MRS-NM88B and MRS-NM88B\nMembranes ¶7"
+ },
+ "shared": {},
+ "records": [],
+ "excluded_observations": [
+  {
+   "what": "Mass loss 22.3% (MRS-NM88B) / 18.0% (MRS-M88B); powder 37.9% / 16.2%",
+   "why": "Mass loss is not an E5 endpoint.",
+   "loc": "Results and Discussion > LDPE Particle Removal Using the PMR with the MRS-NM88B and MRS-NM88B\nMembranes ¶7"
+  },
+  {
+   "what": "CO2 evolution and TOC increase; no liquid products identified by HPLC",
+   "why": "CO2/TOC are not E5 endpoints; data only in SI Figure S11.",
+   "loc": "Results and Discussion > LDPE Particle Removal Using the PMR with the MRS-NM88B and MRS-NM88B\nMembranes ¶9"
+  }
+ ]
+}

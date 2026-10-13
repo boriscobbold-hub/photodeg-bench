@@ -1,0 +1,35 @@
+{
+ "paper_key": "PMC9939864",
+ "paper_id": "10.1038/s41467-023-36650-6",
+ "doi": "10.1038/s41467-023-36650-6",
+ "pmcid": "PMC9939864",
+ "source_license": "cc by",
+ "extractor": "Claude (AI) extraction agent D, 2026-10-12",
+ "extraction_method": "full-text screen (no records)",
+ "screen": {
+  "decision": "exclude",
+  "criteria": "E5",
+  "confidence": "high",
+  "rationale": "Primary study; PP face-mask filter fibres photo-oxidised by Fe3O4/Bi2O3/Ag microswarm under a 300 W Ultra-Vitalux lamp (UV-vis, passes E3), but outcomes are only SEM morphology, BET surface area/pore volume, FTIR carbonyl index (~26-fold), TGA onset shift and EDX oxygen wt%; no molar mass before/after and no quantified product (SPME-GC-MS by-products are qualitative and in SI).",
+  "evidence_loc": "Results > Photo-oxidative effect of 1D microrobots to accelerate the disruption of polypropylene filter membranes ¶2"
+ },
+ "shared": {},
+ "records": [],
+ "excluded_observations": [
+  {
+   "what": "BET surface area 6.7 vs 12.8 m2/g, pore volume",
+   "why": "Morphological measure, not an E5 endpoint.",
+   "loc": "Results > Photo-oxidative effect of 1D microrobots to accelerate the disruption of polypropylene filter membranes ¶2"
+  },
+  {
+   "what": "Carbonyl index ~26-fold increase; EDX oxygen 13.4 vs 6.6 wt%; TGA weight-loss onset",
+   "why": "Carbonyl index / compositional indicators are excluded under E5.",
+   "loc": "Results > Photo-oxidative effect of 1D microrobots to accelerate the disruption of polypropylene filter membranes ¶4"
+  },
+  {
+   "what": "SPME-GC-MS by-products (acetaldehyde etc.)",
+   "why": "Identified qualitatively by m/z only; no amounts; data in Supplementary Fig. 8.",
+   "loc": "Results > Photo-oxidative effect of 1D microrobots to accelerate the disruption of polypropylene filter membranes ¶7"
+  }
+ ]
+}

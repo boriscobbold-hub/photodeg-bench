@@ -1,0 +1,35 @@
+{
+ "paper_key": "PMC12951843",
+ "paper_id": "10.1039/d6ra00096g",
+ "doi": "10.1039/d6ra00096g",
+ "pmcid": "PMC12951843",
+ "source_license": "cc by-nc",
+ "extractor": "Claude (AI) extraction agent D, 2026-10-12",
+ "extraction_method": "full-text screen (no records)",
+ "screen": {
+  "decision": "exclude",
+  "criteria": "E5",
+  "confidence": "high",
+  "rationale": "Primary study; KOH-pretreated PET and PLA microplastics with CQDs@TiO2 under a 250 W Xe lamp (100 mW/cm2, passes E3; the brief KOH surface treatment leaves solid polymer, so E4 is not the failing criterion), but the only quantitative outcome is gravimetric 'degradation rate' (mass loss, Tables 3-4: 29.8% PET, 58.9% PLA at 48 h, pH 8); LC-MS/HS-GC-MS products are identified qualitatively in SI and no molar mass is measured.",
+  "evidence_loc": "Table 3"
+ },
+ "shared": {},
+ "records": [],
+ "excluded_observations": [
+  {
+   "what": "Mass-loss degradation rates for PET and PLA, pH 6.8-8.0, with/without alkali and catalyst",
+   "why": "Mass loss is not an E5 endpoint.",
+   "loc": "Table 3"
+  },
+  {
+   "what": "Quencher experiments (mass loss)",
+   "why": "Mass loss only.",
+   "loc": "Table 4"
+  },
+  {
+   "what": "Degradation intermediates (benzoic acid, MHET, lactic acid, ethanol, acetaldehyde...)",
+   "why": "Identified qualitatively; no amounts; details in SI Tables S3-S5.",
+   "loc": "Results and discussion ¶17"
+  }
+ ]
+}

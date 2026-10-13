@@ -1,0 +1,505 @@
+pmcid,rid,field,type,extracted,blind,detail
+PMC10557129,,,paper_concern,,,Eligibility: reactions at 100-170 °C ('photothermal'); at 170 °C with 1 equiv FeCl2 thermal alone gives 88%. Visible light is a co-stimulus rather than the sole driver; benchmark should flag photothermal.
+PMC10557129,,,paper_concern,,,"Solvent, light source details (LED type, wavelength, intensity), Mn of PBzMA and most times are not in the main text (SI only)."
+PMC10557129,,,paper_concern,,,'ppm' catalyst level is described in prose but only '0.05 equiv' with respect to end-group is printed; no ppm number.
+PMC10557129,,,paper_concern,,,"Unrecorded text results: 120 °C 71% (¶4); 1 equiv on/off 31% after dark period (¶4); thermal yield eliminated (implicitly 0%) at 150/120/100 °C with 0.05 equiv FeCl2 (¶6) and no monomer at 150/120 °C thermal with FeCl3 (¶8); 170 °C on/off 30% vs >80% continuous (¶8); 2 M repeat unit gives 50% (¶9); PnBuMA, PMMA and green light only in SI tables S18/S19."
+PMC10557129,,,paper_concern,,,Products: only benzyl methacrylate (BzMA) is quantified.
+PMC10557129,a,yield_basis,disagree,monomer regeneration (depolymerization yield) by 1H NMR,"monomer regenerated, determined by 1H NMR (depolymerization yield)","{""v"": ""monomer regenerated, determined by 1H NMR (depolymerization yield)"", ""loc"": ""body ¶4"", ""s"": ""almost 90% of monomer was successfully regenerated, as confirmed by 1H NMR spectroscopic analysis""}"
+PMC10557129,a,,record_concern,,,Yield is approximate ('almost 90%'); exact value only in Table S4/Figure 2.
+PMC10557129,a,,record_concern,,,"'Photothermal' at 170 °C: thermal control gives 88%, so the light contributes little."
+PMC10557129,a,,record_concern,,,"Concentration 50 mM repeat unit is stated generally in ¶9 ('so far the experiments were performed at 50 mM repeating unit'), not tied to this specific entry."
+PMC10557129,b,yield_basis,disagree,monomer regeneration (depolymerization yield) by 1H NMR,"monomer regenerated, determined by 1H NMR (depolymerization yield)","{""v"": ""monomer regenerated, determined by 1H NMR (depolymerization yield)"", ""loc"": ""body ¶4"", ""s"": ""almost 90% of monomer was successfully regenerated, as confirmed by 1H NMR spectroscopic analysis""}"
+PMC10557129,b,,record_concern,,,Dark/thermal control of a. Temperature 170 °C read from the same paragraph's description of the light experiment; time not explicitly stated for the control.
+PMC10557129,b,,record_concern,,,Not really a 'no reaction' control: thermal reaction nearly as efficient.
+PMC10557129,b,,record_concern,,,"Concentration 50 mM repeat unit is stated generally in ¶9 ('so far the experiments were performed at 50 mM repeating unit'), not tied to this specific entry."
+PMC10557129,c,yield_basis,disagree,monomer regeneration (depolymerization yield) by 1H NMR,"monomer regenerated, determined by 1H NMR (depolymerization yield)","{""v"": ""monomer regenerated, determined by 1H NMR (depolymerization yield)"", ""loc"": ""body ¶4"", ""s"": ""almost 90% of monomer was successfully regenerated, as confirmed by 1H NMR spectroscopic analysis""}"
+PMC10557129,c,,record_concern,,,"Dark control at 100 °C, 1 equiv FeCl2; time only 'within comparable timeframes'."
+PMC10557129,c,,record_concern,,,The matching light experiment at 100 °C (1 equiv) has no numeric yield in text (Figure 2b only).
+PMC10557129,c,,record_concern,,,"Concentration 50 mM repeat unit is stated generally in ¶9 ('so far the experiments were performed at 50 mM repeating unit'), not tied to this specific entry."
+PMC10557129,d,yield_basis,disagree,monomer regeneration (depolymerization yield) by 1H NMR,"monomer regenerated, determined by 1H NMR (depolymerization yield)","{""v"": ""monomer regenerated, determined by 1H NMR (depolymerization yield)"", ""loc"": ""body ¶4"", ""s"": ""almost 90% of monomer was successfully regenerated, as confirmed by 1H NMR spectroscopic analysis""}"
+PMC10557129,d,,record_concern,,,"Ambiguous which ¶4 result this task means. I took the first 20 min light period of the on/off experiment at 100 °C (18%, Figure 2c/Table S8); 100 °C comes from Figure 2 caption (c), not from ¶4 itself."
+PMC10557129,d,,record_concern,,,"Alternative candidate in ¶4 with a light experiment: 120 °C, 71% ('120 °C still resulted in appreciable depolymerization yield (i.e., 71%)'), no time given and not explicit whether photothermal or thermal."
+PMC10557129,d,,record_concern,,,After light switched off the yield continued to 31% at 40 min (dark period) - not a light-only result.
+PMC10557129,d,,record_concern,,,"Concentration 50 mM repeat unit is stated generally in ¶9 ('so far the experiments were performed at 50 mM repeating unit'), not tied to this specific entry."
+PMC10557129,e,yield_basis,disagree,monomer regeneration (depolymerization yield) by 1H NMR,"monomer regenerated, determined by 1H NMR (depolymerization yield)","{""v"": ""monomer regenerated, determined by 1H NMR (depolymerization yield)"", ""loc"": ""body ¶4"", ""s"": ""almost 90% of monomer was successfully regenerated, as confirmed by 1H NMR spectroscopic analysis""}"
+PMC10557129,e,,record_concern,,,Dark control for f; no time stated.
+PMC10557129,e,,record_concern,,,"Concentration 50 mM repeat unit is stated generally in ¶9 ('so far the experiments were performed at 50 mM repeating unit'), not tied to this specific entry."
+PMC10557129,f,yield_basis,disagree,monomer regeneration (depolymerization yield) by 1H NMR,"monomer regenerated, determined by 1H NMR (depolymerization yield)","{""v"": ""monomer regenerated, determined by 1H NMR (depolymerization yield)"", ""loc"": ""body ¶4"", ""s"": ""almost 90% of monomer was successfully regenerated, as confirmed by 1H NMR spectroscopic analysis""}"
+PMC10557129,f,,record_concern,,,No time stated in text for this result.
+PMC10557129,f,,record_concern,,,"Light source is only 'blue light' throughout; no LED model, wavelength or irradiance in main text."
+PMC10557129,f,,record_concern,,,"Concentration 50 mM repeat unit is stated generally in ¶9 ('so far the experiments were performed at 50 mM repeating unit'), not tied to this specific entry."
+PMC10557129,g,yield_basis,disagree,monomer regeneration (depolymerization yield) by 1H NMR,"monomer regenerated, determined by 1H NMR (depolymerization yield)","{""v"": ""monomer regenerated, determined by 1H NMR (depolymerization yield)"", ""loc"": ""body ¶4"", ""s"": ""almost 90% of monomer was successfully regenerated, as confirmed by 1H NMR spectroscopic analysis""}"
+PMC10557129,g,,record_concern,,,"Yield approximate ('approximately 70%'). Loading 0.05 equiv FeCl3 taken from Figure 3 caption (b), not stated in ¶7 itself."
+PMC10557129,g,,record_concern,,,No time stated.
+PMC10557129,g,,record_concern,,,"Concentration 50 mM repeat unit is stated generally in ¶9 ('so far the experiments were performed at 50 mM repeating unit'), not tied to this specific entry."
+PMC10557129,h,yield_basis,disagree,monomer regeneration (depolymerization yield) by 1H NMR,"monomer regenerated, determined by 1H NMR (depolymerization yield)","{""v"": ""monomer regenerated, determined by 1H NMR (depolymerization yield)"", ""loc"": ""body ¶4"", ""s"": ""almost 90% of monomer was successfully regenerated, as confirmed by 1H NMR spectroscopic analysis""}"
+PMC10557129,h,,record_concern,,,Dark control for g; no time stated.
+PMC10557129,h,,record_concern,,,"Concentration 50 mM repeat unit is stated generally in ¶9 ('so far the experiments were performed at 50 mM repeating unit'), not tied to this specific entry."
+PMC10793207,,,paper_concern,,,"FPh-Acr-Np results given in text (up to 55% BA at 5 mol%; 16.5% BA at 1 mol%, ¶6) and time-course Mn values (FPh-Acr-Np 1.26 kDa and Ph-Acr-Ph 6.90 kDa after 1 h, ¶7) are not covered by any task; their full conditions are only in Fig. 2C/2D, so they may be legitimately excluded but should appear in excluded_observations."
+PMC10793207,,,paper_concern,,,"Real-life PS waste yields and MeOPh-Acr-Ph (0% BA) are figure/SI-only (Fig. 2C, Table S1)."
+PMC10793207,,,paper_concern,,,390 nm is at the violet edge of the visible range; entry 9 (440 nm) is unambiguously visible.
+PMC10793207,,,paper_concern,,,Table has no number in the article (label printed as 'Table').
+PMC10793207,a,yield_basis,disagree,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard","{""v"": ""quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard"", ""loc"": ""Table footnote"", ""s"": ""Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard""}"
+PMC10793207,a,,record_concern,,,"Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly."
+PMC10793207,a,,record_concern,,,"Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat)."
+PMC10793207,a,,record_concern,,,Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).
+PMC10793207,a,,record_concern,,,"Mn after is reported only as <0.30e,f (below accurate GPC range) - not a numeric value."
+PMC10793207,b,catalyst,blind_null,none,,
+PMC10793207,b,catalyst_loading_unit,blind_null,mol%,,
+PMC10793207,b,yield_basis,disagree,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard","{""v"": ""quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard"", ""loc"": ""Table footnote"", ""s"": ""Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard""}"
+PMC10793207,b,,record_concern,,,"Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly."
+PMC10793207,b,,record_concern,,,"Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat)."
+PMC10793207,b,,record_concern,,,Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).
+PMC10793207,b,,record_concern,,,No-catalyst control (Ph-Acr-Ph loading '-'); catalyst null. Mn after 1.71 kDa.
+PMC10793207,c,yield_basis,disagree,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard","{""v"": ""quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard"", ""loc"": ""Table footnote"", ""s"": ""Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard""}"
+PMC10793207,c,,record_concern,,,"Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly."
+PMC10793207,c,,record_concern,,,"Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat)."
+PMC10793207,c,,record_concern,,,Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).
+PMC10793207,c,,record_concern,,,"Ar atmosphere control; Mn 6.90 kDa equals the 1 h Ph-Acr-Ph time-course Mn quoted in ¶7 (6.90 kDa) - check for possible confusion, though both are printed."
+PMC10793207,d,yield_basis,disagree,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard","{""v"": ""quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard"", ""loc"": ""Table footnote"", ""s"": ""Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard""}"
+PMC10793207,d,,record_concern,,,"Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly."
+PMC10793207,d,,record_concern,,,"Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat)."
+PMC10793207,d,,record_concern,,,Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).
+PMC10793207,d,,record_concern,,,"Dark control: light_source = none; time 24 h assumed from standard conditions; temperature 35 °C stated as caused by LED heating, so may not apply to the dark run."
+PMC10793207,e,yield_basis,disagree,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard","{""v"": ""quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard"", ""loc"": ""Table footnote"", ""s"": ""Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard""}"
+PMC10793207,e,,record_concern,,,"Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly."
+PMC10793207,e,,record_concern,,,"Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat)."
+PMC10793207,e,,record_concern,,,Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).
+PMC10793207,e,,record_concern,,,"No-acid run (Ph-Acr-Ph 10 mol%, no HCl); slot says is_control true, protocol lists 'no additive' as a control, consistent."
+PMC10793207,e,,record_concern,,,"Mn after is reported only as <0.30e,f (below accurate GPC range) - not a numeric value."
+PMC10793207,f,yield_basis,disagree,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard","{""v"": ""quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard"", ""loc"": ""Table footnote"", ""s"": ""Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard""}"
+PMC10793207,f,,record_concern,,,"Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly."
+PMC10793207,f,,record_concern,,,"Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat)."
+PMC10793207,f,,record_concern,,,Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).
+PMC10793207,f,,record_concern,,,"Mn after is reported only as <0.30e,f (below accurate GPC range) - not a numeric value."
+PMC10793207,f,,record_concern,,,Fig. 1B caption says some yields are averages of two repeats; not stated for Table 1 entries.
+PMC10793207,g,yield_basis,disagree,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard","{""v"": ""quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard"", ""loc"": ""Table footnote"", ""s"": ""Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard""}"
+PMC10793207,g,,record_concern,,,"Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly."
+PMC10793207,g,,record_concern,,,"Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat)."
+PMC10793207,g,,record_concern,,,Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).
+PMC10793207,g,,record_concern,,,"Mn after is reported only as <0.30e,f (below accurate GPC range) - not a numeric value."
+PMC10793207,g,,record_concern,,,Fig. 1B caption says some yields are averages of two repeats; not stated for Table 1 entries.
+PMC10793207,h,yield_basis,disagree,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard","{""v"": ""quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard"", ""loc"": ""Table footnote"", ""s"": ""Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard""}"
+PMC10793207,h,,record_concern,,,"Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly."
+PMC10793207,h,,record_concern,,,"Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat)."
+PMC10793207,h,,record_concern,,,Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).
+PMC10793207,h,,record_concern,,,Bimodal GPC distribution (footnote f) for Mn 5.56 kDa.
+PMC10793207,h,,record_concern,,,Fig. 1B caption says some yields are averages of two repeats; not stated for Table 1 entries.
+PMC10793207,i,yield_basis,disagree,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard","quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard","{""v"": ""quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard"", ""loc"": ""Table footnote"", ""s"": ""Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard""}"
+PMC10793207,i,,record_concern,,,"Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly."
+PMC10793207,i,,record_concern,,,"Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat)."
+PMC10793207,i,,record_concern,,,Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).
+PMC10793207,i,,record_concern,,,Mn after is reported only as <0.30f (below accurate GPC range) - not a numeric value.
+PMC10793207,i,,record_concern,,,Light source type for 440 nm run not stated; only '440 nm irradiation'.
+PMC10793207,i,,record_concern,,,Fig. 1B caption says some yields are averages of two repeats; not stated for Table 1 entries.
+PMC11796324,,,paper_concern,,,"Text ¶3: prolonged irradiation with 10 mol% MA gave 39 % BAc (Figure S31) - probably entry 10 (38.7 %) rounded, otherwise SI-only."
+PMC11796324,,,paper_concern,,,Text ¶3: two-batch addition gave 25 % (= entry 4). Abstract/conclusion '40 %' is a rounded figure.
+PMC11796324,,,paper_concern,,,1 h yields for anionic PS (¶7: Mn 135 kg/mol 1.1 % BAc and 1.1 % ACP; Mn 1.7 kg/mol <0.1 % BAc and 0.5 % ACP) are textual data not covered by any task; conditions only implied.
+PMC11796324,,,paper_concern,,,"Oligomer re-irradiation without MA (Mn 2500 g/mol, Fig. 4b) and solar waste results (Fig. 5) are figure-only."
+PMC11796324,,,paper_concern,,,"Formic acid is a product (equal amount to BAc, ¶8) but has no tabulated yield."
+PMC11796324,,,paper_concern,,,"Table 1 column 2/7 cells hold Mn and Đ together, Mn values use thin-space thousands separators."
+PMC11796324,a,irradiance,blind_null,50,,
+PMC11796324,a,irradiance_unit,blind_null,W (electrical LED power),,
+PMC11796324,a,yield_basis,disagree,1H NMR (per mmol styrene repeat units),1H NMR yield,"{""v"": ""1H NMR yield"", ""loc"": ""Table 1 footnote"", ""s"": ""[d] Yield determined by 1H NMR""}"
+PMC11796324,a,,record_concern,,,Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.
+PMC11796324,a,,record_concern,,,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PMC11796324,a,,record_concern,,,"Yields marked [d]: determined by 1H NMR, not GC-FID."
+PMC11796324,a,,record_concern,,,Text ¶3 rounds to 18 % BAc and 2 % ACP.
+PMC11796324,a,,record_concern,,,Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it.
+PMC11796324,b,irradiance,blind_null,50,,
+PMC11796324,b,irradiance_unit,blind_null,W (electrical LED power),,
+PMC11796324,b,yield_basis,disagree,1H NMR (per mmol styrene repeat units),1H NMR yield,"{""v"": ""1H NMR yield"", ""loc"": ""Table 1 footnote"", ""s"": ""[d] Yield determined by 1H NMR""}"
+PMC11796324,b,,record_concern,,,Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.
+PMC11796324,b,,record_concern,,,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PMC11796324,b,,record_concern,,,"Yields marked [d]: determined by 1H NMR, not GC-FID."
+PMC11796324,b,,record_concern,,,Neat EtOAc instead of EtOAc/MeCN; concentration presumably same 1 mmol/3.3 mL but not restated.
+PMC11796324,c,irradiance,blind_null,50,,
+PMC11796324,c,irradiance_unit,blind_null,W (electrical LED power),,
+PMC11796324,c,yield_basis,disagree,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,"{""v"": ""GC-FID yield on 1 mmol PS in monomer units"", ""loc"": ""Table 1 footnote"", ""s"": ""Yields determined by GC-FID""}"
+PMC11796324,c,,record_concern,,,Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.
+PMC11796324,c,,record_concern,,,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PMC11796324,c,,record_concern,,,Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it.
+PMC11796324,d,irradiance,blind_null,50,,
+PMC11796324,d,irradiance_unit,blind_null,W (electrical LED power),,
+PMC11796324,d,yield_basis,disagree,1H NMR (per mmol styrene repeat units),1H NMR yield,"{""v"": ""1H NMR yield"", ""loc"": ""Table 1 footnote"", ""s"": ""[d] Yield determined by 1H NMR""}"
+PMC11796324,d,,record_concern,,,Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.
+PMC11796324,d,,record_concern,,,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PMC11796324,d,,record_concern,,,"Yields marked [d]: determined by 1H NMR, not GC-FID."
+PMC11796324,d,,record_concern,,,"MA loading '2×1' (two batches at 12 h intervals, footnote e) - total loading ambiguous (2 mol% given twice per text ¶3, but printed '2×1'); catalyst_loading null."
+PMC11796324,d,,record_concern,,,Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it.
+PMC11796324,e,irradiance,blind_null,50,,
+PMC11796324,e,irradiance_unit,blind_null,W (electrical LED power),,
+PMC11796324,e,yield_basis,disagree,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,"{""v"": ""GC-FID yield on 1 mmol PS in monomer units"", ""loc"": ""Table 1 footnote"", ""s"": ""Yields determined by GC-FID""}"
+PMC11796324,e,,record_concern,,,Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.
+PMC11796324,e,,record_concern,,,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PMC11796324,e,,record_concern,,,Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it.
+PMC11796324,f,irradiance,blind_null,50,,
+PMC11796324,f,irradiance_unit,blind_null,W (electrical LED power),,
+PMC11796324,f,yield_basis,disagree,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,"{""v"": ""GC-FID yield on 1 mmol PS in monomer units"", ""loc"": ""Table 1 footnote"", ""s"": ""Yields determined by GC-FID""}"
+PMC11796324,f,,record_concern,,,Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.
+PMC11796324,f,,record_concern,,,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PMC11796324,f,,record_concern,,,Atmosphere printed only as 'Inert' (N2 vs Ar not specified).
+PMC11796324,f,,record_concern,,,Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it.
+PMC11796324,g,yield_basis,disagree,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,"{""v"": ""GC-FID yield on 1 mmol PS in monomer units"", ""loc"": ""Table 1 footnote"", ""s"": ""Yields determined by GC-FID""}"
+PMC11796324,g,,record_concern,,,Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.
+PMC11796324,g,,record_concern,,,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PMC11796324,g,,record_concern,,,"Dark control: 64 h is time in the dark, not irradiation time."
+PMC11796324,h,catalyst,blind_null,none (0 mol% MA),,
+PMC11796324,h,catalyst_loading_unit,blind_null,mol%,,
+PMC11796324,h,irradiance,blind_null,50,,
+PMC11796324,h,irradiance_unit,blind_null,W (electrical LED power),,
+PMC11796324,h,yield_basis,disagree,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,"{""v"": ""GC-FID yield on 1 mmol PS in monomer units"", ""loc"": ""Table 1 footnote"", ""s"": ""Yields determined by GC-FID""}"
+PMC11796324,h,,record_concern,,,Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.
+PMC11796324,h,,record_concern,,,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PMC11796324,h,,record_concern,,,No-catalyst control (MA 0 mol%).
+PMC11796324,h,,record_concern,,,Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it.
+PMC11796324,i,irradiance,blind_null,50,,
+PMC11796324,i,irradiance_unit,blind_null,W (electrical LED power),,
+PMC11796324,i,yield_basis,disagree,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,"{""v"": ""GC-FID yield on 1 mmol PS in monomer units"", ""loc"": ""Table 1 footnote"", ""s"": ""Yields determined by GC-FID""}"
+PMC11796324,i,,record_concern,,,Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.
+PMC11796324,i,,record_concern,,,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PMC11796324,i,,record_concern,,,"MA loading '2×1' (two batches at 12 h intervals, footnote e) - total loading ambiguous (2 mol% given twice per text ¶3, but printed '2×1'); catalyst_loading null."
+PMC11796324,i,,record_concern,,,EPS waste sample; slot is_control false is correct (not a control).
+PMC11796324,i,,record_concern,,,Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it.
+PMC11796324,j,irradiance,blind_null,50,,
+PMC11796324,j,irradiance_unit,blind_null,W (electrical LED power),,
+PMC11796324,j,yield_basis,disagree,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,"{""v"": ""GC-FID yield on 1 mmol PS in monomer units"", ""loc"": ""Table 1 footnote"", ""s"": ""Yields determined by GC-FID""}"
+PMC11796324,j,,record_concern,,,Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.
+PMC11796324,j,,record_concern,,,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PMC11796324,j,,record_concern,,,Text ¶7 calls this the anionically synthesized PS (Mn=1.7 kg mol-1); synthesis origin linked by Mn only.
+PMC11796324,j,,record_concern,,,O2 flow rather than static O2 atmosphere; 10 mol% MA.
+PMC11796324,j,,record_concern,,,Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it.
+PMC11796324,k,irradiance,blind_null,50,,
+PMC11796324,k,irradiance_unit,blind_null,W (electrical LED power),,
+PMC11796324,k,yield_basis,disagree,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,"{""v"": ""GC-FID yield on 1 mmol PS in monomer units"", ""loc"": ""Table 1 footnote"", ""s"": ""Yields determined by GC-FID""}"
+PMC11796324,k,,record_concern,,,Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.
+PMC11796324,k,,record_concern,,,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PMC11796324,k,,record_concern,,,Text ¶7 calls this the anionically synthesized PS (Mn=1.7 kg mol-1); synthesis origin linked by Mn only.
+PMC11796324,k,,record_concern,,,"Text ¶7 gives additional 1 h data for these anionic PS samples (1.1 %/1.1 % and <0.1 %/0.5 %) - separate time point, not this record."
+PMC11796324,k,,record_concern,,,Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it.
+PMC11796324,l,irradiance,blind_null,50,,
+PMC11796324,l,irradiance_unit,blind_null,W (electrical LED power),,
+PMC11796324,l,yield_basis,disagree,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,"{""v"": ""GC-FID yield on 1 mmol PS in monomer units"", ""loc"": ""Table 1 footnote"", ""s"": ""Yields determined by GC-FID""}"
+PMC11796324,l,,record_concern,,,Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.
+PMC11796324,l,,record_concern,,,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PMC11796324,l,,record_concern,,,"Linked to anionic PS (Mn=135 kg mol-1, ¶7) by Mn only."
+PMC11796324,l,,record_concern,,,"Text ¶7 gives additional 1 h data for these anionic PS samples (1.1 %/1.1 % and <0.1 %/0.5 %) - separate time point, not this record."
+PMC11796324,l,,record_concern,,,Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it.
+PMC11796324,m,yield_basis,disagree,GC-FID (per mmol styrene repeat units),GC-FID yield on 1 mmol PS in monomer units,"{""v"": ""GC-FID yield on 1 mmol PS in monomer units"", ""loc"": ""Table 1 footnote"", ""s"": ""Yields determined by GC-FID""}"
+PMC11796324,m,,record_concern,,,Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.
+PMC11796324,m,,record_concern,,,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PMC11796324,m,,record_concern,,,"Solar-simulator run; ¶10 gives 500 Wm-2 and ca. 70 °C for the yoghurt-cup solar experiment, but entry 13 uses commercial PS (Mn 99 000); not certain those settings apply to this entry. Atmosphere for Q-sun run may be O2 sparged every 2 h (¶10), not stated for entry 13."
+PMC12056016,,,paper_concern,,,"PMMA records (d, e) have only approximate post-degradation Mw (≈2 kDa) and no time/solvent; may not meet recording rules."
+PMC12056016,,,paper_concern,,,"Many other quantified results with text values not covered by tasks, e.g. ¶2 TCPA 43% / TCPBA 46% BA (Mechanistic investigations ¶2); PC safety glasses → 3 + BPA combined 69% (Applications ¶4); ¶3 0.5 mol% PTH-CN 34% BA (Results optimizations ¶3)."
+PMC12056016,,,paper_concern,,,"Most per-substrate data for Figs. 2E, 3A, 5, 6, 7 are only in figures."
+PMC12056016,a,yield_basis,disagree,benzoic acid: isolated yield; formic acid: NMR yield (per styrene repeat unit),isolated (BA); NMR (formic acid),"{""v"": ""isolated (BA); NMR (formic acid)"", ""loc"": ""Results > Mechanistic hypothesis and reaction optimizations ¶3"", ""s"": ""50% isolated yield of BA""}"
+PMC12056016,a,,record_concern,,,"Concentration not printed; only 0.10 g PS1 (¶3) and ca. 104 mg PS in 0.50 mL PhCl + 0.50 mL MeCN (Methods) are given, so concentration left null."
+PMC12056016,a,,record_concern,,,"Time (20 h) and solvent come from the Methods general procedure, not from ¶3 itself."
+PMC12056016,a,,record_concern,,,"Mixed yield basis: BA isolated, formic acid by 1H NMR."
+PMC12056016,a,,record_concern,,,Methods describes the light as a '50 W 405 nm LED light'; 0.4 W/cm2 is the irradiance given in ¶3.
+PMC12056016,b,catalyst,disagree,PTH-3CN pre-irradiated 8 h without PS under standard conditions (decomposed to triarylamine species),PTH-3CN (pre-irradiated 8 h without PS),"{""v"": ""PTH-3CN (pre-irradiated 8 h without PS)"", ""loc"": ""Results > Mechanistic investigations ¶2"", ""s"": ""we first irradiated 0.05 mol% PTH-3CN alone, without PS, under standard conditions for 8 h""}"
+PMC12056016,b,yield_basis,blind_null,not stated (yield of BA),,
+PMC12056016,b,,record_concern,,,"¶2 contains three distinct PS1 results: PTH-3CN pre-irradiated 8 h then PS1 added, 12 h (42% BA); 500 ppm TCPA (43% BA); 500 ppm TCPBA (46% BA). I took the 42% PTH-3CN run; if this task is meant to be TCPA or TCPBA, catalyst = TCPA/TCPBA, loading 500 ppm, BA 43%/46%, time not stated."
+PMC12056016,b,,record_concern,,,"Atmosphere, irradiance, wavelength and solvent are only given by reference to 'standard conditions' (¶3 / Methods), not stated in ¶2."
+PMC12056016,b,,record_concern,,,"Time: 12 h after PS addition, plus 8 h prior catalyst-only irradiation (20 h total light exposure)."
+PMC12056016,b,,record_concern,,,Yield basis for 42% not stated (isolated vs HPLC/NMR).
+PMC12056016,c,time_unit,blind_null,h,,
+PMC12056016,c,,record_concern,,,"No reaction time is stated for this initial PTH run in the main text (only Fig. 2B), so time_unit is null."
+PMC12056016,c,,record_concern,,,Catalyst loading for this run not stated in text.
+PMC12056016,c,,record_concern,,,390 nm is at the violet/UV-A border.
+PMC12056016,d,time_unit,blind_null,h,,
+PMC12056016,d,,record_concern,,,mw_after 'Mw ≈ 2 kDa' is approximate and stated jointly for PMMA1 and PMMA2 (not per sample).
+PMC12056016,d,,record_concern,,,"No reaction time, solvent, atmosphere or light source is stated for the PMMA runs in the text (Fig. 5C caption only gives 0.05 mol% PTH-3CN); the Methods procedures cover PS and Figs. 6/7, not Fig. 5. Left null rather than borrowing."
+PMC12056016,d,,record_concern,,,Catalyst loading appears as '500 ppm' in ¶2 and '0.05 mol%' in Fig. 5C caption (equivalent).
+PMC12056016,d,,record_concern,,,GPC calibration not reported in main text.
+PMC12056016,e,time_unit,blind_null,h,,
+PMC12056016,e,,record_concern,,,mw_after 'Mw ≈ 2 kDa' is approximate and stated jointly for PMMA1 and PMMA2 (not per sample).
+PMC12056016,e,,record_concern,,,"No reaction time, solvent, atmosphere or light source is stated for the PMMA runs in the text (Fig. 5C caption only gives 0.05 mol% PTH-3CN); the Methods procedures cover PS and Figs. 6/7, not Fig. 5. Left null rather than borrowing."
+PMC12056016,e,,record_concern,,,Catalyst loading appears as '500 ppm' in ¶2 and '0.05 mol%' in Fig. 5C caption (equivalent).
+PMC12056016,e,,record_concern,,,GPC calibration not reported in main text.
+PMC12056016,f,irradiance,blind_null,0.4,,
+PMC12056016,f,irradiance_unit,blind_null,W/cm2,,
+PMC12056016,f,solvent,disagree,"chlorobenzene/acetonitrile (1/1, 1.8 mL)","PhCl/MeCN (1/1, 1.8 mL)","{""v"": ""PhCl/MeCN (1/1, 1.8 mL)"", ""loc"": ""Fig. 7 caption"", ""s"": ""PhCl/MeCN (1/1, 1.8 mL), 20 h""}"
+PMC12056016,f,yield_basis,disagree,benzoic acid: isolated yield; formic acid: 1H NMR yield based on repeat unit,"isolated (BA); 1H NMR, based on repeat unit (FA)","{""v"": ""isolated (BA); 1H NMR, based on repeat unit (FA)"", ""loc"": ""Fig. 7 caption"", ""s"": ""aYields were determined by 1H NMR analysis and based on repeat unit unless otherwise noted""}"
+PMC12056016,f,,record_concern,,,Irradiance not given for Fig. 7 conditions (only 0.4 W/cm2 for PS optimization in Results ¶3).
+PMC12056016,f,,record_concern,,,"FA basis presumably NMR per Fig. 7 footnote a; the 26% may include FA from co-present polymers (PVC dissolved), so attribution to PS is uncertain."
+PMC12056016,f,,record_concern,,,Light/atmosphere from Methods for Figs. 6 and 7.
+PMC12056016,g,catalyst_loading_unit,blind_null,mol%,,
+PMC12056016,g,irradiance,blind_null,0.4,,
+PMC12056016,g,irradiance_unit,blind_null,W/cm2,,
+PMC12056016,g,solvent,disagree,HFIP as co-solvent (with chlorobenzene/acetonitrile),HFIP as co-solvent (with PhCl/MeCN),"{""v"": ""HFIP as co-solvent (with PhCl/MeCN)"", ""loc"": ""Results > Applications to diverse polymer types ¶4"", ""s"": ""using HFIP as a co-solvent""}"
+PMC12056016,g,time_unit,blind_null,h,,
+PMC12056016,g,,record_concern,,,"Catalyst loading, exact solvent ratio and time for the PET bottle are only assignable via Fig. 6 footnote letters shown in the figure: two HFIP footnotes exist (h: 5.0 mol% PTH-3CN, HFIP/PhCl/MeCN 4/1/1, 3.0 mL, 36 h; j: 5.0 wt% PTH-3CN, PhCl/MeCN/HFIP 2/1/1, 4.0 mL, 48 h). Cannot tell from text which applies, so catalyst_loading_unit (mol% vs wt%) and time_unit left null (both candidates are in h)."
+PMC12056016,g,,record_concern,,,Irradiance not stated for Fig. 6 conditions.
+PMC12302232,,,paper_concern,,,Light source is only 'blue LEDs' throughout; no wavelength or irradiance in main text.
+PMC12302232,,,paper_concern,,,Catalyst loading and polymer amount for batch runs not stated in the main text (likely in Fig. 4A / ESI).
+PMC12302232,,,paper_concern,,,Not covered by tasks: mixed PS/GPPS/EPS/HIPS/SAN/ABS → 50% BA (¶7); SAN cup waste 46% BA (¶8); gram-scale real-life mixture in flow 41% BA (¶9); PS waste 50-55% and ABS waste 45-49% given only as ranges; ITSO2@oxidized lignin recycling (Fig. 5B only).
+PMC12302232,,,paper_concern,,,Control entries 6-7 (no catalyst / no light) give no numeric values in text.
+PMC12302232,a,,record_concern,,,Light source given only as 'blue LEDs' (no wavelength or power in main text).
+PMC12302232,a,,record_concern,,,Catalyst loading not stated in main text.
+PMC12302232,b,,record_concern,,,"Atmosphere, catalyst, light, solvent, time (24 h) and yield basis are not restated here; they are taken from the 'optimized/standard reaction conditions' defined in ¶6 entry 1 (O2, ITSO2, DCE, blue LEDs, 24 h). Yield basis for this entry is not explicitly stated as isolated."
+PMC12302232,c,,record_concern,,,"Atmosphere, catalyst, light, solvent, time (24 h) and yield basis are not restated here; they are taken from the 'optimized/standard reaction conditions' defined in ¶6 entry 1 (O2, ITSO2, DCE, blue LEDs, 24 h). Yield basis for this entry is not explicitly stated as isolated."
+PMC12302232,d,,record_concern,,,"Atmosphere, catalyst, light, solvent, time (24 h) and yield basis are not restated here; they are taken from the 'optimized/standard reaction conditions' defined in ¶6 entry 1 (O2, ITSO2, DCE, blue LEDs, 24 h). Yield basis for this entry is not explicitly stated as isolated."
+PMC12302232,d,,record_concern,,,HIPS is a styrene/butadiene graft copolymer; canonical polymer could arguably be poly(styrene-co-butadiene) rather than polystyrene.
+PMC12302232,d,,record_concern,,,"Rids b-d all report 56%; assignment b=GPPS, c=EPS, d=HIPS follows text order and is my assumption."
+PMC12302232,e,,record_concern,,,"Atmosphere, catalyst, light, solvent, time (24 h) and yield basis are not restated here; they are taken from the 'optimized/standard reaction conditions' defined in ¶6 entry 1 (O2, ITSO2, DCE, blue LEDs, 24 h). Yield basis for this entry is not explicitly stated as isolated."
+PMC12302232,e,,record_concern,,,TCNHPI amount not stated in main text.
+PMC12302232,e,,record_concern,,,"Without TCNHPI, SAN/ABS did not degrade under standard conditions (a no-additive control that is not recorded as a task)."
+PMC12302232,f,,record_concern,,,"Atmosphere, catalyst, light, solvent, time (24 h) and yield basis are not restated here; they are taken from the 'optimized/standard reaction conditions' defined in ¶6 entry 1 (O2, ITSO2, DCE, blue LEDs, 24 h). Yield basis for this entry is not explicitly stated as isolated."
+PMC12302232,f,,record_concern,,,TCNHPI amount not stated in main text.
+PMC12302232,g,,record_concern,,,"Atmosphere, catalyst, light, solvent, time (24 h) and yield basis are not restated here; they are taken from the 'optimized/standard reaction conditions' defined in ¶6 entry 1 (O2, ITSO2, DCE, blue LEDs, 24 h). Yield basis for this entry is not explicitly stated as isolated."
+PMC12302232,g,,record_concern,,,Text says 'under standard conditions' for the PS waste group; not explicitly restated for EPS waste.
+PMC12302232,h,,record_concern,,,"Atmosphere, catalyst, light, solvent, time (24 h) and yield basis are not restated here; they are taken from the 'optimized/standard reaction conditions' defined in ¶6 entry 1 (O2, ITSO2, DCE, blue LEDs, 24 h). Yield basis for this entry is not explicitly stated as isolated."
+PMC12302232,h,,record_concern,,,Text says 'under standard conditions' for the PS waste group; not explicitly restated for EPS waste.
+PMC12302232,i,time_unit,blind_null,h,,
+PMC12302232,i,yield_basis,blind_null,not stated; standard-conditions entry 1 yield is isolated,,
+PMC12302232,i,,record_concern,,,"Flow scale-up: residence/irradiation time, solvent, light source and yield basis are not stated in the main text (Fig. 4C only); left null. Catalyst ITSO2 implied by 'ITSO2 photocatalysis protocol'."
+PMC12302232,i,,record_concern,,,Conditions in flow may differ from batch standard conditions.
+PMC12464638,,,paper_concern,,,"Table 1 (photopolymerization, 365 nm) is polymer synthesis, not deconstruction, and must not be recorded as degradation records."
+PMC12464638,,,paper_concern,,,"P5 Mn/Mw before depolymerization is only in Figure 3b (photograph panel) and SI; GPC kinetics (Fig. 5b, Table S2) and PS GPC (Fig. 5h) are figure/SI-only."
+PMC12464638,,,paper_concern,,,Light on/off experiment (¶3) gives no numeric yields in the main text.
+PMC12464638,,,paper_concern,,,"rP5 (recycled polymer) molecular weight 6,480 g/mol is a repolymerization result, not degradation."
+PMC12464638,,,paper_concern,,,Atmosphere for standard depolymerization conditions never explicitly stated (only that O2 is required).
+PMC12464638,a,solvent,disagree,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),"{""v"": ""DMSO-d6 (1.0 mL)"", ""loc"": ""Table 2 footnote"", ""s"": ""1.0 mL of DMSO-d6""}"
+PMC12464638,a,yield_basis,disagree,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,"{""v"": ""1H-NMR with dimethyl terephthalate internal standard"", ""loc"": ""Table 2 footnote"", ""s"": ""Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard""}"
+PMC12464638,a,,record_concern,,,"Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+PMC12464638,b,solvent,disagree,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),"{""v"": ""DMSO-d6 (1.0 mL)"", ""loc"": ""Table 2 footnote"", ""s"": ""1.0 mL of DMSO-d6""}"
+PMC12464638,b,yield_basis,disagree,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,"{""v"": ""1H-NMR with dimethyl terephthalate internal standard"", ""loc"": ""Table 2 footnote"", ""s"": ""Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard""}"
+PMC12464638,b,,record_concern,,,"Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+PMC12464638,c,solvent,disagree,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),"{""v"": ""DMSO-d6 (1.0 mL)"", ""loc"": ""Table 2 footnote"", ""s"": ""1.0 mL of DMSO-d6""}"
+PMC12464638,c,yield_basis,disagree,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,"{""v"": ""1H-NMR with dimethyl terephthalate internal standard"", ""loc"": ""Table 2 footnote"", ""s"": ""Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard""}"
+PMC12464638,c,,record_concern,,,"Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+PMC12464638,d,solvent,disagree,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),"{""v"": ""DMSO-d6 (1.0 mL)"", ""loc"": ""Table 2 footnote"", ""s"": ""1.0 mL of DMSO-d6""}"
+PMC12464638,d,yield_basis,disagree,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,"{""v"": ""1H-NMR with dimethyl terephthalate internal standard"", ""loc"": ""Table 2 footnote"", ""s"": ""Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard""}"
+PMC12464638,d,,record_concern,,,"Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+PMC12464638,e,solvent,disagree,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),"{""v"": ""DMSO-d6 (1.0 mL)"", ""loc"": ""Table 2 footnote"", ""s"": ""1.0 mL of DMSO-d6""}"
+PMC12464638,e,yield_basis,disagree,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,"{""v"": ""1H-NMR with dimethyl terephthalate internal standard"", ""loc"": ""Table 2 footnote"", ""s"": ""Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard""}"
+PMC12464638,e,,record_concern,,,"Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+PMC12464638,f,solvent,disagree,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),"{""v"": ""DMSO-d6 (1.0 mL)"", ""loc"": ""Table 2 footnote"", ""s"": ""1.0 mL of DMSO-d6""}"
+PMC12464638,f,yield_basis,disagree,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,"{""v"": ""1H-NMR with dimethyl terephthalate internal standard"", ""loc"": ""Table 2 footnote"", ""s"": ""Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard""}"
+PMC12464638,f,,record_concern,,,"Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+PMC12464638,f,,record_concern,,,"No-additive (TBACl) run, still 61% yield; labelled control per protocol 'no additive'."
+PMC12464638,g,solvent,disagree,DMSO-d6 (0.5 mL; P5 0.066 mmol),DMSO-d6 (0.5 mL),"{""v"": ""DMSO-d6 (0.5 mL)"", ""loc"": ""Table 2 r7 c2"", ""s"": ""0.5 mL DMSO-d6""}"
+PMC12464638,g,yield_basis,disagree,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,"{""v"": ""1H-NMR with dimethyl terephthalate internal standard"", ""loc"": ""Table 2 footnote"", ""s"": ""Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard""}"
+PMC12464638,g,,record_concern,,,"Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+PMC12464638,g,,record_concern,,,"Concentration variant (0.5 mL), not a control."
+PMC12464638,h,solvent,disagree,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),"{""v"": ""DMSO-d6 (1.0 mL)"", ""loc"": ""Table 2 footnote"", ""s"": ""1.0 mL of DMSO-d6""}"
+PMC12464638,h,yield_basis,disagree,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,"{""v"": ""1H-NMR with dimethyl terephthalate internal standard"", ""loc"": ""Table 2 footnote"", ""s"": ""Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard""}"
+PMC12464638,h,,record_concern,,,"Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+PMC12464638,h,,record_concern,,,"No-MS run gives 48%; it is an additive-omission control, but degradation still substantial."
+PMC12464638,i,solvent,disagree,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),"{""v"": ""DMSO-d6 (1.0 mL)"", ""loc"": ""Table 2 footnote"", ""s"": ""1.0 mL of DMSO-d6""}"
+PMC12464638,i,yield_basis,disagree,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,"{""v"": ""1H-NMR with dimethyl terephthalate internal standard"", ""loc"": ""Table 2 footnote"", ""s"": ""Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard""}"
+PMC12464638,i,,record_concern,,,"Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+PMC12464638,i,,record_concern,,,Dark control; 52 h is time without light.
+PMC12464638,j,solvent,disagree,DMSO-d6 (1.0 mL; P5 0.066 mmol),DMSO-d6 (1.0 mL),"{""v"": ""DMSO-d6 (1.0 mL)"", ""loc"": ""Table 2 footnote"", ""s"": ""1.0 mL of DMSO-d6""}"
+PMC12464638,j,yield_basis,disagree,1H NMR vs dimethyl terephthalate internal standard,1H-NMR with dimethyl terephthalate internal standard,"{""v"": ""1H-NMR with dimethyl terephthalate internal standard"", ""loc"": ""Table 2 footnote"", ""s"": ""Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard""}"
+PMC12464638,j,,record_concern,,,"Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+PMC12464638,k,,record_concern,,,"Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+PMC12464638,k,,record_concern,,,"Large-scale run 'under the optimized conditions': catalyst, loading, additives, light, solvent and time are inherited from Table 2 footnote, not restated; scale/amount of P5 and solvent volume not given in main text."
+PMC12464638,k,,record_concern,,,time_unit 'h' only by inheritance from the 52 h standard; no time stated for this run.
+PMC12464638,k,,record_concern,,,Solvent for large-scale run not stated (DMSO-d6 seems unlikely at scale); inherited.
+PMC12464638,l,,record_concern,,,"Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+PMC12464638,l,,record_concern,,,"Large-scale run 'under the optimized conditions': catalyst, loading, additives, light, solvent and time are inherited from Table 2 footnote, not restated; scale/amount of P5 and solvent volume not given in main text."
+PMC12464638,l,,record_concern,,,time_unit 'h' only by inheritance from the 52 h standard; no time stated for this run.
+PMC12464638,l,,record_concern,,,"Yield basis for 81% not stated (isolated or NMR); PS is a co-present spectator, PS Mn shown only in Fig. 5h (no numeric value)."
+PMC13590609,,,paper_concern,,,No photocatalyst at all: Cl radicals from chlorinated solvents under 415 nm light at 130 °C (photothermal). Eligibility should be checked against the catalyst/visible-light criteria; heating to 90-130 °C is substantial and a dark control still gave Mn 30.8 kDa.
+PMC13590609,,,paper_concern,,,"Fig. 2a and Fig. 3b are tables inside figures; most entry values (Mn/Mw of P1-P5, OPP2-5, MixPP; exact TPA yields for entries 1, 2, 4) are not in text."
+PMC13590609,,,paper_concern,,,"Not covered by tasks: 90 °C run (comparable Mn, Supplementary Table S3); OPP1-OPP5 final Mn 12.6-15.5 kDa (range); solvent-type screen Mn 11-17 kDa (range); recycling runs 92.4~94.9% TPA (range); OPP5-fed run 48.1% TPA; no-PP and no-light PET controls giving 'no TPA' (Fig. 3b entries 5-6) which could be control records with 0 yield."
+PMC13590609,a,catalyst,blind_null,none (Cl radicals generated in situ from chlorinated solvent),,
+PMC13590609,a,irradiance,blind_null,50,,
+PMC13590609,a,irradiance_unit,blind_null,"W (electrical, per lamp; two lamps)",,
+PMC13590609,a,,record_concern,,,No photocatalyst: the chlorinated solvent is the Cl-radical source; catalyst null.
+PMC13590609,a,,record_concern,,,"Irradiance not given; only 'two symmetrically arranged 415 nm LED lamps (50 W ...), each positioned 4 cm from the bottle' (Methods)."
+PMC13590609,a,,record_concern,,,Concentration not printed as such; Methods gives PP (1 g) in Cl-solvent (12 mL).
+PMC13590609,a,,record_concern,,,Time 18 h from Methods (Preparation of OPPs); not stated in ¶1.
+PMC13590609,b,catalyst,blind_null,none (Cl radicals generated in situ from chlorinated solvent),,
+PMC13590609,b,irradiance,blind_null,50,,
+PMC13590609,b,irradiance_unit,blind_null,"W (electrical, per lamp; two lamps)",,
+PMC13590609,b,,record_concern,,,No photocatalyst: the chlorinated solvent is the Cl-radical source; catalyst null.
+PMC13590609,b,,record_concern,,,"Irradiance not given; only 'two symmetrically arranged 415 nm LED lamps (50 W ...), each positioned 4 cm from the bottle' (Methods)."
+PMC13590609,b,,record_concern,,,Concentration not printed as such; Methods gives PP (1 g) in Cl-solvent (12 mL).
+PMC13590609,b,,record_concern,,,"Temperature 130 °C, solvent, time and mn_before (45.7 kDa, P1) are inherited from ¶1/Methods/Fig. 2 entry 1 conditions; ¶2 does not restate them."
+PMC13590609,c,catalyst,blind_null,none (Cl radicals generated in situ from chlorinated solvent),,
+PMC13590609,c,time_unit,blind_null,h,,
+PMC13590609,c,,record_concern,,,"Dark control (Supplementary Table S3, Entry 7); atmosphere and time for this control are not stated in the main text, left null (presumably air, 18 h, 130 °C)."
+PMC13590609,c,,record_concern,,,"¶2 also has an N2-atmosphere control (cross-linking, no Mn given); this task is taken to be the dark control because an Mn (30.8 kDa) is given."
+PMC13590609,c,,record_concern,,,No photocatalyst: the chlorinated solvent is the Cl-radical source; catalyst null.
+PMC13590609,c,,record_concern,,,Concentration not printed as such; Methods gives PP (1 g) in Cl-solvent (12 mL).
+PMC13590609,d,catalyst,blind_null,none (Cl radicals generated in situ from chlorinated solvent),,
+PMC13590609,d,irradiance,blind_null,50,,
+PMC13590609,d,irradiance_unit,blind_null,"W (electrical, per lamp; two lamps)",,
+PMC13590609,d,solvent,disagree,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",mixed chlorinated solvents,"{""v"": ""mixed chlorinated solvents"", ""loc"": ""Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2"", ""s"": ""in mixed chlorinated solvents""}"
+PMC13590609,d,yield:terephthalic acid,disagree,70,90,"{""v"": 90, ""u"": ""%"", ""loc"": ""Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2"", ""s"": ""over 90% of terephthalic acid (TPA) was isolated""}"
+PMC13590609,d,,record_concern,,,No photocatalyst; Cl-solvent generates Cl radicals; catalyst null. Atmosphere 'air' only from Introduction summary; Methods uses a sealed pressure bottle.
+PMC13590609,d,,record_concern,,,"Irradiance not given; only 'two symmetrically arranged 415 nm LED lamps (50 W ...), each positioned 4 cm from the bottle' (Methods)."
+PMC13590609,d,,record_concern,,,Yield is a lower bound ('over 90%') shared by entries 1 and 2 (PP/PET 1:0.1 and 1:0.5); exact values only in Fig. 3b. Recorded v=90 as the bound; not an exact value.
+PMC13590609,d,,record_concern,,,'PP' as cocatalyst_additive is my interpretation (PP is a co-substrate whose degradation releases HCl); arguably null.
+PMC13590609,e,catalyst,blind_null,none (Cl radicals generated in situ from chlorinated solvent),,
+PMC13590609,e,irradiance,blind_null,50,,
+PMC13590609,e,irradiance_unit,blind_null,"W (electrical, per lamp; two lamps)",,
+PMC13590609,e,solvent,disagree,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",mixed chlorinated solvents,"{""v"": ""mixed chlorinated solvents"", ""loc"": ""Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2"", ""s"": ""in mixed chlorinated solvents""}"
+PMC13590609,e,yield:terephthalic acid,disagree,48.1,70,"{""v"": 70, ""u"": ""%"", ""loc"": ""Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2"", ""s"": ""the TPA yield decreased to ~70%""}"
+PMC13590609,e,,record_concern,,,No photocatalyst; Cl-solvent generates Cl radicals; catalyst null. Atmosphere 'air' only from Introduction summary; Methods uses a sealed pressure bottle.
+PMC13590609,e,,record_concern,,,"Irradiance not given; only 'two symmetrically arranged 415 nm LED lamps (50 W ...), each positioned 4 cm from the bottle' (Methods)."
+PMC13590609,e,,record_concern,,,"Ambiguous which ¶2 entry this task is. I took PP/PET 1:1 (entry 4, ~70%, approximate). Alternatives in ¶2: 1:0.5 (entry 2, 'over 90%'); pre-formed OPP5 instead of P5 (48.1% TPA, 56.6% PET conversion; Supplementary Table S5)."
+PMC13590609,e,,record_concern,,,Time/temperature for entry 4 not restated; 130 °C/18 h from the 1:0.1 & 1:0.5 sentence and Methods.
+PMC13590609,e,,record_concern,,,'PP' as cocatalyst_additive is my interpretation; arguably null.
+PMC13590609,f,catalyst,blind_null,none (Cl radicals generated in situ from chlorinated solvent),,
+PMC13590609,f,irradiance,blind_null,50,,
+PMC13590609,f,irradiance_unit,blind_null,"W (electrical, per lamp; two lamps)",,
+PMC13590609,f,,record_concern,,,No photocatalyst; Cl-solvent generates Cl radicals; catalyst null. Atmosphere 'air' only from Introduction summary; Methods uses a sealed pressure bottle.
+PMC13590609,f,,record_concern,,,"Irradiance not given; only 'two symmetrically arranged 415 nm LED lamps (50 W ...), each positioned 4 cm from the bottle' (Methods)."
+PMC13590609,f,,record_concern,,,"Time, temperature, light from Methods ('The same experimental procedure was applied for the conversion of real-life plastic samples')."
+PMC13590609,f,,record_concern,,,Yield basis not explicitly stated for this entry; isolated per Methods workup and ¶2 wording.
+PMC13590609,f,,record_concern,,,Feed: PP 1 g / PET 0.5 g (Fig. 4 caption).
+PMC13590609,g,catalyst,blind_null,none (Cl radicals generated in situ from chlorinated solvent),,
+PMC13590609,g,irradiance,blind_null,50,,
+PMC13590609,g,irradiance_unit,blind_null,"W (electrical, per lamp; two lamps)",,
+PMC13590609,g,,record_concern,,,No photocatalyst; Cl-solvent generates Cl radicals; catalyst null. Atmosphere 'air' only from Introduction summary; Methods uses a sealed pressure bottle.
+PMC13590609,g,,record_concern,,,"Irradiance not given; only 'two symmetrically arranged 415 nm LED lamps (50 W ...), each positioned 4 cm from the bottle' (Methods)."
+PMC13590609,g,,record_concern,,,"Time, temperature, light from Methods ('The same experimental procedure was applied for the conversion of real-life plastic samples')."
+PMC13590609,g,,record_concern,,,Yield basis not explicitly stated for this entry; isolated per Methods workup and ¶2 wording.
+PMC13590609,g,,record_concern,,,Feed: PP 1 g / PET 0.5 g (Fig. 4 caption).
+PMC13590609,h,catalyst,blind_null,none (Cl radicals generated in situ from chlorinated solvent),,
+PMC13590609,h,irradiance,blind_null,50,,
+PMC13590609,h,irradiance_unit,blind_null,"W (electrical, per lamp; two lamps)",,
+PMC13590609,h,,record_concern,,,No photocatalyst; Cl-solvent generates Cl radicals; catalyst null. Atmosphere 'air' only from Introduction summary; Methods uses a sealed pressure bottle.
+PMC13590609,h,,record_concern,,,"Irradiance not given; only 'two symmetrically arranged 415 nm LED lamps (50 W ...), each positioned 4 cm from the bottle' (Methods)."
+PMC13590609,h,,record_concern,,,"Time, temperature, light from Methods ('The same experimental procedure was applied for the conversion of real-life plastic samples')."
+PMC13590609,h,,record_concern,,,Yield basis not explicitly stated for this entry; isolated per Methods workup and ¶2 wording.
+PMC13590609,h,,record_concern,,,Feed: PP 1 g / PET 0.5 g (Fig. 4 caption).
+PMC13590609,i,catalyst,blind_null,none (Cl radicals generated in situ from chlorinated solvent),,
+PMC13590609,i,irradiance,blind_null,50,,
+PMC13590609,i,irradiance_unit,blind_null,"W (electrical, per lamp; two lamps)",,
+PMC13590609,i,solvent,disagree,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",mixed chlorinated solvent (Cl-Sol),"{""v"": ""mixed chlorinated solvent (Cl-Sol)"", ""loc"": ""Methods > Co-cycling of PP and PET ¶1"", ""s"": ""mixed Cl-solvent (12 mL)""}"
+PMC13590609,i,,record_concern,,,No photocatalyst; Cl-solvent generates Cl radicals; catalyst null. Atmosphere 'air' only from Introduction summary; Methods uses a sealed pressure bottle.
+PMC13590609,i,,record_concern,,,"Irradiance not given; only 'two symmetrically arranged 415 nm LED lamps (50 W ...), each positioned 4 cm from the bottle' (Methods)."
+PMC13590609,i,,record_concern,,,Scale-up: time and solvent volume not stated for the 7 g/3.5 g run; solvent and temperature/light assumed from Methods general procedure.
+PMC9295126,,,paper_concern,,,"Other products with numbers not covered by any task: ethyl benzoate (~10%), acetophenone (~6%), benzaldehyde (~1%), total identified aromatics ~60% at 48 h (¶2); CO 21% and CO2 7.5% at 16 h (¶2); 34% benzoic acid with recycled catalyst after 24 h (¶2); 30 ± 2% at 16 h is also in ¶2."
+PMC9295126,,,paper_concern,,,Mw after 16 h given only as a range ('between 100 and 200') -> not recordable.
+PMC9295126,,,paper_concern,,,"Table 1 entries 9-14 use catalysts B-G identified only by letter (structures presumably in a figure/SI) -> excluded; entry 15 is NHPI (H) + carbon nitride, 0 equiv H2SO4, 5.5% (text names NHPI) and could be a record; footnote d says 10 mg carbon nitride but Photochemistry ¶3 says 5.0 mg NCN-CNx."
+PMC9295126,,,paper_concern,,,"Entry 4 (no PS) is a blank, not a polymer record."
+PMC9295126,,,paper_concern,,,"Temperature 50 °C is LED heating, not controlled."
+PMC9295126,,,paper_concern,,,Catalyst loading stated two ways: 20 mol % (Table 1/¶3) and 0.2 equiv (Figure 2/3 captions).
+PMC9295126,a,irradiance,blind_null,14.4,,
+PMC9295126,a,irradiance_unit,blind_null,"W (electrical, per LED strip)",,
+PMC9295126,a,yield_basis,disagree,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,"{""v"": ""product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC"", ""loc"": ""Figure 2 caption"", ""s"": ""The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)""}"
+PMC9295126,a,replicates,blind_null,3,,
+PMC9295126,a,mass_unit_before,blind_null,g/mol,,
+PMC9295126,a,mass_unit_after,blind_null,g/mol,,
+PMC9295126,a,,record_concern,,,"Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance."
+PMC9295126,a,,record_concern,,,"Wavelength: λmax ∼ 450 nm (¶1) but Mechanistic ¶1 says 'corresponding λmax = 466 nm, consistent with the LED emission spectrum'."
+PMC9295126,a,,record_concern,,,No molar-mass unit printed anywhere (Mw given as bare numbers); g/mol only by inference.
+PMC9295126,a,,record_concern,,,GPC calibration standard not stated in main text -> not_reported.
+PMC9295126,a,,record_concern,,,"Replicates: Figure 2 caption says error bars are SD of triplicates, but it is not stated that the Mw points were triplicated; left null."
+PMC9295126,b,irradiance,blind_null,14.4,,
+PMC9295126,b,irradiance_unit,blind_null,"W (electrical, per LED strip)",,
+PMC9295126,b,yield_basis,disagree,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,"{""v"": ""product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC"", ""loc"": ""Figure 2 caption"", ""s"": ""The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)""}"
+PMC9295126,b,replicates,blind_null,3,,
+PMC9295126,b,mass_unit_before,blind_null,g/mol,,
+PMC9295126,b,mass_unit_after,blind_null,g/mol,,
+PMC9295126,b,,record_concern,,,"Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance."
+PMC9295126,b,,record_concern,,,"Wavelength: λmax ∼ 450 nm (¶1) but Mechanistic ¶1 says 'corresponding λmax = 466 nm, consistent with the LED emission spectrum'."
+PMC9295126,b,,record_concern,,,No molar-mass unit printed anywhere (Mw given as bare numbers); g/mol only by inference.
+PMC9295126,b,,record_concern,,,GPC calibration standard not stated in main text -> not_reported.
+PMC9295126,b,,record_concern,,,"Replicates: Figure 2 caption says error bars are SD of triplicates, but it is not stated that the Mw points were triplicated; left null."
+PMC9295126,c,irradiance,blind_null,14.4,,
+PMC9295126,c,irradiance_unit,blind_null,"W (electrical, per LED strip)",,
+PMC9295126,c,yield_basis,disagree,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,"{""v"": ""product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC"", ""loc"": ""Figure 2 caption"", ""s"": ""The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)""}"
+PMC9295126,c,yield:CO,blind_missing,21,,
+PMC9295126,c,yield:CO2,blind_missing,7.5,,
+PMC9295126,c,,record_concern,,,"Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance."
+PMC9295126,c,,record_concern,,,"Wavelength: λmax ∼ 450 nm (¶1) but Mechanistic ¶1 says 'corresponding λmax = 466 nm, consistent with the LED emission spectrum'."
+PMC9295126,c,,record_concern,,,Catalyst letter A identified as fluorenone in text (¶3/¶4: 'Fluorenone (A)').
+PMC9295126,c,,record_concern,,,"Footnote a states 16 h; the 30 ± 2% is the 16 h value, the bracketed 38 ± 3% is 48 h (task d)."
+PMC9295126,d,irradiance,blind_null,14.4,,
+PMC9295126,d,irradiance_unit,blind_null,"W (electrical, per LED strip)",,
+PMC9295126,d,yield_basis,disagree,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,"{""v"": ""product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC"", ""loc"": ""Figure 2 caption"", ""s"": ""The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)""}"
+PMC9295126,d,,record_concern,,,"Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance."
+PMC9295126,d,,record_concern,,,"Wavelength: λmax ∼ 450 nm (¶1) but Mechanistic ¶1 says 'corresponding λmax = 466 nm, consistent with the LED emission spectrum'."
+PMC9295126,d,,record_concern,,,Same as Figure 2 48 h point and Results ¶2 ('38 ± 3% at 48 h').
+PMC9295126,e,catalyst_loading_unit,blind_null,mol%,,
+PMC9295126,e,irradiance,blind_null,14.4,,
+PMC9295126,e,irradiance_unit,blind_null,"W (electrical, per LED strip)",,
+PMC9295126,e,yield_basis,disagree,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,"{""v"": ""product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC"", ""loc"": ""Figure 2 caption"", ""s"": ""The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)""}"
+PMC9295126,e,products,disagree,benzoic acid,[],"{""v"": [], ""loc"": ""Table 1 r2 c7"", ""s"": ""0%""}"
+PMC9295126,e,,record_concern,,,Control: no photocatalyst (entry 2).
+PMC9295126,f,yield_basis,disagree,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,"{""v"": ""product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC"", ""loc"": ""Figure 2 caption"", ""s"": ""The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)""}"
+PMC9295126,f,products,disagree,benzoic acid,[],"{""v"": [], ""loc"": ""Table 1 r8 c7"", ""s"": ""0%""}"
+PMC9295126,f,,record_concern,,,Control: dark at 50 °C (entry 8); text ¶3 'temperature still at 50 °C'.
+PMC9295126,g,irradiance,blind_null,14.4,,
+PMC9295126,g,irradiance_unit,blind_null,"W (electrical, per LED strip)",,
+PMC9295126,g,yield_basis,disagree,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,"{""v"": ""product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC"", ""loc"": ""Figure 2 caption"", ""s"": ""The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)""}"
+PMC9295126,g,products,disagree,benzoic acid,[],"{""v"": [], ""loc"": ""Table 1 r7 c7"", ""s"": ""0%""}"
+PMC9295126,g,,record_concern,,,"Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance."
+PMC9295126,g,,record_concern,,,Control: N2 instead of O2 (entry 7); not discussed in text ¶3.
+PMC9295126,h,irradiance,blind_null,14.4,,
+PMC9295126,h,irradiance_unit,blind_null,"W (electrical, per LED strip)",,
+PMC9295126,h,yield_basis,disagree,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,"{""v"": ""product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC"", ""loc"": ""Figure 2 caption"", ""s"": ""The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)""}"
+PMC9295126,h,products,disagree,benzoic acid,[],"{""v"": [], ""loc"": ""Table 1 r5 c7"", ""s"": ""0%""}"
+PMC9295126,h,,record_concern,,,"Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance."
+PMC9295126,h,,record_concern,,,Control: no acid (entry 5).
+PMC9295126,i,irradiance,blind_null,14.4,,
+PMC9295126,i,irradiance_unit,blind_null,"W (electrical, per LED strip)",,
+PMC9295126,i,yield_basis,disagree,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,"{""v"": ""product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC"", ""loc"": ""Figure 2 caption"", ""s"": ""The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)""}"
+PMC9295126,i,,record_concern,,,"Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance."
+PMC9295126,i,,record_concern,,,"Tasks i and j share primary_loc Table 1 r3; I assigned i = 16 h (21%) and j = 48 h (31%, footnote c). Swap if intended otherwise."
+PMC9295126,i,,record_concern,,,No uncertainty given for this entry.
+PMC9295126,j,irradiance,blind_null,14.4,,
+PMC9295126,j,irradiance_unit,blind_null,"W (electrical, per LED strip)",,
+PMC9295126,j,yield_basis,disagree,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,"{""v"": ""product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC"", ""loc"": ""Figure 2 caption"", ""s"": ""The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)""}"
+PMC9295126,j,,record_concern,,,"Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance."
+PMC9295126,j,,record_concern,,,48 h value of entry 3 (footnote c; also ¶3 'can still achieve 31% of benzoic acid at 48 h').
+PMC9295126,k,irradiance,blind_null,14.4,,
+PMC9295126,k,irradiance_unit,blind_null,"W (electrical, per LED strip)",,
+PMC9295126,k,yield_basis,disagree,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,"{""v"": ""product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC"", ""loc"": ""Figure 2 caption"", ""s"": ""The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)""}"
+PMC9295126,k,,record_concern,,,"Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance."
+PMC9295126,l,irradiance,blind_null,14.4,,
+PMC9295126,l,irradiance_unit,blind_null,"W (electrical, per LED strip)",,
+PMC9295126,l,yield_basis,disagree,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,"{""v"": ""product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC"", ""loc"": ""Figure 2 caption"", ""s"": ""The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)""}"
+PMC9295126,l,,record_concern,,,"Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance."
+PMC9295126,l,,record_concern,,,"Wavelength: λmax ∼ 450 nm (¶1) but Mechanistic ¶1 says 'corresponding λmax = 466 nm, consistent with the LED emission spectrum'."
+PMC9295126,l,,record_concern,,,Gram scale: 10 mmol (1.04 g) PS in 20 mL EtOAc = 0.5 M repeat units (not 0.1 M); each tube individually in an LED roll (Photochemistry ¶2).
+PMC9295126,l,,record_concern,,,Figure 3 caption copies '~40% ... at 48 h are aromatic oligomers' from Figure 2 although gram-scale times are 64/72 h.
+PMC9295126,l,,record_concern,,,catalyst_loading as printed is 0.2 equiv (= 20 mol% vs styrene units).
+PMC9295126,l,,record_concern,,,Isolated benzoic acid yield 40% also reported for pure PS gram scale (same ¶); total identified aromatics 60 ± 2%.
+PMC9295126,m,irradiance,blind_null,14.4,,
+PMC9295126,m,irradiance_unit,blind_null,"W (electrical, per LED strip)",,
+PMC9295126,m,yield_basis,disagree,mol% per styrene repeat unit,product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC,"{""v"": ""product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC"", ""loc"": ""Figure 2 caption"", ""s"": ""The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)""}"
+PMC9295126,m,,record_concern,,,"Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance."
+PMC9295126,m,,record_concern,,,"Wavelength: λmax ∼ 450 nm (¶1) but Mechanistic ¶1 says 'corresponding λmax = 466 nm, consistent with the LED emission spectrum'."
+PMC9295126,m,,record_concern,,,Gram scale: 10 mmol (1.04 g) PS in 20 mL EtOAc = 0.5 M repeat units (not 0.1 M); each tube individually in an LED roll (Photochemistry ¶2).
+PMC9295126,m,,record_concern,,,Figure 3 caption copies '~40% ... at 48 h are aromatic oligomers' from Figure 2 although gram-scale times are 64/72 h.
+PMC9295126,m,,record_concern,,,catalyst_loading as printed is 0.2 equiv (= 20 mol% vs styrene units).
+PMC9295126,m,,record_concern,,,Isolated benzoic acid yield 38% for PS foam (same ¶); total identified aromatics 60 ± 4%.
+PMC9295126,m,,record_concern,,,Mn ~59 000 from Materials ¶1.
+PMC9295126,,,paper_concern,,,Carbon nitride loading discrepancy (10 mg vs 5.0 mg) for the NHPI run.
+PMC9295126,c,,record_concern,,,Benzoic acid reported as 30 ± 2% (triplicate SD 2). CO/CO2 yields given as single values without stated basis beyond the general yield definition.
+PMC9295126,o,catalyst,disagree,NHPI + cyanamide-functionalized carbon nitride,"H (N-hydroxyphthalimide, NHPI) + carbon nitride (cyanamide-functionalized NCN-CNx) as light absorber","{""v"": ""H (N-hydroxyphthalimide, NHPI) + carbon nitride (cyanamide-functionalized NCN-CNx) as light absorber"", ""loc"": ""Table 1 entry 15, footnote d; Results para 4; Experimental Photochemistry para 3"", ""s"": ""5.5% benzoic acid was produced when compound H (N-hydroxyphthalimide, NHPI) was used in combination with carbon nitride""}"
+PMC9295126,o,,record_concern,,,"Carbon nitride mass inconsistent: Table 1 footnote d says 10 mg, Experimental Section says NCN-CNx 5.0 mg."
+PMC9295126,o,,record_concern,,,"Entry 15 omits H2SO4 (0 equiv) unlike entries 9-14, so it is not a like-for-like catalyst comparison."
+PMC9295126,o,,record_concern,,,"Time (16 h) only from general footnote a, not stated explicitly for this entry."
+PMC9381527,,,paper_concern,,,"Eligibility doubt: all reactions use a 300 W Xenon lamp at 80-150 °C; only Table 1 entry 11 (400-800 nm filter, 91 ± 6% conversion, 61 ± 5% selectivity) is shown to be visible-light. Temperatures of 150 °C under 10 bar O2 make the process photothermal."
+PMC9381527,,,paper_concern,,,"Table 1 entries (conversion/selectivity with SD, n=3, 24 h) are numeric records not covered by the single task, including controls (entry 1 no catalyst; entry 6 no light: not detected). 'Conversion' has a non-standard definition (carbon in products + COx)."
+PMC9381527,,,paper_concern,,,Flow WHSV results (selectivity 51% benzaldehyde / 31% acetophenone at 0.9 h-1; BA 18-74%) not covered.
+PMC9381527,a,irradiance,blind_null,300,,
+PMC9381527,a,irradiance_unit,blind_null,W (electrical lamp power),,
+PMC9381527,a,yield_basis,disagree,amount (mg) obtained from 500 mg PS pellets: 360 mg = total quantified benzoic acid + acetophenone + benzaldehyde; 240 mg = benzoic acid isolated by column chromatography,"mass of products (mg) from 0.5 g PS; 74/15/11% is composition of the oxygenates, not yield","{""v"": ""mass of products (mg) from 0.5 g PS; 74/15/11% is composition of the oxygenates, not yield"", ""loc"": ""Results > Further improvement based on the reaction mechanism ¶2"", ""s"": ""a total amount of 360 mg aromatic oxygenates were produced""}"
+PMC9381527,a,,record_concern,,,Light source is an unfiltered 300 W Xenon lamp (UV included); only Table 1 entry 11 used a 400-800 nm filter. This record is not demonstrably visible-light-only.
+PMC9381527,a,,record_concern,,,"Yields are amounts (mg), not %; 90% of pellets converted. Percentages 74/15/11 are product distribution within the 360 mg."
+PMC9381527,a,,record_concern,,,Catalyst loading given as mass (200 mg) / substrate:catalyst ratio 5:2; irradiance not reported (lamp power only).
+PMC9381527,a,,record_concern,,,"Circulatory/semi-batch: 8 h per cycle, 18-20 cycles; total time not a single value (time not among requested fields)."
+PMC9381527,a,,record_concern,,,Main text says 18 cycles of steady production; Fig. 3 caption says 20 reaction cycles.
+PMC9586668,,,paper_concern,,,"'20% depolymerization yield' (Results ¶2, for PMMA-Cl1) and '~40% depolymerization' from 1H NMR (Results ¶6, called unreliable) are not captured as yields in any task."
+PMC9586668,,,paper_concern,,,"Dark control stated qualitatively only ('No depolymerization has been observed in dark conditions for any polymer samples', Results ¶1) with no numbers; could be a control record but has no values."
+PMC9586668,,,paper_concern,,,Light source characterisation minimal (wavelength 400 nm only).
+PMC9586668,a,,record_concern,,,"Table 2 r1 repeats exactly the Table 1 r1 data (PMMA-Cl1, 67,000->53,000, 1,4/1,4); Table 1 r1 has no separate task, which is correct if it is treated as the same experiment."
+PMC9586668,a,,record_concern,,,Concentration 0.065 M (Methods) is inconsistent with the stated ratio [Mn2(CO)10]:[Polymer]=1:2 and 12.4 mg Mn2(CO)10 in 6.7 mL (would give ~0.0095 M chains); 0.065 M may be per repeat unit or simply wrong.
+PMC9586668,a,,record_concern,,,Atmosphere: Materials says nitrogen; Methods ¶4 only says oxygen removed by Schlenk techniques (could be coded 'degassed').
+PMC9586668,a,,record_concern,,,"Light source is only 'a photoreactor'; no lamp type, power or irradiance given. Time stated as '6 h' in footnote; Methods says 'up to 6 h'."
+PMC9586668,b,,record_concern,,,"Polymer is PMMA-Br (bromine chain end), not the Cl-terminated PMMA of the other records; Mn unchanged (5400 -> 5400) and text says coupling/chain extension, so this is essentially a no-depolymerization result."
+PMC9586668,b,,record_concern,,,"Dispersity printed with decimal comma ('1,2', '1,3')."
+PMC9586668,b,,record_concern,,,Temperature not given in Table 1; Figure 1 caption says 'ambient temperature' (not requested here).
+PMC9586668,c,,record_concern,,,"Copolymer initiated with alpha-chloroethylbutyrate (Methods ¶3), not benzyl chloride; GMA fraction only as feed (0,66 mL GMA / 10 mL MMA)."
+PMC9586668,d,,record_concern,,,"Run at 90 °C: photothermal, not ambient; different polymer sample (PMMA-Cl2) from record a."
+PMC9586668,e,,record_concern,,,"Run at 170 °C in p-DCB; no dark control at 170 °C reported, so thermal contribution cannot be separated (text ¶1 says no depolymerization in dark, without temperature)."

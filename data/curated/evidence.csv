@@ -1,0 +1,1801 @@
+record_id,field,value,locator,source_string,inferred_reason,outcome
+PDG-PMC10557129-a,polymer,poly(benzyl methacrylate),body ¶4,Poly(benzyl methacrylate) (PBzMA),,matched
+PDG-PMC10557129-a,polymer_class,vinyl_methacrylate,,,classification of the named polymer,inferred
+PDG-PMC10557129-a,polymer_detail,"ARGET ATRP PBzMA with halogen chain end, Đ ≈ 1.15",body ¶4,Đ ≈ 1.15,,matched
+PDG-PMC10557129-a,light_source,blue light (LED details in SI only),body ¶4,under blue light irradiation,,matched
+PDG-PMC10557129-a,light_color,blue,body ¶4,blue light irradiation,,matched
+PDG-PMC10557129-a,concentration,50,body ¶9,50 mM repeating unit,,matched
+PDG-PMC10557129-a,concentration_unit,mM (repeat units),,,printed as mM repeating unit (= 9 mg/mL polymer),inferred
+PDG-PMC10557129-a,catalyst_loading_unit,equiv relative to halogen end-group,,,as defined in body ¶4,inferred
+PDG-PMC10557129-a,time_unit,min,,,unit printed with the value,inferred
+PDG-PMC10557129-a,products,benzyl methacrylate (BzMA),body ¶5,84% of BzMA,,matched
+PDG-PMC10557129-a,yield_basis,monomer regeneration (depolymerization yield) by 1H NMR,body ¶4,as confirmed by 1H NMR spectroscopic analysis,,matched
+PDG-PMC10557129-a,catalyst,FeCl2,body ¶4,1 equiv of FeCl2 with respect to the halogen end-group,,matched
+PDG-PMC10557129-a,catalyst_loading,1,body ¶4,1 equiv of FeCl2 with respect to the halogen end-group,,matched
+PDG-PMC10557129-a,temperature_c,170,body ¶4,blue light irradiation at 170 °C,,matched
+PDG-PMC10557129-a,time,5,body ¶4,Within 5 min of reaction,,matched
+PDG-PMC10557129-a,product_yields[0]:benzyl methacrylate,90,body ¶4,almost 90% of monomer,,matched
+PDG-PMC10557129-a,product_yields[0].product,benzyl methacrylate,body ¶5,84% of BzMA,,matched
+PDG-PMC10557129-b,polymer,poly(benzyl methacrylate),body ¶4,Poly(benzyl methacrylate) (PBzMA),,matched
+PDG-PMC10557129-b,polymer_class,vinyl_methacrylate,,,classification of the named polymer,inferred
+PDG-PMC10557129-b,polymer_detail,"ARGET ATRP PBzMA with halogen chain end, Đ ≈ 1.15",body ¶4,Đ ≈ 1.15,,matched
+PDG-PMC10557129-b,light_source,"none (dark, heat only)",body ¶4,"in the absence of light irradiation (i.e., using only heat)",,matched
+PDG-PMC10557129-b,concentration,50,body ¶9,50 mM repeating unit,,matched
+PDG-PMC10557129-b,concentration_unit,mM (repeat units),,,printed as mM repeating unit (= 9 mg/mL polymer),inferred
+PDG-PMC10557129-b,catalyst_loading_unit,equiv relative to halogen end-group,,,as defined in body ¶4,inferred
+PDG-PMC10557129-b,time_unit,min,,,unit printed with the value,inferred
+PDG-PMC10557129-b,products,benzyl methacrylate (BzMA),body ¶5,84% of BzMA,,matched
+PDG-PMC10557129-b,yield_basis,monomer regeneration (depolymerization yield) by 1H NMR,body ¶4,as confirmed by 1H NMR spectroscopic analysis,,matched
+PDG-PMC10557129-b,catalyst,FeCl2,body ¶4,1 equiv of FeCl2 with respect to the halogen end-group,,matched
+PDG-PMC10557129-b,catalyst_loading,1,body ¶4,1 equiv of FeCl2 with respect to the halogen end-group,,matched
+PDG-PMC10557129-b,temperature_c,170,body ¶4,blue light irradiation at 170 °C,,matched
+PDG-PMC10557129-b,product_yields[0]:benzyl methacrylate,88,body ¶4,"revealed only slightly lower yield (i.e., 88%)",,matched
+PDG-PMC10557129-b,product_yields[0].product,benzyl methacrylate,body ¶5,84% of BzMA,,matched
+PDG-PMC10557129-c,polymer,poly(benzyl methacrylate),body ¶4,Poly(benzyl methacrylate) (PBzMA),,matched
+PDG-PMC10557129-c,polymer_class,vinyl_methacrylate,,,classification of the named polymer,inferred
+PDG-PMC10557129-c,polymer_detail,"ARGET ATRP PBzMA with halogen chain end, Đ ≈ 1.15",body ¶4,Đ ≈ 1.15,,matched
+PDG-PMC10557129-c,light_source,"none (dark, heat only)",body ¶4,"in the absence of light irradiation (i.e., using only heat)",,matched
+PDG-PMC10557129-c,concentration,50,body ¶9,50 mM repeating unit,,matched
+PDG-PMC10557129-c,concentration_unit,mM (repeat units),,,printed as mM repeating unit (= 9 mg/mL polymer),inferred
+PDG-PMC10557129-c,catalyst_loading_unit,equiv relative to halogen end-group,,,as defined in body ¶4,inferred
+PDG-PMC10557129-c,time_unit,min,,,unit printed with the value,inferred
+PDG-PMC10557129-c,products,benzyl methacrylate (BzMA),body ¶5,84% of BzMA,,matched
+PDG-PMC10557129-c,yield_basis,monomer regeneration (depolymerization yield) by 1H NMR,body ¶4,as confirmed by 1H NMR spectroscopic analysis,,matched
+PDG-PMC10557129-c,catalyst,FeCl2,body ¶4,1 equiv of FeCl2 with respect to the halogen end-group,,matched
+PDG-PMC10557129-c,catalyst_loading,1,body ¶4,1 equiv of FeCl2 with respect to the halogen end-group,,matched
+PDG-PMC10557129-c,temperature_c,100,body ¶4,at 100 °C the thermal depolymerization was significantly suppressed,,matched
+PDG-PMC10557129-c,product_yields[0]:benzyl methacrylate,6,body ¶4,only 6% of yield,,matched
+PDG-PMC10557129-c,product_yields[0].product,benzyl methacrylate,body ¶5,84% of BzMA,,matched
+PDG-PMC10557129-d,polymer,poly(benzyl methacrylate),body ¶4,Poly(benzyl methacrylate) (PBzMA),,matched
+PDG-PMC10557129-d,polymer_class,vinyl_methacrylate,,,classification of the named polymer,inferred
+PDG-PMC10557129-d,polymer_detail,"ARGET ATRP PBzMA with halogen chain end, Đ ≈ 1.15",body ¶4,Đ ≈ 1.15,,matched
+PDG-PMC10557129-d,light_source,blue light (LED details in SI only),body ¶4,under blue light irradiation,,matched
+PDG-PMC10557129-d,light_color,blue,body ¶4,blue light irradiation,,matched
+PDG-PMC10557129-d,concentration,50,body ¶9,50 mM repeating unit,,matched
+PDG-PMC10557129-d,concentration_unit,mM (repeat units),,,printed as mM repeating unit (= 9 mg/mL polymer),inferred
+PDG-PMC10557129-d,catalyst_loading_unit,equiv relative to halogen end-group,,,as defined in body ¶4,inferred
+PDG-PMC10557129-d,time_unit,min,,,unit printed with the value,inferred
+PDG-PMC10557129-d,products,benzyl methacrylate (BzMA),body ¶5,84% of BzMA,,matched
+PDG-PMC10557129-d,yield_basis,monomer regeneration (depolymerization yield) by 1H NMR,body ¶4,as confirmed by 1H NMR spectroscopic analysis,,matched
+PDG-PMC10557129-d,catalyst,FeCl2,body ¶4,1 equiv of FeCl2 with respect to the halogen end-group,,matched
+PDG-PMC10557129-d,catalyst_loading,1,Figure 2 caption,at 100 °C using 1 and 0.05 equiv of catalyst,,matched
+PDG-PMC10557129-d,temperature_c,100,Figure 2 caption,Temporal control of depolymerization of PBzMA at 100 °C,,matched
+PDG-PMC10557129-d,time,20,body ¶4,"(i.e., 20 min)",,matched
+PDG-PMC10557129-d,product_yields[0]:benzyl methacrylate,18,body ¶4,18% of depolymerization yield,,matched
+PDG-PMC10557129-d,product_yields[0].product,benzyl methacrylate,body ¶5,84% of BzMA,,matched
+PDG-PMC10557129-e,polymer,poly(benzyl methacrylate),body ¶4,Poly(benzyl methacrylate) (PBzMA),,matched
+PDG-PMC10557129-e,polymer_class,vinyl_methacrylate,,,classification of the named polymer,inferred
+PDG-PMC10557129-e,polymer_detail,"ARGET ATRP PBzMA with halogen chain end, Đ ≈ 1.15",body ¶4,Đ ≈ 1.15,,matched
+PDG-PMC10557129-e,light_source,"none (dark, heat only)",body ¶4,"in the absence of light irradiation (i.e., using only heat)",,matched
+PDG-PMC10557129-e,concentration,50,body ¶9,50 mM repeating unit,,matched
+PDG-PMC10557129-e,concentration_unit,mM (repeat units),,,printed as mM repeating unit (= 9 mg/mL polymer),inferred
+PDG-PMC10557129-e,catalyst_loading_unit,equiv relative to halogen end-group,,,as defined in body ¶4,inferred
+PDG-PMC10557129-e,time_unit,min,,,unit printed with the value,inferred
+PDG-PMC10557129-e,products,benzyl methacrylate (BzMA),body ¶5,84% of BzMA,,matched
+PDG-PMC10557129-e,yield_basis,monomer regeneration (depolymerization yield) by 1H NMR,body ¶4,as confirmed by 1H NMR spectroscopic analysis,,matched
+PDG-PMC10557129-e,catalyst,FeCl2,body ¶5,0.05 equiv of FeCl2,,matched
+PDG-PMC10557129-e,catalyst_loading,0.05,body ¶5,0.05 equiv of FeCl2,,matched
+PDG-PMC10557129-e,temperature_c,170,body ¶5,even at 170 °C,,matched
+PDG-PMC10557129-e,product_yields[0]:benzyl methacrylate,5,body ¶5,only 5% of yield was observed in the absence of irradiation,,matched
+PDG-PMC10557129-e,product_yields[0].product,benzyl methacrylate,body ¶5,84% of BzMA,,matched
+PDG-PMC10557129-f,polymer,poly(benzyl methacrylate),body ¶4,Poly(benzyl methacrylate) (PBzMA),,matched
+PDG-PMC10557129-f,polymer_class,vinyl_methacrylate,,,classification of the named polymer,inferred
+PDG-PMC10557129-f,polymer_detail,"ARGET ATRP PBzMA with halogen chain end, Đ ≈ 1.15",body ¶4,Đ ≈ 1.15,,matched
+PDG-PMC10557129-f,light_source,blue light (LED details in SI only),body ¶4,under blue light irradiation,,matched
+PDG-PMC10557129-f,light_color,blue,body ¶4,blue light irradiation,,matched
+PDG-PMC10557129-f,concentration,50,body ¶9,50 mM repeating unit,,matched
+PDG-PMC10557129-f,concentration_unit,mM (repeat units),,,printed as mM repeating unit (= 9 mg/mL polymer),inferred
+PDG-PMC10557129-f,catalyst_loading_unit,equiv relative to halogen end-group,,,as defined in body ¶4,inferred
+PDG-PMC10557129-f,time_unit,min,,,unit printed with the value,inferred
+PDG-PMC10557129-f,products,benzyl methacrylate (BzMA),body ¶5,84% of BzMA,,matched
+PDG-PMC10557129-f,yield_basis,monomer regeneration (depolymerization yield) by 1H NMR,body ¶4,as confirmed by 1H NMR spectroscopic analysis,,matched
+PDG-PMC10557129-f,catalyst,FeCl2,body ¶5,0.05 equiv of FeCl2,,matched
+PDG-PMC10557129-f,catalyst_loading,0.05,body ¶5,0.05 equiv of FeCl2,,matched
+PDG-PMC10557129-f,temperature_c,170,body ¶5,photothermal depolymerization at 170 °C,,matched
+PDG-PMC10557129-f,product_yields[0]:benzyl methacrylate,84,body ¶5,yielded 84% of BzMA,,matched
+PDG-PMC10557129-f,product_yields[0].product,benzyl methacrylate,body ¶5,84% of BzMA,,matched
+PDG-PMC10557129-g,polymer,poly(benzyl methacrylate),body ¶4,Poly(benzyl methacrylate) (PBzMA),,matched
+PDG-PMC10557129-g,polymer_class,vinyl_methacrylate,,,classification of the named polymer,inferred
+PDG-PMC10557129-g,polymer_detail,"ARGET ATRP PBzMA with halogen chain end, Đ ≈ 1.15",body ¶4,Đ ≈ 1.15,,matched
+PDG-PMC10557129-g,light_source,blue light (LED details in SI only),body ¶4,under blue light irradiation,,matched
+PDG-PMC10557129-g,light_color,blue,body ¶4,blue light irradiation,,matched
+PDG-PMC10557129-g,concentration,50,body ¶9,50 mM repeating unit,,matched
+PDG-PMC10557129-g,concentration_unit,mM (repeat units),,,printed as mM repeating unit (= 9 mg/mL polymer),inferred
+PDG-PMC10557129-g,catalyst_loading_unit,equiv relative to halogen end-group,,,as defined in body ¶4,inferred
+PDG-PMC10557129-g,time_unit,min,,,unit printed with the value,inferred
+PDG-PMC10557129-g,products,benzyl methacrylate (BzMA),body ¶5,84% of BzMA,,matched
+PDG-PMC10557129-g,yield_basis,monomer regeneration (depolymerization yield) by 1H NMR,body ¶4,as confirmed by 1H NMR spectroscopic analysis,,matched
+PDG-PMC10557129-g,catalyst,FeCl3,body ¶7,FeCl3 deactivator,,matched
+PDG-PMC10557129-g,catalyst_loading,0.05,Figure 3 caption,using 0.05 equiv of catalyst (FeCl3),,matched
+PDG-PMC10557129-g,temperature_c,170,body ¶7,Photothermal depolymerization of PBzMA at 170 °C,,matched
+PDG-PMC10557129-g,product_yields[0]:benzyl methacrylate,70,body ¶7,approximately 70% of depolymerization,,matched
+PDG-PMC10557129-g,product_yields[0].product,benzyl methacrylate,body ¶5,84% of BzMA,,matched
+PDG-PMC10557129-h,polymer,poly(benzyl methacrylate),body ¶4,Poly(benzyl methacrylate) (PBzMA),,matched
+PDG-PMC10557129-h,polymer_class,vinyl_methacrylate,,,classification of the named polymer,inferred
+PDG-PMC10557129-h,polymer_detail,"ARGET ATRP PBzMA with halogen chain end, Đ ≈ 1.15",body ¶4,Đ ≈ 1.15,,matched
+PDG-PMC10557129-h,light_source,"none (dark, heat only)",body ¶4,"in the absence of light irradiation (i.e., using only heat)",,matched
+PDG-PMC10557129-h,concentration,50,body ¶9,50 mM repeating unit,,matched
+PDG-PMC10557129-h,concentration_unit,mM (repeat units),,,printed as mM repeating unit (= 9 mg/mL polymer),inferred
+PDG-PMC10557129-h,catalyst_loading_unit,equiv relative to halogen end-group,,,as defined in body ¶4,inferred
+PDG-PMC10557129-h,time_unit,min,,,unit printed with the value,inferred
+PDG-PMC10557129-h,products,benzyl methacrylate (BzMA),body ¶5,84% of BzMA,,matched
+PDG-PMC10557129-h,yield_basis,monomer regeneration (depolymerization yield) by 1H NMR,body ¶4,as confirmed by 1H NMR spectroscopic analysis,,matched
+PDG-PMC10557129-h,catalyst,FeCl3,body ¶7,FeCl3 deactivator,,matched
+PDG-PMC10557129-h,catalyst_loading,0.05,Figure 3 caption,using 0.05 equiv of catalyst (FeCl3),,matched
+PDG-PMC10557129-h,temperature_c,170,body ¶7,Photothermal depolymerization of PBzMA at 170 °C,,matched
+PDG-PMC10557129-h,product_yields[0]:benzyl methacrylate,5,body ¶7,only 5% of yield in the absence of irradiation,,matched
+PDG-PMC10557129-h,product_yields[0].product,benzyl methacrylate,body ¶5,84% of BzMA,,matched
+PDG-PMC10793207-a,polymer,polystyrene,Results and discussion ¶1,commercial PS resins,,matched
+PDG-PMC10793207-a,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC10793207-a,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC",Table footnote,Mn of PS starting material = 42.7 kDa,,matched
+PDG-PMC10793207-a,catalyst,Ph-Acr-Ph (9-phenyl-N-phenyl acridinium salt),Results and discussion ¶1,model Ph-Acr-Ph catalyst,,matched
+PDG-PMC10793207-a,catalyst_loading_unit,mol%,,,unit printed in Table header; w.r.t. PS monomers (Results and discussion ¶1),inferred
+PDG-PMC10793207-a,light_source,390 nm LED,Results and discussion ¶1,390 nm LED light source,,matched
+PDG-PMC10793207-a,wavelength_nm,390,Results and discussion ¶1,390 nm LED,,matched
+PDG-PMC10793207-a,light_color,violet,,,390 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC10793207-a,atmosphere,O2,Results and discussion ¶1,under an O2 atmosphere,,matched
+PDG-PMC10793207-a,solvent,DCE/MeCN 6:1 (v/v),Results and discussion ¶2,DCE/MeCN 6 : 1 (v/v),,matched
+PDG-PMC10793207-a,temperature_c,35,Table footnote,(∼35 ± 1) °C,,matched
+PDG-PMC10793207-a,time,24,Results and discussion ¶1,for 24 h,,matched
+PDG-PMC10793207-a,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC10793207-a,sec_eluent,THF,Table footnote,with THF as the mobile phase,,matched
+PDG-PMC10793207-a,sec_calibration,conventional_PS,Table footnote,against monodisperse polystyrene standards,,matched
+PDG-PMC10793207-a,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard",Table footnote,"Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard",,matched
+PDG-PMC10793207-a,products,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC10793207-a,catalyst_loading,10,Table r1 c2,10,,matched
+PDG-PMC10793207-a,cocatalyst_additives,"HCl (aq), 10 mol%",Table r1 c3,HCl (10),,matched
+PDG-PMC10793207-a,product_yields[0]:benzoic acid,33,Table r1 c5,33,,matched
+PDG-PMC10793207-a,product_yields[0].product,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC10793207-b,polymer,polystyrene,Results and discussion ¶1,commercial PS resins,,matched
+PDG-PMC10793207-b,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC10793207-b,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC",Table footnote,Mn of PS starting material = 42.7 kDa,,matched
+PDG-PMC10793207-b,catalyst,none,Table r2 c2,-,,matched
+PDG-PMC10793207-b,catalyst_loading_unit,mol%,,,unit printed in Table header; w.r.t. PS monomers (Results and discussion ¶1),inferred
+PDG-PMC10793207-b,light_source,390 nm LED,Results and discussion ¶1,390 nm LED light source,,matched
+PDG-PMC10793207-b,wavelength_nm,390,Results and discussion ¶1,390 nm LED,,matched
+PDG-PMC10793207-b,light_color,violet,,,390 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC10793207-b,atmosphere,O2,Results and discussion ¶1,under an O2 atmosphere,,matched
+PDG-PMC10793207-b,solvent,DCE/MeCN 6:1 (v/v),Results and discussion ¶2,DCE/MeCN 6 : 1 (v/v),,matched
+PDG-PMC10793207-b,temperature_c,35,Table footnote,(∼35 ± 1) °C,,matched
+PDG-PMC10793207-b,time,24,Results and discussion ¶1,for 24 h,,matched
+PDG-PMC10793207-b,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC10793207-b,sec_eluent,THF,Table footnote,with THF as the mobile phase,,matched
+PDG-PMC10793207-b,sec_calibration,conventional_PS,Table footnote,against monodisperse polystyrene standards,,matched
+PDG-PMC10793207-b,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard",Table footnote,"Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard",,matched
+PDG-PMC10793207-b,products,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC10793207-b,cocatalyst_additives,"HCl, 10 mol%",Table r2 c3,HCl (10),,matched
+PDG-PMC10793207-b,product_yields[0]:benzoic acid,6,Table r2 c5,6,,matched
+PDG-PMC10793207-b,product_yields[0].product,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC10793207-b,mn_before,42.7,Table footnote,Mn of PS starting material = 42.7 kDa,,matched
+PDG-PMC10793207-b,mn_after,1.71,Table r2 c6,1.71,,matched
+PDG-PMC10793207-b,mass_unit_before,kDa,Table h c6,(kDa),,matched
+PDG-PMC10793207-b,mass_unit_after,kDa,Table h c6,(kDa),,matched
+PDG-PMC10793207-c,polymer,polystyrene,Results and discussion ¶1,commercial PS resins,,matched
+PDG-PMC10793207-c,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC10793207-c,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC",Table footnote,Mn of PS starting material = 42.7 kDa,,matched
+PDG-PMC10793207-c,catalyst,Ph-Acr-Ph (9-phenyl-N-phenyl acridinium salt),Results and discussion ¶1,model Ph-Acr-Ph catalyst,,matched
+PDG-PMC10793207-c,catalyst_loading_unit,mol%,,,unit printed in Table header; w.r.t. PS monomers (Results and discussion ¶1),inferred
+PDG-PMC10793207-c,light_source,390 nm LED,Results and discussion ¶1,390 nm LED light source,,matched
+PDG-PMC10793207-c,wavelength_nm,390,Results and discussion ¶1,390 nm LED,,matched
+PDG-PMC10793207-c,light_color,violet,,,390 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC10793207-c,atmosphere,Ar,Table r3 c4,Argon atmosphere,,matched
+PDG-PMC10793207-c,solvent,DCE/MeCN 6:1 (v/v),Results and discussion ¶2,DCE/MeCN 6 : 1 (v/v),,matched
+PDG-PMC10793207-c,temperature_c,35,Table footnote,(∼35 ± 1) °C,,matched
+PDG-PMC10793207-c,time,24,Results and discussion ¶1,for 24 h,,matched
+PDG-PMC10793207-c,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC10793207-c,sec_eluent,THF,Table footnote,with THF as the mobile phase,,matched
+PDG-PMC10793207-c,sec_calibration,conventional_PS,Table footnote,against monodisperse polystyrene standards,,matched
+PDG-PMC10793207-c,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard",Table footnote,"Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard",,matched
+PDG-PMC10793207-c,products,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC10793207-c,catalyst_loading,10,Table r3 c2,10,,matched
+PDG-PMC10793207-c,cocatalyst_additives,"HCl, 10 mol%",Table r3 c3,HCl (10),,matched
+PDG-PMC10793207-c,product_yields[0]:benzoic acid,0,Table r3 c5,0,,matched
+PDG-PMC10793207-c,product_yields[0].product,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC10793207-c,mn_before,42.7,Table footnote,Mn of PS starting material = 42.7 kDa,,matched
+PDG-PMC10793207-c,mn_after,6.9,Table r3 c6,6.90,,matched
+PDG-PMC10793207-c,mass_unit_before,kDa,Table h c6,(kDa),,matched
+PDG-PMC10793207-c,mass_unit_after,kDa,Table h c6,(kDa),,matched
+PDG-PMC10793207-d,polymer,polystyrene,Results and discussion ¶1,commercial PS resins,,matched
+PDG-PMC10793207-d,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC10793207-d,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC",Table footnote,Mn of PS starting material = 42.7 kDa,,matched
+PDG-PMC10793207-d,catalyst,Ph-Acr-Ph (9-phenyl-N-phenyl acridinium salt),Results and discussion ¶1,model Ph-Acr-Ph catalyst,,matched
+PDG-PMC10793207-d,catalyst_loading_unit,mol%,,,unit printed in Table header; w.r.t. PS monomers (Results and discussion ¶1),inferred
+PDG-PMC10793207-d,light_source,none (dark),Table r4 c4,Reaction in the dark,,matched
+PDG-PMC10793207-d,atmosphere,O2,Results and discussion ¶1,under an O2 atmosphere,,matched
+PDG-PMC10793207-d,solvent,DCE/MeCN 6:1 (v/v),Results and discussion ¶2,DCE/MeCN 6 : 1 (v/v),,matched
+PDG-PMC10793207-d,temperature_c,35,Table footnote,(∼35 ± 1) °C,,matched
+PDG-PMC10793207-d,time,24,Results and discussion ¶1,for 24 h,,matched
+PDG-PMC10793207-d,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC10793207-d,sec_eluent,THF,Table footnote,with THF as the mobile phase,,matched
+PDG-PMC10793207-d,sec_calibration,conventional_PS,Table footnote,against monodisperse polystyrene standards,,matched
+PDG-PMC10793207-d,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard",Table footnote,"Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard",,matched
+PDG-PMC10793207-d,products,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC10793207-d,catalyst_loading,10,Table r4 c2,10,,matched
+PDG-PMC10793207-d,cocatalyst_additives,"HCl, 10 mol%",Table r4 c3,HCl (10),,matched
+PDG-PMC10793207-d,product_yields[0]:benzoic acid,0,Table r4 c5,0,,matched
+PDG-PMC10793207-d,product_yields[0].product,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC10793207-d,mn_before,42.7,Table footnote,Mn of PS starting material = 42.7 kDa,,matched
+PDG-PMC10793207-d,mn_after,42.3,Table r4 c6,42.3,,matched
+PDG-PMC10793207-d,mass_unit_before,kDa,Table h c6,(kDa),,matched
+PDG-PMC10793207-d,mass_unit_after,kDa,Table h c6,(kDa),,matched
+PDG-PMC10793207-e,polymer,polystyrene,Results and discussion ¶1,commercial PS resins,,matched
+PDG-PMC10793207-e,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC10793207-e,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC",Table footnote,Mn of PS starting material = 42.7 kDa,,matched
+PDG-PMC10793207-e,catalyst,Ph-Acr-Ph (9-phenyl-N-phenyl acridinium salt),Results and discussion ¶1,model Ph-Acr-Ph catalyst,,matched
+PDG-PMC10793207-e,catalyst_loading_unit,mol%,,,unit printed in Table header; w.r.t. PS monomers (Results and discussion ¶1),inferred
+PDG-PMC10793207-e,light_source,390 nm LED,Results and discussion ¶1,390 nm LED light source,,matched
+PDG-PMC10793207-e,wavelength_nm,390,Results and discussion ¶1,390 nm LED,,matched
+PDG-PMC10793207-e,light_color,violet,,,390 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC10793207-e,atmosphere,O2,Results and discussion ¶1,under an O2 atmosphere,,matched
+PDG-PMC10793207-e,solvent,DCE/MeCN 6:1 (v/v),Results and discussion ¶2,DCE/MeCN 6 : 1 (v/v),,matched
+PDG-PMC10793207-e,temperature_c,35,Table footnote,(∼35 ± 1) °C,,matched
+PDG-PMC10793207-e,time,24,Results and discussion ¶1,for 24 h,,matched
+PDG-PMC10793207-e,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC10793207-e,sec_eluent,THF,Table footnote,with THF as the mobile phase,,matched
+PDG-PMC10793207-e,sec_calibration,conventional_PS,Table footnote,against monodisperse polystyrene standards,,matched
+PDG-PMC10793207-e,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard",Table footnote,"Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard",,matched
+PDG-PMC10793207-e,products,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC10793207-e,catalyst_loading,10,Table r5 c2,10,,matched
+PDG-PMC10793207-e,cocatalyst_additives,none (no acid),Table r5 c3,-,,matched
+PDG-PMC10793207-e,product_yields[0]:benzoic acid,20,Table r5 c5,20,,matched
+PDG-PMC10793207-e,product_yields[0].product,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC10793207-f,polymer,polystyrene,Results and discussion ¶1,commercial PS resins,,matched
+PDG-PMC10793207-f,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC10793207-f,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC",Table footnote,Mn of PS starting material = 42.7 kDa,,matched
+PDG-PMC10793207-f,catalyst,Ph-Acr-Ph (9-phenyl-N-phenyl acridinium salt),Results and discussion ¶1,model Ph-Acr-Ph catalyst,,matched
+PDG-PMC10793207-f,catalyst_loading_unit,mol%,,,unit printed in Table header; w.r.t. PS monomers (Results and discussion ¶1),inferred
+PDG-PMC10793207-f,light_source,390 nm LED,Results and discussion ¶1,390 nm LED light source,,matched
+PDG-PMC10793207-f,wavelength_nm,390,Results and discussion ¶1,390 nm LED,,matched
+PDG-PMC10793207-f,light_color,violet,,,390 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC10793207-f,atmosphere,O2,Results and discussion ¶1,under an O2 atmosphere,,matched
+PDG-PMC10793207-f,solvent,DCE/MeCN 6:1 (v/v),Results and discussion ¶2,DCE/MeCN 6 : 1 (v/v),,matched
+PDG-PMC10793207-f,temperature_c,35,Table footnote,(∼35 ± 1) °C,,matched
+PDG-PMC10793207-f,time,24,Results and discussion ¶1,for 24 h,,matched
+PDG-PMC10793207-f,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC10793207-f,sec_eluent,THF,Table footnote,with THF as the mobile phase,,matched
+PDG-PMC10793207-f,sec_calibration,conventional_PS,Table footnote,against monodisperse polystyrene standards,,matched
+PDG-PMC10793207-f,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard",Table footnote,"Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard",,matched
+PDG-PMC10793207-f,products,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC10793207-f,catalyst_loading,5,Table r6 c2,5,,matched
+PDG-PMC10793207-f,cocatalyst_additives,"HCl, 200 mol%",Table r6 c3,HCl (200),,matched
+PDG-PMC10793207-f,product_yields[0]:benzoic acid,46,Table r6 c5,46,,matched
+PDG-PMC10793207-f,product_yields[0].product,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC10793207-g,polymer,polystyrene,Results and discussion ¶1,commercial PS resins,,matched
+PDG-PMC10793207-g,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC10793207-g,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC",Table footnote,Mn of PS starting material = 42.7 kDa,,matched
+PDG-PMC10793207-g,catalyst,Ph-Acr-Ph (9-phenyl-N-phenyl acridinium salt),Results and discussion ¶1,model Ph-Acr-Ph catalyst,,matched
+PDG-PMC10793207-g,catalyst_loading_unit,mol%,,,unit printed in Table header; w.r.t. PS monomers (Results and discussion ¶1),inferred
+PDG-PMC10793207-g,light_source,390 nm LED,Results and discussion ¶1,390 nm LED light source,,matched
+PDG-PMC10793207-g,wavelength_nm,390,Results and discussion ¶1,390 nm LED,,matched
+PDG-PMC10793207-g,light_color,violet,,,390 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC10793207-g,atmosphere,O2,Results and discussion ¶1,under an O2 atmosphere,,matched
+PDG-PMC10793207-g,solvent,DCE/MeCN 6:1 (v/v),Results and discussion ¶2,DCE/MeCN 6 : 1 (v/v),,matched
+PDG-PMC10793207-g,temperature_c,35,Table footnote,(∼35 ± 1) °C,,matched
+PDG-PMC10793207-g,time,24,Results and discussion ¶1,for 24 h,,matched
+PDG-PMC10793207-g,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC10793207-g,sec_eluent,THF,Table footnote,with THF as the mobile phase,,matched
+PDG-PMC10793207-g,sec_calibration,conventional_PS,Table footnote,against monodisperse polystyrene standards,,matched
+PDG-PMC10793207-g,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard",Table footnote,"Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard",,matched
+PDG-PMC10793207-g,products,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC10793207-g,catalyst_loading,5,Table r7 c2,5,,matched
+PDG-PMC10793207-g,cocatalyst_additives,"HCl, 500 mol%",Table r7 c3,HCl (500),,matched
+PDG-PMC10793207-g,product_yields[0]:benzoic acid,50,Table r7 c5,50,,matched
+PDG-PMC10793207-g,product_yields[0].product,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC10793207-h,polymer,polystyrene,Results and discussion ¶1,commercial PS resins,,matched
+PDG-PMC10793207-h,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC10793207-h,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC",Table footnote,Mn of PS starting material = 42.7 kDa,,matched
+PDG-PMC10793207-h,catalyst,Ph-Acr-Ph (9-phenyl-N-phenyl acridinium salt),Results and discussion ¶1,model Ph-Acr-Ph catalyst,,matched
+PDG-PMC10793207-h,catalyst_loading_unit,mol%,,,unit printed in Table header; w.r.t. PS monomers (Results and discussion ¶1),inferred
+PDG-PMC10793207-h,light_source,390 nm LED,Results and discussion ¶1,390 nm LED light source,,matched
+PDG-PMC10793207-h,wavelength_nm,390,Results and discussion ¶1,390 nm LED,,matched
+PDG-PMC10793207-h,light_color,violet,,,390 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC10793207-h,atmosphere,O2,Results and discussion ¶1,under an O2 atmosphere,,matched
+PDG-PMC10793207-h,solvent,DCE/MeCN 6:1 (v/v),Results and discussion ¶2,DCE/MeCN 6 : 1 (v/v),,matched
+PDG-PMC10793207-h,temperature_c,35,Table footnote,(∼35 ± 1) °C,,matched
+PDG-PMC10793207-h,time,24,Results and discussion ¶1,for 24 h,,matched
+PDG-PMC10793207-h,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC10793207-h,sec_eluent,THF,Table footnote,with THF as the mobile phase,,matched
+PDG-PMC10793207-h,sec_calibration,conventional_PS,Table footnote,against monodisperse polystyrene standards,,matched
+PDG-PMC10793207-h,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard",Table footnote,"Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard",,matched
+PDG-PMC10793207-h,products,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC10793207-h,catalyst_loading,5,Table r8 c2,5,,matched
+PDG-PMC10793207-h,cocatalyst_additives,"HBr, 200 mol%",Table r8 c3,HBr (200),,matched
+PDG-PMC10793207-h,product_yields[0]:benzoic acid,7,Table r8 c5,7,,matched
+PDG-PMC10793207-h,product_yields[0].product,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC10793207-h,mn_before,42.7,Table footnote,Mn of PS starting material = 42.7 kDa,,matched
+PDG-PMC10793207-h,mn_after,5.56,Table r8 c6,5.56f,,matched
+PDG-PMC10793207-h,mass_unit_before,kDa,Table h c6,(kDa),,matched
+PDG-PMC10793207-h,mass_unit_after,kDa,Table h c6,(kDa),,matched
+PDG-PMC10793207-i,polymer,polystyrene,Results and discussion ¶1,commercial PS resins,,matched
+PDG-PMC10793207-i,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC10793207-i,polymer_detail,"commercial PS resin, Mn 42.7 kDa by GPC",Table footnote,Mn of PS starting material = 42.7 kDa,,matched
+PDG-PMC10793207-i,catalyst,Ph-Acr-Ph (9-phenyl-N-phenyl acridinium salt),Results and discussion ¶1,model Ph-Acr-Ph catalyst,,matched
+PDG-PMC10793207-i,catalyst_loading_unit,mol%,,,unit printed in Table header; w.r.t. PS monomers (Results and discussion ¶1),inferred
+PDG-PMC10793207-i,light_source,440 nm irradiation,Table r9 c4,440 nm irradiation,,matched
+PDG-PMC10793207-i,wavelength_nm,440,Table r9 c4,440 nm irradiation,,matched
+PDG-PMC10793207-i,light_color,violet,,,440 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC10793207-i,atmosphere,O2,Results and discussion ¶1,under an O2 atmosphere,,matched
+PDG-PMC10793207-i,solvent,DCE/MeCN 6:1 (v/v),Results and discussion ¶2,DCE/MeCN 6 : 1 (v/v),,matched
+PDG-PMC10793207-i,temperature_c,35,Table footnote,(∼35 ± 1) °C,,matched
+PDG-PMC10793207-i,time,24,Results and discussion ¶1,for 24 h,,matched
+PDG-PMC10793207-i,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC10793207-i,sec_eluent,THF,Table footnote,with THF as the mobile phase,,matched
+PDG-PMC10793207-i,sec_calibration,conventional_PS,Table footnote,against monodisperse polystyrene standards,,matched
+PDG-PMC10793207-i,yield_basis,"quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard",Table footnote,"Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard",,matched
+PDG-PMC10793207-i,products,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC10793207-i,catalyst_loading,5,Table r9 c2,5,,matched
+PDG-PMC10793207-i,cocatalyst_additives,"HCl, 200 mol%",Table r9 c3,HCl (200),,matched
+PDG-PMC10793207-i,product_yields[0]:benzoic acid,43,Table r9 c5,43,,matched
+PDG-PMC10793207-i,product_yields[0].product,benzoic acid,Table h c5,BA yield,,matched
+PDG-PMC11796324-a,polymer,polystyrene,Table 1 footnote,PS solutions,,matched
+PDG-PMC11796324-a,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC11796324-a,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),Introduction ¶3,9-Mesityl-10-methylacridinium perchlorate (MA,,matched
+PDG-PMC11796324-a,catalyst_loading_unit,mol%,,,unit printed in Table 1 header,inferred
+PDG-PMC11796324-a,light_source,"456 nm LED (50 W), optical bench",Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-a,wavelength_nm,456,Table 1 footnote,irradiation (456 nm),,matched
+PDG-PMC11796324-a,light_color,blue,,,456 nm lies in the blue band (450-495 nm),inferred
+PDG-PMC11796324-a,irradiance,50,Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-a,irradiance_unit,W (electrical LED power),,,"value is LED power, not irradiance at sample",inferred
+PDG-PMC11796324-a,solvent,EtOAc/MeCN 10:1,Table 1 footnote,EtOAc/MeCN 10 : 1,,matched
+PDG-PMC11796324-a,concentration,0.303,Results and Discussion ¶3,0.303 M in repeating unit,,matched
+PDG-PMC11796324-a,concentration_unit,M (repeat units),,,printed as M in repeating unit,inferred
+PDG-PMC11796324-a,atmosphere,O2,Table 1 footnote,under oxygen atmosphere,,matched
+PDG-PMC11796324-a,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC11796324-a,sec_eluent,THF,Table 1 footnote,determined by SEC in THF,,matched
+PDG-PMC11796324-a,sec_calibration,not_reported,,,SEC in THF stated; calibration standard not given in main text,inferred
+PDG-PMC11796324-a,mass_unit_before,g/mol,Table 1 h c2,(g/mol),,matched
+PDG-PMC11796324-a,mass_unit_after,g/mol,Table 1 h c7,(g/mol),,matched
+PDG-PMC11796324-a,yield_basis,1H NMR (per mmol styrene repeat units),Table 1 footnote,[d] Yield determined by 1H NMR,,matched
+PDG-PMC11796324-a,products,benzoic acid; acetophenone,Table 1,BAc,,matched
+PDG-PMC11796324-a,mn_before,99000,Table 1 r1 c2,99 000,,matched
+PDG-PMC11796324-a,disp_before,1.98,Table 1 r1 c2,1.98,,matched
+PDG-PMC11796324-a,mn_after,213,Table 1 r1 c7,213,,matched
+PDG-PMC11796324-a,disp_after,3.1,Table 1 r1 c7,3.10,,matched
+PDG-PMC11796324-a,time,24,Table 1 r1 c4,24 h,,matched
+PDG-PMC11796324-a,product_yields[0]:benzoic acid,18.2,Table 1 r1 c5,18.2 %,,matched
+PDG-PMC11796324-a,product_yields[0].product,benzoic acid,Table 1 h c5,BAc,,matched
+PDG-PMC11796324-a,product_yields[1]:acetophenone,2.1,Table 1 r1 c6,2.1 %,,matched
+PDG-PMC11796324-a,product_yields[1].product,acetophenone,Table 1 h c6,ACP,,matched
+PDG-PMC11796324-a,catalyst_loading,2,Table 1 r1 c3,2,,matched
+PDG-PMC11796324-a,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98",Table 1 r1 c2,99 000,,matched
+PDG-PMC11796324-b,polymer,polystyrene,Table 1 footnote,PS solutions,,matched
+PDG-PMC11796324-b,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC11796324-b,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),Introduction ¶3,9-Mesityl-10-methylacridinium perchlorate (MA,,matched
+PDG-PMC11796324-b,catalyst_loading_unit,mol%,,,unit printed in Table 1 header,inferred
+PDG-PMC11796324-b,light_source,"456 nm LED (50 W), optical bench",Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-b,wavelength_nm,456,Table 1 footnote,irradiation (456 nm),,matched
+PDG-PMC11796324-b,light_color,blue,,,456 nm lies in the blue band (450-495 nm),inferred
+PDG-PMC11796324-b,irradiance,50,Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-b,irradiance_unit,W (electrical LED power),,,"value is LED power, not irradiance at sample",inferred
+PDG-PMC11796324-b,solvent,EtOAc,Table 1 r2 c4,"EtOAc, 48 h",,matched
+PDG-PMC11796324-b,concentration,0.303,Results and Discussion ¶3,0.303 M in repeating unit,,matched
+PDG-PMC11796324-b,concentration_unit,M (repeat units),,,printed as M in repeating unit,inferred
+PDG-PMC11796324-b,atmosphere,O2,Table 1 footnote,under oxygen atmosphere,,matched
+PDG-PMC11796324-b,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC11796324-b,sec_eluent,THF,Table 1 footnote,determined by SEC in THF,,matched
+PDG-PMC11796324-b,sec_calibration,not_reported,,,SEC in THF stated; calibration standard not given in main text,inferred
+PDG-PMC11796324-b,mass_unit_before,g/mol,Table 1 h c2,(g/mol),,matched
+PDG-PMC11796324-b,mass_unit_after,g/mol,Table 1 h c7,(g/mol),,matched
+PDG-PMC11796324-b,yield_basis,1H NMR (per mmol styrene repeat units),Table 1 footnote,[d] Yield determined by 1H NMR,,matched
+PDG-PMC11796324-b,products,benzoic acid; acetophenone,Table 1,BAc,,matched
+PDG-PMC11796324-b,mn_before,99000,Table 1 r2 c2,99 000,,matched
+PDG-PMC11796324-b,disp_before,1.98,Table 1 r2 c2,1.98,,matched
+PDG-PMC11796324-b,mn_after,260,Table 1 r2 c7,260,,matched
+PDG-PMC11796324-b,disp_after,3.24,Table 1 r2 c7,3.24,,matched
+PDG-PMC11796324-b,time,48,Table 1 r2 c4,"EtOAc, 48 h",,matched
+PDG-PMC11796324-b,product_yields[0]:benzoic acid,20.5,Table 1 r2 c5,20.5 %,,matched
+PDG-PMC11796324-b,product_yields[0].product,benzoic acid,Table 1 h c5,BAc,,matched
+PDG-PMC11796324-b,product_yields[1]:acetophenone,3.1,Table 1 r2 c6,3.1 %,,matched
+PDG-PMC11796324-b,product_yields[1].product,acetophenone,Table 1 h c6,ACP,,matched
+PDG-PMC11796324-b,catalyst_loading,2,Table 1 r2 c3,2,,matched
+PDG-PMC11796324-b,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98",Table 1 r2 c2,99 000,,matched
+PDG-PMC11796324-c,polymer,polystyrene,Table 1 footnote,PS solutions,,matched
+PDG-PMC11796324-c,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC11796324-c,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),Introduction ¶3,9-Mesityl-10-methylacridinium perchlorate (MA,,matched
+PDG-PMC11796324-c,catalyst_loading_unit,mol%,,,unit printed in Table 1 header,inferred
+PDG-PMC11796324-c,light_source,"456 nm LED (50 W), optical bench",Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-c,wavelength_nm,456,Table 1 footnote,irradiation (456 nm),,matched
+PDG-PMC11796324-c,light_color,blue,,,456 nm lies in the blue band (450-495 nm),inferred
+PDG-PMC11796324-c,irradiance,50,Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-c,irradiance_unit,W (electrical LED power),,,"value is LED power, not irradiance at sample",inferred
+PDG-PMC11796324-c,solvent,EtOAc/MeCN 10:1,Table 1 footnote,EtOAc/MeCN 10 : 1,,matched
+PDG-PMC11796324-c,concentration,0.303,Results and Discussion ¶3,0.303 M in repeating unit,,matched
+PDG-PMC11796324-c,concentration_unit,M (repeat units),,,printed as M in repeating unit,inferred
+PDG-PMC11796324-c,atmosphere,O2,Table 1 footnote,under oxygen atmosphere,,matched
+PDG-PMC11796324-c,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC11796324-c,sec_eluent,THF,Table 1 footnote,determined by SEC in THF,,matched
+PDG-PMC11796324-c,sec_calibration,not_reported,,,SEC in THF stated; calibration standard not given in main text,inferred
+PDG-PMC11796324-c,mass_unit_before,g/mol,Table 1 h c2,(g/mol),,matched
+PDG-PMC11796324-c,mass_unit_after,g/mol,Table 1 h c7,(g/mol),,matched
+PDG-PMC11796324-c,yield_basis,GC-FID (per mmol styrene repeat units),Table 1 footnote,Yields determined by GC-FID,,matched
+PDG-PMC11796324-c,products,benzoic acid; acetophenone,Table 1,BAc,,matched
+PDG-PMC11796324-c,mn_before,99000,Table 1 r3 c2,99 000,,matched
+PDG-PMC11796324-c,disp_before,1.98,Table 1 r3 c2,1.98,,matched
+PDG-PMC11796324-c,mn_after,2090,Table 1 r3 c7,2 090,,matched
+PDG-PMC11796324-c,disp_after,1.77,Table 1 r3 c7,1.77,,matched
+PDG-PMC11796324-c,time,15,Table 1 r3 c4,15 h,,matched
+PDG-PMC11796324-c,product_yields[0]:benzoic acid,7.3,Table 1 r3 c5,7.3 %,,matched
+PDG-PMC11796324-c,product_yields[0].product,benzoic acid,Table 1 h c5,BAc,,matched
+PDG-PMC11796324-c,product_yields[1]:acetophenone,1.9,Table 1 r3 c6,1.9 %,,matched
+PDG-PMC11796324-c,product_yields[1].product,acetophenone,Table 1 h c6,ACP,,matched
+PDG-PMC11796324-c,catalyst_loading,2,Table 1 r3 c3,2,,matched
+PDG-PMC11796324-c,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98",Table 1 r3 c2,99 000,,matched
+PDG-PMC11796324-d,polymer,polystyrene,Table 1 footnote,PS solutions,,matched
+PDG-PMC11796324-d,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC11796324-d,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),Introduction ¶3,9-Mesityl-10-methylacridinium perchlorate (MA,,matched
+PDG-PMC11796324-d,catalyst_loading_unit,mol%,,,unit printed in Table 1 header,inferred
+PDG-PMC11796324-d,light_source,"456 nm LED (50 W), optical bench",Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-d,wavelength_nm,456,Table 1 footnote,irradiation (456 nm),,matched
+PDG-PMC11796324-d,light_color,blue,,,456 nm lies in the blue band (450-495 nm),inferred
+PDG-PMC11796324-d,irradiance,50,Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-d,irradiance_unit,W (electrical LED power),,,"value is LED power, not irradiance at sample",inferred
+PDG-PMC11796324-d,solvent,EtOAc/MeCN 10:1,Table 1 footnote,EtOAc/MeCN 10 : 1,,matched
+PDG-PMC11796324-d,concentration,0.303,Results and Discussion ¶3,0.303 M in repeating unit,,matched
+PDG-PMC11796324-d,concentration_unit,M (repeat units),,,printed as M in repeating unit,inferred
+PDG-PMC11796324-d,atmosphere,O2,Table 1 footnote,under oxygen atmosphere,,matched
+PDG-PMC11796324-d,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC11796324-d,sec_eluent,THF,Table 1 footnote,determined by SEC in THF,,matched
+PDG-PMC11796324-d,sec_calibration,not_reported,,,SEC in THF stated; calibration standard not given in main text,inferred
+PDG-PMC11796324-d,mass_unit_before,g/mol,Table 1 h c2,(g/mol),,matched
+PDG-PMC11796324-d,mass_unit_after,g/mol,Table 1 h c7,(g/mol),,matched
+PDG-PMC11796324-d,yield_basis,1H NMR (per mmol styrene repeat units),Table 1 footnote,[d] Yield determined by 1H NMR,,matched
+PDG-PMC11796324-d,products,benzoic acid; acetophenone,Table 1,BAc,,matched
+PDG-PMC11796324-d,mn_before,99000,Table 1 r4 c2,99 000,,matched
+PDG-PMC11796324-d,disp_before,1.98,Table 1 r4 c2,1.98,,matched
+PDG-PMC11796324-d,mn_after,185,Table 1 r4 c7,185,,matched
+PDG-PMC11796324-d,disp_after,2.65,Table 1 r4 c7,2.65,,matched
+PDG-PMC11796324-d,time,24,Table 1 r4 c4,24 h,,matched
+PDG-PMC11796324-d,product_yields[0]:benzoic acid,25,Table 1 r4 c5,25 %,,matched
+PDG-PMC11796324-d,product_yields[0].product,benzoic acid,Table 1 h c5,BAc,,matched
+PDG-PMC11796324-d,product_yields[1]:acetophenone,1.5,Table 1 r4 c6,1.5 %,,matched
+PDG-PMC11796324-d,product_yields[1].product,acetophenone,Table 1 h c6,ACP,,matched
+PDG-PMC11796324-d,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98",Table 1 r4 c2,99 000,,matched
+PDG-PMC11796324-e,polymer,polystyrene,Table 1 footnote,PS solutions,,matched
+PDG-PMC11796324-e,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC11796324-e,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),Introduction ¶3,9-Mesityl-10-methylacridinium perchlorate (MA,,matched
+PDG-PMC11796324-e,catalyst_loading_unit,mol%,,,unit printed in Table 1 header,inferred
+PDG-PMC11796324-e,light_source,"456 nm LED (50 W), optical bench",Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-e,wavelength_nm,456,Table 1 footnote,irradiation (456 nm),,matched
+PDG-PMC11796324-e,light_color,blue,,,456 nm lies in the blue band (450-495 nm),inferred
+PDG-PMC11796324-e,irradiance,50,Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-e,irradiance_unit,W (electrical LED power),,,"value is LED power, not irradiance at sample",inferred
+PDG-PMC11796324-e,solvent,EtOAc/MeCN 10:1,Table 1 footnote,EtOAc/MeCN 10 : 1,,matched
+PDG-PMC11796324-e,concentration,0.303,Results and Discussion ¶3,0.303 M in repeating unit,,matched
+PDG-PMC11796324-e,concentration_unit,M (repeat units),,,printed as M in repeating unit,inferred
+PDG-PMC11796324-e,atmosphere,air,Table 1 r5 c4,"Air, 24 h",,matched
+PDG-PMC11796324-e,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC11796324-e,sec_eluent,THF,Table 1 footnote,determined by SEC in THF,,matched
+PDG-PMC11796324-e,sec_calibration,not_reported,,,SEC in THF stated; calibration standard not given in main text,inferred
+PDG-PMC11796324-e,mass_unit_before,g/mol,Table 1 h c2,(g/mol),,matched
+PDG-PMC11796324-e,mass_unit_after,g/mol,Table 1 h c7,(g/mol),,matched
+PDG-PMC11796324-e,yield_basis,GC-FID (per mmol styrene repeat units),Table 1 footnote,Yields determined by GC-FID,,matched
+PDG-PMC11796324-e,products,benzoic acid; acetophenone,Table 1,BAc,,matched
+PDG-PMC11796324-e,mn_before,99000,Table 1 r5 c2,99 000,,matched
+PDG-PMC11796324-e,disp_before,1.98,Table 1 r5 c2,1.98,,matched
+PDG-PMC11796324-e,mn_after,528,Table 1 r5 c7,528,,matched
+PDG-PMC11796324-e,disp_after,5.1,Table 1 r5 c7,5.10,,matched
+PDG-PMC11796324-e,time,24,Table 1 r5 c4,"Air, 24 h",,matched
+PDG-PMC11796324-e,product_yields[0]:benzoic acid,2.1,Table 1 r5 c5,2.1 %,,matched
+PDG-PMC11796324-e,product_yields[0].product,benzoic acid,Table 1 h c5,BAc,,matched
+PDG-PMC11796324-e,product_yields[1]:acetophenone,0.7,Table 1 r5 c6,0.70 %,,matched
+PDG-PMC11796324-e,product_yields[1].product,acetophenone,Table 1 h c6,ACP,,matched
+PDG-PMC11796324-e,catalyst_loading,2,Table 1 r5 c3,2,,matched
+PDG-PMC11796324-e,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98",Table 1 r5 c2,99 000,,matched
+PDG-PMC11796324-f,polymer,polystyrene,Table 1 footnote,PS solutions,,matched
+PDG-PMC11796324-f,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC11796324-f,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),Introduction ¶3,9-Mesityl-10-methylacridinium perchlorate (MA,,matched
+PDG-PMC11796324-f,catalyst_loading_unit,mol%,,,unit printed in Table 1 header,inferred
+PDG-PMC11796324-f,light_source,"456 nm LED (50 W), optical bench",Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-f,wavelength_nm,456,Table 1 footnote,irradiation (456 nm),,matched
+PDG-PMC11796324-f,light_color,blue,,,456 nm lies in the blue band (450-495 nm),inferred
+PDG-PMC11796324-f,irradiance,50,Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-f,irradiance_unit,W (electrical LED power),,,"value is LED power, not irradiance at sample",inferred
+PDG-PMC11796324-f,solvent,EtOAc/MeCN 10:1,Table 1 footnote,EtOAc/MeCN 10 : 1,,matched
+PDG-PMC11796324-f,concentration,0.303,Results and Discussion ¶3,0.303 M in repeating unit,,matched
+PDG-PMC11796324-f,concentration_unit,M (repeat units),,,printed as M in repeating unit,inferred
+PDG-PMC11796324-f,atmosphere,inert (gas not named),Table 1 r6 c4,"Inert, 24 h",,matched
+PDG-PMC11796324-f,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC11796324-f,sec_eluent,THF,Table 1 footnote,determined by SEC in THF,,matched
+PDG-PMC11796324-f,sec_calibration,not_reported,,,SEC in THF stated; calibration standard not given in main text,inferred
+PDG-PMC11796324-f,mass_unit_before,g/mol,Table 1 h c2,(g/mol),,matched
+PDG-PMC11796324-f,mass_unit_after,g/mol,Table 1 h c7,(g/mol),,matched
+PDG-PMC11796324-f,yield_basis,GC-FID (per mmol styrene repeat units),Table 1 footnote,Yields determined by GC-FID,,matched
+PDG-PMC11796324-f,products,benzoic acid; acetophenone,Table 1,BAc,,matched
+PDG-PMC11796324-f,mn_before,99000,Table 1 r6 c2,99 000,,matched
+PDG-PMC11796324-f,disp_before,1.98,Table 1 r6 c2,1.98,,matched
+PDG-PMC11796324-f,mn_after,11630,Table 1 r6 c7,11 630,,matched
+PDG-PMC11796324-f,disp_after,4.85,Table 1 r6 c7,4.85,,matched
+PDG-PMC11796324-f,time,24,Table 1 r6 c4,"Inert, 24 h",,matched
+PDG-PMC11796324-f,product_yields[0]:benzoic acid,0,Table 1 r6 c5,0 %,,matched
+PDG-PMC11796324-f,product_yields[0].product,benzoic acid,Table 1 h c5,BAc,,matched
+PDG-PMC11796324-f,product_yields[1]:acetophenone,0,Table 1 r6 c6,0 %,,matched
+PDG-PMC11796324-f,product_yields[1].product,acetophenone,Table 1 h c6,ACP,,matched
+PDG-PMC11796324-f,catalyst_loading,2,Table 1 r6 c3,2,,matched
+PDG-PMC11796324-f,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98",Table 1 r6 c2,99 000,,matched
+PDG-PMC11796324-g,polymer,polystyrene,Table 1 footnote,PS solutions,,matched
+PDG-PMC11796324-g,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC11796324-g,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),Introduction ¶3,9-Mesityl-10-methylacridinium perchlorate (MA,,matched
+PDG-PMC11796324-g,catalyst_loading_unit,mol%,,,unit printed in Table 1 header,inferred
+PDG-PMC11796324-g,light_source,none (dark),Table 1 r7 c4,"Dark, 64 h",,matched
+PDG-PMC11796324-g,solvent,EtOAc/MeCN 10:1,Table 1 footnote,EtOAc/MeCN 10 : 1,,matched
+PDG-PMC11796324-g,concentration,0.303,Results and Discussion ¶3,0.303 M in repeating unit,,matched
+PDG-PMC11796324-g,concentration_unit,M (repeat units),,,printed as M in repeating unit,inferred
+PDG-PMC11796324-g,atmosphere,O2,Table 1 footnote,under oxygen atmosphere,,matched
+PDG-PMC11796324-g,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC11796324-g,sec_eluent,THF,Table 1 footnote,determined by SEC in THF,,matched
+PDG-PMC11796324-g,sec_calibration,not_reported,,,SEC in THF stated; calibration standard not given in main text,inferred
+PDG-PMC11796324-g,mass_unit_before,g/mol,Table 1 h c2,(g/mol),,matched
+PDG-PMC11796324-g,mass_unit_after,g/mol,Table 1 h c7,(g/mol),,matched
+PDG-PMC11796324-g,yield_basis,GC-FID (per mmol styrene repeat units),Table 1 footnote,Yields determined by GC-FID,,matched
+PDG-PMC11796324-g,products,benzoic acid; acetophenone,Table 1,BAc,,matched
+PDG-PMC11796324-g,mn_before,99000,Table 1 r7 c2,99 000,,matched
+PDG-PMC11796324-g,disp_before,1.98,Table 1 r7 c2,1.98,,matched
+PDG-PMC11796324-g,mn_after,80840,Table 1 r7 c7,80 840,,matched
+PDG-PMC11796324-g,disp_after,2.41,Table 1 r7 c7,2.41,,matched
+PDG-PMC11796324-g,time,64,Table 1 r7 c4,"Dark, 64 h",,matched
+PDG-PMC11796324-g,product_yields[0]:benzoic acid,0,Table 1 r7 c5,0 %,,matched
+PDG-PMC11796324-g,product_yields[0].product,benzoic acid,Table 1 h c5,BAc,,matched
+PDG-PMC11796324-g,product_yields[1]:acetophenone,0,Table 1 r7 c6,0 %,,matched
+PDG-PMC11796324-g,product_yields[1].product,acetophenone,Table 1 h c6,ACP,,matched
+PDG-PMC11796324-g,catalyst_loading,2,Table 1 r7 c3,2,,matched
+PDG-PMC11796324-g,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98",Table 1 r7 c2,99 000,,matched
+PDG-PMC11796324-h,polymer,polystyrene,Table 1 footnote,PS solutions,,matched
+PDG-PMC11796324-h,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC11796324-h,catalyst,none (0 mol% MA),Table 1 r8 c3,0,,matched
+PDG-PMC11796324-h,catalyst_loading_unit,mol%,,,unit printed in Table 1 header,inferred
+PDG-PMC11796324-h,light_source,"456 nm LED (50 W), optical bench",Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-h,wavelength_nm,456,Table 1 footnote,irradiation (456 nm),,matched
+PDG-PMC11796324-h,light_color,blue,,,456 nm lies in the blue band (450-495 nm),inferred
+PDG-PMC11796324-h,irradiance,50,Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-h,irradiance_unit,W (electrical LED power),,,"value is LED power, not irradiance at sample",inferred
+PDG-PMC11796324-h,solvent,EtOAc/MeCN 10:1,Table 1 footnote,EtOAc/MeCN 10 : 1,,matched
+PDG-PMC11796324-h,concentration,0.303,Results and Discussion ¶3,0.303 M in repeating unit,,matched
+PDG-PMC11796324-h,concentration_unit,M (repeat units),,,printed as M in repeating unit,inferred
+PDG-PMC11796324-h,atmosphere,O2,Table 1 footnote,under oxygen atmosphere,,matched
+PDG-PMC11796324-h,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC11796324-h,sec_eluent,THF,Table 1 footnote,determined by SEC in THF,,matched
+PDG-PMC11796324-h,sec_calibration,not_reported,,,SEC in THF stated; calibration standard not given in main text,inferred
+PDG-PMC11796324-h,mass_unit_before,g/mol,Table 1 h c2,(g/mol),,matched
+PDG-PMC11796324-h,mass_unit_after,g/mol,Table 1 h c7,(g/mol),,matched
+PDG-PMC11796324-h,yield_basis,GC-FID (per mmol styrene repeat units),Table 1 footnote,Yields determined by GC-FID,,matched
+PDG-PMC11796324-h,products,benzoic acid; acetophenone,Table 1,BAc,,matched
+PDG-PMC11796324-h,mn_before,99000,Table 1 r8 c2,99 000,,matched
+PDG-PMC11796324-h,disp_before,1.98,Table 1 r8 c2,1.98,,matched
+PDG-PMC11796324-h,mn_after,93980,Table 1 r8 c7,93 980,,matched
+PDG-PMC11796324-h,disp_after,2.09,Table 1 r8 c7,2.09,,matched
+PDG-PMC11796324-h,time,24,Table 1 r8 c4,24 h,,matched
+PDG-PMC11796324-h,product_yields[0]:benzoic acid,0,Table 1 r8 c5,0 %,,matched
+PDG-PMC11796324-h,product_yields[0].product,benzoic acid,Table 1 h c5,BAc,,matched
+PDG-PMC11796324-h,product_yields[1]:acetophenone,0,Table 1 r8 c6,0 %,,matched
+PDG-PMC11796324-h,product_yields[1].product,acetophenone,Table 1 h c6,ACP,,matched
+PDG-PMC11796324-h,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98",Table 1 r8 c2,99 000,,matched
+PDG-PMC11796324-i,polymer,polystyrene,Table 1 footnote,PS solutions,,matched
+PDG-PMC11796324-i,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC11796324-i,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),Introduction ¶3,9-Mesityl-10-methylacridinium perchlorate (MA,,matched
+PDG-PMC11796324-i,catalyst_loading_unit,mol%,,,unit printed in Table 1 header,inferred
+PDG-PMC11796324-i,light_source,"456 nm LED (50 W), optical bench",Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-i,wavelength_nm,456,Table 1 footnote,irradiation (456 nm),,matched
+PDG-PMC11796324-i,light_color,blue,,,456 nm lies in the blue band (450-495 nm),inferred
+PDG-PMC11796324-i,irradiance,50,Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-i,irradiance_unit,W (electrical LED power),,,"value is LED power, not irradiance at sample",inferred
+PDG-PMC11796324-i,solvent,EtOAc/MeCN 10:1,Table 1 footnote,EtOAc/MeCN 10 : 1,,matched
+PDG-PMC11796324-i,concentration,0.303,Results and Discussion ¶3,0.303 M in repeating unit,,matched
+PDG-PMC11796324-i,concentration_unit,M (repeat units),,,printed as M in repeating unit,inferred
+PDG-PMC11796324-i,atmosphere,O2,Table 1 footnote,under oxygen atmosphere,,matched
+PDG-PMC11796324-i,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC11796324-i,sec_eluent,THF,Table 1 footnote,determined by SEC in THF,,matched
+PDG-PMC11796324-i,sec_calibration,not_reported,,,SEC in THF stated; calibration standard not given in main text,inferred
+PDG-PMC11796324-i,mass_unit_before,g/mol,Table 1 h c2,(g/mol),,matched
+PDG-PMC11796324-i,mass_unit_after,g/mol,Table 1 h c7,(g/mol),,matched
+PDG-PMC11796324-i,yield_basis,GC-FID (per mmol styrene repeat units),Table 1 footnote,Yields determined by GC-FID,,matched
+PDG-PMC11796324-i,products,benzoic acid; acetophenone,Table 1,BAc,,matched
+PDG-PMC11796324-i,mn_before,126300,Table 1 r9 c2,126 300,,matched
+PDG-PMC11796324-i,disp_before,1.69,Table 1 r9 c2,1.69,,matched
+PDG-PMC11796324-i,mn_after,240,Table 1 r9 c7,240,,matched
+PDG-PMC11796324-i,disp_after,4,Table 1 r9 c7,4.00,,matched
+PDG-PMC11796324-i,time,24,Table 1 r9 c4,"EPS, 24 h",,matched
+PDG-PMC11796324-i,product_yields[0]:benzoic acid,15,Table 1 r9 c5,15 %,,matched
+PDG-PMC11796324-i,product_yields[0].product,benzoic acid,Table 1 h c5,BAc,,matched
+PDG-PMC11796324-i,product_yields[1]:acetophenone,3,Table 1 r9 c6,3 %,,matched
+PDG-PMC11796324-i,product_yields[1].product,acetophenone,Table 1 h c6,ACP,,matched
+PDG-PMC11796324-i,polymer_detail,"expanded PS (EPS) waste, Mn 126 300, Đ 1.69",Table 1 r9 c4,"EPS, 24 h",,matched
+PDG-PMC11796324-j,polymer,polystyrene,Table 1 footnote,PS solutions,,matched
+PDG-PMC11796324-j,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC11796324-j,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),Introduction ¶3,9-Mesityl-10-methylacridinium perchlorate (MA,,matched
+PDG-PMC11796324-j,catalyst_loading_unit,mol%,,,unit printed in Table 1 header,inferred
+PDG-PMC11796324-j,light_source,"456 nm LED (50 W), optical bench",Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-j,wavelength_nm,456,Table 1 footnote,irradiation (456 nm),,matched
+PDG-PMC11796324-j,light_color,blue,,,456 nm lies in the blue band (450-495 nm),inferred
+PDG-PMC11796324-j,irradiance,50,Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-j,irradiance_unit,W (electrical LED power),,,"value is LED power, not irradiance at sample",inferred
+PDG-PMC11796324-j,solvent,EtOAc/MeCN 10:1,Table 1 footnote,EtOAc/MeCN 10 : 1,,matched
+PDG-PMC11796324-j,concentration,0.303,Results and Discussion ¶3,0.303 M in repeating unit,,matched
+PDG-PMC11796324-j,concentration_unit,M (repeat units),,,printed as M in repeating unit,inferred
+PDG-PMC11796324-j,atmosphere,O2,Table 1 r10 c4,"O2 flow, 50 h",,matched
+PDG-PMC11796324-j,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC11796324-j,sec_eluent,THF,Table 1 footnote,determined by SEC in THF,,matched
+PDG-PMC11796324-j,sec_calibration,not_reported,,,SEC in THF stated; calibration standard not given in main text,inferred
+PDG-PMC11796324-j,mass_unit_before,g/mol,Table 1 h c2,(g/mol),,matched
+PDG-PMC11796324-j,mass_unit_after,g/mol,Table 1 h c7,(g/mol),,matched
+PDG-PMC11796324-j,yield_basis,GC-FID (per mmol styrene repeat units),Table 1 footnote,Yields determined by GC-FID,,matched
+PDG-PMC11796324-j,products,benzoic acid; acetophenone,Table 1,BAc,,matched
+PDG-PMC11796324-j,mn_before,1700,Table 1 r10 c2,1 700,,matched
+PDG-PMC11796324-j,disp_before,1.07,Table 1 r10 c2,1.07,,matched
+PDG-PMC11796324-j,mn_after,120,Table 1 r10 c7,120,,matched
+PDG-PMC11796324-j,disp_after,1.95,Table 1 r10 c7,1.95,,matched
+PDG-PMC11796324-j,time,50,Table 1 r10 c4,"O2 flow, 50 h",,matched
+PDG-PMC11796324-j,product_yields[0]:benzoic acid,38.7,Table 1 r10 c5,38.7 %,,matched
+PDG-PMC11796324-j,product_yields[0].product,benzoic acid,Table 1 h c5,BAc,,matched
+PDG-PMC11796324-j,product_yields[1]:acetophenone,1,Table 1 r10 c6,1 %,,matched
+PDG-PMC11796324-j,product_yields[1].product,acetophenone,Table 1 h c6,ACP,,matched
+PDG-PMC11796324-j,catalyst_loading,10,Table 1 r10 c3,10,,matched
+PDG-PMC11796324-j,polymer_detail,"anionic PS, Mn 1 700, Đ 1.07",Table 1 r10 c2,1 700,,matched
+PDG-PMC11796324-k,polymer,polystyrene,Table 1 footnote,PS solutions,,matched
+PDG-PMC11796324-k,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC11796324-k,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),Introduction ¶3,9-Mesityl-10-methylacridinium perchlorate (MA,,matched
+PDG-PMC11796324-k,catalyst_loading_unit,mol%,,,unit printed in Table 1 header,inferred
+PDG-PMC11796324-k,light_source,"456 nm LED (50 W), optical bench",Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-k,wavelength_nm,456,Table 1 footnote,irradiation (456 nm),,matched
+PDG-PMC11796324-k,light_color,blue,,,456 nm lies in the blue band (450-495 nm),inferred
+PDG-PMC11796324-k,irradiance,50,Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-k,irradiance_unit,W (electrical LED power),,,"value is LED power, not irradiance at sample",inferred
+PDG-PMC11796324-k,solvent,EtOAc/MeCN 10:1,Table 1 footnote,EtOAc/MeCN 10 : 1,,matched
+PDG-PMC11796324-k,concentration,0.303,Results and Discussion ¶3,0.303 M in repeating unit,,matched
+PDG-PMC11796324-k,concentration_unit,M (repeat units),,,printed as M in repeating unit,inferred
+PDG-PMC11796324-k,atmosphere,O2,Table 1 footnote,under oxygen atmosphere,,matched
+PDG-PMC11796324-k,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC11796324-k,sec_eluent,THF,Table 1 footnote,determined by SEC in THF,,matched
+PDG-PMC11796324-k,sec_calibration,not_reported,,,SEC in THF stated; calibration standard not given in main text,inferred
+PDG-PMC11796324-k,mass_unit_before,g/mol,Table 1 h c2,(g/mol),,matched
+PDG-PMC11796324-k,mass_unit_after,g/mol,Table 1 h c7,(g/mol),,matched
+PDG-PMC11796324-k,yield_basis,GC-FID (per mmol styrene repeat units),Table 1 footnote,Yields determined by GC-FID,,matched
+PDG-PMC11796324-k,products,benzoic acid; acetophenone,Table 1,BAc,,matched
+PDG-PMC11796324-k,mn_before,1700,Table 1 r11 c2,1 700,,matched
+PDG-PMC11796324-k,disp_before,1.07,Table 1 r11 c2,1.07,,matched
+PDG-PMC11796324-k,mn_after,300,Table 1 r11 c7,300,,matched
+PDG-PMC11796324-k,disp_after,3.12,Table 1 r11 c7,3.12,,matched
+PDG-PMC11796324-k,time,15,Table 1 r11 c4,15 h,,matched
+PDG-PMC11796324-k,product_yields[0]:benzoic acid,10.6,Table 1 r11 c5,10.6 %,,matched
+PDG-PMC11796324-k,product_yields[0].product,benzoic acid,Table 1 h c5,BAc,,matched
+PDG-PMC11796324-k,product_yields[1]:acetophenone,1.9,Table 1 r11 c6,1.9 %,,matched
+PDG-PMC11796324-k,product_yields[1].product,acetophenone,Table 1 h c6,ACP,,matched
+PDG-PMC11796324-k,catalyst_loading,2,Table 1 r11 c3,2,,matched
+PDG-PMC11796324-k,polymer_detail,"anionic PS (living anionic polymerization), Mn 1 700, Đ 1.07",Table 1 r11 c2,1 700,,matched
+PDG-PMC11796324-l,polymer,polystyrene,Table 1 footnote,PS solutions,,matched
+PDG-PMC11796324-l,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC11796324-l,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),Introduction ¶3,9-Mesityl-10-methylacridinium perchlorate (MA,,matched
+PDG-PMC11796324-l,catalyst_loading_unit,mol%,,,unit printed in Table 1 header,inferred
+PDG-PMC11796324-l,light_source,"456 nm LED (50 W), optical bench",Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-l,wavelength_nm,456,Table 1 footnote,irradiation (456 nm),,matched
+PDG-PMC11796324-l,light_color,blue,,,456 nm lies in the blue band (450-495 nm),inferred
+PDG-PMC11796324-l,irradiance,50,Results and Discussion ¶2,456 nm LED source (50 W,,matched
+PDG-PMC11796324-l,irradiance_unit,W (electrical LED power),,,"value is LED power, not irradiance at sample",inferred
+PDG-PMC11796324-l,solvent,EtOAc/MeCN 10:1,Table 1 footnote,EtOAc/MeCN 10 : 1,,matched
+PDG-PMC11796324-l,concentration,0.303,Results and Discussion ¶3,0.303 M in repeating unit,,matched
+PDG-PMC11796324-l,concentration_unit,M (repeat units),,,printed as M in repeating unit,inferred
+PDG-PMC11796324-l,atmosphere,O2,Table 1 footnote,under oxygen atmosphere,,matched
+PDG-PMC11796324-l,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC11796324-l,sec_eluent,THF,Table 1 footnote,determined by SEC in THF,,matched
+PDG-PMC11796324-l,sec_calibration,not_reported,,,SEC in THF stated; calibration standard not given in main text,inferred
+PDG-PMC11796324-l,mass_unit_before,g/mol,Table 1 h c2,(g/mol),,matched
+PDG-PMC11796324-l,mass_unit_after,g/mol,Table 1 h c7,(g/mol),,matched
+PDG-PMC11796324-l,yield_basis,GC-FID (per mmol styrene repeat units),Table 1 footnote,Yields determined by GC-FID,,matched
+PDG-PMC11796324-l,products,benzoic acid; acetophenone,Table 1,BAc,,matched
+PDG-PMC11796324-l,mn_before,135400,Table 1 r12 c2,135 400,,matched
+PDG-PMC11796324-l,disp_before,1.06,Table 1 r12 c2,1.06,,matched
+PDG-PMC11796324-l,mn_after,662,Table 1 r12 c7,662,,matched
+PDG-PMC11796324-l,disp_after,3.43,Table 1 r12 c7,3.43,,matched
+PDG-PMC11796324-l,time,15,Table 1 r12 c4,15 h,,matched
+PDG-PMC11796324-l,product_yields[0]:benzoic acid,6.6,Table 1 r12 c5,6.6 %,,matched
+PDG-PMC11796324-l,product_yields[0].product,benzoic acid,Table 1 h c5,BAc,,matched
+PDG-PMC11796324-l,product_yields[1]:acetophenone,1.6,Table 1 r12 c6,1.6 %,,matched
+PDG-PMC11796324-l,product_yields[1].product,acetophenone,Table 1 h c6,ACP,,matched
+PDG-PMC11796324-l,catalyst_loading,2,Table 1 r12 c3,2,,matched
+PDG-PMC11796324-l,polymer_detail,"anionic PS (living anionic polymerization), Mn 135 400, Đ 1.06",Table 1 r12 c2,135 400,,matched
+PDG-PMC11796324-m,polymer,polystyrene,Table 1 footnote,PS solutions,,matched
+PDG-PMC11796324-m,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC11796324-m,catalyst,9-mesityl-10-methylacridinium perchlorate (MA),Introduction ¶3,9-Mesityl-10-methylacridinium perchlorate (MA,,matched
+PDG-PMC11796324-m,catalyst_loading_unit,mol%,,,unit printed in Table 1 header,inferred
+PDG-PMC11796324-m,light_source,Q-sun solar simulator,Table 1 r13 c4,"Q-sun, 44 h",,matched
+PDG-PMC11796324-m,light_color,solar,,,solar simulator (Q-sun),inferred
+PDG-PMC11796324-m,solvent,EtOAc/MeCN 10:1,Table 1 footnote,EtOAc/MeCN 10 : 1,,matched
+PDG-PMC11796324-m,concentration,0.303,Results and Discussion ¶3,0.303 M in repeating unit,,matched
+PDG-PMC11796324-m,concentration_unit,M (repeat units),,,printed as M in repeating unit,inferred
+PDG-PMC11796324-m,atmosphere,O2,Table 1 footnote,under oxygen atmosphere,,matched
+PDG-PMC11796324-m,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC11796324-m,sec_eluent,THF,Table 1 footnote,determined by SEC in THF,,matched
+PDG-PMC11796324-m,sec_calibration,not_reported,,,SEC in THF stated; calibration standard not given in main text,inferred
+PDG-PMC11796324-m,mass_unit_before,g/mol,Table 1 h c2,(g/mol),,matched
+PDG-PMC11796324-m,mass_unit_after,g/mol,Table 1 h c7,(g/mol),,matched
+PDG-PMC11796324-m,yield_basis,GC-FID (per mmol styrene repeat units),Table 1 footnote,Yields determined by GC-FID,,matched
+PDG-PMC11796324-m,products,benzoic acid; acetophenone,Table 1,BAc,,matched
+PDG-PMC11796324-m,mn_before,99000,Table 1 r13 c2,99 000,,matched
+PDG-PMC11796324-m,disp_before,1.98,Table 1 r13 c2,1.98,,matched
+PDG-PMC11796324-m,mn_after,450,Table 1 r13 c7,450,,matched
+PDG-PMC11796324-m,disp_after,6.05,Table 1 r13 c7,6.05,,matched
+PDG-PMC11796324-m,time,44,Table 1 r13 c4,"Q-sun, 44 h",,matched
+PDG-PMC11796324-m,product_yields[0]:benzoic acid,9.8,Table 1 r13 c5,9.8 %,,matched
+PDG-PMC11796324-m,product_yields[0].product,benzoic acid,Table 1 h c5,BAc,,matched
+PDG-PMC11796324-m,product_yields[1]:acetophenone,2.9,Table 1 r13 c6,2.9 %,,matched
+PDG-PMC11796324-m,product_yields[1].product,acetophenone,Table 1 h c6,ACP,,matched
+PDG-PMC11796324-m,catalyst_loading,1,Table 1 r13 c3,1,,matched
+PDG-PMC11796324-m,polymer_detail,"commercial PS, Mn 99 000, Đ 1.98",Table 1 r13 c2,99 000,,matched
+PDG-PMC12056016-a,catalyst,PTH-3CN (phenothiazine derivative; precatalyst),abstract,"phenothiazine derivative, PTH-3CN",,matched
+PDG-PMC12056016-a,catalyst_loading_unit,mol%,,,unit printed with the value; per repeat unit,inferred
+PDG-PMC12056016-a,light_source,50 W 405 nm LED,Methods > General procedure for performing the photocatalytic upcycling of PS ¶1,irradiated with a 50 W 405 nm LED light,,matched
+PDG-PMC12056016-a,wavelength_nm,405,Methods > General procedure for performing the photocatalytic upcycling of PS ¶1,50 W 405 nm LED light,,matched
+PDG-PMC12056016-a,light_color,violet,,,405 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC12056016-a,irradiance,0.4,Results > Mechanistic hypothesis and reaction optimizations ¶3,405 nm LED (0.4 W/cm2),,matched
+PDG-PMC12056016-a,irradiance_unit,W/cm2,,,unit printed with the value,inferred
+PDG-PMC12056016-a,solvent,chlorobenzene/acetonitrile,Methods > General procedure for performing the photocatalytic upcycling of PS ¶1,chlorobenzene (0.50 mL),,matched
+PDG-PMC12056016-a,atmosphere,air,Methods > General procedure for performing the photocatalytic upcycling of PS ¶1,sparging with a gentle flow of air,,matched
+PDG-PMC12056016-a,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12056016-a,polymer,polystyrene,Results > Mechanistic hypothesis and reaction optimizations ¶2,polystyrene PS1,,matched
+PDG-PMC12056016-a,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC12056016-a,polymer_detail,"PS1, commercial PS, Mw = 350 kDa, Đ = 2.06; 0.10 g",Results > Mechanistic hypothesis and reaction optimizations ¶2,"Mw = 350 kDa, Đ = 2.06",,matched
+PDG-PMC12056016-a,catalyst_loading,0.05,Results > Mechanistic hypothesis and reaction optimizations ¶3,minimized to 0.05 mol%,,matched
+PDG-PMC12056016-a,time,20,Methods > General procedure for performing the photocatalytic upcycling of PS ¶1,photochemical reactor for 20 h,,matched
+PDG-PMC12056016-a,products,benzoic acid; formic acid,Results > Mechanistic hypothesis and reaction optimizations ¶3,formic acid (27% NMR yield),,matched
+PDG-PMC12056016-a,yield_basis,benzoic acid: isolated yield; formic acid: NMR yield (per styrene repeat unit),,,text states '50% isolated yield of BA' and 'formic acid (27% NMR yield)',inferred
+PDG-PMC12056016-a,product_yields[0]:benzoic acid,50,Results > Mechanistic hypothesis and reaction optimizations ¶3,50% isolated yield of BA,,matched
+PDG-PMC12056016-a,product_yields[0].product,benzoic acid,Results > Mechanistic hypothesis and reaction optimizations ¶1,benzoic acid (BA),,matched
+PDG-PMC12056016-a,product_yields[1]:formic acid,27,Results > Mechanistic hypothesis and reaction optimizations ¶3,formic acid (27% NMR yield),,matched
+PDG-PMC12056016-a,product_yields[1].product,formic acid,Results > Mechanistic hypothesis and reaction optimizations ¶3,formic acid,,matched
+PDG-PMC12056016-b,catalyst,PTH-3CN pre-irradiated 8 h without PS under standard conditions (decomposed to triarylamine species),Results > Mechanistic investigations ¶2,"we first irradiated 0.05 mol% PTH-3CN alone, without PS, under standard conditions for 8 h",,matched
+PDG-PMC12056016-b,catalyst_loading_unit,mol%,,,unit printed with the value; per repeat unit,inferred
+PDG-PMC12056016-b,light_source,50 W 405 nm LED,Methods > General procedure for performing the photocatalytic upcycling of PS ¶1,irradiated with a 50 W 405 nm LED light,,matched
+PDG-PMC12056016-b,wavelength_nm,405,Methods > General procedure for performing the photocatalytic upcycling of PS ¶1,50 W 405 nm LED light,,matched
+PDG-PMC12056016-b,light_color,violet,,,405 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC12056016-b,irradiance,0.4,Results > Mechanistic hypothesis and reaction optimizations ¶3,405 nm LED (0.4 W/cm2),,matched
+PDG-PMC12056016-b,irradiance_unit,W/cm2,,,unit printed with the value,inferred
+PDG-PMC12056016-b,solvent,chlorobenzene/acetonitrile,Methods > General procedure for performing the photocatalytic upcycling of PS ¶1,chlorobenzene (0.50 mL),,matched
+PDG-PMC12056016-b,atmosphere,air,Methods > General procedure for performing the photocatalytic upcycling of PS ¶1,sparging with a gentle flow of air,,matched
+PDG-PMC12056016-b,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12056016-b,polymer,polystyrene,Results > Mechanistic investigations ¶2,0.10 g of PS1,,matched
+PDG-PMC12056016-b,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC12056016-b,polymer_detail,"PS1 (0.10 g), added in situ to pre-irradiated catalyst solution",Results > Mechanistic investigations ¶2,0.10 g of PS1 was then added in situ,,matched
+PDG-PMC12056016-b,catalyst_loading,0.05,Results > Mechanistic investigations ¶2,0.05 mol% PTH-3CN alone,,matched
+PDG-PMC12056016-b,time,12,Results > Mechanistic investigations ¶2,irradiated for an additional 12 h,,matched
+PDG-PMC12056016-b,products,benzoic acid,Results > Mechanistic investigations ¶2,a 42% yield of BA,,matched
+PDG-PMC12056016-b,yield_basis,not stated (yield of BA),,,text gives '42% yield of BA' without stating isolated/HPLC basis,inferred
+PDG-PMC12056016-b,product_yields[0]:benzoic acid,42,Results > Mechanistic investigations ¶2,a 42% yield of BA,,matched
+PDG-PMC12056016-b,product_yields[0].product,benzoic acid,Results > Mechanistic hypothesis and reaction optimizations ¶1,benzoic acid (BA),,matched
+PDG-PMC12056016-c,catalyst,phenothiazine (PTH),Results > Mechanistic hypothesis and reaction optimizations ¶2,in the presence of phenothiazine (PTH),,matched
+PDG-PMC12056016-c,light_source,390 nm LED,Results > Mechanistic hypothesis and reaction optimizations ¶2,under 390 nm LED irradiation,,matched
+PDG-PMC12056016-c,wavelength_nm,390,Results > Mechanistic hypothesis and reaction optimizations ¶2,under 390 nm LED irradiation,,matched
+PDG-PMC12056016-c,light_color,violet,,,390 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC12056016-c,atmosphere,O2,Results > Mechanistic hypothesis and reaction optimizations ¶2,in an oxygen atmosphere,,matched
+PDG-PMC12056016-c,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12056016-c,polymer,polystyrene,Results > Mechanistic hypothesis and reaction optimizations ¶2,polystyrene PS1,,matched
+PDG-PMC12056016-c,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC12056016-c,polymer_detail,"PS1 (ca. 50 mg), Mw = 350 kDa, Đ = 2.06",Results > Mechanistic hypothesis and reaction optimizations ¶2,"PS1 (ca. 50 mg, Mw = 350 kDa, Đ = 2.06)",,matched
+PDG-PMC12056016-c,products,benzoic acid; acetophenone,Results > Mechanistic hypothesis and reaction optimizations ¶2,converted into benzoic acid (44%) and acetophenone (1.1%),,matched
+PDG-PMC12056016-c,yield_basis,HPLC yield,Fig. 2 caption,The yield was determined by HPLC analysis,,matched
+PDG-PMC12056016-c,product_yields[0]:benzoic acid,44,Results > Mechanistic hypothesis and reaction optimizations ¶2,benzoic acid (44%),,matched
+PDG-PMC12056016-c,product_yields[0].product,benzoic acid,Results > Mechanistic hypothesis and reaction optimizations ¶2,benzoic acid,,matched
+PDG-PMC12056016-c,product_yields[1]:acetophenone,1.1,Results > Mechanistic hypothesis and reaction optimizations ¶2,acetophenone (1.1%),,matched
+PDG-PMC12056016-c,product_yields[1].product,acetophenone,Results > Mechanistic hypothesis and reaction optimizations ¶2,acetophenone,,matched
+PDG-PMC12056016-d,catalyst,PTH-3CN (phenothiazine derivative; precatalyst),abstract,"phenothiazine derivative, PTH-3CN",,matched
+PDG-PMC12056016-d,catalyst_loading_unit,ppm,,,unit printed with the value,inferred
+PDG-PMC12056016-d,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12056016-d,polymer,poly(methyl methacrylate),Results > Applications to diverse polymer types ¶2,"a test tube rack, PMMA1",,matched
+PDG-PMC12056016-d,polymer_class,vinyl_methacrylate,,,classification of the named polymer,inferred
+PDG-PMC12056016-d,polymer_detail,"PMMA1, post-consumer test tube rack, Mw = 696 kDa, Đ = 3.11",Results > Applications to diverse polymer types ¶2,"PMMA1 (Mw = 696 kDa, Đ = 3.11)",,matched
+PDG-PMC12056016-d,catalyst_loading,500,Results > Applications to diverse polymer types ¶2,only 500 ppm PTH-3CN,,matched
+PDG-PMC12056016-d,mw_before,696,Results > Applications to diverse polymer types ¶2,Mw = 696 kDa,,matched
+PDG-PMC12056016-d,disp_before,3.11,Results > Applications to diverse polymer types ¶2,Đ = 3.11,,matched
+PDG-PMC12056016-d,mw_after,2,Results > Applications to diverse polymer types ¶2,(Mw ≈ 2 kDa),,matched
+PDG-PMC12056016-d,mass_unit_before,kDa,Results > Applications to diverse polymer types ¶2,Mw = 696 kDa,,matched
+PDG-PMC12056016-d,mass_unit_after,kDa,Results > Applications to diverse polymer types ¶2,(Mw ≈ 2 kDa),,matched
+PDG-PMC12056016-d,sec_calibration,not_reported,,,"GPC traces shown (Fig. 5C) but no calibration, eluent or detector stated in the main text",inferred
+PDG-PMC12056016-e,catalyst,PTH-3CN (phenothiazine derivative; precatalyst),abstract,"phenothiazine derivative, PTH-3CN",,matched
+PDG-PMC12056016-e,catalyst_loading_unit,ppm,,,unit printed with the value,inferred
+PDG-PMC12056016-e,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12056016-e,polymer,poly(methyl methacrylate),Results > Applications to diverse polymer types ¶2,"a commercially available material, PMMA2",,matched
+PDG-PMC12056016-e,polymer_class,vinyl_methacrylate,,,classification of the named polymer,inferred
+PDG-PMC12056016-e,polymer_detail,"PMMA2, commercial, Mw = 97.7 kDa, Đ = 1.69",Results > Applications to diverse polymer types ¶2,"PMMA2 (Mw = 97.7 kDa, Đ = 1.69)",,matched
+PDG-PMC12056016-e,catalyst_loading,500,Results > Applications to diverse polymer types ¶2,only 500 ppm PTH-3CN,,matched
+PDG-PMC12056016-e,mw_before,97.7,Results > Applications to diverse polymer types ¶2,Mw = 97.7 kDa,,matched
+PDG-PMC12056016-e,disp_before,1.69,Results > Applications to diverse polymer types ¶2,Đ = 1.69,,matched
+PDG-PMC12056016-e,mw_after,2,Results > Applications to diverse polymer types ¶2,(Mw ≈ 2 kDa),,matched
+PDG-PMC12056016-e,mass_unit_before,kDa,Results > Applications to diverse polymer types ¶2,Mw = 97.7 kDa,,matched
+PDG-PMC12056016-e,mass_unit_after,kDa,Results > Applications to diverse polymer types ¶2,(Mw ≈ 2 kDa),,matched
+PDG-PMC12056016-e,sec_calibration,not_reported,,,"GPC traces shown (Fig. 5C) but no calibration, eluent or detector stated in the main text",inferred
+PDG-PMC12056016-f,catalyst,PTH-3CN (phenothiazine derivative; precatalyst),abstract,"phenothiazine derivative, PTH-3CN",,matched
+PDG-PMC12056016-f,catalyst_loading_unit,mol%,,,unit printed with the value; per repeat unit,inferred
+PDG-PMC12056016-f,light_source,50 W 405 nm LED,Methods > General procedure for performing the photocatalytic upcycling of PS ¶1,irradiated with a 50 W 405 nm LED light,,matched
+PDG-PMC12056016-f,wavelength_nm,405,Methods > General procedure for performing the photocatalytic upcycling of PS ¶1,50 W 405 nm LED light,,matched
+PDG-PMC12056016-f,light_color,violet,,,405 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC12056016-f,irradiance,0.4,Results > Mechanistic hypothesis and reaction optimizations ¶3,405 nm LED (0.4 W/cm2),,matched
+PDG-PMC12056016-f,irradiance_unit,W/cm2,,,unit printed with the value,inferred
+PDG-PMC12056016-f,solvent,"chlorobenzene/acetonitrile (1/1, 1.8 mL)",Fig. 7 caption,"b0.05 mol% PTH-3CN, PhCl/MeCN (1/1, 1.8 mL), 20 h",,matched
+PDG-PMC12056016-f,atmosphere,air,Methods > General procedure for performing the photocatalytic upcycling of PS ¶1,sparging with a gentle flow of air,,matched
+PDG-PMC12056016-f,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12056016-f,polymer,polystyrene,Results > Applications to diverse polymer types ¶5,PS was selectively upcycled,,matched
+PDG-PMC12056016-f,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC12056016-f,polymer_detail,"post-consumer PS in a mixture with PP, LDPE, PET and PVC (selective PS upcycling)",Results > Applications to diverse polymer types ¶5,"In the presence of PP, LDPE, PET, and PVC, PS was selectively upcycled",,matched
+PDG-PMC12056016-f,catalyst_loading,0.05,Results > Applications to diverse polymer types ¶5,with 0.05 mol% PTH-3CN,,matched
+PDG-PMC12056016-f,time,20,Results > Applications to diverse polymer types ¶5,in 20 h,,matched
+PDG-PMC12056016-f,products,benzoic acid; formic acid,Results > Applications to diverse polymer types ¶5,producing 43% isolated yield of BA and 26% FA,,matched
+PDG-PMC12056016-f,yield_basis,benzoic acid: isolated yield; formic acid: 1H NMR yield based on repeat unit,,,text: '43% isolated yield of BA'; Fig. 7 caption: yields by 1H NMR based on repeat unit unless otherwise noted,inferred
+PDG-PMC12056016-f,product_yields[0]:benzoic acid,43,Results > Applications to diverse polymer types ¶5,43% isolated yield of BA,,matched
+PDG-PMC12056016-f,product_yields[0].product,benzoic acid,Results > Mechanistic hypothesis and reaction optimizations ¶1,benzoic acid (BA),,matched
+PDG-PMC12056016-f,product_yields[1]:formic acid,26,Results > Applications to diverse polymer types ¶5,26% FA,,matched
+PDG-PMC12056016-f,product_yields[1].product,formic acid,Results > Applications to diverse polymer types ¶3,formic acid (FA),,matched
+PDG-PMC12056016-g,catalyst,PTH-3CN (phenothiazine derivative; precatalyst),abstract,"phenothiazine derivative, PTH-3CN",,matched
+PDG-PMC12056016-g,catalyst_loading_unit,mol%,,,unit printed with the value; per repeat unit,inferred
+PDG-PMC12056016-g,light_source,50 W 405 nm LED,Methods > General procedure for performing the photocatalytic upcycling of PS ¶1,irradiated with a 50 W 405 nm LED light,,matched
+PDG-PMC12056016-g,wavelength_nm,405,Methods > General procedure for performing the photocatalytic upcycling of PS ¶1,50 W 405 nm LED light,,matched
+PDG-PMC12056016-g,light_color,violet,,,405 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC12056016-g,irradiance,0.4,Results > Mechanistic hypothesis and reaction optimizations ¶3,405 nm LED (0.4 W/cm2),,matched
+PDG-PMC12056016-g,irradiance_unit,W/cm2,,,unit printed with the value,inferred
+PDG-PMC12056016-g,solvent,HFIP as co-solvent (with chlorobenzene/acetonitrile),Results > Applications to diverse polymer types ¶4,using HFIP as a co-solvent,,matched
+PDG-PMC12056016-g,atmosphere,air,Methods > General procedure for performing the photocatalytic upcycling of PS ¶1,sparging with a gentle flow of air,,matched
+PDG-PMC12056016-g,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12056016-g,polymer,poly(ethylene terephthalate),Results > Applications to diverse polymer types ¶4,A single-use PET bottle,,matched
+PDG-PMC12056016-g,polymer_class,polyester,,,classification of the named polymer,inferred
+PDG-PMC12056016-g,polymer_detail,post-consumer single-use PET bottle,Results > Applications to diverse polymer types ¶4,A single-use PET bottle,,matched
+PDG-PMC12056016-g,products,terephthalic acid,Results > Applications to diverse polymer types ¶4,terephthalic acid (2c),,matched
+PDG-PMC12056016-g,yield_basis,isolated yield,Results > Applications to diverse polymer types ¶4,93% isolated yield,,matched
+PDG-PMC12056016-g,product_yields[0]:terephthalic acid,93,Results > Applications to diverse polymer types ¶4,93% isolated yield,,matched
+PDG-PMC12056016-g,product_yields[0].product,terephthalic acid,Results > Applications to diverse polymer types ¶4,terephthalic acid (2c),,matched
+PDG-PMC12302232-a,catalyst,ITSO2 (isosulfonyltruxene),Results and discussion ¶6,in the presence of ITSO2,,matched
+PDG-PMC12302232-a,light_source,blue LEDs,Results and discussion ¶6,using blue LEDs,,matched
+PDG-PMC12302232-a,light_color,blue,Results and discussion ¶6,using blue LEDs,,matched
+PDG-PMC12302232-a,solvent,"1,2-dichloroethane",Results and discussion ¶6,"in 1,2-dichloroethane",,matched
+PDG-PMC12302232-a,atmosphere,O2,Results and discussion ¶6,under an oxygen atmosphere,,matched
+PDG-PMC12302232-a,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12302232-a,polymer,polystyrene,Results and discussion ¶6,commercial PS,,matched
+PDG-PMC12302232-a,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC12302232-a,polymer_detail,"commercial PS, Mw 560 966 g/mol, Mn 198 240 g/mol, PDI 2.83",Results and discussion ¶6,mass average molecular weight (Mw) of 560 966 g mol-1,,matched
+PDG-PMC12302232-a,products,benzoic acid,Results and discussion ¶6,benzoic acid was isolated in 57% yield,,matched
+PDG-PMC12302232-a,yield_basis,isolated yield (per styrene repeat unit implied),Results and discussion ¶6,benzoic acid was isolated in 57% yield,,matched
+PDG-PMC12302232-a,product_yields[0]:benzoic acid,57,Results and discussion ¶6,benzoic acid was isolated in 57% yield,,matched
+PDG-PMC12302232-a,product_yields[0].product,benzoic acid,Results and discussion ¶6,benzoic acid,,matched
+PDG-PMC12302232-a,time,24,Results and discussion ¶6,using blue LEDs for 24 hours,,matched
+PDG-PMC12302232-b,catalyst,ITSO2 (isosulfonyltruxene),Results and discussion ¶6,in the presence of ITSO2,,matched
+PDG-PMC12302232-b,light_source,blue LEDs,Results and discussion ¶6,using blue LEDs,,matched
+PDG-PMC12302232-b,light_color,blue,Results and discussion ¶6,using blue LEDs,,matched
+PDG-PMC12302232-b,solvent,"1,2-dichloroethane",Results and discussion ¶6,"in 1,2-dichloroethane",,matched
+PDG-PMC12302232-b,atmosphere,O2,Results and discussion ¶6,under an oxygen atmosphere,,matched
+PDG-PMC12302232-b,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12302232-b,polymer,polystyrene,Results and discussion ¶7,General-purpose polystyrene (GPPS),,matched
+PDG-PMC12302232-b,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC12302232-b,polymer_detail,general-purpose polystyrene (GPPS),Results and discussion ¶7,General-purpose polystyrene (GPPS),,matched
+PDG-PMC12302232-b,products,benzoic acid,Results and discussion ¶7,benzoic acid with 56% yield,,matched
+PDG-PMC12302232-b,yield_basis,not stated; standard-conditions entry 1 yield is isolated,,,scope yields given as '% yield' without restating the basis,inferred
+PDG-PMC12302232-b,product_yields[0]:benzoic acid,56,Results and discussion ¶7,benzoic acid with 56% yield,,matched
+PDG-PMC12302232-b,product_yields[0].product,benzoic acid,Results and discussion ¶6,benzoic acid,,matched
+PDG-PMC12302232-b,time,24,Results and discussion ¶6,using blue LEDs for 24 hours,,matched
+PDG-PMC12302232-c,catalyst,ITSO2 (isosulfonyltruxene),Results and discussion ¶6,in the presence of ITSO2,,matched
+PDG-PMC12302232-c,light_source,blue LEDs,Results and discussion ¶6,using blue LEDs,,matched
+PDG-PMC12302232-c,light_color,blue,Results and discussion ¶6,using blue LEDs,,matched
+PDG-PMC12302232-c,solvent,"1,2-dichloroethane",Results and discussion ¶6,"in 1,2-dichloroethane",,matched
+PDG-PMC12302232-c,atmosphere,O2,Results and discussion ¶6,under an oxygen atmosphere,,matched
+PDG-PMC12302232-c,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12302232-c,polymer,polystyrene,Results and discussion ¶7,Expandable polystyrene (EPS),,matched
+PDG-PMC12302232-c,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC12302232-c,polymer_detail,expandable polystyrene (EPS) containing azodicarbonamide foaming agent,Results and discussion ¶7,containing azodicarbonamide as a foaming agent,,matched
+PDG-PMC12302232-c,products,benzoic acid,Results and discussion ¶7,benzoic acid in 56% yield,,matched
+PDG-PMC12302232-c,yield_basis,not stated; standard-conditions entry 1 yield is isolated,,,scope yields given as '% yield' without restating the basis,inferred
+PDG-PMC12302232-c,product_yields[0]:benzoic acid,56,Results and discussion ¶7,benzoic acid in 56% yield,,matched
+PDG-PMC12302232-c,product_yields[0].product,benzoic acid,Results and discussion ¶6,benzoic acid,,matched
+PDG-PMC12302232-c,time,24,Results and discussion ¶6,using blue LEDs for 24 hours,,matched
+PDG-PMC12302232-d,catalyst,ITSO2 (isosulfonyltruxene),Results and discussion ¶6,in the presence of ITSO2,,matched
+PDG-PMC12302232-d,light_source,blue LEDs,Results and discussion ¶6,using blue LEDs,,matched
+PDG-PMC12302232-d,light_color,blue,Results and discussion ¶6,using blue LEDs,,matched
+PDG-PMC12302232-d,solvent,"1,2-dichloroethane",Results and discussion ¶6,"in 1,2-dichloroethane",,matched
+PDG-PMC12302232-d,atmosphere,O2,Results and discussion ¶6,under an oxygen atmosphere,,matched
+PDG-PMC12302232-d,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12302232-d,polymer,polystyrene,Results and discussion ¶7,High-impact polystyrene (HIPS),,matched
+PDG-PMC12302232-d,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC12302232-d,polymer_detail,"high-impact polystyrene (HIPS), styrene-butadiene graft copolymer",Results and discussion ¶7,a graft copolymer composed of styrene and butadiene,,matched
+PDG-PMC12302232-d,products,benzoic acid,Results and discussion ¶7,transformed into benzoic acid with 56% yield,,matched
+PDG-PMC12302232-d,yield_basis,not stated; standard-conditions entry 1 yield is isolated,,,scope yields given as '% yield' without restating the basis,inferred
+PDG-PMC12302232-d,product_yields[0]:benzoic acid,56,Results and discussion ¶7,transformed into benzoic acid with 56% yield,,matched
+PDG-PMC12302232-d,product_yields[0].product,benzoic acid,Results and discussion ¶6,benzoic acid,,matched
+PDG-PMC12302232-d,time,24,Results and discussion ¶6,using blue LEDs for 24 hours,,matched
+PDG-PMC12302232-e,catalyst,ITSO2 (isosulfonyltruxene),Results and discussion ¶6,in the presence of ITSO2,,matched
+PDG-PMC12302232-e,light_source,blue LEDs,Results and discussion ¶6,using blue LEDs,,matched
+PDG-PMC12302232-e,light_color,blue,Results and discussion ¶6,using blue LEDs,,matched
+PDG-PMC12302232-e,solvent,"1,2-dichloroethane",Results and discussion ¶6,"in 1,2-dichloroethane",,matched
+PDG-PMC12302232-e,atmosphere,O2,Results and discussion ¶6,under an oxygen atmosphere,,matched
+PDG-PMC12302232-e,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12302232-e,polymer,poly(styrene-co-acrylonitrile),Results and discussion ¶7,styrene-acrylonitrile (SAN),,matched
+PDG-PMC12302232-e,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC12302232-e,polymer_detail,SAN,Results and discussion ¶7,styrene-acrylonitrile (SAN),,matched
+PDG-PMC12302232-e,products,benzoic acid,Results and discussion ¶7,benzoic acid in 54% yield,,matched
+PDG-PMC12302232-e,yield_basis,not stated; standard-conditions entry 1 yield is isolated,,,scope yields given as '% yield' without restating the basis,inferred
+PDG-PMC12302232-e,product_yields[0]:benzoic acid,54,Results and discussion ¶7,benzoic acid in 54% yield,,matched
+PDG-PMC12302232-e,product_yields[0].product,benzoic acid,Results and discussion ¶6,benzoic acid,,matched
+PDG-PMC12302232-e,cocatalyst_additives,"TCNHPI (4,5,6,7-tetrachloro-2-hydroxy-isoindole-1,3-dione)",Results and discussion ¶7,"when 4,5,6,7-tetrachloro-2-hydroxy-isoindole-1,3-dione (TCNHPI) was employed as an additive",,matched
+PDG-PMC12302232-e,time,24,Results and discussion ¶6,using blue LEDs for 24 hours,,matched
+PDG-PMC12302232-f,catalyst,ITSO2 (isosulfonyltruxene),Results and discussion ¶6,in the presence of ITSO2,,matched
+PDG-PMC12302232-f,light_source,blue LEDs,Results and discussion ¶6,using blue LEDs,,matched
+PDG-PMC12302232-f,light_color,blue,Results and discussion ¶6,using blue LEDs,,matched
+PDG-PMC12302232-f,solvent,"1,2-dichloroethane",Results and discussion ¶6,"in 1,2-dichloroethane",,matched
+PDG-PMC12302232-f,atmosphere,O2,Results and discussion ¶6,under an oxygen atmosphere,,matched
+PDG-PMC12302232-f,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12302232-f,polymer,poly(acrylonitrile-co-butadiene-co-styrene),Results and discussion ¶7,acrylonitrile-butadiene-styrene (ABS),,matched
+PDG-PMC12302232-f,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC12302232-f,polymer_detail,ABS,Results and discussion ¶7,acrylonitrile-butadiene-styrene (ABS),,matched
+PDG-PMC12302232-f,products,benzoic acid,Results and discussion ¶7,48% yield,,matched
+PDG-PMC12302232-f,yield_basis,not stated; standard-conditions entry 1 yield is isolated,,,scope yields given as '% yield' without restating the basis,inferred
+PDG-PMC12302232-f,product_yields[0]:benzoic acid,48,Results and discussion ¶7,48% yield,,matched
+PDG-PMC12302232-f,product_yields[0].product,benzoic acid,Results and discussion ¶6,benzoic acid,,matched
+PDG-PMC12302232-f,cocatalyst_additives,"TCNHPI (4,5,6,7-tetrachloro-2-hydroxy-isoindole-1,3-dione)",Results and discussion ¶7,"when 4,5,6,7-tetrachloro-2-hydroxy-isoindole-1,3-dione (TCNHPI) was employed as an additive",,matched
+PDG-PMC12302232-f,time,24,Results and discussion ¶6,using blue LEDs for 24 hours,,matched
+PDG-PMC12302232-g,catalyst,ITSO2 (isosulfonyltruxene),Results and discussion ¶6,in the presence of ITSO2,,matched
+PDG-PMC12302232-g,light_source,blue LEDs,Results and discussion ¶6,using blue LEDs,,matched
+PDG-PMC12302232-g,light_color,blue,Results and discussion ¶6,using blue LEDs,,matched
+PDG-PMC12302232-g,solvent,"1,2-dichloroethane",Results and discussion ¶6,"in 1,2-dichloroethane",,matched
+PDG-PMC12302232-g,atmosphere,O2,Results and discussion ¶6,under an oxygen atmosphere,,matched
+PDG-PMC12302232-g,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12302232-g,polymer,polystyrene,Results and discussion ¶8,EPS waste,,matched
+PDG-PMC12302232-g,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC12302232-g,polymer_detail,post-consumer EPS waste: foam box,Results and discussion ¶8,"EPS waste, such as foam boxes",,matched
+PDG-PMC12302232-g,products,benzoic acid,Results and discussion ¶8,producing benzoic acid in 57% yield,,matched
+PDG-PMC12302232-g,yield_basis,not stated; standard-conditions entry 1 yield is isolated,,,scope yields given as '% yield' without restating the basis,inferred
+PDG-PMC12302232-g,product_yields[0]:benzoic acid,57,Results and discussion ¶8,producing benzoic acid in 57% yield,,matched
+PDG-PMC12302232-g,product_yields[0].product,benzoic acid,Results and discussion ¶6,benzoic acid,,matched
+PDG-PMC12302232-g,time,24,Results and discussion ¶6,using blue LEDs for 24 hours,,matched
+PDG-PMC12302232-h,catalyst,ITSO2 (isosulfonyltruxene),Results and discussion ¶6,in the presence of ITSO2,,matched
+PDG-PMC12302232-h,light_source,blue LEDs,Results and discussion ¶6,using blue LEDs,,matched
+PDG-PMC12302232-h,light_color,blue,Results and discussion ¶6,using blue LEDs,,matched
+PDG-PMC12302232-h,solvent,"1,2-dichloroethane",Results and discussion ¶6,"in 1,2-dichloroethane",,matched
+PDG-PMC12302232-h,atmosphere,O2,Results and discussion ¶6,under an oxygen atmosphere,,matched
+PDG-PMC12302232-h,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12302232-h,polymer,polystyrene,Results and discussion ¶8,EPS waste,,matched
+PDG-PMC12302232-h,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC12302232-h,polymer_detail,post-consumer EPS waste: shockproof foam,Results and discussion ¶8,shockproof foam,,matched
+PDG-PMC12302232-h,products,benzoic acid,Results and discussion ¶8,56% yield,,matched
+PDG-PMC12302232-h,yield_basis,not stated; standard-conditions entry 1 yield is isolated,,,scope yields given as '% yield' without restating the basis,inferred
+PDG-PMC12302232-h,product_yields[0]:benzoic acid,56,Results and discussion ¶8,56% yield,,matched
+PDG-PMC12302232-h,product_yields[0].product,benzoic acid,Results and discussion ¶6,benzoic acid,,matched
+PDG-PMC12302232-h,time,24,Results and discussion ¶6,using blue LEDs for 24 hours,,matched
+PDG-PMC12302232-i,catalyst,ITSO2 (isosulfonyltruxene),Results and discussion ¶6,in the presence of ITSO2,,matched
+PDG-PMC12302232-i,light_source,continuous flow photoreactor (blue LEDs),Results and discussion ¶9,a continuous flow photoreactor was implemented,,matched
+PDG-PMC12302232-i,light_color,blue,Results and discussion ¶6,using blue LEDs,,matched
+PDG-PMC12302232-i,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12302232-i,polymer,polystyrene,Results and discussion ¶9,commercial polystyrene,,matched
+PDG-PMC12302232-i,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC12302232-i,polymer_detail,"commercial PS, 1.04 g, continuous-flow photoreactor",Results and discussion ¶9,1.04 g of commercial polystyrene,,matched
+PDG-PMC12302232-i,products,benzoic acid,Results and discussion ¶9,benzoic acid in 50% yield,,matched
+PDG-PMC12302232-i,yield_basis,not stated; standard-conditions entry 1 yield is isolated,,,scope yields given as '% yield' without restating the basis,inferred
+PDG-PMC12302232-i,product_yields[0]:benzoic acid,50,Results and discussion ¶9,benzoic acid in 50% yield,,matched
+PDG-PMC12302232-i,product_yields[0].product,benzoic acid,Results and discussion ¶6,benzoic acid,,matched
+PDG-PMC12464638-a,polymer,polypinacol,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,cleave our polypinacols,,matched
+PDG-PMC12464638-a,polymer_class,designed_degradable,,,"designed polypinacol (1,2-diol backbone) built for light-driven closed-loop recycling",inferred
+PDG-PMC12464638-a,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization",Result and Discussion > Substrate Scope ¶1,incorporating an alkyl spacer between the aromatic aldehyde groups,,matched
+PDG-PMC12464638-a,catalyst,CeCl3·7H2O,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-a,catalyst_loading,10,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-a,catalyst_loading_unit,mol%,,,unit printed with the value,inferred
+PDG-PMC12464638-a,cocatalyst_additives,TBACl (50 mol%) + molecular sieve powder,Table 2 footnote,"TBACl (50 mol%), mol sieve powder",,matched
+PDG-PMC12464638-a,light_source,450 nm LED,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-a,wavelength_nm,450,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-a,light_color,blue,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,blue light (450 nm),,matched
+PDG-PMC12464638-a,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),Table 2 footnote,1.0 mL of DMSO-d6,,matched
+PDG-PMC12464638-a,time,52,Table 2 footnote,"450 nm LED, 52 h",,matched
+PDG-PMC12464638-a,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12464638-a,yield_basis,1H NMR vs dimethyl terephthalate internal standard,Table 2 footnote,Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard,,matched
+PDG-PMC12464638-a,products,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-a,product_yields[0]:M5 (original bis-aldehyde monomer),82,Table 2 r1 c3,82,,matched
+PDG-PMC12464638-a,product_yields[0].product,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-b,polymer,polypinacol,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,cleave our polypinacols,,matched
+PDG-PMC12464638-b,polymer_class,designed_degradable,,,"designed polypinacol (1,2-diol backbone) built for light-driven closed-loop recycling",inferred
+PDG-PMC12464638-b,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization",Result and Discussion > Substrate Scope ¶1,incorporating an alkyl spacer between the aromatic aldehyde groups,,matched
+PDG-PMC12464638-b,catalyst,CeCl3·7H2O,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-b,catalyst_loading,5,Table 2 r2 c2,5 mol% CeCl3∙7H2O,,matched
+PDG-PMC12464638-b,catalyst_loading_unit,mol%,,,unit printed with the value,inferred
+PDG-PMC12464638-b,cocatalyst_additives,TBACl (50 mol%) + molecular sieve powder,Table 2 footnote,"TBACl (50 mol%), mol sieve powder",,matched
+PDG-PMC12464638-b,light_source,450 nm LED,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-b,wavelength_nm,450,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-b,light_color,blue,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,blue light (450 nm),,matched
+PDG-PMC12464638-b,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),Table 2 footnote,1.0 mL of DMSO-d6,,matched
+PDG-PMC12464638-b,time,52,Table 2 footnote,"450 nm LED, 52 h",,matched
+PDG-PMC12464638-b,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12464638-b,yield_basis,1H NMR vs dimethyl terephthalate internal standard,Table 2 footnote,Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard,,matched
+PDG-PMC12464638-b,products,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-b,product_yields[0]:M5 (original bis-aldehyde monomer),79,Table 2 r2 c3,79,,matched
+PDG-PMC12464638-b,product_yields[0].product,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-c,polymer,polypinacol,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,cleave our polypinacols,,matched
+PDG-PMC12464638-c,polymer_class,designed_degradable,,,"designed polypinacol (1,2-diol backbone) built for light-driven closed-loop recycling",inferred
+PDG-PMC12464638-c,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization",Result and Discussion > Substrate Scope ¶1,incorporating an alkyl spacer between the aromatic aldehyde groups,,matched
+PDG-PMC12464638-c,catalyst,CeCl3·7H2O,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-c,catalyst_loading,2,Table 2 r3 c2,2 mol% CeCl3∙7H2O,,matched
+PDG-PMC12464638-c,catalyst_loading_unit,mol%,,,unit printed with the value,inferred
+PDG-PMC12464638-c,cocatalyst_additives,TBACl (50 mol%) + molecular sieve powder,Table 2 footnote,"TBACl (50 mol%), mol sieve powder",,matched
+PDG-PMC12464638-c,light_source,450 nm LED,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-c,wavelength_nm,450,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-c,light_color,blue,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,blue light (450 nm),,matched
+PDG-PMC12464638-c,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),Table 2 footnote,1.0 mL of DMSO-d6,,matched
+PDG-PMC12464638-c,time,52,Table 2 footnote,"450 nm LED, 52 h",,matched
+PDG-PMC12464638-c,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12464638-c,yield_basis,1H NMR vs dimethyl terephthalate internal standard,Table 2 footnote,Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard,,matched
+PDG-PMC12464638-c,products,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-c,product_yields[0]:M5 (original bis-aldehyde monomer),71,Table 2 r3 c3,71,,matched
+PDG-PMC12464638-c,product_yields[0].product,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-d,polymer,polypinacol,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,cleave our polypinacols,,matched
+PDG-PMC12464638-d,polymer_class,designed_degradable,,,"designed polypinacol (1,2-diol backbone) built for light-driven closed-loop recycling",inferred
+PDG-PMC12464638-d,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization",Result and Discussion > Substrate Scope ¶1,incorporating an alkyl spacer between the aromatic aldehyde groups,,matched
+PDG-PMC12464638-d,catalyst,CeCl3·7H2O,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-d,catalyst_loading,10,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-d,catalyst_loading_unit,mol%,,,unit printed with the value,inferred
+PDG-PMC12464638-d,cocatalyst_additives,TBACl (25 mol%) + molecular sieve powder,Table 2 r4 c2,TBACl (25 mol%),,matched
+PDG-PMC12464638-d,light_source,450 nm LED,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-d,wavelength_nm,450,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-d,light_color,blue,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,blue light (450 nm),,matched
+PDG-PMC12464638-d,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),Table 2 footnote,1.0 mL of DMSO-d6,,matched
+PDG-PMC12464638-d,time,52,Table 2 footnote,"450 nm LED, 52 h",,matched
+PDG-PMC12464638-d,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12464638-d,yield_basis,1H NMR vs dimethyl terephthalate internal standard,Table 2 footnote,Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard,,matched
+PDG-PMC12464638-d,products,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-d,product_yields[0]:M5 (original bis-aldehyde monomer),71,Table 2 r4 c3,71,,matched
+PDG-PMC12464638-d,product_yields[0].product,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-e,polymer,polypinacol,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,cleave our polypinacols,,matched
+PDG-PMC12464638-e,polymer_class,designed_degradable,,,"designed polypinacol (1,2-diol backbone) built for light-driven closed-loop recycling",inferred
+PDG-PMC12464638-e,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization",Result and Discussion > Substrate Scope ¶1,incorporating an alkyl spacer between the aromatic aldehyde groups,,matched
+PDG-PMC12464638-e,catalyst,CeCl3·7H2O,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-e,catalyst_loading,10,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-e,catalyst_loading_unit,mol%,,,unit printed with the value,inferred
+PDG-PMC12464638-e,cocatalyst_additives,TBACl (10 mol%) + molecular sieve powder,Table 2 r5 c2,TBACl (10 mol%),,matched
+PDG-PMC12464638-e,light_source,450 nm LED,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-e,wavelength_nm,450,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-e,light_color,blue,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,blue light (450 nm),,matched
+PDG-PMC12464638-e,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),Table 2 footnote,1.0 mL of DMSO-d6,,matched
+PDG-PMC12464638-e,time,52,Table 2 footnote,"450 nm LED, 52 h",,matched
+PDG-PMC12464638-e,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12464638-e,yield_basis,1H NMR vs dimethyl terephthalate internal standard,Table 2 footnote,Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard,,matched
+PDG-PMC12464638-e,products,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-e,product_yields[0]:M5 (original bis-aldehyde monomer),66,Table 2 r5 c3,66,,matched
+PDG-PMC12464638-e,product_yields[0].product,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-f,polymer,polypinacol,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,cleave our polypinacols,,matched
+PDG-PMC12464638-f,polymer_class,designed_degradable,,,"designed polypinacol (1,2-diol backbone) built for light-driven closed-loop recycling",inferred
+PDG-PMC12464638-f,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization",Result and Discussion > Substrate Scope ¶1,incorporating an alkyl spacer between the aromatic aldehyde groups,,matched
+PDG-PMC12464638-f,catalyst,CeCl3·7H2O,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-f,catalyst_loading,10,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-f,catalyst_loading_unit,mol%,,,unit printed with the value,inferred
+PDG-PMC12464638-f,cocatalyst_additives,molecular sieve powder only (no TBACl),Table 2 r6 c2,No TBACl,,matched
+PDG-PMC12464638-f,light_source,450 nm LED,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-f,wavelength_nm,450,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-f,light_color,blue,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,blue light (450 nm),,matched
+PDG-PMC12464638-f,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),Table 2 footnote,1.0 mL of DMSO-d6,,matched
+PDG-PMC12464638-f,time,52,Table 2 footnote,"450 nm LED, 52 h",,matched
+PDG-PMC12464638-f,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12464638-f,yield_basis,1H NMR vs dimethyl terephthalate internal standard,Table 2 footnote,Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard,,matched
+PDG-PMC12464638-f,products,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-f,product_yields[0]:M5 (original bis-aldehyde monomer),61,Table 2 r6 c3,61,,matched
+PDG-PMC12464638-f,product_yields[0].product,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-g,polymer,polypinacol,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,cleave our polypinacols,,matched
+PDG-PMC12464638-g,polymer_class,designed_degradable,,,"designed polypinacol (1,2-diol backbone) built for light-driven closed-loop recycling",inferred
+PDG-PMC12464638-g,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization",Result and Discussion > Substrate Scope ¶1,incorporating an alkyl spacer between the aromatic aldehyde groups,,matched
+PDG-PMC12464638-g,catalyst,CeCl3·7H2O,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-g,catalyst_loading,10,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-g,catalyst_loading_unit,mol%,,,unit printed with the value,inferred
+PDG-PMC12464638-g,cocatalyst_additives,TBACl (50 mol%) + molecular sieve powder,Table 2 footnote,"TBACl (50 mol%), mol sieve powder",,matched
+PDG-PMC12464638-g,light_source,450 nm LED,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-g,wavelength_nm,450,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-g,light_color,blue,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,blue light (450 nm),,matched
+PDG-PMC12464638-g,solvent,DMSO-d6 (0.5 mL; P5 0.066 mmol),Table 2 r7 c2,0.5 mL DMSO-d6,,matched
+PDG-PMC12464638-g,time,52,Table 2 footnote,"450 nm LED, 52 h",,matched
+PDG-PMC12464638-g,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12464638-g,yield_basis,1H NMR vs dimethyl terephthalate internal standard,Table 2 footnote,Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard,,matched
+PDG-PMC12464638-g,products,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-g,product_yields[0]:M5 (original bis-aldehyde monomer),72,Table 2 r7 c3,72,,matched
+PDG-PMC12464638-g,product_yields[0].product,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-h,polymer,polypinacol,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,cleave our polypinacols,,matched
+PDG-PMC12464638-h,polymer_class,designed_degradable,,,"designed polypinacol (1,2-diol backbone) built for light-driven closed-loop recycling",inferred
+PDG-PMC12464638-h,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization",Result and Discussion > Substrate Scope ¶1,incorporating an alkyl spacer between the aromatic aldehyde groups,,matched
+PDG-PMC12464638-h,catalyst,CeCl3·7H2O,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-h,catalyst_loading,10,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-h,catalyst_loading_unit,mol%,,,unit printed with the value,inferred
+PDG-PMC12464638-h,cocatalyst_additives,"TBACl (50 mol%), no molecular sieves",Table 2 r8 c2,No MS,,matched
+PDG-PMC12464638-h,light_source,450 nm LED,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-h,wavelength_nm,450,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-h,light_color,blue,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,blue light (450 nm),,matched
+PDG-PMC12464638-h,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),Table 2 footnote,1.0 mL of DMSO-d6,,matched
+PDG-PMC12464638-h,time,52,Table 2 footnote,"450 nm LED, 52 h",,matched
+PDG-PMC12464638-h,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12464638-h,yield_basis,1H NMR vs dimethyl terephthalate internal standard,Table 2 footnote,Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard,,matched
+PDG-PMC12464638-h,products,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-h,product_yields[0]:M5 (original bis-aldehyde monomer),48,Table 2 r8 c3,48,,matched
+PDG-PMC12464638-h,product_yields[0].product,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-i,polymer,polypinacol,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,cleave our polypinacols,,matched
+PDG-PMC12464638-i,polymer_class,designed_degradable,,,"designed polypinacol (1,2-diol backbone) built for light-driven closed-loop recycling",inferred
+PDG-PMC12464638-i,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization",Result and Discussion > Substrate Scope ¶1,incorporating an alkyl spacer between the aromatic aldehyde groups,,matched
+PDG-PMC12464638-i,catalyst,CeCl3·7H2O,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-i,catalyst_loading,10,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-i,catalyst_loading_unit,mol%,,,unit printed with the value,inferred
+PDG-PMC12464638-i,cocatalyst_additives,TBACl (50 mol%) + molecular sieve powder,Table 2 footnote,"TBACl (50 mol%), mol sieve powder",,matched
+PDG-PMC12464638-i,light_source,none (dark),Table 2 r9 c2,No light,,matched
+PDG-PMC12464638-i,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),Table 2 footnote,1.0 mL of DMSO-d6,,matched
+PDG-PMC12464638-i,time,52,Table 2 footnote,"450 nm LED, 52 h",,matched
+PDG-PMC12464638-i,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12464638-i,yield_basis,1H NMR vs dimethyl terephthalate internal standard,Table 2 footnote,Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard,,matched
+PDG-PMC12464638-i,products,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-i,product_yields[0]:M5 (original bis-aldehyde monomer),0,Table 2 r9 c3,0,,matched
+PDG-PMC12464638-i,product_yields[0].product,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-j,polymer,polypinacol,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,cleave our polypinacols,,matched
+PDG-PMC12464638-j,polymer_class,designed_degradable,,,"designed polypinacol (1,2-diol backbone) built for light-driven closed-loop recycling",inferred
+PDG-PMC12464638-j,polymer_detail,"P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization",Result and Discussion > Substrate Scope ¶1,incorporating an alkyl spacer between the aromatic aldehyde groups,,matched
+PDG-PMC12464638-j,catalyst,CeCl3·7H2O,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-j,catalyst_loading,10,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-j,catalyst_loading_unit,mol%,,,unit printed with the value,inferred
+PDG-PMC12464638-j,cocatalyst_additives,TBACl (50 mol%) + molecular sieve powder,Table 2 footnote,"TBACl (50 mol%), mol sieve powder",,matched
+PDG-PMC12464638-j,light_source,450 nm LED,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-j,wavelength_nm,450,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-j,light_color,blue,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,blue light (450 nm),,matched
+PDG-PMC12464638-j,solvent,DMSO-d6 (1.0 mL; P5 0.066 mmol),Table 2 footnote,1.0 mL of DMSO-d6,,matched
+PDG-PMC12464638-j,time,52,Table 2 footnote,"450 nm LED, 52 h",,matched
+PDG-PMC12464638-j,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12464638-j,yield_basis,1H NMR vs dimethyl terephthalate internal standard,Table 2 footnote,Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard,,matched
+PDG-PMC12464638-j,products,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-j,atmosphere,Ar,Table 2 r10 c2,Argon atmosphere,,matched
+PDG-PMC12464638-j,product_yields[0]:M5 (original bis-aldehyde monomer),0,Table 2 r10 c3,0,,matched
+PDG-PMC12464638-j,product_yields[0].product,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-k,polymer,polypinacol,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,cleave our polypinacols,,matched
+PDG-PMC12464638-k,polymer_class,designed_degradable,,,"designed polypinacol (1,2-diol backbone) built for light-driven closed-loop recycling",inferred
+PDG-PMC12464638-k,polymer_detail,"P5, large-scale depolymerization under the optimized conditions",Result and Discussion > Closed-Loop Photochemical Recycling ¶4,large-scale depolymerization of P5,,matched
+PDG-PMC12464638-k,catalyst,CeCl3·7H2O,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-k,catalyst_loading,10,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-k,catalyst_loading_unit,mol%,,,unit printed with the value,inferred
+PDG-PMC12464638-k,cocatalyst_additives,TBACl (50 mol%) + molecular sieve powder,Table 2 footnote,"TBACl (50 mol%), mol sieve powder",,matched
+PDG-PMC12464638-k,light_source,450 nm LED,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-k,wavelength_nm,450,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-k,light_color,blue,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,blue light (450 nm),,matched
+PDG-PMC12464638-k,solvent,DMSO-d6,Table 2 footnote,1.0 mL of DMSO-d6,,matched
+PDG-PMC12464638-k,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12464638-k,yield_basis,isolated yield,Result and Discussion > Closed-Loop Photochemical Recycling ¶4,isolated M5 in 70% yield,,matched
+PDG-PMC12464638-k,products,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-k,product_yields[0]:M5 (original bis-aldehyde monomer),70,Result and Discussion > Closed-Loop Photochemical Recycling ¶4,isolated M5 in 70% yield,,matched
+PDG-PMC12464638-k,product_yields[0].product,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-l,polymer,polypinacol,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,cleave our polypinacols,,matched
+PDG-PMC12464638-l,polymer_class,designed_degradable,,,"designed polypinacol (1,2-diol backbone) built for light-driven closed-loop recycling",inferred
+PDG-PMC12464638-l,polymer_detail,P5 depolymerized in the presence of added polystyrene pieces (orthogonal recycling test),Result and Discussion > Closed-Loop Photochemical Recycling ¶4,with the addition of polystyrene (PS),,matched
+PDG-PMC12464638-l,catalyst,CeCl3·7H2O,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-l,catalyst_loading,10,Table 2 footnote,CeCl3∙7H2O (10 mol%),,matched
+PDG-PMC12464638-l,catalyst_loading_unit,mol%,,,unit printed with the value,inferred
+PDG-PMC12464638-l,cocatalyst_additives,TBACl (50 mol%) + molecular sieve powder,Table 2 footnote,"TBACl (50 mol%), mol sieve powder",,matched
+PDG-PMC12464638-l,light_source,450 nm LED,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-l,wavelength_nm,450,Table 2 footnote,450 nm LED,,matched
+PDG-PMC12464638-l,light_color,blue,Result and Discussion > Closed-Loop Photochemical Recycling ¶2,blue light (450 nm),,matched
+PDG-PMC12464638-l,solvent,DMSO-d6,Table 2 footnote,1.0 mL of DMSO-d6,,matched
+PDG-PMC12464638-l,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC12464638-l,yield_basis,not_stated,,,yield method not given for this experiment in main text,inferred
+PDG-PMC12464638-l,products,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC12464638-l,product_yields[0]:M5 (original bis-aldehyde monomer),81,Result and Discussion > Closed-Loop Photochemical Recycling ¶4,M5 was obtained in 81% yield,,matched
+PDG-PMC12464638-l,product_yields[0].product,M5 (original bis-aldehyde monomer),Result and Discussion > Closed-Loop Photochemical Recycling ¶2,the original monomer M5,,matched
+PDG-PMC13590609-a,catalyst,none (Cl radicals generated in situ from chlorinated solvent),abstract,chlorine radicals generated in situ from these discarded solvents,,matched
+PDG-PMC13590609-a,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",Methods > Preparation of OPPs ¶1,two symmetrically arranged 415 nm LED lamps (50 W,,matched
+PDG-PMC13590609-a,wavelength_nm,415,Methods > Preparation of OPPs ¶1,415 nm LED lamps,,matched
+PDG-PMC13590609-a,light_color,violet,,,415 nm lies in the violet band (380-450 nm); paper also calls it blue light,inferred
+PDG-PMC13590609-a,irradiance,50,Methods > Preparation of OPPs ¶1,"(50 W, purchased from Taobao.com)",,matched
+PDG-PMC13590609-a,irradiance_unit,"W (electrical, per lamp; two lamps)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC13590609-a,solvent,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",Results > Oxidative degradation of polypropylene (PP) ¶1,"composed of CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, and TCE, 2 mL each",,matched
+PDG-PMC13590609-a,atmosphere,air,Results > Oxidative degradation of polypropylene (PP) ¶1,at 130 °C in air,,matched
+PDG-PMC13590609-a,temperature_c,130,Methods > Preparation of OPPs ¶1,oil bath at 130 °C,,matched
+PDG-PMC13590609-a,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC13590609-a,polymer,polypropylene,Results > Oxidative degradation of polypropylene (PP) ¶1,"a commercial polypropylene sample (P1, MFI = 28 g·10 min-1)",,matched
+PDG-PMC13590609-a,polymer_class,polyolefin,,,classification of the named polymer,inferred
+PDG-PMC13590609-a,polymer_detail,"P1, commercial PP particles (Adamas), MFI = 28 g/10 min",Results > Oxidative degradation of polypropylene (PP) ¶1,"P1, MFI = 28 g·10 min-1",,matched
+PDG-PMC13590609-a,time,18,Methods > Preparation of OPPs ¶1,irradiated for 18 h,,matched
+PDG-PMC13590609-a,sec_calibration,conventional_PS,Methods > Considerations of characterization > HT-GPC ¶1,The calibration was made by using a polystyrene standard,,matched
+PDG-PMC13590609-a,sec_eluent,"1,2,4-trichlorobenzene",Methods > Considerations of characterization > HT-GPC ¶1,"1,2,4-trichlorobenzene (TCB) was employed as an eluent",,matched
+PDG-PMC13590609-a,sec_temperature_c,145,Methods > Considerations of characterization > HT-GPC ¶1,determined at 145 °C,,matched
+PDG-PMC13590609-a,mn_before,45.7,Results > Oxidative degradation of polypropylene (PP) ¶1,decreased from 45.7 kDa (P1),,matched
+PDG-PMC13590609-a,mass_unit_before,kDa,Results > Oxidative degradation of polypropylene (PP) ¶1,45.7 kDa,,matched
+PDG-PMC13590609-a,mass_unit_after,kDa,Results > Oxidative degradation of polypropylene (PP) ¶1,affording OPP1 with an Mn of 14.7 kDa in air,,matched
+PDG-PMC13590609-a,mn_after,14.7,Results > Oxidative degradation of polypropylene (PP) ¶1,affording OPP1 with an Mn of 14.7 kDa in air,,matched
+PDG-PMC13590609-b,catalyst,none (Cl radicals generated in situ from chlorinated solvent),abstract,chlorine radicals generated in situ from these discarded solvents,,matched
+PDG-PMC13590609-b,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",Methods > Preparation of OPPs ¶1,two symmetrically arranged 415 nm LED lamps (50 W,,matched
+PDG-PMC13590609-b,wavelength_nm,415,Methods > Preparation of OPPs ¶1,415 nm LED lamps,,matched
+PDG-PMC13590609-b,light_color,violet,,,415 nm lies in the violet band (380-450 nm); paper also calls it blue light,inferred
+PDG-PMC13590609-b,irradiance,50,Methods > Preparation of OPPs ¶1,"(50 W, purchased from Taobao.com)",,matched
+PDG-PMC13590609-b,irradiance_unit,"W (electrical, per lamp; two lamps)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC13590609-b,solvent,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",Results > Oxidative degradation of polypropylene (PP) ¶1,"composed of CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, and TCE, 2 mL each",,matched
+PDG-PMC13590609-b,atmosphere,O2,Results > Oxidative degradation of polypropylene (PP) ¶2,When pure O2 was introduced,,matched
+PDG-PMC13590609-b,temperature_c,130,Methods > Preparation of OPPs ¶1,oil bath at 130 °C,,matched
+PDG-PMC13590609-b,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC13590609-b,polymer,polypropylene,Results > Oxidative degradation of polypropylene (PP) ¶1,"a commercial polypropylene sample (P1, MFI = 28 g·10 min-1)",,matched
+PDG-PMC13590609-b,polymer_class,polyolefin,,,classification of the named polymer,inferred
+PDG-PMC13590609-b,polymer_detail,"P1, commercial PP particles (Adamas), MFI = 28 g/10 min",Results > Oxidative degradation of polypropylene (PP) ¶1,"P1, MFI = 28 g·10 min-1",,matched
+PDG-PMC13590609-b,time,18,Methods > Preparation of OPPs ¶1,irradiated for 18 h,,matched
+PDG-PMC13590609-b,sec_calibration,conventional_PS,Methods > Considerations of characterization > HT-GPC ¶1,The calibration was made by using a polystyrene standard,,matched
+PDG-PMC13590609-b,sec_eluent,"1,2,4-trichlorobenzene",Methods > Considerations of characterization > HT-GPC ¶1,"1,2,4-trichlorobenzene (TCB) was employed as an eluent",,matched
+PDG-PMC13590609-b,sec_temperature_c,145,Methods > Considerations of characterization > HT-GPC ¶1,determined at 145 °C,,matched
+PDG-PMC13590609-b,mn_before,45.7,Results > Oxidative degradation of polypropylene (PP) ¶1,decreased from 45.7 kDa (P1),,matched
+PDG-PMC13590609-b,mass_unit_before,kDa,Results > Oxidative degradation of polypropylene (PP) ¶1,45.7 kDa,,matched
+PDG-PMC13590609-b,mass_unit_after,kDa,Results > Oxidative degradation of polypropylene (PP) ¶2,a more pronounced reduction in Mn to 6.6 kDa,,matched
+PDG-PMC13590609-b,mn_after,6.6,Results > Oxidative degradation of polypropylene (PP) ¶2,a more pronounced reduction in Mn to 6.6 kDa,,matched
+PDG-PMC13590609-c,catalyst,none (Cl radicals generated in situ from chlorinated solvent),abstract,chlorine radicals generated in situ from these discarded solvents,,matched
+PDG-PMC13590609-c,light_source,none (dark),Results > Oxidative degradation of polypropylene (PP) ¶2,In the absence of light,,matched
+PDG-PMC13590609-c,solvent,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",Results > Oxidative degradation of polypropylene (PP) ¶1,"composed of CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, and TCE, 2 mL each",,matched
+PDG-PMC13590609-c,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC13590609-c,polymer,polypropylene,Results > Oxidative degradation of polypropylene (PP) ¶1,"a commercial polypropylene sample (P1, MFI = 28 g·10 min-1)",,matched
+PDG-PMC13590609-c,polymer_class,polyolefin,,,classification of the named polymer,inferred
+PDG-PMC13590609-c,polymer_detail,"P1, commercial PP particles (Adamas), MFI = 28 g/10 min",Results > Oxidative degradation of polypropylene (PP) ¶1,"P1, MFI = 28 g·10 min-1",,matched
+PDG-PMC13590609-c,sec_calibration,conventional_PS,Methods > Considerations of characterization > HT-GPC ¶1,The calibration was made by using a polystyrene standard,,matched
+PDG-PMC13590609-c,sec_eluent,"1,2,4-trichlorobenzene",Methods > Considerations of characterization > HT-GPC ¶1,"1,2,4-trichlorobenzene (TCB) was employed as an eluent",,matched
+PDG-PMC13590609-c,sec_temperature_c,145,Methods > Considerations of characterization > HT-GPC ¶1,determined at 145 °C,,matched
+PDG-PMC13590609-c,mn_before,45.7,Results > Oxidative degradation of polypropylene (PP) ¶1,decreased from 45.7 kDa (P1),,matched
+PDG-PMC13590609-c,mass_unit_before,kDa,Results > Oxidative degradation of polypropylene (PP) ¶1,45.7 kDa,,matched
+PDG-PMC13590609-c,mass_unit_after,kDa,Results > Oxidative degradation of polypropylene (PP) ¶2,"(Mn = 30.8 kDa; Supplementary Table S3, Entry 7)",,matched
+PDG-PMC13590609-c,mn_after,30.8,Results > Oxidative degradation of polypropylene (PP) ¶2,"(Mn = 30.8 kDa; Supplementary Table S3, Entry 7)",,matched
+PDG-PMC13590609-d,catalyst,none (Cl radicals generated in situ from chlorinated solvent),abstract,chlorine radicals generated in situ from these discarded solvents,,matched
+PDG-PMC13590609-d,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",Methods > Preparation of OPPs ¶1,two symmetrically arranged 415 nm LED lamps (50 W,,matched
+PDG-PMC13590609-d,wavelength_nm,415,Methods > Preparation of OPPs ¶1,415 nm LED lamps,,matched
+PDG-PMC13590609-d,light_color,violet,,,415 nm lies in the violet band (380-450 nm); paper also calls it blue light,inferred
+PDG-PMC13590609-d,irradiance,50,Methods > Preparation of OPPs ¶1,"(50 W, purchased from Taobao.com)",,matched
+PDG-PMC13590609-d,irradiance_unit,"W (electrical, per lamp; two lamps)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC13590609-d,solvent,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",Results > Oxidative degradation of polypropylene (PP) ¶1,"composed of CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, and TCE, 2 mL each",,matched
+PDG-PMC13590609-d,atmosphere,air,Results > Oxidative degradation of polypropylene (PP) ¶1,at 130 °C in air,,matched
+PDG-PMC13590609-d,temperature_c,130,Methods > Preparation of OPPs ¶1,oil bath at 130 °C,,matched
+PDG-PMC13590609-d,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC13590609-d,polymer,poly(ethylene terephthalate),Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2,PET,,matched
+PDG-PMC13590609-d,polymer_class,polyester,,,classification of the named polymer,inferred
+PDG-PMC13590609-d,polymer_detail,PET flakes in PP/PET blend at 1:1 mass ratio,Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2,When the PP/PET ratio was increased to 1:1,,matched
+PDG-PMC13590609-d,time,18,Methods > Co-cycling of PP and PET ¶1,irradiated for 18 h,,matched
+PDG-PMC13590609-d,products,terephthalic acid,abstract,PET depolymerization into terephthalic acid,,matched
+PDG-PMC13590609-d,yield_basis,"isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",,,Methods co-cycling workup and 'over 90% of terephthalic acid (TPA) was isolated',inferred
+PDG-PMC13590609-d,product_yields[0]:terephthalic acid,70,Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2,the TPA yield decreased to ~70%,,matched
+PDG-PMC13590609-d,product_yields[0].product,terephthalic acid,abstract,terephthalic acid,,matched
+PDG-PMC13590609-d,cocatalyst_additives,polypropylene co-feed (PP/PET 1:1 by mass) as in situ HCl source,Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2,When the PP/PET ratio was increased to 1:1,,matched
+PDG-PMC13590609-d,replicates,5,Fig. 3 caption,"(n = 5, mean ± SD)",,matched
+PDG-PMC13590609-e,catalyst,none (Cl radicals generated in situ from chlorinated solvent),abstract,chlorine radicals generated in situ from these discarded solvents,,matched
+PDG-PMC13590609-e,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",Methods > Preparation of OPPs ¶1,two symmetrically arranged 415 nm LED lamps (50 W,,matched
+PDG-PMC13590609-e,wavelength_nm,415,Methods > Preparation of OPPs ¶1,415 nm LED lamps,,matched
+PDG-PMC13590609-e,light_color,violet,,,415 nm lies in the violet band (380-450 nm); paper also calls it blue light,inferred
+PDG-PMC13590609-e,irradiance,50,Methods > Preparation of OPPs ¶1,"(50 W, purchased from Taobao.com)",,matched
+PDG-PMC13590609-e,irradiance_unit,"W (electrical, per lamp; two lamps)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC13590609-e,solvent,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",Results > Oxidative degradation of polypropylene (PP) ¶1,"composed of CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, and TCE, 2 mL each",,matched
+PDG-PMC13590609-e,atmosphere,air,Results > Oxidative degradation of polypropylene (PP) ¶1,at 130 °C in air,,matched
+PDG-PMC13590609-e,temperature_c,130,Methods > Preparation of OPPs ¶1,oil bath at 130 °C,,matched
+PDG-PMC13590609-e,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC13590609-e,polymer,poly(ethylene terephthalate),Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2,PET,,matched
+PDG-PMC13590609-e,polymer_class,polyester,,,classification of the named polymer,inferred
+PDG-PMC13590609-e,polymer_detail,PET co-fed with pre-formed OPP5 instead of P5,Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2,when pre-formed OPP5 was used instead of P5,,matched
+PDG-PMC13590609-e,time,18,Methods > Co-cycling of PP and PET ¶1,irradiated for 18 h,,matched
+PDG-PMC13590609-e,products,terephthalic acid,abstract,PET depolymerization into terephthalic acid,,matched
+PDG-PMC13590609-e,yield_basis,"isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",,,Methods co-cycling workup and 'over 90% of terephthalic acid (TPA) was isolated',inferred
+PDG-PMC13590609-e,product_yields[0]:terephthalic acid,48.1,Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2,48.1% TPA yield,,matched
+PDG-PMC13590609-e,product_yields[0].product,terephthalic acid,abstract,terephthalic acid,,matched
+PDG-PMC13590609-e,cocatalyst_additives,pre-formed OPP5 (oxidized PP) instead of P5,Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2,pre-formed OPP5 was used instead of P5,,matched
+PDG-PMC13590609-f,catalyst,none (Cl radicals generated in situ from chlorinated solvent),abstract,chlorine radicals generated in situ from these discarded solvents,,matched
+PDG-PMC13590609-f,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",Methods > Preparation of OPPs ¶1,two symmetrically arranged 415 nm LED lamps (50 W,,matched
+PDG-PMC13590609-f,wavelength_nm,415,Methods > Preparation of OPPs ¶1,415 nm LED lamps,,matched
+PDG-PMC13590609-f,light_color,violet,,,415 nm lies in the violet band (380-450 nm); paper also calls it blue light,inferred
+PDG-PMC13590609-f,irradiance,50,Methods > Preparation of OPPs ¶1,"(50 W, purchased from Taobao.com)",,matched
+PDG-PMC13590609-f,irradiance_unit,"W (electrical, per lamp; two lamps)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC13590609-f,solvent,distilled mixed chlorinated solvent wastes (laboratory),Results > Co-upcycling of real-world PET and PP plastics ¶1,distilled mixed chlorinated solvent wastes,,matched
+PDG-PMC13590609-f,atmosphere,air,Results > Oxidative degradation of polypropylene (PP) ¶1,at 130 °C in air,,matched
+PDG-PMC13590609-f,temperature_c,130,Methods > Preparation of OPPs ¶1,oil bath at 130 °C,,matched
+PDG-PMC13590609-f,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC13590609-f,polymer,poly(ethylene terephthalate),Results > Co-upcycling of real-world PET and PP plastics ¶1,PET,,matched
+PDG-PMC13590609-f,polymer_class,polyester,,,classification of the named polymer,inferred
+PDG-PMC13590609-f,polymer_detail,"post-consumer PET bowl, co-treated with PP cup (PP 1 g / PET 0.5 g)",Results > Co-upcycling of real-world PET and PP plastics ¶1,PET bowl/PP cup,,matched
+PDG-PMC13590609-f,time,18,Methods > Co-cycling of PP and PET ¶1,irradiated for 18 h,,matched
+PDG-PMC13590609-f,products,terephthalic acid,abstract,PET depolymerization into terephthalic acid,,matched
+PDG-PMC13590609-f,yield_basis,"isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",,,Methods co-cycling workup and 'over 90% of terephthalic acid (TPA) was isolated',inferred
+PDG-PMC13590609-f,product_yields[0]:terephthalic acid,92.8,Results > Co-upcycling of real-world PET and PP plastics ¶1,yields of 92.8%,,matched
+PDG-PMC13590609-f,product_yields[0].product,terephthalic acid,abstract,terephthalic acid,,matched
+PDG-PMC13590609-g,catalyst,none (Cl radicals generated in situ from chlorinated solvent),abstract,chlorine radicals generated in situ from these discarded solvents,,matched
+PDG-PMC13590609-g,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",Methods > Preparation of OPPs ¶1,two symmetrically arranged 415 nm LED lamps (50 W,,matched
+PDG-PMC13590609-g,wavelength_nm,415,Methods > Preparation of OPPs ¶1,415 nm LED lamps,,matched
+PDG-PMC13590609-g,light_color,violet,,,415 nm lies in the violet band (380-450 nm); paper also calls it blue light,inferred
+PDG-PMC13590609-g,irradiance,50,Methods > Preparation of OPPs ¶1,"(50 W, purchased from Taobao.com)",,matched
+PDG-PMC13590609-g,irradiance_unit,"W (electrical, per lamp; two lamps)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC13590609-g,solvent,distilled mixed chlorinated solvent wastes (laboratory),Results > Co-upcycling of real-world PET and PP plastics ¶1,distilled mixed chlorinated solvent wastes,,matched
+PDG-PMC13590609-g,atmosphere,air,Results > Oxidative degradation of polypropylene (PP) ¶1,at 130 °C in air,,matched
+PDG-PMC13590609-g,temperature_c,130,Methods > Preparation of OPPs ¶1,oil bath at 130 °C,,matched
+PDG-PMC13590609-g,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC13590609-g,polymer,poly(ethylene terephthalate),Results > Co-upcycling of real-world PET and PP plastics ¶1,PET,,matched
+PDG-PMC13590609-g,polymer_class,polyester,,,classification of the named polymer,inferred
+PDG-PMC13590609-g,polymer_detail,"post-consumer PET rag, co-treated with PP tube (PP 1 g / PET 0.5 g)",Results > Co-upcycling of real-world PET and PP plastics ¶1,PET rag/PP tube,,matched
+PDG-PMC13590609-g,time,18,Methods > Co-cycling of PP and PET ¶1,irradiated for 18 h,,matched
+PDG-PMC13590609-g,products,terephthalic acid,abstract,PET depolymerization into terephthalic acid,,matched
+PDG-PMC13590609-g,yield_basis,"isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",,,Methods co-cycling workup and 'over 90% of terephthalic acid (TPA) was isolated',inferred
+PDG-PMC13590609-g,product_yields[0]:terephthalic acid,79.9,Results > Co-upcycling of real-world PET and PP plastics ¶1,79.9%,,matched
+PDG-PMC13590609-g,product_yields[0].product,terephthalic acid,abstract,terephthalic acid,,matched
+PDG-PMC13590609-h,catalyst,none (Cl radicals generated in situ from chlorinated solvent),abstract,chlorine radicals generated in situ from these discarded solvents,,matched
+PDG-PMC13590609-h,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",Methods > Preparation of OPPs ¶1,two symmetrically arranged 415 nm LED lamps (50 W,,matched
+PDG-PMC13590609-h,wavelength_nm,415,Methods > Preparation of OPPs ¶1,415 nm LED lamps,,matched
+PDG-PMC13590609-h,light_color,violet,,,415 nm lies in the violet band (380-450 nm); paper also calls it blue light,inferred
+PDG-PMC13590609-h,irradiance,50,Methods > Preparation of OPPs ¶1,"(50 W, purchased from Taobao.com)",,matched
+PDG-PMC13590609-h,irradiance_unit,"W (electrical, per lamp; two lamps)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC13590609-h,solvent,distilled mixed chlorinated solvent wastes (laboratory),Results > Co-upcycling of real-world PET and PP plastics ¶1,distilled mixed chlorinated solvent wastes,,matched
+PDG-PMC13590609-h,atmosphere,air,Results > Oxidative degradation of polypropylene (PP) ¶1,at 130 °C in air,,matched
+PDG-PMC13590609-h,temperature_c,130,Methods > Preparation of OPPs ¶1,oil bath at 130 °C,,matched
+PDG-PMC13590609-h,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC13590609-h,polymer,poly(ethylene terephthalate),Results > Co-upcycling of real-world PET and PP plastics ¶1,PET,,matched
+PDG-PMC13590609-h,polymer_class,polyester,,,classification of the named polymer,inferred
+PDG-PMC13590609-h,polymer_detail,"post-consumer PET bottle, co-treated with PP jug (PP 1 g / PET 0.5 g)",Results > Co-upcycling of real-world PET and PP plastics ¶1,PET bottle/PP jug,,matched
+PDG-PMC13590609-h,time,18,Methods > Co-cycling of PP and PET ¶1,irradiated for 18 h,,matched
+PDG-PMC13590609-h,products,terephthalic acid,abstract,PET depolymerization into terephthalic acid,,matched
+PDG-PMC13590609-h,yield_basis,"isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",,,Methods co-cycling workup and 'over 90% of terephthalic acid (TPA) was isolated',inferred
+PDG-PMC13590609-h,product_yields[0]:terephthalic acid,91.1,Results > Co-upcycling of real-world PET and PP plastics ¶1,91.1%,,matched
+PDG-PMC13590609-h,product_yields[0].product,terephthalic acid,abstract,terephthalic acid,,matched
+PDG-PMC13590609-i,catalyst,none (Cl radicals generated in situ from chlorinated solvent),abstract,chlorine radicals generated in situ from these discarded solvents,,matched
+PDG-PMC13590609-i,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",Methods > Preparation of OPPs ¶1,two symmetrically arranged 415 nm LED lamps (50 W,,matched
+PDG-PMC13590609-i,wavelength_nm,415,Methods > Preparation of OPPs ¶1,415 nm LED lamps,,matched
+PDG-PMC13590609-i,light_color,violet,,,415 nm lies in the violet band (380-450 nm); paper also calls it blue light,inferred
+PDG-PMC13590609-i,irradiance,50,Methods > Preparation of OPPs ¶1,"(50 W, purchased from Taobao.com)",,matched
+PDG-PMC13590609-i,irradiance_unit,"W (electrical, per lamp; two lamps)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC13590609-i,solvent,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",Results > Oxidative degradation of polypropylene (PP) ¶1,"composed of CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, and TCE, 2 mL each",,matched
+PDG-PMC13590609-i,atmosphere,air,Results > Oxidative degradation of polypropylene (PP) ¶1,at 130 °C in air,,matched
+PDG-PMC13590609-i,temperature_c,130,Methods > Preparation of OPPs ¶1,oil bath at 130 °C,,matched
+PDG-PMC13590609-i,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC13590609-i,polymer,poly(ethylene terephthalate),Results > Co-upcycling of real-world PET and PP plastics ¶2,PET,,matched
+PDG-PMC13590609-i,polymer_class,polyester,,,classification of the named polymer,inferred
+PDG-PMC13590609-i,polymer_detail,"post-consumer PET (3.5 g) co-treated with post-consumer PP (7 g), scale-up",Results > Co-upcycling of real-world PET and PP plastics ¶2,7 g of post-consumer PP and 3.5 g of PET,,matched
+PDG-PMC13590609-i,products,terephthalic acid,abstract,PET depolymerization into terephthalic acid,,matched
+PDG-PMC13590609-i,yield_basis,isolated yield,Results > Co-upcycling of real-world PET and PP plastics ¶2,90% isolated TPA,,matched
+PDG-PMC13590609-i,product_yields[0]:terephthalic acid,90,Results > Co-upcycling of real-world PET and PP plastics ¶2,90% isolated TPA,,matched
+PDG-PMC13590609-i,product_yields[0].product,terephthalic acid,abstract,terephthalic acid,,matched
+PDG-PMC9295126-a,polymer,polystyrene,Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-a,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC9295126-a,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000",Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-a,catalyst,fluorenone,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,Fluorenone (a HAT C-H oxidation photocatalyst),,matched
+PDG-PMC9295126-a,catalyst_loading,20,Table 1 r1 c3,A (20 mol %),,matched
+PDG-PMC9295126-a,catalyst_loading_unit,mol%,,,unit printed with the value; per styrene repeat unit,inferred
+PDG-PMC9295126-a,cocatalyst_additives,H2SO4 (1 equiv),Table 1 r1 c4,1 equiv,,matched
+PDG-PMC9295126-a,light_source,blue LED strip (14.4 W),Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-a,wavelength_nm,450,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,λmax ∼ 450 nm,,matched
+PDG-PMC9295126-a,light_color,blue,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,blue LED irradiation,,matched
+PDG-PMC9295126-a,irradiance,14.4,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-a,irradiance_unit,"W (electrical, per LED strip)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC9295126-a,solvent,ethyl acetate,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,ethyl acetate (EtOAc),,matched
+PDG-PMC9295126-a,concentration,0.1,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,0.1 M PS,,matched
+PDG-PMC9295126-a,concentration_unit,M (repeat units),,,stated as mmol of styrene monomer per volume,inferred
+PDG-PMC9295126-a,atmosphere,O2,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,O2 balloon,,matched
+PDG-PMC9295126-a,temperature_c,50,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,50 ± 3 °C,,matched
+PDG-PMC9295126-a,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9295126-a,yield_basis,mol% per styrene repeat unit,Figure 2 caption,The product yield is calculated by the product concentration divided by the initial concentration of the substrate,,matched
+PDG-PMC9295126-a,replicates,3,Figure 2 caption,triplicate experiments,,matched
+PDG-PMC9295126-a,sec_calibration,not_reported,,,"GPC described (Agilent 1200, RI detector, chlorobenzene) but no calibration standard is stated",inferred
+PDG-PMC9295126-a,sec_detector,RI,Experimental Section > Product Analysis ¶3,refractive index detector,,matched
+PDG-PMC9295126-a,sec_eluent,chlorobenzene,Experimental Section > Product Analysis ¶3,dissolution in chlorobenzene,,matched
+PDG-PMC9295126-a,mw_before,260000,Results and Discussion > Photocatalytic Deconstruction of PS ¶2,"from 260,000",,matched
+PDG-PMC9295126-a,mass_unit_before,g/mol,,,unit not printed; molecular weights from GPC are conventionally g/mol,inferred
+PDG-PMC9295126-a,mass_unit_after,g/mol,,,unit not printed; molecular weights from GPC are conventionally g/mol,inferred
+PDG-PMC9295126-a,mw_after,3200,Results and Discussion > Photocatalytic Deconstruction of PS ¶2,"3,200 (4 h)",,matched
+PDG-PMC9295126-a,time,4,Results and Discussion > Photocatalytic Deconstruction of PS ¶2,"3,200 (4 h)",,matched
+PDG-PMC9295126-b,polymer,polystyrene,Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-b,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC9295126-b,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000",Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-b,catalyst,fluorenone,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,Fluorenone (a HAT C-H oxidation photocatalyst),,matched
+PDG-PMC9295126-b,catalyst_loading,20,Table 1 r1 c3,A (20 mol %),,matched
+PDG-PMC9295126-b,catalyst_loading_unit,mol%,,,unit printed with the value; per styrene repeat unit,inferred
+PDG-PMC9295126-b,cocatalyst_additives,H2SO4 (1 equiv),Table 1 r1 c4,1 equiv,,matched
+PDG-PMC9295126-b,light_source,blue LED strip (14.4 W),Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-b,wavelength_nm,450,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,λmax ∼ 450 nm,,matched
+PDG-PMC9295126-b,light_color,blue,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,blue LED irradiation,,matched
+PDG-PMC9295126-b,irradiance,14.4,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-b,irradiance_unit,"W (electrical, per LED strip)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC9295126-b,solvent,ethyl acetate,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,ethyl acetate (EtOAc),,matched
+PDG-PMC9295126-b,concentration,0.1,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,0.1 M PS,,matched
+PDG-PMC9295126-b,concentration_unit,M (repeat units),,,stated as mmol of styrene monomer per volume,inferred
+PDG-PMC9295126-b,atmosphere,O2,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,O2 balloon,,matched
+PDG-PMC9295126-b,temperature_c,50,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,50 ± 3 °C,,matched
+PDG-PMC9295126-b,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9295126-b,yield_basis,mol% per styrene repeat unit,Figure 2 caption,The product yield is calculated by the product concentration divided by the initial concentration of the substrate,,matched
+PDG-PMC9295126-b,replicates,3,Figure 2 caption,triplicate experiments,,matched
+PDG-PMC9295126-b,sec_calibration,not_reported,,,"GPC described (Agilent 1200, RI detector, chlorobenzene) but no calibration standard is stated",inferred
+PDG-PMC9295126-b,sec_detector,RI,Experimental Section > Product Analysis ¶3,refractive index detector,,matched
+PDG-PMC9295126-b,sec_eluent,chlorobenzene,Experimental Section > Product Analysis ¶3,dissolution in chlorobenzene,,matched
+PDG-PMC9295126-b,mw_before,260000,Results and Discussion > Photocatalytic Deconstruction of PS ¶2,"from 260,000",,matched
+PDG-PMC9295126-b,mass_unit_before,g/mol,,,unit not printed; molecular weights from GPC are conventionally g/mol,inferred
+PDG-PMC9295126-b,mass_unit_after,g/mol,,,unit not printed; molecular weights from GPC are conventionally g/mol,inferred
+PDG-PMC9295126-b,mw_after,1700,Results and Discussion > Photocatalytic Deconstruction of PS ¶2,"1,700 (8 h)",,matched
+PDG-PMC9295126-b,time,8,Results and Discussion > Photocatalytic Deconstruction of PS ¶2,"1,700 (8 h)",,matched
+PDG-PMC9295126-c,polymer,polystyrene,Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-c,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC9295126-c,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000",Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-c,catalyst,fluorenone,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,Fluorenone (a HAT C-H oxidation photocatalyst),,matched
+PDG-PMC9295126-c,catalyst_loading,20,Table 1 r1 c3,A (20 mol %),,matched
+PDG-PMC9295126-c,catalyst_loading_unit,mol%,,,unit printed with the value; per styrene repeat unit,inferred
+PDG-PMC9295126-c,cocatalyst_additives,H2SO4 (1 equiv),Table 1 r1 c4,1 equiv,,matched
+PDG-PMC9295126-c,light_source,blue LED strip (14.4 W),Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-c,wavelength_nm,450,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,λmax ∼ 450 nm,,matched
+PDG-PMC9295126-c,light_color,blue,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,blue LED irradiation,,matched
+PDG-PMC9295126-c,irradiance,14.4,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-c,irradiance_unit,"W (electrical, per LED strip)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC9295126-c,solvent,ethyl acetate,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,ethyl acetate (EtOAc),,matched
+PDG-PMC9295126-c,concentration,0.1,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,0.1 M PS,,matched
+PDG-PMC9295126-c,concentration_unit,M (repeat units),,,stated as mmol of styrene monomer per volume,inferred
+PDG-PMC9295126-c,atmosphere,O2,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,O2 balloon,,matched
+PDG-PMC9295126-c,temperature_c,50,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,50 ± 3 °C,,matched
+PDG-PMC9295126-c,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9295126-c,yield_basis,mol% per styrene repeat unit,Figure 2 caption,The product yield is calculated by the product concentration divided by the initial concentration of the substrate,,matched
+PDG-PMC9295126-c,replicates,3,Figure 2 caption,triplicate experiments,,matched
+PDG-PMC9295126-c,time,16,Table 1 footnote,16 h reaction,,matched
+PDG-PMC9295126-c,products,benzoic acid; CO; CO2,Results and Discussion > Photocatalytic Deconstruction of PS ¶2,Gaseous CO (21% yield) and CO2 (7.5% yield) were detected in the headspace of the reactor after 16 h,,matched
+PDG-PMC9295126-c,product_yields[0]:benzoic acid,30,Table 1 r1 c7,30 ± 2%,,matched
+PDG-PMC9295126-c,product_yields[0].product,benzoic acid,Table 1 h c7,benzoic acid,,matched
+PDG-PMC9295126-c,product_yields[1]:CO,21,Results and Discussion > Photocatalytic Deconstruction of PS ¶2,Gaseous CO (21% yield),,matched
+PDG-PMC9295126-c,product_yields[1].product,CO,Results and Discussion > Photocatalytic Deconstruction of PS ¶2,Gaseous CO,,matched
+PDG-PMC9295126-c,product_yields[2]:CO2,7.5,Results and Discussion > Photocatalytic Deconstruction of PS ¶2,CO2 (7.5% yield),,matched
+PDG-PMC9295126-c,product_yields[2].product,CO2,Results and Discussion > Photocatalytic Deconstruction of PS ¶2,CO2,,matched
+PDG-PMC9295126-d,polymer,polystyrene,Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-d,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC9295126-d,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000",Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-d,catalyst,fluorenone,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,Fluorenone (a HAT C-H oxidation photocatalyst),,matched
+PDG-PMC9295126-d,catalyst_loading,20,Table 1 r1 c3,A (20 mol %),,matched
+PDG-PMC9295126-d,catalyst_loading_unit,mol%,,,unit printed with the value; per styrene repeat unit,inferred
+PDG-PMC9295126-d,cocatalyst_additives,H2SO4 (1 equiv),Table 1 r1 c4,1 equiv,,matched
+PDG-PMC9295126-d,light_source,blue LED strip (14.4 W),Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-d,wavelength_nm,450,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,λmax ∼ 450 nm,,matched
+PDG-PMC9295126-d,light_color,blue,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,blue LED irradiation,,matched
+PDG-PMC9295126-d,irradiance,14.4,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-d,irradiance_unit,"W (electrical, per LED strip)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC9295126-d,solvent,ethyl acetate,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,ethyl acetate (EtOAc),,matched
+PDG-PMC9295126-d,concentration,0.1,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,0.1 M PS,,matched
+PDG-PMC9295126-d,concentration_unit,M (repeat units),,,stated as mmol of styrene monomer per volume,inferred
+PDG-PMC9295126-d,atmosphere,O2,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,O2 balloon,,matched
+PDG-PMC9295126-d,temperature_c,50,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,50 ± 3 °C,,matched
+PDG-PMC9295126-d,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9295126-d,yield_basis,mol% per styrene repeat unit,Figure 2 caption,The product yield is calculated by the product concentration divided by the initial concentration of the substrate,,matched
+PDG-PMC9295126-d,replicates,3,Figure 2 caption,triplicate experiments,,matched
+PDG-PMC9295126-d,time,48,Table 1 footnote,38 ± 3% yield at 48 h,,matched
+PDG-PMC9295126-d,products,benzoic acid,Table 1 h c7,benzoic acid yield,,matched
+PDG-PMC9295126-d,product_yields[0]:benzoic acid,38,Table 1 footnote,38 ± 3% yield at 48 h,,matched
+PDG-PMC9295126-d,product_yields[0].product,benzoic acid,Table 1 h c7,benzoic acid,,matched
+PDG-PMC9295126-e,polymer,polystyrene,Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-e,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC9295126-e,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000",Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-e,catalyst,none,Table 1 r2 c3,no catalyst,,matched
+PDG-PMC9295126-e,catalyst_loading_unit,mol%,,,unit printed with the value; per styrene repeat unit,inferred
+PDG-PMC9295126-e,cocatalyst_additives,H2SO4 (1 equiv),Table 1 r1 c4,1 equiv,,matched
+PDG-PMC9295126-e,light_source,blue LED strip (14.4 W),Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-e,wavelength_nm,450,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,λmax ∼ 450 nm,,matched
+PDG-PMC9295126-e,light_color,blue,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,blue LED irradiation,,matched
+PDG-PMC9295126-e,irradiance,14.4,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-e,irradiance_unit,"W (electrical, per LED strip)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC9295126-e,solvent,ethyl acetate,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,ethyl acetate (EtOAc),,matched
+PDG-PMC9295126-e,concentration,0.1,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,0.1 M PS,,matched
+PDG-PMC9295126-e,concentration_unit,M (repeat units),,,stated as mmol of styrene monomer per volume,inferred
+PDG-PMC9295126-e,atmosphere,O2,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,O2 balloon,,matched
+PDG-PMC9295126-e,temperature_c,50,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,50 ± 3 °C,,matched
+PDG-PMC9295126-e,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9295126-e,yield_basis,mol% per styrene repeat unit,Figure 2 caption,The product yield is calculated by the product concentration divided by the initial concentration of the substrate,,matched
+PDG-PMC9295126-e,time,16,Table 1 footnote,16 h reaction,,matched
+PDG-PMC9295126-e,products,benzoic acid,Table 1 h c7,benzoic acid yield,,matched
+PDG-PMC9295126-e,product_yields[0]:benzoic acid,0,Table 1 r2 c7,0%,,matched
+PDG-PMC9295126-e,product_yields[0].product,benzoic acid,Table 1 h c7,benzoic acid,,matched
+PDG-PMC9295126-f,polymer,polystyrene,Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-f,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC9295126-f,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000",Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-f,catalyst,fluorenone,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,Fluorenone (a HAT C-H oxidation photocatalyst),,matched
+PDG-PMC9295126-f,catalyst_loading,20,Table 1 r1 c3,A (20 mol %),,matched
+PDG-PMC9295126-f,catalyst_loading_unit,mol%,,,unit printed with the value; per styrene repeat unit,inferred
+PDG-PMC9295126-f,cocatalyst_additives,H2SO4 (1 equiv),Table 1 r1 c4,1 equiv,,matched
+PDG-PMC9295126-f,light_source,none (dark),Table 1 r8 c6,"dark, 50 °C",,matched
+PDG-PMC9295126-f,solvent,ethyl acetate,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,ethyl acetate (EtOAc),,matched
+PDG-PMC9295126-f,concentration,0.1,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,0.1 M PS,,matched
+PDG-PMC9295126-f,concentration_unit,M (repeat units),,,stated as mmol of styrene monomer per volume,inferred
+PDG-PMC9295126-f,atmosphere,O2,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,O2 balloon,,matched
+PDG-PMC9295126-f,temperature_c,50,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,50 ± 3 °C,,matched
+PDG-PMC9295126-f,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9295126-f,yield_basis,mol% per styrene repeat unit,Figure 2 caption,The product yield is calculated by the product concentration divided by the initial concentration of the substrate,,matched
+PDG-PMC9295126-f,time,16,Table 1 footnote,16 h reaction,,matched
+PDG-PMC9295126-f,products,benzoic acid,Table 1 h c7,benzoic acid yield,,matched
+PDG-PMC9295126-f,product_yields[0]:benzoic acid,0,Table 1 r8 c7,0%,,matched
+PDG-PMC9295126-f,product_yields[0].product,benzoic acid,Table 1 h c7,benzoic acid,,matched
+PDG-PMC9295126-g,polymer,polystyrene,Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-g,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC9295126-g,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000",Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-g,catalyst,fluorenone,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,Fluorenone (a HAT C-H oxidation photocatalyst),,matched
+PDG-PMC9295126-g,catalyst_loading,20,Table 1 r1 c3,A (20 mol %),,matched
+PDG-PMC9295126-g,catalyst_loading_unit,mol%,,,unit printed with the value; per styrene repeat unit,inferred
+PDG-PMC9295126-g,cocatalyst_additives,H2SO4 (1 equiv),Table 1 r1 c4,1 equiv,,matched
+PDG-PMC9295126-g,light_source,blue LED strip (14.4 W),Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-g,wavelength_nm,450,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,λmax ∼ 450 nm,,matched
+PDG-PMC9295126-g,light_color,blue,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,blue LED irradiation,,matched
+PDG-PMC9295126-g,irradiance,14.4,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-g,irradiance_unit,"W (electrical, per LED strip)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC9295126-g,solvent,ethyl acetate,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,ethyl acetate (EtOAc),,matched
+PDG-PMC9295126-g,concentration,0.1,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,0.1 M PS,,matched
+PDG-PMC9295126-g,concentration_unit,M (repeat units),,,stated as mmol of styrene monomer per volume,inferred
+PDG-PMC9295126-g,atmosphere,N2,Table 1 r7 c5,N2 balloon,,matched
+PDG-PMC9295126-g,temperature_c,50,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,50 ± 3 °C,,matched
+PDG-PMC9295126-g,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9295126-g,yield_basis,mol% per styrene repeat unit,Figure 2 caption,The product yield is calculated by the product concentration divided by the initial concentration of the substrate,,matched
+PDG-PMC9295126-g,time,16,Table 1 footnote,16 h reaction,,matched
+PDG-PMC9295126-g,products,benzoic acid,Table 1 h c7,benzoic acid yield,,matched
+PDG-PMC9295126-g,product_yields[0]:benzoic acid,0,Table 1 r7 c7,0%,,matched
+PDG-PMC9295126-g,product_yields[0].product,benzoic acid,Table 1 h c7,benzoic acid,,matched
+PDG-PMC9295126-h,polymer,polystyrene,Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-h,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC9295126-h,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000",Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-h,catalyst,fluorenone,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,Fluorenone (a HAT C-H oxidation photocatalyst),,matched
+PDG-PMC9295126-h,catalyst_loading,20,Table 1 r1 c3,A (20 mol %),,matched
+PDG-PMC9295126-h,catalyst_loading_unit,mol%,,,unit printed with the value; per styrene repeat unit,inferred
+PDG-PMC9295126-h,cocatalyst_additives,no H2SO4 (0 equiv),Table 1 r5 c4,0 equiv,,matched
+PDG-PMC9295126-h,light_source,blue LED strip (14.4 W),Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-h,wavelength_nm,450,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,λmax ∼ 450 nm,,matched
+PDG-PMC9295126-h,light_color,blue,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,blue LED irradiation,,matched
+PDG-PMC9295126-h,irradiance,14.4,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-h,irradiance_unit,"W (electrical, per LED strip)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC9295126-h,solvent,ethyl acetate,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,ethyl acetate (EtOAc),,matched
+PDG-PMC9295126-h,concentration,0.1,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,0.1 M PS,,matched
+PDG-PMC9295126-h,concentration_unit,M (repeat units),,,stated as mmol of styrene monomer per volume,inferred
+PDG-PMC9295126-h,atmosphere,O2,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,O2 balloon,,matched
+PDG-PMC9295126-h,temperature_c,50,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,50 ± 3 °C,,matched
+PDG-PMC9295126-h,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9295126-h,yield_basis,mol% per styrene repeat unit,Figure 2 caption,The product yield is calculated by the product concentration divided by the initial concentration of the substrate,,matched
+PDG-PMC9295126-h,time,16,Table 1 footnote,16 h reaction,,matched
+PDG-PMC9295126-h,products,benzoic acid,Table 1 h c7,benzoic acid yield,,matched
+PDG-PMC9295126-h,product_yields[0]:benzoic acid,0,Table 1 r5 c7,0%,,matched
+PDG-PMC9295126-h,product_yields[0].product,benzoic acid,Table 1 h c7,benzoic acid,,matched
+PDG-PMC9295126-i,polymer,polystyrene,Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-i,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC9295126-i,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000",Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-i,catalyst,fluorenone,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,Fluorenone (a HAT C-H oxidation photocatalyst),,matched
+PDG-PMC9295126-i,catalyst_loading,5,Table 1 r3 c3,A (5 mol %),,matched
+PDG-PMC9295126-i,catalyst_loading_unit,mol%,,,unit printed with the value; per styrene repeat unit,inferred
+PDG-PMC9295126-i,cocatalyst_additives,H2SO4 (1 equiv),Table 1 r1 c4,1 equiv,,matched
+PDG-PMC9295126-i,light_source,blue LED strip (14.4 W),Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-i,wavelength_nm,450,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,λmax ∼ 450 nm,,matched
+PDG-PMC9295126-i,light_color,blue,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,blue LED irradiation,,matched
+PDG-PMC9295126-i,irradiance,14.4,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-i,irradiance_unit,"W (electrical, per LED strip)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC9295126-i,solvent,ethyl acetate,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,ethyl acetate (EtOAc),,matched
+PDG-PMC9295126-i,concentration,0.1,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,0.1 M PS,,matched
+PDG-PMC9295126-i,concentration_unit,M (repeat units),,,stated as mmol of styrene monomer per volume,inferred
+PDG-PMC9295126-i,atmosphere,O2,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,O2 balloon,,matched
+PDG-PMC9295126-i,temperature_c,50,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,50 ± 3 °C,,matched
+PDG-PMC9295126-i,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9295126-i,yield_basis,mol% per styrene repeat unit,Figure 2 caption,The product yield is calculated by the product concentration divided by the initial concentration of the substrate,,matched
+PDG-PMC9295126-i,time,16,Table 1 footnote,21% yield at 16 h,,matched
+PDG-PMC9295126-i,products,benzoic acid,Table 1 h c7,benzoic acid yield,,matched
+PDG-PMC9295126-i,product_yields[0]:benzoic acid,21,Table 1 footnote,21% yield at 16 h,,matched
+PDG-PMC9295126-i,product_yields[0].product,benzoic acid,Table 1 h c7,benzoic acid,,matched
+PDG-PMC9295126-j,polymer,polystyrene,Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-j,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC9295126-j,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000",Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-j,catalyst,fluorenone,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,Fluorenone (a HAT C-H oxidation photocatalyst),,matched
+PDG-PMC9295126-j,catalyst_loading,5,Table 1 r3 c3,A (5 mol %),,matched
+PDG-PMC9295126-j,catalyst_loading_unit,mol%,,,unit printed with the value; per styrene repeat unit,inferred
+PDG-PMC9295126-j,cocatalyst_additives,H2SO4 (1 equiv),Table 1 r1 c4,1 equiv,,matched
+PDG-PMC9295126-j,light_source,blue LED strip (14.4 W),Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-j,wavelength_nm,450,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,λmax ∼ 450 nm,,matched
+PDG-PMC9295126-j,light_color,blue,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,blue LED irradiation,,matched
+PDG-PMC9295126-j,irradiance,14.4,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-j,irradiance_unit,"W (electrical, per LED strip)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC9295126-j,solvent,ethyl acetate,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,ethyl acetate (EtOAc),,matched
+PDG-PMC9295126-j,concentration,0.1,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,0.1 M PS,,matched
+PDG-PMC9295126-j,concentration_unit,M (repeat units),,,stated as mmol of styrene monomer per volume,inferred
+PDG-PMC9295126-j,atmosphere,O2,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,O2 balloon,,matched
+PDG-PMC9295126-j,temperature_c,50,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,50 ± 3 °C,,matched
+PDG-PMC9295126-j,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9295126-j,yield_basis,mol% per styrene repeat unit,Figure 2 caption,The product yield is calculated by the product concentration divided by the initial concentration of the substrate,,matched
+PDG-PMC9295126-j,time,48,Table 1 footnote,31% yield at 48 h,,matched
+PDG-PMC9295126-j,products,benzoic acid,Table 1 h c7,benzoic acid yield,,matched
+PDG-PMC9295126-j,product_yields[0]:benzoic acid,31,Table 1 footnote,31% yield at 48 h,,matched
+PDG-PMC9295126-j,product_yields[0].product,benzoic acid,Table 1 h c7,benzoic acid,,matched
+PDG-PMC9295126-k,polymer,polystyrene,Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-k,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC9295126-k,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000",Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-k,catalyst,fluorenone,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,Fluorenone (a HAT C-H oxidation photocatalyst),,matched
+PDG-PMC9295126-k,catalyst_loading,20,Table 1 r1 c3,A (20 mol %),,matched
+PDG-PMC9295126-k,catalyst_loading_unit,mol%,,,unit printed with the value; per styrene repeat unit,inferred
+PDG-PMC9295126-k,cocatalyst_additives,H2SO4 (0.25 equiv),Table 1 r6 c4,0.25 equiv,,matched
+PDG-PMC9295126-k,light_source,blue LED strip (14.4 W),Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-k,wavelength_nm,450,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,λmax ∼ 450 nm,,matched
+PDG-PMC9295126-k,light_color,blue,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,blue LED irradiation,,matched
+PDG-PMC9295126-k,irradiance,14.4,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-k,irradiance_unit,"W (electrical, per LED strip)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC9295126-k,solvent,ethyl acetate,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,ethyl acetate (EtOAc),,matched
+PDG-PMC9295126-k,concentration,0.1,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,0.1 M PS,,matched
+PDG-PMC9295126-k,concentration_unit,M (repeat units),,,stated as mmol of styrene monomer per volume,inferred
+PDG-PMC9295126-k,atmosphere,O2,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,O2 balloon,,matched
+PDG-PMC9295126-k,temperature_c,50,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,50 ± 3 °C,,matched
+PDG-PMC9295126-k,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9295126-k,yield_basis,mol% per styrene repeat unit,Figure 2 caption,The product yield is calculated by the product concentration divided by the initial concentration of the substrate,,matched
+PDG-PMC9295126-k,time,16,Table 1 footnote,16 h reaction,,matched
+PDG-PMC9295126-k,products,benzoic acid,Table 1 h c7,benzoic acid yield,,matched
+PDG-PMC9295126-k,product_yields[0]:benzoic acid,22,Table 1 r6 c7,22%,,matched
+PDG-PMC9295126-k,product_yields[0].product,benzoic acid,Table 1 h c7,benzoic acid,,matched
+PDG-PMC9295126-l,polymer,polystyrene,Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-l,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC9295126-l,polymer_detail,"commercial PS, gram scale (10 mmol, 1.04 g)",Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1,"gram-scale (10 mmol, 1.04 g)",,matched
+PDG-PMC9295126-l,catalyst,fluorenone,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,Fluorenone (a HAT C-H oxidation photocatalyst),,matched
+PDG-PMC9295126-l,catalyst_loading,0.2,Figure 3 caption,0.2 equiv of fluorenone,,matched
+PDG-PMC9295126-l,catalyst_loading_unit,equiv,,,unit printed with the value (per styrene repeat unit),inferred
+PDG-PMC9295126-l,cocatalyst_additives,H2SO4 (1 equiv),Table 1 r1 c4,1 equiv,,matched
+PDG-PMC9295126-l,light_source,blue LED strip (14.4 W),Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-l,wavelength_nm,450,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,λmax ∼ 450 nm,,matched
+PDG-PMC9295126-l,light_color,blue,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,blue LED irradiation,,matched
+PDG-PMC9295126-l,irradiance,14.4,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-l,irradiance_unit,"W (electrical, per LED strip)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC9295126-l,solvent,ethyl acetate,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,ethyl acetate (EtOAc),,matched
+PDG-PMC9295126-l,atmosphere,O2,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,O2 balloon,,matched
+PDG-PMC9295126-l,temperature_c,50,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,50 ± 3 °C,,matched
+PDG-PMC9295126-l,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9295126-l,yield_basis,mol% per styrene repeat unit,Figure 2 caption,The product yield is calculated by the product concentration divided by the initial concentration of the substrate,,matched
+PDG-PMC9295126-l,replicates,3,Figure 2 caption,triplicate experiments,,matched
+PDG-PMC9295126-l,time,64,Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1,at 64 h,,matched
+PDG-PMC9295126-l,products,benzoic acid,Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1,benzoic acid,,matched
+PDG-PMC9295126-l,product_yields[0]:benzoic acid,36,Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1,36 ± 4% of benzoic acid,,matched
+PDG-PMC9295126-l,product_yields[0].product,benzoic acid,Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1,benzoic acid,,matched
+PDG-PMC9295126-m,polymer,polystyrene,Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1,real-world PS foam,,matched
+PDG-PMC9295126-m,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC9295126-m,polymer_detail,"expanded PS packaging foam, Mw ~250 000, PDI ~4.2",Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1,"expanded PS packaging foam; Mw ∼ 250 000, PDI ∼ 4.2",,matched
+PDG-PMC9295126-m,catalyst,fluorenone,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,Fluorenone (a HAT C-H oxidation photocatalyst),,matched
+PDG-PMC9295126-m,catalyst_loading,0.2,Figure 3 caption,0.2 equiv of fluorenone,,matched
+PDG-PMC9295126-m,catalyst_loading_unit,equiv,,,unit printed with the value (per styrene repeat unit),inferred
+PDG-PMC9295126-m,cocatalyst_additives,H2SO4 (1 equiv),Table 1 r1 c4,1 equiv,,matched
+PDG-PMC9295126-m,light_source,blue LED strip (14.4 W),Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-m,wavelength_nm,450,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,λmax ∼ 450 nm,,matched
+PDG-PMC9295126-m,light_color,blue,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,blue LED irradiation,,matched
+PDG-PMC9295126-m,irradiance,14.4,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-m,irradiance_unit,"W (electrical, per LED strip)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC9295126-m,solvent,ethyl acetate,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,ethyl acetate (EtOAc),,matched
+PDG-PMC9295126-m,atmosphere,O2,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,O2 balloon,,matched
+PDG-PMC9295126-m,temperature_c,50,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,50 ± 3 °C,,matched
+PDG-PMC9295126-m,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9295126-m,yield_basis,mol% per styrene repeat unit,Figure 2 caption,The product yield is calculated by the product concentration divided by the initial concentration of the substrate,,matched
+PDG-PMC9295126-m,replicates,3,Figure 2 caption,triplicate experiments,,matched
+PDG-PMC9295126-m,time,72,Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1,at 72 h,,matched
+PDG-PMC9295126-m,products,benzoic acid,Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1,benzoic acid,,matched
+PDG-PMC9295126-m,product_yields[0]:benzoic acid,36,Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1,36 ± 2% of benzoic acid,,matched
+PDG-PMC9295126-m,product_yields[0].product,benzoic acid,Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1,benzoic acid,,matched
+PDG-PMC9295126-o,polymer,polystyrene,Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-o,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC9295126-o,polymer_detail,"commercial PS, Mw ~260 000, Mn ~105 000",Experimental Section > Materials ¶1,PS (Mw ∼ 260 000; Mn ∼ 105 000),,matched
+PDG-PMC9295126-o,catalyst,NHPI + cyanamide-functionalized carbon nitride,Results and Discussion > Photocatalytic Deconstruction of PS ¶4,"compound H (N-hydroxyphthalimide, NHPI) was used in combination with carbon nitride",,matched
+PDG-PMC9295126-o,catalyst_loading,20,Table 1 r15 c3,H (20 mol %),,matched
+PDG-PMC9295126-o,catalyst_loading_unit,mol%,,,unit printed with the value; per styrene repeat unit,inferred
+PDG-PMC9295126-o,cocatalyst_additives,no H2SO4 (0 equiv); carbon nitride light absorber,Table 1 r15 c4,0 equiv,,matched
+PDG-PMC9295126-o,light_source,blue LED strip (14.4 W),Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-o,wavelength_nm,450,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,λmax ∼ 450 nm,,matched
+PDG-PMC9295126-o,light_color,blue,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,blue LED irradiation,,matched
+PDG-PMC9295126-o,irradiance,14.4,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,The blue LED (14.4 W),,matched
+PDG-PMC9295126-o,irradiance_unit,"W (electrical, per LED strip)",,,"value is LED electrical power, not irradiance at sample",inferred
+PDG-PMC9295126-o,solvent,ethyl acetate,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,ethyl acetate (EtOAc),,matched
+PDG-PMC9295126-o,concentration,0.1,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,0.1 M PS,,matched
+PDG-PMC9295126-o,concentration_unit,M (repeat units),,,stated as mmol of styrene monomer per volume,inferred
+PDG-PMC9295126-o,atmosphere,O2,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,O2 balloon,,matched
+PDG-PMC9295126-o,temperature_c,50,Results and Discussion > Photocatalytic Deconstruction of PS ¶1,50 ± 3 °C,,matched
+PDG-PMC9295126-o,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9295126-o,yield_basis,mol% per styrene repeat unit,Figure 2 caption,The product yield is calculated by the product concentration divided by the initial concentration of the substrate,,matched
+PDG-PMC9295126-o,time,16,Table 1 footnote,16 h reaction,,matched
+PDG-PMC9295126-o,products,benzoic acid,Table 1 h c7,benzoic acid yield,,matched
+PDG-PMC9295126-o,product_yields[0]:benzoic acid,5.5,Table 1 r15 c7,5.5%,,matched
+PDG-PMC9295126-o,product_yields[0].product,benzoic acid,Table 1 h c7,benzoic acid,,matched
+PDG-PMC9381527-a,polymer,polystyrene,Fig. 3 caption,500 mg real-life PS pellets,,matched
+PDG-PMC9381527-a,polymer_class,vinyl_styrenic,,,classification of the named polymer,inferred
+PDG-PMC9381527-a,catalyst,g-C3N4 (graphitic carbon nitride from urea),Fig. 3 caption,200 mg g-C3N4,,matched
+PDG-PMC9381527-a,light_source,300 W Xenon lamp (no filter stated),Fig. 3 caption,irradiated by 300 W Xenon lamp,,matched
+PDG-PMC9381527-a,light_color,white,,,unfiltered Xe lamp: broadband emission including visible (>=380 nm); E3 allows Xe lamp without UV cut-on,inferred
+PDG-PMC9381527-a,irradiance,300,Fig. 3 caption,300 W Xenon lamp,,matched
+PDG-PMC9381527-a,irradiance_unit,W (electrical lamp power),,,"value is lamp power, not irradiance at sample",inferred
+PDG-PMC9381527-a,solvent,acetonitrile,Fig. 3 caption,40 mL acetonitrile,,matched
+PDG-PMC9381527-a,atmosphere,O2,Fig. 3 caption,10 bar O2,,matched
+PDG-PMC9381527-a,temperature_c,150,Fig. 3 caption,at 150 °C for 8 h in each cycle,,matched
+PDG-PMC9381527-a,polymer_detail,"real-life PS pellets, 500 mg, circulatory (product-draining) batch system",Fig. 3 caption,500 mg real-life PS pellets,,matched
+PDG-PMC9381527-a,catalyst_loading,200,Fig. 3 caption,200 mg g-C3N4,,matched
+PDG-PMC9381527-a,catalyst_loading_unit,mg (per 500 mg PS),,,unit printed with the value,inferred
+PDG-PMC9381527-a,products,"benzoic acid, acetophenone, benzaldehyde",Results > Further improvement based on the reaction mechanism ¶2,"74% benzoic acid, 15% acetophenone and 11% benzaldehyde",,matched
+PDG-PMC9381527-a,yield_basis,amount (mg) obtained from 500 mg PS pellets: 360 mg = total quantified benzoic acid + acetophenone + benzaldehyde; 240 mg = benzoic acid isolated by column chromatography,,,as stated in the text,inferred
+PDG-PMC9381527-a,product_yields[0]:aromatic oxygenates (benzoic acid + acetophenone + benzaldehyde),360,Results > Further improvement based on the reaction mechanism ¶2,a total amount of 360 mg aromatic oxygenates,,matched
+PDG-PMC9381527-a,product_yields[0].product,aromatic oxygenates (benzoic acid + acetophenone + benzaldehyde),Results > Further improvement based on the reaction mechanism ¶2,"360 mg aromatic oxygenates were produced (74% benzoic acid, 15% acetophenone and 11% benzaldehyde)",,matched
+PDG-PMC9381527-a,product_yields[1]:benzoic acid (isolated),240,Results > Further improvement based on the reaction mechanism ¶2,240 mg of benzoic acid was recovered,,matched
+PDG-PMC9381527-a,product_yields[1].product,benzoic acid (isolated),Results > Further improvement based on the reaction mechanism ¶2,240 mg of benzoic acid was recovered from column chromatography separation,,matched
+PDG-PMC9586668-a,polymer_class,vinyl_methacrylate,,,classification of the named polymer,inferred
+PDG-PMC9586668-a,sec_calibration,conventional_PS,2 Experimental > Characterization ¶1,Calibrations were done by polystyrene standards,,matched
+PDG-PMC9586668-a,sec_detector,RI,2 Experimental > Characterization ¶1,refractive index (RI) detector,,matched
+PDG-PMC9586668-a,sec_eluent,THF,2 Experimental > Characterization ¶1,tetrahydrofuran was utilized as the eluent,,matched
+PDG-PMC9586668-a,sec_temperature_c,40,2 Experimental > Characterization ¶1,at a temperature of 40°C,,matched
+PDG-PMC9586668-a,catalyst,Mn2(CO)10,2 Experimental > Methods ¶4,Mn2(CO)10,,matched
+PDG-PMC9586668-a,light_source,"photoreactor, 400 nm",2 Experimental > Methods ¶4,irradiated in a photoreactor,,matched
+PDG-PMC9586668-a,wavelength_nm,400,Table 1. footnote,irradiated at 400 nm,,matched
+PDG-PMC9586668-a,light_color,violet,,,400 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC9586668-a,concentration,0.065,2 Experimental > Methods ¶4,"PMMA derivative (0,065 M)",,matched
+PDG-PMC9586668-a,concentration_unit,M,,,unit printed with the value,inferred
+PDG-PMC9586668-a,atmosphere,N2,2 Experimental > 2.1 Materials ¶1,All reactions were performed under an inert atmosphere of nitrogen,,matched
+PDG-PMC9586668-a,time,6,Table 1. footnote,for 6 h,,matched
+PDG-PMC9586668-a,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9586668-a,mass_unit_before,g/mol,Table 2. h c3,g.mol-1,,matched
+PDG-PMC9586668-a,mass_unit_after,g/mol,Table 2. h c4,g.mol-1,,matched
+PDG-PMC9586668-a,polymer,poly(methyl methacrylate),Table 2. r1 c1,PMMA-Cl1,,matched
+PDG-PMC9586668-a,polymer_detail,"ATRP PMMA, Cl chain end (benzyl chloride initiator)",Results and Discussion ¶1,PMMA-Cl1,,matched
+PDG-PMC9586668-a,solvent,toluene,2 Experimental > Methods ¶4,toluene,,matched
+PDG-PMC9586668-a,temperature_c,23,Table 2. r1 c2,23,,matched
+PDG-PMC9586668-a,mn_before,67000,Table 2. r1 c3,"67,000",,matched
+PDG-PMC9586668-a,mn_after,53000,Table 2. r1 c4,"53,000",,matched
+PDG-PMC9586668-a,disp_before,1.4,Table 2. r1 c5,1.4,,matched
+PDG-PMC9586668-a,disp_after,1.4,Table 2. r1 c6,1.4,,matched
+PDG-PMC9586668-b,polymer_class,vinyl_methacrylate,,,classification of the named polymer,inferred
+PDG-PMC9586668-b,sec_calibration,conventional_PS,2 Experimental > Characterization ¶1,Calibrations were done by polystyrene standards,,matched
+PDG-PMC9586668-b,sec_detector,RI,2 Experimental > Characterization ¶1,refractive index (RI) detector,,matched
+PDG-PMC9586668-b,sec_eluent,THF,2 Experimental > Characterization ¶1,tetrahydrofuran was utilized as the eluent,,matched
+PDG-PMC9586668-b,sec_temperature_c,40,2 Experimental > Characterization ¶1,at a temperature of 40°C,,matched
+PDG-PMC9586668-b,catalyst,Mn2(CO)10,2 Experimental > Methods ¶4,Mn2(CO)10,,matched
+PDG-PMC9586668-b,light_source,"photoreactor, 400 nm",2 Experimental > Methods ¶4,irradiated in a photoreactor,,matched
+PDG-PMC9586668-b,wavelength_nm,400,Table 1. footnote,irradiated at 400 nm,,matched
+PDG-PMC9586668-b,light_color,violet,,,400 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC9586668-b,concentration,0.065,2 Experimental > Methods ¶4,"PMMA derivative (0,065 M)",,matched
+PDG-PMC9586668-b,concentration_unit,M,,,unit printed with the value,inferred
+PDG-PMC9586668-b,atmosphere,N2,2 Experimental > 2.1 Materials ¶1,All reactions were performed under an inert atmosphere of nitrogen,,matched
+PDG-PMC9586668-b,time,6,Table 1. footnote,for 6 h,,matched
+PDG-PMC9586668-b,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9586668-b,mass_unit_before,g/mol,Table 1. h c2,g.mol-1,,matched
+PDG-PMC9586668-b,mass_unit_after,g/mol,Table 1. h c3,g.mol-1,,matched
+PDG-PMC9586668-b,polymer,poly(methyl methacrylate),Table 1. r2 c1,PMMA-Br,,matched
+PDG-PMC9586668-b,polymer_detail,"ATRP PMMA, Br chain end (benzyl bromide initiator)",Results and Discussion ¶1,PMMA-Br,,matched
+PDG-PMC9586668-b,solvent,toluene,2 Experimental > Methods ¶4,toluene,,matched
+PDG-PMC9586668-b,mn_before,5400,Table 1. r2 c2,5400,,matched
+PDG-PMC9586668-b,mn_after,5400,Table 1. r2 c3,5400,,matched
+PDG-PMC9586668-b,disp_before,1.2,Table 1. r2 c4,"1,2",,matched
+PDG-PMC9586668-b,disp_after,1.3,Table 1. r2 c5,"1,3",,matched
+PDG-PMC9586668-c,polymer_class,vinyl_methacrylate,,,classification of the named polymer,inferred
+PDG-PMC9586668-c,sec_calibration,conventional_PS,2 Experimental > Characterization ¶1,Calibrations were done by polystyrene standards,,matched
+PDG-PMC9586668-c,sec_detector,RI,2 Experimental > Characterization ¶1,refractive index (RI) detector,,matched
+PDG-PMC9586668-c,sec_eluent,THF,2 Experimental > Characterization ¶1,tetrahydrofuran was utilized as the eluent,,matched
+PDG-PMC9586668-c,sec_temperature_c,40,2 Experimental > Characterization ¶1,at a temperature of 40°C,,matched
+PDG-PMC9586668-c,catalyst,Mn2(CO)10,2 Experimental > Methods ¶4,Mn2(CO)10,,matched
+PDG-PMC9586668-c,light_source,"photoreactor, 400 nm",2 Experimental > Methods ¶4,irradiated in a photoreactor,,matched
+PDG-PMC9586668-c,wavelength_nm,400,Table 1. footnote,irradiated at 400 nm,,matched
+PDG-PMC9586668-c,light_color,violet,,,400 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC9586668-c,concentration,0.065,2 Experimental > Methods ¶4,"PMMA derivative (0,065 M)",,matched
+PDG-PMC9586668-c,concentration_unit,M,,,unit printed with the value,inferred
+PDG-PMC9586668-c,atmosphere,N2,2 Experimental > 2.1 Materials ¶1,All reactions were performed under an inert atmosphere of nitrogen,,matched
+PDG-PMC9586668-c,time,6,Table 1. footnote,for 6 h,,matched
+PDG-PMC9586668-c,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9586668-c,mass_unit_before,g/mol,Table 1. h c2,g.mol-1,,matched
+PDG-PMC9586668-c,mass_unit_after,g/mol,Table 1. h c3,g.mol-1,,matched
+PDG-PMC9586668-c,polymer,poly(methyl methacrylate-co-glycidyl methacrylate),Table 1. r3 c1,PMMA-co-PGMA-Cl,,matched
+PDG-PMC9586668-c,polymer_detail,"ATRP copolymer, Cl chain end",Results and Discussion ¶3,PMMA-co-PGMA-Cl,,matched
+PDG-PMC9586668-c,solvent,toluene,2 Experimental > Methods ¶4,toluene,,matched
+PDG-PMC9586668-c,mn_before,5100,Table 1. r3 c2,5100,,matched
+PDG-PMC9586668-c,mn_after,4600,Table 1. r3 c3,4600,,matched
+PDG-PMC9586668-c,disp_before,1.2,Table 1. r3 c4,"1,2",,matched
+PDG-PMC9586668-c,disp_after,1.3,Table 1. r3 c5,"1,3",,matched
+PDG-PMC9586668-d,polymer_class,vinyl_methacrylate,,,classification of the named polymer,inferred
+PDG-PMC9586668-d,sec_calibration,conventional_PS,2 Experimental > Characterization ¶1,Calibrations were done by polystyrene standards,,matched
+PDG-PMC9586668-d,sec_detector,RI,2 Experimental > Characterization ¶1,refractive index (RI) detector,,matched
+PDG-PMC9586668-d,sec_eluent,THF,2 Experimental > Characterization ¶1,tetrahydrofuran was utilized as the eluent,,matched
+PDG-PMC9586668-d,sec_temperature_c,40,2 Experimental > Characterization ¶1,at a temperature of 40°C,,matched
+PDG-PMC9586668-d,catalyst,Mn2(CO)10,2 Experimental > Methods ¶4,Mn2(CO)10,,matched
+PDG-PMC9586668-d,light_source,"photoreactor, 400 nm",2 Experimental > Methods ¶4,irradiated in a photoreactor,,matched
+PDG-PMC9586668-d,wavelength_nm,400,Table 1. footnote,irradiated at 400 nm,,matched
+PDG-PMC9586668-d,light_color,violet,,,400 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC9586668-d,concentration,0.065,2 Experimental > Methods ¶4,"PMMA derivative (0,065 M)",,matched
+PDG-PMC9586668-d,concentration_unit,M,,,unit printed with the value,inferred
+PDG-PMC9586668-d,atmosphere,N2,2 Experimental > 2.1 Materials ¶1,All reactions were performed under an inert atmosphere of nitrogen,,matched
+PDG-PMC9586668-d,time,6,Table 1. footnote,for 6 h,,matched
+PDG-PMC9586668-d,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9586668-d,mass_unit_before,g/mol,Table 2. h c3,g.mol-1,,matched
+PDG-PMC9586668-d,mass_unit_after,g/mol,Table 2. h c4,g.mol-1,,matched
+PDG-PMC9586668-d,polymer,poly(methyl methacrylate),Table 2. r2 c1,PMMA-Cl2,,matched
+PDG-PMC9586668-d,polymer_detail,"ATRP PMMA, Cl chain end",Table 2. r2 c1,PMMA-Cl2,,matched
+PDG-PMC9586668-d,solvent,toluene,Table 2. footnote,[Tol.],,matched
+PDG-PMC9586668-d,temperature_c,90,Table 2. r2 c2,90,,matched
+PDG-PMC9586668-d,mn_before,56000,Table 2. r2 c3,"56,000",,matched
+PDG-PMC9586668-d,mn_after,41000,Table 2. r2 c4,"41,000",,matched
+PDG-PMC9586668-d,disp_before,1.3,Table 2. r2 c5,1.3,,matched
+PDG-PMC9586668-d,disp_after,1.7,Table 2. r2 c6,1.7,,matched
+PDG-PMC9586668-e,polymer_class,vinyl_methacrylate,,,classification of the named polymer,inferred
+PDG-PMC9586668-e,sec_calibration,conventional_PS,2 Experimental > Characterization ¶1,Calibrations were done by polystyrene standards,,matched
+PDG-PMC9586668-e,sec_detector,RI,2 Experimental > Characterization ¶1,refractive index (RI) detector,,matched
+PDG-PMC9586668-e,sec_eluent,THF,2 Experimental > Characterization ¶1,tetrahydrofuran was utilized as the eluent,,matched
+PDG-PMC9586668-e,sec_temperature_c,40,2 Experimental > Characterization ¶1,at a temperature of 40°C,,matched
+PDG-PMC9586668-e,catalyst,Mn2(CO)10,2 Experimental > Methods ¶4,Mn2(CO)10,,matched
+PDG-PMC9586668-e,light_source,"photoreactor, 400 nm",2 Experimental > Methods ¶4,irradiated in a photoreactor,,matched
+PDG-PMC9586668-e,wavelength_nm,400,Table 1. footnote,irradiated at 400 nm,,matched
+PDG-PMC9586668-e,light_color,violet,,,400 nm lies in the violet band (380-450 nm),inferred
+PDG-PMC9586668-e,concentration,0.065,2 Experimental > Methods ¶4,"PMMA derivative (0,065 M)",,matched
+PDG-PMC9586668-e,concentration_unit,M,,,unit printed with the value,inferred
+PDG-PMC9586668-e,atmosphere,N2,2 Experimental > 2.1 Materials ¶1,All reactions were performed under an inert atmosphere of nitrogen,,matched
+PDG-PMC9586668-e,time,6,Table 1. footnote,for 6 h,,matched
+PDG-PMC9586668-e,time_unit,h,,,unit printed with the value,inferred
+PDG-PMC9586668-e,mass_unit_before,g/mol,Table 2. h c3,g.mol-1,,matched
+PDG-PMC9586668-e,mass_unit_after,g/mol,Table 2. h c4,g.mol-1,,matched
+PDG-PMC9586668-e,polymer,poly(methyl methacrylate),Table 2. r3 c1,PMMA-Cl2,,matched
+PDG-PMC9586668-e,polymer_detail,"ATRP PMMA, Cl chain end",Table 2. r3 c1,PMMA-Cl2,,matched
+PDG-PMC9586668-e,solvent,p-dichlorobenzene,Table 2. footnote,[p-DCB],,matched
+PDG-PMC9586668-e,temperature_c,170,Table 2. r3 c2,170,,matched
+PDG-PMC9586668-e,mn_before,56000,Table 2. r3 c3,"56,000",,matched
+PDG-PMC9586668-e,mn_after,33000,Table 2. r3 c4,"33,000",,matched
+PDG-PMC9586668-e,disp_before,1.3,Table 2. r3 c5,1.3,,matched
+PDG-PMC9586668-e,disp_after,2,Table 2. r3 c6,2.0,,matched

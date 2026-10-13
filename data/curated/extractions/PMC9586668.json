@@ -1,0 +1,363 @@
+{
+ "paper_key": "PMC9586668",
+ "paper_id": "10.1080/15685551.2022.2135730",
+ "doi": "10.1080/15685551.2022.2135730",
+ "pmcid": "PMC9586668",
+ "source_license": "cc by",
+ "extractor": "Claude (AI), in-session, 2026-10-12",
+ "extraction_method": "table + text",
+ "screen": {
+  "decision": "include",
+  "criteria": "E1-E6 pass",
+  "confidence": "high",
+  "rationale": "Primary study; ATRP PMMA depolymerized with Mn2(CO)10 under 400 nm light; Mn before/after by GPC in Tables 1-2.",
+  "evidence_loc": "Table 2."
+ },
+ "shared": {
+  "polymer_class": {
+   "v": "vinyl_methacrylate",
+   "inferred": "classification of the named polymer"
+  },
+  "sec_calibration": {
+   "v": "conventional_PS",
+   "loc": "2 Experimental > Characterization ¶1",
+   "s": "Calibrations were done by polystyrene standards"
+  },
+  "sec_detector": {
+   "v": "RI",
+   "loc": "2 Experimental > Characterization ¶1",
+   "s": "refractive index (RI) detector"
+  },
+  "sec_eluent": {
+   "v": "THF",
+   "loc": "2 Experimental > Characterization ¶1",
+   "s": "tetrahydrofuran was utilized as the eluent"
+  },
+  "sec_temperature_c": {
+   "v": 40,
+   "loc": "2 Experimental > Characterization ¶1",
+   "s": "at a temperature of 40°C"
+  },
+  "catalyst": {
+   "v": "Mn2(CO)10",
+   "loc": "2 Experimental > Methods ¶4",
+   "s": "Mn2(CO)10"
+  },
+  "light_source": {
+   "v": "photoreactor, 400 nm",
+   "loc": "2 Experimental > Methods ¶4",
+   "s": "irradiated in a photoreactor"
+  },
+  "wavelength_nm": {
+   "v": 400,
+   "loc": "Table 1. footnote",
+   "s": "irradiated at 400 nm"
+  },
+  "light_color": {
+   "v": "violet",
+   "inferred": "400 nm lies in the violet band (380-450 nm)"
+  },
+  "concentration": {
+   "v": 0.065,
+   "loc": "2 Experimental > Methods ¶4",
+   "s": "PMMA derivative (0,065 M)"
+  },
+  "concentration_unit": {
+   "v": "M",
+   "inferred": "unit printed with the value"
+  },
+  "atmosphere": {
+   "v": "N2",
+   "loc": "2 Experimental > 2.1 Materials ¶1",
+   "s": "All reactions were performed under an inert atmosphere of nitrogen"
+  },
+  "time": {
+   "v": 6,
+   "loc": "Table 1. footnote",
+   "s": "for 6 h"
+  },
+  "time_unit": {
+   "v": "h",
+   "inferred": "unit printed with the value"
+  },
+  "mass_unit_before": {
+   "v": "g/mol",
+   "loc": "Table 1. h c2",
+   "s": "g.mol-1"
+  },
+  "mass_unit_after": {
+   "v": "g/mol",
+   "loc": "Table 1. h c3",
+   "s": "g.mol-1"
+  }
+ },
+ "records": [
+  {
+   "rid": "a",
+   "primary_loc": "Table 2. r1",
+   "fields": {
+    "polymer": {
+     "v": "poly(methyl methacrylate)",
+     "loc": "Table 2. r1 c1",
+     "s": "PMMA-Cl1"
+    },
+    "polymer_detail": {
+     "v": "ATRP PMMA, Cl chain end (benzyl chloride initiator)",
+     "loc": "Results and Discussion ¶1",
+     "s": "PMMA-Cl1"
+    },
+    "solvent": {
+     "v": "toluene",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "toluene"
+    },
+    "temperature_c": {
+     "v": 23,
+     "loc": "Table 2. r1 c2",
+     "s": "23"
+    },
+    "mn_before": {
+     "v": 67000,
+     "loc": "Table 2. r1 c3",
+     "s": "67,000"
+    },
+    "mn_after": {
+     "v": 53000,
+     "loc": "Table 2. r1 c4",
+     "s": "53,000"
+    },
+    "disp_before": {
+     "v": 1.4,
+     "loc": "Table 2. r1 c5",
+     "s": "1.4"
+    },
+    "disp_after": {
+     "v": 1.4,
+     "loc": "Table 2. r1 c6",
+     "s": "1.4"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 2. h c3",
+     "s": "g.mol-1"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 2. h c4",
+     "s": "g.mol-1"
+    }
+   },
+   "notes": "Same experiment also reported as Table 1 row 1; recorded once. [Mn2(CO)10]:[Polymer]:[Tol.] = 1:2:2300. [adjudicated atmosphere: blind correct]"
+  },
+  {
+   "rid": "b",
+   "primary_loc": "Table 1. r2",
+   "fields": {
+    "polymer": {
+     "v": "poly(methyl methacrylate)",
+     "loc": "Table 1. r2 c1",
+     "s": "PMMA-Br"
+    },
+    "polymer_detail": {
+     "v": "ATRP PMMA, Br chain end (benzyl bromide initiator)",
+     "loc": "Results and Discussion ¶1",
+     "s": "PMMA-Br"
+    },
+    "solvent": {
+     "v": "toluene",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "toluene"
+    },
+    "mn_before": {
+     "v": 5400,
+     "loc": "Table 1. r2 c2",
+     "s": "5400"
+    },
+    "mn_after": {
+     "v": 5400,
+     "loc": "Table 1. r2 c3",
+     "s": "5400"
+    },
+    "disp_before": {
+     "v": 1.2,
+     "loc": "Table 1. r2 c4",
+     "s": "1,2"
+    },
+    "disp_after": {
+     "v": 1.3,
+     "loc": "Table 1. r2 c5",
+     "s": "1,3"
+    }
+   },
+   "notes": "Ambient temperature (Figure 1 caption), not given numerically. Authors attribute unchanged Mn to radical coupling after Br abstraction. Đ printed with decimal comma. [adjudicated atmosphere: blind correct]"
+  },
+  {
+   "rid": "c",
+   "primary_loc": "Table 1. r3",
+   "fields": {
+    "polymer": {
+     "v": "poly(methyl methacrylate-co-glycidyl methacrylate)",
+     "loc": "Table 1. r3 c1",
+     "s": "PMMA-co-PGMA-Cl"
+    },
+    "polymer_detail": {
+     "v": "ATRP copolymer, Cl chain end",
+     "loc": "Results and Discussion ¶3",
+     "s": "PMMA-co-PGMA-Cl"
+    },
+    "solvent": {
+     "v": "toluene",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "toluene"
+    },
+    "mn_before": {
+     "v": 5100,
+     "loc": "Table 1. r3 c2",
+     "s": "5100"
+    },
+    "mn_after": {
+     "v": 4600,
+     "loc": "Table 1. r3 c3",
+     "s": "4600"
+    },
+    "disp_before": {
+     "v": 1.2,
+     "loc": "Table 1. r3 c4",
+     "s": "1,2"
+    },
+    "disp_after": {
+     "v": 1.3,
+     "loc": "Table 1. r3 c5",
+     "s": "1,3"
+    }
+   },
+   "notes": "Ambient temperature (Figure 1 caption), not given numerically. Đ printed with decimal comma. [adjudicated atmosphere: blind correct]"
+  },
+  {
+   "rid": "d",
+   "primary_loc": "Table 2. r2",
+   "fields": {
+    "polymer": {
+     "v": "poly(methyl methacrylate)",
+     "loc": "Table 2. r2 c1",
+     "s": "PMMA-Cl2"
+    },
+    "polymer_detail": {
+     "v": "ATRP PMMA, Cl chain end",
+     "loc": "Table 2. r2 c1",
+     "s": "PMMA-Cl2"
+    },
+    "solvent": {
+     "v": "toluene",
+     "loc": "Table 2. footnote",
+     "s": "[Tol.]"
+    },
+    "temperature_c": {
+     "v": 90,
+     "loc": "Table 2. r2 c2",
+     "s": "90"
+    },
+    "mn_before": {
+     "v": 56000,
+     "loc": "Table 2. r2 c3",
+     "s": "56,000"
+    },
+    "mn_after": {
+     "v": 41000,
+     "loc": "Table 2. r2 c4",
+     "s": "41,000"
+    },
+    "disp_before": {
+     "v": 1.3,
+     "loc": "Table 2. r2 c5",
+     "s": "1.3"
+    },
+    "disp_after": {
+     "v": 1.7,
+     "loc": "Table 2. r2 c6",
+     "s": "1.7"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 2. h c3",
+     "s": "g.mol-1"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 2. h c4",
+     "s": "g.mol-1"
+    }
+   },
+   "notes": "[adjudicated atmosphere: blind correct]"
+  },
+  {
+   "rid": "e",
+   "primary_loc": "Table 2. r3",
+   "fields": {
+    "polymer": {
+     "v": "poly(methyl methacrylate)",
+     "loc": "Table 2. r3 c1",
+     "s": "PMMA-Cl2"
+    },
+    "polymer_detail": {
+     "v": "ATRP PMMA, Cl chain end",
+     "loc": "Table 2. r3 c1",
+     "s": "PMMA-Cl2"
+    },
+    "solvent": {
+     "v": "p-dichlorobenzene",
+     "loc": "Table 2. footnote",
+     "s": "[p-DCB]"
+    },
+    "temperature_c": {
+     "v": 170,
+     "loc": "Table 2. r3 c2",
+     "s": "170"
+    },
+    "mn_before": {
+     "v": 56000,
+     "loc": "Table 2. r3 c3",
+     "s": "56,000"
+    },
+    "mn_after": {
+     "v": 33000,
+     "loc": "Table 2. r3 c4",
+     "s": "33,000"
+    },
+    "disp_before": {
+     "v": 1.3,
+     "loc": "Table 2. r3 c5",
+     "s": "1.3"
+    },
+    "disp_after": {
+     "v": 2.0,
+     "loc": "Table 2. r3 c6",
+     "s": "2.0"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 2. h c3",
+     "s": "g.mol-1"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 2. h c4",
+     "s": "g.mol-1"
+    }
+   },
+   "notes": "Light plus 170 °C; authors note heat contributes. [adjudicated atmosphere: blind correct]"
+  }
+ ],
+ "excluded_observations": [
+  {
+   "what": "Dark controls",
+   "why": "Reported only qualitatively ('No depolymerization has been observed in dark conditions'); no values.",
+   "loc": "Results and Discussion ¶1"
+  },
+  {
+   "what": "NMR depolymerization ~40%",
+   "why": "Authors state the NMR integration is not reliable (paramagnetic broadening).",
+   "loc": "Results and Discussion ¶6"
+  }
+ ]
+}

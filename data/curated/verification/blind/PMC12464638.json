@@ -1,0 +1,1009 @@
+{
+ "pmcid": "PMC12464638",
+ "verifier": "Claude (AI) independent verifier 2, 2026-10-12",
+ "tasks": [
+  {
+   "rid": "a",
+   "values": {
+    "catalyst": {
+     "v": "CeCl3∙7H2O",
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading": {
+     "v": 10,
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 2 footnote",
+     "s": "(10 mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "TBACl 50 mol%; mol sieve powder",
+     "loc": "Table 2 footnote",
+     "s": "TBACl (50 mol%), mol sieve powder"
+    },
+    "light_source": {
+     "v": "450 nm LED",
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "polymer": {
+     "v": "polypinacol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "polymer_detail": {
+     "v": "polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "products": {
+     "v": [
+      "M5 (original bis-aldehyde monomer)"
+     ],
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+     "s": "yielded 82% of the original monomer M5"
+    },
+    "solvent": {
+     "v": "DMSO-d6 (1.0 mL)",
+     "loc": "Table 2 footnote",
+     "s": "1.0 mL of DMSO-d6"
+    },
+    "time": {
+     "v": 52,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED, 52 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 2 footnote",
+     "s": "52 h"
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "yield_basis": {
+     "v": "1H-NMR with dimethyl terephthalate internal standard",
+     "loc": "Table 2 footnote",
+     "s": "Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard"
+    }
+   },
+   "yields": {
+    "M5 (original bis-aldehyde monomer)": {
+     "v": 82,
+     "loc": "Table 2 r1 c3",
+     "s": "82",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+   ]
+  },
+  {
+   "rid": "b",
+   "values": {
+    "catalyst": {
+     "v": "CeCl3∙7H2O",
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading": {
+     "v": 5,
+     "loc": "Table 2 r2 c2",
+     "s": "5 mol% CeCl3∙7H2O"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 2 footnote",
+     "s": "(10 mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "TBACl 50 mol%; mol sieve powder",
+     "loc": "Table 2 footnote",
+     "s": "TBACl (50 mol%), mol sieve powder"
+    },
+    "light_source": {
+     "v": "450 nm LED",
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "polymer": {
+     "v": "polypinacol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "polymer_detail": {
+     "v": "polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "products": {
+     "v": [
+      "M5 (original bis-aldehyde monomer)"
+     ],
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+     "s": "yielded 82% of the original monomer M5"
+    },
+    "solvent": {
+     "v": "DMSO-d6 (1.0 mL)",
+     "loc": "Table 2 footnote",
+     "s": "1.0 mL of DMSO-d6"
+    },
+    "time": {
+     "v": 52,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED, 52 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 2 footnote",
+     "s": "52 h"
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "yield_basis": {
+     "v": "1H-NMR with dimethyl terephthalate internal standard",
+     "loc": "Table 2 footnote",
+     "s": "Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard"
+    }
+   },
+   "yields": {
+    "M5 (original bis-aldehyde monomer)": {
+     "v": 79,
+     "loc": "Table 2 r2 c3",
+     "s": "79",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+   ]
+  },
+  {
+   "rid": "c",
+   "values": {
+    "catalyst": {
+     "v": "CeCl3∙7H2O",
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading": {
+     "v": 2,
+     "loc": "Table 2 r3 c2",
+     "s": "2 mol% CeCl3∙7H2O"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 2 footnote",
+     "s": "(10 mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "TBACl 50 mol%; mol sieve powder",
+     "loc": "Table 2 footnote",
+     "s": "TBACl (50 mol%), mol sieve powder"
+    },
+    "light_source": {
+     "v": "450 nm LED",
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "polymer": {
+     "v": "polypinacol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "polymer_detail": {
+     "v": "polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "products": {
+     "v": [
+      "M5 (original bis-aldehyde monomer)"
+     ],
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+     "s": "yielded 82% of the original monomer M5"
+    },
+    "solvent": {
+     "v": "DMSO-d6 (1.0 mL)",
+     "loc": "Table 2 footnote",
+     "s": "1.0 mL of DMSO-d6"
+    },
+    "time": {
+     "v": 52,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED, 52 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 2 footnote",
+     "s": "52 h"
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "yield_basis": {
+     "v": "1H-NMR with dimethyl terephthalate internal standard",
+     "loc": "Table 2 footnote",
+     "s": "Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard"
+    }
+   },
+   "yields": {
+    "M5 (original bis-aldehyde monomer)": {
+     "v": 71,
+     "loc": "Table 2 r3 c3",
+     "s": "71",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+   ]
+  },
+  {
+   "rid": "d",
+   "values": {
+    "catalyst": {
+     "v": "CeCl3∙7H2O",
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading": {
+     "v": 10,
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 2 footnote",
+     "s": "(10 mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "TBACl 25 mol%; mol sieve powder",
+     "loc": "Table 2 r4 c2",
+     "s": "TBACl (25 mol%)"
+    },
+    "light_source": {
+     "v": "450 nm LED",
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "polymer": {
+     "v": "polypinacol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "polymer_detail": {
+     "v": "polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "products": {
+     "v": [
+      "M5 (original bis-aldehyde monomer)"
+     ],
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+     "s": "yielded 82% of the original monomer M5"
+    },
+    "solvent": {
+     "v": "DMSO-d6 (1.0 mL)",
+     "loc": "Table 2 footnote",
+     "s": "1.0 mL of DMSO-d6"
+    },
+    "time": {
+     "v": 52,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED, 52 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 2 footnote",
+     "s": "52 h"
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "yield_basis": {
+     "v": "1H-NMR with dimethyl terephthalate internal standard",
+     "loc": "Table 2 footnote",
+     "s": "Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard"
+    }
+   },
+   "yields": {
+    "M5 (original bis-aldehyde monomer)": {
+     "v": 71,
+     "loc": "Table 2 r4 c3",
+     "s": "71",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+   ]
+  },
+  {
+   "rid": "e",
+   "values": {
+    "catalyst": {
+     "v": "CeCl3∙7H2O",
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading": {
+     "v": 10,
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 2 footnote",
+     "s": "(10 mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "TBACl 10 mol%; mol sieve powder",
+     "loc": "Table 2 r5 c2",
+     "s": "TBACl (10 mol%)"
+    },
+    "light_source": {
+     "v": "450 nm LED",
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "polymer": {
+     "v": "polypinacol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "polymer_detail": {
+     "v": "polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "products": {
+     "v": [
+      "M5 (original bis-aldehyde monomer)"
+     ],
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+     "s": "yielded 82% of the original monomer M5"
+    },
+    "solvent": {
+     "v": "DMSO-d6 (1.0 mL)",
+     "loc": "Table 2 footnote",
+     "s": "1.0 mL of DMSO-d6"
+    },
+    "time": {
+     "v": 52,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED, 52 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 2 footnote",
+     "s": "52 h"
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "yield_basis": {
+     "v": "1H-NMR with dimethyl terephthalate internal standard",
+     "loc": "Table 2 footnote",
+     "s": "Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard"
+    }
+   },
+   "yields": {
+    "M5 (original bis-aldehyde monomer)": {
+     "v": 66,
+     "loc": "Table 2 r5 c3",
+     "s": "66",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+   ]
+  },
+  {
+   "rid": "f",
+   "values": {
+    "catalyst": {
+     "v": "CeCl3∙7H2O",
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading": {
+     "v": 10,
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 2 footnote",
+     "s": "(10 mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "mol sieve powder (no TBACl)",
+     "loc": "Table 2 r6 c2",
+     "s": "No TBACl"
+    },
+    "light_source": {
+     "v": "450 nm LED",
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "polymer": {
+     "v": "polypinacol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "polymer_detail": {
+     "v": "polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "products": {
+     "v": [
+      "M5 (original bis-aldehyde monomer)"
+     ],
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+     "s": "yielded 82% of the original monomer M5"
+    },
+    "solvent": {
+     "v": "DMSO-d6 (1.0 mL)",
+     "loc": "Table 2 footnote",
+     "s": "1.0 mL of DMSO-d6"
+    },
+    "time": {
+     "v": 52,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED, 52 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 2 footnote",
+     "s": "52 h"
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "yield_basis": {
+     "v": "1H-NMR with dimethyl terephthalate internal standard",
+     "loc": "Table 2 footnote",
+     "s": "Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard"
+    }
+   },
+   "yields": {
+    "M5 (original bis-aldehyde monomer)": {
+     "v": 61,
+     "loc": "Table 2 r6 c3",
+     "s": "61",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified).",
+    "No-additive (TBACl) run, still 61% yield; labelled control per protocol 'no additive'."
+   ]
+  },
+  {
+   "rid": "g",
+   "values": {
+    "catalyst": {
+     "v": "CeCl3∙7H2O",
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading": {
+     "v": 10,
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 2 footnote",
+     "s": "(10 mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "TBACl 50 mol%; mol sieve powder",
+     "loc": "Table 2 footnote",
+     "s": "TBACl (50 mol%), mol sieve powder"
+    },
+    "light_source": {
+     "v": "450 nm LED",
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "polymer": {
+     "v": "polypinacol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "polymer_detail": {
+     "v": "polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "products": {
+     "v": [
+      "M5 (original bis-aldehyde monomer)"
+     ],
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+     "s": "yielded 82% of the original monomer M5"
+    },
+    "solvent": {
+     "v": "DMSO-d6 (0.5 mL)",
+     "loc": "Table 2 r7 c2",
+     "s": "0.5 mL DMSO-d6"
+    },
+    "time": {
+     "v": 52,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED, 52 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 2 footnote",
+     "s": "52 h"
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "yield_basis": {
+     "v": "1H-NMR with dimethyl terephthalate internal standard",
+     "loc": "Table 2 footnote",
+     "s": "Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard"
+    }
+   },
+   "yields": {
+    "M5 (original bis-aldehyde monomer)": {
+     "v": 72,
+     "loc": "Table 2 r7 c3",
+     "s": "72",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified).",
+    "Concentration variant (0.5 mL), not a control."
+   ]
+  },
+  {
+   "rid": "h",
+   "values": {
+    "catalyst": {
+     "v": "CeCl3∙7H2O",
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading": {
+     "v": 10,
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 2 footnote",
+     "s": "(10 mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "TBACl 50 mol% (no molecular sieves)",
+     "loc": "Table 2 r8 c2",
+     "s": "No MS"
+    },
+    "light_source": {
+     "v": "450 nm LED",
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "polymer": {
+     "v": "polypinacol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "polymer_detail": {
+     "v": "polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "products": {
+     "v": [
+      "M5 (original bis-aldehyde monomer)"
+     ],
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+     "s": "yielded 82% of the original monomer M5"
+    },
+    "solvent": {
+     "v": "DMSO-d6 (1.0 mL)",
+     "loc": "Table 2 footnote",
+     "s": "1.0 mL of DMSO-d6"
+    },
+    "time": {
+     "v": 52,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED, 52 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 2 footnote",
+     "s": "52 h"
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "yield_basis": {
+     "v": "1H-NMR with dimethyl terephthalate internal standard",
+     "loc": "Table 2 footnote",
+     "s": "Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard"
+    }
+   },
+   "yields": {
+    "M5 (original bis-aldehyde monomer)": {
+     "v": 48,
+     "loc": "Table 2 r8 c3",
+     "s": "48",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified).",
+    "No-MS run gives 48%; it is an additive-omission control, but degradation still substantial."
+   ]
+  },
+  {
+   "rid": "i",
+   "values": {
+    "catalyst": {
+     "v": "CeCl3∙7H2O",
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading": {
+     "v": 10,
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 2 footnote",
+     "s": "(10 mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "TBACl 50 mol%; mol sieve powder",
+     "loc": "Table 2 footnote",
+     "s": "TBACl (50 mol%), mol sieve powder"
+    },
+    "light_source": {
+     "v": "none (no light)",
+     "loc": "Table 2 r9 c2",
+     "s": "No light"
+    },
+    "polymer": {
+     "v": "polypinacol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "polymer_detail": {
+     "v": "polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "products": {
+     "v": [
+      "M5 (original bis-aldehyde monomer)"
+     ],
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+     "s": "yielded 82% of the original monomer M5"
+    },
+    "solvent": {
+     "v": "DMSO-d6 (1.0 mL)",
+     "loc": "Table 2 footnote",
+     "s": "1.0 mL of DMSO-d6"
+    },
+    "time": {
+     "v": 52,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED, 52 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 2 footnote",
+     "s": "52 h"
+    },
+    "yield_basis": {
+     "v": "1H-NMR with dimethyl terephthalate internal standard",
+     "loc": "Table 2 footnote",
+     "s": "Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard"
+    }
+   },
+   "yields": {
+    "M5 (original bis-aldehyde monomer)": {
+     "v": 0,
+     "loc": "Table 2 r9 c3",
+     "s": "0",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified).",
+    "Dark control; 52 h is time without light."
+   ]
+  },
+  {
+   "rid": "j",
+   "values": {
+    "atmosphere": {
+     "v": "Ar",
+     "loc": "Table 2 r10 c2",
+     "s": "Argon atmosphere"
+    },
+    "catalyst": {
+     "v": "CeCl3∙7H2O",
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading": {
+     "v": 10,
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 2 footnote",
+     "s": "(10 mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "TBACl 50 mol%; mol sieve powder",
+     "loc": "Table 2 footnote",
+     "s": "TBACl (50 mol%), mol sieve powder"
+    },
+    "light_source": {
+     "v": "450 nm LED",
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "polymer": {
+     "v": "polypinacol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "polymer_detail": {
+     "v": "polypinacol P5 (from bis-aldehyde M5), 0.066 mmol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "products": {
+     "v": [
+      "M5 (original bis-aldehyde monomer)"
+     ],
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+     "s": "yielded 82% of the original monomer M5"
+    },
+    "solvent": {
+     "v": "DMSO-d6 (1.0 mL)",
+     "loc": "Table 2 footnote",
+     "s": "1.0 mL of DMSO-d6"
+    },
+    "time": {
+     "v": 52,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED, 52 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 2 footnote",
+     "s": "52 h"
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "yield_basis": {
+     "v": "1H-NMR with dimethyl terephthalate internal standard",
+     "loc": "Table 2 footnote",
+     "s": "Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard"
+    }
+   },
+   "yields": {
+    "M5 (original bis-aldehyde monomer)": {
+     "v": 0,
+     "loc": "Table 2 r10 c3",
+     "s": "0",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified)."
+   ]
+  },
+  {
+   "rid": "k",
+   "values": {
+    "catalyst": {
+     "v": "CeCl3∙7H2O",
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading": {
+     "v": 10,
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 2 footnote",
+     "s": "(10 mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "TBACl 50 mol%; mol sieve powder",
+     "loc": "Table 2 footnote",
+     "s": "TBACl (50 mol%), mol sieve powder"
+    },
+    "light_source": {
+     "v": "450 nm LED",
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "polymer": {
+     "v": "polypinacol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "polymer_detail": {
+     "v": "polypinacol P5, large-scale depolymerization",
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶4",
+     "s": "a large-scale depolymerization of P5"
+    },
+    "products": {
+     "v": [
+      "M5 (original bis-aldehyde monomer)"
+     ],
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+     "s": "yielded 82% of the original monomer M5"
+    },
+    "solvent": {
+     "v": "DMSO-d6 (assumed from optimized conditions)",
+     "loc": "Table 2 footnote",
+     "s": "1.0 mL of DMSO-d6"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 2 footnote",
+     "s": "52 h"
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "yield_basis": {
+     "v": "isolated yield",
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶4",
+     "s": "we isolated M5 in 70% yield"
+    }
+   },
+   "yields": {
+    "M5 (original bis-aldehyde monomer)": {
+     "v": 70,
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶4",
+     "s": "we isolated M5 in 70% yield",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified).",
+    "Large-scale run 'under the optimized conditions': catalyst, loading, additives, light, solvent and time are inherited from Table 2 footnote, not restated; scale/amount of P5 and solvent volume not given in main text.",
+    "time_unit 'h' only by inheritance from the 52 h standard; no time stated for this run.",
+    "Solvent for large-scale run not stated (DMSO-d6 seems unlikely at scale); inherited."
+   ]
+  },
+  {
+   "rid": "l",
+   "values": {
+    "catalyst": {
+     "v": "CeCl3∙7H2O",
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading": {
+     "v": 10,
+     "loc": "Table 2 footnote",
+     "s": "CeCl3∙7H2O (10 mol%)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 2 footnote",
+     "s": "(10 mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "TBACl 50 mol%; mol sieve powder",
+     "loc": "Table 2 footnote",
+     "s": "TBACl (50 mol%), mol sieve powder"
+    },
+    "light_source": {
+     "v": "450 nm LED",
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "polymer": {
+     "v": "polypinacol",
+     "loc": "Table 2 footnote",
+     "s": "P5 (0.066 mmol)"
+    },
+    "polymer_detail": {
+     "v": "polypinacol P5 in presence of added polystyrene pieces",
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶4",
+     "s": "with the addition of polystyrene (PS)"
+    },
+    "products": {
+     "v": [
+      "M5 (original bis-aldehyde monomer)"
+     ],
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+     "s": "yielded 82% of the original monomer M5"
+    },
+    "solvent": {
+     "v": "DMSO-d6 (1.0 mL)",
+     "loc": "Table 2 footnote",
+     "s": "1.0 mL of DMSO-d6"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 2 footnote",
+     "s": "52 h"
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Table 2 footnote",
+     "s": "450 nm LED"
+    },
+    "yield_basis": {
+     "v": "yield after removal of PS pieces (isolated vs NMR not stated)",
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶4",
+     "s": "M5 was obtained in 81% yield after removal of the PS pieces"
+    }
+   },
+   "yields": {
+    "M5 (original bis-aldehyde monomer)": {
+     "v": 81,
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶4",
+     "s": "M5 was obtained in 81% yield",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Atmosphere of standard conditions not stated in footnote; ¶2 says presence of oxygen is required (implies air/O2, not specified).",
+    "Large-scale run 'under the optimized conditions': catalyst, loading, additives, light, solvent and time are inherited from Table 2 footnote, not restated; scale/amount of P5 and solvent volume not given in main text.",
+    "time_unit 'h' only by inheritance from the 52 h standard; no time stated for this run.",
+    "Yield basis for 81% not stated (isolated or NMR); PS is a co-present spectator, PS Mn shown only in Fig. 5h (no numeric value)."
+   ]
+  }
+ ],
+ "paper_concerns": [
+  "Table 1 (photopolymerization, 365 nm) is polymer synthesis, not deconstruction, and must not be recorded as degradation records.",
+  "P5 Mn/Mw before depolymerization is only in Figure 3b (photograph panel) and SI; GPC kinetics (Fig. 5b, Table S2) and PS GPC (Fig. 5h) are figure/SI-only.",
+  "Light on/off experiment (¶3) gives no numeric yields in the main text.",
+  "rP5 (recycled polymer) molecular weight 6,480 g/mol is a repolymerization result, not degradation.",
+  "Atmosphere for standard depolymerization conditions never explicitly stated (only that O2 is required)."
+ ]
+}

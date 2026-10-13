@@ -1,0 +1,1058 @@
+{
+ "paper_key": "PMC11796324",
+ "paper_id": "10.1002/anie.202418680",
+ "doi": "10.1002/anie.202418680",
+ "pmcid": "PMC11796324",
+ "source_license": "cc by-nc",
+ "extractor": "Claude (AI) extraction agent B, 2026-10-12",
+ "extraction_method": "table + text",
+ "screen": {
+  "decision": "include",
+  "criteria": "E1-E6 pass",
+  "confidence": "high",
+  "rationale": "Primary study; PS photo-oxidised with 9-mesityl-10-methylacridinium under 456 nm LED or solar simulator; Table 1 gives Mn/Đ before and after plus BAc and ACP yields, including dark, no-catalyst and inert controls.",
+  "evidence_loc": "Table 1"
+ },
+ "shared": {
+  "polymer": {
+   "v": "polystyrene",
+   "loc": "Table 1 footnote",
+   "s": "PS solutions"
+  },
+  "polymer_class": {
+   "v": "vinyl_styrenic",
+   "inferred": "classification of the named polymer"
+  },
+  "catalyst": {
+   "v": "9-mesityl-10-methylacridinium perchlorate (MA)",
+   "loc": "Introduction ¶3",
+   "s": "9-Mesityl-10-methylacridinium perchlorate (MA"
+  },
+  "catalyst_loading_unit": {
+   "v": "mol%",
+   "inferred": "unit printed in Table 1 header"
+  },
+  "light_source": {
+   "v": "456 nm LED (50 W), optical bench",
+   "loc": "Results and Discussion ¶2",
+   "s": "456 nm LED source (50 W"
+  },
+  "wavelength_nm": {
+   "v": 456,
+   "loc": "Table 1 footnote",
+   "s": "irradiation (456 nm)"
+  },
+  "light_color": {
+   "v": "blue",
+   "inferred": "456 nm lies in the blue band (450-495 nm)"
+  },
+  "irradiance": {
+   "v": 50,
+   "loc": "Results and Discussion ¶2",
+   "s": "456 nm LED source (50 W"
+  },
+  "irradiance_unit": {
+   "v": "W (electrical LED power)",
+   "inferred": "value is LED power, not irradiance at sample"
+  },
+  "solvent": {
+   "v": "EtOAc/MeCN 10:1",
+   "loc": "Table 1 footnote",
+   "s": "EtOAc/MeCN 10 : 1"
+  },
+  "concentration": {
+   "v": 0.303,
+   "loc": "Results and Discussion ¶3",
+   "s": "0.303 M in repeating unit"
+  },
+  "concentration_unit": {
+   "v": "M (repeat units)",
+   "inferred": "printed as M in repeating unit"
+  },
+  "atmosphere": {
+   "v": "O2",
+   "loc": "Table 1 footnote",
+   "s": "under oxygen atmosphere"
+  },
+  "time_unit": {
+   "v": "h",
+   "inferred": "unit printed with the value"
+  },
+  "sec_eluent": {
+   "v": "THF",
+   "loc": "Table 1 footnote",
+   "s": "determined by SEC in THF"
+  },
+  "sec_calibration": {
+   "v": "not_reported",
+   "inferred": "SEC in THF stated; calibration standard not given in main text"
+  },
+  "mass_unit_before": {
+   "v": "g/mol",
+   "loc": "Table 1 h c2",
+   "s": "(g/mol)"
+  },
+  "mass_unit_after": {
+   "v": "g/mol",
+   "loc": "Table 1 h c7",
+   "s": "(g/mol)"
+  },
+  "yield_basis": {
+   "v": "GC-FID quantification (basis not stated; presumably per styrene repeat unit)",
+   "loc": "Table 1 footnote",
+   "s": "Yields determined by GC-FID"
+  },
+  "products": {
+   "v": "benzoic acid; acetophenone",
+   "loc": "Table 1",
+   "s": "BAc"
+  }
+ },
+ "records": [
+  {
+   "rid": "a",
+   "primary_loc": "Table 1 r1",
+   "fields": {
+    "mn_before": {
+     "v": 99000.0,
+     "loc": "Table 1 r1 c2",
+     "s": "99 000"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r1 c2",
+     "s": "1.98"
+    },
+    "mn_after": {
+     "v": 213.0,
+     "loc": "Table 1 r1 c7",
+     "s": "213"
+    },
+    "disp_after": {
+     "v": 3.1,
+     "loc": "Table 1 r1 c7",
+     "s": "3.10"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Table 1 r1 c4",
+     "s": "24 h"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 18.2,
+      "u": "%",
+      "loc": "Table 1 r1 c5",
+      "s": "18.2 %",
+      "name_loc": "Table 1 h c5",
+      "name_s": "BAc"
+     },
+     {
+      "product": "acetophenone",
+      "v": 2.1,
+      "u": "%",
+      "loc": "Table 1 r1 c6",
+      "s": "2.1 %",
+      "name_loc": "Table 1 h c6",
+      "name_s": "ACP"
+     }
+    ],
+    "catalyst_loading": {
+     "v": 2.0,
+     "loc": "Table 1 r1 c3",
+     "s": "2"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000, Đ 1.98",
+     "loc": "Table 1 r1 c2",
+     "s": "99 000"
+    },
+    "yield_basis": {
+     "v": "1H NMR (per mmol styrene repeat units)",
+     "loc": "Table 1 footnote",
+     "s": "[d] Yield determined by 1H NMR"
+    }
+   },
+   "notes": "Mn after is described as an 'estimation' (footnote c). [adjudicated yield_basis: blind correct]"
+  },
+  {
+   "rid": "b",
+   "primary_loc": "Table 1 r2",
+   "fields": {
+    "mn_before": {
+     "v": 99000.0,
+     "loc": "Table 1 r2 c2",
+     "s": "99 000"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r2 c2",
+     "s": "1.98"
+    },
+    "mn_after": {
+     "v": 260.0,
+     "loc": "Table 1 r2 c7",
+     "s": "260"
+    },
+    "disp_after": {
+     "v": 3.24,
+     "loc": "Table 1 r2 c7",
+     "s": "3.24"
+    },
+    "time": {
+     "v": 48,
+     "loc": "Table 1 r2 c4",
+     "s": "EtOAc, 48 h"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 20.5,
+      "u": "%",
+      "loc": "Table 1 r2 c5",
+      "s": "20.5 %",
+      "name_loc": "Table 1 h c5",
+      "name_s": "BAc"
+     },
+     {
+      "product": "acetophenone",
+      "v": 3.1,
+      "u": "%",
+      "loc": "Table 1 r2 c6",
+      "s": "3.1 %",
+      "name_loc": "Table 1 h c6",
+      "name_s": "ACP"
+     }
+    ],
+    "catalyst_loading": {
+     "v": 2.0,
+     "loc": "Table 1 r2 c3",
+     "s": "2"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000, Đ 1.98",
+     "loc": "Table 1 r2 c2",
+     "s": "99 000"
+    },
+    "solvent": {
+     "v": "EtOAc",
+     "loc": "Table 1 r2 c4",
+     "s": "EtOAc, 48 h"
+    },
+    "yield_basis": {
+     "v": "1H NMR (per mmol styrene repeat units)",
+     "loc": "Table 1 footnote",
+     "s": "[d] Yield determined by 1H NMR"
+    }
+   },
+   "notes": "Neat ethyl acetate. Mn after is an estimation (footnote c). [adjudicated yield_basis: blind correct]"
+  },
+  {
+   "rid": "c",
+   "primary_loc": "Table 1 r3",
+   "fields": {
+    "mn_before": {
+     "v": 99000.0,
+     "loc": "Table 1 r3 c2",
+     "s": "99 000"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r3 c2",
+     "s": "1.98"
+    },
+    "mn_after": {
+     "v": 2090.0,
+     "loc": "Table 1 r3 c7",
+     "s": "2 090"
+    },
+    "disp_after": {
+     "v": 1.77,
+     "loc": "Table 1 r3 c7",
+     "s": "1.77"
+    },
+    "time": {
+     "v": 15,
+     "loc": "Table 1 r3 c4",
+     "s": "15 h"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 7.3,
+      "u": "%",
+      "loc": "Table 1 r3 c5",
+      "s": "7.3 %",
+      "name_loc": "Table 1 h c5",
+      "name_s": "BAc"
+     },
+     {
+      "product": "acetophenone",
+      "v": 1.9,
+      "u": "%",
+      "loc": "Table 1 r3 c6",
+      "s": "1.9 %",
+      "name_loc": "Table 1 h c6",
+      "name_s": "ACP"
+     }
+    ],
+    "catalyst_loading": {
+     "v": 2.0,
+     "loc": "Table 1 r3 c3",
+     "s": "2"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000, Đ 1.98",
+     "loc": "Table 1 r3 c2",
+     "s": "99 000"
+    },
+    "yield_basis": {
+     "v": "GC-FID (per mmol styrene repeat units)",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "notes": "[adjudicated yield_basis: both partly]"
+  },
+  {
+   "rid": "d",
+   "primary_loc": "Table 1 r4",
+   "fields": {
+    "mn_before": {
+     "v": 99000.0,
+     "loc": "Table 1 r4 c2",
+     "s": "99 000"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r4 c2",
+     "s": "1.98"
+    },
+    "mn_after": {
+     "v": 185.0,
+     "loc": "Table 1 r4 c7",
+     "s": "185"
+    },
+    "disp_after": {
+     "v": 2.65,
+     "loc": "Table 1 r4 c7",
+     "s": "2.65"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Table 1 r4 c4",
+     "s": "24 h"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 25.0,
+      "u": "%",
+      "loc": "Table 1 r4 c5",
+      "s": "25 %",
+      "name_loc": "Table 1 h c5",
+      "name_s": "BAc"
+     },
+     {
+      "product": "acetophenone",
+      "v": 1.5,
+      "u": "%",
+      "loc": "Table 1 r4 c6",
+      "s": "1.5 %",
+      "name_loc": "Table 1 h c6",
+      "name_s": "ACP"
+     }
+    ],
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000, Đ 1.98",
+     "loc": "Table 1 r4 c2",
+     "s": "99 000"
+    },
+    "catalyst_loading": null,
+    "yield_basis": {
+     "v": "1H NMR (per mmol styrene repeat units)",
+     "loc": "Table 1 footnote",
+     "s": "[d] Yield determined by 1H NMR"
+    }
+   },
+   "notes": "MA loading printed '2×1' with footnote 'Addition in two batches at 12 h intervals'; total loading ambiguous, not recorded. [adjudicated yield_basis: blind correct]"
+  },
+  {
+   "rid": "e",
+   "primary_loc": "Table 1 r5",
+   "fields": {
+    "mn_before": {
+     "v": 99000.0,
+     "loc": "Table 1 r5 c2",
+     "s": "99 000"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r5 c2",
+     "s": "1.98"
+    },
+    "mn_after": {
+     "v": 528.0,
+     "loc": "Table 1 r5 c7",
+     "s": "528"
+    },
+    "disp_after": {
+     "v": 5.1,
+     "loc": "Table 1 r5 c7",
+     "s": "5.10"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Table 1 r5 c4",
+     "s": "Air, 24 h"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 2.1,
+      "u": "%",
+      "loc": "Table 1 r5 c5",
+      "s": "2.1 %",
+      "name_loc": "Table 1 h c5",
+      "name_s": "BAc"
+     },
+     {
+      "product": "acetophenone",
+      "v": 0.7,
+      "u": "%",
+      "loc": "Table 1 r5 c6",
+      "s": "0.70 %",
+      "name_loc": "Table 1 h c6",
+      "name_s": "ACP"
+     }
+    ],
+    "catalyst_loading": {
+     "v": 2.0,
+     "loc": "Table 1 r5 c3",
+     "s": "2"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000, Đ 1.98",
+     "loc": "Table 1 r5 c2",
+     "s": "99 000"
+    },
+    "atmosphere": {
+     "v": "air",
+     "loc": "Table 1 r5 c4",
+     "s": "Air, 24 h"
+    },
+    "yield_basis": {
+     "v": "GC-FID (per mmol styrene repeat units)",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "notes": "Air instead of O2 atmosphere (reduced O2, not an O2-free control). [adjudicated yield_basis: both partly]"
+  },
+  {
+   "rid": "f",
+   "primary_loc": "Table 1 r6",
+   "is_control": true,
+   "fields": {
+    "mn_before": {
+     "v": 99000.0,
+     "loc": "Table 1 r6 c2",
+     "s": "99 000"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r6 c2",
+     "s": "1.98"
+    },
+    "mn_after": {
+     "v": 11630.0,
+     "loc": "Table 1 r6 c7",
+     "s": "11 630"
+    },
+    "disp_after": {
+     "v": 4.85,
+     "loc": "Table 1 r6 c7",
+     "s": "4.85"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Table 1 r6 c4",
+     "s": "Inert, 24 h"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 0.0,
+      "u": "%",
+      "loc": "Table 1 r6 c5",
+      "s": "0 %",
+      "name_loc": "Table 1 h c5",
+      "name_s": "BAc"
+     },
+     {
+      "product": "acetophenone",
+      "v": 0.0,
+      "u": "%",
+      "loc": "Table 1 r6 c6",
+      "s": "0 %",
+      "name_loc": "Table 1 h c6",
+      "name_s": "ACP"
+     }
+    ],
+    "catalyst_loading": {
+     "v": 2.0,
+     "loc": "Table 1 r6 c3",
+     "s": "2"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000, Đ 1.98",
+     "loc": "Table 1 r6 c2",
+     "s": "99 000"
+    },
+    "atmosphere": {
+     "v": "inert (gas not named)",
+     "loc": "Table 1 r6 c4",
+     "s": "Inert, 24 h"
+    },
+    "yield_basis": {
+     "v": "GC-FID (per mmol styrene repeat units)",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "notes": "control: no O2 (printed 'Inert'; gas not named) [adjudicated yield_basis: both partly] [adjudicated atmosphere: blind correct]"
+  },
+  {
+   "rid": "g",
+   "primary_loc": "Table 1 r7",
+   "is_control": true,
+   "fields": {
+    "mn_before": {
+     "v": 99000.0,
+     "loc": "Table 1 r7 c2",
+     "s": "99 000"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r7 c2",
+     "s": "1.98"
+    },
+    "mn_after": {
+     "v": 80840.0,
+     "loc": "Table 1 r7 c7",
+     "s": "80 840"
+    },
+    "disp_after": {
+     "v": 2.41,
+     "loc": "Table 1 r7 c7",
+     "s": "2.41"
+    },
+    "time": {
+     "v": 64,
+     "loc": "Table 1 r7 c4",
+     "s": "Dark, 64 h"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 0.0,
+      "u": "%",
+      "loc": "Table 1 r7 c5",
+      "s": "0 %",
+      "name_loc": "Table 1 h c5",
+      "name_s": "BAc"
+     },
+     {
+      "product": "acetophenone",
+      "v": 0.0,
+      "u": "%",
+      "loc": "Table 1 r7 c6",
+      "s": "0 %",
+      "name_loc": "Table 1 h c6",
+      "name_s": "ACP"
+     }
+    ],
+    "catalyst_loading": {
+     "v": 2.0,
+     "loc": "Table 1 r7 c3",
+     "s": "2"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000, Đ 1.98",
+     "loc": "Table 1 r7 c2",
+     "s": "99 000"
+    },
+    "light_source": {
+     "v": "none (dark)",
+     "loc": "Table 1 r7 c4",
+     "s": "Dark, 64 h"
+    },
+    "wavelength_nm": null,
+    "light_color": null,
+    "irradiance": null,
+    "irradiance_unit": null,
+    "yield_basis": {
+     "v": "GC-FID (per mmol styrene repeat units)",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "notes": "control: dark [adjudicated yield_basis: both partly]"
+  },
+  {
+   "rid": "h",
+   "primary_loc": "Table 1 r8",
+   "is_control": true,
+   "fields": {
+    "mn_before": {
+     "v": 99000.0,
+     "loc": "Table 1 r8 c2",
+     "s": "99 000"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r8 c2",
+     "s": "1.98"
+    },
+    "mn_after": {
+     "v": 93980.0,
+     "loc": "Table 1 r8 c7",
+     "s": "93 980"
+    },
+    "disp_after": {
+     "v": 2.09,
+     "loc": "Table 1 r8 c7",
+     "s": "2.09"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Table 1 r8 c4",
+     "s": "24 h"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 0.0,
+      "u": "%",
+      "loc": "Table 1 r8 c5",
+      "s": "0 %",
+      "name_loc": "Table 1 h c5",
+      "name_s": "BAc"
+     },
+     {
+      "product": "acetophenone",
+      "v": 0.0,
+      "u": "%",
+      "loc": "Table 1 r8 c6",
+      "s": "0 %",
+      "name_loc": "Table 1 h c6",
+      "name_s": "ACP"
+     }
+    ],
+    "catalyst_loading": null,
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000, Đ 1.98",
+     "loc": "Table 1 r8 c2",
+     "s": "99 000"
+    },
+    "catalyst": {
+     "v": "none (0 mol% MA)",
+     "loc": "Table 1 r8 c3",
+     "s": "0"
+    },
+    "yield_basis": {
+     "v": "GC-FID (per mmol styrene repeat units)",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "notes": "control: no photocatalyst [adjudicated yield_basis: both partly]"
+  },
+  {
+   "rid": "i",
+   "primary_loc": "Table 1 r9",
+   "fields": {
+    "mn_before": {
+     "v": 126300.0,
+     "loc": "Table 1 r9 c2",
+     "s": "126 300"
+    },
+    "disp_before": {
+     "v": 1.69,
+     "loc": "Table 1 r9 c2",
+     "s": "1.69"
+    },
+    "mn_after": {
+     "v": 240.0,
+     "loc": "Table 1 r9 c7",
+     "s": "240"
+    },
+    "disp_after": {
+     "v": 4.0,
+     "loc": "Table 1 r9 c7",
+     "s": "4.00"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Table 1 r9 c4",
+     "s": "EPS, 24 h"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 15.0,
+      "u": "%",
+      "loc": "Table 1 r9 c5",
+      "s": "15 %",
+      "name_loc": "Table 1 h c5",
+      "name_s": "BAc"
+     },
+     {
+      "product": "acetophenone",
+      "v": 3.0,
+      "u": "%",
+      "loc": "Table 1 r9 c6",
+      "s": "3 %",
+      "name_loc": "Table 1 h c6",
+      "name_s": "ACP"
+     }
+    ],
+    "polymer_detail": {
+     "v": "expanded PS (EPS) waste, Mn 126 300, Đ 1.69",
+     "loc": "Table 1 r9 c4",
+     "s": "EPS, 24 h"
+    },
+    "catalyst_loading": null,
+    "yield_basis": {
+     "v": "GC-FID (per mmol styrene repeat units)",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "notes": "MA loading printed '2×1' (two batches at 12 h intervals); total ambiguous, not recorded. [adjudicated yield_basis: both partly]"
+  },
+  {
+   "rid": "j",
+   "primary_loc": "Table 1 r10",
+   "fields": {
+    "mn_before": {
+     "v": 1700.0,
+     "loc": "Table 1 r10 c2",
+     "s": "1 700"
+    },
+    "disp_before": {
+     "v": 1.07,
+     "loc": "Table 1 r10 c2",
+     "s": "1.07"
+    },
+    "mn_after": {
+     "v": 120.0,
+     "loc": "Table 1 r10 c7",
+     "s": "120"
+    },
+    "disp_after": {
+     "v": 1.95,
+     "loc": "Table 1 r10 c7",
+     "s": "1.95"
+    },
+    "time": {
+     "v": 50,
+     "loc": "Table 1 r10 c4",
+     "s": "O2 flow, 50 h"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 38.7,
+      "u": "%",
+      "loc": "Table 1 r10 c5",
+      "s": "38.7 %",
+      "name_loc": "Table 1 h c5",
+      "name_s": "BAc"
+     },
+     {
+      "product": "acetophenone",
+      "v": 1.0,
+      "u": "%",
+      "loc": "Table 1 r10 c6",
+      "s": "1 %",
+      "name_loc": "Table 1 h c6",
+      "name_s": "ACP"
+     }
+    ],
+    "catalyst_loading": {
+     "v": 10.0,
+     "loc": "Table 1 r10 c3",
+     "s": "10"
+    },
+    "polymer_detail": {
+     "v": "anionic PS, Mn 1 700, Đ 1.07",
+     "loc": "Table 1 r10 c2",
+     "s": "1 700"
+    },
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Table 1 r10 c4",
+     "s": "O2 flow, 50 h"
+    },
+    "yield_basis": {
+     "v": "GC-FID (per mmol styrene repeat units)",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "notes": "O2 flow. Same experiment as text 'Prolonged irradiation with 10 mol % of MA ... BAc in 39 % yield'; recorded once. [adjudicated yield_basis: both partly]"
+  },
+  {
+   "rid": "k",
+   "primary_loc": "Table 1 r11",
+   "fields": {
+    "mn_before": {
+     "v": 1700.0,
+     "loc": "Table 1 r11 c2",
+     "s": "1 700"
+    },
+    "disp_before": {
+     "v": 1.07,
+     "loc": "Table 1 r11 c2",
+     "s": "1.07"
+    },
+    "mn_after": {
+     "v": 300.0,
+     "loc": "Table 1 r11 c7",
+     "s": "300"
+    },
+    "disp_after": {
+     "v": 3.12,
+     "loc": "Table 1 r11 c7",
+     "s": "3.12"
+    },
+    "time": {
+     "v": 15,
+     "loc": "Table 1 r11 c4",
+     "s": "15 h"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 10.6,
+      "u": "%",
+      "loc": "Table 1 r11 c5",
+      "s": "10.6 %",
+      "name_loc": "Table 1 h c5",
+      "name_s": "BAc"
+     },
+     {
+      "product": "acetophenone",
+      "v": 1.9,
+      "u": "%",
+      "loc": "Table 1 r11 c6",
+      "s": "1.9 %",
+      "name_loc": "Table 1 h c6",
+      "name_s": "ACP"
+     }
+    ],
+    "catalyst_loading": {
+     "v": 2.0,
+     "loc": "Table 1 r11 c3",
+     "s": "2"
+    },
+    "polymer_detail": {
+     "v": "anionic PS (living anionic polymerization), Mn 1 700, Đ 1.07",
+     "loc": "Table 1 r11 c2",
+     "s": "1 700"
+    },
+    "yield_basis": {
+     "v": "GC-FID (per mmol styrene repeat units)",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "notes": "[adjudicated yield_basis: both partly]"
+  },
+  {
+   "rid": "l",
+   "primary_loc": "Table 1 r12",
+   "fields": {
+    "mn_before": {
+     "v": 135400.0,
+     "loc": "Table 1 r12 c2",
+     "s": "135 400"
+    },
+    "disp_before": {
+     "v": 1.06,
+     "loc": "Table 1 r12 c2",
+     "s": "1.06"
+    },
+    "mn_after": {
+     "v": 662.0,
+     "loc": "Table 1 r12 c7",
+     "s": "662"
+    },
+    "disp_after": {
+     "v": 3.43,
+     "loc": "Table 1 r12 c7",
+     "s": "3.43"
+    },
+    "time": {
+     "v": 15,
+     "loc": "Table 1 r12 c4",
+     "s": "15 h"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 6.6,
+      "u": "%",
+      "loc": "Table 1 r12 c5",
+      "s": "6.6 %",
+      "name_loc": "Table 1 h c5",
+      "name_s": "BAc"
+     },
+     {
+      "product": "acetophenone",
+      "v": 1.6,
+      "u": "%",
+      "loc": "Table 1 r12 c6",
+      "s": "1.6 %",
+      "name_loc": "Table 1 h c6",
+      "name_s": "ACP"
+     }
+    ],
+    "catalyst_loading": {
+     "v": 2.0,
+     "loc": "Table 1 r12 c3",
+     "s": "2"
+    },
+    "polymer_detail": {
+     "v": "anionic PS (living anionic polymerization), Mn 135 400, Đ 1.06",
+     "loc": "Table 1 r12 c2",
+     "s": "135 400"
+    },
+    "yield_basis": {
+     "v": "GC-FID (per mmol styrene repeat units)",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "notes": "[adjudicated yield_basis: both partly]"
+  },
+  {
+   "rid": "m",
+   "primary_loc": "Table 1 r13",
+   "fields": {
+    "mn_before": {
+     "v": 99000.0,
+     "loc": "Table 1 r13 c2",
+     "s": "99 000"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r13 c2",
+     "s": "1.98"
+    },
+    "mn_after": {
+     "v": 450.0,
+     "loc": "Table 1 r13 c7",
+     "s": "450"
+    },
+    "disp_after": {
+     "v": 6.05,
+     "loc": "Table 1 r13 c7",
+     "s": "6.05"
+    },
+    "time": {
+     "v": 44,
+     "loc": "Table 1 r13 c4",
+     "s": "Q-sun, 44 h"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 9.8,
+      "u": "%",
+      "loc": "Table 1 r13 c5",
+      "s": "9.8 %",
+      "name_loc": "Table 1 h c5",
+      "name_s": "BAc"
+     },
+     {
+      "product": "acetophenone",
+      "v": 2.9,
+      "u": "%",
+      "loc": "Table 1 r13 c6",
+      "s": "2.9 %",
+      "name_loc": "Table 1 h c6",
+      "name_s": "ACP"
+     }
+    ],
+    "catalyst_loading": {
+     "v": 1.0,
+     "loc": "Table 1 r13 c3",
+     "s": "1"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000, Đ 1.98",
+     "loc": "Table 1 r13 c2",
+     "s": "99 000"
+    },
+    "light_source": {
+     "v": "Q-sun solar simulator",
+     "loc": "Table 1 r13 c4",
+     "s": "Q-sun, 44 h"
+    },
+    "wavelength_nm": null,
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_color": {
+     "v": "solar",
+     "inferred": "solar simulator (Q-sun)"
+    },
+    "yield_basis": {
+     "v": "GC-FID (per mmol styrene repeat units)",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "notes": "Solar simulator; irradiance (500 W m-2) and ~70 °C are stated in text for the yoghurt-cup experiment, not explicitly for this entry, so not recorded. [adjudicated yield_basis: both partly]"
+  }
+ ],
+ "excluded_observations": [
+  {
+   "what": "1 h yields for anionic PS (Mn 135 kg/mol: BAc 1.1 %, ACP 1.1 %; Mn 1.7 kg/mol: ACP 0.5 %, BAc <0.1 %)",
+   "why": "Light source (456 nm LED vs Xe-Hg/pyrex) and MA loading not stated for these runs; BAc <0.1 % is a bound.",
+   "loc": "Results and Discussion ¶7"
+  },
+  {
+   "what": "High-Mn PS (Mn 266 200) Mn vs time under Xe-Hg lamp/pyrex",
+   "why": "After-irradiation values only in Figure 2a/b.",
+   "loc": "Figure 2 caption"
+  },
+  {
+   "what": "Isolated oligomers after 24 h (Mn 2500 g/mol) and their MA-free re-irradiation",
+   "why": "Starting PS and conditions not specified in text; re-irradiation result only in Figure 4b.",
+   "loc": "Results and Discussion ¶9"
+  },
+  {
+   "what": "Solar-simulator yoghurt-cup, clear-case and EPS waste yields",
+   "why": "Values only in Figure 5.",
+   "loc": "Figure 5 caption"
+  },
+  {
+   "what": "25 % BAc with two-batch MA addition (text)",
+   "why": "Same experiment as Table 1 entry 4; recorded once.",
+   "loc": "Results and Discussion ¶3"
+  },
+  {
+   "what": "Formic acid (equal amount to BAc)",
+   "why": "Stated relative to BAc only, no independent value.",
+   "loc": "Results and Discussion ¶8"
+  },
+  {
+   "what": "Quantum yield of BAc formation (Φ = 0.03)",
+   "why": "Not a v1.0 endpoint field.",
+   "loc": "Results and Discussion ¶3"
+  }
+ ]
+}

@@ -1,0 +1,765 @@
+{
+ "pmcid": "PMC13590609",
+ "verifier": "Claude (AI) independent verifier 3, 2026-10-12",
+ "tasks": [
+  {
+   "rid": "a",
+   "values": {
+    "atmosphere": {
+     "v": "air",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "affording OPP1 with an Mn of 14.7 kDa in air"
+    },
+    "catalyst": null,
+    "concentration": null,
+    "concentration_unit": null,
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "415 nm LEDs",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "under visible light irradiation (415 nm LEDs)"
+    },
+    "mass_unit_after": {
+     "v": "kDa",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "OPP1 with an Mn of 14.7 kDa"
+    },
+    "mass_unit_before": {
+     "v": "kDa",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "from 45.7 kDa (P1)"
+    },
+    "mn_after": {
+     "v": 14.7,
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "OPP1 with an Mn of 14.7 kDa"
+    },
+    "mn_before": {
+     "v": 45.7,
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "decreased from 45.7 kDa (P1)"
+    },
+    "polymer": {
+     "v": "polypropylene",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "a commercial polypropylene sample (P1, MFI = 28 g·10 min-1)"
+    },
+    "polymer_detail": {
+     "v": "commercial PP P1, MFI = 28 g·10 min-1",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "P1, MFI = 28 g·10 min-1"
+    },
+    "solvent": {
+     "v": "mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "composed of CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, and TCE, 2 mL each"
+    },
+    "temperature_c": {
+     "v": 130,
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "evaluated at 130 °C in air"
+    },
+    "time": {
+     "v": 18,
+     "loc": "Methods > Preparation of OPPs ¶1",
+     "s": "irradiated for 18 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Methods > Preparation of OPPs ¶1",
+     "s": "18 h"
+    },
+    "wavelength_nm": {
+     "v": 415,
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "415 nm LEDs"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "The calibration was made by using a polystyrene standard"
+    },
+    "sec_eluent": {
+     "v": "1,2,4-trichlorobenzene",
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "1,2,4-trichlorobenzene (TCB) was employed as an eluent"
+    },
+    "sec_temperature_c": {
+     "v": 145,
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "determined at 145 °C by high-temperature gel permeation chromatography"
+    }
+   },
+   "yields": {},
+   "concerns": [
+    "No photocatalyst: the chlorinated solvent is the Cl-radical source; catalyst null.",
+    "Irradiance not given; only 'two symmetrically arranged 415 nm LED lamps (50 W ...), each positioned 4 cm from the bottle' (Methods).",
+    "Concentration not printed as such; Methods gives PP (1 g) in Cl-solvent (12 mL).",
+    "Time 18 h from Methods (Preparation of OPPs); not stated in ¶1."
+   ]
+  },
+  {
+   "rid": "b",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶2",
+     "s": "When pure O2 was introduced"
+    },
+    "catalyst": null,
+    "concentration": null,
+    "concentration_unit": null,
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "415 nm LEDs",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "under visible light irradiation (415 nm LEDs)"
+    },
+    "mass_unit_after": {
+     "v": "kDa",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶2",
+     "s": "reduction in Mn to 6.6 kDa"
+    },
+    "mass_unit_before": {
+     "v": "kDa",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "from 45.7 kDa (P1)"
+    },
+    "mn_after": {
+     "v": 6.6,
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶2",
+     "s": "reduction in Mn to 6.6 kDa"
+    },
+    "mn_before": {
+     "v": 45.7,
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "decreased from 45.7 kDa (P1)"
+    },
+    "polymer": {
+     "v": "polypropylene",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "a commercial polypropylene sample (P1, MFI = 28 g·10 min-1)"
+    },
+    "polymer_detail": {
+     "v": "commercial PP P1, MFI = 28 g·10 min-1",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "P1, MFI = 28 g·10 min-1"
+    },
+    "solvent": {
+     "v": "mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "composed of CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, and TCE, 2 mL each"
+    },
+    "temperature_c": {
+     "v": 130,
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "evaluated at 130 °C in air"
+    },
+    "time": {
+     "v": 18,
+     "loc": "Methods > Preparation of OPPs ¶1",
+     "s": "irradiated for 18 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Methods > Preparation of OPPs ¶1",
+     "s": "18 h"
+    },
+    "wavelength_nm": {
+     "v": 415,
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "415 nm LEDs"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "The calibration was made by using a polystyrene standard"
+    },
+    "sec_eluent": {
+     "v": "1,2,4-trichlorobenzene",
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "1,2,4-trichlorobenzene (TCB) was employed as an eluent"
+    },
+    "sec_temperature_c": {
+     "v": 145,
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "determined at 145 °C by high-temperature gel permeation chromatography"
+    }
+   },
+   "yields": {},
+   "concerns": [
+    "No photocatalyst: the chlorinated solvent is the Cl-radical source; catalyst null.",
+    "Irradiance not given; only 'two symmetrically arranged 415 nm LED lamps (50 W ...), each positioned 4 cm from the bottle' (Methods).",
+    "Concentration not printed as such; Methods gives PP (1 g) in Cl-solvent (12 mL).",
+    "Temperature 130 °C, solvent, time and mn_before (45.7 kDa, P1) are inherited from ¶1/Methods/Fig. 2 entry 1 conditions; ¶2 does not restate them."
+   ]
+  },
+  {
+   "rid": "c",
+   "values": {
+    "atmosphere": null,
+    "catalyst": null,
+    "concentration": null,
+    "concentration_unit": null,
+    "light_source": {
+     "v": "none (dark)",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶2",
+     "s": "In the absence of light"
+    },
+    "mass_unit_after": {
+     "v": "kDa",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶2",
+     "s": "only a modest reduction in molecular weight was observed (Mn = 30.8 kDa"
+    },
+    "mass_unit_before": {
+     "v": "kDa",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "from 45.7 kDa (P1)"
+    },
+    "mn_after": {
+     "v": 30.8,
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶2",
+     "s": "only a modest reduction in molecular weight was observed (Mn = 30.8 kDa"
+    },
+    "mn_before": {
+     "v": 45.7,
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "decreased from 45.7 kDa (P1)"
+    },
+    "polymer": {
+     "v": "polypropylene",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "a commercial polypropylene sample (P1, MFI = 28 g·10 min-1)"
+    },
+    "polymer_detail": {
+     "v": "commercial PP P1, MFI = 28 g·10 min-1",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "P1, MFI = 28 g·10 min-1"
+    },
+    "solvent": {
+     "v": "mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",
+     "loc": "Results > Oxidative degradation of polypropylene (PP) ¶1",
+     "s": "composed of CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, and TCE, 2 mL each"
+    },
+    "time": null,
+    "time_unit": null,
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "The calibration was made by using a polystyrene standard"
+    },
+    "sec_eluent": {
+     "v": "1,2,4-trichlorobenzene",
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "1,2,4-trichlorobenzene (TCB) was employed as an eluent"
+    },
+    "sec_temperature_c": {
+     "v": 145,
+     "loc": "Methods > Considerations of characterization > HT-GPC ¶1",
+     "s": "determined at 145 °C by high-temperature gel permeation chromatography"
+    }
+   },
+   "yields": {},
+   "concerns": [
+    "Dark control (Supplementary Table S3, Entry 7); atmosphere and time for this control are not stated in the main text, left null (presumably air, 18 h, 130 °C).",
+    "¶2 also has an N2-atmosphere control (cross-linking, no Mn given); this task is taken to be the dark control because an Mn (30.8 kDa) is given.",
+    "No photocatalyst: the chlorinated solvent is the Cl-radical source; catalyst null.",
+    "Concentration not printed as such; Methods gives PP (1 g) in Cl-solvent (12 mL)."
+   ]
+  },
+  {
+   "rid": "d",
+   "values": {
+    "atmosphere": {
+     "v": "air",
+     "loc": "Introduction ¶3",
+     "s": "(90-130 °C, air, 415 nm light)"
+    },
+    "catalyst": null,
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "two 415 nm LED lamps (50 W)",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "two symmetrically positioned 415 nm LED lamps (50 W"
+    },
+    "polymer": {
+     "v": "poly(ethylene terephthalate)",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "At PP/PET ratios of 1:0.1 and 1:0.5 (130 °C, 18 h)"
+    },
+    "polymer_detail": {
+     "v": "PP/PET blend, mass ratio 1:0.1 (Fig. 3b entry 1)",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "At PP/PET ratios of 1:0.1 and 1:0.5 (130 °C, 18 h)"
+    },
+    "products": {
+     "v": [
+      "terephthalic acid"
+     ],
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "over 90% of terephthalic acid (TPA) was isolated"
+    },
+    "solvent": {
+     "v": "mixed chlorinated solvents",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "in mixed chlorinated solvents"
+    },
+    "temperature_c": {
+     "v": 130,
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "(130 °C, 18 h)"
+    },
+    "time": {
+     "v": 18,
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "(130 °C, 18 h)"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "18 h"
+    },
+    "wavelength_nm": {
+     "v": 415,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps"
+    },
+    "yield_basis": {
+     "v": "isolated",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "over 90% of terephthalic acid (TPA) was isolated"
+    },
+    "cocatalyst_additives": {
+     "v": "PP (co-feed; in situ HCl source)",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "Reactions were performed on PP/PET blends"
+    },
+    "replicates": {
+     "v": 5,
+     "loc": "Fig. 3 caption",
+     "s": "(n = 5, mean ± SD)"
+    }
+   },
+   "yields": {
+    "terephthalic acid": {
+     "v": 90,
+     "u": "%",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "over 90% of terephthalic acid (TPA) was isolated"
+    }
+   },
+   "concerns": [
+    "No photocatalyst; Cl-solvent generates Cl radicals; catalyst null. Atmosphere 'air' only from Introduction summary; Methods uses a sealed pressure bottle.",
+    "Irradiance not given; only 'two symmetrically arranged 415 nm LED lamps (50 W ...), each positioned 4 cm from the bottle' (Methods).",
+    "Yield is a lower bound ('over 90%') shared by entries 1 and 2 (PP/PET 1:0.1 and 1:0.5); exact values only in Fig. 3b. Recorded v=90 as the bound; not an exact value.",
+    "'PP' as cocatalyst_additive is my interpretation (PP is a co-substrate whose degradation releases HCl); arguably null."
+   ]
+  },
+  {
+   "rid": "e",
+   "values": {
+    "atmosphere": {
+     "v": "air",
+     "loc": "Introduction ¶3",
+     "s": "(90-130 °C, air, 415 nm light)"
+    },
+    "catalyst": null,
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "two 415 nm LED lamps (50 W)",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "two symmetrically positioned 415 nm LED lamps (50 W"
+    },
+    "polymer": {
+     "v": "poly(ethylene terephthalate)",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "When the PP/PET ratio was increased to 1:1"
+    },
+    "polymer_detail": {
+     "v": "PP/PET blend, mass ratio 1:1 (Fig. 3b entry 4)",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "When the PP/PET ratio was increased to 1:1"
+    },
+    "products": {
+     "v": [
+      "terephthalic acid"
+     ],
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "the TPA yield decreased to ~70%"
+    },
+    "solvent": {
+     "v": "mixed chlorinated solvents",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "in mixed chlorinated solvents"
+    },
+    "temperature_c": {
+     "v": 130,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "oil bath maintained at 130 °C"
+    },
+    "time": {
+     "v": 18,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "irradiated for 18 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "18 h"
+    },
+    "wavelength_nm": {
+     "v": 415,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps"
+    },
+    "yield_basis": {
+     "v": "isolated",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "over 90% of terephthalic acid (TPA) was isolated"
+    },
+    "cocatalyst_additives": {
+     "v": "PP (co-feed; in situ HCl source)",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "Reactions were performed on PP/PET blends"
+    }
+   },
+   "yields": {
+    "terephthalic acid": {
+     "v": 70,
+     "u": "%",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "the TPA yield decreased to ~70%"
+    }
+   },
+   "concerns": [
+    "No photocatalyst; Cl-solvent generates Cl radicals; catalyst null. Atmosphere 'air' only from Introduction summary; Methods uses a sealed pressure bottle.",
+    "Irradiance not given; only 'two symmetrically arranged 415 nm LED lamps (50 W ...), each positioned 4 cm from the bottle' (Methods).",
+    "Ambiguous which ¶2 entry this task is. I took PP/PET 1:1 (entry 4, ~70%, approximate). Alternatives in ¶2: 1:0.5 (entry 2, 'over 90%'); pre-formed OPP5 instead of P5 (48.1% TPA, 56.6% PET conversion; Supplementary Table S5).",
+    "Time/temperature for entry 4 not restated; 130 °C/18 h from the 1:0.1 & 1:0.5 sentence and Methods.",
+    "'PP' as cocatalyst_additive is my interpretation; arguably null."
+   ]
+  },
+  {
+   "rid": "f",
+   "values": {
+    "atmosphere": {
+     "v": "air",
+     "loc": "Introduction ¶3",
+     "s": "(90-130 °C, air, 415 nm light)"
+    },
+    "catalyst": null,
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "two 415 nm LED lamps (50 W)",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "two symmetrically positioned 415 nm LED lamps (50 W"
+    },
+    "polymer": {
+     "v": "poly(ethylene terephthalate)",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "PET bowl/PP cup"
+    },
+    "polymer_detail": {
+     "v": "post-consumer PET bowl co-fed with PP cup",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "PET bowl/PP cup"
+    },
+    "products": {
+     "v": [
+      "terephthalic acid"
+     ],
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "afforded TPA in yields of 92.8%, 79.9%, and 91.1%"
+    },
+    "solvent": {
+     "v": "distilled mixed chlorinated solvent wastes",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "distilled mixed chlorinated solvent wastes collected from laboratory use"
+    },
+    "temperature_c": {
+     "v": 130,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "oil bath maintained at 130 °C"
+    },
+    "time": {
+     "v": 18,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "irradiated for 18 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "18 h"
+    },
+    "wavelength_nm": {
+     "v": 415,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps"
+    },
+    "yield_basis": {
+     "v": "isolated",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "over 90% of terephthalic acid (TPA) was isolated"
+    }
+   },
+   "yields": {
+    "terephthalic acid": {
+     "v": 92.8,
+     "u": "%",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "afforded TPA in yields of 92.8%, 79.9%, and 91.1%"
+    }
+   },
+   "concerns": [
+    "No photocatalyst; Cl-solvent generates Cl radicals; catalyst null. Atmosphere 'air' only from Introduction summary; Methods uses a sealed pressure bottle.",
+    "Irradiance not given; only 'two symmetrically arranged 415 nm LED lamps (50 W ...), each positioned 4 cm from the bottle' (Methods).",
+    "Time, temperature, light from Methods ('The same experimental procedure was applied for the conversion of real-life plastic samples').",
+    "Yield basis not explicitly stated for this entry; isolated per Methods workup and ¶2 wording.",
+    "Feed: PP 1 g / PET 0.5 g (Fig. 4 caption)."
+   ]
+  },
+  {
+   "rid": "g",
+   "values": {
+    "atmosphere": {
+     "v": "air",
+     "loc": "Introduction ¶3",
+     "s": "(90-130 °C, air, 415 nm light)"
+    },
+    "catalyst": null,
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "two 415 nm LED lamps (50 W)",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "two symmetrically positioned 415 nm LED lamps (50 W"
+    },
+    "polymer": {
+     "v": "poly(ethylene terephthalate)",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "PET rag/PP tube"
+    },
+    "polymer_detail": {
+     "v": "post-consumer PET rag co-fed with PP tube",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "PET rag/PP tube"
+    },
+    "products": {
+     "v": [
+      "terephthalic acid"
+     ],
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "afforded TPA in yields of 92.8%, 79.9%, and 91.1%"
+    },
+    "solvent": {
+     "v": "distilled mixed chlorinated solvent wastes",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "distilled mixed chlorinated solvent wastes collected from laboratory use"
+    },
+    "temperature_c": {
+     "v": 130,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "oil bath maintained at 130 °C"
+    },
+    "time": {
+     "v": 18,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "irradiated for 18 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "18 h"
+    },
+    "wavelength_nm": {
+     "v": 415,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps"
+    },
+    "yield_basis": {
+     "v": "isolated",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "over 90% of terephthalic acid (TPA) was isolated"
+    }
+   },
+   "yields": {
+    "terephthalic acid": {
+     "v": 79.9,
+     "u": "%",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "afforded TPA in yields of 92.8%, 79.9%, and 91.1%"
+    }
+   },
+   "concerns": [
+    "No photocatalyst; Cl-solvent generates Cl radicals; catalyst null. Atmosphere 'air' only from Introduction summary; Methods uses a sealed pressure bottle.",
+    "Irradiance not given; only 'two symmetrically arranged 415 nm LED lamps (50 W ...), each positioned 4 cm from the bottle' (Methods).",
+    "Time, temperature, light from Methods ('The same experimental procedure was applied for the conversion of real-life plastic samples').",
+    "Yield basis not explicitly stated for this entry; isolated per Methods workup and ¶2 wording.",
+    "Feed: PP 1 g / PET 0.5 g (Fig. 4 caption)."
+   ]
+  },
+  {
+   "rid": "h",
+   "values": {
+    "atmosphere": {
+     "v": "air",
+     "loc": "Introduction ¶3",
+     "s": "(90-130 °C, air, 415 nm light)"
+    },
+    "catalyst": null,
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "two 415 nm LED lamps (50 W)",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "two symmetrically positioned 415 nm LED lamps (50 W"
+    },
+    "polymer": {
+     "v": "poly(ethylene terephthalate)",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "PET bottle/PP jug"
+    },
+    "polymer_detail": {
+     "v": "post-consumer PET bottle co-fed with PP jug",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "PET bottle/PP jug"
+    },
+    "products": {
+     "v": [
+      "terephthalic acid"
+     ],
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "afforded TPA in yields of 92.8%, 79.9%, and 91.1%"
+    },
+    "solvent": {
+     "v": "distilled mixed chlorinated solvent wastes",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "distilled mixed chlorinated solvent wastes collected from laboratory use"
+    },
+    "temperature_c": {
+     "v": 130,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "oil bath maintained at 130 °C"
+    },
+    "time": {
+     "v": 18,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "irradiated for 18 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "18 h"
+    },
+    "wavelength_nm": {
+     "v": 415,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps"
+    },
+    "yield_basis": {
+     "v": "isolated",
+     "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
+     "s": "over 90% of terephthalic acid (TPA) was isolated"
+    }
+   },
+   "yields": {
+    "terephthalic acid": {
+     "v": 91.1,
+     "u": "%",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
+     "s": "afforded TPA in yields of 92.8%, 79.9%, and 91.1%"
+    }
+   },
+   "concerns": [
+    "No photocatalyst; Cl-solvent generates Cl radicals; catalyst null. Atmosphere 'air' only from Introduction summary; Methods uses a sealed pressure bottle.",
+    "Irradiance not given; only 'two symmetrically arranged 415 nm LED lamps (50 W ...), each positioned 4 cm from the bottle' (Methods).",
+    "Time, temperature, light from Methods ('The same experimental procedure was applied for the conversion of real-life plastic samples').",
+    "Yield basis not explicitly stated for this entry; isolated per Methods workup and ¶2 wording.",
+    "Feed: PP 1 g / PET 0.5 g (Fig. 4 caption)."
+   ]
+  },
+  {
+   "rid": "i",
+   "values": {
+    "atmosphere": {
+     "v": "air",
+     "loc": "Introduction ¶3",
+     "s": "(90-130 °C, air, 415 nm light)"
+    },
+    "catalyst": null,
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "two 415 nm LED lamps (50 W)",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "two symmetrically positioned 415 nm LED lamps (50 W"
+    },
+    "polymer": {
+     "v": "poly(ethylene terephthalate)",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶2",
+     "s": "Scaling the process to 7 g of post-consumer PP and 3.5 g of PET"
+    },
+    "polymer_detail": {
+     "v": "post-consumer PET 3.5 g co-fed with 7 g post-consumer PP (scale-up)",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶2",
+     "s": "Scaling the process to 7 g of post-consumer PP and 3.5 g of PET"
+    },
+    "products": {
+     "v": [
+      "terephthalic acid"
+     ],
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶2",
+     "s": "90% isolated TPA"
+    },
+    "solvent": {
+     "v": "mixed chlorinated solvent (Cl-Sol)",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "mixed Cl-solvent (12 mL)"
+    },
+    "temperature_c": {
+     "v": 130,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "oil bath maintained at 130 °C"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "18 h"
+    },
+    "wavelength_nm": {
+     "v": 415,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps"
+    },
+    "yield_basis": {
+     "v": "isolated",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶2",
+     "s": "90% isolated TPA"
+    }
+   },
+   "yields": {
+    "terephthalic acid": {
+     "v": 90,
+     "u": "%",
+     "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶2",
+     "s": "90% isolated TPA"
+    }
+   },
+   "concerns": [
+    "No photocatalyst; Cl-solvent generates Cl radicals; catalyst null. Atmosphere 'air' only from Introduction summary; Methods uses a sealed pressure bottle.",
+    "Irradiance not given; only 'two symmetrically arranged 415 nm LED lamps (50 W ...), each positioned 4 cm from the bottle' (Methods).",
+    "Scale-up: time and solvent volume not stated for the 7 g/3.5 g run; solvent and temperature/light assumed from Methods general procedure."
+   ]
+  }
+ ],
+ "paper_concerns": [
+  "No photocatalyst at all: Cl radicals from chlorinated solvents under 415 nm light at 130 °C (photothermal). Eligibility should be checked against the catalyst/visible-light criteria; heating to 90-130 °C is substantial and a dark control still gave Mn 30.8 kDa.",
+  "Fig. 2a and Fig. 3b are tables inside figures; most entry values (Mn/Mw of P1-P5, OPP2-5, MixPP; exact TPA yields for entries 1, 2, 4) are not in text.",
+  "Not covered by tasks: 90 °C run (comparable Mn, Supplementary Table S3); OPP1-OPP5 final Mn 12.6-15.5 kDa (range); solvent-type screen Mn 11-17 kDa (range); recycling runs 92.4~94.9% TPA (range); OPP5-fed run 48.1% TPA; no-PP and no-light PET controls giving 'no TPA' (Fig. 3b entries 5-6) which could be control records with 0 yield."
+ ]
+}

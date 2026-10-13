@@ -91,7 +91,9 @@ def harmonize(records, rules):
     bands = R["R09_wavelength_bands"].get("bands") or []
     color_only = R["R09_wavelength_bands"].get("color_only_reports")
     t_unit = R["R10_time_unit"]["decision"]
-    tiers = R["R11_comparability_tiers"].get("tiers") or []
+    tiers_mm = R["R11_comparability_tiers"].get("tiers_molar_mass") or R["R11_comparability_tiers"].get("tiers") or []
+    tiers_py = R["R11_comparability_tiers"].get("tiers_product_yield") or []
+    thermal = (R.get("R15_thermal_regime") or {}).get("decision") or {}
     controls = R["R13_controls_and_negatives"]["decision"]
     lic = R["R14_source_license_policy"]
 
@@ -103,7 +105,7 @@ def harmonize(records, rules):
     for r in records:
         rid = r["record_id"]
         # R14: license gate
-        L = (r.get("source_license") or "").strip().lower()
+        L = (r.get("source_license") or "").strip().lower().replace(" ", "-").replace("_", "-")
         if L in ("", "unknown"):
             if lic.get("unknown_license") != "include":
                 note(rid, "R14", "excluded: unknown source license")
@@ -112,7 +114,7 @@ def harmonize(records, rules):
             note(rid, "R14", f"excluded: license {L} not in allowed list")
             continue
         # R13: controls
-        is_control = "control" in (r.get("notes") or "").lower()
+        is_control = (r.get("is_control") or "").strip().lower() == "y" or (r.get("notes") or "").lower().startswith("control")
         if is_control and controls == "exclude":
             note(rid, "R13", "excluded: control run")
             continue
@@ -134,6 +136,8 @@ def harmonize(records, rules):
             match_poly = (cls.get("matched_if_polymer") or "").lower()
             cls = cls.get("matched") if (r.get("polymer") or "").lower() == match_poly else cls.get("otherwise")
         h["calibration_class"] = cls or "unknown"
+        if not any((r.get(f"{k}_{sd}") or "").strip() for k in ("mn", "mw", "mp") for sd in ("before", "after")):
+            h["calibration_class"] = "not_applicable"
 
         # R03: calibration policy for mismatched conventional values
         mismatched = h["calibration_class"] == "mismatched_conventional"
@@ -186,7 +190,7 @@ def harmonize(records, rules):
             if "percent_reduction" in metrics:
                 h["percent_reduction"] = 100 * (1 - pa / pb)
         mnb, mna = h["mn_before_h"], h["mn_after_h"]
-        if "scissions_per_chain" in metrics and mnb and mna:
+        if "scissions_per_chain" in metrics and mnb and mna and h["primary_average"] == "Mn":
             h["scissions_per_chain"] = mnb / mna - 1
         h["primary_metric"] = primary_metric
 
@@ -205,7 +209,7 @@ def harmonize(records, rules):
                 flags.append("uv_component")
             if b_ - a_ > 150:
                 flags.append("broadband")
-        if color == "white":
+        if color in ("white", "solar"):
             flags.append("broadband")
         if any(s in src for s in ("sun", "solar", "am1.5", "am 1.5", "xenon", "xe lamp")):
             flags.append("solar_or_xenon")
@@ -222,7 +226,22 @@ def harmonize(records, rules):
                     band = bd["name"]
         elif color and color_only == "map_by_name" and any(bd["name"] == color for bd in bands):
             band = color
+        if src.startswith("none") or "dark" in src:
+            band = "dark"
+        if not band and ("broadband" in flags or "solar_or_xenon" in flags):
+            band = "broadband"
         h["wavelength_band"] = band or "unknown"
+
+        # R15: thermal regime
+        tc = f(r.get("temperature_c"))
+        if tc is None:
+            h["thermal_regime"] = "not_reported"
+        elif tc < thermal.get("ambient_max_c", 60):
+            h["thermal_regime"] = "ambient"
+        elif tc <= thermal.get("heated_max_c", 120):
+            h["thermal_regime"] = "heated"
+        else:
+            h["thermal_regime"] = "high_temperature"
 
         # R10: time
         t, tu = f(r.get("time")), (r.get("time_unit") or "").strip()
@@ -238,35 +257,41 @@ def harmonize(records, rules):
             "has_catalyst": bool((r.get("catalyst") or "").strip()),
             "has_solvent": bool((r.get("solvent") or "").strip()),
             "has_products": bool((r.get("products") or "").strip()),
+            "has_yield": bool((r.get("product_yields") or "").strip()),
+            "has_yield_basis": bool((r.get("yield_basis") or "").strip()),
         }
-        h["tier"] = ""
-        for tier in tiers:
-            ok = (not tier.get("calibration_class_in") or h["calibration_class"] in tier["calibration_class_in"]) \
-                and all(conds.get(c, False) for c in tier.get("require") or [])
-            if ok:
-                h["tier"] = tier["name"]
-                break
-        h["tier"] = h["tier"] or "unranked"
+
+        def tier_of(ladder):
+            for tier in ladder:
+                ok = (not tier.get("calibration_class_in") or h["calibration_class"] in tier["calibration_class_in"]) \
+                    and all(conds.get(c, False) for c in tier.get("require") or [])
+                if ok:
+                    return tier["name"]
+            return ""
+        h["tier_molar_mass"] = tier_of(tiers_mm) if conds["has_primary_before_after"] else ""
+        h["tier_product_yield"] = tier_of(tiers_py) if conds["has_yield"] else ""
+        h["tier"] = h["tier_molar_mass"] or h["tier_product_yield"] or "unranked"
         out.append(h)
     return out, log
 
 
 RELEASE_COLUMNS = [
-    "record_id", "paper_id", "doi", "source_license", "locator",
+    "record_id", "paper_id", "doi", "pmcid", "source_license", "locator", "is_control",
     "polymer", "polymer_class", "polymer_detail",
     "mn_before", "mw_before", "mp_before", "disp_before", "mass_unit_before",
     "mn_after", "mw_after", "mp_after", "disp_after", "mass_unit_after",
     "mn_before_h", "mw_before_h", "mp_before_h", "mn_after_h", "mw_after_h", "mp_after_h", "mass_unit_h",
     "sec_calibration", "calibration_class", "mass_basis", "sec_detector", "sec_eluent", "sec_temperature_c",
     "primary_average", "primary_before", "primary_after", "primary_metric",
-    "retained_fraction", "percent_reduction", "scissions_per_chain",
+    "retained_fraction", "percent_reduction",
     "catalyst", "catalyst_loading", "catalyst_loading_unit", "cocatalyst_additives",
     "light_source", "wavelength_nm", "wavelength_range_nm", "light_color", "wavelength_band", "light_flags",
     "irradiance", "irradiance_unit",
-    "solvent", "concentration", "concentration_unit", "atmosphere", "temperature_c",
+    "solvent", "concentration", "concentration_unit", "atmosphere", "temperature_c", "thermal_regime",
     "time", "time_unit", "time_h", "time_unit_h",
-    "products", "product_yields", "yield_basis",
-    "is_control", "tier", "notes", "curator", "curation_date",
+    "products", "product_yields", "yield_basis", "yield_uncertainty", "replicates",
+    "tier_molar_mass", "tier_product_yield", "qa_flags",
+    "extraction_method", "extractor", "source_verified", "blind_verified", "notes", "curator", "curation_date",
 ]
 
 

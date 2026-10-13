@@ -1,0 +1,30 @@
+{
+ "paper_key": "PMC13139506",
+ "paper_id": "10.1038/s41598-026-43013-w",
+ "doi": "10.1038/s41598-026-43013-w",
+ "pmcid": "PMC13139506",
+ "source_license": "cc by",
+ "extractor": "Claude (AI) extraction agent D, 2026-10-12 (re-screen batch)",
+ "extraction_method": "full-text screen (no records)",
+ "screen": {
+  "decision": "exclude",
+  "criteria": "E5",
+  "confidence": "high",
+  "rationale": "Primary study; LDPE and HDPE films with green-synthesised ZnO/Fe3O4 under natural sunlight for 30 days (passes E3), but outcomes are only gravimetric weight loss (e.g. LDPE 27% with ZnO), CO2-C evolved / mineralization % (Table 3), FTIR, SEM/EDS and pH; no molar mass and no identified organic product quantified (CO2 evolution is excluded under E5).",
+  "evidence_loc": "Table 3"
+ },
+ "shared": {},
+ "records": [],
+ "excluded_observations": [
+  {
+   "what": "Mass loss and CO2-C evolved / mineralization % (Table 3); weight loss (Table 2)",
+   "why": "Mass loss and CO2 evolution are excluded under E5.",
+   "loc": "Table 3"
+  },
+  {
+   "what": "Comparison with literature",
+   "why": "Not primary data.",
+   "loc": "Table 4"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "paper_key": "PMC10224419",
+ "paper_id": "10.3390/polym15102347",
+ "doi": "10.3390/polym15102347",
+ "pmcid": "PMC10224419",
+ "source_license": "cc by",
+ "extractor": "Claude (AI) extraction agent D, 2026-10-12",
+ "extraction_method": "full-text screen (no records)",
+ "screen": {
+  "decision": "exclude",
+  "criteria": "E5",
+  "confidence": "high",
+  "rationale": "Primary study; PS and PE microplastics with CuMgAlTi-R400 under a 50 W Xe lamp (320-780 nm, passes E3), but the only quantitative outcomes are optical particle-size reduction (Tables 1-3; 54.2% PS at 300 h, 33.7% PE at 200 h) and carbonyl-index fold changes; GC-MS intermediates (Tables 4-5) are listed by identity only, with no yields or amounts, and no molar mass is measured.",
+  "evidence_loc": "Table 3"
+ },
+ "shared": {},
+ "records": [],
+ "excluded_observations": [
+  {
+   "what": "Particle size vs time for PS and PE (Tables 1-2) and % size reduction (Table 3)",
+   "why": "Particle size is not an E5 endpoint.",
+   "loc": "Table 1"
+  },
+  {
+   "what": "Carbonyl index increase 8.6x / 2.7x / 14.3x",
+   "why": "Carbonyl index excluded under E5.",
+   "loc": "3. Results > 3.3. Photocatalytic Degradation Tests > 3.3.2. FTIR Spectroscopic Analysis ¶5"
+  },
+  {
+   "what": "GC-MS intermediates for PS and PE",
+   "why": "Identified compounds listed without yield or amount.",
+   "loc": "Table 4"
+  }
+ ]
+}

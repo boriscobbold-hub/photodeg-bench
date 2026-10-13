@@ -1,0 +1,402 @@
+{
+ "pmcid": "PMC9295126",
+ "doi": "10.1021/acscatal.2c02292",
+ "tasks": [
+  {
+   "rid": "a",
+   "primary_loc": "Results and Discussion > Photocatalytic Deconstruction of PS \u00b62",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "concentration",
+    "concentration_unit",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "mass_unit_after",
+    "mass_unit_before",
+    "mw_after",
+    "mw_before",
+    "polymer",
+    "polymer_detail",
+    "replicates",
+    "sec_calibration",
+    "sec_detector",
+    "sec_eluent",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": []
+  },
+  {
+   "rid": "b",
+   "primary_loc": "Results and Discussion > Photocatalytic Deconstruction of PS \u00b62",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "concentration",
+    "concentration_unit",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "mass_unit_after",
+    "mass_unit_before",
+    "mw_after",
+    "mw_before",
+    "polymer",
+    "polymer_detail",
+    "replicates",
+    "sec_calibration",
+    "sec_detector",
+    "sec_eluent",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": []
+  },
+  {
+   "rid": "c",
+   "primary_loc": "Table 1 r1",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "concentration",
+    "concentration_unit",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "replicates",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "d",
+   "primary_loc": "Table 1 footnote",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "concentration",
+    "concentration_unit",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "replicates",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "e",
+   "primary_loc": "Table 1 r2",
+   "polymer_anchor": "polystyrene",
+   "is_control": true,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "concentration",
+    "concentration_unit",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "f",
+   "primary_loc": "Table 1 r8",
+   "polymer_anchor": "polystyrene",
+   "is_control": true,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "concentration",
+    "concentration_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "g",
+   "primary_loc": "Table 1 r7",
+   "polymer_anchor": "polystyrene",
+   "is_control": true,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "concentration",
+    "concentration_unit",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "h",
+   "primary_loc": "Table 1 r5",
+   "polymer_anchor": "polystyrene",
+   "is_control": true,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "concentration",
+    "concentration_unit",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "i",
+   "primary_loc": "Table 1 r3",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "concentration",
+    "concentration_unit",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "j",
+   "primary_loc": "Table 1 r3",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "concentration",
+    "concentration_unit",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "k",
+   "primary_loc": "Table 1 r6",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "concentration",
+    "concentration_unit",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "l",
+   "primary_loc": "Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam \u00b61",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "replicates",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "m",
+   "primary_loc": "Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam \u00b61",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "replicates",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  }
+ ]
+}

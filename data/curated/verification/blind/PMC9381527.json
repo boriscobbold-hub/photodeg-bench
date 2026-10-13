@@ -1,0 +1,98 @@
+{
+ "pmcid": "PMC9381527",
+ "verifier": "Claude (AI) independent verifier 3, 2026-10-12",
+ "tasks": [
+  {
+   "rid": "a",
+   "values": {
+    "atmosphere": {
+     "v": "O2 (10 bar)",
+     "loc": "Fig. 3 caption",
+     "s": "10 bar O2"
+    },
+    "catalyst": {
+     "v": "g-C3N4",
+     "loc": "Fig. 3 caption",
+     "s": "200 mg g-C3N4"
+    },
+    "catalyst_loading": {
+     "v": 200,
+     "loc": "Fig. 3 caption",
+     "s": "200 mg g-C3N4, 500 mg pellets"
+    },
+    "catalyst_loading_unit": {
+     "v": "mg",
+     "loc": "Fig. 3 caption",
+     "s": "200 mg g-C3N4"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "300 W Xenon lamp",
+     "loc": "Fig. 3 caption",
+     "s": "irradiated by 300 W Xenon lamp at 150 °C for 8 h in each cycle"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Fig. 3 caption",
+     "s": "500 mg real-life PS pellets"
+    },
+    "polymer_detail": {
+     "v": "real-life PS plastic pellets, 500 mg",
+     "loc": "Fig. 3 caption",
+     "s": "500 mg real-life PS pellets"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "acetophenone",
+      "benzaldehyde"
+     ],
+     "loc": "Results > Further improvement based on the reaction mechanism ¶2",
+     "s": "360 mg aromatic oxygenates were produced (74% benzoic acid, 15% acetophenone and 11% benzaldehyde)"
+    },
+    "solvent": {
+     "v": "acetonitrile (40 mL)",
+     "loc": "Fig. 3 caption",
+     "s": "40 mL acetonitrile"
+    },
+    "temperature_c": {
+     "v": 150,
+     "loc": "Fig. 3 caption",
+     "s": "300 W Xenon lamp at 150 °C"
+    },
+    "yield_basis": {
+     "v": "mass of products (mg) from 0.5 g PS; 74/15/11% is composition of the oxygenates, not yield",
+     "loc": "Results > Further improvement based on the reaction mechanism ¶2",
+     "s": "a total amount of 360 mg aromatic oxygenates were produced"
+    }
+   },
+   "yields": {
+    "aromatic oxygenates (benzoic acid + acetophenone + benzaldehyde)": {
+     "v": 360,
+     "u": "mg",
+     "loc": "Results > Further improvement based on the reaction mechanism ¶2",
+     "s": "a total amount of 360 mg aromatic oxygenates were produced"
+    },
+    "benzoic acid (isolated)": {
+     "v": 240,
+     "u": "mg",
+     "loc": "Results > Further improvement based on the reaction mechanism ¶2",
+     "s": "240 mg of benzoic acid was recovered from column chromatography separation"
+    }
+   },
+   "concerns": [
+    "Light source is an unfiltered 300 W Xenon lamp (UV included); only Table 1 entry 11 used a 400-800 nm filter. This record is not demonstrably visible-light-only.",
+    "Yields are amounts (mg), not %; 90% of pellets converted. Percentages 74/15/11 are product distribution within the 360 mg.",
+    "Catalyst loading given as mass (200 mg) / substrate:catalyst ratio 5:2; irradiance not reported (lamp power only).",
+    "Circulatory/semi-batch: 8 h per cycle, 18-20 cycles; total time not a single value (time not among requested fields).",
+    "Main text says 18 cycles of steady production; Fig. 3 caption says 20 reaction cycles."
+   ]
+  }
+ ],
+ "paper_concerns": [
+  "Eligibility doubt: all reactions use a 300 W Xenon lamp at 80-150 °C; only Table 1 entry 11 (400-800 nm filter, 91 ± 6% conversion, 61 ± 5% selectivity) is shown to be visible-light. Temperatures of 150 °C under 10 bar O2 make the process photothermal.",
+  "Table 1 entries (conversion/selectivity with SD, n=3, 24 h) are numeric records not covered by the single task, including controls (entry 1 no catalyst; entry 6 no light: not detected). 'Conversion' has a non-standard definition (carbon in products + COx).",
+  "Flow WHSV results (selectivity 51% benzaldehyde / 31% acetophenone at 0.9 h-1; BA 18-74%) not covered."
+ ]
+}

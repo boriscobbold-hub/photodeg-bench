@@ -1,0 +1,1877 @@
+{
+ "pmcid": "PMC11796324",
+ "verifier": "Claude (AI) independent verifier 2, 2026-10-12",
+ "tasks": [
+  {
+   "rid": "a",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Table 1 footnote",
+     "s": "under oxygen atmosphere unless stated otherwise"
+    },
+    "catalyst": {
+     "v": "9-mesityl-10-methylacridinium perchlorate (MA)",
+     "loc": "abstract",
+     "s": "9-mesityl-10-methylacridinium perchlorate (MA)"
+    },
+    "catalyst_loading": {
+     "v": 2,
+     "loc": "Table 1 r1 c3",
+     "s": "2"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 1",
+     "s": "MA\n\n(mol %)"
+    },
+    "concentration": {
+     "v": 0.303,
+     "loc": "Results and Discussion ¶3",
+     "s": "concentrated PS solutions (0.303 M in repeating unit)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Results and Discussion ¶3",
+     "s": "0.303 M in repeating unit"
+    },
+    "disp_after": {
+     "v": 3.1,
+     "loc": "Table 1 r1 c7",
+     "s": "213\n3.10"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r1 c2",
+     "s": "99 000\n1.98"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "456 nm LED (50 W)",
+     "loc": "Results and Discussion ¶2",
+     "s": "a 456 nm LED source (50 W, providing a light flux of 1.2×10-6 Einstein)"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mn_after": {
+     "v": 213,
+     "loc": "Table 1 r1 c7",
+     "s": "213\n3.10"
+    },
+    "mn_before": {
+     "v": 99000,
+     "loc": "Table 1 r1 c2",
+     "s": "99 000\n1.98"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Table 1 caption",
+     "s": "molar masses of PS chains"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000 g/mol, Đ 1.98",
+     "loc": "Figure 2 caption",
+     "s": "a commercial PS (M n=99 000 g/mol; Mp=215 100 g/mol; Đ=1.98)"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "acetophenone",
+      "formic acid"
+     ],
+     "loc": "Results and Discussion ¶3",
+     "s": "including BAc, ACP, and formic acid (FA, Figure 2)"
+    },
+    "sec_calibration": {
+     "v": "not_reported",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "solvent": {
+     "v": "EtOAc/MeCN 10 : 1",
+     "loc": "Table 1 footnote",
+     "s": "3.3 mL EtOAc/MeCN 10 : 1"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Table 1 r1 c4",
+     "s": "24 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 1 r1 c4",
+     "s": "24 h"
+    },
+    "wavelength_nm": {
+     "v": 456,
+     "loc": "Table 1 footnote",
+     "s": "irradiation (456 nm)"
+    },
+    "yield_basis": {
+     "v": "1H NMR yield",
+     "loc": "Table 1 footnote",
+     "s": "[d] Yield determined by 1H NMR"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 18.2,
+     "loc": "Table 1 r1 c5",
+     "s": "18.2 %",
+     "u": "%"
+    },
+    "acetophenone": {
+     "v": 2.1,
+     "loc": "Table 1 r1 c6",
+     "s": "2.1 %",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.",
+    "SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).",
+    "Yields marked [d]: determined by 1H NMR, not GC-FID.",
+    "Text ¶3 rounds to 18 % BAc and 2 % ACP.",
+    "Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it."
+   ]
+  },
+  {
+   "rid": "b",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Table 1 footnote",
+     "s": "under oxygen atmosphere unless stated otherwise"
+    },
+    "catalyst": {
+     "v": "9-mesityl-10-methylacridinium perchlorate (MA)",
+     "loc": "abstract",
+     "s": "9-mesityl-10-methylacridinium perchlorate (MA)"
+    },
+    "catalyst_loading": {
+     "v": 2,
+     "loc": "Table 1 r2 c3",
+     "s": "2"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 1",
+     "s": "MA\n\n(mol %)"
+    },
+    "concentration": {
+     "v": 0.303,
+     "loc": "Results and Discussion ¶3",
+     "s": "concentrated PS solutions (0.303 M in repeating unit)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Results and Discussion ¶3",
+     "s": "0.303 M in repeating unit"
+    },
+    "disp_after": {
+     "v": 3.24,
+     "loc": "Table 1 r2 c7",
+     "s": "260\n3.24"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r2 c2",
+     "s": "99 000\n1.98"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "456 nm LED (50 W)",
+     "loc": "Results and Discussion ¶2",
+     "s": "a 456 nm LED source (50 W, providing a light flux of 1.2×10-6 Einstein)"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mn_after": {
+     "v": 260,
+     "loc": "Table 1 r2 c7",
+     "s": "260\n3.24"
+    },
+    "mn_before": {
+     "v": 99000,
+     "loc": "Table 1 r2 c2",
+     "s": "99 000\n1.98"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Table 1 caption",
+     "s": "molar masses of PS chains"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000 g/mol, Đ 1.98",
+     "loc": "Figure 2 caption",
+     "s": "a commercial PS (M n=99 000 g/mol; Mp=215 100 g/mol; Đ=1.98)"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "acetophenone",
+      "formic acid"
+     ],
+     "loc": "Results and Discussion ¶3",
+     "s": "including BAc, ACP, and formic acid (FA, Figure 2)"
+    },
+    "sec_calibration": {
+     "v": "not_reported",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "solvent": {
+     "v": "EtOAc",
+     "loc": "Table 1 r2 c4",
+     "s": "EtOAc, 48 h"
+    },
+    "time": {
+     "v": 48,
+     "loc": "Table 1 r2 c4",
+     "s": "EtOAc, 48 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 1 r2 c4",
+     "s": "EtOAc, 48 h"
+    },
+    "wavelength_nm": {
+     "v": 456,
+     "loc": "Table 1 footnote",
+     "s": "irradiation (456 nm)"
+    },
+    "yield_basis": {
+     "v": "1H NMR yield",
+     "loc": "Table 1 footnote",
+     "s": "[d] Yield determined by 1H NMR"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 20.5,
+     "loc": "Table 1 r2 c5",
+     "s": "20.5 %",
+     "u": "%"
+    },
+    "acetophenone": {
+     "v": 3.1,
+     "loc": "Table 1 r2 c6",
+     "s": "3.1 %",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.",
+    "SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).",
+    "Yields marked [d]: determined by 1H NMR, not GC-FID.",
+    "Neat EtOAc instead of EtOAc/MeCN; concentration presumably same 1 mmol/3.3 mL but not restated."
+   ]
+  },
+  {
+   "rid": "c",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Table 1 footnote",
+     "s": "under oxygen atmosphere unless stated otherwise"
+    },
+    "catalyst": {
+     "v": "9-mesityl-10-methylacridinium perchlorate (MA)",
+     "loc": "abstract",
+     "s": "9-mesityl-10-methylacridinium perchlorate (MA)"
+    },
+    "catalyst_loading": {
+     "v": 2,
+     "loc": "Table 1 r3 c3",
+     "s": "2"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 1",
+     "s": "MA\n\n(mol %)"
+    },
+    "concentration": {
+     "v": 0.303,
+     "loc": "Results and Discussion ¶3",
+     "s": "concentrated PS solutions (0.303 M in repeating unit)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Results and Discussion ¶3",
+     "s": "0.303 M in repeating unit"
+    },
+    "disp_after": {
+     "v": 1.77,
+     "loc": "Table 1 r3 c7",
+     "s": "2 090\n1.77"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r3 c2",
+     "s": "99 000\n1.98"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "456 nm LED (50 W)",
+     "loc": "Results and Discussion ¶2",
+     "s": "a 456 nm LED source (50 W, providing a light flux of 1.2×10-6 Einstein)"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mn_after": {
+     "v": 2090,
+     "loc": "Table 1 r3 c7",
+     "s": "2 090\n1.77"
+    },
+    "mn_before": {
+     "v": 99000,
+     "loc": "Table 1 r3 c2",
+     "s": "99 000\n1.98"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Table 1 caption",
+     "s": "molar masses of PS chains"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000 g/mol, Đ 1.98",
+     "loc": "Figure 2 caption",
+     "s": "a commercial PS (M n=99 000 g/mol; Mp=215 100 g/mol; Đ=1.98)"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "acetophenone",
+      "formic acid"
+     ],
+     "loc": "Results and Discussion ¶3",
+     "s": "including BAc, ACP, and formic acid (FA, Figure 2)"
+    },
+    "sec_calibration": {
+     "v": "not_reported",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "solvent": {
+     "v": "EtOAc/MeCN 10 : 1",
+     "loc": "Table 1 footnote",
+     "s": "3.3 mL EtOAc/MeCN 10 : 1"
+    },
+    "time": {
+     "v": 15,
+     "loc": "Table 1 r3 c4",
+     "s": "15 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 1 r3 c4",
+     "s": "15 h"
+    },
+    "wavelength_nm": {
+     "v": 456,
+     "loc": "Table 1 footnote",
+     "s": "irradiation (456 nm)"
+    },
+    "yield_basis": {
+     "v": "GC-FID yield on 1 mmol PS in monomer units",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 7.3,
+     "loc": "Table 1 r3 c5",
+     "s": "7.3 %",
+     "u": "%"
+    },
+    "acetophenone": {
+     "v": 1.9,
+     "loc": "Table 1 r3 c6",
+     "s": "1.9 %",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.",
+    "SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).",
+    "Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it."
+   ]
+  },
+  {
+   "rid": "d",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Table 1 footnote",
+     "s": "under oxygen atmosphere unless stated otherwise"
+    },
+    "catalyst": {
+     "v": "9-mesityl-10-methylacridinium perchlorate (MA)",
+     "loc": "abstract",
+     "s": "9-mesityl-10-methylacridinium perchlorate (MA)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 1",
+     "s": "MA\n\n(mol %)"
+    },
+    "concentration": {
+     "v": 0.303,
+     "loc": "Results and Discussion ¶3",
+     "s": "concentrated PS solutions (0.303 M in repeating unit)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Results and Discussion ¶3",
+     "s": "0.303 M in repeating unit"
+    },
+    "disp_after": {
+     "v": 2.65,
+     "loc": "Table 1 r4 c7",
+     "s": "185\n2.65"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r4 c2",
+     "s": "99 000\n1.98"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "456 nm LED (50 W)",
+     "loc": "Results and Discussion ¶2",
+     "s": "a 456 nm LED source (50 W, providing a light flux of 1.2×10-6 Einstein)"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mn_after": {
+     "v": 185,
+     "loc": "Table 1 r4 c7",
+     "s": "185\n2.65"
+    },
+    "mn_before": {
+     "v": 99000,
+     "loc": "Table 1 r4 c2",
+     "s": "99 000\n1.98"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Table 1 caption",
+     "s": "molar masses of PS chains"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000 g/mol, Đ 1.98",
+     "loc": "Figure 2 caption",
+     "s": "a commercial PS (M n=99 000 g/mol; Mp=215 100 g/mol; Đ=1.98)"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "acetophenone",
+      "formic acid"
+     ],
+     "loc": "Results and Discussion ¶3",
+     "s": "including BAc, ACP, and formic acid (FA, Figure 2)"
+    },
+    "sec_calibration": {
+     "v": "not_reported",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "solvent": {
+     "v": "EtOAc/MeCN 10 : 1",
+     "loc": "Table 1 footnote",
+     "s": "3.3 mL EtOAc/MeCN 10 : 1"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Table 1 r4 c4",
+     "s": "24 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 1 r4 c4",
+     "s": "24 h"
+    },
+    "wavelength_nm": {
+     "v": 456,
+     "loc": "Table 1 footnote",
+     "s": "irradiation (456 nm)"
+    },
+    "yield_basis": {
+     "v": "1H NMR yield",
+     "loc": "Table 1 footnote",
+     "s": "[d] Yield determined by 1H NMR"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 25,
+     "loc": "Table 1 r4 c5",
+     "s": "25 %",
+     "u": "%"
+    },
+    "acetophenone": {
+     "v": 1.5,
+     "loc": "Table 1 r4 c6",
+     "s": "1.5 %",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.",
+    "SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).",
+    "Yields marked [d]: determined by 1H NMR, not GC-FID.",
+    "MA loading '2×1' (two batches at 12 h intervals, footnote e) - total loading ambiguous (2 mol% given twice per text ¶3, but printed '2×1'); catalyst_loading null.",
+    "Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it."
+   ]
+  },
+  {
+   "rid": "e",
+   "values": {
+    "atmosphere": {
+     "v": "air",
+     "loc": "Table 1 r5 c4",
+     "s": "Air, 24 h"
+    },
+    "catalyst": {
+     "v": "9-mesityl-10-methylacridinium perchlorate (MA)",
+     "loc": "abstract",
+     "s": "9-mesityl-10-methylacridinium perchlorate (MA)"
+    },
+    "catalyst_loading": {
+     "v": 2,
+     "loc": "Table 1 r5 c3",
+     "s": "2"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 1",
+     "s": "MA\n\n(mol %)"
+    },
+    "concentration": {
+     "v": 0.303,
+     "loc": "Results and Discussion ¶3",
+     "s": "concentrated PS solutions (0.303 M in repeating unit)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Results and Discussion ¶3",
+     "s": "0.303 M in repeating unit"
+    },
+    "disp_after": {
+     "v": 5.1,
+     "loc": "Table 1 r5 c7",
+     "s": "528\n5.10"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r5 c2",
+     "s": "99 000\n1.98"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "456 nm LED (50 W)",
+     "loc": "Results and Discussion ¶2",
+     "s": "a 456 nm LED source (50 W, providing a light flux of 1.2×10-6 Einstein)"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mn_after": {
+     "v": 528,
+     "loc": "Table 1 r5 c7",
+     "s": "528\n5.10"
+    },
+    "mn_before": {
+     "v": 99000,
+     "loc": "Table 1 r5 c2",
+     "s": "99 000\n1.98"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Table 1 caption",
+     "s": "molar masses of PS chains"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000 g/mol, Đ 1.98",
+     "loc": "Figure 2 caption",
+     "s": "a commercial PS (M n=99 000 g/mol; Mp=215 100 g/mol; Đ=1.98)"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "acetophenone",
+      "formic acid"
+     ],
+     "loc": "Results and Discussion ¶3",
+     "s": "including BAc, ACP, and formic acid (FA, Figure 2)"
+    },
+    "sec_calibration": {
+     "v": "not_reported",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "solvent": {
+     "v": "EtOAc/MeCN 10 : 1",
+     "loc": "Table 1 footnote",
+     "s": "3.3 mL EtOAc/MeCN 10 : 1"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Table 1 r5 c4",
+     "s": "Air, 24 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 1 r5 c4",
+     "s": "Air, 24 h"
+    },
+    "wavelength_nm": {
+     "v": 456,
+     "loc": "Table 1 footnote",
+     "s": "irradiation (456 nm)"
+    },
+    "yield_basis": {
+     "v": "GC-FID yield on 1 mmol PS in monomer units",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 2.1,
+     "loc": "Table 1 r5 c5",
+     "s": "2.1 %",
+     "u": "%"
+    },
+    "acetophenone": {
+     "v": 0.7,
+     "loc": "Table 1 r5 c6",
+     "s": "0.7 %",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.",
+    "SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).",
+    "Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it."
+   ]
+  },
+  {
+   "rid": "f",
+   "values": {
+    "atmosphere": {
+     "v": "Inert",
+     "loc": "Table 1 r6 c4",
+     "s": "Inert, 24 h"
+    },
+    "catalyst": {
+     "v": "9-mesityl-10-methylacridinium perchlorate (MA)",
+     "loc": "abstract",
+     "s": "9-mesityl-10-methylacridinium perchlorate (MA)"
+    },
+    "catalyst_loading": {
+     "v": 2,
+     "loc": "Table 1 r6 c3",
+     "s": "2"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 1",
+     "s": "MA\n\n(mol %)"
+    },
+    "concentration": {
+     "v": 0.303,
+     "loc": "Results and Discussion ¶3",
+     "s": "concentrated PS solutions (0.303 M in repeating unit)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Results and Discussion ¶3",
+     "s": "0.303 M in repeating unit"
+    },
+    "disp_after": {
+     "v": 4.85,
+     "loc": "Table 1 r6 c7",
+     "s": "11 630\n4.85"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r6 c2",
+     "s": "99 000\n1.98"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "456 nm LED (50 W)",
+     "loc": "Results and Discussion ¶2",
+     "s": "a 456 nm LED source (50 W, providing a light flux of 1.2×10-6 Einstein)"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mn_after": {
+     "v": 11630,
+     "loc": "Table 1 r6 c7",
+     "s": "11 630\n4.85"
+    },
+    "mn_before": {
+     "v": 99000,
+     "loc": "Table 1 r6 c2",
+     "s": "99 000\n1.98"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Table 1 caption",
+     "s": "molar masses of PS chains"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000 g/mol, Đ 1.98",
+     "loc": "Figure 2 caption",
+     "s": "a commercial PS (M n=99 000 g/mol; Mp=215 100 g/mol; Đ=1.98)"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "acetophenone",
+      "formic acid"
+     ],
+     "loc": "Results and Discussion ¶3",
+     "s": "including BAc, ACP, and formic acid (FA, Figure 2)"
+    },
+    "sec_calibration": {
+     "v": "not_reported",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "solvent": {
+     "v": "EtOAc/MeCN 10 : 1",
+     "loc": "Table 1 footnote",
+     "s": "3.3 mL EtOAc/MeCN 10 : 1"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Table 1 r6 c4",
+     "s": "Inert, 24 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 1 r6 c4",
+     "s": "Inert, 24 h"
+    },
+    "wavelength_nm": {
+     "v": 456,
+     "loc": "Table 1 footnote",
+     "s": "irradiation (456 nm)"
+    },
+    "yield_basis": {
+     "v": "GC-FID yield on 1 mmol PS in monomer units",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 0,
+     "loc": "Table 1 r6 c5",
+     "s": "0 %",
+     "u": "%"
+    },
+    "acetophenone": {
+     "v": 0,
+     "loc": "Table 1 r6 c6",
+     "s": "0 %",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.",
+    "SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).",
+    "Atmosphere printed only as 'Inert' (N2 vs Ar not specified).",
+    "Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it."
+   ]
+  },
+  {
+   "rid": "g",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Table 1 footnote",
+     "s": "under oxygen atmosphere unless stated otherwise"
+    },
+    "catalyst": {
+     "v": "9-mesityl-10-methylacridinium perchlorate (MA)",
+     "loc": "abstract",
+     "s": "9-mesityl-10-methylacridinium perchlorate (MA)"
+    },
+    "catalyst_loading": {
+     "v": 2,
+     "loc": "Table 1 r7 c3",
+     "s": "2"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 1",
+     "s": "MA\n\n(mol %)"
+    },
+    "concentration": {
+     "v": 0.303,
+     "loc": "Results and Discussion ¶3",
+     "s": "concentrated PS solutions (0.303 M in repeating unit)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Results and Discussion ¶3",
+     "s": "0.303 M in repeating unit"
+    },
+    "disp_after": {
+     "v": 2.41,
+     "loc": "Table 1 r7 c7",
+     "s": "80 840\n2.41"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r7 c2",
+     "s": "99 000\n1.98"
+    },
+    "light_source": {
+     "v": "none (dark)",
+     "loc": "Table 1 r7 c4",
+     "s": "Dark, 64 h"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mn_after": {
+     "v": 80840,
+     "loc": "Table 1 r7 c7",
+     "s": "80 840\n2.41"
+    },
+    "mn_before": {
+     "v": 99000,
+     "loc": "Table 1 r7 c2",
+     "s": "99 000\n1.98"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Table 1 caption",
+     "s": "molar masses of PS chains"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000 g/mol, Đ 1.98",
+     "loc": "Figure 2 caption",
+     "s": "a commercial PS (M n=99 000 g/mol; Mp=215 100 g/mol; Đ=1.98)"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "acetophenone",
+      "formic acid"
+     ],
+     "loc": "Results and Discussion ¶3",
+     "s": "including BAc, ACP, and formic acid (FA, Figure 2)"
+    },
+    "sec_calibration": {
+     "v": "not_reported",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "solvent": {
+     "v": "EtOAc/MeCN 10 : 1",
+     "loc": "Table 1 footnote",
+     "s": "3.3 mL EtOAc/MeCN 10 : 1"
+    },
+    "time": {
+     "v": 64,
+     "loc": "Table 1 r7 c4",
+     "s": "Dark, 64 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 1 r7 c4",
+     "s": "Dark, 64 h"
+    },
+    "yield_basis": {
+     "v": "GC-FID yield on 1 mmol PS in monomer units",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 0,
+     "loc": "Table 1 r7 c5",
+     "s": "0 %",
+     "u": "%"
+    },
+    "acetophenone": {
+     "v": 0,
+     "loc": "Table 1 r7 c6",
+     "s": "0 %",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.",
+    "SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).",
+    "Dark control: 64 h is time in the dark, not irradiation time."
+   ]
+  },
+  {
+   "rid": "h",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Table 1 footnote",
+     "s": "under oxygen atmosphere unless stated otherwise"
+    },
+    "catalyst": null,
+    "catalyst_loading_unit": null,
+    "concentration": {
+     "v": 0.303,
+     "loc": "Results and Discussion ¶3",
+     "s": "concentrated PS solutions (0.303 M in repeating unit)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Results and Discussion ¶3",
+     "s": "0.303 M in repeating unit"
+    },
+    "disp_after": {
+     "v": 2.09,
+     "loc": "Table 1 r8 c7",
+     "s": "93 980\n2.09"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r8 c2",
+     "s": "99 000\n1.98"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "456 nm LED (50 W)",
+     "loc": "Results and Discussion ¶2",
+     "s": "a 456 nm LED source (50 W, providing a light flux of 1.2×10-6 Einstein)"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mn_after": {
+     "v": 93980,
+     "loc": "Table 1 r8 c7",
+     "s": "93 980\n2.09"
+    },
+    "mn_before": {
+     "v": 99000,
+     "loc": "Table 1 r8 c2",
+     "s": "99 000\n1.98"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Table 1 caption",
+     "s": "molar masses of PS chains"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000 g/mol, Đ 1.98",
+     "loc": "Figure 2 caption",
+     "s": "a commercial PS (M n=99 000 g/mol; Mp=215 100 g/mol; Đ=1.98)"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "acetophenone",
+      "formic acid"
+     ],
+     "loc": "Results and Discussion ¶3",
+     "s": "including BAc, ACP, and formic acid (FA, Figure 2)"
+    },
+    "sec_calibration": {
+     "v": "not_reported",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "solvent": {
+     "v": "EtOAc/MeCN 10 : 1",
+     "loc": "Table 1 footnote",
+     "s": "3.3 mL EtOAc/MeCN 10 : 1"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Table 1 r8 c4",
+     "s": "24 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 1 r8 c4",
+     "s": "24 h"
+    },
+    "wavelength_nm": {
+     "v": 456,
+     "loc": "Table 1 footnote",
+     "s": "irradiation (456 nm)"
+    },
+    "yield_basis": {
+     "v": "GC-FID yield on 1 mmol PS in monomer units",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 0,
+     "loc": "Table 1 r8 c5",
+     "s": "0 %",
+     "u": "%"
+    },
+    "acetophenone": {
+     "v": 0,
+     "loc": "Table 1 r8 c6",
+     "s": "0 %",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.",
+    "SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).",
+    "No-catalyst control (MA 0 mol%).",
+    "Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it."
+   ]
+  },
+  {
+   "rid": "i",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Table 1 footnote",
+     "s": "under oxygen atmosphere unless stated otherwise"
+    },
+    "catalyst": {
+     "v": "9-mesityl-10-methylacridinium perchlorate (MA)",
+     "loc": "abstract",
+     "s": "9-mesityl-10-methylacridinium perchlorate (MA)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 1",
+     "s": "MA\n\n(mol %)"
+    },
+    "concentration": {
+     "v": 0.303,
+     "loc": "Results and Discussion ¶3",
+     "s": "concentrated PS solutions (0.303 M in repeating unit)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Results and Discussion ¶3",
+     "s": "0.303 M in repeating unit"
+    },
+    "disp_after": {
+     "v": 4.0,
+     "loc": "Table 1 r9 c7",
+     "s": "240\n4.00"
+    },
+    "disp_before": {
+     "v": 1.69,
+     "loc": "Table 1 r9 c2",
+     "s": "126 300\n1.69"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "456 nm LED (50 W)",
+     "loc": "Results and Discussion ¶2",
+     "s": "a 456 nm LED source (50 W, providing a light flux of 1.2×10-6 Einstein)"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mn_after": {
+     "v": 240,
+     "loc": "Table 1 r9 c7",
+     "s": "240\n4.00"
+    },
+    "mn_before": {
+     "v": 126300,
+     "loc": "Table 1 r9 c2",
+     "s": "126 300\n1.69"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Table 1 caption",
+     "s": "molar masses of PS chains"
+    },
+    "polymer_detail": {
+     "v": "expanded PS (EPS), Mn 126 300 g/mol, Đ 1.69",
+     "loc": "Table 1 r9 c4",
+     "s": "EPS, 24 h"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "acetophenone",
+      "formic acid"
+     ],
+     "loc": "Results and Discussion ¶3",
+     "s": "including BAc, ACP, and formic acid (FA, Figure 2)"
+    },
+    "sec_calibration": {
+     "v": "not_reported",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "solvent": {
+     "v": "EtOAc/MeCN 10 : 1",
+     "loc": "Table 1 footnote",
+     "s": "3.3 mL EtOAc/MeCN 10 : 1"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Table 1 r9 c4",
+     "s": "EPS, 24 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 1 r9 c4",
+     "s": "EPS, 24 h"
+    },
+    "wavelength_nm": {
+     "v": 456,
+     "loc": "Table 1 footnote",
+     "s": "irradiation (456 nm)"
+    },
+    "yield_basis": {
+     "v": "GC-FID yield on 1 mmol PS in monomer units",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 15,
+     "loc": "Table 1 r9 c5",
+     "s": "15 %",
+     "u": "%"
+    },
+    "acetophenone": {
+     "v": 3,
+     "loc": "Table 1 r9 c6",
+     "s": "3 %",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.",
+    "SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).",
+    "MA loading '2×1' (two batches at 12 h intervals, footnote e) - total loading ambiguous (2 mol% given twice per text ¶3, but printed '2×1'); catalyst_loading null.",
+    "EPS waste sample; slot is_control false is correct (not a control).",
+    "Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it."
+   ]
+  },
+  {
+   "rid": "j",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Table 1 r10 c4",
+     "s": "O2 flow, 50 h"
+    },
+    "catalyst": {
+     "v": "9-mesityl-10-methylacridinium perchlorate (MA)",
+     "loc": "abstract",
+     "s": "9-mesityl-10-methylacridinium perchlorate (MA)"
+    },
+    "catalyst_loading": {
+     "v": 10,
+     "loc": "Table 1 r10 c3",
+     "s": "10"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 1",
+     "s": "MA\n\n(mol %)"
+    },
+    "concentration": {
+     "v": 0.303,
+     "loc": "Results and Discussion ¶3",
+     "s": "concentrated PS solutions (0.303 M in repeating unit)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Results and Discussion ¶3",
+     "s": "0.303 M in repeating unit"
+    },
+    "disp_after": {
+     "v": 1.95,
+     "loc": "Table 1 r10 c7",
+     "s": "120\n1.95"
+    },
+    "disp_before": {
+     "v": 1.07,
+     "loc": "Table 1 r10 c2",
+     "s": "1 700\n1.07"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "456 nm LED (50 W)",
+     "loc": "Results and Discussion ¶2",
+     "s": "a 456 nm LED source (50 W, providing a light flux of 1.2×10-6 Einstein)"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mn_after": {
+     "v": 120,
+     "loc": "Table 1 r10 c7",
+     "s": "120\n1.95"
+    },
+    "mn_before": {
+     "v": 1700,
+     "loc": "Table 1 r10 c2",
+     "s": "1 700\n1.07"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Table 1 caption",
+     "s": "molar masses of PS chains"
+    },
+    "polymer_detail": {
+     "v": "anionic PS, Mn 1 700 g/mol, Đ 1.07",
+     "loc": "Table 1 r10 c2",
+     "s": "1 700\n1.07"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "acetophenone",
+      "formic acid"
+     ],
+     "loc": "Results and Discussion ¶3",
+     "s": "including BAc, ACP, and formic acid (FA, Figure 2)"
+    },
+    "sec_calibration": {
+     "v": "not_reported",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "solvent": {
+     "v": "EtOAc/MeCN 10 : 1",
+     "loc": "Table 1 footnote",
+     "s": "3.3 mL EtOAc/MeCN 10 : 1"
+    },
+    "time": {
+     "v": 50,
+     "loc": "Table 1 r10 c4",
+     "s": "O2 flow, 50 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 1 r10 c4",
+     "s": "O2 flow, 50 h"
+    },
+    "wavelength_nm": {
+     "v": 456,
+     "loc": "Table 1 footnote",
+     "s": "irradiation (456 nm)"
+    },
+    "yield_basis": {
+     "v": "GC-FID yield on 1 mmol PS in monomer units",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 38.7,
+     "loc": "Table 1 r10 c5",
+     "s": "38.7 %",
+     "u": "%"
+    },
+    "acetophenone": {
+     "v": 1,
+     "loc": "Table 1 r10 c6",
+     "s": "1 %",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.",
+    "SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).",
+    "Text ¶7 calls this the anionically synthesized PS (Mn=1.7 kg mol-1); synthesis origin linked by Mn only.",
+    "O2 flow rather than static O2 atmosphere; 10 mol% MA.",
+    "Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it."
+   ]
+  },
+  {
+   "rid": "k",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Table 1 footnote",
+     "s": "under oxygen atmosphere unless stated otherwise"
+    },
+    "catalyst": {
+     "v": "9-mesityl-10-methylacridinium perchlorate (MA)",
+     "loc": "abstract",
+     "s": "9-mesityl-10-methylacridinium perchlorate (MA)"
+    },
+    "catalyst_loading": {
+     "v": 2,
+     "loc": "Table 1 r11 c3",
+     "s": "2"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 1",
+     "s": "MA\n\n(mol %)"
+    },
+    "concentration": {
+     "v": 0.303,
+     "loc": "Results and Discussion ¶3",
+     "s": "concentrated PS solutions (0.303 M in repeating unit)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Results and Discussion ¶3",
+     "s": "0.303 M in repeating unit"
+    },
+    "disp_after": {
+     "v": 3.12,
+     "loc": "Table 1 r11 c7",
+     "s": "300\n3.12"
+    },
+    "disp_before": {
+     "v": 1.07,
+     "loc": "Table 1 r11 c2",
+     "s": "1 700\n1.07"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "456 nm LED (50 W)",
+     "loc": "Results and Discussion ¶2",
+     "s": "a 456 nm LED source (50 W, providing a light flux of 1.2×10-6 Einstein)"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mn_after": {
+     "v": 300,
+     "loc": "Table 1 r11 c7",
+     "s": "300\n3.12"
+    },
+    "mn_before": {
+     "v": 1700,
+     "loc": "Table 1 r11 c2",
+     "s": "1 700\n1.07"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Table 1 caption",
+     "s": "molar masses of PS chains"
+    },
+    "polymer_detail": {
+     "v": "anionic PS, Mn 1 700 g/mol, Đ 1.07",
+     "loc": "Table 1 r11 c2",
+     "s": "1 700\n1.07"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "acetophenone",
+      "formic acid"
+     ],
+     "loc": "Results and Discussion ¶3",
+     "s": "including BAc, ACP, and formic acid (FA, Figure 2)"
+    },
+    "sec_calibration": {
+     "v": "not_reported",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "solvent": {
+     "v": "EtOAc/MeCN 10 : 1",
+     "loc": "Table 1 footnote",
+     "s": "3.3 mL EtOAc/MeCN 10 : 1"
+    },
+    "time": {
+     "v": 15,
+     "loc": "Table 1 r11 c4",
+     "s": "15 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 1 r11 c4",
+     "s": "15 h"
+    },
+    "wavelength_nm": {
+     "v": 456,
+     "loc": "Table 1 footnote",
+     "s": "irradiation (456 nm)"
+    },
+    "yield_basis": {
+     "v": "GC-FID yield on 1 mmol PS in monomer units",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 10.6,
+     "loc": "Table 1 r11 c5",
+     "s": "10.6 %",
+     "u": "%"
+    },
+    "acetophenone": {
+     "v": 1.9,
+     "loc": "Table 1 r11 c6",
+     "s": "1.9 %",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.",
+    "SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).",
+    "Text ¶7 calls this the anionically synthesized PS (Mn=1.7 kg mol-1); synthesis origin linked by Mn only.",
+    "Text ¶7 gives additional 1 h data for these anionic PS samples (1.1 %/1.1 % and <0.1 %/0.5 %) - separate time point, not this record.",
+    "Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it."
+   ]
+  },
+  {
+   "rid": "l",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Table 1 footnote",
+     "s": "under oxygen atmosphere unless stated otherwise"
+    },
+    "catalyst": {
+     "v": "9-mesityl-10-methylacridinium perchlorate (MA)",
+     "loc": "abstract",
+     "s": "9-mesityl-10-methylacridinium perchlorate (MA)"
+    },
+    "catalyst_loading": {
+     "v": 2,
+     "loc": "Table 1 r12 c3",
+     "s": "2"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 1",
+     "s": "MA\n\n(mol %)"
+    },
+    "concentration": {
+     "v": 0.303,
+     "loc": "Results and Discussion ¶3",
+     "s": "concentrated PS solutions (0.303 M in repeating unit)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Results and Discussion ¶3",
+     "s": "0.303 M in repeating unit"
+    },
+    "disp_after": {
+     "v": 3.43,
+     "loc": "Table 1 r12 c7",
+     "s": "662\n3.43"
+    },
+    "disp_before": {
+     "v": 1.06,
+     "loc": "Table 1 r12 c2",
+     "s": "135 400\n1.06"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "456 nm LED (50 W)",
+     "loc": "Results and Discussion ¶2",
+     "s": "a 456 nm LED source (50 W, providing a light flux of 1.2×10-6 Einstein)"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mn_after": {
+     "v": 662,
+     "loc": "Table 1 r12 c7",
+     "s": "662\n3.43"
+    },
+    "mn_before": {
+     "v": 135400,
+     "loc": "Table 1 r12 c2",
+     "s": "135 400\n1.06"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Table 1 caption",
+     "s": "molar masses of PS chains"
+    },
+    "polymer_detail": {
+     "v": "anionic PS, Mn 135 400 g/mol, Đ 1.06",
+     "loc": "Table 1 r12 c2",
+     "s": "135 400\n1.06"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "acetophenone",
+      "formic acid"
+     ],
+     "loc": "Results and Discussion ¶3",
+     "s": "including BAc, ACP, and formic acid (FA, Figure 2)"
+    },
+    "sec_calibration": {
+     "v": "not_reported",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "solvent": {
+     "v": "EtOAc/MeCN 10 : 1",
+     "loc": "Table 1 footnote",
+     "s": "3.3 mL EtOAc/MeCN 10 : 1"
+    },
+    "time": {
+     "v": 15,
+     "loc": "Table 1 r12 c4",
+     "s": "15 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 1 r12 c4",
+     "s": "15 h"
+    },
+    "wavelength_nm": {
+     "v": 456,
+     "loc": "Table 1 footnote",
+     "s": "irradiation (456 nm)"
+    },
+    "yield_basis": {
+     "v": "GC-FID yield on 1 mmol PS in monomer units",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 6.6,
+     "loc": "Table 1 r12 c5",
+     "s": "6.6 %",
+     "u": "%"
+    },
+    "acetophenone": {
+     "v": 1.6,
+     "loc": "Table 1 r12 c6",
+     "s": "1.6 %",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.",
+    "SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).",
+    "Linked to anionic PS (Mn=135 kg mol-1, ¶7) by Mn only.",
+    "Text ¶7 gives additional 1 h data for these anionic PS samples (1.1 %/1.1 % and <0.1 %/0.5 %) - separate time point, not this record.",
+    "Footnote a: 456 nm for all entries 'unless stated otherwise'; ¶2 also mentions a Xe-Hg merry-go-round setup without saying which entries used it."
+   ]
+  },
+  {
+   "rid": "m",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Table 1 footnote",
+     "s": "under oxygen atmosphere unless stated otherwise"
+    },
+    "catalyst": {
+     "v": "9-mesityl-10-methylacridinium perchlorate (MA)",
+     "loc": "abstract",
+     "s": "9-mesityl-10-methylacridinium perchlorate (MA)"
+    },
+    "catalyst_loading": {
+     "v": 1,
+     "loc": "Table 1 r13 c3",
+     "s": "1"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table 1",
+     "s": "MA\n\n(mol %)"
+    },
+    "concentration": {
+     "v": 0.303,
+     "loc": "Results and Discussion ¶3",
+     "s": "concentrated PS solutions (0.303 M in repeating unit)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Results and Discussion ¶3",
+     "s": "0.303 M in repeating unit"
+    },
+    "disp_after": {
+     "v": 6.05,
+     "loc": "Table 1 r13 c7",
+     "s": "450\n6.05"
+    },
+    "disp_before": {
+     "v": 1.98,
+     "loc": "Table 1 r13 c2",
+     "s": "99 000\n1.98"
+    },
+    "light_source": {
+     "v": "Q-sun solar simulator",
+     "loc": "Table 1 r13 c4",
+     "s": "Q-sun, 44 h"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 1",
+     "s": "(g/mol) Đ"
+    },
+    "mn_after": {
+     "v": 450,
+     "loc": "Table 1 r13 c7",
+     "s": "450\n6.05"
+    },
+    "mn_before": {
+     "v": 99000,
+     "loc": "Table 1 r13 c2",
+     "s": "99 000\n1.98"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Table 1 caption",
+     "s": "molar masses of PS chains"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mn 99 000 g/mol, Đ 1.98",
+     "loc": "Figure 2 caption",
+     "s": "a commercial PS (M n=99 000 g/mol; Mp=215 100 g/mol; Đ=1.98)"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "acetophenone",
+      "formic acid"
+     ],
+     "loc": "Results and Discussion ¶3",
+     "s": "including BAc, ACP, and formic acid (FA, Figure 2)"
+    },
+    "sec_calibration": {
+     "v": "not_reported",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table 1 footnote",
+     "s": "determined by SEC in THF"
+    },
+    "solvent": {
+     "v": "EtOAc/MeCN 10 : 1",
+     "loc": "Table 1 footnote",
+     "s": "3.3 mL EtOAc/MeCN 10 : 1"
+    },
+    "time": {
+     "v": 44,
+     "loc": "Table 1 r13 c4",
+     "s": "Q-sun, 44 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 1 r13 c4",
+     "s": "Q-sun, 44 h"
+    },
+    "yield_basis": {
+     "v": "GC-FID yield on 1 mmol PS in monomer units",
+     "loc": "Table 1 footnote",
+     "s": "Yields determined by GC-FID"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 9.8,
+     "loc": "Table 1 r13 c5",
+     "s": "9.8 %",
+     "u": "%"
+    },
+    "acetophenone": {
+     "v": 2.9,
+     "loc": "Table 1 r13 c6",
+     "s": "2.9 %",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Irradiance not given as power per area; only '50 W' LED and 'light flux of 1.2×10-6 Einstein' (no time/area unit) in ¶2 - recorded null.",
+    "SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).",
+    "Solar-simulator run; ¶10 gives 500 Wm-2 and ca. 70 °C for the yoghurt-cup solar experiment, but entry 13 uses commercial PS (Mn 99 000); not certain those settings apply to this entry. Atmosphere for Q-sun run may be O2 sparged every 2 h (¶10), not stated for entry 13."
+   ]
+  }
+ ],
+ "paper_concerns": [
+  "Text ¶3: prolonged irradiation with 10 mol% MA gave 39 % BAc (Figure S31) - probably entry 10 (38.7 %) rounded, otherwise SI-only.",
+  "Text ¶3: two-batch addition gave 25 % (= entry 4). Abstract/conclusion '40 %' is a rounded figure.",
+  "1 h yields for anionic PS (¶7: Mn 135 kg/mol 1.1 % BAc and 1.1 % ACP; Mn 1.7 kg/mol <0.1 % BAc and 0.5 % ACP) are textual data not covered by any task; conditions only implied.",
+  "Oligomer re-irradiation without MA (Mn 2500 g/mol, Fig. 4b) and solar waste results (Fig. 5) are figure-only.",
+  "Formic acid is a product (equal amount to BAc, ¶8) but has no tabulated yield.",
+  "Table 1 column 2/7 cells hold Mn and Đ together, Mn values use thin-space thousands separators."
+ ]
+}

@@ -34,6 +34,22 @@ import sys
 import requests
 
 
+def _require_authorization(sandbox=False):
+    """PhotoDeg-Bench: public releases need the author's signed authorization and a passing readiness gate."""
+    import json as _j
+    import subprocess as _sp
+    import sys as _sys
+    from pathlib import Path as _P
+    root = _P(__file__).resolve().parents[1]
+    if sandbox:
+        return
+    if not (root / "release/AUTHORIZATION.json").exists():
+        _sys.exit("refused: release/AUTHORIZATION.json (the author's authorization) is missing")
+    r = _sp.run([_sys.executable, str(root / "tools/release_gate.py"), "--mode", "publish"], cwd=root)
+    if r.returncode != 0:
+        _sys.exit("refused: tools/release_gate.py --mode publish did not pass")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--files", nargs="+", required=True)
@@ -44,6 +60,8 @@ def main():
     ap.add_argument("--authors", default="AUTHORS.json",
                     help="author block to build creators from when metadata has none (default: AUTHORS.json)")
     a = ap.parse_args()
+    if a.publish:
+        _require_authorization(sandbox=a.sandbox)
 
     base = "https://sandbox.zenodo.org/api" if a.sandbox else "https://zenodo.org/api"
     env = "ZENODO_SANDBOX_TOKEN" if a.sandbox else "ZENODO_TOKEN"

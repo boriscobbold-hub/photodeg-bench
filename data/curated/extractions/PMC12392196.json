@@ -1,0 +1,35 @@
+{
+ "paper_key": "PMC12392196",
+ "paper_id": "10.1021/acsomega.5c02744",
+ "doi": "10.1021/acsomega.5c02744",
+ "pmcid": "PMC12392196",
+ "source_license": "cc by",
+ "extractor": "Claude (AI) extraction agent D, 2026-10-12 (re-screen batch)",
+ "extraction_method": "full-text screen (no records)",
+ "screen": {
+  "decision": "exclude",
+  "criteria": "E3",
+  "confidence": "high",
+  "rationale": "Primary study, but PS microplastic photodegradation was run only under a 365 nm (λmax) 8 W UVA lamp; the Xe lamp was used only for bacterial inactivation. Outcomes would also fail E5: only FTIR carbonyl/peroxyl index changes, TOC mineralization (~20% / ~8%, figure) and qualitative NMR (SI).",
+  "evidence_loc": "Materials and Methods > Photoinduced Degradation Experiments ¶1"
+ },
+ "shared": {},
+ "records": [],
+ "excluded_observations": [
+  {
+   "what": "CI/PI relative changes (e.g. IVAN ~22% and ~86%)",
+   "why": "UV-only light (E3); carbonyl/peroxyl index is not an E5 endpoint.",
+   "loc": "Results and Discussion ¶4"
+  },
+  {
+   "what": "TOC mineralization ~20% (TiO2-P25), ~8% (IVAN)",
+   "why": "UV-only light; mineralization/TOC is not an E5 endpoint; values in figure.",
+   "loc": "Results and Discussion ¶4"
+  },
+  {
+   "what": "ICP-OES metal leaching",
+   "why": "Not a polymer endpoint.",
+   "loc": "1 [TABLE]"
+  }
+ ]
+}

@@ -1,0 +1,1039 @@
+{
+ "pmcid": "PMC10793207",
+ "verifier": "Claude (AI) independent verifier 2, 2026-10-12",
+ "tasks": [
+  {
+   "rid": "a",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Results and discussion ¶1",
+     "s": "under an O2 atmosphere (entry 1)"
+    },
+    "catalyst": {
+     "v": "Ph-Acr-Ph",
+     "loc": "Results and discussion ¶1",
+     "s": "Ph-Acr-Ph (10 mol% w.r.t. PS monomers)"
+    },
+    "catalyst_loading": {
+     "v": 10,
+     "loc": "Table r1 c2",
+     "s": "10"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table",
+     "s": "Ph-Acr-Ph loadinga (mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "HCl 10 mol%",
+     "loc": "Table r1 c3",
+     "s": "HCl (10)"
+    },
+    "light_source": {
+     "v": "390 nm LED",
+     "loc": "Results and discussion ¶1",
+     "s": "irradiated with a 390 nm LED light source"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and discussion ¶1",
+     "s": "commercial PS resins"
+    },
+    "polymer_detail": {
+     "v": "commercial PS resin, Mn 42.7 kDa (GPC)",
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa by GPC analysis"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "formic acid"
+     ],
+     "loc": "Results and discussion ¶1",
+     "s": "afforded BA in 33% yield as the dominant aromatic product, with some formic acid detected"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "Table footnote",
+     "s": "against monodisperse polystyrene standards"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table footnote",
+     "s": "GPC analysis with THF as the mobile phase"
+    },
+    "solvent": {
+     "v": "DCE/MeCN 6 : 1 (v/v)",
+     "loc": "Results and discussion ¶2",
+     "s": "The best BA yields were obtained using DCE/MeCN 6 : 1 (v/v)"
+    },
+    "temperature_c": {
+     "v": 35,
+     "loc": "Table footnote",
+     "s": "the reaction temperature was maintained at (∼35 ± 1) °C"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h under an O2 atmosphere (entry 1)"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h"
+    },
+    "wavelength_nm": {
+     "v": 390,
+     "loc": "Results and discussion ¶1",
+     "s": "390 nm LED light source"
+    },
+    "yield_basis": {
+     "v": "quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",
+     "loc": "Table footnote",
+     "s": "Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 33,
+     "loc": "Table r1 c5",
+     "s": "33",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly.",
+    "Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat).",
+    "Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).",
+    "Mn after is reported only as <0.30e,f (below accurate GPC range) - not a numeric value."
+   ]
+  },
+  {
+   "rid": "b",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Results and discussion ¶1",
+     "s": "under an O2 atmosphere (entry 1)"
+    },
+    "catalyst": null,
+    "catalyst_loading_unit": null,
+    "cocatalyst_additives": {
+     "v": "HCl 10 mol%",
+     "loc": "Table r2 c3",
+     "s": "HCl (10)"
+    },
+    "light_source": {
+     "v": "390 nm LED",
+     "loc": "Results and discussion ¶1",
+     "s": "irradiated with a 390 nm LED light source"
+    },
+    "mass_unit_after": {
+     "v": "kDa",
+     "loc": "Table",
+     "s": "(kDa)"
+    },
+    "mass_unit_before": {
+     "v": "kDa",
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa"
+    },
+    "mn_after": {
+     "v": 1.71,
+     "loc": "Table r2 c6",
+     "s": "1.71"
+    },
+    "mn_before": {
+     "v": 42.7,
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and discussion ¶1",
+     "s": "commercial PS resins"
+    },
+    "polymer_detail": {
+     "v": "commercial PS resin, Mn 42.7 kDa (GPC)",
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa by GPC analysis"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "formic acid"
+     ],
+     "loc": "Results and discussion ¶1",
+     "s": "afforded BA in 33% yield as the dominant aromatic product, with some formic acid detected"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "Table footnote",
+     "s": "against monodisperse polystyrene standards"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table footnote",
+     "s": "GPC analysis with THF as the mobile phase"
+    },
+    "solvent": {
+     "v": "DCE/MeCN 6 : 1 (v/v)",
+     "loc": "Results and discussion ¶2",
+     "s": "The best BA yields were obtained using DCE/MeCN 6 : 1 (v/v)"
+    },
+    "temperature_c": {
+     "v": 35,
+     "loc": "Table footnote",
+     "s": "the reaction temperature was maintained at (∼35 ± 1) °C"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h under an O2 atmosphere (entry 1)"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h"
+    },
+    "wavelength_nm": {
+     "v": 390,
+     "loc": "Results and discussion ¶1",
+     "s": "390 nm LED light source"
+    },
+    "yield_basis": {
+     "v": "quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",
+     "loc": "Table footnote",
+     "s": "Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 6,
+     "loc": "Table r2 c5",
+     "s": "6",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly.",
+    "Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat).",
+    "Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).",
+    "No-catalyst control (Ph-Acr-Ph loading '-'); catalyst null. Mn after 1.71 kDa."
+   ]
+  },
+  {
+   "rid": "c",
+   "values": {
+    "atmosphere": {
+     "v": "Ar",
+     "loc": "Table r3 c4",
+     "s": "Argon atmosphere"
+    },
+    "catalyst": {
+     "v": "Ph-Acr-Ph",
+     "loc": "Results and discussion ¶1",
+     "s": "Ph-Acr-Ph (10 mol% w.r.t. PS monomers)"
+    },
+    "catalyst_loading": {
+     "v": 10,
+     "loc": "Table r3 c2",
+     "s": "10"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table",
+     "s": "Ph-Acr-Ph loadinga (mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "HCl 10 mol%",
+     "loc": "Table r3 c3",
+     "s": "HCl (10)"
+    },
+    "light_source": {
+     "v": "390 nm LED",
+     "loc": "Results and discussion ¶1",
+     "s": "irradiated with a 390 nm LED light source"
+    },
+    "mass_unit_after": {
+     "v": "kDa",
+     "loc": "Table",
+     "s": "(kDa)"
+    },
+    "mass_unit_before": {
+     "v": "kDa",
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa"
+    },
+    "mn_after": {
+     "v": 6.9,
+     "loc": "Table r3 c6",
+     "s": "6.90"
+    },
+    "mn_before": {
+     "v": 42.7,
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and discussion ¶1",
+     "s": "commercial PS resins"
+    },
+    "polymer_detail": {
+     "v": "commercial PS resin, Mn 42.7 kDa (GPC)",
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa by GPC analysis"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "formic acid"
+     ],
+     "loc": "Results and discussion ¶1",
+     "s": "afforded BA in 33% yield as the dominant aromatic product, with some formic acid detected"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "Table footnote",
+     "s": "against monodisperse polystyrene standards"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table footnote",
+     "s": "GPC analysis with THF as the mobile phase"
+    },
+    "solvent": {
+     "v": "DCE/MeCN 6 : 1 (v/v)",
+     "loc": "Results and discussion ¶2",
+     "s": "The best BA yields were obtained using DCE/MeCN 6 : 1 (v/v)"
+    },
+    "temperature_c": {
+     "v": 35,
+     "loc": "Table footnote",
+     "s": "the reaction temperature was maintained at (∼35 ± 1) °C"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h under an O2 atmosphere (entry 1)"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h"
+    },
+    "wavelength_nm": {
+     "v": 390,
+     "loc": "Results and discussion ¶1",
+     "s": "390 nm LED light source"
+    },
+    "yield_basis": {
+     "v": "quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",
+     "loc": "Table footnote",
+     "s": "Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 0,
+     "loc": "Table r3 c5",
+     "s": "0",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly.",
+    "Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat).",
+    "Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).",
+    "Ar atmosphere control; Mn 6.90 kDa equals the 1 h Ph-Acr-Ph time-course Mn quoted in ¶7 (6.90 kDa) - check for possible confusion, though both are printed."
+   ]
+  },
+  {
+   "rid": "d",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Results and discussion ¶1",
+     "s": "under an O2 atmosphere (entry 1)"
+    },
+    "catalyst": {
+     "v": "Ph-Acr-Ph",
+     "loc": "Results and discussion ¶1",
+     "s": "Ph-Acr-Ph (10 mol% w.r.t. PS monomers)"
+    },
+    "catalyst_loading": {
+     "v": 10,
+     "loc": "Table r4 c2",
+     "s": "10"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table",
+     "s": "Ph-Acr-Ph loadinga (mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "HCl 10 mol%",
+     "loc": "Table r4 c3",
+     "s": "HCl (10)"
+    },
+    "light_source": {
+     "v": "none (dark)",
+     "loc": "Table r4 c4",
+     "s": "Reaction in the dark"
+    },
+    "mass_unit_after": {
+     "v": "kDa",
+     "loc": "Table",
+     "s": "(kDa)"
+    },
+    "mass_unit_before": {
+     "v": "kDa",
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa"
+    },
+    "mn_after": {
+     "v": 42.3,
+     "loc": "Table r4 c6",
+     "s": "42.3"
+    },
+    "mn_before": {
+     "v": 42.7,
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and discussion ¶1",
+     "s": "commercial PS resins"
+    },
+    "polymer_detail": {
+     "v": "commercial PS resin, Mn 42.7 kDa (GPC)",
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa by GPC analysis"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "formic acid"
+     ],
+     "loc": "Results and discussion ¶1",
+     "s": "afforded BA in 33% yield as the dominant aromatic product, with some formic acid detected"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "Table footnote",
+     "s": "against monodisperse polystyrene standards"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table footnote",
+     "s": "GPC analysis with THF as the mobile phase"
+    },
+    "solvent": {
+     "v": "DCE/MeCN 6 : 1 (v/v)",
+     "loc": "Results and discussion ¶2",
+     "s": "The best BA yields were obtained using DCE/MeCN 6 : 1 (v/v)"
+    },
+    "temperature_c": {
+     "v": 35,
+     "loc": "Table footnote",
+     "s": "the reaction temperature was maintained at (∼35 ± 1) °C"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h under an O2 atmosphere (entry 1)"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h"
+    },
+    "yield_basis": {
+     "v": "quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",
+     "loc": "Table footnote",
+     "s": "Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 0,
+     "loc": "Table r4 c5",
+     "s": "0",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly.",
+    "Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat).",
+    "Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).",
+    "Dark control: light_source = none; time 24 h assumed from standard conditions; temperature 35 °C stated as caused by LED heating, so may not apply to the dark run."
+   ]
+  },
+  {
+   "rid": "e",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Results and discussion ¶1",
+     "s": "under an O2 atmosphere (entry 1)"
+    },
+    "catalyst": {
+     "v": "Ph-Acr-Ph",
+     "loc": "Results and discussion ¶1",
+     "s": "Ph-Acr-Ph (10 mol% w.r.t. PS monomers)"
+    },
+    "catalyst_loading": {
+     "v": 10,
+     "loc": "Table r5 c2",
+     "s": "10"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table",
+     "s": "Ph-Acr-Ph loadinga (mol%)"
+    },
+    "cocatalyst_additives": null,
+    "light_source": {
+     "v": "390 nm LED",
+     "loc": "Results and discussion ¶1",
+     "s": "irradiated with a 390 nm LED light source"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and discussion ¶1",
+     "s": "commercial PS resins"
+    },
+    "polymer_detail": {
+     "v": "commercial PS resin, Mn 42.7 kDa (GPC)",
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa by GPC analysis"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "formic acid"
+     ],
+     "loc": "Results and discussion ¶1",
+     "s": "afforded BA in 33% yield as the dominant aromatic product, with some formic acid detected"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "Table footnote",
+     "s": "against monodisperse polystyrene standards"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table footnote",
+     "s": "GPC analysis with THF as the mobile phase"
+    },
+    "solvent": {
+     "v": "DCE/MeCN 6 : 1 (v/v)",
+     "loc": "Results and discussion ¶2",
+     "s": "The best BA yields were obtained using DCE/MeCN 6 : 1 (v/v)"
+    },
+    "temperature_c": {
+     "v": 35,
+     "loc": "Table footnote",
+     "s": "the reaction temperature was maintained at (∼35 ± 1) °C"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h under an O2 atmosphere (entry 1)"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h"
+    },
+    "wavelength_nm": {
+     "v": 390,
+     "loc": "Results and discussion ¶1",
+     "s": "390 nm LED light source"
+    },
+    "yield_basis": {
+     "v": "quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",
+     "loc": "Table footnote",
+     "s": "Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 20,
+     "loc": "Table r5 c5",
+     "s": "20",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly.",
+    "Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat).",
+    "Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).",
+    "No-acid run (Ph-Acr-Ph 10 mol%, no HCl); slot says is_control true, protocol lists 'no additive' as a control, consistent.",
+    "Mn after is reported only as <0.30e,f (below accurate GPC range) - not a numeric value."
+   ]
+  },
+  {
+   "rid": "f",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Results and discussion ¶1",
+     "s": "under an O2 atmosphere (entry 1)"
+    },
+    "catalyst": {
+     "v": "Ph-Acr-Ph",
+     "loc": "Results and discussion ¶1",
+     "s": "Ph-Acr-Ph (10 mol% w.r.t. PS monomers)"
+    },
+    "catalyst_loading": {
+     "v": 5,
+     "loc": "Table r6 c2",
+     "s": "5"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table",
+     "s": "Ph-Acr-Ph loadinga (mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "HCl 200 mol%",
+     "loc": "Table r6 c3",
+     "s": "HCl (200)"
+    },
+    "light_source": {
+     "v": "390 nm LED",
+     "loc": "Results and discussion ¶1",
+     "s": "irradiated with a 390 nm LED light source"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and discussion ¶1",
+     "s": "commercial PS resins"
+    },
+    "polymer_detail": {
+     "v": "commercial PS resin, Mn 42.7 kDa (GPC)",
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa by GPC analysis"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "formic acid"
+     ],
+     "loc": "Results and discussion ¶1",
+     "s": "afforded BA in 33% yield as the dominant aromatic product, with some formic acid detected"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "Table footnote",
+     "s": "against monodisperse polystyrene standards"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table footnote",
+     "s": "GPC analysis with THF as the mobile phase"
+    },
+    "solvent": {
+     "v": "DCE/MeCN 6 : 1 (v/v)",
+     "loc": "Results and discussion ¶2",
+     "s": "The best BA yields were obtained using DCE/MeCN 6 : 1 (v/v)"
+    },
+    "temperature_c": {
+     "v": 35,
+     "loc": "Table footnote",
+     "s": "the reaction temperature was maintained at (∼35 ± 1) °C"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h under an O2 atmosphere (entry 1)"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h"
+    },
+    "wavelength_nm": {
+     "v": 390,
+     "loc": "Results and discussion ¶1",
+     "s": "390 nm LED light source"
+    },
+    "yield_basis": {
+     "v": "quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",
+     "loc": "Table footnote",
+     "s": "Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 46,
+     "loc": "Table r6 c5",
+     "s": "46",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly.",
+    "Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat).",
+    "Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).",
+    "Mn after is reported only as <0.30e,f (below accurate GPC range) - not a numeric value.",
+    "Fig. 1B caption says some yields are averages of two repeats; not stated for Table 1 entries."
+   ]
+  },
+  {
+   "rid": "g",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Results and discussion ¶1",
+     "s": "under an O2 atmosphere (entry 1)"
+    },
+    "catalyst": {
+     "v": "Ph-Acr-Ph",
+     "loc": "Results and discussion ¶1",
+     "s": "Ph-Acr-Ph (10 mol% w.r.t. PS monomers)"
+    },
+    "catalyst_loading": {
+     "v": 5,
+     "loc": "Table r7 c2",
+     "s": "5"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table",
+     "s": "Ph-Acr-Ph loadinga (mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "HCl 500 mol%",
+     "loc": "Table r7 c3",
+     "s": "HCl (500)"
+    },
+    "light_source": {
+     "v": "390 nm LED",
+     "loc": "Results and discussion ¶1",
+     "s": "irradiated with a 390 nm LED light source"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and discussion ¶1",
+     "s": "commercial PS resins"
+    },
+    "polymer_detail": {
+     "v": "commercial PS resin, Mn 42.7 kDa (GPC)",
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa by GPC analysis"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "formic acid"
+     ],
+     "loc": "Results and discussion ¶1",
+     "s": "afforded BA in 33% yield as the dominant aromatic product, with some formic acid detected"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "Table footnote",
+     "s": "against monodisperse polystyrene standards"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table footnote",
+     "s": "GPC analysis with THF as the mobile phase"
+    },
+    "solvent": {
+     "v": "DCE/MeCN 6 : 1 (v/v)",
+     "loc": "Results and discussion ¶2",
+     "s": "The best BA yields were obtained using DCE/MeCN 6 : 1 (v/v)"
+    },
+    "temperature_c": {
+     "v": 35,
+     "loc": "Table footnote",
+     "s": "the reaction temperature was maintained at (∼35 ± 1) °C"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h under an O2 atmosphere (entry 1)"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h"
+    },
+    "wavelength_nm": {
+     "v": 390,
+     "loc": "Results and discussion ¶1",
+     "s": "390 nm LED light source"
+    },
+    "yield_basis": {
+     "v": "quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",
+     "loc": "Table footnote",
+     "s": "Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 50,
+     "loc": "Table r7 c5",
+     "s": "50",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly.",
+    "Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat).",
+    "Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).",
+    "Mn after is reported only as <0.30e,f (below accurate GPC range) - not a numeric value.",
+    "Fig. 1B caption says some yields are averages of two repeats; not stated for Table 1 entries."
+   ]
+  },
+  {
+   "rid": "h",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Results and discussion ¶1",
+     "s": "under an O2 atmosphere (entry 1)"
+    },
+    "catalyst": {
+     "v": "Ph-Acr-Ph",
+     "loc": "Results and discussion ¶1",
+     "s": "Ph-Acr-Ph (10 mol% w.r.t. PS monomers)"
+    },
+    "catalyst_loading": {
+     "v": 5,
+     "loc": "Table r8 c2",
+     "s": "5"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table",
+     "s": "Ph-Acr-Ph loadinga (mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "HBr 200 mol%",
+     "loc": "Table r8 c3",
+     "s": "HBr (200)"
+    },
+    "light_source": {
+     "v": "390 nm LED",
+     "loc": "Results and discussion ¶1",
+     "s": "irradiated with a 390 nm LED light source"
+    },
+    "mass_unit_after": {
+     "v": "kDa",
+     "loc": "Table",
+     "s": "(kDa)"
+    },
+    "mass_unit_before": {
+     "v": "kDa",
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa"
+    },
+    "mn_after": {
+     "v": 5.56,
+     "loc": "Table r8 c6",
+     "s": "5.56f"
+    },
+    "mn_before": {
+     "v": 42.7,
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and discussion ¶1",
+     "s": "commercial PS resins"
+    },
+    "polymer_detail": {
+     "v": "commercial PS resin, Mn 42.7 kDa (GPC)",
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa by GPC analysis"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "formic acid"
+     ],
+     "loc": "Results and discussion ¶1",
+     "s": "afforded BA in 33% yield as the dominant aromatic product, with some formic acid detected"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "Table footnote",
+     "s": "against monodisperse polystyrene standards"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table footnote",
+     "s": "GPC analysis with THF as the mobile phase"
+    },
+    "solvent": {
+     "v": "DCE/MeCN 6 : 1 (v/v)",
+     "loc": "Results and discussion ¶2",
+     "s": "The best BA yields were obtained using DCE/MeCN 6 : 1 (v/v)"
+    },
+    "temperature_c": {
+     "v": 35,
+     "loc": "Table footnote",
+     "s": "the reaction temperature was maintained at (∼35 ± 1) °C"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h under an O2 atmosphere (entry 1)"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h"
+    },
+    "wavelength_nm": {
+     "v": 390,
+     "loc": "Results and discussion ¶1",
+     "s": "390 nm LED light source"
+    },
+    "yield_basis": {
+     "v": "quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",
+     "loc": "Table footnote",
+     "s": "Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 7,
+     "loc": "Table r8 c5",
+     "s": "7",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly.",
+    "Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat).",
+    "Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).",
+    "Bimodal GPC distribution (footnote f) for Mn 5.56 kDa.",
+    "Fig. 1B caption says some yields are averages of two repeats; not stated for Table 1 entries."
+   ]
+  },
+  {
+   "rid": "i",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Results and discussion ¶1",
+     "s": "under an O2 atmosphere (entry 1)"
+    },
+    "catalyst": {
+     "v": "Ph-Acr-Ph",
+     "loc": "Results and discussion ¶1",
+     "s": "Ph-Acr-Ph (10 mol% w.r.t. PS monomers)"
+    },
+    "catalyst_loading": {
+     "v": 5,
+     "loc": "Table r9 c2",
+     "s": "5"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Table",
+     "s": "Ph-Acr-Ph loadinga (mol%)"
+    },
+    "cocatalyst_additives": {
+     "v": "HCl 200 mol%",
+     "loc": "Table r9 c3",
+     "s": "HCl (200)"
+    },
+    "light_source": {
+     "v": "440 nm LED (assumed LED as in standard conditions)",
+     "loc": "Table r9 c4",
+     "s": "440 nm irradiation"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and discussion ¶1",
+     "s": "commercial PS resins"
+    },
+    "polymer_detail": {
+     "v": "commercial PS resin, Mn 42.7 kDa (GPC)",
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa by GPC analysis"
+    },
+    "products": {
+     "v": [
+      "benzoic acid",
+      "formic acid"
+     ],
+     "loc": "Results and discussion ¶1",
+     "s": "afforded BA in 33% yield as the dominant aromatic product, with some formic acid detected"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "Table footnote",
+     "s": "against monodisperse polystyrene standards"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "Table footnote",
+     "s": "GPC analysis with THF as the mobile phase"
+    },
+    "solvent": {
+     "v": "DCE/MeCN 6 : 1 (v/v)",
+     "loc": "Results and discussion ¶2",
+     "s": "The best BA yields were obtained using DCE/MeCN 6 : 1 (v/v)"
+    },
+    "temperature_c": {
+     "v": 35,
+     "loc": "Table footnote",
+     "s": "the reaction temperature was maintained at (∼35 ± 1) °C"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h under an O2 atmosphere (entry 1)"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Results and discussion ¶1",
+     "s": "for 24 h"
+    },
+    "wavelength_nm": {
+     "v": 440,
+     "loc": "Table r9 c4",
+     "s": "440 nm irradiation"
+    },
+    "yield_basis": {
+     "v": "quantitative 1H-NMR with 1,3,5-trimethoxybenzene internal standard",
+     "loc": "Table footnote",
+     "s": "Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 43,
+     "loc": "Table r9 c5",
+     "s": "43",
+     "u": "%"
+    }
+   },
+   "concerns": [
+    "Solvent, time (24 h), atmosphere, light and temperature are stated only for entry 1 (¶1) / footnote a; other entries inherit them via the 'Deviation from above conditions' column. Solvent DCE/MeCN 6:1 is inferred from ¶2 ('best BA yields were obtained using...'), not stated as the Table 1 solvent explicitly.",
+    "Temperature is approximate (∼35 ± 1 °C, LED heating, no external heat).",
+    "Yield basis relative to PS monomer units is not stated explicitly in the main text (loadings are w.r.t. PS monomers).",
+    "Mn after is reported only as <0.30f (below accurate GPC range) - not a numeric value.",
+    "Light source type for 440 nm run not stated; only '440 nm irradiation'.",
+    "Fig. 1B caption says some yields are averages of two repeats; not stated for Table 1 entries."
+   ]
+  }
+ ],
+ "paper_concerns": [
+  "FPh-Acr-Np results given in text (up to 55% BA at 5 mol%; 16.5% BA at 1 mol%, ¶6) and time-course Mn values (FPh-Acr-Np 1.26 kDa and Ph-Acr-Ph 6.90 kDa after 1 h, ¶7) are not covered by any task; their full conditions are only in Fig. 2C/2D, so they may be legitimately excluded but should appear in excluded_observations.",
+  "Real-life PS waste yields and MeOPh-Acr-Ph (0% BA) are figure/SI-only (Fig. 2C, Table S1).",
+  "390 nm is at the violet edge of the visible range; entry 9 (440 nm) is unambiguously visible.",
+  "Table has no number in the article (label printed as 'Table')."
+ ]
+}
