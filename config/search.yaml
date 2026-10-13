@@ -17,14 +17,14 @@ europepmc:
 openalex:
   # OpenAlex full-text-ish search over title/abstract. Filter keeps OA works only.
   searches:
-    - 'visible light depolymerization'
-    - 'visible light polymer degradation photocatalyst'
-    - 'photocatalytic upcycling polystyrene'
-    - 'photocatalytic plastic upcycling'
-    - 'photoredox chain scission polymer'
-    - 'light-driven depolymerization'
+    # OpenAlex boolean search over title + abstract; quoted phrases are exact.
+    - '"visible light" AND (depolymerization OR depolymerisation OR "polymer degradation" OR "chain scission" OR upcycling)'
+    - '(photocatalytic OR photoredox OR photocatalysis) AND (depolymerization OR "plastic upcycling" OR "polymer upcycling" OR "plastic waste")'
+    - '"light-driven" AND (depolymerization OR "polymer degradation" OR upcycling)'
+    - '(photooxidative OR photochemical) AND (polystyrene OR polyethylene OR polypropylene OR PMMA) AND (degradation OR depolymerization OR upcycling)'
   filter: 'is_oa:true,type:article'
   per_page: 200
+  max_pages: 10               # safety cap per search; raise if a search legitimately exceeds 2000 hits
 
 screening:
   # Title/abstract screen applied after fetch. A paper is kept as a candidate if it matches

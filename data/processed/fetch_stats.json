@@ -1,0 +1,7 @@
+{
+ "n_unique_papers": 691,
+ "n_europepmc": 277,
+ "n_openalex": 445,
+ "n_auto_screen_pass": 602,
+ "n_fulltext": 267
+}

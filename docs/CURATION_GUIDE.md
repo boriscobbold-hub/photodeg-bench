@@ -4,7 +4,9 @@
 
 ## 1. Screen papers
 
-After `01_fetch.py`, open `data/curated/screening.csv`. Each row passed an automatic title/abstract screen (light term + polymer term + outcome term) and the year floor. For each paper set:
+Start from `data/processed/triage.csv`, not the raw screening sheet. It lists the 602 auto-passed papers with on-topic full-text papers first (title and abstract mention light, a deconstruction outcome and a synthetic polymer), then by an evidence score (0-6: SEC mass values, a molar-mass table, an SEC calibration statement, a visible wavelength, a named polymer, a named catalyst). The topic flag is a regex, not a judgment: it lets through materials papers that only *use* a polymer (polyester fabric supports, PMMA fibres for dye degradation) and may miss papers that phrase things unusually. Record every decision in `screening.csv`.
+
+In `data/curated/screening.csv` (every row passed the loose automatic screen and the year floor), set for each paper:
 
 - `include`: `y` or `n`
 - `exclusion_reason` when `n` (use a short fixed vocabulary so the QA report can count them, e.g. `not visible light`, `small molecule only`, `no polymer outcome`, `review`, `UV only`, `out of scope polymer`)

@@ -16,7 +16,8 @@ SOURCES:        1. Europe PMC REST API (search + fullTextXML), https://www.ebi.a
                    Used to widen recall and to resolve DOI, license and OA location; full text is
                    taken only where Europe PMC holds the OA JATS XML.
                 Vintage: date of the fetch run, written to data/raw/PROVENANCE.txt.
-                Access date for v1.0: [VERIFY: date Boris runs 01_fetch.py]
+                Access date for v1.0 corpus: 2026-10-12 (run in the build workspace; hashes in PROVENANCE.txt).
+                [VERIFY: Boris re-runs 01_fetch.py before release, or confirms this snapshot]
 
 UNIT:           One experiment = one polymer sample x one condition set x one reported timepoint
                 in one source paper (record_id). Several records per paper are normal.
@@ -51,8 +52,10 @@ LICENSE:        Code MIT; dataset CC BY 4.0 [VERIFY: Boris confirms]. Records ca
                 source DOI and source license. No source text is redistributed: the release
                 contains reported values and locators (section / table / figure), not snippets.
 
-ASSUMPTIONS:    - Workspace could not reach Europe PMC or OpenAlex on 2026-10-07, so the fetch
-                  runs on the author's machine; no corpus statistics exist yet.
+ASSUMPTIONS:    - First fetch attempt (2026-10-07) was blocked; the corpus was fetched on
+                  2026-10-12. OpenAlex searches were tightened to quoted Boolean
+                  title+abstract queries after an unquoted search returned 11,752 mostly
+                  irrelevant works.
                 - Extraction proposes candidates only; it never writes a release record.
                 - "Week 6" release date in the brief is a plan date, not a reason to wait.
 ```

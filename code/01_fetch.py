@@ -70,7 +70,7 @@ def fetch_openalex(cfg, email, max_pages):
     for si, s in enumerate(oa["searches"]):
         cursor, page = "*", 0
         while True:
-            params = {"search": s, "filter": flt, "per_page": oa.get("per_page", 200), "cursor": cursor}
+            params = {"filter": f"{flt},title_and_abstract.search:{s}", "per_page": oa.get("per_page", 200), "cursor": cursor}
             if email:
                 params["mailto"] = email
             data = http_get(OPENALEX, params, email)
@@ -86,7 +86,10 @@ def fetch_openalex(cfg, email, max_pages):
             print(f"openalex s{si} p{page}: {len(results)} results (count {d.get('meta', {}).get('count')})")
             nxt = d.get("meta", {}).get("next_cursor")
             page += 1
-            if not results or not nxt or (max_pages and page >= max_pages):
+            cap = max_pages or oa.get("max_pages") or 0
+            if not results or not nxt or (cap and page >= cap):
+                if cap and page >= cap and nxt:
+                    print(f"  WARNING openalex s{si}: stopped at page cap {cap}; results truncated")
                 break
             cursor = nxt
     return out

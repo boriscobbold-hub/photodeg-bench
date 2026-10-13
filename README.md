@@ -1,4 +1,4 @@
-> **Status: DRAFT, pre-release.** v1.0.0 not yet released. No benchmark records yet: the corpus fetch, curation and harmonization rules are pending the curator. DOI: [DOI: added after the Zenodo deposit].
+> **Status: DRAFT, pre-release, handed to curator.** v1.0.0 not yet released. Corpus fetched 2026-10-12 (691 open-access papers, 267 with full text, 154 of those on topic); 0 records curated; harmonization rules unset. See [docs/HANDOFF.md](docs/HANDOFF.md). DOI: [DOI: added after the Zenodo deposit].
 
 # PhotoDeg-Bench
 
@@ -26,7 +26,9 @@ export PHOTODEG_EMAIL=you@example.org     # polite-pool contact for OpenAlex and
 
 python code/01_fetch.py          # corpus from Europe PMC + OpenAlex, OA JATS full text, PROVENANCE.txt
 #  -> curator screens papers in data/curated/screening.csv (include = y/n, reason)
-python code/02_extract.py        # candidate values + review sheet for included papers
+python code/02_extract.py --all-screened   # candidate values for every screened paper (before screening)
+python code/02b_triage.py        # rank papers: on-topic first, then evidence score (screening aid only)
+python code/02_extract.py        # after screening: candidates + review sheet for included papers only
 #  -> curator enters records in data/curated/records.csv, sets rules/harmonization.yaml
 python code/03_validate.py       # schema, range and provenance checks; must pass with 0 errors
 python code/04_harmonize.py      # benchmark table; refuses while any rule is unset

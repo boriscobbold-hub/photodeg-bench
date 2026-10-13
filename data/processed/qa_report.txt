@@ -1,0 +1,45 @@
+PhotoDeg-Bench QA report  v1.0  built 2026-10-12
+========================================================================
+
+1. FLOW (papers)
+  corpus (unique, both sources)        691
+    from Europe PMC / OpenAlex          277 / 445
+  passed auto-screen + year scope       602
+  with OA JATS full text                267
+  curator: included / excluded / open   0 / 0 / 602
+  included papers with >=1 record       0
+
+2. FLOW (records)
+  curated records                       0
+  in benchmark table                    0  (from 0 papers)
+
+3. COMPOSITION
+  by_polymer_class
+  by_calibration_class
+  by_wavelength_band
+  by_tier
+
+4. COMPLETENESS (benchmark records with a value)
+  primary_before               0 / 0
+  primary_after                0 / 0
+  sec_calibration              0 / 0
+  catalyst                     0 / 0
+  wavelength_nm                0 / 0
+  wavelength_band              0 / 0
+  irradiance                   0 / 0
+  solvent                      0 / 0
+  time_h                       0 / 0
+  products                     0 / 0
+  product_yields               0 / 0
+
+5. RANGE CHECKS
+  retained fraction: n=0 min=None median=None max=None
+  records where molar mass rose (retained > 1): 0 []
+
+6. SPOT CHECKS for the curator (re-check each against the source by hand)
+  random (seed 20261007): -
+  lowest retained fraction:  -
+  highest retained fraction: -
+  mass increased:            -
+
+(stats written to paper/stats.json)
