@@ -5,8 +5,8 @@
   },
   "candidates": {
    "status": "ok",
-   "inputs_sha256": "22a2b8ee5e819dc10b024604c90285bf5bebc2dec390ec233ac83b8e24ab183a",
-   "finished": "2026-10-12T21:05:57",
+   "inputs_sha256": "9efca61e0e26e8effb33ffea4d596f5ea49e436c0b653a3eda76ce047a5fb10b",
+   "finished": "2026-10-13T06:44:49",
    "log": "data/work/logs/candidates.log",
    "tail": "267 papers extracted, 52400 candidates; 335 without OA full text (curate from oa_url in data/processed/corpus.csv if wanted)\n",
    "status_note": "unchanged inputs; skipped"
@@ -14,136 +14,129 @@
   "triage": {
    "status": "ok",
    "inputs_sha256": "b9a5cfceabbdc161f0eb432800dcb163586805a39df9fb292e6fafae0db6d8c6",
-   "finished": "2026-10-12T21:05:58",
+   "finished": "2026-10-13T06:44:50",
    "log": "data/work/logs/triage.log",
    "tail": "full-text papers on topic: 154 of 267\nscore distribution (on-topic): {5: 5, 4: 20, 3: 85, 2: 29, 1: 15}\n602 papers ranked -> data/processed/triage.csv\n",
    "status_note": "unchanged inputs; skipped"
   },
   "screen": {
    "status": "ok",
-   "inputs_sha256": "11de381fe6b59bd59971b5466512eb58034f5412a69f3e83502a27f0c17867e0",
-   "finished": "2026-10-12T21:05:58",
+   "inputs_sha256": "f1cb0937829ed8ebb0361524321a670830dcdf97d9628ab335785772202163b2",
+   "finished": "2026-10-13T06:52:18",
    "log": "data/work/logs/screen.log",
-   "tail": "Counter({'E2': 332, 'E1': 111, 'E4': 64, 'E6': 57, 'E3': 24, 'include': 10, 'E5': 4})\n",
-   "status_note": "unchanged inputs; skipped"
+   "tail": "Counter({'E2': 294, 'E1': 126, 'E4': 73, 'E6': 64, 'E3': 20, 'include': 10, 'E5': 8, 'DUP': 7})\n"
   },
   "ai_stages": {
    "status": "ok",
-   "inputs_sha256": "153378e1c4cd7a880104ebd51f281b3b5b831896e3cc889d36bceef266d5d778",
-   "finished": "2026-10-12T21:05:58",
+   "inputs_sha256": "e444b8fa23321379b8e6f29c34b7aef99e66ad7eac3b9bc17dd8ab6027021d70",
+   "finished": "2026-10-13T06:52:18",
    "log": "data/work/logs/ai_stages.log",
-   "tail": "pending extraction: []; pending blind verification: []\nANTHROPIC_API_KEY not set: AI stages skipped. Pending papers are not released (fail-safe).\n",
-   "status_note": "unchanged inputs; skipped"
+   "tail": "pending extraction: []; pending blind verification: []\nANTHROPIC_API_KEY not set: AI stages skipped. Pending papers are not released (fail-safe).\n"
   },
   "verify_deterministic": {
    "status": "ok",
-   "inputs_sha256": "d6f779296bcd9736cdb0e72db0185b6de71f18c62c214d3241ebc89f362f802c",
-   "finished": "2026-10-12T21:05:59",
+   "inputs_sha256": "72d0c459ad9d3af1d79e546bf666707644326c9353d0bf72414e6ec4fad90e1f",
+   "finished": "2026-10-13T06:52:18",
    "log": "data/work/logs/verify_deterministic.log",
-   "tail": "{\n \"records\": 87,\n \"verified\": 87,\n \"fields\": 1800,\n \"by_outcome\": {\n  \"matched\": 1411,\n  \"inferred\": 389\n }\n}\n",
-   "status_note": "unchanged inputs; skipped"
+   "tail": "{\n \"records\": 87,\n \"verified\": 87,\n \"fields\": 1792,\n \"by_outcome\": {\n  \"matched\": 1411,\n  \"inferred\": 381\n }\n}\n"
   },
   "verify_blind_compare": {
    "status": "ok",
-   "inputs_sha256": "9b1985ae010eb03f91d29e4ee3cf89ab4ff56d0edfd7d4ac5131d8b1e37ace44",
-   "finished": "2026-10-12T21:05:59",
+   "inputs_sha256": "0a4c50047c849df3acbc199a4e212bc2f011ba03899c405e1ac1bc87db196244",
+   "finished": "2026-10-13T06:52:18",
    "log": "data/work/logs/verify_blind_compare.log",
-   "tail": "Counter({'agree': 1248, 'disagree': 183, 'blind_null': 99, 'blind_missing': 36}) queue: 504\n",
-   "status_note": "unchanged inputs; skipped"
+   "tail": "Counter({'agree': 1241, 'disagree': 184, 'blind_null': 97, 'blind_missing': 36}) queue: 503\n"
   },
   "adjudications": {
    "status": "ok",
-   "inputs_sha256": "424ba249341a8593e2fc336d9326bfde29903c9829c0403d5810cf49fce001a9",
-   "finished": "2026-10-12T21:05:59",
+   "inputs_sha256": "161f78f8adba8ee7379c4e545910d2d0d7eba2684a7d9f34eadfd45c205b4c6c",
+   "finished": "2026-10-13T06:52:18",
    "log": "data/work/logs/adjudications.log",
-   "tail": "43 adjudications logged\n",
-   "status_note": "unchanged inputs; skipped"
+   "tail": "58 adjudications logged\n"
   },
   "verify_after_adjudication": {
    "status": "ok",
-   "inputs_sha256": "fdde85590cf62b4f522f46612146e6d9abd49f521770529550949080a78d7bc3",
-   "finished": "2026-10-12T21:05:59",
+   "inputs_sha256": "043f5b5bba66fa97b82c01a38aeea9a0958c8c0c75d280422b4377617b6ffd5d",
+   "finished": "2026-10-13T06:52:19",
    "log": "data/work/logs/verify_after_adjudication.log",
-   "tail": "{\n \"records\": 87,\n \"verified\": 87,\n \"fields\": 1800,\n \"by_outcome\": {\n  \"matched\": 1411,\n  \"inferred\": 389\n }\n}\n",
-   "status_note": "unchanged inputs; skipped"
+   "tail": "{\n \"records\": 87,\n \"verified\": 87,\n \"fields\": 1792,\n \"by_outcome\": {\n  \"matched\": 1411,\n  \"inferred\": 381\n }\n}\n"
   },
   "compare_after_adjudication": {
    "status": "ok",
-   "inputs_sha256": "1cb75afac615ccd098a67b9378fa822bb0c1d2377b70bb9a837a64f86b27d576",
-   "finished": "2026-10-12T21:05:59",
+   "inputs_sha256": "7f52b75bceedd0a7cdde04540b555a3d4eef54dce381fdf9ced411d01ae155ce",
+   "finished": "2026-10-13T06:52:19",
    "log": "data/work/logs/compare_after_adjudication.log",
-   "tail": "Counter({'agree': 1248, 'disagree': 183, 'blind_null': 99, 'blind_missing': 36}) queue: 504\n",
-   "status_note": "unchanged inputs; skipped"
+   "tail": "Counter({'agree': 1241, 'disagree': 184, 'blind_null': 97, 'blind_missing': 36}) queue: 503\n"
   },
   "build_records": {
    "status": "ok",
-   "inputs_sha256": "5b841cc869e707382b5b469dec8ad695265e72b31010f4c9f1d504d26c6d9894",
-   "finished": "2026-10-12T21:05:59",
+   "inputs_sha256": "6463e2728979bb5f20321724bd0e1e168394e26e3c4fe950a45913134219ea75",
+   "finished": "2026-10-13T06:52:19",
    "log": "data/work/logs/build_records.log",
-   "tail": "87 records released to records.csv; 0 rejected; 1800 evidence rows; 117 flags\n",
-   "status_note": "unchanged inputs; skipped"
+   "tail": "87 records released to records.csv; 0 rejected; 1792 evidence rows; 113 flags\n"
   },
   "screen_final": {
    "status": "ok",
-   "inputs_sha256": "fdde85590cf62b4f522f46612146e6d9abd49f521770529550949080a78d7bc3",
-   "finished": "2026-10-12T21:05:59",
+   "inputs_sha256": "043f5b5bba66fa97b82c01a38aeea9a0958c8c0c75d280422b4377617b6ffd5d",
+   "finished": "2026-10-13T06:52:19",
    "log": "data/work/logs/screen_final.log",
-   "tail": "Counter({'E2': 332, 'E1': 111, 'E4': 64, 'E6': 57, 'E3': 24, 'include': 10, 'E5': 4})\n",
-   "status_note": "unchanged inputs; skipped"
+   "tail": "Counter({'E2': 294, 'E1': 126, 'E4': 73, 'E6': 64, 'E3': 20, 'include': 10, 'E5': 8, 'DUP': 7})\n"
   },
   "validate": {
    "status": "ok",
-   "inputs_sha256": "e651ebdbb089dcb342faabef81c5b060f74d977697d605b7a5233a38e512256c",
-   "finished": "2026-10-12T21:05:59",
+   "inputs_sha256": "71e972fc913d1d57affd6a1c774e5fb7dd0e285f1bcdf6dee9cddb93e0a61d55",
+   "finished": "2026-10-13T06:52:21",
    "log": "data/work/logs/validate.log",
-   "tail": "87 records, 0 errors, 2 warnings -> /home/claude/photodeg-bench/data/processed/validation_report.txt\n",
-   "status_note": "unchanged inputs; skipped"
+   "tail": "87 records, 0 errors, 2 warnings -> /home/claude/photodeg-bench/data/processed/validation_report.txt\n"
   },
   "harmonize": {
    "status": "ok",
-   "inputs_sha256": "1facd527537c92fe927bff0f16310013d46dd43a3278ff97868dd7e291e46572",
-   "finished": "2026-10-12T21:05:59",
+   "inputs_sha256": "2ba47fd0475d42036dde2f5c0934506cc29420e97fe208511a8c7d6868535ef1",
+   "finished": "2026-10-13T06:52:21",
    "log": "data/work/logs/harmonize.log",
-   "tail": "87 records in, 87 harmonized -> /home/claude/photodeg-bench/data/processed/photodeg_bench_v1.0.csv; 0 rule actions logged\n",
-   "status_note": "unchanged inputs; skipped"
+   "tail": "87 records in, 87 harmonized -> /home/claude/photodeg-bench/data/processed/photodeg_bench_v1.0.csv; 0 rule actions logged\n"
   },
   "qa": {
    "status": "ok",
-   "inputs_sha256": "0bd80b8f9369970953a0df5c236d67d9fb616ee633ab17505c383dc22548177b",
-   "finished": "2026-10-12T21:06:30",
+   "inputs_sha256": "d941e53d47eea44da3ac0a37e8643a03e91bf0a786cc2110c3ba38aec8d4d16b",
+   "finished": "2026-10-13T06:52:21",
    "log": "data/work/logs/qa.log",
-   "tail": "ibution           15\n  sec_estimate                   13\n  bimodal_sec                    2\n\n8. SPOT CHECKS\n  random (seed 20261012): PDG-PMC12464638-g, PDG-PMC10557129-b, PDG-PMC10557129-g, PDG-PMC10557129-a, PDG-PMC10557129-f\n  risk-weighted (flagged, outliers, active controls): 69 records, all independently re-extracted: yes\n\nexceptions: data/processed/exceptions.csv; numbers: paper/stats.json\n",
-   "status_note": "unchanged inputs; skipped"
+   "tail": "                   13\n  thermal_contribution           2\n  bimodal_sec                    2\n\n8. SPOT CHECKS\n  random (seed 20261012): PDG-PMC12464638-g, PDG-PMC10557129-b, PDG-PMC10557129-g, PDG-PMC10557129-a, PDG-PMC10557129-f\n  risk-weighted (flagged, outliers, active controls): 72 records, all independently re-extracted: yes\n\nexceptions: data/processed/exceptions.csv; numbers: paper/stats.json\n"
   },
   "figures": {
    "status": "ok",
-   "inputs_sha256": "14c13909d7e3537ffd3e612db513c83500867f481711bdea2c5d464a7930925d",
-   "finished": "2026-10-12T21:06:36",
+   "inputs_sha256": "3f3c5e428b1cb8dfc5331006552f429b19a11c99c151660ce4d1b6c4a4d67956",
+   "finished": "2026-10-13T06:52:27",
    "log": "data/work/logs/figures.log",
-   "tail": "figures -> /home/claude/photodeg-bench/paper/figures (final); fig2 points 20; fig3 points 34\n",
-   "status_note": "unchanged inputs; skipped"
+   "tail": "figures -> /home/claude/photodeg-bench/paper/figures (final); fig2 points 20; fig3 points 35\n"
   },
   "docs": {
    "status": "ok",
-   "inputs_sha256": "663e2cf9c0643442a43558adf8a0af4bf25602dfc28d224693e7eebe343d68ed",
-   "finished": "2026-10-12T21:06:06",
+   "inputs_sha256": "244d143d597379b63976464667607657f7838b150cccd08102360b030ef8476d",
+   "finished": "2026-10-13T06:52:27",
    "log": "data/work/logs/docs.log",
-   "tail": "docs rendered: README.md, docs/METHODS_AUTOMATED_CURATION.md, docs/HARMONIZATION_REPORT.md, docs/LIMITATIONS.md, docs/MANUSCRIPT_OUTLINE.md\n",
-   "status_note": "unchanged inputs; skipped"
+   "tail": "docs rendered: README.md, docs/METHODS_AUTOMATED_CURATION.md, docs/HARMONIZATION_REPORT.md, docs/LIMITATIONS.md, docs/MANUSCRIPT_OUTLINE.md\n"
   },
   "readiness": {
    "status": "ok",
    "inputs_sha256": null,
-   "finished": "2026-10-12T21:06:56",
+   "finished": "2026-10-13T06:52:31",
    "log": "data/work/logs/readiness.log",
-   "tail": "or metadata complete (AUTHORS.json, CITATION.cff, LICENSE, Zenodo metadata)  [placeholders remain]\nA2   pending_author  escalated scientific/legal rules endorsed by the author  [awaiting: ['R08_visible_window', 'R14_source_license_policy']]\nA3   pending_author  public release authorized by the author  [release/AUTHORIZATION.json not present]\n\nscientifically ready: True   release authorized: False\n"
+   "tail": "ICENSE', 'docs/zenodo_metadata.json']]\nA2   pending_author  escalated scientific/legal rules endorsed by the author  [awaiting: ['R08_visible_window', 'R14_source_license_policy']]\nA3   pending_author  public release authorized by the author (written authorization file; not a cryptographic signature)  [release/AUTHORIZATION.json not present]\n\nscientifically ready: True   release authorized: False\n"
   },
   "package": {
    "status": "ok",
    "inputs_sha256": null,
-   "finished": "2026-10-12T21:06:56",
+   "finished": "2026-10-13T06:52:31",
    "log": "data/work/logs/package.log",
-   "tail": "62 files -> /home/claude/photodeg-bench/release/photodeg-bench-v1.0.0; zip photodeg-bench-v1.0.0.zip (771269 bytes, sha256 845f648c11109899...); missing: []\n"
+   "tail": "143 files -> /home/claude/photodeg-bench/release/photodeg-bench-v1.0.0; zip photodeg-bench-v1.0.0.zip (1355533 bytes, sha256 3242edc5a4edf610...); missing: []\n"
+  },
+  "licenses": {
+   "status": "ok",
+   "inputs_sha256": "043f5b5bba66fa97b82c01a38aeea9a0958c8c0c75d280422b4377617b6ffd5d",
+   "finished": "2026-10-13T06:52:21",
+   "log": "data/work/logs/licenses.log",
+   "tail": "ttp://creativecommons.org/licenses/by-nc/3.0/ | y\nPMC12464638 cc-by | http://creativecommons.org/licenses/by/4.0/ | y\nPMC13590609 cc-by-nc-nd | https://creativecommons.org/licenses/by-nc-nd/4.0 | y\nPMC9295126 cc-by | https://creativecommons.org/licenses/by/4.0/ | y\nPMC9381527 cc-by | https://creativecommons.org/licenses/by/4.0 | y\nPMC9586668 cc-by | http://creativecommons.org/licenses/by/4.0/ | y\n"
   }
  }
 }

@@ -60,8 +60,7 @@ def main():
     ap.add_argument("--authors", default="AUTHORS.json",
                     help="author block to build creators from when metadata has none (default: AUTHORS.json)")
     a = ap.parse_args()
-    if a.publish:
-        _require_authorization(sandbox=a.sandbox)
+    _require_authorization(sandbox=a.sandbox)   # any production upload (draft or published) needs authorization
 
     base = "https://sandbox.zenodo.org/api" if a.sandbox else "https://zenodo.org/api"
     env = "ZENODO_SANDBOX_TOKEN" if a.sandbox else "ZENODO_TOKEN"

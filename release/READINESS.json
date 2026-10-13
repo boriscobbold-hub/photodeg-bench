@@ -1,6 +1,6 @@
 {
  "version": "1.0",
- "generated": "2026-10-12T21:07:00",
+ "generated": "2026-10-13T06:52:31",
  "scientifically_ready": true,
  "release_authorized": false,
  "checks": [
@@ -62,9 +62,9 @@
   },
   {
    "id": "S9",
-   "check": "every record's source license is allowed by rule R14",
+   "check": "source licenses allowed by R14 and confirmed against Crossref",
    "status": "pass",
-   "detail": "ok",
+   "detail": "10 articles confirmed",
    "kind": "science"
   },
   {
@@ -85,7 +85,7 @@
    "id": "A1",
    "check": "author metadata complete (AUTHORS.json, CITATION.cff, LICENSE, Zenodo metadata)",
    "status": "pending_author",
-   "detail": "placeholders remain",
+   "detail": "placeholders remain in: ['AUTHORS.json', 'CITATION.cff', 'LICENSE', 'docs/zenodo_metadata.json']",
    "kind": "author"
   },
   {
@@ -97,7 +97,7 @@
   },
   {
    "id": "A3",
-   "check": "public release authorized by the author",
+   "check": "public release authorized by the author (written authorization file; not a cryptographic signature)",
    "status": "pending_author",
    "detail": "release/AUTHORIZATION.json not present",
    "kind": "author"

@@ -637,7 +637,7 @@ PMC12056016,a,polymer_detail,"PS1, commercial PS, Mw = 350 kDa, Đ = 2.06; 0.10 
 PMC12056016,a,catalyst_loading,0.05,0.05,agree
 PMC12056016,a,time,20,20,agree
 PMC12056016,a,products,benzoic acid; formic acid,"['benzoic acid', 'formic acid']",agree
-PMC12056016,a,yield_basis,benzoic acid: isolated yield; formic acid: NMR yield (per styrene repeat unit),isolated (BA); NMR (formic acid),disagree
+PMC12056016,a,yield_basis,isolated (benzoic acid); formic acid by NMR per the same paragraph,isolated (BA); NMR (formic acid),disagree
 PMC12056016,a,yield:benzoic acid,50,50,agree
 PMC12056016,a,yield:formic acid,27,27,agree
 PMC12056016,b,catalyst,PTH-3CN pre-irradiated 8 h without PS under standard conditions (decomposed to triarylamine species),PTH-3CN (pre-irradiated 8 h without PS),disagree
@@ -705,15 +705,13 @@ PMC12056016,f,polymer_detail,"post-consumer PS in a mixture with PP, LDPE, PET a
 PMC12056016,f,catalyst_loading,0.05,0.05,agree
 PMC12056016,f,time,20,20,agree
 PMC12056016,f,products,benzoic acid; formic acid,"['benzoic acid', 'formic acid']",agree
-PMC12056016,f,yield_basis,benzoic acid: isolated yield; formic acid: 1H NMR yield based on repeat unit,"isolated (BA); 1H NMR, based on repeat unit (FA)",disagree
+PMC12056016,f,yield_basis,1H NMR per repeat unit unless otherwise noted (benzoic acid isolated per text),"isolated (BA); 1H NMR, based on repeat unit (FA)",disagree
 PMC12056016,f,yield:benzoic acid,43,43,agree
 PMC12056016,f,yield:formic acid,26,26,agree
 PMC12056016,g,catalyst,PTH-3CN (phenothiazine derivative; precatalyst),PTH-3CN,agree
 PMC12056016,g,catalyst_loading_unit,mol%,,blind_null
 PMC12056016,g,light_source,50 W 405 nm LED,50 W 405 nm LED,agree
 PMC12056016,g,wavelength_nm,405,405,agree
-PMC12056016,g,irradiance,0.4,,blind_null
-PMC12056016,g,irradiance_unit,W/cm2,,blind_null
 PMC12056016,g,solvent,HFIP as co-solvent (with chlorobenzene/acetonitrile),HFIP as co-solvent (with PhCl/MeCN),disagree
 PMC12056016,g,atmosphere,air,air,agree
 PMC12056016,g,time_unit,h,,blind_null
@@ -1043,14 +1041,13 @@ PMC13590609,d,wavelength_nm,415,415,agree
 PMC13590609,d,irradiance,50,,blind_null
 PMC13590609,d,irradiance_unit,"W (electrical, per lamp; two lamps)",,blind_null
 PMC13590609,d,solvent,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",mixed chlorinated solvents,disagree
-PMC13590609,d,atmosphere,air,air,agree
 PMC13590609,d,temperature_c,130,130,agree
 PMC13590609,d,time_unit,h,h,agree
 PMC13590609,d,polymer,poly(ethylene terephthalate),poly(ethylene terephthalate),agree
 PMC13590609,d,polymer_detail,PET flakes in PP/PET blend at 1:1 mass ratio,"PP/PET blend, mass ratio 1:0.1 (Fig. 3b entry 1)",disagree
 PMC13590609,d,time,18,18,agree
 PMC13590609,d,products,terephthalic acid,['terephthalic acid'],agree
-PMC13590609,d,yield_basis,"isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",isolated,agree
+PMC13590609,d,yield_basis,"isolated (TPA recovered, dried to constant weight)",isolated,agree
 PMC13590609,d,cocatalyst_additives,polypropylene co-feed (PP/PET 1:1 by mass) as in situ HCl source,PP (co-feed; in situ HCl source),disagree
 PMC13590609,d,replicates,5,5,agree
 PMC13590609,d,yield:terephthalic acid,70,90,disagree
@@ -1060,14 +1057,13 @@ PMC13590609,e,wavelength_nm,415,415,agree
 PMC13590609,e,irradiance,50,,blind_null
 PMC13590609,e,irradiance_unit,"W (electrical, per lamp; two lamps)",,blind_null
 PMC13590609,e,solvent,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",mixed chlorinated solvents,disagree
-PMC13590609,e,atmosphere,air,air,agree
 PMC13590609,e,temperature_c,130,130,agree
 PMC13590609,e,time_unit,h,h,agree
 PMC13590609,e,polymer,poly(ethylene terephthalate),poly(ethylene terephthalate),agree
 PMC13590609,e,polymer_detail,PET co-fed with pre-formed OPP5 instead of P5,"PP/PET blend, mass ratio 1:1 (Fig. 3b entry 4)",disagree
 PMC13590609,e,time,18,18,agree
 PMC13590609,e,products,terephthalic acid,['terephthalic acid'],agree
-PMC13590609,e,yield_basis,"isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",isolated,agree
+PMC13590609,e,yield_basis,not stated in main text (value from Supplementary Table S5),isolated,disagree
 PMC13590609,e,cocatalyst_additives,pre-formed OPP5 (oxidized PP) instead of P5,PP (co-feed; in situ HCl source),disagree
 PMC13590609,e,yield:terephthalic acid,48.1,70,disagree
 PMC13590609,f,catalyst,none (Cl radicals generated in situ from chlorinated solvent),,blind_null
@@ -1076,14 +1072,13 @@ PMC13590609,f,wavelength_nm,415,415,agree
 PMC13590609,f,irradiance,50,,blind_null
 PMC13590609,f,irradiance_unit,"W (electrical, per lamp; two lamps)",,blind_null
 PMC13590609,f,solvent,distilled mixed chlorinated solvent wastes (laboratory),distilled mixed chlorinated solvent wastes,agree
-PMC13590609,f,atmosphere,air,air,agree
 PMC13590609,f,temperature_c,130,130,agree
 PMC13590609,f,time_unit,h,h,agree
 PMC13590609,f,polymer,poly(ethylene terephthalate),poly(ethylene terephthalate),agree
 PMC13590609,f,polymer_detail,"post-consumer PET bowl, co-treated with PP cup (PP 1 g / PET 0.5 g)",post-consumer PET bowl co-fed with PP cup,disagree
 PMC13590609,f,time,18,18,agree
 PMC13590609,f,products,terephthalic acid,['terephthalic acid'],agree
-PMC13590609,f,yield_basis,"isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",isolated,agree
+PMC13590609,f,yield_basis,"isolated (TPA recovered, dried to constant weight)",isolated,agree
 PMC13590609,f,yield:terephthalic acid,92.8,92.8,agree
 PMC13590609,g,catalyst,none (Cl radicals generated in situ from chlorinated solvent),,blind_null
 PMC13590609,g,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",two 415 nm LED lamps (50 W),disagree
@@ -1091,14 +1086,13 @@ PMC13590609,g,wavelength_nm,415,415,agree
 PMC13590609,g,irradiance,50,,blind_null
 PMC13590609,g,irradiance_unit,"W (electrical, per lamp; two lamps)",,blind_null
 PMC13590609,g,solvent,distilled mixed chlorinated solvent wastes (laboratory),distilled mixed chlorinated solvent wastes,agree
-PMC13590609,g,atmosphere,air,air,agree
 PMC13590609,g,temperature_c,130,130,agree
 PMC13590609,g,time_unit,h,h,agree
 PMC13590609,g,polymer,poly(ethylene terephthalate),poly(ethylene terephthalate),agree
 PMC13590609,g,polymer_detail,"post-consumer PET rag, co-treated with PP tube (PP 1 g / PET 0.5 g)",post-consumer PET rag co-fed with PP tube,disagree
 PMC13590609,g,time,18,18,agree
 PMC13590609,g,products,terephthalic acid,['terephthalic acid'],agree
-PMC13590609,g,yield_basis,"isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",isolated,agree
+PMC13590609,g,yield_basis,"isolated (TPA recovered, dried to constant weight)",isolated,agree
 PMC13590609,g,yield:terephthalic acid,79.9,79.9,agree
 PMC13590609,h,catalyst,none (Cl radicals generated in situ from chlorinated solvent),,blind_null
 PMC13590609,h,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",two 415 nm LED lamps (50 W),disagree
@@ -1106,14 +1100,13 @@ PMC13590609,h,wavelength_nm,415,415,agree
 PMC13590609,h,irradiance,50,,blind_null
 PMC13590609,h,irradiance_unit,"W (electrical, per lamp; two lamps)",,blind_null
 PMC13590609,h,solvent,distilled mixed chlorinated solvent wastes (laboratory),distilled mixed chlorinated solvent wastes,agree
-PMC13590609,h,atmosphere,air,air,agree
 PMC13590609,h,temperature_c,130,130,agree
 PMC13590609,h,time_unit,h,h,agree
 PMC13590609,h,polymer,poly(ethylene terephthalate),poly(ethylene terephthalate),agree
 PMC13590609,h,polymer_detail,"post-consumer PET bottle, co-treated with PP jug (PP 1 g / PET 0.5 g)",post-consumer PET bottle co-fed with PP jug,disagree
 PMC13590609,h,time,18,18,agree
 PMC13590609,h,products,terephthalic acid,['terephthalic acid'],agree
-PMC13590609,h,yield_basis,"isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",isolated,agree
+PMC13590609,h,yield_basis,"isolated (TPA recovered, dried to constant weight)",isolated,agree
 PMC13590609,h,yield:terephthalic acid,91.1,91.1,agree
 PMC13590609,i,catalyst,none (Cl radicals generated in situ from chlorinated solvent),,blind_null
 PMC13590609,i,light_source,"two 415 nm LED lamps (50 W each), 4 cm from vessel",two 415 nm LED lamps (50 W),disagree
@@ -1121,7 +1114,6 @@ PMC13590609,i,wavelength_nm,415,415,agree
 PMC13590609,i,irradiance,50,,blind_null
 PMC13590609,i,irradiance_unit,"W (electrical, per lamp; two lamps)",,blind_null
 PMC13590609,i,solvent,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",mixed chlorinated solvent (Cl-Sol),disagree
-PMC13590609,i,atmosphere,air,air,agree
 PMC13590609,i,temperature_c,130,130,agree
 PMC13590609,i,time_unit,h,h,agree
 PMC13590609,i,polymer,poly(ethylene terephthalate),poly(ethylene terephthalate),agree
@@ -1454,7 +1446,7 @@ PMC9381527,a,polymer_detail,"real-life PS pellets, 500 mg, circulatory (product-
 PMC9381527,a,catalyst_loading,200,200,agree
 PMC9381527,a,catalyst_loading_unit,mg (per 500 mg PS),mg,agree
 PMC9381527,a,products,"benzoic acid, acetophenone, benzaldehyde","['benzoic acid', 'acetophenone', 'benzaldehyde']",agree
-PMC9381527,a,yield_basis,amount (mg) obtained from 500 mg PS pellets: 360 mg = total quantified benzoic acid + acetophenone + benzaldehyde; 240 mg = benzoic acid isolated by column chromatography,"mass of products (mg) from 0.5 g PS; 74/15/11% is composition of the oxygenates, not yield",disagree
+PMC9381527,a,yield_basis,amounts in mg from 500 mg PS: 360 mg total aromatic oxygenates; 240 mg benzoic acid recovered by column chromatography,"mass of products (mg) from 0.5 g PS; 74/15/11% is composition of the oxygenates, not yield",disagree
 PMC9381527,a,yield:aromatic oxygenates (benzoic acid + acetophenone + benzaldehyde),360,360,agree
 PMC9381527,a,yield:benzoic acid (isolated),240,240,agree
 PMC9586668,a,sec_calibration,conventional_PS,conventional_PS,agree

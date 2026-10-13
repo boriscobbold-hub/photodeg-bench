@@ -26,13 +26,18 @@ FILES = [
     "data/processed/exceptions.csv", "data/processed/validation_report.txt", "data/processed/corpus.csv",
     "data/raw/PROVENANCE.txt", "data/curated/verification/deterministic.jsonl",
     "data/curated/verification/blind_comparison.csv", "data/curated/verification/adjudications.csv",
-    "data/curated/verification/adjudication_queue.csv", "rules/harmonization.yaml", "config/search.yaml",
+    "data/curated/verification/adjudication_queue.csv", "data/curated/verification/blind_coverage.json",
+    "data/curated/verification/final_audit.md", "data/curated/verification/final_audit_round2.md",
+    "data/curated/license_check.csv", "data/work/abstracts.json", "rules/harmonization.yaml", "config/search.yaml",
     "paper/stats.json", "README.md", "LICENSE", "CITATION.cff", "AUTHORS.json", "CHANGELOG.md",
     "docs/CODEBOOK.md", "docs/VOCABULARIES.md", "docs/ELIGIBILITY.md", "docs/EXTRACTION_PROTOCOL.md",
     "docs/METHODS_AUTOMATED_CURATION.md", "docs/HARMONIZATION_REPORT.md", "docs/LIMITATIONS.md",
-    "docs/RELEASE_READINESS.md", "docs/MANUSCRIPT_OUTLINE.md",
+    "docs/RELEASE_READINESS.md", "docs/MANUSCRIPT_OUTLINE.md", "docs/NEXT_STEPS.md", "docs/PUBLISH_GUIDE.md",
+    "docs/VERIFY_CHECKLIST.md", "docs/BUILD_SPEC.md", "release/READINESS.json",
 ]
-DIRS = ["paper/figures", "data/curated/extractions"]
+DIRS = ["paper/figures", "data/curated/extractions", "data/curated/verification/blind", "data/curated/verification/slots",
+        "code", "code/curation", "tools", "tests", "tests/fixtures", "config", "rules", "docs", "docs/templates"]
+TOP = ["requirements.txt", "Makefile", ".gitignore", ".gate-allow"]
 
 
 def sha(p):
@@ -50,8 +55,10 @@ def main():
     out.mkdir(parents=True)
     missing = []
     paths = [f.format(v=a.version) for f in FILES]
+    paths += TOP
     for d in DIRS:
-        paths += [str(p.relative_to(ROOT)) for p in sorted((ROOT / d).glob("*")) if p.is_file()]
+        paths += [str(p.relative_to(ROOT)) for p in sorted((ROOT / d).glob("*")) if p.is_file() and "__pycache__" not in p.parts]
+    paths = list(dict.fromkeys(paths))
     for rel in paths:
         src = ROOT / rel
         if not src.exists():

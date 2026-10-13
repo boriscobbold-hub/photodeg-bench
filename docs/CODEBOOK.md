@@ -17,9 +17,9 @@ Columns without `_h` are **as reported** in the source, entered by the curator. 
 | locator | Where the record's main result is in the article (`Table 2 r3`, `Results ¶4`); per-field locators are in `data/curated/evidence.csv` |
 | curator, curation_date | `Claude (AI) autonomous curation`, date |
 | extractor, extraction_method | Which extraction agent, and whether values came from tables and/or text |
-| source_verified | `y` = every field's source string was found at its locator and its number matches (deterministic check) |
-| blind_verified | `y` = an independent blind re-extraction covered the record and no substantive disagreement is unresolved |
-| qa_flags | `;`-separated: `approximate_value`, `standard_conditions_applied`, `thermal_contribution`, `heated_ge_80C`, `sec_estimate`, `bimodal_sec` (evidence in `data/curated/qa_flags.csv`) |
+| source_verified | `y` = every located field's source string was found at its locator and its number matches; fields without a locator are allowed classifications or statements of absence, each with a published reason (see evidence.csv) |
+| blind_verified | `y` = an independent blind re-extraction covered the record and every substantive disagreement with it was adjudicated against the source (it does not mean the two passes agreed on every field) |
+| qa_flags | `;`-separated: `approximate_value`, `conditions_from_other_block`, `thermal_contribution`, `heated_ge_80C`, `sec_estimate`, `bimodal_sec` (definitions in VOCABULARIES.md; evidence in `data/curated/qa_flags.csv`) |
 
 ## Polymer
 
@@ -57,7 +57,7 @@ Columns without `_h` are **as reported** in the source, entered by the curator. 
 | wavelength_nm | Peak/nominal wavelength, nm |
 | wavelength_range_nm | Band as `lo-hi` when a range is reported |
 | light_color | Colour as reported when no wavelength is given |
-| irradiance, irradiance_unit | As reported (`mW/cm2`, `W/m2`, or electrical `W`) |
+| irradiance, irradiance_unit | Light quantity as reported: irradiance (`mW/cm2`, `W/m2`) **or lamp power** (`W`); `light_quantity_type` says which. Lamp power is not a dose. |
 | solvent, concentration, concentration_unit | Reaction medium and polymer concentration |
 | atmosphere | `air`, `O2`, `N2`, `Ar`, `degassed`, as reported |
 | temperature_c | Reaction temperature, °C (25 for "room temperature" unless stated) |
@@ -85,7 +85,8 @@ Columns without `_h` are **as reported** in the source, entered by the curator. 
 | percent_reduction | R06 | 100 × (1 − retained_fraction) |
 | primary_metric | R06 | The metric used for ranking and figures |
 | wavelength_band, light_flags | R08, R09 | `violet`/`blue`/`green`/`yellow_orange_red`/`broadband`/`dark`/`unknown`; flags `broadband`, `uv_component`, `solar_or_xenon` |
-| thermal_regime | R15 | `ambient` (<60 °C), `heated` (60–120), `high_temperature` (>120), `not_reported` |
+| thermal_regime | R15 | `near_ambient` (<60 °C, incl. LED self-heating), `heated` (60–120), `high_temperature` (>120), `not_reported` |
+| light_quantity_type | — | `irradiance` or `lamp_power`: what the `irradiance` column holds for this record |
 | time_h, time_unit_h | R10 | Time in the canonical unit |
 | is_control | R13 | `y` for dark / no-catalyst / no-O<sub>2</sub> controls |
 | tier_molar_mass | R11 | MM-A (absolute/matched calibration, time, wavelength), MM-B (time, wavelength), MM-C (before/after only) |

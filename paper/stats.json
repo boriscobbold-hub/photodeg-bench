@@ -1,55 +1,58 @@
 {
  "version": "1.0",
- "built": "2026-10-12",
+ "built": "2026-10-13",
  "n_corpus_papers": 691,
  "n_corpus_europepmc": 277,
  "n_corpus_openalex": 445,
  "n_screened": 602,
  "n_fulltext_available": 267,
  "screening_codes": {
-  "E2": 332,
-  "E4": 64,
-  "E1": 111,
-  "E3": 24,
-  "E6": 57,
-  "include": 10,
-  "E5": 4
+  "E2": 294,
+  "E1": 126,
+  "E6": 64,
+  "E3": 20,
+  "E4": 73,
+  "DUP": 7,
+  "E5": 8,
+  "include": 10
  },
  "screening_codes_title_abstract": {
-  "E2": 332,
-  "E4": 63,
-  "E1": 111,
-  "E3": 24,
-  "E6": 54
+  "E2": 294,
+  "E1": 126,
+  "E6": 61,
+  "E3": 19,
+  "E4": 72,
+  "DUP": 7
  },
  "screening_codes_full_text": {
   "E6": 3,
+  "E5": 8,
   "include": 10,
-  "E5": 4,
+  "E3": 1,
   "E4": 1
  },
- "n_fulltext_assessed": 18,
+ "n_fulltext_assessed": 23,
  "n_included_papers": 10,
- "n_in_scope_no_fulltext": 54,
- "share_in_scope_lost_to_access": 0.75,
+ "n_in_scope_no_fulltext": 61,
+ "share_in_scope_lost_to_access": 0.726,
  "n_records_extracted": 87,
  "n_records_released": 87,
  "n_records_rejected": 0,
- "n_excluded_observations": 109,
- "n_fields_checked": 1800,
+ "n_excluded_observations": 121,
+ "n_fields_checked": 1792,
  "field_outcomes": {
   "matched": 1411,
-  "inferred": 389
+  "inferred": 381
  },
  "blind_field_comparison": {
-  "agree": 1248,
-  "disagree": 183,
-  "blind_null": 99,
+  "agree": 1241,
+  "disagree": 184,
+  "blind_null": 97,
   "blind_missing": 36
  },
- "n_adjudications": 43,
+ "n_adjudications": 58,
  "n_unresolved": 0,
- "n_controls": 20,
+ "n_controls": 19,
  "by_polymer_class": {
   "vinyl_styrenic": 50,
   "vinyl_methacrylate": 15,
@@ -83,7 +86,7 @@
  },
  "by_thermal_regime": {
   "not_reported": 44,
-  "ambient": 24,
+  "near_ambient": 24,
   "high_temperature": 16,
   "heated": 3
  },
@@ -117,10 +120,10 @@
   "cc by-nc-nd": 16
  },
  "qa_flag_counts": {
-  "approximate_value": 35,
+  "approximate_value": 14,
+  "conditions_from_other_block": 63,
   "heated_ge_80C": 19,
-  "standard_conditions_applied": 33,
-  "thermal_contribution": 15,
+  "thermal_contribution": 2,
   "bimodal_sec": 2,
   "sec_estimate": 13
  },
@@ -132,10 +135,10 @@
   "catalyst_loading": 57,
   "wavelength_nm": 61,
   "light_color": 76,
-  "irradiance": 37,
+  "irradiance": 36,
   "solvent": 75,
   "concentration": 38,
-  "atmosphere": 64,
+  "atmosphere": 58,
   "temperature_c": 43,
   "time_h": 71,
   "product_yields": 75,
@@ -146,7 +149,7 @@
  "n_duplicate_groups": 0,
  "n_range_issues": 0,
  "n_outliers": 1,
- "n_controls_showing_deconstruction": 7,
+ "n_controls_showing_deconstruction": 6,
  "critical_failures": [],
  "warnings": [],
  "spot_check_seed": 20261012

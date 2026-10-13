@@ -8,7 +8,9 @@
                                                   # clean placeholder/secret scan; exit 0 only if all pass
 
 Scientific readiness (S*) can be reached autonomously. Release authorization (A*) cannot: it needs the
-author's own name, ORCID and decision. Nothing here marks unresolved material as verified; a failed
+author's own name, ORCID and decision. The authorization is a written file (release/AUTHORIZATION.json),
+not a cryptographic signature: anyone with write access could create it, so publishing credentials should
+be held only by the author. Nothing here marks unresolved material as verified; a failed
 check stays failed until its cause is fixed.
 """
 from __future__ import annotations
@@ -104,7 +106,13 @@ def scientific_checks():
 
     allowed = {a.lower() for a in rules["R14_source_license_policy"].get("allowed", [])}
     badlic = sorted({x["source_license"] for x in rows if x["source_license"].lower().replace(" ", "-") not in allowed})
-    out.append(check("S9", "every record's source license is allowed by rule R14", not badlic, f"not allowed: {badlic}" if badlic else "ok"))
+    lc = ROOT / "data/curated/license_check.csv"
+    lic_rows = read_csv(lc) if lc.exists() else []
+    disagree = [x["pmcid"] for x in lic_rows if x["agrees"] != "y"]
+    unchecked = sorted({x["pmcid"] for x in rows} - {x["pmcid"] for x in lic_rows})
+    ok9 = not badlic and not disagree and not unchecked
+    out.append(check("S9", "source licenses allowed by R14 and confirmed against Crossref", ok9,
+                     f"not allowed {badlic}; Crossref disagrees {disagree}; unchecked {unchecked}" if not ok9 else f"{len(lic_rows)} articles confirmed"))
 
     r = sh([PY, "tools/publish_gate.py", "."])
     secrets = [l for l in r.stdout.splitlines() if "secret" in l.lower() or "token" in l.lower() or "private key" in l.lower() or "credential" in l.lower()]
@@ -118,10 +126,10 @@ def scientific_checks():
 
 def author_checks():
     out = []
-    a = (ROOT / "AUTHORS.json").read_text()
+    files = ["AUTHORS.json", "CITATION.cff", "LICENSE", "docs/zenodo_metadata.json"]
+    pending = [f for f in files if PLACEHOLDER.search((ROOT / f).read_text())]
     out.append(check("A1", "author metadata complete (AUTHORS.json, CITATION.cff, LICENSE, Zenodo metadata)",
-                     not any(PLACEHOLDER.search((ROOT / f).read_text()) for f in ["AUTHORS.json", "CITATION.cff", "LICENSE", "docs/zenodo_metadata.json"]),
-                     "placeholders remain" if PLACEHOLDER.search(a) else "ok", kind="author"))
+                     not pending, f"placeholders remain in: {pending}" if pending else "ok", kind="author"))
     import yaml
     rules = yaml.safe_load((ROOT / "rules/harmonization.yaml").read_text())["rules"]
     esc = [k for k, v in rules.items() if v.get("escalate") and not v.get("endorsed_by")]
@@ -133,7 +141,7 @@ def author_checks():
         d = json.loads(auth.read_text())
         ok = all(d.get(k) for k in ("authorized_by", "date", "statement", "version")) and d.get("version") == VERSION
         detail = "ok" if ok else "incomplete authorization file"
-    out.append(check("A3", "public release authorized by the author", ok, detail, kind="author"))
+    out.append(check("A3", "public release authorized by the author (written authorization file; not a cryptographic signature)", ok, detail, kind="author"))
     return out
 
 

@@ -68,6 +68,7 @@ STAGES = [
     ("compare_after_adjudication", [PY, "code/curation/compare_blind.py"], ["data/curated/extractions", "data/curated/verification/blind"], True, 1),
     ("build_records", [PY, "code/curation/build_records.py"], ["data/curated/extractions", "data/curated/verification", "code/curation/build_records.py"], True, 1),
     ("screen_final", [PY, "code/curation/screen_decisions.py"], ["data/curated/extractions"], True, 1),
+    ("licenses", [PY, "code/curation/check_licenses.py"], ["data/curated/extractions"], False, 2),
     ("validate", [PY, "code/03_validate.py"], ["data/curated/records.csv", "code/03_validate.py"], True, 1),
     ("harmonize", [PY, "code/04_harmonize.py", "--version", "1.0"], ["data/curated/records.csv", "rules/harmonization.yaml", "code/04_harmonize.py"], True, 1),
     ("qa", [PY, "code/05_qa.py", "--version", "1.0"], ["data/processed", "data/curated", "code/05_qa.py"], True, 1),

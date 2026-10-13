@@ -87,8 +87,9 @@
      "s": "74% benzoic acid, 15% acetophenone and 11% benzaldehyde"
     },
     "yield_basis": {
-     "v": "amount (mg) obtained from 500 mg PS pellets: 360 mg = total quantified benzoic acid + acetophenone + benzaldehyde; 240 mg = benzoic acid isolated by column chromatography",
-     "inferred": "as stated in the text"
+     "v": "amounts in mg from 500 mg PS: 360 mg total aromatic oxygenates; 240 mg benzoic acid recovered by column chromatography",
+     "loc": "Results > Further improvement based on the reaction mechanism ¶2",
+     "s": "240 mg of benzoic acid was recovered from column chromatography separation"
     },
     "product_yields": [
      {
@@ -111,7 +112,7 @@
      }
     ]
    },
-   "notes": "Circulatory system: 8 h per cycle with solution drained and solvent replenished after each cycle; 20 cycles shown (Fig. 3 caption), steady rate for 18 cycles. Total irradiation time is not stated as a single value, so no time is recorded. 90% of pellets converted (no field). Split 74/15/11% of the 360 mg given without stated basis; not recorded as separate yields."
+   "notes": "Circulatory system: 8 h per cycle with solution drained and solvent replenished after each cycle; 20 cycles shown (Fig. 3 caption), steady rate for 18 cycles. Total irradiation time is not stated as a single value, so no time is recorded. 90% of pellets converted (no field). Split 74/15/11% of the 360 mg given without stated basis; not recorded as separate yields. [adjudicated yield_basis: located]"
   }
  ],
  "excluded_observations": [

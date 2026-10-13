@@ -71,6 +71,39 @@ A("PMC13590609", ["d", "e"], "yield:terephthalic acid", "__keep__", "extraction 
   "Source paragraph: 1:1 ratio ~70% (record d); pre-formed OPP5 48.1% (record e). Blind tasks were aligned to different sentences of the same paragraph.")
 A("PMC9295126", ["e", "f", "g", "h"], "products", "__keep__", "equivalent", "Controls: 0% benzoic acid; extraction names the product measured, blind listed no product formed.")
 
+# Round 3 (independent audit, 2026-10-12)
+A("PMC12056016", ["g"], "irradiance", None, "audit correct",
+  "0.4 W/cm2 belongs to the PS optimisation run, not the PET experiment (audit finding 7).")
+A("PMC12056016", ["g"], "irradiance_unit", None, "follow-on", "irradiance removed")
+A("PMC13590609", list("defghi"), "atmosphere", None, "audit correct",
+  "PET co-cycling runs were in a sealed pressure bottle; 'in air' is stated only for the PP-only runs (audit finding 8).")
+A("PMC13590609", list("defghi"), "scope_note", "__keep__", "noted",
+  "PET is cleaved by HCl released from light-driven PP oxidation; admitted as a tandem process because the no-light control gives no TPA.")
+
+# Round 4 (stricter verifier: a stated yield basis needs a locator)
+A("PMC12056016", ["a"], "yield_basis", {"v": "isolated (benzoic acid); formic acid by NMR per the same paragraph", "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶3", "s": "50% isolated yield of BA"},
+  "located", "Basis was asserted without a locator; the paragraph states the isolated yield.")
+A("PMC12056016", ["f"], "yield_basis", {"v": "1H NMR per repeat unit unless otherwise noted (benzoic acid isolated per text)", "loc": "Fig. 7 caption", "s": "Yields were determined by 1H NMR analysis and based on repeat unit unless otherwise noted"},
+  "located", "Basis located in the figure caption that defines the yields.")
+A("PMC13590609", ["d", "f", "g", "h"], "yield_basis", {"v": "isolated (TPA recovered, dried to constant weight)", "loc": "Methods > Co-cycling of PP and PET ¶1", "s": "dried at 60 °C until constant weight was achieved"},
+  "located", "Workup in the co-cycling Methods, applied to real-life samples by 'the same experimental procedure'.")
+A("PMC13590609", ["e"], "yield_basis", {"v": "not stated in main text (value from Supplementary Table S5)", "inferred": "the 48.1% is quoted from an SI table without a basis"},
+  "absence", "No basis stated for the OPP5-fed run in the main text.")
+A("PMC9381527", ["a"], "yield_basis", {"v": "amounts in mg from 500 mg PS: 360 mg total aromatic oxygenates; 240 mg benzoic acid recovered by column chromatography", "loc": "Results > Further improvement based on the reaction mechanism ¶2", "s": "240 mg of benzoic acid was recovered from column chromatography separation"},
+  "located", "Basis located.")
+
+# Round 5 (second audit pass): re-point light/atmosphere locators to the procedure that applies to the run
+for _f, _v, _s in (("light_source", "50 W 405 nm LED", "irradiated with a 50 W 405 nm LED light"),
+                   ("wavelength_nm", 405, "50 W 405 nm LED light"),
+                   ("atmosphere", "air", "sparging with a gentle flow of air")):
+    A("PMC12056016", ["f", "g"], _f, {"v": _v, "loc": "Methods > General procedure for conducting the photocatalytic upcycling of polymers shown in Figs. 6 and 7 ¶1", "s": _s}, "audit correct",
+      "Figs. 6/7 runs follow their own general procedure, not the PS procedure (same values).")
+for _f, _v, _s in (("light_source", "two 415 nm LED lamps (50 W each), 4 cm from vessel", "two symmetrically positioned 415 nm LED lamps"),
+                   ("wavelength_nm", 415, "415 nm LED lamps"),
+                   ("irradiance", 50, "415 nm LED lamps (50 W")):
+    A("PMC13590609", list("defghi"), _f, {"v": _v, "loc": "Methods > Co-cycling of PP and PET ¶1", "s": _s}, "audit correct",
+      "PET co-cycling runs follow the co-cycling procedure, not the PP-only procedure (same values).")
+
 
 def main():
     log = []

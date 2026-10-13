@@ -98,8 +98,9 @@
      "s": "formic acid (27% NMR yield)"
     },
     "yield_basis": {
-     "v": "benzoic acid: isolated yield; formic acid: NMR yield (per styrene repeat unit)",
-     "inferred": "text states '50% isolated yield of BA' and 'formic acid (27% NMR yield)'"
+     "v": "isolated (benzoic acid); formic acid by NMR per the same paragraph",
+     "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶3",
+     "s": "50% isolated yield of BA"
     },
     "product_yields": [
      {
@@ -122,7 +123,7 @@
      }
     ]
    },
-   "notes": "Optimized conditions (0.05 mol% PTH-3CN, ambient air, 405 nm LED 0.4 W/cm2); reaction time from the PS general procedure (20 h). Temperature not reported. [adjudicated concentration: blind correct] [adjudicated concentration_unit: follow-on]"
+   "notes": "Optimized conditions (0.05 mol% PTH-3CN, ambient air, 405 nm LED 0.4 W/cm2); reaction time from the PS general procedure (20 h). Temperature not reported. [adjudicated concentration: blind correct] [adjudicated concentration_unit: follow-on] [adjudicated yield_basis: located]"
   },
   {
    "rid": "b",
@@ -435,8 +436,9 @@
      "s": "producing 43% isolated yield of BA and 26% FA"
     },
     "yield_basis": {
-     "v": "benzoic acid: isolated yield; formic acid: 1H NMR yield based on repeat unit",
-     "inferred": "text: '43% isolated yield of BA'; Fig. 7 caption: yields by 1H NMR based on repeat unit unless otherwise noted"
+     "v": "1H NMR per repeat unit unless otherwise noted (benzoic acid isolated per text)",
+     "loc": "Fig. 7 caption",
+     "s": "Yields were determined by 1H NMR analysis and based on repeat unit unless otherwise noted"
     },
     "product_yields": [
      {
@@ -457,9 +459,24 @@
       "name_loc": "Results > Applications to diverse polymer types ¶3",
       "name_s": "formic acid (FA)"
      }
-    ]
+    ],
+    "light_source": {
+     "v": "50 W 405 nm LED",
+     "loc": "Methods > General procedure for conducting the photocatalytic upcycling of polymers shown in Figs. 6 and 7 ¶1",
+     "s": "irradiated with a 50 W 405 nm LED light"
+    },
+    "wavelength_nm": {
+     "v": 405,
+     "loc": "Methods > General procedure for conducting the photocatalytic upcycling of polymers shown in Figs. 6 and 7 ¶1",
+     "s": "50 W 405 nm LED light"
+    },
+    "atmosphere": {
+     "v": "air",
+     "loc": "Methods > General procedure for conducting the photocatalytic upcycling of polymers shown in Figs. 6 and 7 ¶1",
+     "s": "sparging with a gentle flow of air"
+    }
    },
-   "notes": "Other plastics remained intact except PVC dissolved. Solvent volume from Fig. 7 footnote b, the only footnote matching 0.05 mol% / 20 h."
+   "notes": "Other plastics remained intact except PVC dissolved. Solvent volume from Fig. 7 footnote b, the only footnote matching 0.05 mol% / 20 h. [adjudicated yield_basis: located] [adjudicated light_source: audit correct] [adjudicated wavelength_nm: audit correct] [adjudicated atmosphere: audit correct]"
   },
   {
    "rid": "g",
@@ -504,9 +521,26 @@
       "name_loc": "Results > Applications to diverse polymer types ¶4",
       "name_s": "terephthalic acid (2c)"
      }
-    ]
+    ],
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "50 W 405 nm LED",
+     "loc": "Methods > General procedure for conducting the photocatalytic upcycling of polymers shown in Figs. 6 and 7 ¶1",
+     "s": "irradiated with a 50 W 405 nm LED light"
+    },
+    "wavelength_nm": {
+     "v": 405,
+     "loc": "Methods > General procedure for conducting the photocatalytic upcycling of polymers shown in Figs. 6 and 7 ¶1",
+     "s": "50 W 405 nm LED light"
+    },
+    "atmosphere": {
+     "v": "air",
+     "loc": "Methods > General procedure for conducting the photocatalytic upcycling of polymers shown in Figs. 6 and 7 ¶1",
+     "s": "sparging with a gentle flow of air"
+    }
    },
-   "notes": "Catalyst loading and reaction time are in Fig. 6 footnotes whose assignment to PET is shown only in the figure (two HFIP footnotes: h = 5.0 mol%, 36 h; j = 5.0 wt%, 48 h); neither recorded. Record has no time field."
+   "notes": "Catalyst loading and reaction time are in Fig. 6 footnotes whose assignment to PET is shown only in the figure (two HFIP footnotes: h = 5.0 mol%, 36 h; j = 5.0 wt%, 48 h); neither recorded. Record has no time field. [adjudicated irradiance: audit correct] [adjudicated irradiance_unit: follow-on] [adjudicated light_source: audit correct] [adjudicated wavelength_nm: audit correct] [adjudicated atmosphere: audit correct]"
   }
  ],
  "excluded_observations": [

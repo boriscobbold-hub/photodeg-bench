@@ -7,6 +7,7 @@ Rules and their full rationale live in [rules/harmonization.yaml](../rules/harmo
 | R01 unit | kg/mol | unit conversion only |
 | R02 primary average | M<sub>n</sub>, else M<sub>w</sub>; never mixed within a pair | M<sub>n</sub> tracks chain number; some papers report only M<sub>w</sub> |
 | R03 calibration | keep as reported, label class | universal calibration (ISO 16014-2) needs Mark–Houwink constants not established for degraded, end-functionalized oligomers |
+| R04 Mark–Houwink constants | not used | follows from R03 |
 | R05 calibration class | absolute / matched / mismatched / unknown / not applicable | conventional calibration is exact only for the standard's own polymer |
 | R06 metrics | retained fraction, percent reduction | scissions per chain omitted: it assumes random scission, while several systems unzip from chain ends |
 | R07 basis | same average, same SEC method | holds within every record |
@@ -17,7 +18,7 @@ Rules and their full rationale live in [rules/harmonization.yaml](../rules/harmo
 | R12 yield basis | kept as reported | conversion needs data papers do not give |
 | R13 controls | released, flagged, kept out of performance figures | they show whether light and catalyst matter |
 | R14 licenses | all CC variants kept, license per row | *escalated*: NC/ND sources are a legal call |
-| R15 thermal regime | ambient <60 °C, heated 60–120, high >120 | stops photothermally assisted runs being ranked with ambient ones |
+| R15 thermal regime | near-ambient <60 °C (incl. LED self-heating), heated 60–120, high >120 | stops photothermally assisted runs being ranked with near-ambient ones |
 
 ## Effect on v1.0
 
@@ -31,5 +32,5 @@ Rules and their full rationale live in [rules/harmonization.yaml](../rules/harmo
 
 - Cross-paper comparison of absolute molar masses is approximate whenever calibrations differ (most records are "unknown" or "mismatched").
 - Retained fraction compares within a record, so a constant calibration bias largely cancels, but a mechanism change (unzipping vs random scission) still makes equal retained fractions mean different things.
-- Light dose is not harmonized: reported powers are mostly electrical LED power, not irradiance at the sample.
+- Light dose is not harmonized: most reported powers are lamp power, not irradiance at the sample; `light_quantity_type` says which each record holds.
 - Yields with different bases (per repeat unit, isolated, NMR, GC, mass) are not interchangeable; filter on `yield_basis`.

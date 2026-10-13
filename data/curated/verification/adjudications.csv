@@ -42,3 +42,18 @@ PMC13590609,a;b;c;d;e;f;g;h;i,catalyst,equivalent,Extraction 'none' and blind nu
 PMC13590609,d;e,solvent,equivalent,Same solvent; extraction lists the components of the paper's 'mixed Cl-Sol'.
 PMC13590609,d;e,yield:terephthalic acid,extraction correct,Source paragraph: 1:1 ratio ~70% (record d); pre-formed OPP5 48.1% (record e). Blind tasks were aligned to different sentences of the same paragraph.
 PMC9295126,e;f;g;h,products,equivalent,"Controls: 0% benzoic acid; extraction names the product measured, blind listed no product formed."
+PMC12056016,g,irradiance,audit correct,"0.4 W/cm2 belongs to the PS optimisation run, not the PET experiment (audit finding 7)."
+PMC12056016,g,irradiance_unit,follow-on,irradiance removed
+PMC13590609,d;e;f;g;h;i,atmosphere,audit correct,PET co-cycling runs were in a sealed pressure bottle; 'in air' is stated only for the PP-only runs (audit finding 8).
+PMC13590609,d;e;f;g;h;i,scope_note,noted,PET is cleaved by HCl released from light-driven PP oxidation; admitted as a tandem process because the no-light control gives no TPA.
+PMC12056016,a,yield_basis,located,Basis was asserted without a locator; the paragraph states the isolated yield.
+PMC12056016,f,yield_basis,located,Basis located in the figure caption that defines the yields.
+PMC13590609,d;f;g;h,yield_basis,located,"Workup in the co-cycling Methods, applied to real-life samples by 'the same experimental procedure'."
+PMC13590609,e,yield_basis,absence,No basis stated for the OPP5-fed run in the main text.
+PMC9381527,a,yield_basis,located,Basis located.
+PMC12056016,f;g,light_source,audit correct,"Figs. 6/7 runs follow their own general procedure, not the PS procedure (same values)."
+PMC12056016,f;g,wavelength_nm,audit correct,"Figs. 6/7 runs follow their own general procedure, not the PS procedure (same values)."
+PMC12056016,f;g,atmosphere,audit correct,"Figs. 6/7 runs follow their own general procedure, not the PS procedure (same values)."
+PMC13590609,d;e;f;g;h;i,light_source,audit correct,"PET co-cycling runs follow the co-cycling procedure, not the PP-only procedure (same values)."
+PMC13590609,d;e;f;g;h;i,wavelength_nm,audit correct,"PET co-cycling runs follow the co-cycling procedure, not the PP-only procedure (same values)."
+PMC13590609,d;e;f;g;h;i,irradiance,audit correct,"PET co-cycling runs follow the co-cycling procedure, not the PP-only procedure (same values)."

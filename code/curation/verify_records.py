@@ -43,6 +43,7 @@ NUMERIC = {"mn_before", "mw_before", "mp_before", "disp_before", "mn_after", "mw
            "time", "replicates"}
 # Fields that may be filled without a locator, because they are a classification of located facts
 # or a unit convention; the reason must be given and is published.
+ABSENCE_ONLY = {"sec_calibration", "yield_basis"}
 INFERABLE = {"polymer_class", "mass_unit_before", "mass_unit_after", "light_color", "sec_calibration",
              "yield_basis", "time_unit", "catalyst_loading_unit", "irradiance_unit", "concentration_unit"}
 
@@ -109,6 +110,8 @@ def check_field(pmcid, field, ev):
         return "malformed", "field evidence must be an object"
     if not ev.get("loc"):
         if ev.get("inferred") and field in INFERABLE:
+            if field in ABSENCE_ONLY and not str(ev.get("v", "")).lower().startswith("not"):
+                return "mismatch", f"{field} may be inferred only as absent ('not reported'/'not stated'); a stated value needs a locator"
             return "inferred", ev["inferred"]
         return "mismatch", "no locator and field is not inferable"
     B = blocks(pmcid)

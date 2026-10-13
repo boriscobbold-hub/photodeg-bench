@@ -10,7 +10,7 @@ An outline for the author to write from, not a manuscript. Numbers will come fro
    3.3 AI-assisted extraction with locators and source strings; recording rules.
    3.4 Verification: deterministic source matching, blind independent re-extraction, adjudication. State plainly that curation was AI-performed.
    3.5 Harmonization rules and comparability tiers.
-4. **Data records.** Files, formats, codebook; 87 records (29 molar mass, 75 yields, 20 controls).
+4. **Data records.** Files, formats, codebook; 87 records (29 molar mass, 75 yields, 19 controls).
 5. **Technical validation.** Field-level verification outcomes; blind agreement and adjudications; QA checks; figure reproduction; a planned human audit of a seeded sample (strongly recommended before journal submission).
 6. **Usage notes.** Filtering by tier, calibration class, thermal regime and QA flags; no cross-calibration comparison of absolute masses; the access bias.
 7. **Figures.** (1) selection flow; (2) molar-mass retention vs time; (3) benzoic acid yields from polystyrene by study; (4) composition.

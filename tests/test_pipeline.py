@@ -127,7 +127,7 @@ class TestHarmonize(unittest.TestCase):
         self.assertAlmostEqual(h["retained_fraction"], 3.4 / 120)
         self.assertAlmostEqual(h["scissions_per_chain"], 120 / 3.4 - 1)
         self.assertEqual(h["tier_product_yield"], "P1")
-        self.assertEqual(h["thermal_regime"], "ambient")
+        self.assertEqual(h["thermal_regime"], "near_ambient")
         self.assertEqual(h["primary_average"], "Mn")
         self.assertEqual(h["calibration_class"], "matched_conventional")
         self.assertEqual(h["wavelength_band"], "band_hi")

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T21:06:56",
+ "updated": "2026-10-13T06:52:31",
  "stages": {
   "fetch": "skipped (corpus present; use --refresh)",
   "candidates": "ok",
@@ -19,12 +19,13 @@
   "figures": "ok",
   "docs": "ok",
   "readiness": "ok",
-  "package": "ok"
+  "package": "ok",
+  "licenses": "ok"
  },
  "scientifically_ready": true,
  "release_authorized": false,
  "n_included_papers": 10,
  "n_records_released": 87,
  "n_unresolved": 0,
- "n_in_scope_no_fulltext": 54
+ "n_in_scope_no_fulltext": 61
 }

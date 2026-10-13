@@ -27,5 +27,20 @@ Creative Commons Attribution 4.0 International (CC BY 4.0)
 https://creativecommons.org/licenses/by/4.0/
 
 Each benchmark record cites its source article by DOI and records that article's
-license. The release contains reported experimental values and locators, not text
-from the source articles. Search metadata from Europe PMC and OpenAlex is CC0.
+license. Records contain reported experimental values, condition labels and locators.
+For verification, data/curated/evidence.csv and data/curated/extractions/*.json also
+contain short source strings (a number with its immediate context) copied from the
+articles:
+  - for articles under CC BY, CC BY-SA or CC0, these strings are included as text;
+  - for articles under non-commercial or no-derivatives licenses (CC BY-NC, CC BY-NC-ND),
+    evidence.csv gives only a SHA-256 hash of each string, which anyone can check
+    against a re-fetched copy of the article.
+The verification audit trail necessarily repeats some of these strings, including those
+from NC/ND articles: data/curated/extractions/*.json, data/curated/verification/
+(deterministic.jsonl, blind/, adjudication_queue.csv, adjudications.csv),
+data/curated/qa_flags.csv, and quoted phrases in record notes. Strings from NC/ND
+articles in those files are not offered under CC BY 4.0; they remain under the source
+article's license and are included only so the verification can be reproduced.
+Whether records derived from NC/ND articles belong in this CC BY 4.0 dataset at all is
+an open decision for the author (rule R14 in rules/harmonization.yaml). Search metadata
+from Europe PMC and OpenAlex is CC0.

@@ -163,7 +163,7 @@ index,paper_id,code,rationale,confidence,stage,has_fulltext,evidence_loc
 161,10.3390/nano12010069,E2,substrate is a small-molecule pollutant/dye; polymer (if any) is a support or matrix,medium (title-level category),title,y,
 162,10.3390/pharmaceutics13081220,E2,substrate is a small-molecule pollutant/dye; polymer (if any) is a support or matrix,medium (title-level category),title,y,
 163,10.3390/polym13030387,E2,substrate is a small-molecule pollutant/dye; polymer (if any) is a support or matrix,medium (title-level category),title,y,
-164,10.3390/polym13070999,pending_fulltext,"HDPE microplastics photocatalytically degraded with C,N-TiO2",n/a,title/abstract re-screen,y,
+164,10.3390/polym13070999,E5,"Primary study; HDPE microbeads from a facial scrub with C,N-TiO2 under a 50 W visible LED lamp (passes E3), but outcomes are only gravimetric MP concentration loss (71.77% without scavengers), FTIR carbonyl index, OM/SEM morphology and EDS oxygen; no molar mass and no identified product quantified.",high,full text,y,Table 3
 165,10.3390/polym13081198,E4,"deconstruction is thermal, chemical, enzymatic or microbial; light not the deconstruction route",medium,title/abstract,y,
 166,10.3390/polym13132036,E2,"not a study of synthetic-polymer deconstruction (biology, materials synthesis/properties, or other topic)",medium (title-level category),title,y,
 167,10.3390/polym13193425,E4,enzymatic degradation of PLA/PAni films,high,title/abstract re-screen,y,
@@ -417,7 +417,7 @@ index,paper_id,code,rationale,confidence,stage,has_fulltext,evidence_loc
 415,10.1021/acsami.5c13061,E2,"not a study of synthetic-polymer deconstruction (biology, materials synthesis/properties, or other topic)",medium (title-level category),title,n,
 416,10.1021/acscentsci.4c01317,E4,"photothermal (light-to-heat) depolymerisation, not photochemical",medium,title/abstract,y,
 417,10.1021/acsenvironau.5c00033,E1,"review, perspective, cover or non-primary item",high,title/abstract,y,
-418,10.1021/acsomega.5c02744,pending_fulltext,microplastic degradation with iron vanadate photocatalysts under solar light,n/a,title/abstract re-screen,y,
+418,10.1021/acsomega.5c02744,E3,"Primary study, but PS microplastic photodegradation was run only under a 365 nm (λmax) 8 W UVA lamp; the Xe lamp was used only for bacterial inactivation. Outcomes would also fail E5: only FTIR carbonyl/peroxyl index changes, TOC mineralization (~20% / ~8%, figure) and qualitative NMR (SI).",high,full text,y,Materials and Methods > Photoinduced Degradation Experiments ¶1
 419,10.1038/s41467-025-55930-x,E4,PLA to alanine via hydrolysate,medium,title/abstract,n,
 420,10.1038/s41467-025-59540-5,include,"Primary study; PTH-3CN organophotocatalysis under 405 nm LED in air deconstructs PS, PMMA, PET and other plastics; text reports isolated/NMR yields of named products (benzoic acid, formic acid, terephthalic acid) and PMMA Mw before/after.",high,full text,y,Results > Mechanistic hypothesis and reaction optimizations ¶3
 421,10.1038/s41467-025-61185-3,E2,"not a study of synthetic-polymer deconstruction (biology, materials synthesis/properties, or other topic)",medium (title-level category),title,n,
@@ -464,7 +464,7 @@ index,paper_id,code,rationale,confidence,stage,has_fulltext,evidence_loc
 462,10.3390/molecules30214301,E1,"review, perspective, cover or non-primary item",high,title/abstract,y,
 463,10.3390/molecules31010039,E2,"not a study of synthetic-polymer deconstruction (biology, materials synthesis/properties, or other topic)",medium (title-level category),title,y,
 464,10.3390/nano15171311,E4,photoreforming in alkaline solution; chain cleavage by hydrolysis,medium,title/abstract,y,
-465,10.3390/nano15201579,pending_fulltext,photocatalytic oxidation of nanoplastics on BiOI/CuWO4 films,n/a,title/abstract re-screen,y,
+465,10.3390/nano15201579,E5,"Primary study; PS nanospheres with BiOI/CuWO4 films under a 300 W Xe lamp with AM 1.5G filter (passes E3), but polymer outcomes are only SEM average particle size (425 -> 350 -> 325 nm), FTIR band attenuation and solution TOC (1868 -> 1322 mg/L); no molar mass and no identified product quantified.",high,full text,y,3. Results and Discussion ¶11
 466,10.3390/polym17050603,E1,"review, perspective, cover or non-primary item",high,title/abstract,y,
 467,10.3390/polym17162241,E6,"Primary study; solvent-cast PMMA/modified-nanosilica films aged in a Q-Sun Xe-3 chamber simulating full sunlight (295-800 nm, passes E3) with Mn by GPC and MMA by Py-GC-MS, but Mn versus aging time appears only in Figures 8a/9a/10a and the degradation-degree heat map (Fig. 12), and MMA is reported only as specific peak area in figures (Figs. 8b-11); the text and Table 3 give only qualitative rank orders and arrows, so no endpoint value is available as text or table.",high,full text,y,3. Results > 3.3. Effect of Surface Polar Functionalization Modification on the Photodegradation Behavior of PMMA/SiO2 ¶1
 468,10.3390/w17142139,E1,"review, perspective, cover or non-primary item",high,title/abstract,n,
@@ -536,7 +536,8 @@ index,paper_id,code,rationale,confidence,stage,has_fulltext,evidence_loc
 534,10.1021/acs.bioconjchem.6c00113,E2,"not a study of synthetic-polymer deconstruction (biology, materials synthesis/properties, or other topic)",medium (title-level category),title,n,
 535,10.1021/acs.est.6c01544,E2,"not a study of synthetic-polymer deconstruction (biology, materials synthesis/properties, or other topic)",medium (title-level category),title,n,
 536,10.1021/acs.iecr.6c02341,E1,"review, perspective, cover or non-primary item",high,title/abstract,n,
-537,10.1021/acsami.5c21187,pending_fulltext,LDPE particles photocatalytically decomposed in a MIL-88B(Fe) membrane reactor,n/a,title/abstract re-screen,y,
+537,10.1021/acsami.5c21187,E5,"Primary study; LDPE particles in an NH2-MIL-88B(Fe) photocatalytic membrane reactor under a 400 W metal lamp (180 W/m2, passes E3), but outcomes are only mass loss (22.3% membrane, 37.9% powder), rejection ratios, particle size, FTIR, CO2 by GC and TOC (SI figures); the text states no specific liquid products were identified, and no molar mass is reported.",high,full text,y,"Results and Discussion > LDPE Particle Removal Using the PMR with the MRS-NM88B and MRS-NM88B
+Membranes ¶7"
 538,10.1021/acscatal.6c01400,E6,"in scope by abstract (E1-E4) but no openly retrievable full text: post-consumer PS to phenol with eosin Y, blue light",medium,title/abstract,n,
 539,10.1021/acsestwater.6c00263,E1,perspective/review,medium,title/abstract re-screen,n,
 540,10.1021/acsomega.5c09144,E2,"not a study of synthetic-polymer deconstruction (biology, materials synthesis/properties, or other topic)",medium (title-level category),title,y,
@@ -549,7 +550,7 @@ index,paper_id,code,rationale,confidence,stage,has_fulltext,evidence_loc
 547,10.1021/jacs.6c13508,E4,"thermal depolymerisation, no light",medium,title/abstract,n,
 548,10.1038/s41467-026-73706-9,E2,substrate is a biopolymer or biomass,medium (title-level category),title,n,
 549,10.1038/s41467-026-77075-1,include,Primary study; 415 nm light generates Cl radicals from chlorinated solvents that cut PP (Mn before/after by HT-GPC in text) and release HCl that depolymerizes PET to terephthalic acid (isolated yields in text). Light step required (dark control Mn 30.8 vs 14.7 kDa; no TPA without light).,high,full text,y,Results > Oxidative degradation of polypropylene (PP) ¶1
-550,10.1038/s41598-026-43013-w,pending_fulltext,LDPE/HDPE films photocatalytically degraded with ZnO/Fe3O4 under sunlight,n/a,title/abstract re-screen,y,
+550,10.1038/s41598-026-43013-w,E5,"Primary study; LDPE and HDPE films with green-synthesised ZnO/Fe3O4 under natural sunlight for 30 days (passes E3), but outcomes are only gravimetric weight loss (e.g. LDPE 27% with ZnO), CO2-C evolved / mineralization % (Table 3), FTIR, SEM/EDS and pH; no molar mass and no identified organic product quantified (CO2 evolution is excluded under E5).",high,full text,y,Table 3
 551,10.1038/s41598-026-45387-3,E2,"not a study of synthetic-polymer deconstruction (biology, materials synthesis/properties, or other topic)",medium (title-level category),title,y,
 552,10.1038/s41598-026-54661-3,E2,"not a study of synthetic-polymer deconstruction (biology, materials synthesis/properties, or other topic)",medium (title-level category),title,y,
 553,10.1038/s41598-026-63309-1,E2,"not a study of synthetic-polymer deconstruction (biology, materials synthesis/properties, or other topic)",medium (title-level category),title,y,

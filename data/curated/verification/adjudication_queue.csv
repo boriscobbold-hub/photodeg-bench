@@ -192,7 +192,7 @@ PMC11796324,m,,record_concern,,,"Solar-simulator run; ¶10 gives 500 Wm-2 and ca
 PMC12056016,,,paper_concern,,,"PMMA records (d, e) have only approximate post-degradation Mw (≈2 kDa) and no time/solvent; may not meet recording rules."
 PMC12056016,,,paper_concern,,,"Many other quantified results with text values not covered by tasks, e.g. ¶2 TCPA 43% / TCPBA 46% BA (Mechanistic investigations ¶2); PC safety glasses → 3 + BPA combined 69% (Applications ¶4); ¶3 0.5 mol% PTH-CN 34% BA (Results optimizations ¶3)."
 PMC12056016,,,paper_concern,,,"Most per-substrate data for Figs. 2E, 3A, 5, 6, 7 are only in figures."
-PMC12056016,a,yield_basis,disagree,benzoic acid: isolated yield; formic acid: NMR yield (per styrene repeat unit),isolated (BA); NMR (formic acid),"{""v"": ""isolated (BA); NMR (formic acid)"", ""loc"": ""Results > Mechanistic hypothesis and reaction optimizations ¶3"", ""s"": ""50% isolated yield of BA""}"
+PMC12056016,a,yield_basis,disagree,isolated (benzoic acid); formic acid by NMR per the same paragraph,isolated (BA); NMR (formic acid),"{""v"": ""isolated (BA); NMR (formic acid)"", ""loc"": ""Results > Mechanistic hypothesis and reaction optimizations ¶3"", ""s"": ""50% isolated yield of BA""}"
 PMC12056016,a,,record_concern,,,"Concentration not printed; only 0.10 g PS1 (¶3) and ca. 104 mg PS in 0.50 mL PhCl + 0.50 mL MeCN (Methods) are given, so concentration left null."
 PMC12056016,a,,record_concern,,,"Time (20 h) and solvent come from the Methods general procedure, not from ¶3 itself."
 PMC12056016,a,,record_concern,,,"Mixed yield basis: BA isolated, formic acid by 1H NMR."
@@ -220,13 +220,11 @@ PMC12056016,e,,record_concern,,,GPC calibration not reported in main text.
 PMC12056016,f,irradiance,blind_null,0.4,,
 PMC12056016,f,irradiance_unit,blind_null,W/cm2,,
 PMC12056016,f,solvent,disagree,"chlorobenzene/acetonitrile (1/1, 1.8 mL)","PhCl/MeCN (1/1, 1.8 mL)","{""v"": ""PhCl/MeCN (1/1, 1.8 mL)"", ""loc"": ""Fig. 7 caption"", ""s"": ""PhCl/MeCN (1/1, 1.8 mL), 20 h""}"
-PMC12056016,f,yield_basis,disagree,benzoic acid: isolated yield; formic acid: 1H NMR yield based on repeat unit,"isolated (BA); 1H NMR, based on repeat unit (FA)","{""v"": ""isolated (BA); 1H NMR, based on repeat unit (FA)"", ""loc"": ""Fig. 7 caption"", ""s"": ""aYields were determined by 1H NMR analysis and based on repeat unit unless otherwise noted""}"
+PMC12056016,f,yield_basis,disagree,1H NMR per repeat unit unless otherwise noted (benzoic acid isolated per text),"isolated (BA); 1H NMR, based on repeat unit (FA)","{""v"": ""isolated (BA); 1H NMR, based on repeat unit (FA)"", ""loc"": ""Fig. 7 caption"", ""s"": ""aYields were determined by 1H NMR analysis and based on repeat unit unless otherwise noted""}"
 PMC12056016,f,,record_concern,,,Irradiance not given for Fig. 7 conditions (only 0.4 W/cm2 for PS optimization in Results ¶3).
 PMC12056016,f,,record_concern,,,"FA basis presumably NMR per Fig. 7 footnote a; the 26% may include FA from co-present polymers (PVC dissolved), so attribution to PS is uncertain."
 PMC12056016,f,,record_concern,,,Light/atmosphere from Methods for Figs. 6 and 7.
 PMC12056016,g,catalyst_loading_unit,blind_null,mol%,,
-PMC12056016,g,irradiance,blind_null,0.4,,
-PMC12056016,g,irradiance_unit,blind_null,W/cm2,,
 PMC12056016,g,solvent,disagree,HFIP as co-solvent (with chlorobenzene/acetonitrile),HFIP as co-solvent (with PhCl/MeCN),"{""v"": ""HFIP as co-solvent (with PhCl/MeCN)"", ""loc"": ""Results > Applications to diverse polymer types ¶4"", ""s"": ""using HFIP as a co-solvent""}"
 PMC12056016,g,time_unit,blind_null,h,,
 PMC12056016,g,,record_concern,,,"Catalyst loading, exact solvent ratio and time for the PET bottle are only assignable via Fig. 6 footnote letters shown in the figure: two HFIP footnotes exist (h: 5.0 mol% PTH-3CN, HFIP/PhCl/MeCN 4/1/1, 3.0 mL, 36 h; j: 5.0 wt% PTH-3CN, PhCl/MeCN/HFIP 2/1/1, 4.0 mL, 48 h). Cannot tell from text which applies, so catalyst_loading_unit (mol% vs wt%) and time_unit left null (both candidates are in h)."
@@ -338,6 +336,7 @@ PMC13590609,e,catalyst,blind_null,none (Cl radicals generated in situ from chlor
 PMC13590609,e,irradiance,blind_null,50,,
 PMC13590609,e,irradiance_unit,blind_null,"W (electrical, per lamp; two lamps)",,
 PMC13590609,e,solvent,disagree,"mixed Cl-Sol (CH2Cl2, CHCl3, o-DCB, CyCl, CCl4, TCE, 2 mL each)",mixed chlorinated solvents,"{""v"": ""mixed chlorinated solvents"", ""loc"": ""Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2"", ""s"": ""in mixed chlorinated solvents""}"
+PMC13590609,e,yield_basis,disagree,not stated in main text (value from Supplementary Table S5),isolated,"{""v"": ""isolated"", ""loc"": ""Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2"", ""s"": ""over 90% of terephthalic acid (TPA) was isolated""}"
 PMC13590609,e,yield:terephthalic acid,disagree,48.1,70,"{""v"": 70, ""u"": ""%"", ""loc"": ""Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2"", ""s"": ""the TPA yield decreased to ~70%""}"
 PMC13590609,e,,record_concern,,,No photocatalyst; Cl-solvent generates Cl radicals; catalyst null. Atmosphere 'air' only from Introduction summary; Methods uses a sealed pressure bottle.
 PMC13590609,e,,record_concern,,,"Irradiance not given; only 'two symmetrically arranged 415 nm LED lamps (50 W ...), each positioned 4 cm from the bottle' (Methods)."
@@ -484,7 +483,7 @@ PMC9381527,,,paper_concern,,,"Table 1 entries (conversion/selectivity with SD, n
 PMC9381527,,,paper_concern,,,Flow WHSV results (selectivity 51% benzaldehyde / 31% acetophenone at 0.9 h-1; BA 18-74%) not covered.
 PMC9381527,a,irradiance,blind_null,300,,
 PMC9381527,a,irradiance_unit,blind_null,W (electrical lamp power),,
-PMC9381527,a,yield_basis,disagree,amount (mg) obtained from 500 mg PS pellets: 360 mg = total quantified benzoic acid + acetophenone + benzaldehyde; 240 mg = benzoic acid isolated by column chromatography,"mass of products (mg) from 0.5 g PS; 74/15/11% is composition of the oxygenates, not yield","{""v"": ""mass of products (mg) from 0.5 g PS; 74/15/11% is composition of the oxygenates, not yield"", ""loc"": ""Results > Further improvement based on the reaction mechanism ¶2"", ""s"": ""a total amount of 360 mg aromatic oxygenates were produced""}"
+PMC9381527,a,yield_basis,disagree,amounts in mg from 500 mg PS: 360 mg total aromatic oxygenates; 240 mg benzoic acid recovered by column chromatography,"mass of products (mg) from 0.5 g PS; 74/15/11% is composition of the oxygenates, not yield","{""v"": ""mass of products (mg) from 0.5 g PS; 74/15/11% is composition of the oxygenates, not yield"", ""loc"": ""Results > Further improvement based on the reaction mechanism ¶2"", ""s"": ""a total amount of 360 mg aromatic oxygenates were produced""}"
 PMC9381527,a,,record_concern,,,Light source is an unfiltered 300 W Xenon lamp (UV included); only Table 1 entry 11 used a 400-800 nm filter. This record is not demonstrably visible-light-only.
 PMC9381527,a,,record_concern,,,"Yields are amounts (mg), not %; 90% of pellets converted. Percentages 74/15/11 are product distribution within the 360 mg."
 PMC9381527,a,,record_concern,,,Catalyst loading given as mass (200 mg) / substrate:catalyst ratio 5:2; irradiance not reported (lamp power only).

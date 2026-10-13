@@ -190,7 +190,7 @@ rules:
     decision: {ambient_max_c: 60, heated_max_c: 120}
     rationale: >-
       Several systems run at 100-170 C, and in at least one a dark control at the same temperature gives
-      most of the lit result. Records are labelled ambient (<60 C or unreported LED self-heating), heated
+      most of the lit result. Records are labelled near_ambient (<60 C, including LED self-heating to ~50 C), heated
       (60-120 C) or high_temperature (>120 C) so photochemical and photothermally assisted results are not
       ranked together unintentionally.
     invalid_for: "records without a stated temperature (labelled 'not_reported')"

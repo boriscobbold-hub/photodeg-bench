@@ -294,8 +294,9 @@
      "s": "PET depolymerization into terephthalic acid"
     },
     "yield_basis": {
-     "v": "isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",
-     "inferred": "Methods co-cycling workup and 'over 90% of terephthalic acid (TPA) was isolated'"
+     "v": "isolated (TPA recovered, dried to constant weight)",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "dried at 60 °C until constant weight was achieved"
     },
     "product_yields": [
      {
@@ -317,9 +318,25 @@
      "v": 5,
      "loc": "Fig. 3 caption",
      "s": "(n = 5, mean ± SD)"
+    },
+    "atmosphere": null,
+    "light_source": {
+     "v": "two 415 nm LED lamps (50 W each), 4 cm from vessel",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "two symmetrically positioned 415 nm LED lamps"
+    },
+    "wavelength_nm": {
+     "v": 415,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps"
+    },
+    "irradiance": {
+     "v": 50,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps (50 W"
     }
    },
-   "notes": "Fig. 3b entry 4; value approximate ('~70%') in text; nearly all HCl consumed. PP grade and absolute amounts for this entry not stated in text."
+   "notes": "Fig. 3b entry 4; value approximate ('~70%') in text; nearly all HCl consumed. PP grade and absolute amounts for this entry not stated in text. Scope: PET is cleaved by HCl released from the light-driven PP oxidation (tandem); admitted because the no-light control gives no TPA. [adjudicated atmosphere: audit correct] [adjudicated yield_basis: located] [adjudicated light_source: audit correct] [adjudicated wavelength_nm: audit correct] [adjudicated irradiance: audit correct]"
   },
   {
    "rid": "e",
@@ -350,8 +367,8 @@
      "s": "PET depolymerization into terephthalic acid"
     },
     "yield_basis": {
-     "v": "isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",
-     "inferred": "Methods co-cycling workup and 'over 90% of terephthalic acid (TPA) was isolated'"
+     "v": "not stated in main text (value from Supplementary Table S5)",
+     "inferred": "the 48.1% is quoted from an SI table without a basis"
     },
     "product_yields": [
      {
@@ -368,9 +385,25 @@
      "v": "pre-formed OPP5 (oxidized PP) instead of P5",
      "loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2",
      "s": "pre-formed OPP5 was used instead of P5"
+    },
+    "atmosphere": null,
+    "light_source": {
+     "v": "two 415 nm LED lamps (50 W each), 4 cm from vessel",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "two symmetrically positioned 415 nm LED lamps"
+    },
+    "wavelength_nm": {
+     "v": 415,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps"
+    },
+    "irradiance": {
+     "v": 50,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps (50 W"
     }
    },
-   "notes": "Supplementary Table S5 value quoted in main text; PET conversion 56.6% (same sentence). PP/PET ratio not stated with this value."
+   "notes": "Supplementary Table S5 value quoted in main text; PET conversion 56.6% (same sentence). PP/PET ratio not stated with this value. Scope: PET is cleaved by HCl released from the light-driven PP oxidation (tandem); admitted because the no-light control gives no TPA. [adjudicated atmosphere: audit correct] [adjudicated yield_basis: absence] [adjudicated light_source: audit correct] [adjudicated wavelength_nm: audit correct] [adjudicated irradiance: audit correct]"
   },
   {
    "rid": "f",
@@ -401,8 +434,9 @@
      "s": "PET depolymerization into terephthalic acid"
     },
     "yield_basis": {
-     "v": "isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",
-     "inferred": "Methods co-cycling workup and 'over 90% of terephthalic acid (TPA) was isolated'"
+     "v": "isolated (TPA recovered, dried to constant weight)",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "dried at 60 °C until constant weight was achieved"
     },
     "product_yields": [
      {
@@ -419,9 +453,25 @@
      "v": "distilled mixed chlorinated solvent wastes (laboratory)",
      "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
      "s": "distilled mixed chlorinated solvent wastes"
+    },
+    "atmosphere": null,
+    "light_source": {
+     "v": "two 415 nm LED lamps (50 W each), 4 cm from vessel",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "two symmetrically positioned 415 nm LED lamps"
+    },
+    "wavelength_nm": {
+     "v": 415,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps"
+    },
+    "irradiance": {
+     "v": 50,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps (50 W"
     }
    },
-   "notes": "Same procedure applied to real-life samples (Methods). Amounts from Fig. 4 caption."
+   "notes": "Same procedure applied to real-life samples (Methods). Amounts from Fig. 4 caption. Scope: PET is cleaved by HCl released from the light-driven PP oxidation (tandem); admitted because the no-light control gives no TPA. [adjudicated atmosphere: audit correct] [adjudicated yield_basis: located] [adjudicated light_source: audit correct] [adjudicated wavelength_nm: audit correct] [adjudicated irradiance: audit correct]"
   },
   {
    "rid": "g",
@@ -452,8 +502,9 @@
      "s": "PET depolymerization into terephthalic acid"
     },
     "yield_basis": {
-     "v": "isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",
-     "inferred": "Methods co-cycling workup and 'over 90% of terephthalic acid (TPA) was isolated'"
+     "v": "isolated (TPA recovered, dried to constant weight)",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "dried at 60 °C until constant weight was achieved"
     },
     "product_yields": [
      {
@@ -470,9 +521,25 @@
      "v": "distilled mixed chlorinated solvent wastes (laboratory)",
      "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
      "s": "distilled mixed chlorinated solvent wastes"
+    },
+    "atmosphere": null,
+    "light_source": {
+     "v": "two 415 nm LED lamps (50 W each), 4 cm from vessel",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "two symmetrically positioned 415 nm LED lamps"
+    },
+    "wavelength_nm": {
+     "v": 415,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps"
+    },
+    "irradiance": {
+     "v": 50,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps (50 W"
     }
    },
-   "notes": "Same procedure applied to real-life samples (Methods)."
+   "notes": "Same procedure applied to real-life samples (Methods). Scope: PET is cleaved by HCl released from the light-driven PP oxidation (tandem); admitted because the no-light control gives no TPA. [adjudicated atmosphere: audit correct] [adjudicated yield_basis: located] [adjudicated light_source: audit correct] [adjudicated wavelength_nm: audit correct] [adjudicated irradiance: audit correct]"
   },
   {
    "rid": "h",
@@ -503,8 +570,9 @@
      "s": "PET depolymerization into terephthalic acid"
     },
     "yield_basis": {
-     "v": "isolated yield (TPA recovered by alkaline extraction/acidification, dried to constant weight)",
-     "inferred": "Methods co-cycling workup and 'over 90% of terephthalic acid (TPA) was isolated'"
+     "v": "isolated (TPA recovered, dried to constant weight)",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "dried at 60 °C until constant weight was achieved"
     },
     "product_yields": [
      {
@@ -521,9 +589,25 @@
      "v": "distilled mixed chlorinated solvent wastes (laboratory)",
      "loc": "Results > Co-upcycling of real-world PET and PP plastics ¶1",
      "s": "distilled mixed chlorinated solvent wastes"
+    },
+    "atmosphere": null,
+    "light_source": {
+     "v": "two 415 nm LED lamps (50 W each), 4 cm from vessel",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "two symmetrically positioned 415 nm LED lamps"
+    },
+    "wavelength_nm": {
+     "v": 415,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps"
+    },
+    "irradiance": {
+     "v": 50,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps (50 W"
     }
    },
-   "notes": "Same procedure applied to real-life samples (Methods)."
+   "notes": "Same procedure applied to real-life samples (Methods). Scope: PET is cleaved by HCl released from the light-driven PP oxidation (tandem); admitted because the no-light control gives no TPA. [adjudicated atmosphere: audit correct] [adjudicated yield_basis: located] [adjudicated light_source: audit correct] [adjudicated wavelength_nm: audit correct] [adjudicated irradiance: audit correct]"
   },
   {
    "rid": "i",
@@ -564,9 +648,25 @@
       "name_loc": "abstract",
       "name_s": "terephthalic acid"
      }
-    ]
+    ],
+    "atmosphere": null,
+    "light_source": {
+     "v": "two 415 nm LED lamps (50 W each), 4 cm from vessel",
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "two symmetrically positioned 415 nm LED lamps"
+    },
+    "wavelength_nm": {
+     "v": 415,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps"
+    },
+    "irradiance": {
+     "v": 50,
+     "loc": "Methods > Co-cycling of PP and PET ¶1",
+     "s": "415 nm LED lamps (50 W"
+    }
    },
-   "notes": "Scale-up (Fig. 4b); time and solvent volume not stated in text; record has no time field. OPP recovered 96 wt% (not recorded, see exclusions)."
+   "notes": "Scale-up (Fig. 4b); time and solvent volume not stated in text; record has no time field. OPP recovered 96 wt% (not recorded, see exclusions). Scope: PET is cleaved by HCl released from the light-driven PP oxidation (tandem); admitted because the no-light control gives no TPA. [adjudicated atmosphere: audit correct] [adjudicated light_source: audit correct] [adjudicated wavelength_nm: audit correct] [adjudicated irradiance: audit correct]"
   }
  ],
  "excluded_observations": [

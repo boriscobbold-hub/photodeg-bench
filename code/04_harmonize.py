@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import re
 import importlib.util
 from pathlib import Path
 
@@ -219,6 +220,9 @@ def harmonize(records, rules):
             note(rid, "R08", f"excluded: outside visible window or excluded source ({','.join(flags) or wl})")
             continue
         h["light_flags"] = ";".join(sorted(set(flags)))
+        iu = (r.get("irradiance_unit") or "").lower()
+        h["light_quantity_type"] = ("" if not (r.get("irradiance") or "").strip() else
+                                    "irradiance" if re.search(r"/\s*(cm|m)\s*2|cm-2|m-2|cm2|m2", iu) else "lamp_power")
         band = ""
         if wl is not None:
             for bd in bands:
@@ -237,7 +241,7 @@ def harmonize(records, rules):
         if tc is None:
             h["thermal_regime"] = "not_reported"
         elif tc < thermal.get("ambient_max_c", 60):
-            h["thermal_regime"] = "ambient"
+            h["thermal_regime"] = "near_ambient"
         elif tc <= thermal.get("heated_max_c", 120):
             h["thermal_regime"] = "heated"
         else:
@@ -286,7 +290,7 @@ RELEASE_COLUMNS = [
     "retained_fraction", "percent_reduction",
     "catalyst", "catalyst_loading", "catalyst_loading_unit", "cocatalyst_additives",
     "light_source", "wavelength_nm", "wavelength_range_nm", "light_color", "wavelength_band", "light_flags",
-    "irradiance", "irradiance_unit",
+    "irradiance", "irradiance_unit", "light_quantity_type",
     "solvent", "concentration", "concentration_unit", "atmosphere", "temperature_c", "thermal_regime",
     "time", "time_unit", "time_h", "time_unit_h",
     "products", "product_yields", "yield_basis", "yield_uncertainty", "replicates",

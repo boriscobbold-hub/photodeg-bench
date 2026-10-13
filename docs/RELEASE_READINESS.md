@@ -1,6 +1,6 @@
 # Release readiness: PhotoDeg-Bench v1.0
 
-Generated 2026-10-12T21:07:00 by `tools/release_gate.py`. Regenerate; do not edit by hand.
+Generated 2026-10-13T06:52:31 by `tools/release_gate.py`. Regenerate; do not edit by hand.
 
 **Scientific readiness: PASS.** **Release authorization: PENDING (author).**
 
@@ -14,9 +14,9 @@ Generated 2026-10-12T21:07:00 by `tools/release_gate.py`. Regenerate; do not edi
 | S6 | every required harmonization rule set and justified | pass | 15 rules |
 | S7 | figures reproduce byte-for-byte from the final dataset | pass | all PNGs identical on regeneration |
 | S8 | every source article has a provenance record (and matching hash when present) | pass | ok |
-| S9 | every record's source license is allowed by rule R14 | pass | ok |
+| S9 | source licenses allowed by R14 and confirmed against Crossref | pass | 10 articles confirmed |
 | S10 | no secrets or credentials in the repository | pass | none found |
 | S11 | stats file agrees with the release table | pass | stats 87 vs table 87 |
-| A1 | author metadata complete (AUTHORS.json, CITATION.cff, LICENSE, Zenodo metadata) | pending_author | placeholders remain |
+| A1 | author metadata complete (AUTHORS.json, CITATION.cff, LICENSE, Zenodo metadata) | pending_author | placeholders remain in: ['AUTHORS.json', 'CITATION.cff', 'LICENSE', 'docs/zenodo_metadata.json'] |
 | A2 | escalated scientific/legal rules endorsed by the author | pending_author | awaiting: ['R08_visible_window', 'R14_source_license_policy'] |
-| A3 | public release authorized by the author | pending_author | release/AUTHORIZATION.json not present |
+| A3 | public release authorized by the author (written authorization file; not a cryptographic signature) | pending_author | release/AUTHORIZATION.json not present |
