@@ -18,7 +18,7 @@ def main():
     ap = argparse.ArgumentParser()
     for a in ("given", "family", "affiliation", "roles"):
         ap.add_argument(f"--{a}", required=True)
-    # Optional: left as [VERIFY] placeholders when not supplied, so release gate A1 keeps blocking.
+    # Optional: left as verify-placeholders when not supplied, so release gate A1 keeps blocking.
     ap.add_argument("--orcid", default="[VERIFY: 0000-0000-0000-0000]")
     ap.add_argument("--email", default="")
     ap.add_argument("--repo-url", default="[VERIFY: https://github.com/<user>/photodeg-bench]")

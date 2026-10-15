@@ -4,7 +4,6 @@
  "creators": [
   {
    "name": "Cobbold, Boris Ekonde",
-   "orcid": "[VERIFY: 0000-0000-0000-0000]",
    "affiliation": "Independent Researcher"
   }
  ],
@@ -23,7 +22,7 @@
  "language": "eng",
  "related_identifiers": [
   {
-   "identifier": "[VERIFY: https://github.com/<user>/photodeg-bench]",
+   "identifier": "https://github.com/boriscobbold-hub/photodeg-bench",
    "relation": "isSupplementTo",
    "scheme": "url"
   }

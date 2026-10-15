@@ -1,4 +1,4 @@
-> **Status: v1.0.0 release candidate, not yet published.** Scientific readiness is machine-checked (see [docs/RELEASE_READINESS.md](docs/RELEASE_READINESS.md)); public release awaits the author's authorization. DOI: assigned at deposit.
+> **Status: v1.0.0, released 2026-10-14 with the author's authorization.** Scientific readiness is machine-checked (see [docs/RELEASE_READINESS.md](docs/RELEASE_READINESS.md)). DOI: pending the Zenodo archive of this release.
 
 # PhotoDeg-Bench
 

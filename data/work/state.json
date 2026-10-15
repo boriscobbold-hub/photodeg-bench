@@ -101,30 +101,32 @@
   },
   "harmonize": {
    "status": "ok",
-   "inputs_sha256": "2ba47fd0475d42036dde2f5c0934506cc29420e97fe208511a8c7d6868535ef1",
-   "finished": "2026-10-13T06:52:21",
+   "inputs_sha256": "0fe5f2d3a0f52536b81d0159e49199881ed055a6cfaf4970e8fc768e01774626",
+   "finished": "2026-10-14T20:03:58",
    "log": "data/work/logs/harmonize.log",
    "tail": "87 records in, 87 harmonized -> /home/claude/photodeg-bench/data/processed/photodeg_bench_v1.0.csv; 0 rule actions logged\n",
    "status_note": "unchanged inputs; skipped"
   },
   "qa": {
    "status": "ok",
-   "inputs_sha256": "d3b3adabb186e810def0b9930b050a10540254076c66aab59dea7cd1521576b1",
-   "finished": "2026-10-13T06:53:12",
+   "inputs_sha256": "03e97c7b5f45b96017324fb57fc9a401d0047df0b8c75dbe9f1557ade39aec15",
+   "finished": "2026-10-14T20:11:23",
    "log": "data/work/logs/qa.log",
-   "tail": "                   13\n  thermal_contribution           2\n  bimodal_sec                    2\n\n8. SPOT CHECKS\n  random (seed 20261012): PDG-PMC12464638-g, PDG-PMC10557129-b, PDG-PMC10557129-g, PDG-PMC10557129-a, PDG-PMC10557129-f\n  risk-weighted (flagged, outliers, active controls): 72 records, all independently re-extracted: yes\n\nexceptions: data/processed/exceptions.csv; numbers: paper/stats.json\n"
+   "tail": "                   13\n  thermal_contribution           2\n  bimodal_sec                    2\n\n8. SPOT CHECKS\n  random (seed 20261012): PDG-PMC12464638-g, PDG-PMC10557129-b, PDG-PMC10557129-g, PDG-PMC10557129-a, PDG-PMC10557129-f\n  risk-weighted (flagged, outliers, active controls): 72 records, all independently re-extracted: yes\n\nexceptions: data/processed/exceptions.csv; numbers: paper/stats.json\n",
+   "status_note": "unchanged inputs; skipped"
   },
   "figures": {
    "status": "ok",
-   "inputs_sha256": "159022a9166827ac5c30ca3f6b45014b340159cd1e7609f40003bb2c7c8fa72b",
-   "finished": "2026-10-13T06:53:17",
+   "inputs_sha256": "f310b5926b7287d423e67ff4a55f2601003c3716aefe01836484314b2e1a1814",
+   "finished": "2026-10-14T20:04:06",
    "log": "data/work/logs/figures.log",
-   "tail": "figures -> /home/claude/photodeg-bench/paper/figures (final); fig2 points 20; fig3 points 35\n"
+   "tail": "figures -> /home/claude/photodeg-bench/paper/figures (final); fig2 points 20; fig3 points 35\n",
+   "status_note": "unchanged inputs; skipped"
   },
   "docs": {
    "status": "ok",
-   "inputs_sha256": "244d143d597379b63976464667607657f7838b150cccd08102360b030ef8476d",
-   "finished": "2026-10-13T06:52:27",
+   "inputs_sha256": "93b73c53695728b84cd7b4ae80122bd8e6b6f73743c756cf47a6ed83c6ac1f46",
+   "finished": "2026-10-14T20:04:06",
    "log": "data/work/logs/docs.log",
    "tail": "docs rendered: README.md, docs/METHODS_AUTOMATED_CURATION.md, docs/HARMONIZATION_REPORT.md, docs/LIMITATIONS.md, docs/MANUSCRIPT_OUTLINE.md\n",
    "status_note": "unchanged inputs; skipped"
@@ -132,16 +134,16 @@
   "readiness": {
    "status": "ok",
    "inputs_sha256": null,
-   "finished": "2026-10-13T06:53:22",
+   "finished": "2026-10-14T20:17:29",
    "log": "data/work/logs/readiness.log",
-   "tail": "ICENSE', 'docs/zenodo_metadata.json']]\nA2   pending_author  escalated scientific/legal rules endorsed by the author  [awaiting: ['R08_visible_window', 'R14_source_license_policy']]\nA3   pending_author  public release authorized by the author (written authorization file; not a cryptographic signature)  [release/AUTHORIZATION.json not present]\n\nscientifically ready: True   release authorized: False\n"
+   "tail": "ble  [stats 87 vs table 87]\nA1   pass            author metadata complete (AUTHORS.json, CITATION.cff, LICENSE, Zenodo metadata)  [ok]\nA2   pass            escalated scientific/legal rules endorsed by the author  [ok]\nA3   pass            public release authorized by the author (written authorization file; not a cryptographic signature)  [ok]\n\nscientifically ready: True   release authorized: True\n"
   },
   "package": {
    "status": "ok",
    "inputs_sha256": null,
-   "finished": "2026-10-13T06:53:22",
+   "finished": "2026-10-14T20:17:29",
    "log": "data/work/logs/package.log",
-   "tail": "143 files -> /home/claude/photodeg-bench/release/photodeg-bench-v1.0.0; zip photodeg-bench-v1.0.0.zip (1354209 bytes, sha256 13f555afbc29a061...); missing: []\n"
+   "tail": "144 files -> /home/claude/photodeg-bench/release/photodeg-bench-v1.0.0; zip photodeg-bench-v1.0.0.zip (1355365 bytes, sha256 8b6b2886f975f963...); missing: []\n"
   },
   "licenses": {
    "status": "ok",

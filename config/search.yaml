@@ -1,10 +1,10 @@
 # Search strategy for PhotoDeg-Bench. Recorded verbatim in data/raw/PROVENANCE.txt on every run
 # so the corpus is reproducible from these strings and the fetch date.
-# [VERIFY] Boris reviews these strings before the v1.0 fetch.
+# Search strings reviewed with the release candidate; approved by Boris, 2026-10-13.
 
 contact_email: ""          # used as OpenAlex mailto (polite pool) and Europe PMC email param; set via env PHOTODEG_EMAIL instead if preferred
 
-year_min: 2010             # [VERIFY] scope floor
+year_min: 2010             # scope floor (2010 confirmed by Boris, 2026-10-14)
 year_max: null             # null = through fetch date
 
 europepmc:

@@ -3,13 +3,12 @@ message: "If you use PhotoDeg-Bench, please cite it as below."
 type: dataset
 title: "PhotoDeg-Bench: an open, harmonized benchmark of visible-light polymer deconstruction conditions and outcomes"
 version: "1.0.0"
-date-released: "[VERIFY: YYYY-MM-DD of release]"
+date-released: "2026-10-14"
 authors:
   - family-names: "Cobbold"
     given-names: "Boris Ekonde"
-    orcid: "https://orcid.org/[VERIFY: 0000-0000-0000-0000]"
 license: CC-BY-4.0
-repository-code: "[VERIFY: https://github.com/<user>/photodeg-bench]"
+repository-code: "https://github.com/boriscobbold-hub/photodeg-bench"
 abstract: >-
   Source-verified records of visible-light photochemical polymer deconstruction
   experiments from the open-access literature: polymer, molar mass before and after,

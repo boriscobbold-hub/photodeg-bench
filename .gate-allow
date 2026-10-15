@@ -1,3 +1,15 @@
 # Paths whose code contains draft-marker strings by design; secrets are still scanned.
 tools/
 code/06_figures.py
+# Code lines whose Python indexing / regex literals match the bracketed-placeholder pattern (author approved 2026-10-14)
+code/curation/evidence_pack.py
+code/curation/build_records.py
+code/05_qa.py
+code/02b_triage.py
+# Same files inside the built release bundle
+release/photodeg-bench-v1.0.0/tools/
+release/photodeg-bench-v1.0.0/code/06_figures.py
+release/photodeg-bench-v1.0.0/code/curation/evidence_pack.py
+release/photodeg-bench-v1.0.0/code/curation/build_records.py
+release/photodeg-bench-v1.0.0/code/05_qa.py
+release/photodeg-bench-v1.0.0/code/02b_triage.py
