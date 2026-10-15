@@ -4,7 +4,7 @@
  "creators": [
   {
    "name": "Cobbold, Boris Ekonde",
-   "affiliation": "Independent Researcher"
+   "affiliation": "Independent Researcher, Knoxville, TN, USA"
   }
  ],
  "description": "<p>Source-checked records of visible-light photochemical polymer deconstruction experiments from the open-access literature (Europe PMC, OpenAlex): polymer, molar mass before and after, SEC calibration, catalyst, wavelength, solvent, time and product yields, with harmonization rules and comparability tiers.</p><p><b>Curation method:</b> records were screened, extracted and harmonized by an AI system (Claude) under the author's delegation. Every measured value carries its locator and source string and was checked by a deterministic source-matching script (a short list of classification and unit fields is filled without a locator, with stated reasons); every record was independently re-extracted blind, with disagreements adjudicated against the source and logged; an independent audit of the release candidate is included. No human expert reviewed individual records for this version.</p><p>Contents: benchmark table (CSV), evidence log, screening log, verification audit trail, rules, QA report, exceptions, code, documentation. Main limitation: about three quarters of in-scope papers had no retrievable full text; see LIMITATIONS.md.</p><p><b>License note:</b> data and documentation are CC BY 4.0, except short verbatim source strings from CC BY-NC / BY-NC-ND articles that appear in the verification audit trail; those remain under the source article's license (see LICENSE).</p>",

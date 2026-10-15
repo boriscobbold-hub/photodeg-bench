@@ -134,16 +134,16 @@
   "readiness": {
    "status": "ok",
    "inputs_sha256": null,
-   "finished": "2026-10-14T20:17:29",
+   "finished": "2026-10-14T21:21:37",
    "log": "data/work/logs/readiness.log",
    "tail": "ble  [stats 87 vs table 87]\nA1   pass            author metadata complete (AUTHORS.json, CITATION.cff, LICENSE, Zenodo metadata)  [ok]\nA2   pass            escalated scientific/legal rules endorsed by the author  [ok]\nA3   pass            public release authorized by the author (written authorization file; not a cryptographic signature)  [ok]\n\nscientifically ready: True   release authorized: True\n"
   },
   "package": {
    "status": "ok",
    "inputs_sha256": null,
-   "finished": "2026-10-14T20:17:29",
+   "finished": "2026-10-14T21:21:37",
    "log": "data/work/logs/package.log",
-   "tail": "144 files -> /home/claude/photodeg-bench/release/photodeg-bench-v1.0.0; zip photodeg-bench-v1.0.0.zip (1355365 bytes, sha256 8b6b2886f975f963...); missing: []\n"
+   "tail": "144 files -> /home/claude/photodeg-bench/release/photodeg-bench-v1.0.0; zip photodeg-bench-v1.0.0.zip (1355504 bytes, sha256 958325e578bc9aa2...); missing: []\n"
   },
   "licenses": {
    "status": "ok",

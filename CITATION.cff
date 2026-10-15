@@ -7,6 +7,8 @@ date-released: "2026-10-14"
 authors:
   - family-names: "Cobbold"
     given-names: "Boris Ekonde"
+    affiliation: "Independent Researcher, Knoxville, TN, USA"
+    email: "boris.cobbold@yahoo.com"
 license: CC-BY-4.0
 repository-code: "https://github.com/boriscobbold-hub/photodeg-bench"
 abstract: >-
