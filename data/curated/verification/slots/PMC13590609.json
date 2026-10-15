@@ -1,0 +1,244 @@
+{
+ "pmcid": "PMC13590609",
+ "doi": "10.1038/s41467-026-77075-1",
+ "tasks": [
+  {
+   "rid": "a",
+   "primary_loc": "Results > Oxidative degradation of polypropylene (PP) \u00b61",
+   "polymer_anchor": "polypropylene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "concentration",
+    "concentration_unit",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "mass_unit_after",
+    "mass_unit_before",
+    "mn_after",
+    "mn_before",
+    "polymer",
+    "polymer_detail",
+    "sec_calibration",
+    "sec_eluent",
+    "sec_temperature_c",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm"
+   ],
+   "report_yields_for_products": []
+  },
+  {
+   "rid": "b",
+   "primary_loc": "Results > Oxidative degradation of polypropylene (PP) \u00b62",
+   "polymer_anchor": "polypropylene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "concentration",
+    "concentration_unit",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "mass_unit_after",
+    "mass_unit_before",
+    "mn_after",
+    "mn_before",
+    "polymer",
+    "polymer_detail",
+    "sec_calibration",
+    "sec_eluent",
+    "sec_temperature_c",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm"
+   ],
+   "report_yields_for_products": []
+  },
+  {
+   "rid": "c",
+   "primary_loc": "Results > Oxidative degradation of polypropylene (PP) \u00b62",
+   "polymer_anchor": "polypropylene",
+   "is_control": true,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "concentration",
+    "concentration_unit",
+    "light_source",
+    "mass_unit_after",
+    "mass_unit_before",
+    "mn_after",
+    "mn_before",
+    "polymer",
+    "polymer_detail",
+    "sec_calibration",
+    "sec_eluent",
+    "sec_temperature_c",
+    "solvent",
+    "time",
+    "time_unit"
+   ],
+   "report_yields_for_products": []
+  },
+  {
+   "rid": "d",
+   "primary_loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism \u00b62",
+   "polymer_anchor": "poly(ethylene terephthalate)",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "cocatalyst_additives",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "replicates",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "terephthalic acid"
+   ]
+  },
+  {
+   "rid": "e",
+   "primary_loc": "Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism \u00b62",
+   "polymer_anchor": "poly(ethylene terephthalate)",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "cocatalyst_additives",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "terephthalic acid"
+   ]
+  },
+  {
+   "rid": "f",
+   "primary_loc": "Results > Co-upcycling of real-world PET and PP plastics \u00b61",
+   "polymer_anchor": "poly(ethylene terephthalate)",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "terephthalic acid"
+   ]
+  },
+  {
+   "rid": "g",
+   "primary_loc": "Results > Co-upcycling of real-world PET and PP plastics \u00b61",
+   "polymer_anchor": "poly(ethylene terephthalate)",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "terephthalic acid"
+   ]
+  },
+  {
+   "rid": "h",
+   "primary_loc": "Results > Co-upcycling of real-world PET and PP plastics \u00b61",
+   "polymer_anchor": "poly(ethylene terephthalate)",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "terephthalic acid"
+   ]
+  },
+  {
+   "rid": "i",
+   "primary_loc": "Results > Co-upcycling of real-world PET and PP plastics \u00b62",
+   "polymer_anchor": "poly(ethylene terephthalate)",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "temperature_c",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "terephthalic acid"
+   ]
+  }
+ ]
+}

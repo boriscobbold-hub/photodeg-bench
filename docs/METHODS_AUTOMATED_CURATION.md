@@ -1,0 +1,39 @@
+# Methods: automated curation of PhotoDeg-Bench v1.0
+
+## Roles
+
+The author defined the project and delegated to an AI system (Claude, Anthropic) the operational work: screening, extraction, verification, harmonization decisions that follow from documented conventions, QA, figures and documentation. The author reserved author metadata, decisions on genuinely unresolved scientific or legal questions (rules R08 and R14) and authorization of public release. No human expert reviewed individual records for v1.0.
+
+## Corpus
+
+Europe PMC (open-access subset; two Boolean abstract queries) and OpenAlex (four Boolean title-and-abstract searches, open-access articles) were queried on the fetch date recorded in `data/raw/PROVENANCE.txt`; search strings are in `config/search.yaml`. Merging by DOI gave 691 unique papers (Europe PMC 277, OpenAlex 445). A loose keyword screen and a 2010 year floor left 602. Europe PMC JATS full text was retrieved for 267.
+
+## Screening (Agent B)
+
+Criteria E1–E6 ([ELIGIBILITY.md](ELIGIBILITY.md)) were fixed before screening. All 602 titles were read once, in a single listing, and the abstract of every title that looked possibly relevant. In the first pass, titles judged clearly out of scope (cell biology, lignin and other biomass, dye or small-molecule pollutant degradation with a polymer support, materials synthesis) were coded by category rather than one by one. An independent audit then found miscodes in that category step: several plastic and microplastic photodegradation papers had been coded E2. Every paper whose title or abstract mentions a synthetic polymer or plastic (153 in the E2 group), and every E3 paper, was re-screened on its abstract. Five papers moved to full-text assessment, and others moved between codes. Exact duplicates of the same work are coded DUP and counted once. Title/abstract outcomes: E2 294, E1 126, E6 61, E3 19, E4 72, DUP 7. Full-text outcomes: E6 3, E5 8, include 10, E3 1, E4 1. Every decision, with its code, rationale, confidence and stage, is in `data/curated/screening_log.csv`. Codes assigned by category carry the confidence "medium (title-level category)". Two scope conventions were applied consistently and are flagged for the author: photothermal routes (light used as a heat source) and photoreforming (chain cleaved by an alkaline, acidic or enzymatic pretreatment, with light acting on dissolved monomers) fail E4.
+
+## Extraction (Agent C)
+
+Four extraction agents each read a group of full texts through `code/curation/evidence_pack.py`, which prints each text block and table cell with the locator the parser produces. Records follow [EXTRACTION_PROTOCOL.md](EXTRACTION_PROTOCOL.md). Values only in figures, only in supplementary files, given only as bounds, or without the condition set attached in the text were not recorded; each such observation is listed with its reason (121 in total). Figure digitization was not used. A completeness pass returned every result the independent verifiers noticed to the extractors, under the same rules.
+
+## Verification (Agent D)
+
+**Deterministic.** `code/curation/verify_records.py` re-parses each article and, for every located field, checks that the locator exists, that the cited source string occurs there, and that the number in that string equals the recorded value (handling thousands separators, thin spaces, decimal commas and replicate words). Text fields are checked as strings only. Fields without a locator are allowed only for a short list of classifications and unit conventions. SEC calibration and yield basis may be filled without a locator only to state that the paper gives none. Each such field carries a published reason. Result: 1792 fields, matched 1411, inferred 381.
+
+**Independent blind re-extraction.** For every record, a separate agent received only an anchor (paper, primary locator, polymer, control flag) and the list of field names, never the values, and read the article itself. Field-level comparison: agree 1241, disagree 184, blind_null 97, blind_missing 36. Most disagreements were paraphrase in text fields. Every substantive one (numbers, conditions, products) was adjudicated by reading the source passage and logged with its rationale in `data/curated/verification/adjudications.csv` (58 entries). In several cases the blind reader was right and the record was corrected: an atmosphere stated only in a Materials section, conditions carried over from another experiment, and a yield-method footnote. Unresolved at release: 0. A record is released only if every field passes the deterministic check and every substantive disagreement has been adjudicated against the source.
+
+**Independent final audit.** A separate agent that had not taken part in the build audited the release candidate in two rounds: an 18-record sample (no wrong numbers; several attribution problems, all corrected), screening samples, and the documentation's claims against the files. Its findings and the fixes are in `data/curated/verification/final_audit.md`, `final_audit_round2.md` and the git history.
+
+**What this does and does not guarantee.** The deterministic check guarantees that every released number is printed at its stated location. It cannot guarantee that the number was attributed to the right experiment; that interpretive step is covered by the blind re-extraction and adjudication, which reduce but do not eliminate the risk. Both passes are AI.
+
+## Harmonization (Agent E)
+
+See [HARMONIZATION_REPORT.md](HARMONIZATION_REPORT.md).
+
+## QA (Agent F)
+
+`code/05_qa.py` checks schema, traceability, independent verification coverage, duplicates, ranges, IQR outliers within each endpoint and controls that show deconstruction, and writes `data/processed/exceptions.csv`. Result for v1.0: 0 duplicate groups, 0 range issues, 1 statistical outliers, 6 controls showing deconstruction (all genuine reported results, retained and listed). All flagged and risk-weighted records were independently re-extracted.
+
+## Reproducibility
+
+`python tools/autonomous_release.py --target v1.0` reruns every stage from checkpoints. `tools/release_gate.py` reruns the tests and validation, regenerates the figures to check they reproduce byte-for-byte, and checks provenance hashes and licenses.

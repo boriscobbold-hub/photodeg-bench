@@ -1,0 +1,292 @@
+{
+ "pmcid": "PMC12464638",
+ "doi": "10.1002/adma.202506733",
+ "tasks": [
+  {
+   "rid": "a",
+   "primary_loc": "Table 2 r1",
+   "polymer_anchor": "polypinacol",
+   "is_control": false,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "M5 (original bis-aldehyde monomer)"
+   ]
+  },
+  {
+   "rid": "b",
+   "primary_loc": "Table 2 r2",
+   "polymer_anchor": "polypinacol",
+   "is_control": false,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "M5 (original bis-aldehyde monomer)"
+   ]
+  },
+  {
+   "rid": "c",
+   "primary_loc": "Table 2 r3",
+   "polymer_anchor": "polypinacol",
+   "is_control": false,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "M5 (original bis-aldehyde monomer)"
+   ]
+  },
+  {
+   "rid": "d",
+   "primary_loc": "Table 2 r4",
+   "polymer_anchor": "polypinacol",
+   "is_control": false,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "M5 (original bis-aldehyde monomer)"
+   ]
+  },
+  {
+   "rid": "e",
+   "primary_loc": "Table 2 r5",
+   "polymer_anchor": "polypinacol",
+   "is_control": false,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "M5 (original bis-aldehyde monomer)"
+   ]
+  },
+  {
+   "rid": "f",
+   "primary_loc": "Table 2 r6",
+   "polymer_anchor": "polypinacol",
+   "is_control": true,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "M5 (original bis-aldehyde monomer)"
+   ]
+  },
+  {
+   "rid": "g",
+   "primary_loc": "Table 2 r7",
+   "polymer_anchor": "polypinacol",
+   "is_control": false,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "M5 (original bis-aldehyde monomer)"
+   ]
+  },
+  {
+   "rid": "h",
+   "primary_loc": "Table 2 r8",
+   "polymer_anchor": "polypinacol",
+   "is_control": true,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "M5 (original bis-aldehyde monomer)"
+   ]
+  },
+  {
+   "rid": "i",
+   "primary_loc": "Table 2 r9",
+   "polymer_anchor": "polypinacol",
+   "is_control": true,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "M5 (original bis-aldehyde monomer)"
+   ]
+  },
+  {
+   "rid": "j",
+   "primary_loc": "Table 2 r10",
+   "polymer_anchor": "polypinacol",
+   "is_control": true,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "M5 (original bis-aldehyde monomer)"
+   ]
+  },
+  {
+   "rid": "k",
+   "primary_loc": "Result and Discussion > Closed-Loop Photochemical Recycling \u00b64",
+   "polymer_anchor": "polypinacol",
+   "is_control": false,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "M5 (original bis-aldehyde monomer)"
+   ]
+  },
+  {
+   "rid": "l",
+   "primary_loc": "Result and Discussion > Closed-Loop Photochemical Recycling \u00b64",
+   "polymer_anchor": "polypinacol",
+   "is_control": false,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "cocatalyst_additives",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "M5 (original bis-aldehyde monomer)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,688 @@
+{
+ "paper_key": "PMC9295126",
+ "paper_id": "10.1021/acscatal.2c02292",
+ "doi": "10.1021/acscatal.2c02292",
+ "pmcid": "PMC9295126",
+ "source_license": "cc by",
+ "extractor": "Claude (AI), in-session, 2026-10-12",
+ "extraction_method": "table + text",
+ "screen": {
+  "decision": "include",
+  "criteria": "E1-E6 pass",
+  "confidence": "high",
+  "rationale": "Primary study; PS deconstructed by fluorenone photocatalysis under blue LED; Mw before/after by GPC in text and benzoic acid yields in Table 1.",
+  "evidence_loc": "Table 1"
+ },
+ "shared": {
+  "polymer": {
+   "v": "polystyrene",
+   "loc": "Experimental Section > Materials ¶1",
+   "s": "PS (Mw ∼ 260 000; Mn ∼ 105 000)"
+  },
+  "polymer_class": {
+   "v": "vinyl_styrenic",
+   "inferred": "classification of the named polymer"
+  },
+  "polymer_detail": {
+   "v": "commercial PS, Mw ~260 000, Mn ~105 000",
+   "loc": "Experimental Section > Materials ¶1",
+   "s": "PS (Mw ∼ 260 000; Mn ∼ 105 000)"
+  },
+  "catalyst": {
+   "v": "fluorenone",
+   "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶1",
+   "s": "Fluorenone (a HAT C-H oxidation photocatalyst)"
+  },
+  "catalyst_loading": {
+   "v": 20,
+   "loc": "Table 1 r1 c3",
+   "s": "A (20 mol %)"
+  },
+  "catalyst_loading_unit": {
+   "v": "mol%",
+   "inferred": "unit printed with the value; per styrene repeat unit"
+  },
+  "cocatalyst_additives": {
+   "v": "H2SO4 (1 equiv)",
+   "loc": "Table 1 r1 c4",
+   "s": "1 equiv"
+  },
+  "light_source": {
+   "v": "blue LED strip (14.4 W)",
+   "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶1",
+   "s": "The blue LED (14.4 W)"
+  },
+  "wavelength_nm": {
+   "v": 450,
+   "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶1",
+   "s": "λmax ∼ 450 nm"
+  },
+  "light_color": {
+   "v": "blue",
+   "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶1",
+   "s": "blue LED irradiation"
+  },
+  "irradiance": {
+   "v": 14.4,
+   "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶1",
+   "s": "The blue LED (14.4 W)"
+  },
+  "irradiance_unit": {
+   "v": "W (electrical, per LED strip)",
+   "inferred": "value is LED electrical power, not irradiance at sample"
+  },
+  "solvent": {
+   "v": "ethyl acetate",
+   "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶1",
+   "s": "ethyl acetate (EtOAc)"
+  },
+  "concentration": {
+   "v": 0.1,
+   "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶1",
+   "s": "0.1 M PS"
+  },
+  "concentration_unit": {
+   "v": "M (repeat units)",
+   "inferred": "stated as mmol of styrene monomer per volume"
+  },
+  "atmosphere": {
+   "v": "O2",
+   "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶1",
+   "s": "O2 balloon"
+  },
+  "temperature_c": {
+   "v": 50,
+   "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶1",
+   "s": "50 ± 3 °C"
+  },
+  "time_unit": {
+   "v": "h",
+   "inferred": "unit printed with the value"
+  },
+  "yield_basis": {
+   "v": "mol% per styrene repeat unit",
+   "loc": "Figure 2 caption",
+   "s": "The product yield is calculated by the product concentration divided by the initial concentration of the substrate"
+  },
+  "replicates": {
+   "v": 3,
+   "loc": "Figure 2 caption",
+   "s": "triplicate experiments"
+  }
+ },
+ "records": [
+  {
+   "rid": "a",
+   "primary_loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶2",
+   "fields": {
+    "sec_calibration": {
+     "v": "not_reported",
+     "inferred": "GPC described (Agilent 1200, RI detector, chlorobenzene) but no calibration standard is stated"
+    },
+    "sec_detector": {
+     "v": "RI",
+     "loc": "Experimental Section > Product Analysis ¶3",
+     "s": "refractive index detector"
+    },
+    "sec_eluent": {
+     "v": "chlorobenzene",
+     "loc": "Experimental Section > Product Analysis ¶3",
+     "s": "dissolution in chlorobenzene"
+    },
+    "mw_before": {
+     "v": 260000,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶2",
+     "s": "from 260,000"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "inferred": "unit not printed; molecular weights from GPC are conventionally g/mol"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "inferred": "unit not printed; molecular weights from GPC are conventionally g/mol"
+    },
+    "mw_after": {
+     "v": 3200,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶2",
+     "s": "3,200 (4 h)"
+    },
+    "time": {
+     "v": 4,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶2",
+     "s": "3,200 (4 h)"
+    }
+   },
+   "notes": "Mw only (no Mn after); Mw before given as 'around 260 000'."
+  },
+  {
+   "rid": "b",
+   "primary_loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶2",
+   "fields": {
+    "sec_calibration": {
+     "v": "not_reported",
+     "inferred": "GPC described (Agilent 1200, RI detector, chlorobenzene) but no calibration standard is stated"
+    },
+    "sec_detector": {
+     "v": "RI",
+     "loc": "Experimental Section > Product Analysis ¶3",
+     "s": "refractive index detector"
+    },
+    "sec_eluent": {
+     "v": "chlorobenzene",
+     "loc": "Experimental Section > Product Analysis ¶3",
+     "s": "dissolution in chlorobenzene"
+    },
+    "mw_before": {
+     "v": 260000,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶2",
+     "s": "from 260,000"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "inferred": "unit not printed; molecular weights from GPC are conventionally g/mol"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "inferred": "unit not printed; molecular weights from GPC are conventionally g/mol"
+    },
+    "mw_after": {
+     "v": 1700,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶2",
+     "s": "1,700 (8 h)"
+    },
+    "time": {
+     "v": 8,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶2",
+     "s": "1,700 (8 h)"
+    }
+   }
+  },
+  {
+   "rid": "c",
+   "primary_loc": "Table 1 r1",
+   "fields": {
+    "time": {
+     "v": 16,
+     "loc": "Table 1 footnote",
+     "s": "16 h reaction"
+    },
+    "products": {
+     "v": "benzoic acid; CO; CO2",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶2",
+     "s": "Gaseous CO (21% yield) and CO2 (7.5% yield) were detected in the headspace of the reactor after 16 h"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 30,
+      "u": "%",
+      "loc": "Table 1 r1 c7",
+      "s": "30 ± 2%",
+      "name_loc": "Table 1 h c7",
+      "name_s": "benzoic acid",
+      "uncertainty": "± 2 (SD, n=3)"
+     },
+     {
+      "product": "CO",
+      "v": 21,
+      "u": "%",
+      "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶2",
+      "s": "Gaseous CO (21% yield)",
+      "name_loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶2",
+      "name_s": "Gaseous CO"
+     },
+     {
+      "product": "CO2",
+      "v": 7.5,
+      "u": "%",
+      "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶2",
+      "s": "CO2 (7.5% yield)",
+      "name_loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶2",
+      "name_s": "CO2"
+     }
+    ]
+   },
+   "notes": "CO and CO2 headspace yields at 16 h added in completeness pass 2026-10-12."
+  },
+  {
+   "rid": "d",
+   "primary_loc": "Table 1 footnote",
+   "fields": {
+    "time": {
+     "v": 48,
+     "loc": "Table 1 footnote",
+     "s": "38 ± 3% yield at 48 h"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Table 1 h c7",
+     "s": "benzoic acid yield"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 38,
+      "u": "%",
+      "loc": "Table 1 footnote",
+      "s": "38 ± 3% yield at 48 h",
+      "name_loc": "Table 1 h c7",
+      "name_s": "benzoic acid",
+      "uncertainty": "± 3 (SD, n=3)"
+     }
+    ]
+   },
+   "notes": "Paper also reports ~60% total identified monomeric aromatics at 48 h; minor products (ethyl benzoate ~10%, acetophenone ~6%, benzaldehyde ~1%) are given without a stated time point and are not recorded."
+  },
+  {
+   "rid": "e",
+   "primary_loc": "Table 1 r2",
+   "is_control": true,
+   "fields": {
+    "catalyst": {
+     "v": "none",
+     "loc": "Table 1 r2 c3",
+     "s": "no catalyst"
+    },
+    "catalyst_loading": null,
+    "time": {
+     "v": 16,
+     "loc": "Table 1 footnote",
+     "s": "16 h reaction"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Table 1 h c7",
+     "s": "benzoic acid yield"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 0,
+      "u": "%",
+      "loc": "Table 1 r2 c7",
+      "s": "0%",
+      "name_loc": "Table 1 h c7",
+      "name_s": "benzoic acid"
+     }
+    ],
+    "replicates": null
+   },
+   "notes": "control: no photocatalyst"
+  },
+  {
+   "rid": "f",
+   "primary_loc": "Table 1 r8",
+   "is_control": true,
+   "fields": {
+    "light_source": {
+     "v": "none (dark)",
+     "loc": "Table 1 r8 c6",
+     "s": "dark, 50 °C"
+    },
+    "wavelength_nm": null,
+    "light_color": null,
+    "irradiance": null,
+    "irradiance_unit": null,
+    "time": {
+     "v": 16,
+     "loc": "Table 1 footnote",
+     "s": "16 h reaction"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Table 1 h c7",
+     "s": "benzoic acid yield"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 0,
+      "u": "%",
+      "loc": "Table 1 r8 c7",
+      "s": "0%",
+      "name_loc": "Table 1 h c7",
+      "name_s": "benzoic acid"
+     }
+    ],
+    "replicates": null
+   },
+   "notes": "control: dark at 50 °C"
+  },
+  {
+   "rid": "g",
+   "primary_loc": "Table 1 r7",
+   "is_control": true,
+   "fields": {
+    "atmosphere": {
+     "v": "N2",
+     "loc": "Table 1 r7 c5",
+     "s": "N2 balloon"
+    },
+    "time": {
+     "v": 16,
+     "loc": "Table 1 footnote",
+     "s": "16 h reaction"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Table 1 h c7",
+     "s": "benzoic acid yield"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 0,
+      "u": "%",
+      "loc": "Table 1 r7 c7",
+      "s": "0%",
+      "name_loc": "Table 1 h c7",
+      "name_s": "benzoic acid"
+     }
+    ],
+    "replicates": null
+   },
+   "notes": "control: N2 instead of O2"
+  },
+  {
+   "rid": "h",
+   "primary_loc": "Table 1 r5",
+   "is_control": true,
+   "fields": {
+    "cocatalyst_additives": {
+     "v": "no H2SO4 (0 equiv)",
+     "loc": "Table 1 r5 c4",
+     "s": "0 equiv"
+    },
+    "time": {
+     "v": 16,
+     "loc": "Table 1 footnote",
+     "s": "16 h reaction"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Table 1 h c7",
+     "s": "benzoic acid yield"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 0,
+      "u": "%",
+      "loc": "Table 1 r5 c7",
+      "s": "0%",
+      "name_loc": "Table 1 h c7",
+      "name_s": "benzoic acid"
+     }
+    ],
+    "replicates": null
+   },
+   "notes": "control: no acid"
+  },
+  {
+   "rid": "i",
+   "primary_loc": "Table 1 r3",
+   "fields": {
+    "catalyst_loading": {
+     "v": 5,
+     "loc": "Table 1 r3 c3",
+     "s": "A (5 mol %)"
+    },
+    "time": {
+     "v": 16,
+     "loc": "Table 1 footnote",
+     "s": "21% yield at 16 h"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Table 1 h c7",
+     "s": "benzoic acid yield"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 21,
+      "u": "%",
+      "loc": "Table 1 footnote",
+      "s": "21% yield at 16 h",
+      "name_loc": "Table 1 h c7",
+      "name_s": "benzoic acid"
+     }
+    ],
+    "replicates": null
+   }
+  },
+  {
+   "rid": "j",
+   "primary_loc": "Table 1 r3",
+   "fields": {
+    "catalyst_loading": {
+     "v": 5,
+     "loc": "Table 1 r3 c3",
+     "s": "A (5 mol %)"
+    },
+    "time": {
+     "v": 48,
+     "loc": "Table 1 footnote",
+     "s": "31% yield at 48 h"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Table 1 h c7",
+     "s": "benzoic acid yield"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 31,
+      "u": "%",
+      "loc": "Table 1 footnote",
+      "s": "31% yield at 48 h",
+      "name_loc": "Table 1 h c7",
+      "name_s": "benzoic acid"
+     }
+    ],
+    "replicates": null
+   }
+  },
+  {
+   "rid": "k",
+   "primary_loc": "Table 1 r6",
+   "fields": {
+    "cocatalyst_additives": {
+     "v": "H2SO4 (0.25 equiv)",
+     "loc": "Table 1 r6 c4",
+     "s": "0.25 equiv"
+    },
+    "time": {
+     "v": 16,
+     "loc": "Table 1 footnote",
+     "s": "16 h reaction"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Table 1 h c7",
+     "s": "benzoic acid yield"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 22,
+      "u": "%",
+      "loc": "Table 1 r6 c7",
+      "s": "22%",
+      "name_loc": "Table 1 h c7",
+      "name_s": "benzoic acid"
+     }
+    ],
+    "replicates": null
+   }
+  },
+  {
+   "rid": "l",
+   "primary_loc": "Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1",
+   "fields": {
+    "concentration": null,
+    "concentration_unit": null,
+    "polymer_detail": {
+     "v": "commercial PS, gram scale (10 mmol, 1.04 g)",
+     "loc": "Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1",
+     "s": "gram-scale (10 mmol, 1.04 g)"
+    },
+    "time": {
+     "v": 64,
+     "loc": "Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1",
+     "s": "at 64 h"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1",
+     "s": "benzoic acid"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 36,
+      "u": "%",
+      "loc": "Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1",
+      "s": "36 ± 4% of benzoic acid",
+      "name_loc": "Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1",
+      "name_s": "benzoic acid",
+      "uncertainty": "± 4 (SD, n=3)"
+     }
+    ],
+    "catalyst_loading": {
+     "v": 0.2,
+     "loc": "Figure 3 caption",
+     "s": "0.2 equiv of fluorenone"
+    },
+    "catalyst_loading_unit": {
+     "v": "equiv",
+     "inferred": "unit printed with the value (per styrene repeat unit)"
+    }
+   },
+   "notes": "Gram scale in 20 mL EtOAc (Figure 3 caption); concentration not restated. [adjudicated catalyst_loading: blind correct] [adjudicated catalyst_loading_unit: blind correct]"
+  },
+  {
+   "rid": "m",
+   "primary_loc": "Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1",
+   "fields": {
+    "concentration": null,
+    "concentration_unit": null,
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1",
+     "s": "real-world PS foam"
+    },
+    "polymer_detail": {
+     "v": "expanded PS packaging foam, Mw ~250 000, PDI ~4.2",
+     "loc": "Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1",
+     "s": "expanded PS packaging foam; Mw ∼ 250 000, PDI ∼ 4.2"
+    },
+    "time": {
+     "v": 72,
+     "loc": "Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1",
+     "s": "at 72 h"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1",
+     "s": "benzoic acid"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 36,
+      "u": "%",
+      "loc": "Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1",
+      "s": "36 ± 2% of benzoic acid",
+      "name_loc": "Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1",
+      "name_s": "benzoic acid",
+      "uncertainty": "± 2 (SD, n=3)"
+     }
+    ],
+    "catalyst_loading": {
+     "v": 0.2,
+     "loc": "Figure 3 caption",
+     "s": "0.2 equiv of fluorenone"
+    },
+    "catalyst_loading_unit": {
+     "v": "equiv",
+     "inferred": "unit printed with the value (per styrene repeat unit)"
+    }
+   },
+   "notes": "[adjudicated catalyst_loading: blind correct] [adjudicated catalyst_loading_unit: blind correct]"
+  },
+  {
+   "rid": "o",
+   "primary_loc": "Table 1 r15",
+   "fields": {
+    "catalyst": {
+     "v": "NHPI + cyanamide-functionalized carbon nitride",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶4",
+     "s": "compound H (N-hydroxyphthalimide, NHPI) was used in combination with carbon nitride"
+    },
+    "catalyst_loading": {
+     "v": 20,
+     "loc": "Table 1 r15 c3",
+     "s": "H (20 mol %)"
+    },
+    "cocatalyst_additives": {
+     "v": "no H2SO4 (0 equiv); carbon nitride light absorber",
+     "loc": "Table 1 r15 c4",
+     "s": "0 equiv"
+    },
+    "time": {
+     "v": 16,
+     "loc": "Table 1 footnote",
+     "s": "16 h reaction"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Table 1 h c7",
+     "s": "benzoic acid yield"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 5.5,
+      "u": "%",
+      "loc": "Table 1 r15 c7",
+      "s": "5.5%",
+      "name_loc": "Table 1 h c7",
+      "name_s": "benzoic acid"
+     }
+    ],
+    "replicates": null
+   },
+   "notes": "catalyst_loading (20 mol%) is the NHPI loading only; carbon nitride is the light absorber. Carbon nitride amount inconsistent in source: Table 1 footnote d says 10 mg, Experimental Photochemistry ¶3 says 5.0 mg NCN-CNx; amount not recorded. Completeness pass 2026-10-12."
+  }
+ ],
+ "excluded_observations": [
+  {
+   "what": "Table 1 entries 9-15 (catalysts B-H)",
+   "why": "Catalysts identified only by letter; structures are in a figure, not in text.",
+   "loc": "Table 1"
+  },
+  {
+   "what": "Table 1 entry 4 (no PS)",
+   "why": "No polymer substrate.",
+   "loc": "Table 1 r4"
+  },
+  {
+   "what": "Mw after 16 h ('between 100 and 200')",
+   "why": "Range, not a value; SI figure.",
+   "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶2"
+  },
+  {
+   "what": "Minor aromatics (ethyl benzoate ~10%, acetophenone ~6%, benzaldehyde ~1%) and total ~60%",
+   "why": "No time point attached to the minor products; total is a lumped yield.",
+   "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶2"
+  },
+  {
+   "what": "Recycled-catalyst run, 34% benzoic acid after a second 24 h reaction",
+   "why": "Conditions of the second run are not restated; standard conditions are not assumed (independent verifier concern, adjudicated 2026-10-12).",
+   "loc": "Results and Discussion > Photocatalytic Deconstruction of PS ¶2"
+  }
+ ]
+}

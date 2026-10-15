@@ -1,43 +1,156 @@
 {
  "version": "1.0",
- "built": "2026-10-12",
+ "built": "2026-10-14",
  "n_corpus_papers": 691,
  "n_corpus_europepmc": 277,
  "n_corpus_openalex": 445,
- "n_auto_screen_pass": 602,
- "n_fulltext": 267,
- "n_included_papers": 0,
- "n_excluded_papers": 0,
- "n_undecided_papers": 602,
- "exclusion_reasons": {},
- "n_curated_records": 0,
- "n_papers_with_records": 0,
- "n_benchmark_records": 0,
- "n_benchmark_papers": 0,
- "records_dropped_by_rule": {},
- "by_polymer_class": {},
- "by_polymer": {},
- "by_calibration_class": {},
- "by_wavelength_band": {},
- "by_tier": {},
- "n_controls": 0,
- "n_with_retained_fraction": 0,
- "retained_fraction_median": null,
- "retained_fraction_min": null,
- "retained_fraction_max": null,
- "n_mass_increase": 0,
- "field_completeness": {
-  "primary_before": 0,
-  "primary_after": 0,
-  "sec_calibration": 0,
-  "catalyst": 0,
-  "wavelength_nm": 0,
-  "wavelength_band": 0,
-  "irradiance": 0,
-  "solvent": 0,
-  "time_h": 0,
-  "products": 0,
-  "product_yields": 0
+ "n_screened": 602,
+ "n_fulltext_available": 267,
+ "screening_codes": {
+  "E2": 294,
+  "E1": 126,
+  "E6": 64,
+  "E3": 20,
+  "E4": 73,
+  "DUP": 7,
+  "E5": 8,
+  "include": 10
  },
- "spot_check_seed": 20261007
+ "screening_codes_title_abstract": {
+  "E2": 294,
+  "E1": 126,
+  "E6": 61,
+  "E3": 19,
+  "E4": 72,
+  "DUP": 7
+ },
+ "screening_codes_full_text": {
+  "E6": 3,
+  "E5": 8,
+  "include": 10,
+  "E3": 1,
+  "E4": 1
+ },
+ "n_fulltext_assessed": 23,
+ "n_included_papers": 10,
+ "n_in_scope_no_fulltext": 61,
+ "share_in_scope_lost_to_access": 0.726,
+ "n_records_extracted": 87,
+ "n_records_released": 87,
+ "n_records_rejected": 0,
+ "n_excluded_observations": 121,
+ "n_fields_checked": 1792,
+ "field_outcomes": {
+  "matched": 1411,
+  "inferred": 381
+ },
+ "blind_field_comparison": {
+  "agree": 1241,
+  "disagree": 184,
+  "blind_null": 97,
+  "blind_missing": 36
+ },
+ "n_adjudications": 58,
+ "n_unresolved": 0,
+ "n_controls": 19,
+ "by_polymer_class": {
+  "vinyl_styrenic": 50,
+  "vinyl_methacrylate": 15,
+  "designed_degradable": 12,
+  "polyester": 7,
+  "polyolefin": 3
+ },
+ "by_polymer": {
+  "polystyrene": 48,
+  "polypinacol": 12,
+  "poly(benzyl methacrylate)": 8,
+  "poly(ethylene terephthalate)": 7,
+  "poly(methyl methacrylate)": 6,
+  "polypropylene": 3,
+  "poly(styrene-co-acrylonitrile)": 1,
+  "poly(acrylonitrile-co-butadiene-co-styrene)": 1,
+  "poly(methyl methacrylate-co-glycidyl methacrylate)": 1
+ },
+ "by_calibration_class": {
+  "not_applicable": 58,
+  "unknown": 17,
+  "mismatched_conventional": 8,
+  "matched_conventional": 4
+ },
+ "by_wavelength_band": {
+  "blue": 48,
+  "violet": 26,
+  "dark": 9,
+  "broadband": 2,
+  "unknown": 2
+ },
+ "by_thermal_regime": {
+  "not_reported": 44,
+  "near_ambient": 24,
+  "high_temperature": 16,
+  "heated": 3
+ },
+ "by_tier_molar_mass": {
+  "missing": 58,
+  "MM-B": 20,
+  "MM-C": 6,
+  "MM-A": 3
+ },
+ "by_tier_product_yield": {
+  "PY-A": 47,
+  "PY-B": 15,
+  "PY-C": 13,
+  "missing": 12
+ },
+ "n_molar_mass_records": 29,
+ "n_product_yield_records": 75,
+ "retained_fraction_median_noncontrol": 0.020790950000000002,
+ "retained_fraction_min_noncontrol": 0.00186869,
+ "retained_fraction_max_noncontrol": 1.0,
+ "records_by_publication_year": {
+  "2022": 20,
+  "2023": 8,
+  "2024": 9,
+  "2025": 41,
+  "2026": 9
+ },
+ "source_licenses": {
+  "cc by": 40,
+  "cc by-nc": 31,
+  "cc by-nc-nd": 16
+ },
+ "qa_flag_counts": {
+  "approximate_value": 14,
+  "conditions_from_other_block": 63,
+  "heated_ge_80C": 19,
+  "thermal_contribution": 2,
+  "bimodal_sec": 2,
+  "sec_estimate": 13
+ },
+ "field_completeness": {
+  "primary_before": 29,
+  "primary_after": 29,
+  "sec_calibration": 17,
+  "catalyst": 87,
+  "catalyst_loading": 57,
+  "wavelength_nm": 61,
+  "light_color": 76,
+  "irradiance": 36,
+  "solvent": 75,
+  "concentration": 38,
+  "atmosphere": 58,
+  "temperature_c": 43,
+  "time_h": 71,
+  "product_yields": 75,
+  "yield_basis": 77,
+  "replicates": 7,
+  "yield_uncertainty": 6
+ },
+ "n_duplicate_groups": 0,
+ "n_range_issues": 0,
+ "n_outliers": 1,
+ "n_controls_showing_deconstruction": 6,
+ "critical_failures": [],
+ "warnings": [],
+ "spot_check_seed": 20261012
 }

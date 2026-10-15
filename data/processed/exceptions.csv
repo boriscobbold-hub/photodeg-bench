@@ -1,0 +1,244 @@
+kind,id,detail
+excluded_observation,PMC10224419,Particle size vs time for PS and PE (Tables 1-2) and % size reduction (Table 3): Particle size is not an E5 endpoint. [Table 1]
+excluded_observation,PMC10224419,Carbonyl index increase 8.6x / 2.7x / 14.3x: Carbonyl index excluded under E5. [3. Results > 3.3. Photocatalytic Degradation Tests > 3.3.2. FTIR Spectroscopic Analysis ¶5]
+excluded_observation,PMC10224419,GC-MS intermediates for PS and PE: Identified compounds listed without yield or amount. [Table 4]
+excluded_observation,PMC10557129,Molar mass of PBzMA before/after: Text says only 'without any significant change'; values in SI Tables S2/S4 and figures. [body ¶4]
+excluded_observation,PMC10557129,"71% yield at 120 °C (1 equiv FeCl2): Re-read for the completeness pass: the sentence follows 'photothermal ... slightly higher yield as opposed to the exclusively thermal system, the significant extent of depolymerization observed under heat', and does not say whether 71% is the lit or the dark run. Light condition is ambiguous; time also not stated. [body ¶4]"
+excluded_observation,PMC10557129,"31% yield, 1 equiv FeCl2, 100 °C, after 20 min light then 20 min dark: Not a single condition set: the gain from 18% to 31% happened in the dark period after the light was switched off (mixed on/off protocol, Figure 2c/Table S8). [body ¶4]"
+excluded_observation,PMC10557129,"Thermal (dark) runs, 0.05 equiv FeCl2 at 150, 120 and 100 °C: Text says only that thermal depolymerization 'could be completely eliminated'. No numeric yield is printed (0% not stated explicitly), and times are not stated; values in Figure 2d. [body ¶6]"
+excluded_observation,PMC10557129,"On/off series, 0.05 equiv FeCl2 at 100 °C ('<5% of total yield' early leakage): On/off protocol; value is a bound; data in Figure 2e/Table S9. [body ¶6]"
+excluded_observation,PMC10557129,FeCl3 thermal (dark) runs at 150 and 120 °C ('no monomer regeneration was observed'): Qualitative statement with no numeric value printed (0% not stated explicitly); times not stated; data in Figure 3b/SI. [body ¶8]
+excluded_observation,PMC10557129,"170 °C, 0.05 equiv FeCl3: 30% after 20 min dark then prolonged light; '>80%' with continuous light: 30% comes from a mixed dark-then-light protocol whose light-period duration is not stated ('prolonged'). '>80%' is a bound, which is not recorded. Data in Figure 3c-d/Tables S13-S17. [body ¶8]"
+excluded_observation,PMC10557129,"FeCl3 on/off at 150 and 120 °C; off periods of 20-120 min: On/off protocols; values only in Figure 3e-f, Figure S10 and SI tables. [body ¶9]"
+excluded_observation,PMC10557129,Poly(n-butyl methacrylate) and PMMA scope: Text gives only 'similar yield as in the case of PBzMA'. No numeric value; Table S18 (SI). [body ¶9]
+excluded_observation,PMC10557129,Green-light depolymerization: Text gives only 'slightly lower depolymerization yields'. No numeric value; Table S19 (SI). [body ¶9]
+excluded_observation,PMC10557129,"2 M repeat-unit concentration, 50% yield: Catalyst identity and loading, temperature, light on/off and time are not attached to the value in the main text (Table S20, SI). [body ¶9]"
+excluded_observation,PMC10557129,"Solvent, LED wavelength/power, atmosphere: Not stated in main text (SI only); fields left empty. [body ¶4]"
+excluded_observation,PMC10793207,"Mn after for entries 1, 5, 6, 7, 9 ('<0.30' kDa): Upper bound below accurate GPC range, not a value. [Table]"
+excluded_observation,PMC10793207,Time-course Mn after ~1 h for FPh-Acr-Np (1.26 kDa) and Ph-Acr-Ph (6.90 kDa); 5 h / 9 h to reach GPC lower limit: Time given only as 'within the first hour' (no number) and catalyst/acid loadings for the time course are only in Fig. 2; 5/9 h values are detection-limit bounds. [Results and discussion ¶7]
+excluded_observation,PMC10793207,"FPh-Acr-Np BA yields ('up to 55%', 16.5% at 1 mol%) and real-life PS waste yields: Reaction time and acid loading not stated in text; values otherwise only in Fig. 2C(ii); 'up to' is a bound. [Results and discussion ¶6]"
+excluded_observation,PMC10793207,"Air atmosphere, water, solvent screen, 200 mol% HCl without catalyst, MeOPh-Acr-Ph results: Only in SI Table S1. [Results and discussion ¶2]"
+excluded_observation,PMC10793207,Mesityl/methyl acridinium comparison yields (Fig. 1B): Values only in figure. [Fig. 1 caption]
+excluded_observation,PMC10793207,PS concentration: Not stated in main text. [Table caption]
+excluded_observation,PMC11112751,"Normalized SEC peak-area decreases (31%, 53% at 10 h; final 38%/65% after 24 h): Peak-area metric, not a molar-mass average or product yield (out of v1.0 scope). [body ¶16]"
+excluded_observation,PMC11112751,"SEC traces before/after 24 h: Only in figures/SI (Figure 2a, Figure S14); no Mn/Mw values in text. [body ¶14]"
+excluded_observation,PMC11112751,"DMODT monomer oxidation, 13.3% conversion: Small-molecule monomer, not a polymer substrate. [body ¶8]"
+excluded_observation,PMC11796324,"1 h yields for anionic PS (Mn 135 kg/mol: BAc 1.1 %, ACP 1.1 %; Mn 1.7 kg/mol: ACP 0.5 %, BAc <0.1 %): Light source (456 nm LED vs Xe-Hg/pyrex) and MA loading not stated for these runs; BAc <0.1 % is a bound. [Results and Discussion ¶7]"
+excluded_observation,PMC11796324,High-Mn PS (Mn 266 200) Mn vs time under Xe-Hg lamp/pyrex: After-irradiation values only in Figure 2a/b. [Figure 2 caption]
+excluded_observation,PMC11796324,Isolated oligomers after 24 h (Mn 2500 g/mol) and their MA-free re-irradiation: Starting PS and conditions not specified in text; re-irradiation result only in Figure 4b. [Results and Discussion ¶9]
+excluded_observation,PMC11796324,"Solar-simulator yoghurt-cup, clear-case and EPS waste yields: Values only in Figure 5. [Figure 5 caption]"
+excluded_observation,PMC11796324,25 % BAc with two-batch MA addition (text): Same experiment as Table 1 entry 4; recorded once. [Results and Discussion ¶3]
+excluded_observation,PMC11796324,"Formic acid (equal amount to BAc): Stated relative to BAc only, no independent value. [Results and Discussion ¶8]"
+excluded_observation,PMC11796324,Quantum yield of BAc formation (Φ = 0.03): Not a v1.0 endpoint field. [Results and Discussion ¶3]
+excluded_observation,PMC12056016,"PTH-CN at 0.5 mol%: 34% BA: Completeness pass 2026-10-12: kept excluded. ¶3 gives catalyst, loading and 34% BA but not the wavelength, atmosphere or time (Fig. 2D only); 'longer irradiation wavelength' is unspecified. [Results > Mechanistic hypothesis and reaction optimizations ¶3]"
+excluded_observation,PMC12056016,"PTH-CN / PTH-3CN screening yields (≥50%): Bound, not a value; per-catalyst values in figure/SI. [Results > Mechanistic hypothesis and reaction optimizations ¶2]"
+excluded_observation,PMC12056016,CO2 accounting for 15% of PS carbon: Estimate from SI figure; CO2 not a v1.0 endpoint. [Results > Mechanistic hypothesis and reaction optimizations ¶3]
+excluded_observation,PMC12056016,"Control experiments (no PS, light, air or PTH-3CN): Values only in Supplementary Table S5; text qualitative. [Results > Mechanistic hypothesis and reaction optimizations ¶3]"
+excluded_observation,PMC12056016,"PS2, PS3, HIPS, sPS, PS4, SAN, ABS and post-consumer PS (PS5) BA yields: Values only in Fig. 2E and Fig. 3A. [Results > Practical upcycling of PS and product functionalization ¶1]"
+excluded_observation,PMC12056016,"10-g Styrofoam scale-up: 'over 4.0 g of BA' (batch and flow): Lower bound, not a value; conditions in figure. [Results > Practical upcycling of PS and product functionalization ¶1]"
+excluded_observation,PMC12056016,"TCPA and TCPBA (500 ppm) giving 43% and 46% BA: Completeness pass 2026-10-12: kept excluded. Paragraph gives polymer (PS1), loading (500 ppm) and yield, but no reaction time, atmosphere, solvent or light for these runs (only in Fig. 4C); TCPA/TCPBA structures only in the figure. [Results > Mechanistic investigations ¶2]"
+excluded_observation,PMC12056016,Poly(4-tert-butylstyrene) and poly(4-acetylstyrene) product yields: Values only in Fig. 5A/5B. [Results > Applications to diverse polymer types ¶1]
+excluded_observation,PMC12056016,"Ac-PS 94% degree of functionalization: Friedel-Crafts pre-functionalization, not a deconstruction endpoint. [Results > Applications to diverse polymer types ¶1]"
+excluded_observation,PMC12056016,PMMA formic and acetic acid ('minor formation'): Qualitative in text; values in SI. [Results > Applications to diverse polymer types ¶2]
+excluded_observation,PMC12056016,"PP, LDPE, HDPE, PVC, PVAc, PMMA, PMA, PU, rubber, epoxy formic/acetic acid yields: Values only in Fig. 6; text qualitative. [Results > Applications to diverse polymer types ¶3]"
+excluded_observation,PMC12056016,"Polycarbonate: hydroxybenzoic acid + BPA, 2:1, combined 69%: Yield refers to a product mixture (combined), not a single named product. [Results > Applications to diverse polymer types ¶4]"
+excluded_observation,PMC12056016,"Mixed-plastic global degradation (PP/LDPE/HDPE/PS/PVAc, PP/LDPE/HDPE/PS/PU) and gram-scale run: Values only in Fig. 7. [Results > Applications to diverse polymer types ¶5]"
+excluded_observation,PMC12056016,"Tandem functionalization yields of crude BA (1a-1e): Downstream small-molecule chemistry, not polymer deconstruction; values in figure. [Results > Practical upcycling of PS and product functionalization ¶2]"
+excluded_observation,PMC12302232,ITS reductive C-O cleavage of oxidized beta-O-4 lignin models and native oxidized lignin (M1-M3 wt%): Small-molecule models and a biopolymer (lignin); not polymer-substrate records. [Results and discussion ¶5]
+excluded_observation,PMC12302232,"Vanillin-derived crosslinked polymer 5 with ITS/DIPEA/HCOOH, blue LEDs: C-O cleavage product 4 in 75% yield: Product identified only by a compound number (structure in Fig. 3B); catalyst loading and time not stated in text. [Results and discussion ¶4]"
+excluded_observation,PMC12302232,Catalyst loading for ITSO2: Not stated in the main text (figure/SI only). [Results and discussion ¶6]
+excluded_observation,PMC12302232,"Solvent screen entries 2-5 (DCM, EtOAc, acetone effective; others no reaction): Values only in Fig. 4A. [Results and discussion ¶6]"
+excluded_observation,PMC12302232,Controls without ITSO2 or without light (entries 6-7): Qualitative in text; values only in Fig. 4A. [Results and discussion ¶6]
+excluded_observation,PMC12302232,"SAN/ABS without TCNHPI ('did not occur'): Qualitative statement, no value. [Results and discussion ¶7]"
+excluded_observation,PMC12302232,"Mixture of PS, GPPS, EPS, HIPS, SAN and ABS: 50% BA: Mixture, v1.0 records single polymers. [Results and discussion ¶7]"
+excluded_observation,PMC12302232,"Real-life PS waste (weighing boats, yogurt boxes, rulers, forks) 50-55%; ABS waste 45-49%: Ranges, not values. [Results and discussion ¶8]"
+excluded_observation,PMC12302232,"SAN waste (plastic cup) 46% BA: Completeness pass 2026-10-12: kept excluded. ¶8 states 'standard conditions' only for PS waste; for the SAN cup it says 'Similarly', and SAN fails under standard conditions without TCNHPI (¶7), so whether TCNHPI was used is not stated. [Results and discussion ¶8]"
+excluded_observation,PMC12302232,"Gram-scale flow run on mixture of real-life plastics: 41% BA: Mixture, v1.0 records single polymers. [Results and discussion ¶9]"
+excluded_observation,PMC12302232,"GPC after reaction ('complete degradation'): Qualitative; trace in SI Fig. S19, no value. [Results and discussion ¶6]"
+excluded_observation,PMC12302232,ITSO2@oxidized lignin recycling (five cycles): Values only in Fig. 5B. [Results and discussion ¶10]
+excluded_observation,PMC12390198,"Mn before/after photooxidative aging for each PMMA/SiO2@R film: Values only in figures (Fig. 8a, 9a, 10a, 12). [Figure 8 caption]"
+excluded_observation,PMC12390198,"MMA specific peak area during aging: Only in figures (Fig. 8b, 9b, 10b, 11); a relative peak area per mg, not a calibrated yield. [Figure 11 caption]"
+excluded_observation,PMC12390198,Table 3 effects of SiO2 surface groups: Qualitative arrows only. [Table 3]
+excluded_observation,PMC12392196,CI/PI relative changes (e.g. IVAN ~22% and ~86%): UV-only light (E3); carbonyl/peroxyl index is not an E5 endpoint. [Results and Discussion ¶4]
+excluded_observation,PMC12392196,"TOC mineralization ~20% (TiO2-P25), ~8% (IVAN): UV-only light; mineralization/TOC is not an E5 endpoint; values in figure. [Results and Discussion ¶4]"
+excluded_observation,PMC12392196,ICP-OES metal leaching: Not a polymer endpoint. [1]
+excluded_observation,PMC12464638,"Table 1 (photopolymerization screen, 365 nm): Polymer synthesis, not deconstruction. [Table 1]"
+excluded_observation,PMC12464638,P5 molar mass before depolymerization and GPC time course over 120 min: Values only in Figure 3b / Figure 5b and SI Table S2. [Figure 5 caption]
+excluded_observation,PMC12464638,Light on/off cycling monomer generation: Values only in Figure 5c / SI Figure S7. [Result and Discussion > Closed-Loop Photochemical Recycling ¶3]
+excluded_observation,PMC12464638,PS molar mass before/after in orthogonal-recycling test: Only in Figure 5h; text states no decrease qualitatively. [Result and Discussion > Closed-Loop Photochemical Recycling ¶4]
+excluded_observation,PMC12464638,"rP5 molar mass (6,480 g/mol): Repolymerized material, not a deconstruction endpoint. [Result and Discussion > Closed-Loop Photochemical Recycling ¶4]"
+excluded_observation,PMC12464638,Atmosphere for standard conditions: Not stated (text says oxygen required); not recorded rather than guessed as air or O2. [Table 2 footnote]
+excluded_observation,PMC12566621,Average PS particle size vs time: Particle size is not an E5 endpoint. [3. Results and Discussion ¶11]
+excluded_observation,PMC12566621,TOC 1868 -> 1322 mg/L after 120 h: TOC/mineralization is not an E5 endpoint. [3. Results and Discussion ¶12]
+excluded_observation,PMC12566621,"Methylene blue degradation: Small-molecule dye, not a polymer substrate. [2. Materials and Methods > 2.4. Photocatalytic Activity Evaluation ¶1]"
+excluded_observation,PMC12645822,H2 and CH4 rates (e.g. 2.87 and 15.35 µmol/h H2) under 365 nm LED: UV-only light (E3) on alkaline-hydrolysed PET (E4); absolute values in SI Table S2. [Results and discussion > Hydrogen production ¶2]
+excluded_observation,PMC12645822,"Solar-simulated runs: 0.209 µmol/h H2, 0.009 µmol/h CH4 with P25-Pt: Xe lamp passes E3, but PET is hydrolysed in 1 M NaOH before/during irradiation (E4); rates are of gas evolution, not a product-from-polymer yield with a stated basis. [Results and discussion > Sunlight-driven photoreforming ¶1]"
+excluded_observation,PMC12645822,~30% of PET valorised to acetic acid; ~20% up-converted (H2): From EG photoconversion after alkaline hydrolysis (E4); calculations in SI Notes 6-7. [Results and discussion > Liquid-phase products ¶3]
+excluded_observation,PMC12951843,"Mass-loss degradation rates for PET and PLA, pH 6.8-8.0, with/without alkali and catalyst: Mass loss is not an E5 endpoint. [Table 3]"
+excluded_observation,PMC12951843,Quencher experiments (mass loss): Mass loss only. [Table 4]
+excluded_observation,PMC12951843,"Degradation intermediates (benzoic acid, MHET, lactic acid, ethanol, acetaldehyde...): Identified qualitatively; no amounts; details in SI Tables S3-S5. [Results and discussion ¶17]"
+excluded_observation,PMC13051431,"Mass loss 22.3% (MRS-NM88B) / 18.0% (MRS-M88B); powder 37.9% / 16.2%: Mass loss is not an E5 endpoint. [Results and Discussion > LDPE Particle Removal Using the PMR with the MRS-NM88B and MRS-NM88B
+Membranes ¶7]"
+excluded_observation,PMC13051431,"CO2 evolution and TOC increase; no liquid products identified by HPLC: CO2/TOC are not E5 endpoints; data only in SI Figure S11. [Results and Discussion > LDPE Particle Removal Using the PMR with the MRS-NM88B and MRS-NM88B
+Membranes ¶9]"
+excluded_observation,PMC13139506,Mass loss and CO2-C evolved / mineralization % (Table 3); weight loss (Table 2): Mass loss and CO2 evolution are excluded under E5. [Table 3]
+excluded_observation,PMC13139506,Comparison with literature: Not primary data. [Table 4]
+excluded_observation,PMC13590609,Solvent screen: Mn of OPP 11-17 kDa across single chlorinated solvents: Range; individual values in Supplementary Table S1. [Results > Oxidative degradation of polypropylene (PP) ¶1]
+excluded_observation,PMC13590609,"N2 atmosphere: cross-linking: Qualitative, no value. [Results > Oxidative degradation of polypropylene (PP) ¶2]"
+excluded_observation,PMC13590609,"90 °C and 70 °C runs: Qualitative ('comparable', 'decreased'); values in Supplementary Table S3. [Results > Oxidative degradation of polypropylene (PP) ¶2]"
+excluded_observation,PMC13590609,P2-P5 and MixPP: final Mn 12.6-15.5 kDa; starting Mn range 45.7-214.9 kDa: Ranges; per-sample values only in Fig. 2a table image. [Results > Oxidative degradation of polypropylene (PP) ¶3]
+excluded_observation,PMC13590609,"Ketone/alkene contents (171/129 and 8.5/8.5 µmol/g), Tm, crystallinity, lap-shear strengths: Material properties of OPP, not deconstruction endpoints. [Results > Structural, thermal characterization, and application of oxidized PP ¶1]"
+excluded_observation,PMC13590609,"PP/PET 1:0.1 and 1:0.5: 'over 90%' TPA: Lower bound, not a value; exact values in Fig. 3b. [Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2]"
+excluded_observation,PMC13590609,"Controls without PP or without 415 nm light: 'no TPA': Completeness pass 2026-10-12: kept excluded. Text says only 'yielded no TPA' with no numeric value (the verifier needs a number in s), and the PP/PET ratio and amounts for entries 5-6 are not stated (130 °C, 18 h is attached only to entries 1-2). [Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2]"
+excluded_observation,PMC13590609,PET conversion 56.6% (OPP5 co-feed): Conversion is not a product yield; kept in record e notes. [Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2]
+excluded_observation,PMC13590609,"TCE/EDC control: 33.1% EDC retention; EDC product: Solvent-retention control, EDC not quantified as product. [Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶3]"
+excluded_observation,PMC13590609,"Solvent recycling runs: 92.4~94.9% TPA, 93.5~94.7% OPP recovery, 96.5~97.3% PET conversion: Ranges over cycles; per-cycle values in Supplementary Table S4. [Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶4]"
+excluded_observation,PMC13590609,"Scale-up OPP 96 wt%: Mass recovery of the PP residue, not a product yield or molar mass. [Results > Co-upcycling of real-world PET and PP plastics ¶2]"
+excluded_observation,PMC13590609,"Abstract/intro summary values (OPP 10-17 kDa, TPA >90%): Ranges/bounds summarizing results recorded elsewhere. [Introduction ¶3]"
+excluded_observation,PMC13638130,"Polymer B' degradation products 3 (86%), 4 (80%), monomer 7 (83%); Polymer B'' oligomer 10 (Mn 3200): Optimized conditions use 365 nm irradiation (UV-only), outside E3. [Applications > Polyarylates with Varying Degradable Core Concentrations ¶1]"
+excluded_observation,PMC13638130,450 nm LED run in model-polymer screen: Run identity and values only in Figure 3 graphic. [FIGURE 3 caption]
+excluded_observation,PMC13638130,Table 1 reaction acceleration (2-12 h runs): Table body is an image; conditions 365 nm. [TABLE 1 footnote]
+excluded_observation,PMC7069517,Violet LED (410 nm) cyclodepolymerization of P1 at 0.05 and 20 mg/mL: Only qualitative (cyclic oligomers after 30 min; DP 1-3 after 24 h); molar masses only in Fig. 3 and ESI. [Results and discussion > Wavelength-gated depolymerization ¶2]
+excluded_observation,PMC7069517,"UVB (330 nm) depolymerization of P1 and P1', P1'': UV-only irradiation (E3); also qualitative/figure-only. [Results and discussion > Wavelength-gated depolymerization ¶1]"
+excluded_observation,PMC7069517,"Blue light (>430 nm) on P1, 90 min: No depolymerization; qualitative, values in ESI figure. [Results and discussion > Wavelength-gated depolymerization ¶1]"
+excluded_observation,PMC7069517,"Ambient laboratory light (1 week, 25 d) and direct sunlight (5 s, 4 min): Qualitative outcome only (SEC traces in ESI/Fig. 4). [Results and discussion > Depolymerization under ambient conditions ¶1]"
+excluded_observation,PMC7069517,P1 Mn 60 000 / Mw 100 000 g/mol; P1H2O Mn 54 000: Before-irradiation values only; no matching after values. [Results and discussion > Photopolymerization ¶1]
+excluded_observation,PMC8037624,MPs' degradation (%) by gravimetry with/without scavengers: Mass loss is not an E5 endpoint. [Table 3]
+excluded_observation,PMC8037624,Carbonyl index A1720/A1380 (0.86 -> 1.11 etc.): Carbonyl index excluded under E5. [Table 3]
+excluded_observation,PMC9295126,"Table 1 entries 9-15 (catalysts B-H): Catalysts identified only by letter; structures are in a figure, not in text. [Table 1]"
+excluded_observation,PMC9295126,Table 1 entry 4 (no PS): No polymer substrate. [Table 1 r4]
+excluded_observation,PMC9295126,"Mw after 16 h ('between 100 and 200'): Range, not a value; SI figure. [Results and Discussion > Photocatalytic Deconstruction of PS ¶2]"
+excluded_observation,PMC9295126,"Minor aromatics (ethyl benzoate ~10%, acetophenone ~6%, benzaldehyde ~1%) and total ~60%: No time point attached to the minor products; total is a lumped yield. [Results and Discussion > Photocatalytic Deconstruction of PS ¶2]"
+excluded_observation,PMC9295126,"Recycled-catalyst run, 34% benzoic acid after a second 24 h reaction: Conditions of the second run are not restated; standard conditions are not assumed (independent verifier concern, adjudicated 2026-10-12). [Results and Discussion > Photocatalytic Deconstruction of PS ¶2]"
+excluded_observation,PMC9381527,"Table 1 entries 1-11 (catalyst/solvent screen, incl. entry 11 with 400-800 nm filter: conversion 91 ± 6%, selectivity 61 ± 5%): Conversion is a carbon-based lumped metric including COx and selectivity is lumped over three products; no yield of an identified product is given; per-product distribution only in Fig. 1a. [Table 1]"
+excluded_observation,PMC9381527,Table 1 entry 6 (no light) 'not detected': Dark control reported only as conversion not detected; no product yield value. [Table 1 r6]
+excluded_observation,PMC9381527,GPC Mw of recovered PS vs time: Only in Fig. 1c; text is qualitative (Mw increases in induction period). [Results > Study on the mechanism of photocatalytic oxidation of polystyrene ¶1]
+excluded_observation,PMC9381527,"'yield of 60% towards organic products': Lumped organics, no condition or time attached. [Discussion ¶1]"
+excluded_observation,PMC9381527,"Flow (WHSV) selectivities: benzaldehyde 51%, acetophenone 31%, benzoic acid 18-74%: Liquid-phase selectivities, not yields; substrate is pyrolysis-pretreated PS. [Results > Further improvement based on the reaction mechanism ¶4]"
+excluded_observation,PMC9381527,"Pretreated PS (PS-O, PS-1, PS-2, PS-3) performance; 80% benzoic acid selectivity for PS-1: Values in Fig. 3c only; text gives selectivity, not yield. [Results > Further improvement based on the reaction mechanism ¶3]"
+excluded_observation,PMC9381527,Different PS molecular weights and real-life plastics (Supplementary Table 3); O2-pressure and temperature series (Supplementary Figs. 8-9); production rates 0.45-0.90 mmolcarbon/gcat/h: SI or rates without identified-product yield. [Results > Optimization of reaction conditions for photocatalytic oxidation of polystyrene ¶2]
+excluded_observation,PMC9586668,Dark controls: Reported only qualitatively ('No depolymerization has been observed in dark conditions'); no values. [Results and Discussion ¶1]
+excluded_observation,PMC9586668,NMR depolymerization ~40%: Authors state the NMR integration is not reliable (paramagnetic broadening). [Results and Discussion ¶6]
+excluded_observation,PMC9939864,"BET surface area 6.7 vs 12.8 m2/g, pore volume: Morphological measure, not an E5 endpoint. [Results > Photo-oxidative effect of 1D microrobots to accelerate the disruption of polypropylene filter membranes ¶2]"
+excluded_observation,PMC9939864,Carbonyl index ~26-fold increase; EDX oxygen 13.4 vs 6.6 wt%; TGA weight-loss onset: Carbonyl index / compositional indicators are excluded under E5. [Results > Photo-oxidative effect of 1D microrobots to accelerate the disruption of polypropylene filter membranes ¶4]
+excluded_observation,PMC9939864,SPME-GC-MS by-products (acetaldehyde etc.): Identified qualitatively by m/z only; no amounts; data in Supplementary Fig. 8. [Results > Photo-oxidative effect of 1D microrobots to accelerate the disruption of polypropylene filter membranes ¶7]
+flagged_value,PDG-PMC9586668-b,retained_fraction 1
+flagged_value,PDG-PMC10557129-b,"control shows deconstruction (retained None, yields benzyl methacrylate: 88 %): control: dark (heat only), 1 equiv FeCl2, 170 °C; time not attached to the value in text."
+flagged_value,PDG-PMC10793207-b,"control shows deconstruction (retained 0.0400468, yields benzoic acid: 6 %): control: no photocatalyst (HCl only)"
+flagged_value,PDG-PMC10793207-c,"control shows deconstruction (retained 0.161593, yields benzoic acid: 0 %): control: argon instead of O2; chain cleavage without BA formation"
+flagged_value,PDG-PMC11796324-f,"control shows deconstruction (retained 0.117475, yields benzoic acid: 0 %; acetophenone: 0 %): control: no O2 (printed 'Inert'; gas not named) [adjudicated yield_basis: both partly] [ad"
+flagged_value,PDG-PMC12464638-f,"control shows deconstruction (retained None, yields M5 (original bis-aldehyde monomer): 61 %): control: no TBACl additive"
+flagged_value,PDG-PMC12464638-h,"control shows deconstruction (retained None, yields M5 (original bis-aldehyde monomer): 48 %): control: no molecular sieves"
+qa_flag:approximate_value,PDG-PMC10557129-a,almost 90% of monomer
+qa_flag:conditions_from_other_block,PDG-PMC10557129-a,concentration from 'body ¶9' (result at 'body ¶4')
+qa_flag:heated_ge_80C,PDG-PMC10557129-a,temperature_c = 170
+qa_flag:conditions_from_other_block,PDG-PMC10557129-b,concentration from 'body ¶9' (result at 'body ¶4')
+qa_flag:heated_ge_80C,PDG-PMC10557129-b,temperature_c = 170
+qa_flag:thermal_contribution,PDG-PMC10557129-b,Not really a 'no reaction' control: thermal reaction nearly as efficient.
+qa_flag:conditions_from_other_block,PDG-PMC10557129-c,concentration from 'body ¶9' (result at 'body ¶4')
+qa_flag:heated_ge_80C,PDG-PMC10557129-c,temperature_c = 100
+qa_flag:conditions_from_other_block,PDG-PMC10557129-d,temperature_c from 'Figure 2 caption'; catalyst_loading from 'Figure 2 caption'; concentration from 'body ¶9' (result at 'body ¶4')
+qa_flag:heated_ge_80C,PDG-PMC10557129-d,temperature_c = 100
+qa_flag:conditions_from_other_block,PDG-PMC10557129-e,light_source from 'body ¶4'; concentration from 'body ¶9' (result at 'body ¶5')
+qa_flag:heated_ge_80C,PDG-PMC10557129-e,temperature_c = 170
+qa_flag:conditions_from_other_block,PDG-PMC10557129-f,light_source from 'body ¶4'; concentration from 'body ¶9' (result at 'body ¶5')
+qa_flag:heated_ge_80C,PDG-PMC10557129-f,temperature_c = 170
+qa_flag:approximate_value,PDG-PMC10557129-g,approximately 70% of depolymerization
+qa_flag:conditions_from_other_block,PDG-PMC10557129-g,light_source from 'body ¶4'; catalyst_loading from 'Figure 3 caption'; concentration from 'body ¶9' (result at 'body ¶7')
+qa_flag:heated_ge_80C,PDG-PMC10557129-g,temperature_c = 170
+qa_flag:conditions_from_other_block,PDG-PMC10557129-h,light_source from 'body ¶4'; catalyst_loading from 'Figure 3 caption'; concentration from 'body ¶9' (result at 'body ¶7')
+qa_flag:heated_ge_80C,PDG-PMC10557129-h,temperature_c = 170
+qa_flag:approximate_value,PDG-PMC10793207-a,temperature_c: (∼35 ± 1) °C
+qa_flag:bimodal_sec,PDG-PMC10793207-a,"Standard conditions (entry 1). Mn after printed as '<0.30' kDa (below accurate GPC range, bimodal); not recorded as a value."
+qa_flag:conditions_from_other_block,PDG-PMC10793207-a,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; atmosphere from 'Results and discussion ¶1'; wavelength_nm from 'Results and discussion ¶1'; light_source from 'Results and discussion ¶1' (result at 'Table r1')
+qa_flag:approximate_value,PDG-PMC10793207-b,temperature_c: (∼35 ± 1) °C
+qa_flag:conditions_from_other_block,PDG-PMC10793207-b,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; atmosphere from 'Results and discussion ¶1'; wavelength_nm from 'Results and discussion ¶1'; light_source from 'Results and discussion ¶1' (result at 'Table r2')
+qa_flag:approximate_value,PDG-PMC10793207-c,temperature_c: (∼35 ± 1) °C
+qa_flag:conditions_from_other_block,PDG-PMC10793207-c,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; wavelength_nm from 'Results and discussion ¶1'; light_source from 'Results and discussion ¶1' (result at 'Table r3')
+qa_flag:approximate_value,PDG-PMC10793207-d,temperature_c: (∼35 ± 1) °C
+qa_flag:conditions_from_other_block,PDG-PMC10793207-d,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; atmosphere from 'Results and discussion ¶1' (result at 'Table r4')
+qa_flag:approximate_value,PDG-PMC10793207-e,temperature_c: (∼35 ± 1) °C
+qa_flag:conditions_from_other_block,PDG-PMC10793207-e,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; atmosphere from 'Results and discussion ¶1'; wavelength_nm from 'Results and discussion ¶1'; light_source from 'Results and discussion ¶1' (result at 'Table r5')
+qa_flag:approximate_value,PDG-PMC10793207-f,temperature_c: (∼35 ± 1) °C
+qa_flag:conditions_from_other_block,PDG-PMC10793207-f,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; atmosphere from 'Results and discussion ¶1'; wavelength_nm from 'Results and discussion ¶1'; light_source from 'Results and discussion ¶1' (result at 'Table r6')
+qa_flag:approximate_value,PDG-PMC10793207-g,temperature_c: (∼35 ± 1) °C
+qa_flag:conditions_from_other_block,PDG-PMC10793207-g,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; atmosphere from 'Results and discussion ¶1'; wavelength_nm from 'Results and discussion ¶1'; light_source from 'Results and discussion ¶1' (result at 'Table r7')
+qa_flag:approximate_value,PDG-PMC10793207-h,temperature_c: (∼35 ± 1) °C
+qa_flag:bimodal_sec,PDG-PMC10793207-h,Bimodal GPC distribution (footnote f). | Bimodal GPC distribution (footnote f) for Mn 5.56 kDa.
+qa_flag:conditions_from_other_block,PDG-PMC10793207-h,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; atmosphere from 'Results and discussion ¶1'; wavelength_nm from 'Results and discussion ¶1'; light_source from 'Results and discussion ¶1' (result at 'Table r8')
+qa_flag:approximate_value,PDG-PMC10793207-i,temperature_c: (∼35 ± 1) °C
+qa_flag:conditions_from_other_block,PDG-PMC10793207-i,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; atmosphere from 'Results and discussion ¶1' (result at 'Table r9')
+qa_flag:conditions_from_other_block,PDG-PMC11796324-a,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r1')
+qa_flag:sec_estimate,PDG-PMC11796324-a,Mn after is described as an 'estimation' (footnote c). [adjudicated yield_basis: blind correct] | SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+qa_flag:conditions_from_other_block,PDG-PMC11796324-b,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r2')
+qa_flag:sec_estimate,PDG-PMC11796324-b,Neat ethyl acetate. Mn after is an estimation (footnote c). [adjudicated yield_basis: blind correct] | SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+qa_flag:conditions_from_other_block,PDG-PMC11796324-c,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r3')
+qa_flag:sec_estimate,PDG-PMC11796324-c,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+qa_flag:conditions_from_other_block,PDG-PMC11796324-d,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r4')
+qa_flag:sec_estimate,PDG-PMC11796324-d,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+qa_flag:conditions_from_other_block,PDG-PMC11796324-e,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r5')
+qa_flag:sec_estimate,PDG-PMC11796324-e,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+qa_flag:conditions_from_other_block,PDG-PMC11796324-f,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r6')
+qa_flag:sec_estimate,PDG-PMC11796324-f,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+qa_flag:conditions_from_other_block,PDG-PMC11796324-g,concentration from 'Results and Discussion ¶3' (result at 'Table 1 r7')
+qa_flag:sec_estimate,PDG-PMC11796324-g,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+qa_flag:conditions_from_other_block,PDG-PMC11796324-h,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r8')
+qa_flag:sec_estimate,PDG-PMC11796324-h,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+qa_flag:conditions_from_other_block,PDG-PMC11796324-i,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r9')
+qa_flag:sec_estimate,PDG-PMC11796324-i,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+qa_flag:conditions_from_other_block,PDG-PMC11796324-j,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r10')
+qa_flag:sec_estimate,PDG-PMC11796324-j,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+qa_flag:conditions_from_other_block,PDG-PMC11796324-k,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r11')
+qa_flag:sec_estimate,PDG-PMC11796324-k,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+qa_flag:conditions_from_other_block,PDG-PMC11796324-l,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r12')
+qa_flag:sec_estimate,PDG-PMC11796324-l,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+qa_flag:conditions_from_other_block,PDG-PMC11796324-m,concentration from 'Results and Discussion ¶3' (result at 'Table 1 r13')
+qa_flag:sec_estimate,PDG-PMC11796324-m,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+qa_flag:approximate_value,PDG-PMC12056016-d,mw_after: (Mw ≈ 2 kDa)
+qa_flag:approximate_value,PDG-PMC12056016-e,mw_after: (Mw ≈ 2 kDa)
+qa_flag:conditions_from_other_block,PDG-PMC12056016-f,solvent from 'Fig. 7 caption' (result at 'Results > Applications to diverse polymer types ¶5')
+qa_flag:conditions_from_other_block,PDG-PMC12302232-b,time from 'Results and discussion ¶6'; solvent from 'Results and discussion ¶6'; atmosphere from 'Results and discussion ¶6'; light_source from 'Results and discussion ¶6' (result at 'Results and discussion ¶7')
+qa_flag:conditions_from_other_block,PDG-PMC12302232-c,time from 'Results and discussion ¶6'; solvent from 'Results and discussion ¶6'; atmosphere from 'Results and discussion ¶6'; light_source from 'Results and discussion ¶6' (result at 'Results and discussion ¶7')
+qa_flag:conditions_from_other_block,PDG-PMC12302232-d,time from 'Results and discussion ¶6'; solvent from 'Results and discussion ¶6'; atmosphere from 'Results and discussion ¶6'; light_source from 'Results and discussion ¶6' (result at 'Results and discussion ¶7')
+qa_flag:conditions_from_other_block,PDG-PMC12302232-e,time from 'Results and discussion ¶6'; solvent from 'Results and discussion ¶6'; atmosphere from 'Results and discussion ¶6'; light_source from 'Results and discussion ¶6' (result at 'Results and discussion ¶7')
+qa_flag:conditions_from_other_block,PDG-PMC12302232-f,time from 'Results and discussion ¶6'; solvent from 'Results and discussion ¶6'; atmosphere from 'Results and discussion ¶6'; light_source from 'Results and discussion ¶6' (result at 'Results and discussion ¶7')
+qa_flag:conditions_from_other_block,PDG-PMC12302232-g,time from 'Results and discussion ¶6'; solvent from 'Results and discussion ¶6'; atmosphere from 'Results and discussion ¶6'; light_source from 'Results and discussion ¶6' (result at 'Results and discussion ¶8')
+qa_flag:conditions_from_other_block,PDG-PMC12302232-h,time from 'Results and discussion ¶6'; solvent from 'Results and discussion ¶6'; atmosphere from 'Results and discussion ¶6'; light_source from 'Results and discussion ¶6' (result at 'Results and discussion ¶8')
+qa_flag:conditions_from_other_block,PDG-PMC12464638-k,solvent from 'Table 2 footnote'; wavelength_nm from 'Table 2 footnote'; light_source from 'Table 2 footnote'; catalyst_loading from 'Table 2 footnote' (result at 'Result and Discussion > Closed-Loop Photochemical Recycling ¶4')
+qa_flag:conditions_from_other_block,PDG-PMC12464638-l,solvent from 'Table 2 footnote'; wavelength_nm from 'Table 2 footnote'; light_source from 'Table 2 footnote'; catalyst_loading from 'Table 2 footnote' (result at 'Result and Discussion > Closed-Loop Photochemical Recycling ¶4')
+qa_flag:heated_ge_80C,PDG-PMC13590609-a,temperature_c = 130
+qa_flag:conditions_from_other_block,PDG-PMC13590609-b,solvent from 'Results > Oxidative degradation of polypropylene (PP) ¶1' (result at 'Results > Oxidative degradation of polypropylene (PP) ¶2')
+qa_flag:heated_ge_80C,PDG-PMC13590609-b,temperature_c = 130
+qa_flag:conditions_from_other_block,PDG-PMC13590609-c,solvent from 'Results > Oxidative degradation of polypropylene (PP) ¶1' (result at 'Results > Oxidative degradation of polypropylene (PP) ¶2')
+qa_flag:approximate_value,PDG-PMC13590609-d,the TPA yield decreased to ~70%
+qa_flag:conditions_from_other_block,PDG-PMC13590609-d,solvent from 'Results > Oxidative degradation of polypropylene (PP) ¶1' (result at 'Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2')
+qa_flag:heated_ge_80C,PDG-PMC13590609-d,temperature_c = 130
+qa_flag:conditions_from_other_block,PDG-PMC13590609-e,solvent from 'Results > Oxidative degradation of polypropylene (PP) ¶1' (result at 'Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2')
+qa_flag:heated_ge_80C,PDG-PMC13590609-e,temperature_c = 130
+qa_flag:heated_ge_80C,PDG-PMC13590609-f,temperature_c = 130
+qa_flag:heated_ge_80C,PDG-PMC13590609-g,temperature_c = 130
+qa_flag:heated_ge_80C,PDG-PMC13590609-h,temperature_c = 130
+qa_flag:conditions_from_other_block,PDG-PMC13590609-i,solvent from 'Results > Oxidative degradation of polypropylene (PP) ¶1' (result at 'Results > Co-upcycling of real-world PET and PP plastics ¶2')
+qa_flag:heated_ge_80C,PDG-PMC13590609-i,temperature_c = 130
+qa_flag:conditions_from_other_block,PDG-PMC9295126-a,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; catalyst_loading from 'Table 1 r1 c3'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Results and Discussion > Photocatalytic Deconstruction of PS ¶2')
+qa_flag:conditions_from_other_block,PDG-PMC9295126-b,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; catalyst_loading from 'Table 1 r1 c3'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Results and Discussion > Photocatalytic Deconstruction of PS ¶2')
+qa_flag:conditions_from_other_block,PDG-PMC9295126-c,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r1')
+qa_flag:conditions_from_other_block,PDG-PMC9295126-d,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 footnote')
+qa_flag:conditions_from_other_block,PDG-PMC9295126-e,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r2')
+qa_flag:conditions_from_other_block,PDG-PMC9295126-f,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r8')
+qa_flag:conditions_from_other_block,PDG-PMC9295126-g,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r7')
+qa_flag:conditions_from_other_block,PDG-PMC9295126-h,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r5')
+qa_flag:conditions_from_other_block,PDG-PMC9295126-i,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r3')
+qa_flag:conditions_from_other_block,PDG-PMC9295126-j,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r3')
+qa_flag:conditions_from_other_block,PDG-PMC9295126-k,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r6')
+qa_flag:conditions_from_other_block,PDG-PMC9295126-l,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; catalyst_loading from 'Figure 3 caption' (result at 'Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1')
+qa_flag:conditions_from_other_block,PDG-PMC9295126-m,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; catalyst_loading from 'Figure 3 caption' (result at 'Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1')
+qa_flag:conditions_from_other_block,PDG-PMC9295126-o,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r15')
+qa_flag:conditions_from_other_block,PDG-PMC9381527-a,solvent from 'Fig. 3 caption'; temperature_c from 'Fig. 3 caption'; atmosphere from 'Fig. 3 caption'; light_source from 'Fig. 3 caption'; catalyst_loading from 'Fig. 3 caption' (result at 'Results > Further improvement based on the reaction mechanism ¶2')
+qa_flag:heated_ge_80C,PDG-PMC9381527-a,temperature_c = 150
+qa_flag:conditions_from_other_block,PDG-PMC9586668-a,time from 'Table 1. footnote'; wavelength_nm from 'Table 1. footnote' (result at 'Table 2. r1')
+qa_flag:conditions_from_other_block,PDG-PMC9586668-d,time from 'Table 1. footnote'; wavelength_nm from 'Table 1. footnote' (result at 'Table 2. r2')
+qa_flag:heated_ge_80C,PDG-PMC9586668-d,temperature_c = 90
+qa_flag:conditions_from_other_block,PDG-PMC9586668-e,time from 'Table 1. footnote'; wavelength_nm from 'Table 1. footnote' (result at 'Table 2. r3')
+qa_flag:heated_ge_80C,PDG-PMC9586668-e,temperature_c = 170
+qa_flag:thermal_contribution,PDG-PMC10557129-a,dark control PDG-PMC10557129-b (170 °C): benzyl methacrylate 88% dark vs 90% lit

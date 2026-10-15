@@ -1,0 +1,496 @@
+{
+ "paper_key": "PMC10793207",
+ "paper_id": "10.1039/d3sc06388g",
+ "doi": "10.1039/d3sc06388g",
+ "pmcid": "PMC10793207",
+ "source_license": "cc by-nc",
+ "extractor": "Claude (AI) extraction agent B, 2026-10-12",
+ "extraction_method": "table + text",
+ "screen": {
+  "decision": "include",
+  "criteria": "E1-E6 pass",
+  "confidence": "high",
+  "rationale": "Primary study; commercial PS oxidised to benzoic acid with acridinium photocatalysts under 390/440 nm LED and O2; BA yields and GPC Mn after reaction in Table 1, Mn of starting PS in footnote.",
+  "evidence_loc": "Table"
+ },
+ "shared": {
+  "polymer": {
+   "v": "polystyrene",
+   "loc": "Results and discussion ¶1",
+   "s": "commercial PS resins"
+  },
+  "polymer_class": {
+   "v": "vinyl_styrenic",
+   "inferred": "classification of the named polymer"
+  },
+  "polymer_detail": {
+   "v": "commercial PS resin, Mn 42.7 kDa by GPC",
+   "loc": "Table footnote",
+   "s": "Mn of PS starting material = 42.7 kDa"
+  },
+  "catalyst": {
+   "v": "Ph-Acr-Ph (9-phenyl-N-phenyl acridinium salt)",
+   "loc": "Results and discussion ¶1",
+   "s": "model Ph-Acr-Ph catalyst"
+  },
+  "catalyst_loading_unit": {
+   "v": "mol%",
+   "inferred": "unit printed in Table header; w.r.t. PS monomers (Results and discussion ¶1)"
+  },
+  "light_source": {
+   "v": "390 nm LED",
+   "loc": "Results and discussion ¶1",
+   "s": "390 nm LED light source"
+  },
+  "wavelength_nm": {
+   "v": 390,
+   "loc": "Results and discussion ¶1",
+   "s": "390 nm LED"
+  },
+  "light_color": {
+   "v": "violet",
+   "inferred": "390 nm lies in the violet band (380-450 nm)"
+  },
+  "atmosphere": {
+   "v": "O2",
+   "loc": "Results and discussion ¶1",
+   "s": "under an O2 atmosphere"
+  },
+  "solvent": {
+   "v": "DCE/MeCN 6:1 (v/v)",
+   "loc": "Results and discussion ¶2",
+   "s": "DCE/MeCN 6 : 1 (v/v)"
+  },
+  "temperature_c": {
+   "v": 35,
+   "loc": "Table footnote",
+   "s": "(∼35 ± 1) °C"
+  },
+  "time": {
+   "v": 24,
+   "loc": "Results and discussion ¶1",
+   "s": "for 24 h"
+  },
+  "time_unit": {
+   "v": "h",
+   "inferred": "unit printed with the value"
+  },
+  "sec_eluent": {
+   "v": "THF",
+   "loc": "Table footnote",
+   "s": "with THF as the mobile phase"
+  },
+  "sec_calibration": {
+   "v": "conventional_PS",
+   "loc": "Table footnote",
+   "s": "against monodisperse polystyrene standards"
+  },
+  "yield_basis": {
+   "v": "quantitative 1H NMR vs 1,3,5-trimethoxybenzene internal standard",
+   "loc": "Table footnote",
+   "s": "Determined by quantitative 1H-NMR using 1,3,5-trimethoxybenzene as internal standard"
+  },
+  "products": {
+   "v": "benzoic acid",
+   "loc": "Table h c5",
+   "s": "BA yield"
+  }
+ },
+ "records": [
+  {
+   "rid": "a",
+   "primary_loc": "Table r1",
+   "fields": {
+    "catalyst_loading": {
+     "v": 10.0,
+     "loc": "Table r1 c2",
+     "s": "10"
+    },
+    "cocatalyst_additives": {
+     "v": "HCl (aq), 10 mol%",
+     "loc": "Table r1 c3",
+     "s": "HCl (10)"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 33,
+      "u": "%",
+      "loc": "Table r1 c5",
+      "s": "33",
+      "name_loc": "Table h c5",
+      "name_s": "BA yield"
+     }
+    ]
+   },
+   "notes": "Standard conditions (entry 1). Mn after printed as '<0.30' kDa (below accurate GPC range, bimodal); not recorded as a value."
+  },
+  {
+   "rid": "b",
+   "primary_loc": "Table r2",
+   "is_control": true,
+   "fields": {
+    "catalyst": {
+     "v": "none",
+     "loc": "Table r2 c2",
+     "s": "-"
+    },
+    "catalyst_loading": null,
+    "cocatalyst_additives": {
+     "v": "HCl, 10 mol%",
+     "loc": "Table r2 c3",
+     "s": "HCl (10)"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 6,
+      "u": "%",
+      "loc": "Table r2 c5",
+      "s": "6",
+      "name_loc": "Table h c5",
+      "name_s": "BA yield"
+     }
+    ],
+    "mn_before": {
+     "v": 42.7,
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa"
+    },
+    "mn_after": {
+     "v": 1.71,
+     "loc": "Table r2 c6",
+     "s": "1.71"
+    },
+    "mass_unit_before": {
+     "v": "kDa",
+     "loc": "Table h c6",
+     "s": "(kDa)"
+    },
+    "mass_unit_after": {
+     "v": "kDa",
+     "loc": "Table h c6",
+     "s": "(kDa)"
+    }
+   },
+   "notes": "control: no photocatalyst (HCl only)"
+  },
+  {
+   "rid": "c",
+   "primary_loc": "Table r3",
+   "is_control": true,
+   "fields": {
+    "catalyst_loading": {
+     "v": 10.0,
+     "loc": "Table r3 c2",
+     "s": "10"
+    },
+    "cocatalyst_additives": {
+     "v": "HCl, 10 mol%",
+     "loc": "Table r3 c3",
+     "s": "HCl (10)"
+    },
+    "atmosphere": {
+     "v": "Ar",
+     "loc": "Table r3 c4",
+     "s": "Argon atmosphere"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 0,
+      "u": "%",
+      "loc": "Table r3 c5",
+      "s": "0",
+      "name_loc": "Table h c5",
+      "name_s": "BA yield"
+     }
+    ],
+    "mn_before": {
+     "v": 42.7,
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa"
+    },
+    "mn_after": {
+     "v": 6.9,
+     "loc": "Table r3 c6",
+     "s": "6.90"
+    },
+    "mass_unit_before": {
+     "v": "kDa",
+     "loc": "Table h c6",
+     "s": "(kDa)"
+    },
+    "mass_unit_after": {
+     "v": "kDa",
+     "loc": "Table h c6",
+     "s": "(kDa)"
+    }
+   },
+   "notes": "control: argon instead of O2; chain cleavage without BA formation"
+  },
+  {
+   "rid": "d",
+   "primary_loc": "Table r4",
+   "is_control": true,
+   "fields": {
+    "catalyst_loading": {
+     "v": 10.0,
+     "loc": "Table r4 c2",
+     "s": "10"
+    },
+    "cocatalyst_additives": {
+     "v": "HCl, 10 mol%",
+     "loc": "Table r4 c3",
+     "s": "HCl (10)"
+    },
+    "light_source": {
+     "v": "none (dark)",
+     "loc": "Table r4 c4",
+     "s": "Reaction in the dark"
+    },
+    "wavelength_nm": null,
+    "light_color": null,
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 0,
+      "u": "%",
+      "loc": "Table r4 c5",
+      "s": "0",
+      "name_loc": "Table h c5",
+      "name_s": "BA yield"
+     }
+    ],
+    "mn_before": {
+     "v": 42.7,
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa"
+    },
+    "mn_after": {
+     "v": 42.3,
+     "loc": "Table r4 c6",
+     "s": "42.3"
+    },
+    "mass_unit_before": {
+     "v": "kDa",
+     "loc": "Table h c6",
+     "s": "(kDa)"
+    },
+    "mass_unit_after": {
+     "v": "kDa",
+     "loc": "Table h c6",
+     "s": "(kDa)"
+    }
+   },
+   "notes": "control: dark; temperature footnote attributes heating to the LED, so 35 °C may not apply in the dark"
+  },
+  {
+   "rid": "e",
+   "primary_loc": "Table r5",
+   "is_control": false,
+   "fields": {
+    "catalyst_loading": {
+     "v": 10.0,
+     "loc": "Table r5 c2",
+     "s": "10"
+    },
+    "cocatalyst_additives": {
+     "v": "none (no acid)",
+     "loc": "Table r5 c3",
+     "s": "-"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 20,
+      "u": "%",
+      "loc": "Table r5 c5",
+      "s": "20",
+      "name_loc": "Table h c5",
+      "name_s": "BA yield"
+     }
+    ]
+   },
+   "notes": "Ablation run without the HCl additive (not a control: the paper calls only entries 2-4 control experiments; audit finding 17, 2026-10-12). Mn after '<0.30' kDa not recorded."
+  },
+  {
+   "rid": "f",
+   "primary_loc": "Table r6",
+   "fields": {
+    "catalyst_loading": {
+     "v": 5.0,
+     "loc": "Table r6 c2",
+     "s": "5"
+    },
+    "cocatalyst_additives": {
+     "v": "HCl, 200 mol%",
+     "loc": "Table r6 c3",
+     "s": "HCl (200)"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 46,
+      "u": "%",
+      "loc": "Table r6 c5",
+      "s": "46",
+      "name_loc": "Table h c5",
+      "name_s": "BA yield"
+     }
+    ]
+   },
+   "notes": "Mn after '<0.30' kDa not recorded."
+  },
+  {
+   "rid": "g",
+   "primary_loc": "Table r7",
+   "fields": {
+    "catalyst_loading": {
+     "v": 5.0,
+     "loc": "Table r7 c2",
+     "s": "5"
+    },
+    "cocatalyst_additives": {
+     "v": "HCl, 500 mol%",
+     "loc": "Table r7 c3",
+     "s": "HCl (500)"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 50,
+      "u": "%",
+      "loc": "Table r7 c5",
+      "s": "50",
+      "name_loc": "Table h c5",
+      "name_s": "BA yield"
+     }
+    ]
+   },
+   "notes": "Mn after '<0.30' kDa not recorded."
+  },
+  {
+   "rid": "h",
+   "primary_loc": "Table r8",
+   "fields": {
+    "catalyst_loading": {
+     "v": 5.0,
+     "loc": "Table r8 c2",
+     "s": "5"
+    },
+    "cocatalyst_additives": {
+     "v": "HBr, 200 mol%",
+     "loc": "Table r8 c3",
+     "s": "HBr (200)"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 7,
+      "u": "%",
+      "loc": "Table r8 c5",
+      "s": "7",
+      "name_loc": "Table h c5",
+      "name_s": "BA yield"
+     }
+    ],
+    "mn_before": {
+     "v": 42.7,
+     "loc": "Table footnote",
+     "s": "Mn of PS starting material = 42.7 kDa"
+    },
+    "mn_after": {
+     "v": 5.56,
+     "loc": "Table r8 c6",
+     "s": "5.56f"
+    },
+    "mass_unit_before": {
+     "v": "kDa",
+     "loc": "Table h c6",
+     "s": "(kDa)"
+    },
+    "mass_unit_after": {
+     "v": "kDa",
+     "loc": "Table h c6",
+     "s": "(kDa)"
+    }
+   },
+   "notes": "Bimodal GPC distribution (footnote f)."
+  },
+  {
+   "rid": "i",
+   "primary_loc": "Table r9",
+   "fields": {
+    "catalyst_loading": {
+     "v": 5.0,
+     "loc": "Table r9 c2",
+     "s": "5"
+    },
+    "cocatalyst_additives": {
+     "v": "HCl, 200 mol%",
+     "loc": "Table r9 c3",
+     "s": "HCl (200)"
+    },
+    "light_source": {
+     "v": "440 nm irradiation",
+     "loc": "Table r9 c4",
+     "s": "440 nm irradiation"
+    },
+    "wavelength_nm": {
+     "v": 440,
+     "loc": "Table r9 c4",
+     "s": "440 nm irradiation"
+    },
+    "light_color": {
+     "v": "violet",
+     "inferred": "440 nm lies in the violet band (380-450 nm)"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 43,
+      "u": "%",
+      "loc": "Table r9 c5",
+      "s": "43",
+      "name_loc": "Table h c5",
+      "name_s": "BA yield"
+     }
+    ]
+   },
+   "notes": "Mn after '<0.30' kDa not recorded."
+  }
+ ],
+ "excluded_observations": [
+  {
+   "what": "Mn after for entries 1, 5, 6, 7, 9 ('<0.30' kDa)",
+   "why": "Upper bound below accurate GPC range, not a value.",
+   "loc": "Table"
+  },
+  {
+   "what": "Time-course Mn after ~1 h for FPh-Acr-Np (1.26 kDa) and Ph-Acr-Ph (6.90 kDa); 5 h / 9 h to reach GPC lower limit",
+   "why": "Time given only as 'within the first hour' (no number) and catalyst/acid loadings for the time course are only in Fig. 2; 5/9 h values are detection-limit bounds.",
+   "loc": "Results and discussion ¶7"
+  },
+  {
+   "what": "FPh-Acr-Np BA yields ('up to 55%', 16.5% at 1 mol%) and real-life PS waste yields",
+   "why": "Reaction time and acid loading not stated in text; values otherwise only in Fig. 2C(ii); 'up to' is a bound.",
+   "loc": "Results and discussion ¶6"
+  },
+  {
+   "what": "Air atmosphere, water, solvent screen, 200 mol% HCl without catalyst, MeOPh-Acr-Ph results",
+   "why": "Only in SI Table S1.",
+   "loc": "Results and discussion ¶2"
+  },
+  {
+   "what": "Mesityl/methyl acridinium comparison yields (Fig. 1B)",
+   "why": "Values only in figure.",
+   "loc": "Fig. 1 caption"
+  },
+  {
+   "what": "PS concentration",
+   "why": "Not stated in main text.",
+   "loc": "Table caption"
+  }
+ ]
+}

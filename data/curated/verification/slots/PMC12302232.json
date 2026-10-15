@@ -1,0 +1,195 @@
+{
+ "pmcid": "PMC12302232",
+ "doi": "10.1039/d5sc03457d",
+ "tasks": [
+  {
+   "rid": "a",
+   "primary_loc": "Results and discussion \u00b66",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "b",
+   "primary_loc": "Results and discussion \u00b67",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "c",
+   "primary_loc": "Results and discussion \u00b67",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "d",
+   "primary_loc": "Results and discussion \u00b67",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "e",
+   "primary_loc": "Results and discussion \u00b67",
+   "polymer_anchor": "poly(styrene-co-acrylonitrile)",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "cocatalyst_additives",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "f",
+   "primary_loc": "Results and discussion \u00b67",
+   "polymer_anchor": "poly(acrylonitrile-co-butadiene-co-styrene)",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "cocatalyst_additives",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "g",
+   "primary_loc": "Results and discussion \u00b68",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "h",
+   "primary_loc": "Results and discussion \u00b68",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "i",
+   "primary_loc": "Results and discussion \u00b69",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "catalyst",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1416 @@
+{
+ "pmcid": "PMC9295126",
+ "verifier": "Claude (AI) independent verifier 1, 2026-10-12",
+ "tasks": [
+  {
+   "rid": "a",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Figure 2 caption",
+     "s": "O2 balloon"
+    },
+    "catalyst": {
+     "v": "fluorenone",
+     "loc": "Figure 2 caption",
+     "s": "0.2 equiv of fluorenone"
+    },
+    "catalyst_loading": {
+     "v": 20,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶3",
+     "s": "20 mol % loading of the catalyst"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶3",
+     "s": "20 mol % loading"
+    },
+    "cocatalyst_additives": {
+     "v": "H2SO4 (1 equiv)",
+     "loc": "Figure 2 caption",
+     "s": "1 equiv of H2SO4"
+    },
+    "concentration": {
+     "v": 0.1,
+     "loc": "Figure 2 caption",
+     "s": "0.1 M PS"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Figure 2 caption",
+     "s": "0.1 M PS"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "blue LED strip (14.4 W)",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The blue LED (14.4 W)"
+    },
+    "mass_unit_after": null,
+    "mass_unit_before": null,
+    "mw_after": {
+     "v": 3200,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶2",
+     "s": "3,200 (4 h)"
+    },
+    "mw_before": {
+     "v": 260000,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶2",
+     "s": "The Mw of PS decreased from 260,000"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The PS starting material"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",
+     "loc": "Experimental\nSection > Materials ¶1",
+     "s": "PS (Mw ∼ 260 000; Mn ∼ 105 000)"
+    },
+    "replicates": null,
+    "sec_calibration": {
+     "v": "not_reported",
+     "loc": null,
+     "s": null
+    },
+    "sec_detector": {
+     "v": "RI",
+     "loc": "Experimental\nSection > Product Analysis ¶3",
+     "s": "equipped with a refractive index detector"
+    },
+    "sec_eluent": {
+     "v": "chlorobenzene",
+     "loc": "Experimental\nSection > Product Analysis ¶3",
+     "s": "dissolution in chlorobenzene"
+    },
+    "solvent": {
+     "v": "ethyl acetate",
+     "loc": "Figure 2 caption",
+     "s": "2 mL of EtOAc"
+    },
+    "temperature_c": {
+     "v": 50,
+     "loc": "Figure 2 caption",
+     "s": "50 ± 3 °C (due to the heating from the LED)"
+    },
+    "time": {
+     "v": 4,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶2",
+     "s": "3,200 (4 h)"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": null,
+     "s": null
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "λmax ∼ 450 nm"
+    },
+    "yield_basis": {
+     "v": "product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC",
+     "loc": "Figure 2 caption",
+     "s": "The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)"
+    }
+   },
+   "yields": {},
+   "concerns": [
+    "Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance.",
+    "Wavelength: λmax ∼ 450 nm (¶1) but Mechanistic ¶1 says 'corresponding λmax = 466 nm, consistent with the LED emission spectrum'.",
+    "No molar-mass unit printed anywhere (Mw given as bare numbers); g/mol only by inference.",
+    "GPC calibration standard not stated in main text -> not_reported.",
+    "Replicates: Figure 2 caption says error bars are SD of triplicates, but it is not stated that the Mw points were triplicated; left null."
+   ]
+  },
+  {
+   "rid": "b",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Figure 2 caption",
+     "s": "O2 balloon"
+    },
+    "catalyst": {
+     "v": "fluorenone",
+     "loc": "Figure 2 caption",
+     "s": "0.2 equiv of fluorenone"
+    },
+    "catalyst_loading": {
+     "v": 20,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶3",
+     "s": "20 mol % loading of the catalyst"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶3",
+     "s": "20 mol % loading"
+    },
+    "cocatalyst_additives": {
+     "v": "H2SO4 (1 equiv)",
+     "loc": "Figure 2 caption",
+     "s": "1 equiv of H2SO4"
+    },
+    "concentration": {
+     "v": 0.1,
+     "loc": "Figure 2 caption",
+     "s": "0.1 M PS"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Figure 2 caption",
+     "s": "0.1 M PS"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "blue LED strip (14.4 W)",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The blue LED (14.4 W)"
+    },
+    "mass_unit_after": null,
+    "mass_unit_before": null,
+    "mw_after": {
+     "v": 1700,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶2",
+     "s": "1,700 (8 h)"
+    },
+    "mw_before": {
+     "v": 260000,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶2",
+     "s": "The Mw of PS decreased from 260,000"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The PS starting material"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",
+     "loc": "Experimental\nSection > Materials ¶1",
+     "s": "PS (Mw ∼ 260 000; Mn ∼ 105 000)"
+    },
+    "replicates": null,
+    "sec_calibration": {
+     "v": "not_reported",
+     "loc": null,
+     "s": null
+    },
+    "sec_detector": {
+     "v": "RI",
+     "loc": "Experimental\nSection > Product Analysis ¶3",
+     "s": "equipped with a refractive index detector"
+    },
+    "sec_eluent": {
+     "v": "chlorobenzene",
+     "loc": "Experimental\nSection > Product Analysis ¶3",
+     "s": "dissolution in chlorobenzene"
+    },
+    "solvent": {
+     "v": "ethyl acetate",
+     "loc": "Figure 2 caption",
+     "s": "2 mL of EtOAc"
+    },
+    "temperature_c": {
+     "v": 50,
+     "loc": "Figure 2 caption",
+     "s": "50 ± 3 °C (due to the heating from the LED)"
+    },
+    "time": {
+     "v": 8,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶2",
+     "s": "1,700 (8 h)"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": null,
+     "s": null
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "λmax ∼ 450 nm"
+    },
+    "yield_basis": {
+     "v": "product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC",
+     "loc": "Figure 2 caption",
+     "s": "The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)"
+    }
+   },
+   "yields": {},
+   "concerns": [
+    "Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance.",
+    "Wavelength: λmax ∼ 450 nm (¶1) but Mechanistic ¶1 says 'corresponding λmax = 466 nm, consistent with the LED emission spectrum'.",
+    "No molar-mass unit printed anywhere (Mw given as bare numbers); g/mol only by inference.",
+    "GPC calibration standard not stated in main text -> not_reported.",
+    "Replicates: Figure 2 caption says error bars are SD of triplicates, but it is not stated that the Mw points were triplicated; left null."
+   ]
+  },
+  {
+   "rid": "c",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Figure 2 caption",
+     "s": "O2 balloon"
+    },
+    "catalyst": {
+     "v": "fluorenone",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶3",
+     "s": "20 mol % loading of the catalyst is required to produce benzoic acid with 38 ± 3% yield at 48 h (entry 1)"
+    },
+    "catalyst_loading": {
+     "v": 20,
+     "loc": "Table 1 r1 c3",
+     "s": "A (20 mol %)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶3",
+     "s": "20 mol % loading"
+    },
+    "cocatalyst_additives": {
+     "v": "H2SO4 (1 equiv)",
+     "loc": "Figure 2 caption",
+     "s": "1 equiv of H2SO4"
+    },
+    "concentration": {
+     "v": 0.1,
+     "loc": "Table 1 r1 c2",
+     "s": "0.1 M"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Figure 2 caption",
+     "s": "0.1 M PS"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "blue LED strip (14.4 W)",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The blue LED (14.4 W)"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The PS starting material"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",
+     "loc": "Experimental\nSection > Materials ¶1",
+     "s": "PS (Mw ∼ 260 000; Mn ∼ 105 000)"
+    },
+    "products": {
+     "v": [
+      "benzoic acid"
+     ],
+     "loc": "Table 1 r1 c7",
+     "s": "benzoic acid yield"
+    },
+    "replicates": {
+     "v": 3,
+     "loc": "Figure 2 caption",
+     "s": "standard deviation of triplicate experiments"
+    },
+    "solvent": {
+     "v": "ethyl acetate",
+     "loc": "Figure 2 caption",
+     "s": "2 mL of EtOAc"
+    },
+    "temperature_c": {
+     "v": 50,
+     "loc": "Figure 2 caption",
+     "s": "50 ± 3 °C (due to the heating from the LED)"
+    },
+    "time": {
+     "v": 16,
+     "loc": "Table 1 footnote",
+     "s": "16 h reaction"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": null,
+     "s": null
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "λmax ∼ 450 nm"
+    },
+    "yield_basis": {
+     "v": "product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC",
+     "loc": "Figure 2 caption",
+     "s": "The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 30,
+     "u": "%",
+     "loc": "Table 1 r1 c7",
+     "s": "30 ± 2% (38 ± 3%)b",
+     "uncertainty": 2
+    }
+   },
+   "concerns": [
+    "Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance.",
+    "Wavelength: λmax ∼ 450 nm (¶1) but Mechanistic ¶1 says 'corresponding λmax = 466 nm, consistent with the LED emission spectrum'.",
+    "Catalyst letter A identified as fluorenone in text (¶3/¶4: 'Fluorenone (A)').",
+    "Footnote a states 16 h; the 30 ± 2% is the 16 h value, the bracketed 38 ± 3% is 48 h (task d)."
+   ]
+  },
+  {
+   "rid": "d",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Figure 2 caption",
+     "s": "O2 balloon"
+    },
+    "catalyst": {
+     "v": "fluorenone",
+     "loc": "Figure 2 caption",
+     "s": "0.2 equiv of fluorenone"
+    },
+    "catalyst_loading": {
+     "v": 20,
+     "loc": "Table 1 r1 c3",
+     "s": "A (20 mol %)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶3",
+     "s": "20 mol % loading"
+    },
+    "cocatalyst_additives": {
+     "v": "H2SO4 (1 equiv)",
+     "loc": "Figure 2 caption",
+     "s": "1 equiv of H2SO4"
+    },
+    "concentration": {
+     "v": 0.1,
+     "loc": "Table 1 r1 c2",
+     "s": "0.1 M"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Figure 2 caption",
+     "s": "0.1 M PS"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "blue LED strip (14.4 W)",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The blue LED (14.4 W)"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The PS starting material"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",
+     "loc": "Experimental\nSection > Materials ¶1",
+     "s": "PS (Mw ∼ 260 000; Mn ∼ 105 000)"
+    },
+    "products": {
+     "v": [
+      "benzoic acid"
+     ],
+     "loc": "Table 1 footnote",
+     "s": "benzoic acid"
+    },
+    "replicates": {
+     "v": 3,
+     "loc": "Figure 2 caption",
+     "s": "standard deviation of triplicate experiments"
+    },
+    "solvent": {
+     "v": "ethyl acetate",
+     "loc": "Figure 2 caption",
+     "s": "2 mL of EtOAc"
+    },
+    "temperature_c": {
+     "v": 50,
+     "loc": "Figure 2 caption",
+     "s": "50 ± 3 °C (due to the heating from the LED)"
+    },
+    "time": {
+     "v": 48,
+     "loc": "Table 1 footnote",
+     "s": "38 ± 3% yield at 48 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": null,
+     "s": null
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "λmax ∼ 450 nm"
+    },
+    "yield_basis": {
+     "v": "product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC",
+     "loc": "Figure 2 caption",
+     "s": "The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 38,
+     "u": "%",
+     "loc": "Table 1 footnote",
+     "s": "38 ± 3% yield at 48 h",
+     "uncertainty": 3
+    }
+   },
+   "concerns": [
+    "Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance.",
+    "Wavelength: λmax ∼ 450 nm (¶1) but Mechanistic ¶1 says 'corresponding λmax = 466 nm, consistent with the LED emission spectrum'.",
+    "Same as Figure 2 48 h point and Results ¶2 ('38 ± 3% at 48 h')."
+   ]
+  },
+  {
+   "rid": "e",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Figure 2 caption",
+     "s": "O2 balloon"
+    },
+    "catalyst": {
+     "v": "none",
+     "loc": "Table 1 r2 c3",
+     "s": "no catalyst"
+    },
+    "catalyst_loading_unit": null,
+    "cocatalyst_additives": {
+     "v": "H2SO4 (1 equiv)",
+     "loc": "Figure 2 caption",
+     "s": "1 equiv of H2SO4"
+    },
+    "concentration": {
+     "v": 0.1,
+     "loc": "Table 1 r2 c2",
+     "s": "0.1 M"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Figure 2 caption",
+     "s": "0.1 M PS"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "blue LED strip (14.4 W)",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The blue LED (14.4 W)"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The PS starting material"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",
+     "loc": "Experimental\nSection > Materials ¶1",
+     "s": "PS (Mw ∼ 260 000; Mn ∼ 105 000)"
+    },
+    "products": {
+     "v": [],
+     "loc": "Table 1 r2 c7",
+     "s": "0%"
+    },
+    "solvent": {
+     "v": "ethyl acetate",
+     "loc": "Figure 2 caption",
+     "s": "2 mL of EtOAc"
+    },
+    "temperature_c": {
+     "v": 50,
+     "loc": "Figure 2 caption",
+     "s": "50 ± 3 °C (due to the heating from the LED)"
+    },
+    "time": {
+     "v": 16,
+     "loc": "Table 1 footnote",
+     "s": "16 h reaction"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": null,
+     "s": null
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "λmax ∼ 450 nm"
+    },
+    "yield_basis": {
+     "v": "product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC",
+     "loc": "Figure 2 caption",
+     "s": "The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 0,
+     "u": "%",
+     "loc": "Table 1 r2 c7",
+     "s": "0%"
+    }
+   },
+   "concerns": [
+    "Control: no photocatalyst (entry 2)."
+   ]
+  },
+  {
+   "rid": "f",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Figure 2 caption",
+     "s": "O2 balloon"
+    },
+    "catalyst": {
+     "v": "fluorenone",
+     "loc": "Figure 2 caption",
+     "s": "0.2 equiv of fluorenone"
+    },
+    "catalyst_loading": {
+     "v": 20,
+     "loc": "Table 1 r8 c3",
+     "s": "A (20 mol %)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶3",
+     "s": "20 mol % loading"
+    },
+    "cocatalyst_additives": {
+     "v": "H2SO4 (1 equiv)",
+     "loc": "Figure 2 caption",
+     "s": "1 equiv of H2SO4"
+    },
+    "concentration": {
+     "v": 0.1,
+     "loc": "Table 1 r8 c2",
+     "s": "0.1 M"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Figure 2 caption",
+     "s": "0.1 M PS"
+    },
+    "light_source": {
+     "v": "dark",
+     "loc": "Table 1 r8 c6",
+     "s": "dark, 50 °C"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The PS starting material"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",
+     "loc": "Experimental\nSection > Materials ¶1",
+     "s": "PS (Mw ∼ 260 000; Mn ∼ 105 000)"
+    },
+    "products": {
+     "v": [],
+     "loc": "Table 1 r8 c7",
+     "s": "0%"
+    },
+    "solvent": {
+     "v": "ethyl acetate",
+     "loc": "Figure 2 caption",
+     "s": "2 mL of EtOAc"
+    },
+    "temperature_c": {
+     "v": 50,
+     "loc": "Table 1 r8 c6",
+     "s": "dark, 50 °C"
+    },
+    "time": {
+     "v": 16,
+     "loc": "Table 1 footnote",
+     "s": "16 h reaction"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": null,
+     "s": null
+    },
+    "yield_basis": {
+     "v": "product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC",
+     "loc": "Figure 2 caption",
+     "s": "The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 0,
+     "u": "%",
+     "loc": "Table 1 r8 c7",
+     "s": "0%"
+    }
+   },
+   "concerns": [
+    "Control: dark at 50 °C (entry 8); text ¶3 'temperature still at 50 °C'."
+   ]
+  },
+  {
+   "rid": "g",
+   "values": {
+    "atmosphere": {
+     "v": "N2",
+     "loc": "Table 1 r7 c5",
+     "s": "N2 balloon"
+    },
+    "catalyst": {
+     "v": "fluorenone",
+     "loc": "Figure 2 caption",
+     "s": "0.2 equiv of fluorenone"
+    },
+    "catalyst_loading": {
+     "v": 20,
+     "loc": "Table 1 r7 c3",
+     "s": "A (20 mol %)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶3",
+     "s": "20 mol % loading"
+    },
+    "cocatalyst_additives": {
+     "v": "H2SO4 (1 equiv)",
+     "loc": "Figure 2 caption",
+     "s": "1 equiv of H2SO4"
+    },
+    "concentration": {
+     "v": 0.1,
+     "loc": "Table 1 r7 c2",
+     "s": "0.1 M"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Figure 2 caption",
+     "s": "0.1 M PS"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "blue LED strip (14.4 W)",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The blue LED (14.4 W)"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The PS starting material"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",
+     "loc": "Experimental\nSection > Materials ¶1",
+     "s": "PS (Mw ∼ 260 000; Mn ∼ 105 000)"
+    },
+    "products": {
+     "v": [],
+     "loc": "Table 1 r7 c7",
+     "s": "0%"
+    },
+    "solvent": {
+     "v": "ethyl acetate",
+     "loc": "Figure 2 caption",
+     "s": "2 mL of EtOAc"
+    },
+    "temperature_c": {
+     "v": 50,
+     "loc": "Figure 2 caption",
+     "s": "50 ± 3 °C (due to the heating from the LED)"
+    },
+    "time": {
+     "v": 16,
+     "loc": "Table 1 footnote",
+     "s": "16 h reaction"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": null,
+     "s": null
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "λmax ∼ 450 nm"
+    },
+    "yield_basis": {
+     "v": "product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC",
+     "loc": "Figure 2 caption",
+     "s": "The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 0,
+     "u": "%",
+     "loc": "Table 1 r7 c7",
+     "s": "0%"
+    }
+   },
+   "concerns": [
+    "Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance.",
+    "Control: N2 instead of O2 (entry 7); not discussed in text ¶3."
+   ]
+  },
+  {
+   "rid": "h",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Figure 2 caption",
+     "s": "O2 balloon"
+    },
+    "catalyst": {
+     "v": "fluorenone",
+     "loc": "Figure 2 caption",
+     "s": "0.2 equiv of fluorenone"
+    },
+    "catalyst_loading": {
+     "v": 20,
+     "loc": "Table 1 r5 c3",
+     "s": "A (20 mol %)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶3",
+     "s": "20 mol % loading"
+    },
+    "cocatalyst_additives": {
+     "v": "none (0 equiv H2SO4)",
+     "loc": "Table 1 r5 c4",
+     "s": "0 equiv"
+    },
+    "concentration": {
+     "v": 0.1,
+     "loc": "Table 1 r5 c2",
+     "s": "0.1 M"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Figure 2 caption",
+     "s": "0.1 M PS"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "blue LED strip (14.4 W)",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The blue LED (14.4 W)"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The PS starting material"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",
+     "loc": "Experimental\nSection > Materials ¶1",
+     "s": "PS (Mw ∼ 260 000; Mn ∼ 105 000)"
+    },
+    "products": {
+     "v": [],
+     "loc": "Table 1 r5 c7",
+     "s": "0%"
+    },
+    "solvent": {
+     "v": "ethyl acetate",
+     "loc": "Figure 2 caption",
+     "s": "2 mL of EtOAc"
+    },
+    "temperature_c": {
+     "v": 50,
+     "loc": "Figure 2 caption",
+     "s": "50 ± 3 °C (due to the heating from the LED)"
+    },
+    "time": {
+     "v": 16,
+     "loc": "Table 1 footnote",
+     "s": "16 h reaction"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": null,
+     "s": null
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "λmax ∼ 450 nm"
+    },
+    "yield_basis": {
+     "v": "product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC",
+     "loc": "Figure 2 caption",
+     "s": "The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 0,
+     "u": "%",
+     "loc": "Table 1 r5 c7",
+     "s": "0%"
+    }
+   },
+   "concerns": [
+    "Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance.",
+    "Control: no acid (entry 5)."
+   ]
+  },
+  {
+   "rid": "i",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Figure 2 caption",
+     "s": "O2 balloon"
+    },
+    "catalyst": {
+     "v": "fluorenone",
+     "loc": "Figure 2 caption",
+     "s": "0.2 equiv of fluorenone"
+    },
+    "catalyst_loading": {
+     "v": 5,
+     "loc": "Table 1 r3 c3",
+     "s": "A (5 mol %)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶3",
+     "s": "20 mol % loading"
+    },
+    "cocatalyst_additives": {
+     "v": "H2SO4 (1 equiv)",
+     "loc": "Figure 2 caption",
+     "s": "1 equiv of H2SO4"
+    },
+    "concentration": {
+     "v": 0.1,
+     "loc": "Table 1 r3 c2",
+     "s": "0.1 M"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Figure 2 caption",
+     "s": "0.1 M PS"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "blue LED strip (14.4 W)",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The blue LED (14.4 W)"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The PS starting material"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",
+     "loc": "Experimental\nSection > Materials ¶1",
+     "s": "PS (Mw ∼ 260 000; Mn ∼ 105 000)"
+    },
+    "products": {
+     "v": [
+      "benzoic acid"
+     ],
+     "loc": "Table 1 r3 c7",
+     "s": "benzoic acid"
+    },
+    "solvent": {
+     "v": "ethyl acetate",
+     "loc": "Figure 2 caption",
+     "s": "2 mL of EtOAc"
+    },
+    "temperature_c": {
+     "v": 50,
+     "loc": "Figure 2 caption",
+     "s": "50 ± 3 °C (due to the heating from the LED)"
+    },
+    "time": {
+     "v": 16,
+     "loc": "Table 1 footnote",
+     "s": "16 h reaction"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": null,
+     "s": null
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "λmax ∼ 450 nm"
+    },
+    "yield_basis": {
+     "v": "product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC",
+     "loc": "Figure 2 caption",
+     "s": "The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 21,
+     "u": "%",
+     "loc": "Table 1 r3 c7",
+     "s": "21% (31%)c"
+    }
+   },
+   "concerns": [
+    "Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance.",
+    "Tasks i and j share primary_loc Table 1 r3; I assigned i = 16 h (21%) and j = 48 h (31%, footnote c). Swap if intended otherwise.",
+    "No uncertainty given for this entry."
+   ]
+  },
+  {
+   "rid": "j",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Figure 2 caption",
+     "s": "O2 balloon"
+    },
+    "catalyst": {
+     "v": "fluorenone",
+     "loc": "Figure 2 caption",
+     "s": "0.2 equiv of fluorenone"
+    },
+    "catalyst_loading": {
+     "v": 5,
+     "loc": "Table 1 r3 c3",
+     "s": "A (5 mol %)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶3",
+     "s": "20 mol % loading"
+    },
+    "cocatalyst_additives": {
+     "v": "H2SO4 (1 equiv)",
+     "loc": "Figure 2 caption",
+     "s": "1 equiv of H2SO4"
+    },
+    "concentration": {
+     "v": 0.1,
+     "loc": "Table 1 r3 c2",
+     "s": "0.1 M"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Figure 2 caption",
+     "s": "0.1 M PS"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "blue LED strip (14.4 W)",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The blue LED (14.4 W)"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The PS starting material"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",
+     "loc": "Experimental\nSection > Materials ¶1",
+     "s": "PS (Mw ∼ 260 000; Mn ∼ 105 000)"
+    },
+    "products": {
+     "v": [
+      "benzoic acid"
+     ],
+     "loc": "Table 1 r3 c7",
+     "s": "benzoic acid"
+    },
+    "solvent": {
+     "v": "ethyl acetate",
+     "loc": "Figure 2 caption",
+     "s": "2 mL of EtOAc"
+    },
+    "temperature_c": {
+     "v": 50,
+     "loc": "Figure 2 caption",
+     "s": "50 ± 3 °C (due to the heating from the LED)"
+    },
+    "time": {
+     "v": 48,
+     "loc": "Table 1 footnote",
+     "s": "31% yield at 48 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": null,
+     "s": null
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "λmax ∼ 450 nm"
+    },
+    "yield_basis": {
+     "v": "product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC",
+     "loc": "Figure 2 caption",
+     "s": "The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 31,
+     "u": "%",
+     "loc": "Table 1 footnote",
+     "s": "31% yield at 48 h"
+    }
+   },
+   "concerns": [
+    "Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance.",
+    "48 h value of entry 3 (footnote c; also ¶3 'can still achieve 31% of benzoic acid at 48 h')."
+   ]
+  },
+  {
+   "rid": "k",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Figure 2 caption",
+     "s": "O2 balloon"
+    },
+    "catalyst": {
+     "v": "fluorenone",
+     "loc": "Figure 2 caption",
+     "s": "0.2 equiv of fluorenone"
+    },
+    "catalyst_loading": {
+     "v": 20,
+     "loc": "Table 1 r6 c3",
+     "s": "A (20 mol %)"
+    },
+    "catalyst_loading_unit": {
+     "v": "mol%",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶3",
+     "s": "20 mol % loading"
+    },
+    "cocatalyst_additives": {
+     "v": "H2SO4 (0.25 equiv)",
+     "loc": "Table 1 r6 c4",
+     "s": "0.25 equiv"
+    },
+    "concentration": {
+     "v": 0.1,
+     "loc": "Table 1 r6 c2",
+     "s": "0.1 M"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "Figure 2 caption",
+     "s": "0.1 M PS"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "blue LED strip (14.4 W)",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The blue LED (14.4 W)"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The PS starting material"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mw ~260 000, Mn ~105 000, PDI ~2.5",
+     "loc": "Experimental\nSection > Materials ¶1",
+     "s": "PS (Mw ∼ 260 000; Mn ∼ 105 000)"
+    },
+    "products": {
+     "v": [
+      "benzoic acid"
+     ],
+     "loc": "Table 1 r6 c7",
+     "s": "benzoic acid"
+    },
+    "solvent": {
+     "v": "ethyl acetate",
+     "loc": "Figure 2 caption",
+     "s": "2 mL of EtOAc"
+    },
+    "temperature_c": {
+     "v": 50,
+     "loc": "Figure 2 caption",
+     "s": "50 ± 3 °C (due to the heating from the LED)"
+    },
+    "time": {
+     "v": 16,
+     "loc": "Table 1 footnote",
+     "s": "16 h reaction"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": null,
+     "s": null
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "λmax ∼ 450 nm"
+    },
+    "yield_basis": {
+     "v": "product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC",
+     "loc": "Figure 2 caption",
+     "s": "The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 22,
+     "u": "%",
+     "loc": "Table 1 r6 c7",
+     "s": "22%"
+    }
+   },
+   "concerns": [
+    "Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance."
+   ]
+  },
+  {
+   "rid": "l",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Figure 3 caption",
+     "s": "O2 balloon"
+    },
+    "catalyst": {
+     "v": "fluorenone",
+     "loc": "Figure 3 caption",
+     "s": "0.2 equiv of fluorenone"
+    },
+    "catalyst_loading": {
+     "v": 0.2,
+     "loc": "Figure 3 caption",
+     "s": "0.2 equiv of fluorenone"
+    },
+    "catalyst_loading_unit": {
+     "v": "equiv",
+     "loc": "Figure 3 caption",
+     "s": "0.2 equiv"
+    },
+    "cocatalyst_additives": {
+     "v": "H2SO4 (1 equiv)",
+     "loc": "Figure 3 caption",
+     "s": "1 equiv of H2SO4"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "blue LED strip (14.4 W)",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The blue LED (14.4 W)"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The PS starting material"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mw ~260 000, Mn ~105 000 (gram scale, 1.04 g)",
+     "loc": "Experimental\nSection > Materials ¶1",
+     "s": "PS (Mw ∼ 260 000; Mn ∼ 105 000)"
+    },
+    "products": {
+     "v": [
+      "benzoic acid"
+     ],
+     "loc": "Results and Discussion > Gram-Scale\nDeconstruction of Pure PS and Real-World PS Foam ¶1",
+     "s": "36 ± 4% of benzoic acid"
+    },
+    "replicates": {
+     "v": 3,
+     "loc": "Figure 3 caption",
+     "s": "standard deviation of triplicate experiments"
+    },
+    "solvent": {
+     "v": "ethyl acetate",
+     "loc": "Figure 3 caption",
+     "s": "20 mL of EtOAc"
+    },
+    "temperature_c": {
+     "v": 50,
+     "loc": "Figure 3 caption",
+     "s": "50 ± 3 °C (due to LED irradiation)"
+    },
+    "time": {
+     "v": 64,
+     "loc": "Results and Discussion > Gram-Scale\nDeconstruction of Pure PS and Real-World PS Foam ¶1",
+     "s": "36 ± 4% of benzoic acid) at 64 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": null,
+     "s": null
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "λmax ∼ 450 nm"
+    },
+    "yield_basis": {
+     "v": "product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC",
+     "loc": "Figure 2 caption",
+     "s": "The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 36,
+     "u": "%",
+     "loc": "Results and Discussion > Gram-Scale\nDeconstruction of Pure PS and Real-World PS Foam ¶1",
+     "s": "36 ± 4% of benzoic acid",
+     "uncertainty": 4
+    }
+   },
+   "concerns": [
+    "Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance.",
+    "Wavelength: λmax ∼ 450 nm (¶1) but Mechanistic ¶1 says 'corresponding λmax = 466 nm, consistent with the LED emission spectrum'.",
+    "Gram scale: 10 mmol (1.04 g) PS in 20 mL EtOAc = 0.5 M repeat units (not 0.1 M); each tube individually in an LED roll (Photochemistry ¶2).",
+    "Figure 3 caption copies '~40% ... at 48 h are aromatic oligomers' from Figure 2 although gram-scale times are 64/72 h.",
+    "catalyst_loading as printed is 0.2 equiv (= 20 mol% vs styrene units).",
+    "Isolated benzoic acid yield 40% also reported for pure PS gram scale (same ¶); total identified aromatics 60 ± 2%."
+   ]
+  },
+  {
+   "rid": "m",
+   "values": {
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Figure 3 caption",
+     "s": "O2 balloon"
+    },
+    "catalyst": {
+     "v": "fluorenone",
+     "loc": "Figure 3 caption",
+     "s": "0.2 equiv of fluorenone"
+    },
+    "catalyst_loading": {
+     "v": 0.2,
+     "loc": "Figure 3 caption",
+     "s": "0.2 equiv of fluorenone"
+    },
+    "catalyst_loading_unit": {
+     "v": "equiv",
+     "loc": "Figure 3 caption",
+     "s": "0.2 equiv"
+    },
+    "cocatalyst_additives": {
+     "v": "H2SO4 (1 equiv)",
+     "loc": "Figure 3 caption",
+     "s": "1 equiv of H2SO4"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "blue LED strip (14.4 W)",
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "The blue LED (14.4 W)"
+    },
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and Discussion > Gram-Scale\nDeconstruction of Pure PS and Real-World PS Foam ¶1",
+     "s": "real-world PS foam"
+    },
+    "polymer_detail": {
+     "v": "real-world expanded PS packaging foam, Mw ~250 000, Mn ~59 000, PDI ~4.2",
+     "loc": "Results and Discussion > Gram-Scale\nDeconstruction of Pure PS and Real-World PS Foam ¶1",
+     "s": "expanded PS packaging foam; Mw ∼ 250 000, PDI ∼ 4.2"
+    },
+    "products": {
+     "v": [
+      "benzoic acid"
+     ],
+     "loc": "Results and Discussion > Gram-Scale\nDeconstruction of Pure PS and Real-World PS Foam ¶1",
+     "s": "36 ± 2% of benzoic acid"
+    },
+    "replicates": {
+     "v": 3,
+     "loc": "Figure 3 caption",
+     "s": "standard deviation of triplicate experiments"
+    },
+    "solvent": {
+     "v": "ethyl acetate",
+     "loc": "Figure 3 caption",
+     "s": "20 mL of EtOAc"
+    },
+    "temperature_c": {
+     "v": 50,
+     "loc": "Figure 3 caption",
+     "s": "50 ± 3 °C (due to LED irradiation)"
+    },
+    "time": {
+     "v": 72,
+     "loc": "Results and Discussion > Gram-Scale\nDeconstruction of Pure PS and Real-World PS Foam ¶1",
+     "s": "36 ± 2% of benzoic acid) at 72 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": null,
+     "s": null
+    },
+    "wavelength_nm": {
+     "v": 450,
+     "loc": "Results and Discussion > Photocatalytic Deconstruction\nof PS ¶1",
+     "s": "λmax ∼ 450 nm"
+    },
+    "yield_basis": {
+     "v": "product concentration / initial PS concentration as styrene repeat units (0.1 M); determined by 1H NMR and HPLC",
+     "loc": "Figure 2 caption",
+     "s": "The product yield is calculated by the product concentration divided by the initial concentration of the substrate (0.1 M)"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 36,
+     "u": "%",
+     "loc": "Results and Discussion > Gram-Scale\nDeconstruction of Pure PS and Real-World PS Foam ¶1",
+     "s": "36 ± 2% of benzoic acid",
+     "uncertainty": 2
+    }
+   },
+   "concerns": [
+    "Irradiance not reported; only electrical LED power 14.4 W (two vials per LED roll), which is not an irradiance.",
+    "Wavelength: λmax ∼ 450 nm (¶1) but Mechanistic ¶1 says 'corresponding λmax = 466 nm, consistent with the LED emission spectrum'.",
+    "Gram scale: 10 mmol (1.04 g) PS in 20 mL EtOAc = 0.5 M repeat units (not 0.1 M); each tube individually in an LED roll (Photochemistry ¶2).",
+    "Figure 3 caption copies '~40% ... at 48 h are aromatic oligomers' from Figure 2 although gram-scale times are 64/72 h.",
+    "catalyst_loading as printed is 0.2 equiv (= 20 mol% vs styrene units).",
+    "Isolated benzoic acid yield 38% for PS foam (same ¶); total identified aromatics 60 ± 4%.",
+    "Mn ~59 000 from Materials ¶1."
+   ]
+  }
+ ],
+ "paper_concerns": [
+  "Other products with numbers not covered by any task: ethyl benzoate (~10%), acetophenone (~6%), benzaldehyde (~1%), total identified aromatics ~60% at 48 h (¶2); CO 21% and CO2 7.5% at 16 h (¶2); 34% benzoic acid with recycled catalyst after 24 h (¶2); 30 ± 2% at 16 h is also in ¶2.",
+  "Mw after 16 h given only as a range ('between 100 and 200') -> not recordable.",
+  "Table 1 entries 9-14 use catalysts B-G identified only by letter (structures presumably in a figure/SI) -> excluded; entry 15 is NHPI (H) + carbon nitride, 0 equiv H2SO4, 5.5% (text names NHPI) and could be a record; footnote d says 10 mg carbon nitride but Photochemistry ¶3 says 5.0 mg NCN-CNx.",
+  "Entry 4 (no PS) is a blank, not a polymer record.",
+  "Temperature 50 °C is LED heating, not controlled.",
+  "Catalyst loading stated two ways: 20 mol % (Table 1/¶3) and 0.2 equiv (Figure 2/3 captions)."
+ ]
+}

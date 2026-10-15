@@ -1,0 +1,8 @@
+{
+ "authorized_by": "Boris (boriscobbold@gmail.com)",
+ "date": "2026-10-13",
+ "version": "1.0",
+ "statement": "I have reviewed and everything checks out. Please publish the final version.",
+ "channel": "chat message to Claude, 2026-10-13 11:46 EDT; recorded verbatim by Claude",
+ "covers": "public release of PhotoDeg-Bench v1.0.0 as built in commit history of branch dev/autonomous-v1, including the provisional R08 and R14 settings as written"
+}

@@ -1,0 +1,192 @@
+{
+ "pmcid": "PMC10557129",
+ "doi": "10.1021/jacs.3c05632",
+ "tasks": [
+  {
+   "rid": "a",
+   "primary_loc": "body \u00b64",
+   "polymer_anchor": "poly(benzyl methacrylate)",
+   "is_control": false,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "concentration",
+    "concentration_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzyl methacrylate"
+   ]
+  },
+  {
+   "rid": "b",
+   "primary_loc": "body \u00b64",
+   "polymer_anchor": "poly(benzyl methacrylate)",
+   "is_control": true,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "concentration",
+    "concentration_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "temperature_c",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzyl methacrylate"
+   ]
+  },
+  {
+   "rid": "c",
+   "primary_loc": "body \u00b64",
+   "polymer_anchor": "poly(benzyl methacrylate)",
+   "is_control": true,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "concentration",
+    "concentration_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "temperature_c",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzyl methacrylate"
+   ]
+  },
+  {
+   "rid": "d",
+   "primary_loc": "body \u00b64",
+   "polymer_anchor": "poly(benzyl methacrylate)",
+   "is_control": false,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "concentration",
+    "concentration_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "temperature_c",
+    "time",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzyl methacrylate"
+   ]
+  },
+  {
+   "rid": "e",
+   "primary_loc": "body \u00b65",
+   "polymer_anchor": "poly(benzyl methacrylate)",
+   "is_control": true,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "concentration",
+    "concentration_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "temperature_c",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzyl methacrylate"
+   ]
+  },
+  {
+   "rid": "f",
+   "primary_loc": "body \u00b65",
+   "polymer_anchor": "poly(benzyl methacrylate)",
+   "is_control": false,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "concentration",
+    "concentration_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "temperature_c",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzyl methacrylate"
+   ]
+  },
+  {
+   "rid": "g",
+   "primary_loc": "body \u00b67",
+   "polymer_anchor": "poly(benzyl methacrylate)",
+   "is_control": false,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "concentration",
+    "concentration_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "temperature_c",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzyl methacrylate"
+   ]
+  },
+  {
+   "rid": "h",
+   "primary_loc": "body \u00b67",
+   "polymer_anchor": "poly(benzyl methacrylate)",
+   "is_control": true,
+   "report_fields": [
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "concentration",
+    "concentration_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "temperature_c",
+    "time_unit",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzyl methacrylate"
+   ]
+  }
+ ]
+}

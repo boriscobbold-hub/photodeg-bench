@@ -1,0 +1,618 @@
+{
+ "paper_key": "PMC12056016",
+ "paper_id": "10.1038/s41467-025-59540-5",
+ "doi": "10.1038/s41467-025-59540-5",
+ "pmcid": "PMC12056016",
+ "source_license": "cc by-nc-nd",
+ "extractor": "Claude (AI) extraction agent C, 2026-10-12",
+ "extraction_method": "text",
+ "screen": {
+  "decision": "include",
+  "criteria": "E1-E6 pass",
+  "confidence": "high",
+  "rationale": "Primary study; PTH-3CN organophotocatalysis under 405 nm LED in air deconstructs PS, PMMA, PET and other plastics; text reports isolated/NMR yields of named products (benzoic acid, formic acid, terephthalic acid) and PMMA Mw before/after.",
+  "evidence_loc": "Results > Mechanistic hypothesis and reaction optimizations ¶3"
+ },
+ "shared": {
+  "catalyst": {
+   "v": "PTH-3CN (phenothiazine derivative; precatalyst)",
+   "loc": "abstract",
+   "s": "phenothiazine derivative, PTH-3CN"
+  },
+  "catalyst_loading_unit": {
+   "v": "mol%",
+   "inferred": "unit printed with the value; per repeat unit"
+  },
+  "light_source": {
+   "v": "50 W 405 nm LED",
+   "loc": "Methods > General procedure for performing the photocatalytic upcycling of PS ¶1",
+   "s": "irradiated with a 50 W 405 nm LED light"
+  },
+  "wavelength_nm": {
+   "v": 405,
+   "loc": "Methods > General procedure for performing the photocatalytic upcycling of PS ¶1",
+   "s": "50 W 405 nm LED light"
+  },
+  "light_color": {
+   "v": "violet",
+   "inferred": "405 nm lies in the violet band (380-450 nm)"
+  },
+  "irradiance": {
+   "v": 0.4,
+   "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶3",
+   "s": "405 nm LED (0.4 W/cm2)"
+  },
+  "irradiance_unit": {
+   "v": "W/cm2",
+   "inferred": "unit printed with the value"
+  },
+  "solvent": {
+   "v": "chlorobenzene/acetonitrile",
+   "loc": "Methods > General procedure for performing the photocatalytic upcycling of PS ¶1",
+   "s": "chlorobenzene (0.50 mL)"
+  },
+  "atmosphere": {
+   "v": "air",
+   "loc": "Methods > General procedure for performing the photocatalytic upcycling of PS ¶1",
+   "s": "sparging with a gentle flow of air"
+  },
+  "time_unit": {
+   "v": "h",
+   "inferred": "unit printed with the value"
+  }
+ },
+ "records": [
+  {
+   "rid": "a",
+   "primary_loc": "Results > Mechanistic hypothesis and reaction optimizations ¶3",
+   "fields": {
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶2",
+     "s": "polystyrene PS1"
+    },
+    "polymer_class": {
+     "v": "vinyl_styrenic",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "PS1, commercial PS, Mw = 350 kDa, Đ = 2.06; 0.10 g",
+     "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶2",
+     "s": "Mw = 350 kDa, Đ = 2.06"
+    },
+    "catalyst_loading": {
+     "v": 0.05,
+     "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶3",
+     "s": "minimized to 0.05 mol%"
+    },
+    "concentration": null,
+    "concentration_unit": null,
+    "time": {
+     "v": 20,
+     "loc": "Methods > General procedure for performing the photocatalytic upcycling of PS ¶1",
+     "s": "photochemical reactor for 20 h"
+    },
+    "products": {
+     "v": "benzoic acid; formic acid",
+     "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶3",
+     "s": "formic acid (27% NMR yield)"
+    },
+    "yield_basis": {
+     "v": "isolated (benzoic acid); formic acid by NMR per the same paragraph",
+     "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶3",
+     "s": "50% isolated yield of BA"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 50,
+      "u": "%",
+      "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶3",
+      "s": "50% isolated yield of BA",
+      "name_loc": "Results > Mechanistic hypothesis and reaction optimizations ¶1",
+      "name_s": "benzoic acid (BA)"
+     },
+     {
+      "product": "formic acid",
+      "v": 27,
+      "u": "%",
+      "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶3",
+      "s": "formic acid (27% NMR yield)",
+      "name_loc": "Results > Mechanistic hypothesis and reaction optimizations ¶3",
+      "name_s": "formic acid"
+     }
+    ]
+   },
+   "notes": "Optimized conditions (0.05 mol% PTH-3CN, ambient air, 405 nm LED 0.4 W/cm2); reaction time from the PS general procedure (20 h). Temperature not reported. [adjudicated concentration: blind correct] [adjudicated concentration_unit: follow-on] [adjudicated yield_basis: located]"
+  },
+  {
+   "rid": "b",
+   "primary_loc": "Results > Mechanistic investigations ¶2",
+   "fields": {
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results > Mechanistic investigations ¶2",
+     "s": "0.10 g of PS1"
+    },
+    "polymer_class": {
+     "v": "vinyl_styrenic",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "PS1 (0.10 g), added in situ to pre-irradiated catalyst solution",
+     "loc": "Results > Mechanistic investigations ¶2",
+     "s": "0.10 g of PS1 was then added in situ"
+    },
+    "catalyst": {
+     "v": "PTH-3CN pre-irradiated 8 h without PS under standard conditions (decomposed to triarylamine species)",
+     "loc": "Results > Mechanistic investigations ¶2",
+     "s": "we first irradiated 0.05 mol% PTH-3CN alone, without PS, under standard conditions for 8 h"
+    },
+    "catalyst_loading": {
+     "v": 0.05,
+     "loc": "Results > Mechanistic investigations ¶2",
+     "s": "0.05 mol% PTH-3CN alone"
+    },
+    "time": {
+     "v": 12,
+     "loc": "Results > Mechanistic investigations ¶2",
+     "s": "irradiated for an additional 12 h"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Results > Mechanistic investigations ¶2",
+     "s": "a 42% yield of BA"
+    },
+    "yield_basis": {
+     "v": "not stated (yield of BA)",
+     "inferred": "text gives '42% yield of BA' without stating isolated/HPLC basis"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 42,
+      "u": "%",
+      "loc": "Results > Mechanistic investigations ¶2",
+      "s": "a 42% yield of BA",
+      "name_loc": "Results > Mechanistic hypothesis and reaction optimizations ¶1",
+      "name_s": "benzoic acid (BA)"
+     }
+    ]
+   },
+   "notes": "Mechanistic experiment: time is the irradiation after PS addition (12 h), following 8 h catalyst pre-irradiation. Atmosphere taken as standard conditions (air)."
+  },
+  {
+   "rid": "c",
+   "primary_loc": "Results > Mechanistic hypothesis and reaction optimizations ¶2",
+   "fields": {
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶2",
+     "s": "polystyrene PS1"
+    },
+    "polymer_class": {
+     "v": "vinyl_styrenic",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "PS1 (ca. 50 mg), Mw = 350 kDa, Đ = 2.06",
+     "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶2",
+     "s": "PS1 (ca. 50 mg, Mw = 350 kDa, Đ = 2.06)"
+    },
+    "catalyst": {
+     "v": "phenothiazine (PTH)",
+     "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶2",
+     "s": "in the presence of phenothiazine (PTH)"
+    },
+    "catalyst_loading": null,
+    "catalyst_loading_unit": null,
+    "light_source": {
+     "v": "390 nm LED",
+     "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶2",
+     "s": "under 390 nm LED irradiation"
+    },
+    "wavelength_nm": {
+     "v": 390,
+     "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶2",
+     "s": "under 390 nm LED irradiation"
+    },
+    "light_color": {
+     "v": "violet",
+     "inferred": "390 nm lies in the violet band (380-450 nm)"
+    },
+    "irradiance": null,
+    "irradiance_unit": null,
+    "solvent": null,
+    "atmosphere": {
+     "v": "O2",
+     "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶2",
+     "s": "in an oxygen atmosphere"
+    },
+    "products": {
+     "v": "benzoic acid; acetophenone",
+     "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶2",
+     "s": "converted into benzoic acid (44%) and acetophenone (1.1%)"
+    },
+    "yield_basis": {
+     "v": "HPLC yield",
+     "loc": "Fig. 2 caption",
+     "s": "The yield was determined by HPLC analysis"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 44,
+      "u": "%",
+      "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶2",
+      "s": "benzoic acid (44%)",
+      "name_loc": "Results > Mechanistic hypothesis and reaction optimizations ¶2",
+      "name_s": "benzoic acid"
+     },
+     {
+      "product": "acetophenone",
+      "v": 1.1,
+      "u": "%",
+      "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶2",
+      "s": "acetophenone (1.1%)",
+      "name_loc": "Results > Mechanistic hypothesis and reaction optimizations ¶2",
+      "name_s": "acetophenone"
+     }
+    ]
+   },
+   "notes": "Initial conditions (Fig. 2B). Catalyst loading, solvent and reaction time are shown only in the figure and are not recorded; record has no time field."
+  },
+  {
+   "rid": "d",
+   "primary_loc": "Results > Applications to diverse polymer types ¶2",
+   "fields": {
+    "polymer": {
+     "v": "poly(methyl methacrylate)",
+     "loc": "Results > Applications to diverse polymer types ¶2",
+     "s": "a test tube rack, PMMA1"
+    },
+    "polymer_class": {
+     "v": "vinyl_methacrylate",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "PMMA1, post-consumer test tube rack, Mw = 696 kDa, Đ = 3.11",
+     "loc": "Results > Applications to diverse polymer types ¶2",
+     "s": "PMMA1 (Mw = 696 kDa, Đ = 3.11)"
+    },
+    "catalyst_loading": {
+     "v": 500,
+     "loc": "Results > Applications to diverse polymer types ¶2",
+     "s": "only 500 ppm PTH-3CN"
+    },
+    "mw_before": {
+     "v": 696,
+     "loc": "Results > Applications to diverse polymer types ¶2",
+     "s": "Mw = 696 kDa"
+    },
+    "disp_before": {
+     "v": 3.11,
+     "loc": "Results > Applications to diverse polymer types ¶2",
+     "s": "Đ = 3.11"
+    },
+    "mw_after": {
+     "v": 2,
+     "loc": "Results > Applications to diverse polymer types ¶2",
+     "s": "(Mw ≈ 2 kDa)"
+    },
+    "mass_unit_before": {
+     "v": "kDa",
+     "loc": "Results > Applications to diverse polymer types ¶2",
+     "s": "Mw = 696 kDa"
+    },
+    "mass_unit_after": {
+     "v": "kDa",
+     "loc": "Results > Applications to diverse polymer types ¶2",
+     "s": "(Mw ≈ 2 kDa)"
+    },
+    "sec_calibration": {
+     "v": "not_reported",
+     "inferred": "GPC traces shown (Fig. 5C) but no calibration, eluent or detector stated in the main text"
+    },
+    "wavelength_nm": null,
+    "solvent": null,
+    "atmosphere": null,
+    "light_source": null,
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_color": null,
+    "concentration": null,
+    "concentration_unit": null,
+    "catalyst_loading_unit": {
+     "v": "ppm",
+     "inferred": "unit printed with the value"
+    }
+   },
+   "notes": "Mw after is approximate ('≈ 2 kDa', oxidized oligomers), stated jointly for PMMA1 and PMMA2. Reaction time not stated in text; record has no time field. Temperature not reported. [adjudicated wavelength_nm: blind correct] [adjudicated solvent: blind correct] [adjudicated atmosphere: blind correct] [adjudicated light_source: blind correct] [adjudicated irradiance: blind correct] [adjudicated irradiance_unit: blind correct] [adjudicated light_color: blind correct] [adjudicated concentration: blind correct] [adjudicated concentration_unit: blind correct] [adjudicated catalyst_loading: blind correct] [adjudicated catalyst_loading_unit: blind correct]"
+  },
+  {
+   "rid": "e",
+   "primary_loc": "Results > Applications to diverse polymer types ¶2",
+   "fields": {
+    "polymer": {
+     "v": "poly(methyl methacrylate)",
+     "loc": "Results > Applications to diverse polymer types ¶2",
+     "s": "a commercially available material, PMMA2"
+    },
+    "polymer_class": {
+     "v": "vinyl_methacrylate",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "PMMA2, commercial, Mw = 97.7 kDa, Đ = 1.69",
+     "loc": "Results > Applications to diverse polymer types ¶2",
+     "s": "PMMA2 (Mw = 97.7 kDa, Đ = 1.69)"
+    },
+    "catalyst_loading": {
+     "v": 500,
+     "loc": "Results > Applications to diverse polymer types ¶2",
+     "s": "only 500 ppm PTH-3CN"
+    },
+    "mw_before": {
+     "v": 97.7,
+     "loc": "Results > Applications to diverse polymer types ¶2",
+     "s": "Mw = 97.7 kDa"
+    },
+    "disp_before": {
+     "v": 1.69,
+     "loc": "Results > Applications to diverse polymer types ¶2",
+     "s": "Đ = 1.69"
+    },
+    "mw_after": {
+     "v": 2,
+     "loc": "Results > Applications to diverse polymer types ¶2",
+     "s": "(Mw ≈ 2 kDa)"
+    },
+    "mass_unit_before": {
+     "v": "kDa",
+     "loc": "Results > Applications to diverse polymer types ¶2",
+     "s": "Mw = 97.7 kDa"
+    },
+    "mass_unit_after": {
+     "v": "kDa",
+     "loc": "Results > Applications to diverse polymer types ¶2",
+     "s": "(Mw ≈ 2 kDa)"
+    },
+    "sec_calibration": {
+     "v": "not_reported",
+     "inferred": "GPC traces shown (Fig. 5C) but no calibration, eluent or detector stated in the main text"
+    },
+    "wavelength_nm": null,
+    "solvent": null,
+    "atmosphere": null,
+    "light_source": null,
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_color": null,
+    "concentration": null,
+    "concentration_unit": null,
+    "catalyst_loading_unit": {
+     "v": "ppm",
+     "inferred": "unit printed with the value"
+    }
+   },
+   "notes": "Mw after is approximate ('≈ 2 kDa', oxidized oligomers), stated jointly for PMMA1 and PMMA2. Reaction time not stated in text; record has no time field. Temperature not reported. [adjudicated wavelength_nm: blind correct] [adjudicated solvent: blind correct] [adjudicated atmosphere: blind correct] [adjudicated light_source: blind correct] [adjudicated irradiance: blind correct] [adjudicated irradiance_unit: blind correct] [adjudicated light_color: blind correct] [adjudicated concentration: blind correct] [adjudicated concentration_unit: blind correct] [adjudicated catalyst_loading: blind correct] [adjudicated catalyst_loading_unit: blind correct]"
+  },
+  {
+   "rid": "f",
+   "primary_loc": "Results > Applications to diverse polymer types ¶5",
+   "fields": {
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results > Applications to diverse polymer types ¶5",
+     "s": "PS was selectively upcycled"
+    },
+    "polymer_class": {
+     "v": "vinyl_styrenic",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "post-consumer PS in a mixture with PP, LDPE, PET and PVC (selective PS upcycling)",
+     "loc": "Results > Applications to diverse polymer types ¶5",
+     "s": "In the presence of PP, LDPE, PET, and PVC, PS was selectively upcycled"
+    },
+    "catalyst_loading": {
+     "v": 0.05,
+     "loc": "Results > Applications to diverse polymer types ¶5",
+     "s": "with 0.05 mol% PTH-3CN"
+    },
+    "solvent": {
+     "v": "chlorobenzene/acetonitrile (1/1, 1.8 mL)",
+     "loc": "Fig. 7 caption",
+     "s": "b0.05 mol% PTH-3CN, PhCl/MeCN (1/1, 1.8 mL), 20 h"
+    },
+    "time": {
+     "v": 20,
+     "loc": "Results > Applications to diverse polymer types ¶5",
+     "s": "in 20 h"
+    },
+    "products": {
+     "v": "benzoic acid; formic acid",
+     "loc": "Results > Applications to diverse polymer types ¶5",
+     "s": "producing 43% isolated yield of BA and 26% FA"
+    },
+    "yield_basis": {
+     "v": "1H NMR per repeat unit unless otherwise noted (benzoic acid isolated per text)",
+     "loc": "Fig. 7 caption",
+     "s": "Yields were determined by 1H NMR analysis and based on repeat unit unless otherwise noted"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "v": 43,
+      "u": "%",
+      "loc": "Results > Applications to diverse polymer types ¶5",
+      "s": "43% isolated yield of BA",
+      "name_loc": "Results > Mechanistic hypothesis and reaction optimizations ¶1",
+      "name_s": "benzoic acid (BA)"
+     },
+     {
+      "product": "formic acid",
+      "v": 26,
+      "u": "%",
+      "loc": "Results > Applications to diverse polymer types ¶5",
+      "s": "26% FA",
+      "name_loc": "Results > Applications to diverse polymer types ¶3",
+      "name_s": "formic acid (FA)"
+     }
+    ],
+    "light_source": {
+     "v": "50 W 405 nm LED",
+     "loc": "Methods > General procedure for conducting the photocatalytic upcycling of polymers shown in Figs. 6 and 7 ¶1",
+     "s": "irradiated with a 50 W 405 nm LED light"
+    },
+    "wavelength_nm": {
+     "v": 405,
+     "loc": "Methods > General procedure for conducting the photocatalytic upcycling of polymers shown in Figs. 6 and 7 ¶1",
+     "s": "50 W 405 nm LED light"
+    },
+    "atmosphere": {
+     "v": "air",
+     "loc": "Methods > General procedure for conducting the photocatalytic upcycling of polymers shown in Figs. 6 and 7 ¶1",
+     "s": "sparging with a gentle flow of air"
+    }
+   },
+   "notes": "Other plastics remained intact except PVC dissolved. Solvent volume from Fig. 7 footnote b, the only footnote matching 0.05 mol% / 20 h. [adjudicated yield_basis: located] [adjudicated light_source: audit correct] [adjudicated wavelength_nm: audit correct] [adjudicated atmosphere: audit correct]"
+  },
+  {
+   "rid": "g",
+   "primary_loc": "Results > Applications to diverse polymer types ¶4",
+   "fields": {
+    "polymer": {
+     "v": "poly(ethylene terephthalate)",
+     "loc": "Results > Applications to diverse polymer types ¶4",
+     "s": "A single-use PET bottle"
+    },
+    "polymer_class": {
+     "v": "polyester",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "post-consumer single-use PET bottle",
+     "loc": "Results > Applications to diverse polymer types ¶4",
+     "s": "A single-use PET bottle"
+    },
+    "solvent": {
+     "v": "HFIP as co-solvent (with chlorobenzene/acetonitrile)",
+     "loc": "Results > Applications to diverse polymer types ¶4",
+     "s": "using HFIP as a co-solvent"
+    },
+    "products": {
+     "v": "terephthalic acid",
+     "loc": "Results > Applications to diverse polymer types ¶4",
+     "s": "terephthalic acid (2c)"
+    },
+    "yield_basis": {
+     "v": "isolated yield",
+     "loc": "Results > Applications to diverse polymer types ¶4",
+     "s": "93% isolated yield"
+    },
+    "product_yields": [
+     {
+      "product": "terephthalic acid",
+      "v": 93,
+      "u": "%",
+      "loc": "Results > Applications to diverse polymer types ¶4",
+      "s": "93% isolated yield",
+      "name_loc": "Results > Applications to diverse polymer types ¶4",
+      "name_s": "terephthalic acid (2c)"
+     }
+    ],
+    "irradiance": null,
+    "irradiance_unit": null,
+    "light_source": {
+     "v": "50 W 405 nm LED",
+     "loc": "Methods > General procedure for conducting the photocatalytic upcycling of polymers shown in Figs. 6 and 7 ¶1",
+     "s": "irradiated with a 50 W 405 nm LED light"
+    },
+    "wavelength_nm": {
+     "v": 405,
+     "loc": "Methods > General procedure for conducting the photocatalytic upcycling of polymers shown in Figs. 6 and 7 ¶1",
+     "s": "50 W 405 nm LED light"
+    },
+    "atmosphere": {
+     "v": "air",
+     "loc": "Methods > General procedure for conducting the photocatalytic upcycling of polymers shown in Figs. 6 and 7 ¶1",
+     "s": "sparging with a gentle flow of air"
+    }
+   },
+   "notes": "Catalyst loading and reaction time are in Fig. 6 footnotes whose assignment to PET is shown only in the figure (two HFIP footnotes: h = 5.0 mol%, 36 h; j = 5.0 wt%, 48 h); neither recorded. Record has no time field. [adjudicated irradiance: audit correct] [adjudicated irradiance_unit: follow-on] [adjudicated light_source: audit correct] [adjudicated wavelength_nm: audit correct] [adjudicated atmosphere: audit correct]"
+  }
+ ],
+ "excluded_observations": [
+  {
+   "what": "PTH-CN at 0.5 mol%: 34% BA",
+   "why": "Completeness pass 2026-10-12: kept excluded. ¶3 gives catalyst, loading and 34% BA but not the wavelength, atmosphere or time (Fig. 2D only); 'longer irradiation wavelength' is unspecified.",
+   "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶3"
+  },
+  {
+   "what": "PTH-CN / PTH-3CN screening yields (≥50%)",
+   "why": "Bound, not a value; per-catalyst values in figure/SI.",
+   "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶2"
+  },
+  {
+   "what": "CO2 accounting for 15% of PS carbon",
+   "why": "Estimate from SI figure; CO2 not a v1.0 endpoint.",
+   "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶3"
+  },
+  {
+   "what": "Control experiments (no PS, light, air or PTH-3CN)",
+   "why": "Values only in Supplementary Table S5; text qualitative.",
+   "loc": "Results > Mechanistic hypothesis and reaction optimizations ¶3"
+  },
+  {
+   "what": "PS2, PS3, HIPS, sPS, PS4, SAN, ABS and post-consumer PS (PS5) BA yields",
+   "why": "Values only in Fig. 2E and Fig. 3A.",
+   "loc": "Results > Practical upcycling of PS and product functionalization ¶1"
+  },
+  {
+   "what": "10-g Styrofoam scale-up: 'over 4.0 g of BA' (batch and flow)",
+   "why": "Lower bound, not a value; conditions in figure.",
+   "loc": "Results > Practical upcycling of PS and product functionalization ¶1"
+  },
+  {
+   "what": "TCPA and TCPBA (500 ppm) giving 43% and 46% BA",
+   "why": "Completeness pass 2026-10-12: kept excluded. Paragraph gives polymer (PS1), loading (500 ppm) and yield, but no reaction time, atmosphere, solvent or light for these runs (only in Fig. 4C); TCPA/TCPBA structures only in the figure.",
+   "loc": "Results > Mechanistic investigations ¶2"
+  },
+  {
+   "what": "Poly(4-tert-butylstyrene) and poly(4-acetylstyrene) product yields",
+   "why": "Values only in Fig. 5A/5B.",
+   "loc": "Results > Applications to diverse polymer types ¶1"
+  },
+  {
+   "what": "Ac-PS 94% degree of functionalization",
+   "why": "Friedel-Crafts pre-functionalization, not a deconstruction endpoint.",
+   "loc": "Results > Applications to diverse polymer types ¶1"
+  },
+  {
+   "what": "PMMA formic and acetic acid ('minor formation')",
+   "why": "Qualitative in text; values in SI.",
+   "loc": "Results > Applications to diverse polymer types ¶2"
+  },
+  {
+   "what": "PP, LDPE, HDPE, PVC, PVAc, PMMA, PMA, PU, rubber, epoxy formic/acetic acid yields",
+   "why": "Values only in Fig. 6; text qualitative.",
+   "loc": "Results > Applications to diverse polymer types ¶3"
+  },
+  {
+   "what": "Polycarbonate: hydroxybenzoic acid + BPA, 2:1, combined 69%",
+   "why": "Yield refers to a product mixture (combined), not a single named product.",
+   "loc": "Results > Applications to diverse polymer types ¶4"
+  },
+  {
+   "what": "Mixed-plastic global degradation (PP/LDPE/HDPE/PS/PVAc, PP/LDPE/HDPE/PS/PU) and gram-scale run",
+   "why": "Values only in Fig. 7.",
+   "loc": "Results > Applications to diverse polymer types ¶5"
+  },
+  {
+   "what": "Tandem functionalization yields of crude BA (1a-1e)",
+   "why": "Downstream small-molecule chemistry, not polymer deconstruction; values in figure.",
+   "loc": "Results > Practical upcycling of PS and product functionalization ¶2"
+  }
+ ]
+}

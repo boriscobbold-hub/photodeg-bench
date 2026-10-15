@@ -1,75 +1,60 @@
-> **Status: DRAFT, pre-release, handed to curator.** v1.0.0 not yet released. Corpus fetched 2026-10-12 (691 open-access papers, 267 with full text, 154 of those on topic); 0 records curated; harmonization rules unset. See [docs/HANDOFF.md](docs/HANDOFF.md). DOI: [DOI: added after the Zenodo deposit].
+> **Status: v1.0.0, released 2026-10-14 with the author's authorization.** Scientific readiness is machine-checked (see [docs/RELEASE_READINESS.md](docs/RELEASE_READINESS.md)). DOI: pending the Zenodo archive of this release.
 
 # PhotoDeg-Bench
 
-An open, harmonized benchmark of **visible-light polymer deconstruction**: what polymer went in, how big it was before and after (and how that was measured), what catalyst and light did it, in what solvent, for how long, and what came out.
+An open, harmonized benchmark of **visible-light photochemical polymer deconstruction**: which polymer, how its molar mass changed (and how that was measured), which catalyst and light, in what solvent, for how long, and what it turned into.
+
+**v1.0 in numbers:** 87 source-checked records (29 with molar mass before and after, 75 with product yields, 19 controls) from 10 open-access papers, selected from 691 papers found in Europe PMC and OpenAlex.
 
 ## Why
 
-Photochemical routes to break down plastics are reported in incompatible ways. One paper gives M<sub>n</sub> from SEC against polystyrene standards, the next gives M<sub>w</sub> from light scattering, a third gives only a product yield; light is "blue LEDs" in one and "456 nm, 40 W" in another. Without a common basis it is hard to say which route actually deconstructs more polymer per hour of light, and that gap slows the scale-up choices that upcycling programs, including DOE-funded ones, have to make. PhotoDeg-Bench records each experiment as reported, then applies published, versioned harmonization rules so records can be compared on a stated basis, with a comparability tier telling users how far to trust each comparison.
+Photochemical routes to break down plastics are reported in incompatible ways. One paper gives M<sub>n</sub> from SEC against polystyrene standards, the next gives M<sub>w</sub> with no calibration stated, a third gives only a benzoic acid yield; light is "blue LEDs" in one and "456 nm, 40 W" in another. PhotoDeg-Bench records each experiment as reported, with a pointer to where each value sits in the source, then applies published harmonization rules and labels how comparable each record is. The aim is a common yardstick for comparing routes, including for upcycling programs deciding what to scale.
+
+## How v1.0 was curated: read this first
+
+**v1.0 was curated by an AI system (Claude), not by a human expert reading each paper.** The author delegated screening, extraction and harmonization decisions to an automated, auditable workflow:
+
+1. **Screening.** All 602 candidate papers were screened against written eligibility criteria ([docs/ELIGIBILITY.md](docs/ELIGIBILITY.md)), with a code, rationale and confidence for each ([data/curated/screening_log.csv](data/curated/screening_log.csv)). An independent audit found title-level miscodes; every paper mentioning a synthetic polymer or plastic was then re-screened on its abstract.
+2. **Extraction.** Every measured value and stated condition is recorded with its locator (table cell, paragraph, caption) and the literal source string it was read from. A short list of fields (polymer class, units printed with the value, colour band, and statements that a paper gives no calibration or yield basis) is filled without a locator, each with a published reason ([docs/EXTRACTION_PROTOCOL.md](docs/EXTRACTION_PROTOCOL.md)).
+3. **Deterministic verification.** A script re-parses each article and checks that every source string occurs at its locator and that the number matches: 1792 fields, results matched 1411, inferred 381.
+4. **Independent blind re-extraction.** Separate agents, without seeing the first extraction, re-read every article for every record. Disagreements (agree 1241, disagree 184, blind_null 97, blind_missing 36) were adjudicated against the source text and logged (58 adjudications, 0 unresolved). Agreement between two AI passes is never treated as verification on its own.
+5. **Harmonization.** Fifteen documented rules ([rules/harmonization.yaml](rules/harmonization.yaml), [docs/HARMONIZATION_REPORT.md](docs/HARMONIZATION_REPORT.md)); two scope/legal rules are escalated to the author.
+
+Details, including what this method can and cannot guarantee: [docs/METHODS_AUTOMATED_CURATION.md](docs/METHODS_AUTOMATED_CURATION.md).
 
 ## What is in a record
 
-One record = one polymer sample × one condition set × one reported timepoint in one source paper. Fields: polymer and class; M<sub>n</sub>/M<sub>w</sub>/M<sub>p</sub>/Đ before and after as reported; SEC calibration, detector, eluent and temperature; catalyst and loading; light source, wavelength or band, irradiance; solvent, concentration, atmosphere, temperature; time; products with yields and their basis; the source DOI, license and a locator (table/figure/section) pointing at the value. Harmonized columns (suffix `_h`, plus `retained_fraction`, `scissions_per_chain`, `wavelength_band`, `time_h`, `tier`) are computed by `code/04_harmonize.py` from `rules/harmonization.yaml`. Every column is defined in [docs/CODEBOOK.md](docs/CODEBOOK.md).
+One record = one polymer sample × one condition set × one reported time point in one paper. As-reported fields (polymer, M<sub>n</sub>/M<sub>w</sub>/M<sub>p</sub>/Đ before and after, SEC calibration/detector/eluent, catalyst and loading, light source/wavelength/colour/power, solvent, concentration, atmosphere, temperature, time, products and yields with their basis) plus harmonized fields (molar masses in kg/mol, retained fraction, wavelength band, thermal regime, time in hours, comparability tiers) and QA flags. Every column: [docs/CODEBOOK.md](docs/CODEBOOK.md). Controlled vocabularies: [docs/VOCABULARIES.md](docs/VOCABULARIES.md).
 
-## Who decides what
-
-The harmonization rules are written by the curator from SEC practice, and every record is entered or confirmed by the curator against its source (`checked_against_source = y` is enforced). Code proposes candidate values from open-access full text and executes the rules; it does not choose rules or write release records. See [docs/CURATION_GUIDE.md](docs/CURATION_GUIDE.md).
-
-## How to run
-
-Python 3.10+.
-
-```bash
-pip install -r requirements.txt
-export PHOTODEG_EMAIL=you@example.org     # polite-pool contact for OpenAlex and Europe PMC
-
-python code/01_fetch.py          # corpus from Europe PMC + OpenAlex, OA JATS full text, PROVENANCE.txt
-#  -> curator screens papers in data/curated/screening.csv (include = y/n, reason)
-python code/02_extract.py --all-screened   # candidate values for every screened paper (before screening)
-python code/02b_triage.py        # rank papers: on-topic first, then evidence score (screening aid only)
-python code/02_extract.py        # after screening: candidates + review sheet for included papers only
-#  -> curator enters records in data/curated/records.csv, sets rules/harmonization.yaml
-python code/03_validate.py       # schema, range and provenance checks; must pass with 0 errors
-python code/04_harmonize.py      # benchmark table; refuses while any rule is unset
-python code/05_qa.py             # QA report + paper/stats.json
-python code/06_figures.py        # figures (DRAFT-stamped until --final)
-
-python -m unittest discover -s tests -v   # tests run on synthetic fixtures only
-```
-
-`make all` runs validate → harmonize → QA → figures once curation is done.
-
-## Outputs
+## Main files
 
 | File | What |
 |---|---|
 | `data/processed/photodeg_bench_v1.0.csv` | the benchmark table |
-| `data/processed/qa_report.txt` | flow counts, completeness, ranges, named spot checks |
-| `data/processed/harmonization_log.csv` | every record a rule excluded or transformed |
-| `data/raw/PROVENANCE.txt` | every fetched file: date, bytes, SHA-256, URL, query |
-| `rules/harmonization.yaml` | the rules, with the curator's rationale |
-| `paper/stats.json`, `paper/figures/` | numbers and figures for any write-up |
+| `data/curated/evidence.csv` | every field: value, locator, source string (or its hash for NC/ND sources), verification outcome |
+| `data/curated/qa_flags.csv` | per-record flags (approximate values, conditions read from another paragraph, heated runs, SEC estimates) |
+| `data/curated/extractions/*.json` | extraction files, including observations seen but not recorded and why |
+| `data/curated/screening_log.csv` | decision, criterion and rationale for all 602 screened papers |
+| `data/curated/verification/` | deterministic results, blind comparison, adjudications, independent final audit |
+| `data/processed/qa_report.txt`, `exceptions.csv` | QA report and every exception |
+| `paper/stats.json`, `paper/figures/` | every number and figure in the docs |
 
-## Sources
+## Run it
 
-- Europe PMC REST API (search and `fullTextXML`, open-access subset), https://europepmc.org/RestfulWebService. Metadata CC0; each article under its own license, recorded per record.
-- OpenAlex works API, https://api.openalex.org. Metadata CC0.
+```bash
+pip install -r requirements.txt
+export PHOTODEG_EMAIL=you@example.org            # polite-pool contact for OpenAlex / Europe PMC
+python tools/autonomous_release.py --target v1.0 # resumes from checkpoints; builds the release candidate
+python tools/autonomous_release.py --target v1.0 --status
+python -m unittest discover -s tests -v
+```
 
-Search strings are in `config/search.yaml`; fetch dates and hashes in `data/raw/PROVENANCE.txt`. Full-text XML is not redistributed (licenses vary); re-fetch with `01_fetch.py`.
+Full-text XML is not redistributed; `--refresh` re-fetches it and `data/raw/PROVENANCE.txt` holds each file's SHA-256. AI stages for new papers need `ANTHROPIC_API_KEY` on the runner (`config/llm.yaml`); without it, unprocessed papers are reported and nothing unverified is released.
 
 ## Limitations
 
-See [docs/LIMITATIONS.md](docs/LIMITATIONS.md). In short: open-access literature only, SEC values from mismatched standards are not absolute masses, and many papers under-report light dose.
+The largest: 73% of in-scope papers (61) had no full text retrievable by this pipeline, including several central studies, so v1.0 is a verified sample of the open literature, not a census. See [docs/LIMITATIONS.md](docs/LIMITATIONS.md).
 
 ## License and citation
 
-Code MIT; data and documentation CC BY 4.0 (see `LICENSE`). Cite via `CITATION.cff` or the Zenodo DOI once minted.
-
-## Contributing records
-
-Corrections and new records are welcome as GitHub issues with the source DOI and locator.
-
-## Maintainer
-
-[VERIFY: name, ORCID, contact as in AUTHORS.json]
+Code MIT; data and documentation CC BY 4.0, with the exceptions for source strings from NC/ND articles set out in `LICENSE`. Each record carries its source article's license. Cite via `CITATION.cff` or the Zenodo DOI once minted. Authors: see `AUTHORS.json`.

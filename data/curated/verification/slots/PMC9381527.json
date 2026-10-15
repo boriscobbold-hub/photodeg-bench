@@ -1,0 +1,31 @@
+{
+ "pmcid": "PMC9381527",
+ "doi": "10.1038/s41467-022-32510-x",
+ "tasks": [
+  {
+   "rid": "a",
+   "primary_loc": "Results > Further improvement based on the reaction mechanism \u00b62",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "temperature_c",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "aromatic oxygenates (benzoic acid + acetophenone + benzaldehyde)",
+    "benzoic acid (isolated)"
+   ]
+  }
+ ]
+}

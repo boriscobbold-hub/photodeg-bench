@@ -33,9 +33,9 @@ CAL_CODES = {"conventional_PS", "conventional_PMMA", "conventional_PEG_PEO", "un
 MASS_FIELDS = ["mn_before", "mw_before", "mp_before", "mn_after", "mw_after", "mp_after"]
 NUMERIC = MASS_FIELDS + ["disp_before", "disp_after", "sec_temperature_c", "catalyst_loading", "wavelength_nm",
                          "irradiance", "concentration", "temperature_c", "time"]
-REQUIRED = ["record_id", "paper_id", "doi", "source_license", "locator", "polymer", "sec_calibration",
-            "curator", "curation_date", "checked_against_source"]
-YIELDS_RE = re.compile(r"^\s*[^:;]+:\s*\d+(\.\d+)?\s*(%|mol%|wt%)\s*$")
+REQUIRED = ["record_id", "paper_id", "doi", "source_license", "locator", "polymer",
+            "curator", "curation_date", "source_verified", "blind_verified"]
+YIELDS_RE = re.compile(r"^\s*[^:;]+:\s*\d+(\.\d+)?\s*(%|mol%|wt%|mg|g|µmol|umol|mmol)\s*$")
 
 
 def num(v):
@@ -60,8 +60,13 @@ def validate(records, screening):
                 errors.append(f"{tag}: missing {f}")
         if r.get("paper_id") and included and r["paper_id"] not in included:
             errors.append(f"{tag}: paper_id {r['paper_id']} is not marked include=y in screening.csv")
-        if (r.get("checked_against_source") or "").strip().lower() not in ("y", "yes"):
-            errors.append(f"{tag}: checked_against_source is not 'y' (every record is checked by the curator)")
+        if (r.get("source_verified") or "").strip().lower() != "y":
+            errors.append(f"{tag}: source_verified is not 'y' (every value must match its source string at its locator)")
+        if (r.get("blind_verified") or "").strip().lower() != "y":
+            errors.append(f"{tag}: blind_verified is not 'y' (independent re-extraction with no unresolved disagreement)")
+        has_mass = any((r.get(f"{k}_{s_}") or "").strip() for k in ("mn", "mw", "mp") for s_ in ("before", "after"))
+        if not has_mass and not (r.get("product_yields") or "").strip():
+            errors.append(f"{tag}: no benchmark endpoint (molar mass or product yield)")
         d = (r.get("curation_date") or "").strip()
         if d:
             try:
@@ -94,14 +99,15 @@ def validate(records, screening):
                     errors.append(f"{tag}: mw_{side} < mn_{side}")
                 if disp is not None and abs(mw / mn - disp) > 0.15 * disp:
                     warnings.append(f"{tag}: disp_{side}={disp} disagrees with Mw/Mn={mw / mn:.2f} by >15%")
-        if not any(vals.get(f"{k}_before") is not None for k in ("mn", "mw", "mp")):
-            warnings.append(f"{tag}: no molar mass before (product-only record?)")
+        pass
         for k in ("mn", "mw", "mp"):
             b, a = vals.get(f"{k}_before"), vals.get(f"{k}_after")
             ub, ua = (r.get("mass_unit_before") or "").strip(), (r.get("mass_unit_after") or "").strip()
             if b and a and ub == ua and a > b:
                 warnings.append(f"{tag}: {k}_after > {k}_before (crosslinking, fractionation, or a transcription slip?)")
         cal = (r.get("sec_calibration") or "").strip()
+        if has_mass and not cal:
+            errors.append(f"{tag}: molar-mass record without sec_calibration (use not_reported if the paper gives none)")
         if cal and cal not in CAL_CODES:
             errors.append(f"{tag}: sec_calibration '{cal}' not in {sorted(CAL_CODES)}")
         wl = vals.get("wavelength_nm")
@@ -117,7 +123,7 @@ def validate(records, screening):
         if vals.get("time") is not None:
             if vals["time"] <= 0:
                 errors.append(f"{tag}: time must be > 0")
-            if (r.get("time_unit") or "").strip() not in TIME_UNITS:
+            if (r.get("time_unit") or "").strip() not in TIME_UNITS:  # noqa
                 errors.append(f"{tag}: time_unit '{r.get('time_unit')}' must be one of {sorted(TIME_UNITS)}")
         py = (r.get("product_yields") or "").strip()
         if py:

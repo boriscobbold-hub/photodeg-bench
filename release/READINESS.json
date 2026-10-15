@@ -1,0 +1,106 @@
+{
+ "version": "1.0",
+ "generated": "2026-10-14T20:17:34",
+ "scientifically_ready": true,
+ "release_authorized": true,
+ "checks": [
+  {
+   "id": "S1",
+   "check": "test suite passes",
+   "status": "pass",
+   "detail": "OK",
+   "kind": "science"
+  },
+  {
+   "id": "S2",
+   "check": "schema and value validation: 0 errors",
+   "status": "pass",
+   "detail": "87 records, 0 errors, 2 warnings -> /home/claude/photodeg-bench/data/processed/validation_report.txt",
+   "kind": "science"
+  },
+  {
+   "id": "S3",
+   "check": "QA report passes (no critical failures)",
+   "status": "pass",
+   "detail": "RESULT: PASS  (0 critical, 0 warnings)",
+   "kind": "science"
+  },
+  {
+   "id": "S4",
+   "check": "every released record source-verified and independently re-extracted",
+   "status": "pass",
+   "detail": "87 records; unverified: []",
+   "kind": "science"
+  },
+  {
+   "id": "S5",
+   "check": "no unresolved verification disagreements",
+   "status": "pass",
+   "detail": "0 unresolved",
+   "kind": "science"
+  },
+  {
+   "id": "S6",
+   "check": "every required harmonization rule set and justified",
+   "status": "pass",
+   "detail": "15 rules",
+   "kind": "science"
+  },
+  {
+   "id": "S7",
+   "check": "figures reproduce byte-for-byte from the final dataset",
+   "status": "pass",
+   "detail": "all PNGs identical on regeneration",
+   "kind": "science"
+  },
+  {
+   "id": "S8",
+   "check": "every source article has a provenance record (and matching hash when present)",
+   "status": "pass",
+   "detail": "ok",
+   "kind": "science"
+  },
+  {
+   "id": "S9",
+   "check": "source licenses allowed by R14 and confirmed against Crossref",
+   "status": "pass",
+   "detail": "10 articles confirmed",
+   "kind": "science"
+  },
+  {
+   "id": "S10",
+   "check": "no secrets or credentials in the repository",
+   "status": "pass",
+   "detail": "none found",
+   "kind": "science"
+  },
+  {
+   "id": "S11",
+   "check": "stats file agrees with the release table",
+   "status": "pass",
+   "detail": "stats 87 vs table 87",
+   "kind": "science"
+  },
+  {
+   "id": "A1",
+   "check": "author metadata complete (AUTHORS.json, CITATION.cff, LICENSE, Zenodo metadata)",
+   "status": "pass",
+   "detail": "ok",
+   "kind": "author"
+  },
+  {
+   "id": "A2",
+   "check": "escalated scientific/legal rules endorsed by the author",
+   "status": "pass",
+   "detail": "ok",
+   "kind": "author"
+  },
+  {
+   "id": "A3",
+   "check": "public release authorized by the author (written authorization file; not a cryptographic signature)",
+   "status": "pass",
+   "detail": "ok",
+   "kind": "author"
+  }
+ ]
+}

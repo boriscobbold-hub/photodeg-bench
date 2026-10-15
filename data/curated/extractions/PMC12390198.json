@@ -1,0 +1,35 @@
+{
+ "paper_key": "PMC12390198",
+ "paper_id": "10.3390/polym17162241",
+ "doi": "10.3390/polym17162241",
+ "pmcid": "PMC12390198",
+ "source_license": "cc by",
+ "extractor": "Claude (AI) extraction agent D, 2026-10-12",
+ "extraction_method": "full-text screen (no records)",
+ "screen": {
+  "decision": "exclude",
+  "criteria": "E6",
+  "confidence": "high",
+  "rationale": "Primary study; solvent-cast PMMA/modified-nanosilica films aged in a Q-Sun Xe-3 chamber simulating full sunlight (295-800 nm, passes E3) with Mn by GPC and MMA by Py-GC-MS, but Mn versus aging time appears only in Figures 8a/9a/10a and the degradation-degree heat map (Fig. 12), and MMA is reported only as specific peak area in figures (Figs. 8b-11); the text and Table 3 give only qualitative rank orders and arrows, so no endpoint value is available as text or table.",
+  "evidence_loc": "3. Results > 3.3. Effect of Surface Polar Functionalization Modification on the Photodegradation Behavior of PMMA/SiO2 ¶1"
+ },
+ "shared": {},
+ "records": [],
+ "excluded_observations": [
+  {
+   "what": "Mn before/after photooxidative aging for each PMMA/SiO2@R film",
+   "why": "Values only in figures (Fig. 8a, 9a, 10a, 12).",
+   "loc": "Figure 8 caption"
+  },
+  {
+   "what": "MMA specific peak area during aging",
+   "why": "Only in figures (Fig. 8b, 9b, 10b, 11); a relative peak area per mg, not a calibrated yield.",
+   "loc": "Figure 11 caption"
+  },
+  {
+   "what": "Table 3 effects of SiO2 surface groups",
+   "why": "Qualitative arrows only.",
+   "loc": "Table 3"
+  }
+ ]
+}

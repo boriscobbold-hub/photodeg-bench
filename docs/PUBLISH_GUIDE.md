@@ -1,58 +1,49 @@
 # Publish guide: PhotoDeg-Bench v1.0.0
 
-> DRAFT. Nothing has been pushed or deposited yet: this session had no GitHub or Zenodo token and could not reach either service. Every step below is for the curator to run after the verification checklist is complete. Budget: about 45 minutes.
+Nothing has been published. The release candidate is built and the scientific checks pass (see [RELEASE_READINESS.md](RELEASE_READINESS.md)). Publication needs three things from the author, then about 30 minutes.
 
-## 0. Gate (5 min)
+## 0. Author steps (gate items A1–A3)
 
-```bash
-python code/06_figures.py --final        # removes the stamp from figures
-# delete the status banner (first line) of README.md and docs/*.md; fill every verify-tagged field
-python tools/publish_gate.py .           # must pass; fix whatever it lists
-```
+1. Fill `AUTHORS.json`, then the same details in `CITATION.cff` (names, ORCID, repository URL), the copyright line in `LICENSE`, and the creators and repository URL in `docs/zenodo_metadata.json` (delete its `_comment` key).
+2. Decide R08 and R14 in `rules/harmonization.yaml` (see `docs/VERIFY_CHECKLIST.md`). Add `endorsed_by: "<name>, <date>"` to each, after changing the decision if you want to.
+3. Write `release/AUTHORIZATION.json` with `authorized_by`, `date`, `version: "1.0"` and a `statement` in your words.
 
-The gate blocks on any draft stamp, verify tag, bracketed placeholder or secret, anywhere in the repository except the paths in `.gate-allow` (the gate's own code and the figure script, which contain those strings by design). `publish_github.py` runs the same gate and stops if it fails.
-
-## 1. GitHub (10 min)
-
-Create a fine-grained token at github.com → Settings → Developer settings → Fine-grained tokens, with **Administration: write** and **Contents: write** on your account. Then, in a terminal (never in a file):
+Then run:
 
 ```bash
-export GITHUB_TOKEN=...                  # paste; not saved anywhere
-python tools/publish_github.py . --repo photodeg-bench \
-  --description "Open, harmonized benchmark of visible-light polymer deconstruction" \
-  --release v1.0.0 --dry-run             # look at what it will do
-python tools/publish_github.py . --repo photodeg-bench \
-  --description "Open, harmonized benchmark of visible-light polymer deconstruction"
+python tools/autonomous_release.py --target v1.0 --publish   # rebuilds, re-checks; refuses unless every S and A check passes
 ```
 
-Don't tag the release yet if you want Zenodo to mint the DOI from the GitHub release (path 2a).
+## 1. GitHub
 
-## 2. Zenodo DOI (15 min). Choose one path.
+A fine-grained token with Administration: write and Contents: write, held only in the shell:
 
-**2a. GitHub integration (recommended; future versions get DOIs automatically).**
-1. Log in at zenodo.org with ORCID.
-2. Profile menu → GitHub → flip the switch for `photodeg-bench`.
-3. On GitHub, create release `v1.0.0` (Releases → Draft a new release → tag `v1.0.0`, title "PhotoDeg-Bench v1.0.0", notes: one paragraph + link to LIMITATIONS).
-4. Within minutes Zenodo shows the record with a DOI. Open it, click Edit, and fix creators/ORCID, license (CC BY 4.0), keywords, and description from `docs/zenodo_metadata.json`. Save and publish.
+```bash
+export GITHUB_TOKEN=...
+python tools/publish_github.py . --repo photodeg-bench --description "Source-verified benchmark of visible-light polymer deconstruction" --dry-run
+python tools/publish_github.py . --repo photodeg-bench --description "Source-verified benchmark of visible-light polymer deconstruction"
+```
 
-**2b. Direct deposit with the script (sandbox first).**
-1. Tokens: sandbox.zenodo.org and zenodo.org → Applications → Personal access tokens, scopes `deposit:write` and `deposit:actions`.
-2. Build the archive: `git archive --format=zip -o release/photodeg-bench-v1.0.0.zip v1.0.0`
-3. Sandbox:
-   ```bash
-   export ZENODO_SANDBOX_TOKEN=...
-   python tools/zenodo_deposit.py --files release/photodeg-bench-v1.0.0.zip data/processed/photodeg_bench_v1.0.csv docs/CODEBOOK.md \
-     --metadata docs/zenodo_metadata.json --sandbox --publish
-   ```
-   Open the sandbox record and read it as a stranger would.
-4. Real: same command with `ZENODO_TOKEN` and without `--sandbox`. Copy the DOI it prints.
+The release-candidate history is on branch `dev/autonomous-v1`; merge it to `main` before pushing, or push the branch and open a PR.
 
-## 3. Same day (10 min)
+## 2. Zenodo DOI (sandbox first)
 
-1. Put the DOI in `CITATION.cff` (`doi:` and `date-released:`), the README status line, and a DOI badge at the top of the README; commit and push.
-2. Add a row to `docs/evidence_log.csv`: date, "PhotoDeg-Bench v1.0.0 release", dataset, "Zenodo + GitHub", DOI, live, metrics snapshot (0 downloads), files saved (PDF prints of the Zenodo and GitHub release pages), notes ("verification checklist completed YYYY-MM-DD").
-3. Save PDFs of the Zenodo record and GitHub release page next to the log.
+**Path A (recommended), via the GitHub integration.** Log in to zenodo.org with ORCID → GitHub → enable `photodeg-bench` → create GitHub release `v1.0.0`. Then edit the Zenodo record from `docs/zenodo_metadata.json`.
+
+**Path B, the script.**
+```bash
+python tools/autonomous_release.py --target v1.0          # rebuilds release/photodeg-bench-v1.0.0.zip
+export ZENODO_SANDBOX_TOKEN=...                            # scopes deposit:write, deposit:actions
+python tools/zenodo_deposit.py --files release/photodeg-bench-v1.0.0.zip --metadata docs/zenodo_metadata.json --sandbox --publish
+# read the sandbox record as a stranger would, then:
+export ZENODO_TOKEN=...
+python tools/zenodo_deposit.py --files release/photodeg-bench-v1.0.0.zip --metadata docs/zenodo_metadata.json --publish
+```
+
+## 3. The same day
+
+Put the DOI into `CITATION.cff` (`doi`, `date-released`) and the README status line. Add a row to `docs/evidence_log.csv` (date, artifact, dataset, Zenodo + GitHub, DOI, live, metrics snapshot, files saved, notes). Save PDFs of the Zenodo and GitHub release pages.
 
 ## AI-assistance disclosure
 
-Zenodo has no required field. Suggested sentence for the README and Zenodo description, kept only if true: "Extraction and validation code was written with AI assistance (Claude); all harmonization rules were set, and every record entered or checked against its source, by the curator."
+Already in the README, the methods, the Zenodo description and `AUTHORS.json`. Keep it unless it stops being true.

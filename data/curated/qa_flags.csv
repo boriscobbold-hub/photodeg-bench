@@ -1,0 +1,114 @@
+record_id,flag,evidence
+PDG-PMC10557129-a,approximate_value,almost 90% of monomer
+PDG-PMC10557129-a,conditions_from_other_block,concentration from 'body ¶9' (result at 'body ¶4')
+PDG-PMC10557129-a,heated_ge_80C,temperature_c = 170
+PDG-PMC10557129-b,conditions_from_other_block,concentration from 'body ¶9' (result at 'body ¶4')
+PDG-PMC10557129-b,heated_ge_80C,temperature_c = 170
+PDG-PMC10557129-b,thermal_contribution,Not really a 'no reaction' control: thermal reaction nearly as efficient.
+PDG-PMC10557129-c,conditions_from_other_block,concentration from 'body ¶9' (result at 'body ¶4')
+PDG-PMC10557129-c,heated_ge_80C,temperature_c = 100
+PDG-PMC10557129-d,conditions_from_other_block,temperature_c from 'Figure 2 caption'; catalyst_loading from 'Figure 2 caption'; concentration from 'body ¶9' (result at 'body ¶4')
+PDG-PMC10557129-d,heated_ge_80C,temperature_c = 100
+PDG-PMC10557129-e,conditions_from_other_block,light_source from 'body ¶4'; concentration from 'body ¶9' (result at 'body ¶5')
+PDG-PMC10557129-e,heated_ge_80C,temperature_c = 170
+PDG-PMC10557129-f,conditions_from_other_block,light_source from 'body ¶4'; concentration from 'body ¶9' (result at 'body ¶5')
+PDG-PMC10557129-f,heated_ge_80C,temperature_c = 170
+PDG-PMC10557129-g,approximate_value,approximately 70% of depolymerization
+PDG-PMC10557129-g,conditions_from_other_block,light_source from 'body ¶4'; catalyst_loading from 'Figure 3 caption'; concentration from 'body ¶9' (result at 'body ¶7')
+PDG-PMC10557129-g,heated_ge_80C,temperature_c = 170
+PDG-PMC10557129-h,conditions_from_other_block,light_source from 'body ¶4'; catalyst_loading from 'Figure 3 caption'; concentration from 'body ¶9' (result at 'body ¶7')
+PDG-PMC10557129-h,heated_ge_80C,temperature_c = 170
+PDG-PMC10793207-a,approximate_value,temperature_c: (∼35 ± 1) °C
+PDG-PMC10793207-a,bimodal_sec,"Standard conditions (entry 1). Mn after printed as '<0.30' kDa (below accurate GPC range, bimodal); not recorded as a value."
+PDG-PMC10793207-a,conditions_from_other_block,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; atmosphere from 'Results and discussion ¶1'; wavelength_nm from 'Results and discussion ¶1'; light_source from 'Results and discussion ¶1' (result at 'Table r1')
+PDG-PMC10793207-b,approximate_value,temperature_c: (∼35 ± 1) °C
+PDG-PMC10793207-b,conditions_from_other_block,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; atmosphere from 'Results and discussion ¶1'; wavelength_nm from 'Results and discussion ¶1'; light_source from 'Results and discussion ¶1' (result at 'Table r2')
+PDG-PMC10793207-c,approximate_value,temperature_c: (∼35 ± 1) °C
+PDG-PMC10793207-c,conditions_from_other_block,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; wavelength_nm from 'Results and discussion ¶1'; light_source from 'Results and discussion ¶1' (result at 'Table r3')
+PDG-PMC10793207-d,approximate_value,temperature_c: (∼35 ± 1) °C
+PDG-PMC10793207-d,conditions_from_other_block,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; atmosphere from 'Results and discussion ¶1' (result at 'Table r4')
+PDG-PMC10793207-e,approximate_value,temperature_c: (∼35 ± 1) °C
+PDG-PMC10793207-e,conditions_from_other_block,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; atmosphere from 'Results and discussion ¶1'; wavelength_nm from 'Results and discussion ¶1'; light_source from 'Results and discussion ¶1' (result at 'Table r5')
+PDG-PMC10793207-f,approximate_value,temperature_c: (∼35 ± 1) °C
+PDG-PMC10793207-f,conditions_from_other_block,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; atmosphere from 'Results and discussion ¶1'; wavelength_nm from 'Results and discussion ¶1'; light_source from 'Results and discussion ¶1' (result at 'Table r6')
+PDG-PMC10793207-g,approximate_value,temperature_c: (∼35 ± 1) °C
+PDG-PMC10793207-g,conditions_from_other_block,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; atmosphere from 'Results and discussion ¶1'; wavelength_nm from 'Results and discussion ¶1'; light_source from 'Results and discussion ¶1' (result at 'Table r7')
+PDG-PMC10793207-h,approximate_value,temperature_c: (∼35 ± 1) °C
+PDG-PMC10793207-h,bimodal_sec,Bimodal GPC distribution (footnote f). | Bimodal GPC distribution (footnote f) for Mn 5.56 kDa.
+PDG-PMC10793207-h,conditions_from_other_block,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; atmosphere from 'Results and discussion ¶1'; wavelength_nm from 'Results and discussion ¶1'; light_source from 'Results and discussion ¶1' (result at 'Table r8')
+PDG-PMC10793207-i,approximate_value,temperature_c: (∼35 ± 1) °C
+PDG-PMC10793207-i,conditions_from_other_block,time from 'Results and discussion ¶1'; solvent from 'Results and discussion ¶2'; atmosphere from 'Results and discussion ¶1' (result at 'Table r9')
+PDG-PMC11796324-a,conditions_from_other_block,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r1')
+PDG-PMC11796324-a,sec_estimate,Mn after is described as an 'estimation' (footnote c). [adjudicated yield_basis: blind correct] | SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PDG-PMC11796324-b,conditions_from_other_block,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r2')
+PDG-PMC11796324-b,sec_estimate,Neat ethyl acetate. Mn after is an estimation (footnote c). [adjudicated yield_basis: blind correct] | SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PDG-PMC11796324-c,conditions_from_other_block,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r3')
+PDG-PMC11796324-c,sec_estimate,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PDG-PMC11796324-d,conditions_from_other_block,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r4')
+PDG-PMC11796324-d,sec_estimate,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PDG-PMC11796324-e,conditions_from_other_block,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r5')
+PDG-PMC11796324-e,sec_estimate,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PDG-PMC11796324-f,conditions_from_other_block,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r6')
+PDG-PMC11796324-f,sec_estimate,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PDG-PMC11796324-g,conditions_from_other_block,concentration from 'Results and Discussion ¶3' (result at 'Table 1 r7')
+PDG-PMC11796324-g,sec_estimate,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PDG-PMC11796324-h,conditions_from_other_block,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r8')
+PDG-PMC11796324-h,sec_estimate,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PDG-PMC11796324-i,conditions_from_other_block,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r9')
+PDG-PMC11796324-i,sec_estimate,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PDG-PMC11796324-j,conditions_from_other_block,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r10')
+PDG-PMC11796324-j,sec_estimate,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PDG-PMC11796324-k,conditions_from_other_block,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r11')
+PDG-PMC11796324-k,sec_estimate,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PDG-PMC11796324-l,conditions_from_other_block,light_source from 'Results and Discussion ¶2'; concentration from 'Results and Discussion ¶3' (result at 'Table 1 r12')
+PDG-PMC11796324-l,sec_estimate,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PDG-PMC11796324-m,conditions_from_other_block,concentration from 'Results and Discussion ¶3' (result at 'Table 1 r13')
+PDG-PMC11796324-m,sec_estimate,SEC calibration standard not stated (only 'SEC in THF'); Mn after is labelled an 'Estimation' (footnote c).
+PDG-PMC12056016-d,approximate_value,mw_after: (Mw ≈ 2 kDa)
+PDG-PMC12056016-e,approximate_value,mw_after: (Mw ≈ 2 kDa)
+PDG-PMC12056016-f,conditions_from_other_block,solvent from 'Fig. 7 caption' (result at 'Results > Applications to diverse polymer types ¶5')
+PDG-PMC12302232-b,conditions_from_other_block,time from 'Results and discussion ¶6'; solvent from 'Results and discussion ¶6'; atmosphere from 'Results and discussion ¶6'; light_source from 'Results and discussion ¶6' (result at 'Results and discussion ¶7')
+PDG-PMC12302232-c,conditions_from_other_block,time from 'Results and discussion ¶6'; solvent from 'Results and discussion ¶6'; atmosphere from 'Results and discussion ¶6'; light_source from 'Results and discussion ¶6' (result at 'Results and discussion ¶7')
+PDG-PMC12302232-d,conditions_from_other_block,time from 'Results and discussion ¶6'; solvent from 'Results and discussion ¶6'; atmosphere from 'Results and discussion ¶6'; light_source from 'Results and discussion ¶6' (result at 'Results and discussion ¶7')
+PDG-PMC12302232-e,conditions_from_other_block,time from 'Results and discussion ¶6'; solvent from 'Results and discussion ¶6'; atmosphere from 'Results and discussion ¶6'; light_source from 'Results and discussion ¶6' (result at 'Results and discussion ¶7')
+PDG-PMC12302232-f,conditions_from_other_block,time from 'Results and discussion ¶6'; solvent from 'Results and discussion ¶6'; atmosphere from 'Results and discussion ¶6'; light_source from 'Results and discussion ¶6' (result at 'Results and discussion ¶7')
+PDG-PMC12302232-g,conditions_from_other_block,time from 'Results and discussion ¶6'; solvent from 'Results and discussion ¶6'; atmosphere from 'Results and discussion ¶6'; light_source from 'Results and discussion ¶6' (result at 'Results and discussion ¶8')
+PDG-PMC12302232-h,conditions_from_other_block,time from 'Results and discussion ¶6'; solvent from 'Results and discussion ¶6'; atmosphere from 'Results and discussion ¶6'; light_source from 'Results and discussion ¶6' (result at 'Results and discussion ¶8')
+PDG-PMC12464638-k,conditions_from_other_block,solvent from 'Table 2 footnote'; wavelength_nm from 'Table 2 footnote'; light_source from 'Table 2 footnote'; catalyst_loading from 'Table 2 footnote' (result at 'Result and Discussion > Closed-Loop Photochemical Recycling ¶4')
+PDG-PMC12464638-l,conditions_from_other_block,solvent from 'Table 2 footnote'; wavelength_nm from 'Table 2 footnote'; light_source from 'Table 2 footnote'; catalyst_loading from 'Table 2 footnote' (result at 'Result and Discussion > Closed-Loop Photochemical Recycling ¶4')
+PDG-PMC13590609-a,heated_ge_80C,temperature_c = 130
+PDG-PMC13590609-b,conditions_from_other_block,solvent from 'Results > Oxidative degradation of polypropylene (PP) ¶1' (result at 'Results > Oxidative degradation of polypropylene (PP) ¶2')
+PDG-PMC13590609-b,heated_ge_80C,temperature_c = 130
+PDG-PMC13590609-c,conditions_from_other_block,solvent from 'Results > Oxidative degradation of polypropylene (PP) ¶1' (result at 'Results > Oxidative degradation of polypropylene (PP) ¶2')
+PDG-PMC13590609-d,approximate_value,the TPA yield decreased to ~70%
+PDG-PMC13590609-d,conditions_from_other_block,solvent from 'Results > Oxidative degradation of polypropylene (PP) ¶1' (result at 'Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2')
+PDG-PMC13590609-d,heated_ge_80C,temperature_c = 130
+PDG-PMC13590609-e,conditions_from_other_block,solvent from 'Results > Oxidative degradation of polypropylene (PP) ¶1' (result at 'Results > Co-upcycling of PP and PET in Cl-solvent and reaction mechanism ¶2')
+PDG-PMC13590609-e,heated_ge_80C,temperature_c = 130
+PDG-PMC13590609-f,heated_ge_80C,temperature_c = 130
+PDG-PMC13590609-g,heated_ge_80C,temperature_c = 130
+PDG-PMC13590609-h,heated_ge_80C,temperature_c = 130
+PDG-PMC13590609-i,conditions_from_other_block,solvent from 'Results > Oxidative degradation of polypropylene (PP) ¶1' (result at 'Results > Co-upcycling of real-world PET and PP plastics ¶2')
+PDG-PMC13590609-i,heated_ge_80C,temperature_c = 130
+PDG-PMC9295126-a,conditions_from_other_block,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; catalyst_loading from 'Table 1 r1 c3'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Results and Discussion > Photocatalytic Deconstruction of PS ¶2')
+PDG-PMC9295126-b,conditions_from_other_block,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; catalyst_loading from 'Table 1 r1 c3'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Results and Discussion > Photocatalytic Deconstruction of PS ¶2')
+PDG-PMC9295126-c,conditions_from_other_block,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r1')
+PDG-PMC9295126-d,conditions_from_other_block,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 footnote')
+PDG-PMC9295126-e,conditions_from_other_block,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r2')
+PDG-PMC9295126-f,conditions_from_other_block,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r8')
+PDG-PMC9295126-g,conditions_from_other_block,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r7')
+PDG-PMC9295126-h,conditions_from_other_block,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r5')
+PDG-PMC9295126-i,conditions_from_other_block,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r3')
+PDG-PMC9295126-j,conditions_from_other_block,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r3')
+PDG-PMC9295126-k,conditions_from_other_block,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r6')
+PDG-PMC9295126-l,conditions_from_other_block,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; catalyst_loading from 'Figure 3 caption' (result at 'Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1')
+PDG-PMC9295126-m,conditions_from_other_block,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; catalyst_loading from 'Figure 3 caption' (result at 'Results and Discussion > Gram-Scale Deconstruction of Pure PS and Real-World PS Foam ¶1')
+PDG-PMC9295126-o,conditions_from_other_block,solvent from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; temperature_c from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; atmosphere from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; wavelength_nm from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; light_source from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1'; concentration from 'Results and Discussion > Photocatalytic Deconstruction of PS ¶1' (result at 'Table 1 r15')
+PDG-PMC9381527-a,conditions_from_other_block,solvent from 'Fig. 3 caption'; temperature_c from 'Fig. 3 caption'; atmosphere from 'Fig. 3 caption'; light_source from 'Fig. 3 caption'; catalyst_loading from 'Fig. 3 caption' (result at 'Results > Further improvement based on the reaction mechanism ¶2')
+PDG-PMC9381527-a,heated_ge_80C,temperature_c = 150
+PDG-PMC9586668-a,conditions_from_other_block,time from 'Table 1. footnote'; wavelength_nm from 'Table 1. footnote' (result at 'Table 2. r1')
+PDG-PMC9586668-d,conditions_from_other_block,time from 'Table 1. footnote'; wavelength_nm from 'Table 1. footnote' (result at 'Table 2. r2')
+PDG-PMC9586668-d,heated_ge_80C,temperature_c = 90
+PDG-PMC9586668-e,conditions_from_other_block,time from 'Table 1. footnote'; wavelength_nm from 'Table 1. footnote' (result at 'Table 2. r3')
+PDG-PMC9586668-e,heated_ge_80C,temperature_c = 170
+PDG-PMC10557129-a,thermal_contribution,dark control PDG-PMC10557129-b (170 °C): benzyl methacrylate 88% dark vs 90% lit

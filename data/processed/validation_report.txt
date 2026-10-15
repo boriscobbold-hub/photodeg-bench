@@ -1,0 +1,8 @@
+PhotoDeg-Bench validation report  2026-10-14
+records: 87   errors: 0   warnings: 2
+
+ERRORS
+
+WARNINGS
+  PDG-PMC12056016-d: no light description at all
+  PDG-PMC12056016-e: no light description at all

@@ -1,0 +1,187 @@
+{
+ "pmcid": "PMC12056016",
+ "doi": "10.1038/s41467-025-59540-5",
+ "tasks": [
+  {
+   "rid": "a",
+   "primary_loc": "Results > Mechanistic hypothesis and reaction optimizations \u00b63",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "concentration",
+    "concentration_unit",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid",
+    "formic acid"
+   ]
+  },
+  {
+   "rid": "b",
+   "primary_loc": "Results > Mechanistic investigations \u00b62",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid"
+   ]
+  },
+  {
+   "rid": "c",
+   "primary_loc": "Results > Mechanistic hypothesis and reaction optimizations \u00b62",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid",
+    "acetophenone"
+   ]
+  },
+  {
+   "rid": "d",
+   "primary_loc": "Results > Applications to diverse polymer types \u00b62",
+   "polymer_anchor": "poly(methyl methacrylate)",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "disp_before",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "mass_unit_after",
+    "mass_unit_before",
+    "mw_after",
+    "mw_before",
+    "polymer",
+    "polymer_detail",
+    "sec_calibration",
+    "solvent",
+    "time_unit",
+    "wavelength_nm"
+   ],
+   "report_yields_for_products": []
+  },
+  {
+   "rid": "e",
+   "primary_loc": "Results > Applications to diverse polymer types \u00b62",
+   "polymer_anchor": "poly(methyl methacrylate)",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "disp_before",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "mass_unit_after",
+    "mass_unit_before",
+    "mw_after",
+    "mw_before",
+    "polymer",
+    "polymer_detail",
+    "sec_calibration",
+    "solvent",
+    "time_unit",
+    "wavelength_nm"
+   ],
+   "report_yields_for_products": []
+  },
+  {
+   "rid": "f",
+   "primary_loc": "Results > Applications to diverse polymer types \u00b65",
+   "polymer_anchor": "polystyrene",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading",
+    "catalyst_loading_unit",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "benzoic acid",
+    "formic acid"
+   ]
+  },
+  {
+   "rid": "g",
+   "primary_loc": "Results > Applications to diverse polymer types \u00b64",
+   "polymer_anchor": "poly(ethylene terephthalate)",
+   "is_control": false,
+   "report_fields": [
+    "atmosphere",
+    "catalyst",
+    "catalyst_loading_unit",
+    "irradiance",
+    "irradiance_unit",
+    "light_source",
+    "polymer",
+    "polymer_detail",
+    "products",
+    "solvent",
+    "time_unit",
+    "wavelength_nm",
+    "yield_basis"
+   ],
+   "report_yields_for_products": [
+    "terephthalic acid"
+   ]
+  }
+ ]
+}

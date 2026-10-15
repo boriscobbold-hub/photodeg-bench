@@ -1,0 +1,539 @@
+{
+ "paper_key": "PMC12302232",
+ "paper_id": "10.1039/d5sc03457d",
+ "doi": "10.1039/d5sc03457d",
+ "pmcid": "PMC12302232",
+ "source_license": "cc by-nc",
+ "extractor": "Claude (AI) extraction agent C, 2026-10-12",
+ "extraction_method": "text",
+ "screen": {
+  "decision": "include",
+  "criteria": "E1-E6 pass",
+  "confidence": "high",
+  "rationale": "Primary study; ITSO2 photocatalysis under blue LEDs in O2 converts PS and real-life polystyrenics to benzoic acid; isolated/stated BA yields per named polymer in text. Biomass (ITS) part out of scope.",
+  "evidence_loc": "Results and discussion ¶6"
+ },
+ "shared": {
+  "catalyst": {
+   "v": "ITSO2 (isosulfonyltruxene)",
+   "loc": "Results and discussion ¶6",
+   "s": "in the presence of ITSO2"
+  },
+  "light_source": {
+   "v": "blue LEDs",
+   "loc": "Results and discussion ¶6",
+   "s": "using blue LEDs"
+  },
+  "light_color": {
+   "v": "blue",
+   "loc": "Results and discussion ¶6",
+   "s": "using blue LEDs"
+  },
+  "solvent": {
+   "v": "1,2-dichloroethane",
+   "loc": "Results and discussion ¶6",
+   "s": "in 1,2-dichloroethane"
+  },
+  "atmosphere": {
+   "v": "O2",
+   "loc": "Results and discussion ¶6",
+   "s": "under an oxygen atmosphere"
+  },
+  "time_unit": {
+   "v": "h",
+   "inferred": "unit printed with the value"
+  }
+ },
+ "records": [
+  {
+   "rid": "a",
+   "primary_loc": "Results and discussion ¶6",
+   "fields": {
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and discussion ¶6",
+     "s": "commercial PS"
+    },
+    "polymer_class": {
+     "v": "vinyl_styrenic",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, Mw 560 966 g/mol, Mn 198 240 g/mol, PDI 2.83",
+     "loc": "Results and discussion ¶6",
+     "s": "mass average molecular weight (Mw) of 560 966 g mol-1"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Results and discussion ¶6",
+     "s": "benzoic acid was isolated in 57% yield"
+    },
+    "yield_basis": {
+     "v": "isolated yield (per styrene repeat unit implied)",
+     "loc": "Results and discussion ¶6",
+     "s": "benzoic acid was isolated in 57% yield"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "u": "%",
+      "name_loc": "Results and discussion ¶6",
+      "name_s": "benzoic acid",
+      "v": 57,
+      "loc": "Results and discussion ¶6",
+      "s": "benzoic acid was isolated in 57% yield"
+     }
+    ],
+    "time": {
+     "v": 24,
+     "loc": "Results and discussion ¶6",
+     "s": "using blue LEDs for 24 hours"
+    }
+   },
+   "notes": "Entry 1. GPC after reaction showed 'complete degradation' (Fig. S19); no Mn/Mw after given in text. Mn before 198 240, PDI 2.83 (same paragraph)."
+  },
+  {
+   "rid": "b",
+   "primary_loc": "Results and discussion ¶7",
+   "fields": {
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and discussion ¶7",
+     "s": "General-purpose polystyrene (GPPS)"
+    },
+    "polymer_class": {
+     "v": "vinyl_styrenic",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "general-purpose polystyrene (GPPS)",
+     "loc": "Results and discussion ¶7",
+     "s": "General-purpose polystyrene (GPPS)"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Results and discussion ¶7",
+     "s": "benzoic acid with 56% yield"
+    },
+    "yield_basis": {
+     "v": "not stated; standard-conditions entry 1 yield is isolated",
+     "inferred": "scope yields given as '% yield' without restating the basis"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "u": "%",
+      "name_loc": "Results and discussion ¶6",
+      "name_s": "benzoic acid",
+      "v": 56,
+      "loc": "Results and discussion ¶7",
+      "s": "benzoic acid with 56% yield"
+     }
+    ],
+    "time": {
+     "v": 24,
+     "loc": "Results and discussion ¶6",
+     "s": "using blue LEDs for 24 hours"
+    }
+   },
+   "notes": "Run 'under the optimized/standard reaction conditions'; time (24 h), solvent (DCE) and O2 taken from the entry-1 description."
+  },
+  {
+   "rid": "c",
+   "primary_loc": "Results and discussion ¶7",
+   "fields": {
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and discussion ¶7",
+     "s": "Expandable polystyrene (EPS)"
+    },
+    "polymer_class": {
+     "v": "vinyl_styrenic",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "expandable polystyrene (EPS) containing azodicarbonamide foaming agent",
+     "loc": "Results and discussion ¶7",
+     "s": "containing azodicarbonamide as a foaming agent"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Results and discussion ¶7",
+     "s": "benzoic acid in 56% yield"
+    },
+    "yield_basis": {
+     "v": "not stated; standard-conditions entry 1 yield is isolated",
+     "inferred": "scope yields given as '% yield' without restating the basis"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "u": "%",
+      "name_loc": "Results and discussion ¶6",
+      "name_s": "benzoic acid",
+      "v": 56,
+      "loc": "Results and discussion ¶7",
+      "s": "benzoic acid in 56% yield"
+     }
+    ],
+    "time": {
+     "v": 24,
+     "loc": "Results and discussion ¶6",
+     "s": "using blue LEDs for 24 hours"
+    }
+   },
+   "notes": "Run 'under the optimized/standard reaction conditions'; time (24 h), solvent (DCE) and O2 taken from the entry-1 description."
+  },
+  {
+   "rid": "d",
+   "primary_loc": "Results and discussion ¶7",
+   "fields": {
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and discussion ¶7",
+     "s": "High-impact polystyrene (HIPS)"
+    },
+    "polymer_class": {
+     "v": "vinyl_styrenic",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "high-impact polystyrene (HIPS), styrene-butadiene graft copolymer",
+     "loc": "Results and discussion ¶7",
+     "s": "a graft copolymer composed of styrene and butadiene"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Results and discussion ¶7",
+     "s": "transformed into benzoic acid with 56% yield"
+    },
+    "yield_basis": {
+     "v": "not stated; standard-conditions entry 1 yield is isolated",
+     "inferred": "scope yields given as '% yield' without restating the basis"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "u": "%",
+      "name_loc": "Results and discussion ¶6",
+      "name_s": "benzoic acid",
+      "v": 56,
+      "loc": "Results and discussion ¶7",
+      "s": "transformed into benzoic acid with 56% yield"
+     }
+    ],
+    "time": {
+     "v": 24,
+     "loc": "Results and discussion ¶6",
+     "s": "using blue LEDs for 24 hours"
+    }
+   },
+   "notes": "Run 'under the optimized/standard reaction conditions'; time (24 h), solvent (DCE) and O2 taken from the entry-1 description."
+  },
+  {
+   "rid": "e",
+   "primary_loc": "Results and discussion ¶7",
+   "fields": {
+    "polymer": {
+     "v": "poly(styrene-co-acrylonitrile)",
+     "loc": "Results and discussion ¶7",
+     "s": "styrene-acrylonitrile (SAN)"
+    },
+    "polymer_class": {
+     "v": "vinyl_styrenic",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "SAN",
+     "loc": "Results and discussion ¶7",
+     "s": "styrene-acrylonitrile (SAN)"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Results and discussion ¶7",
+     "s": "benzoic acid in 54% yield"
+    },
+    "yield_basis": {
+     "v": "not stated; standard-conditions entry 1 yield is isolated",
+     "inferred": "scope yields given as '% yield' without restating the basis"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "u": "%",
+      "name_loc": "Results and discussion ¶6",
+      "name_s": "benzoic acid",
+      "v": 54,
+      "loc": "Results and discussion ¶7",
+      "s": "benzoic acid in 54% yield"
+     }
+    ],
+    "cocatalyst_additives": {
+     "v": "TCNHPI (4,5,6,7-tetrachloro-2-hydroxy-isoindole-1,3-dione)",
+     "loc": "Results and discussion ¶7",
+     "s": "when 4,5,6,7-tetrachloro-2-hydroxy-isoindole-1,3-dione (TCNHPI) was employed as an additive"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Results and discussion ¶6",
+     "s": "using blue LEDs for 24 hours"
+    }
+   },
+   "notes": "Run 'under the optimized/standard reaction conditions'; time (24 h), solvent (DCE) and O2 taken from the entry-1 description. Without TCNHPI no degradation occurred (qualitative; not recorded as a control because no value is given)."
+  },
+  {
+   "rid": "f",
+   "primary_loc": "Results and discussion ¶7",
+   "fields": {
+    "polymer": {
+     "v": "poly(acrylonitrile-co-butadiene-co-styrene)",
+     "loc": "Results and discussion ¶7",
+     "s": "acrylonitrile-butadiene-styrene (ABS)"
+    },
+    "polymer_class": {
+     "v": "vinyl_styrenic",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "ABS",
+     "loc": "Results and discussion ¶7",
+     "s": "acrylonitrile-butadiene-styrene (ABS)"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Results and discussion ¶7",
+     "s": "48% yield"
+    },
+    "yield_basis": {
+     "v": "not stated; standard-conditions entry 1 yield is isolated",
+     "inferred": "scope yields given as '% yield' without restating the basis"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "u": "%",
+      "name_loc": "Results and discussion ¶6",
+      "name_s": "benzoic acid",
+      "v": 48,
+      "loc": "Results and discussion ¶7",
+      "s": "48% yield"
+     }
+    ],
+    "cocatalyst_additives": {
+     "v": "TCNHPI (4,5,6,7-tetrachloro-2-hydroxy-isoindole-1,3-dione)",
+     "loc": "Results and discussion ¶7",
+     "s": "when 4,5,6,7-tetrachloro-2-hydroxy-isoindole-1,3-dione (TCNHPI) was employed as an additive"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Results and discussion ¶6",
+     "s": "using blue LEDs for 24 hours"
+    }
+   },
+   "notes": "Run 'under the optimized/standard reaction conditions'; time (24 h), solvent (DCE) and O2 taken from the entry-1 description. Without TCNHPI no degradation occurred (qualitative)."
+  },
+  {
+   "rid": "g",
+   "primary_loc": "Results and discussion ¶8",
+   "fields": {
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and discussion ¶8",
+     "s": "EPS waste"
+    },
+    "polymer_class": {
+     "v": "vinyl_styrenic",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "post-consumer EPS waste: foam box",
+     "loc": "Results and discussion ¶8",
+     "s": "EPS waste, such as foam boxes"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Results and discussion ¶8",
+     "s": "producing benzoic acid in 57% yield"
+    },
+    "yield_basis": {
+     "v": "not stated; standard-conditions entry 1 yield is isolated",
+     "inferred": "scope yields given as '% yield' without restating the basis"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "u": "%",
+      "name_loc": "Results and discussion ¶6",
+      "name_s": "benzoic acid",
+      "v": 57,
+      "loc": "Results and discussion ¶8",
+      "s": "producing benzoic acid in 57% yield"
+     }
+    ],
+    "time": {
+     "v": 24,
+     "loc": "Results and discussion ¶6",
+     "s": "using blue LEDs for 24 hours"
+    }
+   },
+   "notes": "Inference, not a quotation: the EPS sentence does not restate conditions; the preceding sentence applies 'standard conditions' to the PS-waste group, so the entry-1 conditions (24 h, DCE, O2) are assumed here (audit finding 9, 2026-10-12)."
+  },
+  {
+   "rid": "h",
+   "primary_loc": "Results and discussion ¶8",
+   "fields": {
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and discussion ¶8",
+     "s": "EPS waste"
+    },
+    "polymer_class": {
+     "v": "vinyl_styrenic",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "post-consumer EPS waste: shockproof foam",
+     "loc": "Results and discussion ¶8",
+     "s": "shockproof foam"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Results and discussion ¶8",
+     "s": "56% yield"
+    },
+    "yield_basis": {
+     "v": "not stated; standard-conditions entry 1 yield is isolated",
+     "inferred": "scope yields given as '% yield' without restating the basis"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "u": "%",
+      "name_loc": "Results and discussion ¶6",
+      "name_s": "benzoic acid",
+      "v": 56,
+      "loc": "Results and discussion ¶8",
+      "s": "56% yield"
+     }
+    ],
+    "time": {
+     "v": 24,
+     "loc": "Results and discussion ¶6",
+     "s": "using blue LEDs for 24 hours"
+    }
+   },
+   "notes": "Inference, not a quotation: the EPS sentence does not restate conditions; the preceding sentence applies 'standard conditions' to the PS-waste group, so the entry-1 conditions (24 h, DCE, O2) are assumed here (audit finding 9, 2026-10-12)."
+  },
+  {
+   "rid": "i",
+   "primary_loc": "Results and discussion ¶9",
+   "fields": {
+    "polymer": {
+     "v": "polystyrene",
+     "loc": "Results and discussion ¶9",
+     "s": "commercial polystyrene"
+    },
+    "polymer_class": {
+     "v": "vinyl_styrenic",
+     "inferred": "classification of the named polymer"
+    },
+    "polymer_detail": {
+     "v": "commercial PS, 1.04 g, continuous-flow photoreactor",
+     "loc": "Results and discussion ¶9",
+     "s": "1.04 g of commercial polystyrene"
+    },
+    "products": {
+     "v": "benzoic acid",
+     "loc": "Results and discussion ¶9",
+     "s": "benzoic acid in 50% yield"
+    },
+    "yield_basis": {
+     "v": "not stated; standard-conditions entry 1 yield is isolated",
+     "inferred": "scope yields given as '% yield' without restating the basis"
+    },
+    "product_yields": [
+     {
+      "product": "benzoic acid",
+      "u": "%",
+      "name_loc": "Results and discussion ¶6",
+      "name_s": "benzoic acid",
+      "v": 50,
+      "loc": "Results and discussion ¶9",
+      "s": "benzoic acid in 50% yield"
+     }
+    ],
+    "light_source": {
+     "v": "continuous flow photoreactor (blue LEDs)",
+     "loc": "Results and discussion ¶9",
+     "s": "a continuous flow photoreactor was implemented"
+    },
+    "time": null,
+    "atmosphere": null,
+    "solvent": null
+   },
+   "notes": "Gram-scale flow run; residence time and atmosphere not stated in text; record has no time field. [adjudicated solvent: blind correct]"
+  }
+ ],
+ "excluded_observations": [
+  {
+   "what": "ITS reductive C-O cleavage of oxidized beta-O-4 lignin models and native oxidized lignin (M1-M3 wt%)",
+   "why": "Small-molecule models and a biopolymer (lignin); not polymer-substrate records.",
+   "loc": "Results and discussion ¶5"
+  },
+  {
+   "what": "Vanillin-derived crosslinked polymer 5 with ITS/DIPEA/HCOOH, blue LEDs: C-O cleavage product 4 in 75% yield",
+   "why": "Product identified only by a compound number (structure in Fig. 3B); catalyst loading and time not stated in text.",
+   "loc": "Results and discussion ¶4"
+  },
+  {
+   "what": "Catalyst loading for ITSO2",
+   "why": "Not stated in the main text (figure/SI only).",
+   "loc": "Results and discussion ¶6"
+  },
+  {
+   "what": "Solvent screen entries 2-5 (DCM, EtOAc, acetone effective; others no reaction)",
+   "why": "Values only in Fig. 4A.",
+   "loc": "Results and discussion ¶6"
+  },
+  {
+   "what": "Controls without ITSO2 or without light (entries 6-7)",
+   "why": "Qualitative in text; values only in Fig. 4A.",
+   "loc": "Results and discussion ¶6"
+  },
+  {
+   "what": "SAN/ABS without TCNHPI ('did not occur')",
+   "why": "Qualitative statement, no value.",
+   "loc": "Results and discussion ¶7"
+  },
+  {
+   "what": "Mixture of PS, GPPS, EPS, HIPS, SAN and ABS: 50% BA",
+   "why": "Mixture, v1.0 records single polymers.",
+   "loc": "Results and discussion ¶7"
+  },
+  {
+   "what": "Real-life PS waste (weighing boats, yogurt boxes, rulers, forks) 50-55%; ABS waste 45-49%",
+   "why": "Ranges, not values.",
+   "loc": "Results and discussion ¶8"
+  },
+  {
+   "what": "SAN waste (plastic cup) 46% BA",
+   "why": "Completeness pass 2026-10-12: kept excluded. ¶8 states 'standard conditions' only for PS waste; for the SAN cup it says 'Similarly', and SAN fails under standard conditions without TCNHPI (¶7), so whether TCNHPI was used is not stated.",
+   "loc": "Results and discussion ¶8"
+  },
+  {
+   "what": "Gram-scale flow run on mixture of real-life plastics: 41% BA",
+   "why": "Mixture, v1.0 records single polymers.",
+   "loc": "Results and discussion ¶9"
+  },
+  {
+   "what": "GPC after reaction ('complete degradation')",
+   "why": "Qualitative; trace in SI Fig. S19, no value.",
+   "loc": "Results and discussion ¶6"
+  },
+  {
+   "what": "ITSO2@oxidized lignin recycling (five cycles)",
+   "why": "Values only in Fig. 5B.",
+   "loc": "Results and discussion ¶10"
+  }
+ ]
+}

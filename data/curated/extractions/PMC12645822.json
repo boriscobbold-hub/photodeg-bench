@@ -1,0 +1,35 @@
+{
+ "paper_key": "PMC12645822",
+ "paper_id": "10.1039/d5gc03562g",
+ "doi": "10.1039/d5gc03562g",
+ "pmcid": "PMC12645822",
+ "source_license": "cc by",
+ "extractor": "Claude (AI) extraction agent D, 2026-10-12",
+ "extraction_method": "full-text screen (no records)",
+ "screen": {
+  "decision": "exclude",
+  "criteria": "E4",
+  "confidence": "high",
+  "rationale": "Primary PET photoreforming study in which PET and P25 or P25-Pt are dispersed in 1 M NaOH 'to initiate cleavage of the polymer chain into EG and terephthalate', and light acts on the hydrolysed ethylene glycol (liquid products AA, OA, FA, ethanol from EG); main runs also use a 365 nm LED only (would fail E3), and only the auxiliary solar-simulator (Xe) runs have visible emission; gas and liquid yields are in SI tables.",
+  "evidence_loc": "Results and discussion > Photoreforming experiments ¶1"
+ },
+ "shared": {},
+ "records": [],
+ "excluded_observations": [
+  {
+   "what": "H2 and CH4 rates (e.g. 2.87 and 15.35 µmol/h H2) under 365 nm LED",
+   "why": "UV-only light (E3) on alkaline-hydrolysed PET (E4); absolute values in SI Table S2.",
+   "loc": "Results and discussion > Hydrogen production ¶2"
+  },
+  {
+   "what": "Solar-simulated runs: 0.209 µmol/h H2, 0.009 µmol/h CH4 with P25-Pt",
+   "why": "Xe lamp passes E3, but PET is hydrolysed in 1 M NaOH before/during irradiation (E4); rates are of gas evolution, not a product-from-polymer yield with a stated basis.",
+   "loc": "Results and discussion > Sunlight-driven photoreforming ¶1"
+  },
+  {
+   "what": "~30% of PET valorised to acetic acid; ~20% up-converted (H2)",
+   "why": "From EG photoconversion after alkaline hydrolysis (E4); calculations in SI Notes 6-7.",
+   "loc": "Results and discussion > Liquid-phase products ¶3"
+  }
+ ]
+}

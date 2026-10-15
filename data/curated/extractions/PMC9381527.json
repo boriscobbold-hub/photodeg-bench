@@ -1,0 +1,155 @@
+{
+ "paper_key": "PMC9381527",
+ "paper_id": "10.1038/s41467-022-32510-x",
+ "doi": "10.1038/s41467-022-32510-x",
+ "pmcid": "PMC9381527",
+ "source_license": "cc by",
+ "extractor": "Claude (AI) extraction agent A, 2026-10-12",
+ "extraction_method": "text",
+ "screen": {
+  "decision": "include",
+  "criteria": "E1-E6 pass",
+  "confidence": "medium",
+  "rationale": "Primary study; PS photo-oxidized over g-C3N4 with an unfiltered 300 W Xe lamp (and with a 400-800 nm filter in Table 1 entry 11). Molar masses only in figures and Table 1 gives only lumped carbon conversion/selectivity, but the text reports amounts of identified products (360 mg aromatic oxygenates, 240 mg isolated benzoic acid) from 500 mg PS pellets.",
+  "evidence_loc": "Results > Further improvement based on the reaction mechanism ¶2"
+ },
+ "shared": {
+  "polymer": {
+   "v": "polystyrene",
+   "loc": "Fig. 3 caption",
+   "s": "500 mg real-life PS pellets"
+  },
+  "polymer_class": {
+   "v": "vinyl_styrenic",
+   "inferred": "classification of the named polymer"
+  },
+  "catalyst": {
+   "v": "g-C3N4 (graphitic carbon nitride from urea)",
+   "loc": "Fig. 3 caption",
+   "s": "200 mg g-C3N4"
+  },
+  "light_source": {
+   "v": "300 W Xenon lamp (no filter stated)",
+   "loc": "Fig. 3 caption",
+   "s": "irradiated by 300 W Xenon lamp"
+  },
+  "light_color": {
+   "v": "white",
+   "inferred": "unfiltered Xe lamp: broadband emission including visible (>=380 nm); E3 allows Xe lamp without UV cut-on"
+  },
+  "irradiance": {
+   "v": 300,
+   "loc": "Fig. 3 caption",
+   "s": "300 W Xenon lamp"
+  },
+  "irradiance_unit": {
+   "v": "W (electrical lamp power)",
+   "inferred": "value is lamp power, not irradiance at sample"
+  },
+  "solvent": {
+   "v": "acetonitrile",
+   "loc": "Fig. 3 caption",
+   "s": "40 mL acetonitrile"
+  },
+  "atmosphere": {
+   "v": "O2",
+   "loc": "Fig. 3 caption",
+   "s": "10 bar O2"
+  },
+  "temperature_c": {
+   "v": 150,
+   "loc": "Fig. 3 caption",
+   "s": "at 150 °C for 8 h in each cycle"
+  }
+ },
+ "records": [
+  {
+   "rid": "a",
+   "primary_loc": "Results > Further improvement based on the reaction mechanism ¶2",
+   "fields": {
+    "polymer_detail": {
+     "v": "real-life PS pellets, 500 mg, circulatory (product-draining) batch system",
+     "loc": "Fig. 3 caption",
+     "s": "500 mg real-life PS pellets"
+    },
+    "catalyst_loading": {
+     "v": 200,
+     "loc": "Fig. 3 caption",
+     "s": "200 mg g-C3N4"
+    },
+    "catalyst_loading_unit": {
+     "v": "mg (per 500 mg PS)",
+     "inferred": "unit printed with the value"
+    },
+    "products": {
+     "v": "benzoic acid, acetophenone, benzaldehyde",
+     "loc": "Results > Further improvement based on the reaction mechanism ¶2",
+     "s": "74% benzoic acid, 15% acetophenone and 11% benzaldehyde"
+    },
+    "yield_basis": {
+     "v": "amounts in mg from 500 mg PS: 360 mg total aromatic oxygenates; 240 mg benzoic acid recovered by column chromatography",
+     "loc": "Results > Further improvement based on the reaction mechanism ¶2",
+     "s": "240 mg of benzoic acid was recovered from column chromatography separation"
+    },
+    "product_yields": [
+     {
+      "product": "aromatic oxygenates (benzoic acid + acetophenone + benzaldehyde)",
+      "v": 360,
+      "u": "mg",
+      "loc": "Results > Further improvement based on the reaction mechanism ¶2",
+      "s": "a total amount of 360 mg aromatic oxygenates",
+      "name_loc": "Results > Further improvement based on the reaction mechanism ¶2",
+      "name_s": "360 mg aromatic oxygenates were produced (74% benzoic acid, 15% acetophenone and 11% benzaldehyde)"
+     },
+     {
+      "product": "benzoic acid (isolated)",
+      "v": 240,
+      "u": "mg",
+      "loc": "Results > Further improvement based on the reaction mechanism ¶2",
+      "s": "240 mg of benzoic acid was recovered",
+      "name_loc": "Results > Further improvement based on the reaction mechanism ¶2",
+      "name_s": "240 mg of benzoic acid was recovered from column chromatography separation"
+     }
+    ]
+   },
+   "notes": "Circulatory system: 8 h per cycle with solution drained and solvent replenished after each cycle; 20 cycles shown (Fig. 3 caption), steady rate for 18 cycles. Total irradiation time is not stated as a single value, so no time is recorded. 90% of pellets converted (no field). Split 74/15/11% of the 360 mg given without stated basis; not recorded as separate yields. [adjudicated yield_basis: located]"
+  }
+ ],
+ "excluded_observations": [
+  {
+   "what": "Table 1 entries 1-11 (catalyst/solvent screen, incl. entry 11 with 400-800 nm filter: conversion 91 ± 6%, selectivity 61 ± 5%)",
+   "why": "Conversion is a carbon-based lumped metric including COx and selectivity is lumped over three products; no yield of an identified product is given; per-product distribution only in Fig. 1a.",
+   "loc": "Table 1"
+  },
+  {
+   "what": "Table 1 entry 6 (no light) 'not detected'",
+   "why": "Dark control reported only as conversion not detected; no product yield value.",
+   "loc": "Table 1 r6"
+  },
+  {
+   "what": "GPC Mw of recovered PS vs time",
+   "why": "Only in Fig. 1c; text is qualitative (Mw increases in induction period).",
+   "loc": "Results > Study on the mechanism of photocatalytic oxidation of polystyrene ¶1"
+  },
+  {
+   "what": "'yield of 60% towards organic products'",
+   "why": "Lumped organics, no condition or time attached.",
+   "loc": "Discussion ¶1"
+  },
+  {
+   "what": "Flow (WHSV) selectivities: benzaldehyde 51%, acetophenone 31%, benzoic acid 18-74%",
+   "why": "Liquid-phase selectivities, not yields; substrate is pyrolysis-pretreated PS.",
+   "loc": "Results > Further improvement based on the reaction mechanism ¶4"
+  },
+  {
+   "what": "Pretreated PS (PS-O, PS-1, PS-2, PS-3) performance; 80% benzoic acid selectivity for PS-1",
+   "why": "Values in Fig. 3c only; text gives selectivity, not yield.",
+   "loc": "Results > Further improvement based on the reaction mechanism ¶3"
+  },
+  {
+   "what": "Different PS molecular weights and real-life plastics (Supplementary Table 3); O2-pressure and temperature series (Supplementary Figs. 8-9); production rates 0.45-0.90 mmolcarbon/gcat/h",
+   "why": "SI or rates without identified-product yield.",
+   "loc": "Results > Optimization of reaction conditions for photocatalytic oxidation of polystyrene ¶2"
+  }
+ ]
+}

@@ -1,0 +1,601 @@
+{
+ "pmcid": "PMC9586668",
+ "verifier": "Claude (AI) independent verifier 1, 2026-10-12",
+ "tasks": [
+  {
+   "rid": "a",
+   "values": {
+    "atmosphere": {
+     "v": "N2",
+     "loc": "2 Experimental > 2.1 Materials ¶1",
+     "s": "All reactions were performed under an inert atmosphere of nitrogen"
+    },
+    "catalyst": {
+     "v": "Mn2(CO)10",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "12,4 mg Mn2(CO)10"
+    },
+    "concentration": {
+     "v": 0.065,
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "PMMA derivative (0,065 M)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "(0,065 M)"
+    },
+    "light_source": {
+     "v": "photoreactor (400 nm)",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "Mixtures were irradiated in a photoreactor"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "Calibrations were done by polystyrene standards"
+    },
+    "sec_detector": {
+     "v": "RI",
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "a refractive index (RI) detector"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "1.0 mL.min-1 of tetrahydrofuran was utilized as the eluent"
+    },
+    "sec_temperature_c": {
+     "v": 40,
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "at a temperature of 40°C"
+    },
+    "polymer": {
+     "v": "poly(methyl methacrylate)",
+     "loc": "Table 2. r1 c1",
+     "s": "PMMA-Cl1"
+    },
+    "polymer_detail": {
+     "v": "PMMA-Cl1",
+     "loc": "Table 2. r1 c1",
+     "s": "PMMA-Cl1"
+    },
+    "mn_before": {
+     "v": 67000,
+     "loc": "Table 2. r1 c3",
+     "s": "67,000"
+    },
+    "mn_after": {
+     "v": 53000,
+     "loc": "Table 2. r1 c4",
+     "s": "53,000"
+    },
+    "disp_before": {
+     "v": 1.4,
+     "loc": "Table 2. r1 c5",
+     "s": "1.4"
+    },
+    "disp_after": {
+     "v": 1.4,
+     "loc": "Table 2. r1 c6",
+     "s": "1.4"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 2. h c3",
+     "s": "Mnc(g.mol-1)"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 2. h c4",
+     "s": "Mnc(g.mol-1)"
+    },
+    "solvent": {
+     "v": "toluene",
+     "loc": "Table 2. footnote",
+     "s": "[Mn2(CO)10]:[Polymer]:[Tol.] = 1:2:2300"
+    },
+    "time": {
+     "v": 6,
+     "loc": "Table 2. footnote",
+     "s": "[Mn2(CO)10]:[Polymer]:[Tol.] = 1:2:2300 irradiated at 400 nm for 6 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 2. footnote",
+     "s": "for 6 h"
+    },
+    "wavelength_nm": {
+     "v": 400,
+     "loc": "Table 2. footnote",
+     "s": "irradiated at 400 nm"
+    },
+    "temperature_c": {
+     "v": 23,
+     "loc": "Table 2. r1 c2",
+     "s": "23"
+    }
+   },
+   "yields": {},
+   "concerns": [
+    "Table 2 r1 repeats exactly the Table 1 r1 data (PMMA-Cl1, 67,000->53,000, 1,4/1,4); Table 1 r1 has no separate task, which is correct if it is treated as the same experiment.",
+    "Concentration 0.065 M (Methods) is inconsistent with the stated ratio [Mn2(CO)10]:[Polymer]=1:2 and 12.4 mg Mn2(CO)10 in 6.7 mL (would give ~0.0095 M chains); 0.065 M may be per repeat unit or simply wrong.",
+    "Atmosphere: Materials says nitrogen; Methods ¶4 only says oxygen removed by Schlenk techniques (could be coded 'degassed').",
+    "Light source is only 'a photoreactor'; no lamp type, power or irradiance given. Time stated as '6 h' in footnote; Methods says 'up to 6 h'."
+   ]
+  },
+  {
+   "rid": "b",
+   "values": {
+    "atmosphere": {
+     "v": "N2",
+     "loc": "2 Experimental > 2.1 Materials ¶1",
+     "s": "All reactions were performed under an inert atmosphere of nitrogen"
+    },
+    "catalyst": {
+     "v": "Mn2(CO)10",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "12,4 mg Mn2(CO)10"
+    },
+    "concentration": {
+     "v": 0.065,
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "PMMA derivative (0,065 M)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "(0,065 M)"
+    },
+    "light_source": {
+     "v": "photoreactor (400 nm)",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "Mixtures were irradiated in a photoreactor"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "Calibrations were done by polystyrene standards"
+    },
+    "sec_detector": {
+     "v": "RI",
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "a refractive index (RI) detector"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "1.0 mL.min-1 of tetrahydrofuran was utilized as the eluent"
+    },
+    "sec_temperature_c": {
+     "v": 40,
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "at a temperature of 40°C"
+    },
+    "polymer": {
+     "v": "poly(methyl methacrylate)",
+     "loc": "Table 1. r2 c1",
+     "s": "PMMA-Br"
+    },
+    "polymer_detail": {
+     "v": "PMMA-Br",
+     "loc": "Table 1. r2 c1",
+     "s": "PMMA-Br"
+    },
+    "mn_before": {
+     "v": 5400,
+     "loc": "Table 1. r2 c2",
+     "s": "5400"
+    },
+    "mn_after": {
+     "v": 5400,
+     "loc": "Table 1. r2 c3",
+     "s": "5400"
+    },
+    "disp_before": {
+     "v": 1.2,
+     "loc": "Table 1. r2 c4",
+     "s": "1,2"
+    },
+    "disp_after": {
+     "v": 1.3,
+     "loc": "Table 1. r2 c5",
+     "s": "1,3"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 1. h c2",
+     "s": "Mnb(g.mol-1)"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 1. h c3",
+     "s": "Mnb(g.mol-1)"
+    },
+    "solvent": {
+     "v": "toluene",
+     "loc": "Table 1. footnote",
+     "s": "[Mn2(CO)10]:[Polymer]:[Tol.] = 1:2:2300"
+    },
+    "time": {
+     "v": 6,
+     "loc": "Table 1. footnote",
+     "s": "[Mn2(CO)10]:[Polymer]:[Tol.] = 1:2:2300 irradiated at 400 nm for 6 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 1. footnote",
+     "s": "for 6 h"
+    },
+    "wavelength_nm": {
+     "v": 400,
+     "loc": "Table 1. footnote",
+     "s": "irradiated at 400 nm"
+    }
+   },
+   "yields": {},
+   "concerns": [
+    "Polymer is PMMA-Br (bromine chain end), not the Cl-terminated PMMA of the other records; Mn unchanged (5400 -> 5400) and text says coupling/chain extension, so this is essentially a no-depolymerization result.",
+    "Dispersity printed with decimal comma ('1,2', '1,3').",
+    "Temperature not given in Table 1; Figure 1 caption says 'ambient temperature' (not requested here)."
+   ]
+  },
+  {
+   "rid": "c",
+   "values": {
+    "atmosphere": {
+     "v": "N2",
+     "loc": "2 Experimental > 2.1 Materials ¶1",
+     "s": "All reactions were performed under an inert atmosphere of nitrogen"
+    },
+    "catalyst": {
+     "v": "Mn2(CO)10",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "12,4 mg Mn2(CO)10"
+    },
+    "concentration": {
+     "v": 0.065,
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "PMMA derivative (0,065 M)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "(0,065 M)"
+    },
+    "light_source": {
+     "v": "photoreactor (400 nm)",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "Mixtures were irradiated in a photoreactor"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "Calibrations were done by polystyrene standards"
+    },
+    "sec_detector": {
+     "v": "RI",
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "a refractive index (RI) detector"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "1.0 mL.min-1 of tetrahydrofuran was utilized as the eluent"
+    },
+    "sec_temperature_c": {
+     "v": 40,
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "at a temperature of 40°C"
+    },
+    "polymer": {
+     "v": "poly(methyl methacrylate-co-glycidyl methacrylate)",
+     "loc": "Table 1. r3 c1",
+     "s": "PMMA-co-PGMA-Cl"
+    },
+    "polymer_detail": {
+     "v": "PMMA-co-PGMA-Cl",
+     "loc": "Table 1. r3 c1",
+     "s": "PMMA-co-PGMA-Cl"
+    },
+    "mn_before": {
+     "v": 5100,
+     "loc": "Table 1. r3 c2",
+     "s": "5100"
+    },
+    "mn_after": {
+     "v": 4600,
+     "loc": "Table 1. r3 c3",
+     "s": "4600"
+    },
+    "disp_before": {
+     "v": 1.2,
+     "loc": "Table 1. r3 c4",
+     "s": "1,2"
+    },
+    "disp_after": {
+     "v": 1.3,
+     "loc": "Table 1. r3 c5",
+     "s": "1,3"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 1. h c2",
+     "s": "Mnb(g.mol-1)"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 1. h c3",
+     "s": "Mnb(g.mol-1)"
+    },
+    "solvent": {
+     "v": "toluene",
+     "loc": "Table 1. footnote",
+     "s": "[Mn2(CO)10]:[Polymer]:[Tol.] = 1:2:2300"
+    },
+    "time": {
+     "v": 6,
+     "loc": "Table 1. footnote",
+     "s": "[Mn2(CO)10]:[Polymer]:[Tol.] = 1:2:2300 irradiated at 400 nm for 6 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 1. footnote",
+     "s": "for 6 h"
+    },
+    "wavelength_nm": {
+     "v": 400,
+     "loc": "Table 1. footnote",
+     "s": "irradiated at 400 nm"
+    }
+   },
+   "yields": {},
+   "concerns": [
+    "Copolymer initiated with alpha-chloroethylbutyrate (Methods ¶3), not benzyl chloride; GMA fraction only as feed (0,66 mL GMA / 10 mL MMA)."
+   ]
+  },
+  {
+   "rid": "d",
+   "values": {
+    "atmosphere": {
+     "v": "N2",
+     "loc": "2 Experimental > 2.1 Materials ¶1",
+     "s": "All reactions were performed under an inert atmosphere of nitrogen"
+    },
+    "catalyst": {
+     "v": "Mn2(CO)10",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "12,4 mg Mn2(CO)10"
+    },
+    "concentration": {
+     "v": 0.065,
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "PMMA derivative (0,065 M)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "(0,065 M)"
+    },
+    "light_source": {
+     "v": "photoreactor (400 nm)",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "Mixtures were irradiated in a photoreactor"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "Calibrations were done by polystyrene standards"
+    },
+    "sec_detector": {
+     "v": "RI",
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "a refractive index (RI) detector"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "1.0 mL.min-1 of tetrahydrofuran was utilized as the eluent"
+    },
+    "sec_temperature_c": {
+     "v": 40,
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "at a temperature of 40°C"
+    },
+    "polymer": {
+     "v": "poly(methyl methacrylate)",
+     "loc": "Table 2. r2 c1",
+     "s": "PMMA-Cl2"
+    },
+    "polymer_detail": {
+     "v": "PMMA-Cl2",
+     "loc": "Table 2. r2 c1",
+     "s": "PMMA-Cl2"
+    },
+    "mn_before": {
+     "v": 56000,
+     "loc": "Table 2. r2 c3",
+     "s": "56,000"
+    },
+    "mn_after": {
+     "v": 41000,
+     "loc": "Table 2. r2 c4",
+     "s": "41,000"
+    },
+    "disp_before": {
+     "v": 1.3,
+     "loc": "Table 2. r2 c5",
+     "s": "1.3"
+    },
+    "disp_after": {
+     "v": 1.7,
+     "loc": "Table 2. r2 c6",
+     "s": "1.7"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 2. h c3",
+     "s": "Mnc(g.mol-1)"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 2. h c4",
+     "s": "Mnc(g.mol-1)"
+    },
+    "solvent": {
+     "v": "toluene",
+     "loc": "Table 2. footnote",
+     "s": "[Mn2(CO)10]:[Polymer]:[Tol.] = 1:2:2300"
+    },
+    "time": {
+     "v": 6,
+     "loc": "Table 2. footnote",
+     "s": "[Mn2(CO)10]:[Polymer]:[Tol.] = 1:2:2300 irradiated at 400 nm for 6 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 2. footnote",
+     "s": "for 6 h"
+    },
+    "wavelength_nm": {
+     "v": 400,
+     "loc": "Table 2. footnote",
+     "s": "irradiated at 400 nm"
+    },
+    "temperature_c": {
+     "v": 90,
+     "loc": "Table 2. r2 c2",
+     "s": "90"
+    }
+   },
+   "yields": {},
+   "concerns": [
+    "Run at 90 °C: photothermal, not ambient; different polymer sample (PMMA-Cl2) from record a."
+   ]
+  },
+  {
+   "rid": "e",
+   "values": {
+    "atmosphere": {
+     "v": "N2",
+     "loc": "2 Experimental > 2.1 Materials ¶1",
+     "s": "All reactions were performed under an inert atmosphere of nitrogen"
+    },
+    "catalyst": {
+     "v": "Mn2(CO)10",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "12,4 mg Mn2(CO)10"
+    },
+    "concentration": {
+     "v": 0.065,
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "PMMA derivative (0,065 M)"
+    },
+    "concentration_unit": {
+     "v": "M",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "(0,065 M)"
+    },
+    "light_source": {
+     "v": "photoreactor (400 nm)",
+     "loc": "2 Experimental > Methods ¶4",
+     "s": "Mixtures were irradiated in a photoreactor"
+    },
+    "sec_calibration": {
+     "v": "conventional_PS",
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "Calibrations were done by polystyrene standards"
+    },
+    "sec_detector": {
+     "v": "RI",
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "a refractive index (RI) detector"
+    },
+    "sec_eluent": {
+     "v": "THF",
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "1.0 mL.min-1 of tetrahydrofuran was utilized as the eluent"
+    },
+    "sec_temperature_c": {
+     "v": 40,
+     "loc": "2 Experimental > Characterization ¶1",
+     "s": "at a temperature of 40°C"
+    },
+    "polymer": {
+     "v": "poly(methyl methacrylate)",
+     "loc": "Table 2. r3 c1",
+     "s": "PMMA-Cl2"
+    },
+    "polymer_detail": {
+     "v": "PMMA-Cl2",
+     "loc": "Table 2. r3 c1",
+     "s": "PMMA-Cl2"
+    },
+    "mn_before": {
+     "v": 56000,
+     "loc": "Table 2. r3 c3",
+     "s": "56,000"
+    },
+    "mn_after": {
+     "v": 33000,
+     "loc": "Table 2. r3 c4",
+     "s": "33,000"
+    },
+    "disp_before": {
+     "v": 1.3,
+     "loc": "Table 2. r3 c5",
+     "s": "1.3"
+    },
+    "disp_after": {
+     "v": 2.0,
+     "loc": "Table 2. r3 c6",
+     "s": "2.0"
+    },
+    "mass_unit_before": {
+     "v": "g/mol",
+     "loc": "Table 2. h c3",
+     "s": "Mnc(g.mol-1)"
+    },
+    "mass_unit_after": {
+     "v": "g/mol",
+     "loc": "Table 2. h c4",
+     "s": "Mnc(g.mol-1)"
+    },
+    "solvent": {
+     "v": "p-dichlorobenzene",
+     "loc": "Table 2. footnote",
+     "s": "[Mn2(CO)10]:[Polymer]:[p-DCB] = 1:2:2300"
+    },
+    "time": {
+     "v": 6,
+     "loc": "Table 2. footnote",
+     "s": "[Mn2(CO)10]:[Polymer]:[p-DCB] = 1:2:2300 irradiated at 400 nm for 6 h"
+    },
+    "time_unit": {
+     "v": "h",
+     "loc": "Table 2. footnote",
+     "s": "for 6 h"
+    },
+    "wavelength_nm": {
+     "v": 400,
+     "loc": "Table 2. footnote",
+     "s": "irradiated at 400 nm"
+    },
+    "temperature_c": {
+     "v": 170,
+     "loc": "Table 2. r3 c2",
+     "s": "170"
+    }
+   },
+   "yields": {},
+   "concerns": [
+    "Run at 170 °C in p-DCB; no dark control at 170 °C reported, so thermal contribution cannot be separated (text ¶1 says no depolymerization in dark, without temperature)."
+   ]
+  }
+ ],
+ "paper_concerns": [
+  "'20% depolymerization yield' (Results ¶2, for PMMA-Cl1) and '~40% depolymerization' from 1H NMR (Results ¶6, called unreliable) are not captured as yields in any task.",
+  "Dark control stated qualitatively only ('No depolymerization has been observed in dark conditions for any polymer samples', Results ¶1) with no numbers; could be a control record but has no values.",
+  "Light source characterisation minimal (wavelength 400 nm only)."
+ ]
+}

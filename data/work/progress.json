@@ -1,0 +1,31 @@
+{
+ "updated": "2026-10-14T20:17:29",
+ "stages": {
+  "fetch": "skipped (corpus present; use --refresh)",
+  "candidates": "ok",
+  "triage": "ok",
+  "screen": "ok",
+  "ai_stages": "ok",
+  "verify_deterministic": "ok",
+  "verify_blind_compare": "ok",
+  "adjudications": "ok",
+  "verify_after_adjudication": "ok",
+  "compare_after_adjudication": "ok",
+  "build_records": "ok",
+  "screen_final": "ok",
+  "validate": "ok",
+  "harmonize": "ok",
+  "qa": "ok",
+  "figures": "ok",
+  "docs": "ok",
+  "readiness": "ok",
+  "package": "ok",
+  "licenses": "ok"
+ },
+ "scientifically_ready": true,
+ "release_authorized": true,
+ "n_included_papers": 10,
+ "n_records_released": 87,
+ "n_unresolved": 0,
+ "n_in_scope_no_fulltext": 61
+}

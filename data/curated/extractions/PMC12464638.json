@@ -1,0 +1,418 @@
+{
+ "paper_key": "PMC12464638",
+ "paper_id": "10.1002/adma.202506733",
+ "doi": "10.1002/adma.202506733",
+ "pmcid": "PMC12464638",
+ "source_license": "cc by",
+ "extractor": "Claude (AI) extraction agent B, 2026-10-12",
+ "extraction_method": "table + text",
+ "screen": {
+  "decision": "include",
+  "criteria": "E1-E6 pass",
+  "confidence": "high",
+  "rationale": "Primary study; designed polypinacol P5 depolymerized to its monomer M5 by CeCl3 photocatalysis under 450 nm LED; monomer yields (1H NMR) in Table 2 with controls, plus isolated yield in text.",
+  "evidence_loc": "Table 2"
+ },
+ "shared": {
+  "polymer": {
+   "v": "polypinacol",
+   "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+   "s": "cleave our polypinacols"
+  },
+  "polymer_class": {
+   "v": "designed_degradable",
+   "inferred": "designed polypinacol (1,2-diol backbone) built for light-driven closed-loop recycling"
+  },
+  "polymer_detail": {
+   "v": "P5: polypinacol from bis-aldehyde M5 (aromatic aldehydes joined by an alkyl spacer), made by 365 nm photopolymerization",
+   "loc": "Result and Discussion > Substrate Scope ¶1",
+   "s": "incorporating an alkyl spacer between the aromatic aldehyde groups"
+  },
+  "catalyst": {
+   "v": "CeCl3·7H2O",
+   "loc": "Table 2 footnote",
+   "s": "CeCl3∙7H2O (10 mol%)"
+  },
+  "catalyst_loading": {
+   "v": 10,
+   "loc": "Table 2 footnote",
+   "s": "CeCl3∙7H2O (10 mol%)"
+  },
+  "catalyst_loading_unit": {
+   "v": "mol%",
+   "inferred": "unit printed with the value"
+  },
+  "cocatalyst_additives": {
+   "v": "TBACl (50 mol%) + molecular sieve powder",
+   "loc": "Table 2 footnote",
+   "s": "TBACl (50 mol%), mol sieve powder"
+  },
+  "light_source": {
+   "v": "450 nm LED",
+   "loc": "Table 2 footnote",
+   "s": "450 nm LED"
+  },
+  "wavelength_nm": {
+   "v": 450,
+   "loc": "Table 2 footnote",
+   "s": "450 nm LED"
+  },
+  "light_color": {
+   "v": "blue",
+   "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+   "s": "blue light (450 nm)"
+  },
+  "solvent": {
+   "v": "DMSO-d6 (1.0 mL; P5 0.066 mmol)",
+   "loc": "Table 2 footnote",
+   "s": "1.0 mL of DMSO-d6"
+  },
+  "time": {
+   "v": 52,
+   "loc": "Table 2 footnote",
+   "s": "450 nm LED, 52 h"
+  },
+  "time_unit": {
+   "v": "h",
+   "inferred": "unit printed with the value"
+  },
+  "yield_basis": {
+   "v": "1H NMR vs dimethyl terephthalate internal standard",
+   "loc": "Table 2 footnote",
+   "s": "Determined by 1H-NMR analysis using dimethyl terephthalate as internal standard"
+  },
+  "products": {
+   "v": "M5 (original bis-aldehyde monomer)",
+   "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+   "s": "the original monomer M5"
+  }
+ },
+ "records": [
+  {
+   "rid": "a",
+   "primary_loc": "Table 2 r1",
+   "fields": {
+    "product_yields": [
+     {
+      "product": "M5 (original bis-aldehyde monomer)",
+      "v": 82.0,
+      "u": "%",
+      "loc": "Table 2 r1 c3",
+      "s": "82",
+      "name_loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+      "name_s": "the original monomer M5"
+     }
+    ]
+   },
+   "notes": "Standard conditions; also stated in text (82% of M5), recorded once. Atmosphere not specified in standard conditions; text states oxygen is required (entry 10)."
+  },
+  {
+   "rid": "b",
+   "primary_loc": "Table 2 r2",
+   "fields": {
+    "catalyst_loading": {
+     "v": 5,
+     "loc": "Table 2 r2 c2",
+     "s": "5 mol% CeCl3∙7H2O"
+    },
+    "product_yields": [
+     {
+      "product": "M5 (original bis-aldehyde monomer)",
+      "v": 79.0,
+      "u": "%",
+      "loc": "Table 2 r2 c3",
+      "s": "79",
+      "name_loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+      "name_s": "the original monomer M5"
+     }
+    ]
+   }
+  },
+  {
+   "rid": "c",
+   "primary_loc": "Table 2 r3",
+   "fields": {
+    "catalyst_loading": {
+     "v": 2,
+     "loc": "Table 2 r3 c2",
+     "s": "2 mol% CeCl3∙7H2O"
+    },
+    "product_yields": [
+     {
+      "product": "M5 (original bis-aldehyde monomer)",
+      "v": 71.0,
+      "u": "%",
+      "loc": "Table 2 r3 c3",
+      "s": "71",
+      "name_loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+      "name_s": "the original monomer M5"
+     }
+    ]
+   }
+  },
+  {
+   "rid": "d",
+   "primary_loc": "Table 2 r4",
+   "fields": {
+    "cocatalyst_additives": {
+     "v": "TBACl (25 mol%) + molecular sieve powder",
+     "loc": "Table 2 r4 c2",
+     "s": "TBACl (25 mol%)"
+    },
+    "product_yields": [
+     {
+      "product": "M5 (original bis-aldehyde monomer)",
+      "v": 71.0,
+      "u": "%",
+      "loc": "Table 2 r4 c3",
+      "s": "71",
+      "name_loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+      "name_s": "the original monomer M5"
+     }
+    ]
+   }
+  },
+  {
+   "rid": "e",
+   "primary_loc": "Table 2 r5",
+   "fields": {
+    "cocatalyst_additives": {
+     "v": "TBACl (10 mol%) + molecular sieve powder",
+     "loc": "Table 2 r5 c2",
+     "s": "TBACl (10 mol%)"
+    },
+    "product_yields": [
+     {
+      "product": "M5 (original bis-aldehyde monomer)",
+      "v": 66.0,
+      "u": "%",
+      "loc": "Table 2 r5 c3",
+      "s": "66",
+      "name_loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+      "name_s": "the original monomer M5"
+     }
+    ]
+   }
+  },
+  {
+   "rid": "f",
+   "primary_loc": "Table 2 r6",
+   "is_control": true,
+   "fields": {
+    "cocatalyst_additives": {
+     "v": "molecular sieve powder only (no TBACl)",
+     "loc": "Table 2 r6 c2",
+     "s": "No TBACl"
+    },
+    "product_yields": [
+     {
+      "product": "M5 (original bis-aldehyde monomer)",
+      "v": 61.0,
+      "u": "%",
+      "loc": "Table 2 r6 c3",
+      "s": "61",
+      "name_loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+      "name_s": "the original monomer M5"
+     }
+    ]
+   },
+   "notes": "control: no TBACl additive"
+  },
+  {
+   "rid": "g",
+   "primary_loc": "Table 2 r7",
+   "fields": {
+    "solvent": {
+     "v": "DMSO-d6 (0.5 mL; P5 0.066 mmol)",
+     "loc": "Table 2 r7 c2",
+     "s": "0.5 mL DMSO-d6"
+    },
+    "product_yields": [
+     {
+      "product": "M5 (original bis-aldehyde monomer)",
+      "v": 72.0,
+      "u": "%",
+      "loc": "Table 2 r7 c3",
+      "s": "72",
+      "name_loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+      "name_s": "the original monomer M5"
+     }
+    ]
+   },
+   "notes": "Higher concentration (half solvent volume)."
+  },
+  {
+   "rid": "h",
+   "primary_loc": "Table 2 r8",
+   "is_control": true,
+   "fields": {
+    "cocatalyst_additives": {
+     "v": "TBACl (50 mol%), no molecular sieves",
+     "loc": "Table 2 r8 c2",
+     "s": "No MS"
+    },
+    "product_yields": [
+     {
+      "product": "M5 (original bis-aldehyde monomer)",
+      "v": 48.0,
+      "u": "%",
+      "loc": "Table 2 r8 c3",
+      "s": "48",
+      "name_loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+      "name_s": "the original monomer M5"
+     }
+    ]
+   },
+   "notes": "control: no molecular sieves"
+  },
+  {
+   "rid": "i",
+   "primary_loc": "Table 2 r9",
+   "is_control": true,
+   "fields": {
+    "light_source": {
+     "v": "none (dark)",
+     "loc": "Table 2 r9 c2",
+     "s": "No light"
+    },
+    "wavelength_nm": null,
+    "light_color": null,
+    "product_yields": [
+     {
+      "product": "M5 (original bis-aldehyde monomer)",
+      "v": 0.0,
+      "u": "%",
+      "loc": "Table 2 r9 c3",
+      "s": "0",
+      "name_loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+      "name_s": "the original monomer M5"
+     }
+    ]
+   },
+   "notes": "control: no light"
+  },
+  {
+   "rid": "j",
+   "primary_loc": "Table 2 r10",
+   "is_control": true,
+   "fields": {
+    "atmosphere": {
+     "v": "Ar",
+     "loc": "Table 2 r10 c2",
+     "s": "Argon atmosphere"
+    },
+    "product_yields": [
+     {
+      "product": "M5 (original bis-aldehyde monomer)",
+      "v": 0.0,
+      "u": "%",
+      "loc": "Table 2 r10 c3",
+      "s": "0",
+      "name_loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+      "name_s": "the original monomer M5"
+     }
+    ]
+   },
+   "notes": "control: argon instead of oxygen"
+  },
+  {
+   "rid": "k",
+   "primary_loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶4",
+   "fields": {
+    "polymer_detail": {
+     "v": "P5, large-scale depolymerization under the optimized conditions",
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶4",
+     "s": "large-scale depolymerization of P5"
+    },
+    "solvent": {
+     "v": "DMSO-d6",
+     "loc": "Table 2 footnote",
+     "s": "1.0 mL of DMSO-d6"
+    },
+    "time": null,
+    "yield_basis": {
+     "v": "isolated yield",
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶4",
+     "s": "isolated M5 in 70% yield"
+    },
+    "product_yields": [
+     {
+      "product": "M5 (original bis-aldehyde monomer)",
+      "v": 70.0,
+      "u": "%",
+      "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶4",
+      "s": "isolated M5 in 70% yield",
+      "name_loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+      "name_s": "the original monomer M5"
+     }
+    ]
+   },
+   "notes": "'under the optimized conditions'; scale and reaction time not stated in main text, time not recorded. Recovered M5 repolymerized to rP5."
+  },
+  {
+   "rid": "l",
+   "primary_loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶4",
+   "fields": {
+    "polymer_detail": {
+     "v": "P5 depolymerized in the presence of added polystyrene pieces (orthogonal recycling test)",
+     "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶4",
+     "s": "with the addition of polystyrene (PS)"
+    },
+    "solvent": {
+     "v": "DMSO-d6",
+     "loc": "Table 2 footnote",
+     "s": "1.0 mL of DMSO-d6"
+    },
+    "time": null,
+    "yield_basis": {
+     "v": "not_stated",
+     "inferred": "yield method not given for this experiment in main text"
+    },
+    "product_yields": [
+     {
+      "product": "M5 (original bis-aldehyde monomer)",
+      "v": 81.0,
+      "u": "%",
+      "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶4",
+      "s": "M5 was obtained in 81% yield",
+      "name_loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶2",
+      "name_s": "the original monomer M5"
+     }
+    ]
+   },
+   "notes": "'under the same conditions' as the large-scale run; time and scale not stated, time not recorded. PS recovered without Mn decrease (shown only in Figure 5h)."
+  }
+ ],
+ "excluded_observations": [
+  {
+   "what": "Table 1 (photopolymerization screen, 365 nm)",
+   "why": "Polymer synthesis, not deconstruction.",
+   "loc": "Table 1"
+  },
+  {
+   "what": "P5 molar mass before depolymerization and GPC time course over 120 min",
+   "why": "Values only in Figure 3b / Figure 5b and SI Table S2.",
+   "loc": "Figure 5 caption"
+  },
+  {
+   "what": "Light on/off cycling monomer generation",
+   "why": "Values only in Figure 5c / SI Figure S7.",
+   "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶3"
+  },
+  {
+   "what": "PS molar mass before/after in orthogonal-recycling test",
+   "why": "Only in Figure 5h; text states no decrease qualitatively.",
+   "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶4"
+  },
+  {
+   "what": "rP5 molar mass (6,480 g/mol)",
+   "why": "Repolymerized material, not a deconstruction endpoint.",
+   "loc": "Result and Discussion > Closed-Loop Photochemical Recycling ¶4"
+  },
+  {
+   "what": "Atmosphere for standard conditions",
+   "why": "Not stated (text says oxygen required); not recorded rather than guessed as air or O2.",
+   "loc": "Table 2 footnote"
+  }
+ ]
+}

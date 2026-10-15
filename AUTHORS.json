@@ -1,16 +1,18 @@
 {
-  "_comment": "Author block. README, CITATION.cff, Zenodo creators, commit identity and any manuscript read from here. [VERIFY] Boris fills every field; nothing here may be guessed.",
-  "authors": [
-    {
-      "name": "[VERIFY: full name as it should appear]",
-      "family": "[VERIFY: family name]",
-      "given": "[VERIFY: given name]",
-      "orcid": "[VERIFY: 0000-0000-0000-0000]",
-      "email": "[VERIFY: contact email for the record]",
-      "affiliation": "[VERIFY: affiliation, or Independent Researcher, City, State, USA]",
-      "roles": ["Conceptualization", "Methodology", "Data curation", "Validation", "Writing - original draft"],
-      "corresponding": true
-    }
-  ],
-  "collaborators": []
+ "_comment": "Author block; README, CITATION.cff, Zenodo creators and LICENSE read from here.",
+ "authors": [
+  {
+   "name": "Boris Ekonde Cobbold",
+   "family": "Cobbold",
+   "given": "Boris Ekonde",
+   "affiliation": "Independent Researcher",
+   "roles": [
+    "Conceptualization",
+    "Validation"
+   ],
+   "corresponding": true
+  }
+ ],
+ "collaborators": [],
+ "ai_assistance": "Screening, extraction, verification, harmonization decisions (except those escalated), QA, code and documentation by Claude (Anthropic) under author delegation, 2026-10-07 to 2026-10-12."
 }

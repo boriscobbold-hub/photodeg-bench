@@ -1,0 +1,106 @@
+{
+ "pmcid": "PMC9295126",
+ "verifier": "Claude (AI) independent verifier 4, 2026-10-12",
+ "tasks": [
+  {
+   "rid": "c",
+   "values": {
+    "time": {
+     "v": 16,
+     "loc": "Table 1 footnote a/b; Results PS deconstruction para 2",
+     "s": "benzoic acid, with yields of 30 ± 2% at 16 h ... Gaseous CO (21% yield) and CO2 (7.5% yield) were detected in the headspace of the reactor after 16 h"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 30,
+     "u": "%",
+     "loc": "Table 1 entry 1; footnote b; Results para 2",
+     "s": "30 ± 2% yield at 16 h, 38 ± 3% yield at 48 h"
+    },
+    "CO": {
+     "v": 21,
+     "u": "%",
+     "loc": "Results PS deconstruction para 2",
+     "s": "Gaseous CO (21% yield) and CO2 (7.5% yield) were detected in the headspace of the reactor after 16 h"
+    },
+    "CO2": {
+     "v": 7.5,
+     "u": "%",
+     "loc": "Results PS deconstruction para 2",
+     "s": "Gaseous CO (21% yield) and CO2 (7.5% yield) were detected in the headspace of the reactor after 16 h"
+    }
+   },
+   "concerns": [
+    "Benzoic acid reported as 30 ± 2% (triplicate SD 2). CO/CO2 yields given as single values without stated basis beyond the general yield definition."
+   ]
+  },
+  {
+   "rid": "n",
+   "values": {
+    "catalyst": {
+     "v": "recycled fluorenone (recovered from a 24 h reaction mixture by flash chromatography, 95% separation yield)",
+     "loc": "Results para 2; Experimental Product Separation and Photocatalyst Recycling",
+     "s": "The photocatalyst can also be recycled from a 24 h reaction mixture with a separation yield of 95% ... the recycled photocatalyst can still give a 34% yield of benzoic acid after a second 24 h reaction"
+    },
+    "time": {
+     "v": 24,
+     "loc": "Results para 2",
+     "s": "after a second 24 h reaction"
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 34,
+     "u": "%",
+     "loc": "Results para 2 (Figure S13)",
+     "s": "the recycled photocatalyst can still give a 34% yield of benzoic acid after a second 24 h reaction"
+    }
+   },
+   "concerns": [
+    "Reaction conditions of the recycle run (catalyst amount after 95% recovery, acid, scale) are not stated in the main text; presumably standard conditions (Figure S13 in SI)."
+   ]
+  },
+  {
+   "rid": "o",
+   "values": {
+    "catalyst": {
+     "v": "H (N-hydroxyphthalimide, NHPI) + carbon nitride (cyanamide-functionalized NCN-CNx) as light absorber",
+     "loc": "Table 1 entry 15, footnote d; Results para 4; Experimental Photochemistry para 3",
+     "s": "5.5% benzoic acid was produced when compound H (N-hydroxyphthalimide, NHPI) was used in combination with carbon nitride"
+    },
+    "catalyst_loading": {
+     "v": 20,
+     "loc": "Table 1 entry 15",
+     "s": "H (20 mol %)"
+    },
+    "cocatalyst_additives": {
+     "v": "no H2SO4 (0 equiv); carbon nitride 10 mg per Table 1 footnote d (5.0 mg per Experimental)",
+     "loc": "Table 1 entry 15, footnote d; Experimental Photochemistry para 3",
+     "s": "dCarbon nitride (10 mg) was used together with H. / NCN-CNx, 5.0 mg ... except that no H2SO4 was used"
+    },
+    "time": {
+     "v": 16,
+     "loc": "Table 1 footnote a",
+     "s": "a2 mL EtOAc, 16 h reaction."
+    }
+   },
+   "yields": {
+    "benzoic acid": {
+     "v": 5.5,
+     "u": "%",
+     "loc": "Table 1 entry 15; Results para 4",
+     "s": "15 | 0.1 M | H (20 mol %) | 0 equiv | O2 balloon | blue LED | 5.5%d"
+    }
+   },
+   "concerns": [
+    "Carbon nitride mass inconsistent: Table 1 footnote d says 10 mg, Experimental Section says NCN-CNx 5.0 mg.",
+    "Entry 15 omits H2SO4 (0 equiv) unlike entries 9-14, so it is not a like-for-like catalyst comparison.",
+    "Time (16 h) only from general footnote a, not stated explicitly for this entry."
+   ]
+  }
+ ],
+ "paper_concerns": [
+  "Carbon nitride loading discrepancy (10 mg vs 5.0 mg) for the NHPI run."
+ ]
+}

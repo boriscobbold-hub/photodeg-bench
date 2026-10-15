@@ -1,0 +1,35 @@
+{
+ "paper_key": "PMC11112751",
+ "paper_id": "10.1021/acsmacrolett.4c00117",
+ "doi": "10.1021/acsmacrolett.4c00117",
+ "pmcid": "PMC11112751",
+ "source_license": "cc by",
+ "extractor": "Claude (AI) extraction agent A, 2026-10-12",
+ "extraction_method": "text",
+ "screen": {
+  "decision": "exclude",
+  "criteria": "E5",
+  "confidence": "high",
+  "rationale": "Poly(DMODT-co-caprolactone) degraded with BTZ photocatalysts under 420 nm light (passes E1-E4), but the only quantitative endpoint is the normalized SEC early-elution peak area decrease (e.g. 53% and 31% over 10 h); no Mn/Mw/Mp before and after irradiation and no yield of an identified product (acetone only qualitative) are reported.",
+  "evidence_loc": "body ¶16"
+ },
+ "shared": {},
+ "records": [],
+ "excluded_observations": [
+  {
+   "what": "Normalized SEC peak-area decreases (31%, 53% at 10 h; final 38%/65% after 24 h)",
+   "why": "Peak-area metric, not a molar-mass average or product yield (out of v1.0 scope).",
+   "loc": "body ¶16"
+  },
+  {
+   "what": "SEC traces before/after 24 h",
+   "why": "Only in figures/SI (Figure 2a, Figure S14); no Mn/Mw values in text.",
+   "loc": "body ¶14"
+  },
+  {
+   "what": "DMODT monomer oxidation, 13.3% conversion",
+   "why": "Small-molecule monomer, not a polymer substrate.",
+   "loc": "body ¶8"
+  }
+ ]
+}

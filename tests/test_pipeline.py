@@ -90,11 +90,11 @@ class TestValidate(unittest.TestCase):
 
     def test_catches_errors(self):
         r = rows(FIX / "synthetic_records.csv")[0]
-        bad = dict(r, record_id="X", mn_before="-1", disp_after="0.9", checked_against_source="",
+        bad = dict(r, record_id="X", mn_before="-1", disp_after="0.9", source_verified="",
                    mass_unit_after="kg", wavelength_nm="1200", doi="doi:abc")
         errors, _ = validate.validate([bad], [])
         text = "\n".join(errors)
-        for needle in ("mn_before must be > 0", "disp_after", "checked_against_source", "mass_unit_after",
+        for needle in ("mn_before must be > 0", "disp_after", "source_verified", "mass_unit_after",
                        "wavelength_nm=1200", "bare DOI"):
             self.assertIn(needle, text)
 
@@ -112,12 +112,11 @@ class TestHarmonize(unittest.TestCase):
         self.by = {h["record_id"]: h for h in self.out}
 
     def test_refuses_unset_rules(self):
-        import yaml
-        real = yaml.safe_load((ROOT / "rules" / "harmonization.yaml").read_text())
-        if all(v.get("status") == "set" for v in real["rules"].values() if v.get("required")):
-            self.skipTest("curator has set the real rules")
+        import copy
+        r = copy.deepcopy(self.rules)
+        r["rules"]["R02_primary_average"]["status"] = "unset"
         with self.assertRaises(SystemExit):
-            harm.check_rules(real)
+            harm.check_rules(r)
 
     def test_license_gate(self):
         self.assertNotIn("SYN-004", self.by)
@@ -127,10 +126,12 @@ class TestHarmonize(unittest.TestCase):
         h = self.by["SYN-001"]
         self.assertAlmostEqual(h["retained_fraction"], 3.4 / 120)
         self.assertAlmostEqual(h["scissions_per_chain"], 120 / 3.4 - 1)
+        self.assertEqual(h["tier_product_yield"], "P1")
+        self.assertEqual(h["thermal_regime"], "near_ambient")
         self.assertEqual(h["primary_average"], "Mn")
         self.assertEqual(h["calibration_class"], "matched_conventional")
         self.assertEqual(h["wavelength_band"], "band_hi")
-        self.assertEqual(h["tier"], "T1")
+        self.assertEqual(h["tier_molar_mass"], "T1")
 
     def test_unit_and_time_conversion(self):
         h = self.by["SYN-003"]
@@ -138,7 +139,7 @@ class TestHarmonize(unittest.TestCase):
         self.assertAlmostEqual(h["time_h"], 1.5)
         self.assertEqual(h["calibration_class"], "mismatched_conventional")
         self.assertEqual(h["mass_basis"], "universal_conversion")
-        self.assertEqual(h["tier"], "T2")
+        self.assertEqual(h["tier_molar_mass"], "T2")
 
     def test_control_flag(self):
         self.assertEqual(self.by["SYN-002"]["is_control"], "y")

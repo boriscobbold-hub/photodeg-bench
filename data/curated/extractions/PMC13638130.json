@@ -1,0 +1,35 @@
+{
+ "paper_key": "PMC13638130",
+ "paper_id": "10.1002/anie.4234620",
+ "doi": "10.1002/anie.4234620",
+ "pmcid": "PMC13638130",
+ "source_license": "cc by-nc",
+ "extractor": "Claude (AI) extraction agent B, 2026-10-12",
+ "extraction_method": "full text read",
+ "screen": {
+  "decision": "exclude",
+  "criteria": "E6",
+  "confidence": "medium",
+  "rationale": "Primary study of photocatalytic ester C-O cleavage in designed polyarylate/PU/PET. All degradation conditions with text-accessible endpoints use 365 nm irradiation (UV-only, out of scope under E3); the only visible-light run (450 nm LED, Figure 3 footnote c) has its values only in the Figure 3 graphic, and Table 1 (reaction acceleration) is an image with no text values. No in-scope endpoint is accessible as text or table values.",
+  "evidence_loc": "FIGURE 3 caption"
+ },
+ "shared": {},
+ "records": [],
+ "excluded_observations": [
+  {
+   "what": "Polymer B' degradation products 3 (86%), 4 (80%), monomer 7 (83%); Polymer B'' oligomer 10 (Mn 3200)",
+   "why": "Optimized conditions use 365 nm irradiation (UV-only), outside E3.",
+   "loc": "Applications > Polyarylates with Varying Degradable Core Concentrations ¶1"
+  },
+  {
+   "what": "450 nm LED run in model-polymer screen",
+   "why": "Run identity and values only in Figure 3 graphic.",
+   "loc": "FIGURE 3 caption"
+  },
+  {
+   "what": "Table 1 reaction acceleration (2-12 h runs)",
+   "why": "Table body is an image; conditions 365 nm.",
+   "loc": "TABLE 1 footnote"
+  }
+ ]
+}

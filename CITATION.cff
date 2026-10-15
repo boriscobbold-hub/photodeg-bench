@@ -3,19 +3,19 @@ message: "If you use PhotoDeg-Bench, please cite it as below."
 type: dataset
 title: "PhotoDeg-Bench: an open, harmonized benchmark of visible-light polymer deconstruction conditions and outcomes"
 version: "1.0.0"
-date-released: "[VERIFY: YYYY-MM-DD of release]"
+date-released: "2026-10-14"
 authors:
-  - family-names: "[VERIFY: family name]"
-    given-names: "[VERIFY: given name]"
-    orcid: "https://orcid.org/[VERIFY: 0000-0000-0000-0000]"
+  - family-names: "Cobbold"
+    given-names: "Boris Ekonde"
 license: CC-BY-4.0
-repository-code: "[VERIFY: https://github.com/<user>/photodeg-bench]"
-doi: "[DOI: added after the Zenodo deposit]"
+repository-code: "https://github.com/boriscobbold-hub/photodeg-bench"
 abstract: >-
-  Curated, source-linked records of visible-light photochemical polymer deconstruction
+  Source-verified records of visible-light photochemical polymer deconstruction
   experiments from the open-access literature: polymer, molar mass before and after,
-  SEC calibration type, catalyst, wavelength, solvent, time and product slate, with
-  published harmonization rules and comparability tiers.
+  SEC calibration, catalyst, wavelength, solvent, time and product yields, with
+  harmonization rules and comparability tiers. Curated by an AI system under the
+  author's delegation, with deterministic source verification and independent
+  blind re-extraction.
 keywords:
   - polymer upcycling
   - photocatalysis
